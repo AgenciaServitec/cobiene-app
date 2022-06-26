@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { Drawer } from "./Drawer";
+import { Header } from "./Header";
+import { Footer } from "./Footer";
 
 export const BaseLayout = ({ children }) => {
   const [visibleDrawer, setVisibleDrawer] = useState(false);
@@ -11,13 +13,9 @@ export const BaseLayout = ({ children }) => {
         visibleDrawer={visibleDrawer}
         onSetVisibleDrawer={setVisibleDrawer}
       />
-      <div className="header">
-        <span>header</span>
-      </div>
+      <Header onSetVisibleDrawer={setVisibleDrawer} />
       <div className="body">{children}</div>
-      <div className="footer">
-        <span>Footer</span>
-      </div>
+      <Footer />
     </Container>
   );
 };
@@ -27,13 +25,8 @@ const Container = styled.div`
   min-height: 100vh;
   height: auto;
   position: relative;
-
-  .header,
-  .footer {
+  body {
     width: 100%;
     height: auto;
-    padding: 1rem;
-    background: black;
-    color: #fff;
   }
 `;

@@ -13,8 +13,8 @@ const global = css`
   }
 
   body {
-    background: #fff;
-    color: #444;
+    background: ${({ theme }) => theme.colors.white};
+    color: ${({ theme }) => theme.colors.font1};
     font-family: "MontserratRegular", serif;
     font-size: 16px;
     overflow-x: hidden;
@@ -26,16 +26,16 @@ const global = css`
   h4,
   h5,
   h6 {
-    color: #071218;
+    color: ${({ theme }) => theme.colors.font1};
   }
 
   h1 {
-    font-size: 5rem;
+    font-size: ${({ theme }) => theme.font_sizes.xxx_large};
     font-weight: bold;
   }
 
   h2 {
-    font-size: 2.2rem;
+    font-size: ${({ theme }) => theme.font_sizes.xx_large};
     font-weight: bold;
 
     ${mediaQuery.minTablet} {
@@ -44,22 +44,22 @@ const global = css`
   }
 
   h3 {
-    font-size: 1.5rem;
+    font-size: ${({ theme }) => theme.font_sizes.x_large};
     font-weight: bold;
   }
 
   h4 {
-    font-size: 1.2rem;
+    font-size: ${({ theme }) => theme.font_sizes.large};
     font-weight: bold;
   }
 
   h5 {
-    font-size: 1.1rem;
+    font-size: ${({ theme }) => theme.font_sizes.medium};
     font-weight: bold;
   }
 
   h5 {
-    font-size: 1rem;
+    font-size: ${({ theme }) => theme.font_sizes.small};
     font-weight: bold;
   }
 
@@ -88,11 +88,11 @@ const antd = {
         }
         .ant-modal-confirm-btns {
           .ant-btn {
-            background: ${({ theme }) => theme.colors.quinary};
+            background: ${({ theme }) => theme.colors.white};
             color: ${({ theme }) => theme.colors.font1};
             &:hover,
             &:focus {
-              border-color: ${({ theme }) => theme.colors.tertiary};
+              border-color: ${({ theme }) => theme.colors.secondary};
             }
           }
           .ant-btn-dangerous {
@@ -138,7 +138,7 @@ const antd = {
             }
             .ant-calendar-selected-day .ant-calendar-date {
               background: ${({ theme }) => theme.colors.secondary};
-              border: ${({ theme }) => `1px solid ${theme.colors.tertiary}`};
+              border: ${({ theme }) => `1px solid ${theme.colors.secondary}`};
             }
             .ant-calendar-today .ant-calendar-date {
               color: ${({ theme }) => theme.colors.font2};
@@ -232,7 +232,7 @@ const antd = {
     }
 
     .ant-select-dropdown {
-      background-color: ${({ theme }) => theme.colors.quaternary};
+      background-color: ${({ theme }) => theme.colors.secondary};
       border-radius: ${({ theme }) => theme.border_radius.xx_small};
 
       .ant-select-item {

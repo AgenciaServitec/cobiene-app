@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Home = () => {
   return (
@@ -10,6 +10,11 @@ export const Home = () => {
 };
 
 const Container = styled.div`
-  width: 100%;
-  height: auto;
+  ${({ theme }) => css`
+    width: 100%;
+    height: auto;
+    h1 {
+      color: ${theme.colors.white};
+    }
+  `}
 `;

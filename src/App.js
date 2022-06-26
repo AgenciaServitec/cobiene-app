@@ -5,8 +5,6 @@ import { theme } from "./styles";
 import { GlobalStyles } from "./styles/themes/GlobalStyle";
 import { yup } from "./config";
 import { setLocale } from "yup";
-import { common } from "./firebase";
-import { useEffect } from "react";
 
 export const App = () => {
   setLocale(yup["es"]);

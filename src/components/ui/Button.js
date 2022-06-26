@@ -6,11 +6,11 @@ import styled, { css } from "styled-components";
 const buttonsTypes = {
   primary: {
     background: ({ theme }) => theme.colors.primary,
-    color: ({ theme }) => theme.colors.dark,
+    color: ({ theme }) => theme.colors.font1,
     borderColor: "transparent",
   },
   secondary: {
-    background: ({ theme }) => theme.colors.quinary,
+    background: ({ theme }) => theme.colors.secondary,
     color: ({ theme }) => theme.colors.font1,
     borderColor: "transparent",
   },
@@ -23,13 +23,13 @@ const buttonsTypes = {
 
 export const Button = ({
   icon,
-  type = "secondary",
+  type = "primary",
   htmlType = "text",
   width = "auto",
   height = "auto",
   wordBreak = "keep-all",
   borderRadius = "0.3em",
-  margin = "1em auto",
+  margin = ".7em auto",
   padding = ".8em 2em",
   fontSize = "1rem",
   fontWeight = "600",

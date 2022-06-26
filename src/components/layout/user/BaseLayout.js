@@ -25,8 +25,11 @@ const Container = styled.div`
   min-height: 100vh;
   height: auto;
   position: relative;
-  body {
+  background: radial-gradient(#11581e, #041607),
+    url("https://media.giphy.com/media/oEI9uBYSzLpBK/giphy.gif");
+  .body {
     width: 100%;
     height: auto;
+    padding: 1rem;
   }
 `;

@@ -26,7 +26,7 @@ const Container = styled.div`
   width: 100%;
   height: auto;
   display: grid;
-  grid-template-columns: 10% 1fr 10%;
+  grid-template-columns: 15% 1fr 15%;
   background: ${({ theme }) => theme.colors.primary};
   color: ${({ theme }) => theme.colors.white};
   .content-left {
@@ -41,7 +41,7 @@ const Container = styled.div`
     justify-content: center;
     padding: 0.5rem;
     img {
-      width: 2.8rem;
+      width: 2.6rem;
       height: auto;
       object-fit: contain;
     }

@@ -2,16 +2,20 @@ import React from "react";
 import styled, { css } from "styled-components";
 import { Button } from "../../components";
 import { CobieneLogo } from "../../images";
+import { useNavigate } from "react-router";
 
 export const Home = () => {
+  const navigate = useNavigate();
+
   return (
     <Container>
       <div className="content-logo">
         <img src={CobieneLogo} alt="Cobiene logo" />
         <h1>COBIENE EP</h1>
       </div>
-
-      <Button width="100%">APOYO EDUCATIVO</Button>
+      <Button width="100%" onClick={() => navigate("/education")}>
+        APOYO EDUCATIVO
+      </Button>
       <Button width="100%">APOYO EDUCATIVO</Button>
       <Button width="100%">CONVENIOS</Button>
       <Button width="100%">FONDO DE SEPELIO</Button>

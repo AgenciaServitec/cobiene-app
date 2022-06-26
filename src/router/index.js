@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import { BaseLayout } from "../components";
-import { Home, Page404 } from "../pages";
+import { Home, Education, Page404 } from "../pages";
 
 export const Router = () => {
   return (
@@ -11,6 +11,15 @@ export const Router = () => {
         element={
           <BaseLayout>
             <Home />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/education"
+        element={
+          <BaseLayout>
+            <Education />
           </BaseLayout>
         }
       />

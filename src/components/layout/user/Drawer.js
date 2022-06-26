@@ -2,6 +2,7 @@ import React from "react";
 import DrawerAntd from "antd/lib/drawer";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { MenuList } from "../../ui/MenuList";
 
 export const Drawer = ({ visibleDrawer, onSetVisibleDrawer }) => {
   return (
@@ -12,39 +13,32 @@ export const Drawer = ({ visibleDrawer, onSetVisibleDrawer }) => {
       visible={visibleDrawer}
     >
       <MenuItem onClick={() => onSetVisibleDrawer(false)}>
-        <Link to="/">Inicio</Link>
-      </MenuItem>
-      <MenuItem onClick={() => onSetVisibleDrawer(false)}>
-        <a href="..#about-us">Nosotros</a>
-      </MenuItem>
-      <MenuItem onClick={() => onSetVisibleDrawer(false)}>
-        <a href="..#services">Servicios</a>
-      </MenuItem>
-      <MenuItem onClick={() => onSetVisibleDrawer(false)}>
-        <a href="..#contact">Contácto</a>
+        <Link to="/">
+          <MenuList />
+        </Link>
       </MenuItem>
     </ComponentDrawerAntd>
   );
 };
 
 const ComponentDrawerAntd = styled(DrawerAntd)`
-  color: #fff;
+  color: #000;
 
   .ant-drawer-header {
     .ant-drawer-close {
-      color: #fff;
+      color: #000;
     }
   }
   .ant-drawer-header,
   .ant-drawer-content {
-    background: #1b1b1b;
+    width: 80%;
+    background: #f2f2f2;
   }
 `;
 
 const MenuItem = styled.div`
-  margin: 0 0 1.2rem 1rem;
   a {
-    color: #fff;
-    font-size: 1.7rem;
+    color: #000;
+    font-size: 1.5rem;
   }
 `;

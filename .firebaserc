@@ -1,6 +1,6 @@
 {
   "projects": {
-    "default": "gamont-llantas-352706",
-    "dev": "gamont-llantas-dev"
+    "default": "cobiene-app",
+    "dev": "cobiene-app-dev"
   }
 }

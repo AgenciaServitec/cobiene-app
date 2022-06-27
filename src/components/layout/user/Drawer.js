@@ -2,7 +2,7 @@ import React from "react";
 import DrawerAntd from "antd/lib/drawer";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { MenuItem } from "../../ui/MenuItem";
+import { MenuItem } from "./MenuItem";
 
 export const Drawer = ({ visibleDrawer, onSetVisibleDrawer }) => {
   return (

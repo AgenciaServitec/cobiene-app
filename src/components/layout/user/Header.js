@@ -3,19 +3,22 @@ import styled from "styled-components";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { CobieneLogo } from "../../../images";
+import { useNavigate } from "react-router";
 
 export const Header = ({ onSetVisibleDrawer }) => {
+  const navigate = useNavigate();
+
   return (
     <Container>
-      <div className="content-left">
-        <FontAwesomeIcon
-          icon={faBars}
-          size="2x"
-          onClick={() => onSetVisibleDrawer(true)}
-        />
+      <div className="content-left" onClick={() => onSetVisibleDrawer(true)}>
+        <FontAwesomeIcon icon={faBars} size="2x" />
       </div>
       <div className="content-center">
-        <img src={CobieneLogo} alt="Cobiene logo" />
+        <img
+          src={CobieneLogo}
+          alt="Cobiene logo"
+          onClick={() => navigate("/")}
+        />
       </div>
       <div className="content-right" />
     </Container>

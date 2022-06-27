@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { faBars, faPhone, faRetweet } from "@fortawesome/free-solid-svg-icons";
+import { faRetweet } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
@@ -28,10 +28,10 @@ export const Footer = () => {
         </ul>
         <p className="copyright-text">COPYRIGHT 2022. ALL RIGHTS RESERVED.</p>
         <p>
-          <a>SERVITEC PERÚ</a>
+          <span>SERVITEC PERÚ</span>
         </p>
         <p>
-          <a className="politicas">POLÍTICAS Y PRIVACIDAD</a>
+          <span className="politicas">POLÍTICAS Y PRIVACIDAD</span>
         </p>
       </div>
     </Container>

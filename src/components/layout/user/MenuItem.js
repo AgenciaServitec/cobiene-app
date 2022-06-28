@@ -1,27 +1,32 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
-export const MenuItem = ({ onClick, text }) => {
+export const MenuItem = ({ onClick, text, icon, linkTo }) => {
   return (
     <Container onClick={() => onClick()}>
-      <div className="box-icon">
-        <FontAwesomeIcon className="item-icon" icon={faBars} />
-      </div>
-      <div className="box-text">
-        <h3>{text}</h3>
-      </div>
+      <Link to={linkTo} className="section-link">
+        <div className="box-icon">
+          <FontAwesomeIcon className="item-icon" icon={icon} />
+        </div>
+        <div className="box-text">
+          <h3>{text}</h3>
+        </div>
+      </Link>
     </Container>
   );
 };
 
 const Container = styled.div`
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 1rem;
+  .section-link {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
   .box-icon {
     width: 2.5rem;
     height: 2.5rem;

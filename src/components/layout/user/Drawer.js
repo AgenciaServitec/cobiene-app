@@ -1,9 +1,18 @@
 import React from "react";
 import DrawerAntd from "antd/lib/drawer";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 import { MenuItem } from "./MenuItem";
-
+import {
+  faBars,
+  faChurch,
+  faFolderOpen,
+  faGraduationCap,
+  faHome,
+  faShoppingCart,
+  faThLarge,
+  faUsers,
+} from "@fortawesome/free-solid-svg-icons";
+import { faCircle, faUser } from "@fortawesome/free-regular-svg-icons";
 export const Drawer = ({ visibleDrawer, onSetVisibleDrawer }) => {
   return (
     <ComponentDrawerAntd
@@ -12,15 +21,60 @@ export const Drawer = ({ visibleDrawer, onSetVisibleDrawer }) => {
       onClose={() => onSetVisibleDrawer(false)}
       visible={visibleDrawer}
     >
-      <Link to="/">
-        <MenuItem text="Home" onClick={() => onSetVisibleDrawer(false)} />
-      </Link>
-      <Link to="/">
-        <MenuItem text="Home" onClick={() => onSetVisibleDrawer(false)} />
-      </Link>
-      <Link to="/">
-        <MenuItem text="Home" onClick={() => onSetVisibleDrawer(false)} />
-      </Link>
+      <MenuItem
+        text="Inicio"
+        onClick={() => onSetVisibleDrawer(false)}
+        icon={faBars}
+        linkTo="/"
+      />
+      <MenuItem
+        text="Nosotros"
+        onClick={() => onSetVisibleDrawer(false)}
+        icon={faThLarge}
+        linkTo="/"
+      />
+      <MenuItem
+        text="Educación"
+        onClick={() => onSetVisibleDrawer(false)}
+        icon={faGraduationCap}
+        linkTo="/education"
+      />
+      <MenuItem
+        text="Servicio Social"
+        onClick={() => onSetVisibleDrawer(false)}
+        icon={faUsers}
+        linkTo="/"
+      />
+      <MenuItem
+        text="Servicio de sepelio"
+        onClick={() => onSetVisibleDrawer(false)}
+        icon={faChurch}
+        linkTo="/"
+      />
+      <MenuItem
+        text="Bazar del Ejercito"
+        onClick={() => onSetVisibleDrawer(false)}
+        icon={faShoppingCart}
+        linkTo="/"
+      />
+      <MenuItem
+        text="Casa de servico"
+        onClick={() => onSetVisibleDrawer(false)}
+        icon={faHome}
+        linkTo="/"
+      />
+      <MenuItem
+        text="Circulo Militar"
+        onClick={() => onSetVisibleDrawer(false)}
+        icon={faCircle}
+        linkTo="/"
+      />
+      <MenuItem
+        text="Solicitudes"
+        onClick={() => onSetVisibleDrawer(false)}
+        icon={faFolderOpen}
+        linkTo="/"
+      />
     </ComponentDrawerAntd>
   );
 };

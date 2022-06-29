@@ -1,7 +1,7 @@
 import React from "react";
 import { Convenios } from "../../images";
 import { Button, Text, Title } from "../../components";
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 import { useNavigate } from "react-router";
 
 export const Conventions = () => {
@@ -24,14 +24,17 @@ export const Conventions = () => {
       </div>
       <Button
         width="100%"
-        onClick={() => navigate("/conentions/universidades")}
+        onClick={() => navigate("/conventions/universities")}
       >
         UNIVERSIDADES
       </Button>
-      <Button width="100%" onClick={() => navigate("/conentions/institutos")}>
+      <Button width="100%" onClick={() => navigate("/conventions/institutes")}>
         INSTITUTOS
       </Button>
-      <Button width="100%" onClick={() => navigate("/conentions/academiaspre")}>
+      <Button
+        width="100%"
+        onClick={() => navigate("/conventions/pre-academies")}
+      >
         ACADEMIAS PRE
       </Button>
 

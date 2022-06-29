@@ -12,7 +12,8 @@ import {
   faThLarge,
   faUsers,
 } from "@fortawesome/free-solid-svg-icons";
-import { faCircle, faUser } from "@fortawesome/free-regular-svg-icons";
+import { faCircle } from "@fortawesome/free-regular-svg-icons";
+
 export const Drawer = ({ visibleDrawer, onSetVisibleDrawer }) => {
   return (
     <ComponentDrawerAntd
@@ -49,7 +50,7 @@ export const Drawer = ({ visibleDrawer, onSetVisibleDrawer }) => {
         text="Servicio de sepelio"
         onClick={() => onSetVisibleDrawer(false)}
         icon={faChurch}
-        linkTo="/"
+        linkTo="/funeral-fund"
       />
       <MenuItem
         text="Bazar del Ejercito"
@@ -61,7 +62,7 @@ export const Drawer = ({ visibleDrawer, onSetVisibleDrawer }) => {
         text="Casa de servico"
         onClick={() => onSetVisibleDrawer(false)}
         icon={faHome}
-        linkTo="/"
+        linkTo="/service-house"
       />
       <MenuItem
         text="Circulo Militar"

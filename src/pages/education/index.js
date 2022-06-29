@@ -8,6 +8,7 @@ export const Education = () => {
     <Container>
       <div className="content-logo">
         <img src={ApoyoEducativo} alt="Apoyo educativo" />
+        <h2>Apoyo Educativo</h2>
         <p>
           El COBIENE cuenta con 23 instituciones educativas a nivel nacional en
           donde se imparte una educación de calidad con mejora continua,
@@ -36,6 +37,9 @@ const Container = styled.div`
         height: auto;
         object-fit: contain;
         margin-bottom: 1rem;
+      }
+      h2 {
+        text-shadow: ${theme.text_shadow.shadow_green};
       }
       p {
         color: ${theme.colors.white};

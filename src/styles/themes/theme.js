@@ -59,4 +59,7 @@ export const theme = {
     rgba: "rgb(43, 49, 57)",
     gray: "rgb(121, 131, 140)",
   },
+  text_shadow: {
+    shadow_green: "0 0 1ex rgb(51 255 51), 0 0 2px rgb(255 255 255 / 80%)",
+  },
 };

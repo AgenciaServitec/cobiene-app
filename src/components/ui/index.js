@@ -22,3 +22,5 @@ export * from "./TimePicker";
 export * from "./FormContact";
 export * from "./ButtonPrimary";
 export * from "./ButtonsFloating";
+export * from "./SocialLink";
+export * from "./NavigateGoToLink";

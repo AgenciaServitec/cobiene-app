@@ -18,8 +18,12 @@ export const Home = () => {
       </Button>
       <Button width="100%">SERVICIO SOCIAL</Button>
       <Button width="100%">CONVENIOS</Button>
-      <Button width="100%">FONDO DE SEPELIO</Button>
-      <Button width="100%">CASA DE SERVICIO</Button>
+      <Button width="100%" onClick={() => navigate("/funeral-fund")}>
+        FONDO DE SEPELIO
+      </Button>
+      <Button width="100%" onClick={() => navigate("/service-house")}>
+        CASA DE SERVICIO
+      </Button>
     </Container>
   );
 };

@@ -1,18 +1,112 @@
-import React from "react";
+import React, { useState } from "react";
 import { Barracks, Servitec } from "../../images";
-import { Button } from "../../components";
+import { Button, Title } from "../../components";
+import styled from "styled-components";
 
 export const AboutAs = () => {
+  const [buttonHidden, setButtonHidden] = useState(false);
+  const [buttonHidden1, setButtonHidden1] = useState(false);
+  const [buttonHidden2, setButtonHidden2] = useState(true);
+
   return (
-    <cotainer>
-      <div className="content-log">
+    <Container>
+      <div className="content-initial">
         <img src={Barracks} alt="base" />
-        <h2>NOSOTROS</h2>
+        <div className="wrapper-texts">
+          <Title>NOSOTROS</Title>
+        </div>
       </div>
-      <Button width="100%">PRESENTACIÓN</Button>
-      <Button width="100%">MISIÓN Y VISIÓN</Button>
-      <Button width="100%">INFORMACION Y SOPORTE</Button>
-      <img src={Servitec} alt="servitec" />
-    </cotainer>
+      <Button width="100%" onClick={() => setButtonHidden(!buttonHidden)}>
+        PRESENTACIÓN
+      </Button>
+      {buttonHidden && (
+        <div className="content">
+          <p>
+            -Les doy la más cordial bienvenida al aplicativo móvil del COBIENE,
+            cuyo principal objetivo es dar a conocer al personal de la
+            Institución y sus familias, los servicios y convenios que se
+            encuentran disponibles para ustedes.
+            <br />
+            <br />
+            -Cabe resaltar que, el bienestar de nuestro personal y sus
+            respectivas familias es una prioridad del COBIENE, por eso se ha
+            constituido como uno de sus pilares , esperamos que sea de su total
+            agrado y por sobre todas las cosas, valoramos su opinión, la que nos
+            servirá para ir mejorando permanentemente.
+          </p>
+        </div>
+      )}
+
+      <Button width="100%" onClick={() => setButtonHidden1(!buttonHidden1)}>
+        MISIÓN Y VISIÓN
+      </Button>
+      {buttonHidden1 && (
+        <div className="content">
+          <h3>Misión</h3>
+          <p>
+            -Promover y desarrollar actividades que aseguren el bienestar del
+            personal de la institución y de sus familiares directos, con la
+            finalidad de contribuir a elevar su moral y rendimiento.
+            <h3>Visión</h3>
+            -C Ser una organización eficiente, reconocida, valorada y
+            transparente, comprometida con la calidad de servicio, que brinde el
+            mayor bienestar posible al personal COBIENE, civil y familiares
+            directos de la institución.
+            <h3>Lema</h3>
+            -TODO LO QUE HACEMOS, LO HACEMOS BIEN.
+          </p>
+        </div>
+      )}
+      <Button width="100%" onClick={() => setButtonHidden2(!buttonHidden2)}>
+        INFORMACION Y SOPORTE
+      </Button>
+      {buttonHidden2 && (
+        <div className="content">
+          <div className="servitec">
+            <img className="img-servitec" src={Servitec} alt="servitec" />
+          </div>
+          <h3>DETEL MY E. PEREZ</h3>
+          <h4>ANALISTAS y PROGRAMADORES</h4>
+          <h5>ROBERTO MENDOZA</h5>
+          <h5>EMERSON ESTRADA</h5>
+          <h5>ANGEL GAMONAL</h5>
+          <h5>EDUARDO SALAZAR</h5>
+        </div>
+      )}
+    </Container>
   );
 };
+
+const Container = styled.div`
+  h5 {
+    text-align: center;
+    justify-content: center;
+  }
+  h4 {
+    text-align: center;
+  }
+  h3 {
+    text-align: center;
+    padding: 0.5rem 0;
+  }
+  .content-initial {
+    margin: 1rem 0;
+
+    img {
+      width: 100%;
+      object-fit: contain;
+      border-radius: 2rem;
+    }
+    .wrapper-texts {
+      margin: 1rem 0;
+    }
+  }
+  .servitec {
+    text-align: center;
+    padding: 1rem 0;
+    .img-servitec {
+      width: 80%;
+      object-fit: contain;
+    }
+  }
+`;

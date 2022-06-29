@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import { BaseLayout } from "../components";
 import {
+  AboutAs,
   ApoyoDiscapacitado,
   ApoyoEconomico,
   Conventions,
@@ -127,7 +128,15 @@ export const Router = () => {
           </BaseLayout>
         }
       />
-
+      <Route
+        exact
+        path="/about-as"
+        element={
+          <BaseLayout>
+            <AboutAs />
+          </BaseLayout>
+        }
+      />
       <Route path="*" element={<Page404 />} />
     </Routes>
   );

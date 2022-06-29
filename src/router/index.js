@@ -14,6 +14,7 @@ import {
   ServiceHouse,
   ServiceSocial,
   Universities,
+  Bazar,
 } from "../pages";
 
 export const Router = () => {
@@ -124,6 +125,15 @@ export const Router = () => {
         element={
           <BaseLayout>
             <AboutAs />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/bazar"
+        element={
+          <BaseLayout>
+            <Bazar />
           </BaseLayout>
         }
       />

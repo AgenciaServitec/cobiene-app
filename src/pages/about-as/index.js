@@ -79,6 +79,7 @@ export const AboutAs = () => {
 
 const Container = styled.div`
   h5 {
+    padding: 0.5rem 0;
     text-align: center;
     justify-content: center;
   }

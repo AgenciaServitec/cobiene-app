@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Text = ({ children, align = "center" }) => {
   return <TextContainer align={align}>{children}</TextContainer>;

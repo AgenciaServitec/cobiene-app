@@ -17,7 +17,9 @@ export const Home = () => {
         APOYO EDUCATIVO
       </Button>
       <Button width="100%">SERVICIO SOCIAL</Button>
-      <Button width="100%">CONVENIOS</Button>
+      <Button width="100%" onClick={() => navigate("/conventions")}>
+        CONVENIOS
+      </Button>
       <Button width="100%">FONDO DE SEPELIO</Button>
       <Button width="100%">CASA DE SERVICIO</Button>
     </Container>

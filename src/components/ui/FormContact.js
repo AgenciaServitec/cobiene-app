@@ -72,7 +72,7 @@ export const FormContact = ({
   };
 
   const fetchSendEmail = async (contact) =>
-    await fetch(`${currentConfig.apiUrl}/gamont-llantas/contact`, {
+    await fetch(`${currentConfig.apiUrl}/-/contact`, {
       method: "POST",
       headers: {
         "Access-Control-Allow-Origin": null,

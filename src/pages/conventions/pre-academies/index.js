@@ -1,9 +1,6 @@
 import React from "react";
-import { Button } from "../../../components";
-import { useNavigate } from "react-router";
 
-export const AcademiasPre = () => {
-  const navigate = useNavigate();
+export const PreAcademies = () => {
   return (
     <conteiner>
       <div className="content-logo">

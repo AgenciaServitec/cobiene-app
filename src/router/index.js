@@ -1,6 +1,15 @@
 import { Route, Routes } from "react-router-dom";
 import { BaseLayout } from "../components";
-import { Home, Education, Page404, ServiceHouse, FuneralFund } from "../pages";
+import {
+  Home,
+  Education,
+  Conventions,
+  Page404,
+  Universidades,
+  Institutos,
+  AcademiasPre,
+    ServiceHouse, FuneralFund
+} from "../pages";
 
 export const Router = () => {
   return (
@@ -20,6 +29,42 @@ export const Router = () => {
         element={
           <BaseLayout>
             <Education />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions"
+        element={
+          <BaseLayout>
+            <Conventions />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conentions/universidades"
+        element={
+          <BaseLayout>
+            <Universidades />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conentions/institutos"
+        element={
+          <BaseLayout>
+            <Institutos />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conentions/academiaspre"
+        element={
+          <BaseLayout>
+            <AcademiasPre />
           </BaseLayout>
         }
       />

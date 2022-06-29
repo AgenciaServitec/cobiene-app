@@ -16,7 +16,9 @@ export const Home = () => {
       <Button width="100%" onClick={() => navigate("/education")}>
         APOYO EDUCATIVO
       </Button>
-      <Button width="100%">SERVICIO SOCIAL</Button>
+      <Button width="100%" onClick={() => navigate("/social-service")}>
+        SERVICIO SOCIAL
+      </Button>
       <Button width="100%" onClick={() => navigate("/conventions")}>
         CONVENIOS
       </Button>

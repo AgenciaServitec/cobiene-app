@@ -8,3 +8,6 @@ export * from "./conventions/institutos";
 export * from "./conventions/academiaspre";
 export * from "./service-house";
 export * from "./funeral-fund";
+export * from "./social-service";
+export * from "./social-service/apoyo-economico";
+export * from "./social-service/apoyo-discapacitado";

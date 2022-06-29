@@ -8,7 +8,11 @@ import {
   Universidades,
   Institutos,
   AcademiasPre,
-    ServiceHouse, FuneralFund
+  ServiceHouse,
+  FuneralFund,
+  ServiceSocial,
+  ApoyoEconomico,
+  ApoyoDiscapacitado,
 } from "../pages";
 
 export const Router = () => {
@@ -83,6 +87,33 @@ export const Router = () => {
         element={
           <BaseLayout>
             <FuneralFund />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/social-service"
+        element={
+          <BaseLayout>
+            <ServiceSocial />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/social-service/apoyo-economico"
+        element={
+          <BaseLayout>
+            <ApoyoEconomico />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/social-service/apoyo-discapacitado"
+        element={
+          <BaseLayout>
+            <ApoyoDiscapacitado />
           </BaseLayout>
         }
       />

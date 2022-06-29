@@ -53,6 +53,7 @@ const Container = styled.div`
 
       h2 {
         text-align: center;
+        text-shadow: 0 0 1ex rgb(51 255 51), 0 0 2px rgb(255 255 255 / 80%);
       }
       img {
         width: 8em;

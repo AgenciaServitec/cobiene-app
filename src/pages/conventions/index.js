@@ -1,6 +1,6 @@
 import React from "react";
 import { Convenios } from "../../images";
-import { Button } from "../../components";
+import { Button, Text, Title } from "../../components";
 import styled, { css } from "styled-components";
 import { useNavigate } from "react-router";
 
@@ -9,17 +9,18 @@ export const Conventions = () => {
 
   return (
     <Container>
-      <div className="content-logo">
+      <div className="content-initial">
         <img src={Convenios} alt="Apoyo educativo" />
-        <h2>Convenios Vigentes con Entidades Educativas y Empresas Privadas</h2>
-        <p>
-          <br />
+        <Title>
+          Convenios Vigentes con Entidades Educativas y Empresas Privadas
+        </Title>
+        <Text>
           Convenios Educativos Suscritos por el, Comando de Bienestar del
           COBIENE con Universidades, Institutos Tecnicos superiores y Pre
           Universitarios, asi como con empresas privadas con Dsctos y tarifas
           preferenciales que benefician al personal COBIENE y civil en
           actividad, retiro, discapacitados y familiares.
-        </p>
+        </Text>
       </div>
       <Button
         width="100%"
@@ -41,31 +42,20 @@ export const Conventions = () => {
 };
 
 const Container = styled.div`
-  ${({ theme }) => css`
-    width: 100%;
-    height: auto;
-    .content-logo {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      margin: 1rem auto;
+  width: 100%;
+  height: auto;
+  .content-initial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem auto;
 
-      h2 {
-        text-align: center;
-        text-shadow: 0 0 1ex rgb(51 255 51), 0 0 2px rgb(255 255 255 / 80%);
-      }
-      img {
-        width: 8em;
-        height: auto;
-        object-fit: contain;
-        margin-bottom: 1rem;
-      }
-      p {
-        color: ${theme.colors.white};
-        text-align: justify;
-        font-size: 19px;
-      }
+    img {
+      width: 8em;
+      height: auto;
+      object-fit: contain;
+      margin-bottom: 1rem;
     }
-  `}
+  }
 `;

@@ -24,3 +24,5 @@ export * from "./ButtonPrimary";
 export * from "./ButtonsFloating";
 export * from "./SocialLink";
 export * from "./NavigateGoToLink";
+export * from "./Title";
+export * from "./Text";

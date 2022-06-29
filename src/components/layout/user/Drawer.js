@@ -32,7 +32,7 @@ export const Drawer = ({ visibleDrawer, onSetVisibleDrawer }) => {
         text="Nosotros"
         onClick={() => onSetVisibleDrawer(false)}
         icon={faThLarge}
-        linkTo="/"
+        linkTo="/about-as"
       />
       <MenuItem
         text="Educación"

@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { Button, NavigateGoToLink } from "../../components";
 import styled, { css } from "styled-components";
 import { CasaServicio, ImgMapa } from "../../images";
 
 export const ServiceHouse = () => {
+  const [buttonHidden, setButtonHidden] = useState(false);
+
   return (
     <Container>
       <div className="content-logo">
@@ -17,26 +19,34 @@ export const ServiceHouse = () => {
         </p>
         <img src={ImgMapa} alt="Mapa" className="img-mapa" />
       </div>
-      <Button width="100%" onClick={() => console.log("holaa")}>
+      <Button width="100%" onClick={() => setButtonHidden(!buttonHidden)}>
         Requisitos para ser usuarios
       </Button>
-      <div className="content">
-        <p>
-          - Deberá encontrar en situación COBIENE de actividad con no mas de 25
-          años de único como oficial de 28 años para el caso de los teóricos. -
-          Deberá ser casado (a) mantener una relación conyugal estable y vivir
-          con su cónyuge e hijos en la guarnición donde solicita vivienda. - El
-          titular, esposa y familiares directos deberán estar debidamente
-          inscritos en el registro de Familia del COBIENE. - Deberá tener como
-          mínimo cuatro (04) años de servicio cumplido como oficial, en el grado
-          mínimo de teniente y SO2 para el caso de los SSOO. - Deberá prestar
-          servicio en la guarnición donde solicita vivienda. - No debe habar
-          ocupado casa de servicio en los tres (3) últimos años en la guarnición
-          donde se solicita. - No haber sido favorecido con un programa
-          (vivienda/préstamo) del ORES-FOVINE. -Acreditara haber devuelto la
-          casa de servicio que haya ocupado en la Guarnición de procedencia.
-        </p>
-      </div>
+      {buttonHidden && (
+        <div className="content">
+          <p>
+            - Deberá encontrar en situación COBIENE de actividad con no mas de
+            25 años de único como oficial de 28 años para el caso de los
+            teóricos.
+            <br />- Deberá ser casado (a) mantener una relación conyugal estable
+            y vivir con su cónyuge e hijos en la guarnición donde solicita
+            vivienda. - <br />
+            El titular, esposa y familiares directos deberán estar debidamente
+            inscritos en el registro de Familia del COBIENE.
+            <br />
+            - Deberá tener como mínimo cuatro (04) años de servicio cumplido
+            como oficial, en el grado mínimo de teniente y SO2 para el caso de
+            los SSOO.
+            <br /> - Deberá prestar servicio en la guarnición donde solicita
+            vivienda.
+            <br /> - No debe habar ocupado casa de servicio en los tres (3)
+            últimos años en la guarnición donde se solicita. <br /> - No haber
+            sido favorecido con un programa (vivienda/préstamo) del ORES-FOVINE.
+            <br /> -Acreditara haber devuelto la casa de servicio que haya
+            ocupado en la Guarnición de procedencia.
+          </p>
+        </div>
+      )}
 
       <Button
         width="100%"

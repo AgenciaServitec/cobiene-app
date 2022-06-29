@@ -5,6 +5,8 @@ export { default as CasaServicio } from "./others/casa-servicio.webp";
 export { default as FondoSepelio } from "./others/fondo-sepelio.webp";
 export { default as ImgMapa } from "./others/mapa.webp";
 export { default as Service } from "./others/asistencia.webp";
+export { default as Barracks } from "./others/barracks.webp";
+export { default as Servitec } from "./others/servitec.webp";
 
 //--------Institutes from Lima and Province------
 export { default as Inst1 } from "./others/inst1.webp";

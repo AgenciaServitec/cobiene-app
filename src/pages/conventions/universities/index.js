@@ -16,7 +16,6 @@ export const Universities = () => (
     <Collapse
       accordion
       bordered={false}
-      defaultActiveKey={["1"]}
       expandIcon={null}
       className="site-collapse-custom-collapse"
     >

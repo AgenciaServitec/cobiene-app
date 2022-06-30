@@ -2,89 +2,64 @@ import React from "react";
 import styled, { css } from "styled-components";
 import Collapse from "antd/lib/collapse";
 import { Button } from "../../../components";
+import { conventions } from "../../../data-list";
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const { Panel } = Collapse;
 
-export const Universities = () => {
-  const text = `
-  A dog is a type of domesticated animal.
-  Known for its loyalty and faithfulness,
-  it can be found as a welcome guest in many households across the world.
-`;
-
-  return (
-    <Container>
-      <div className="content-logo">
-        <h2>Universidades</h2>
-      </div>
-      <Collapse
-        accordion
-        bordered={false}
-        defaultActiveKey={["1"]}
-        expandIcon={null}
-        className="site-collapse-custom-collapse"
-      >
+export const Universities = () => (
+  <Container>
+    <div className="content-logo">
+      <h2>Universidades</h2>
+    </div>
+    <Collapse
+      accordion
+      bordered={false}
+      defaultActiveKey={["1"]}
+      expandIcon={null}
+      className="site-collapse-custom-collapse"
+    >
+      {conventions.map((convention, index) => (
         <Panel
+          key={index}
           header={
             <Button width="100%" margin="0">
               <div className="content-button">
                 <div className="item-icon">
-                  <img
-                    src="https://webapp.cobiene.mil.pe/imagenes/Universidades/logo1.png"
-                    alt="Convenios cobiene"
-                  />
+                  <img src={convention.image} alt={convention.title} />
                 </div>
-                <div className="item-text">AGRARIA LA MOLINA</div>
+                <div className="item-text">
+                  <h5>{convention.title}</h5>
+                </div>
               </div>
             </Button>
           }
-          key="1"
           className="site-collapse-custom-panel"
         >
-          <p>{text}</p>
+          <div className="content-description">
+            <div>
+              <h4>BENEFICIOS:</h4>
+            </div>
+            <div>
+              <ul className="list-benefits">
+                {convention.benefits.map((benefit, index) => (
+                  <li key={index}>{benefit}</li>
+                ))}
+              </ul>
+            </div>
+            <div className="item-link">
+              <a href={convention.urlFile} rel="noreferrer">
+                <FontAwesomeIcon icon={faDownload} size="2x" />
+                Descargar Ficha de Solicitud
+              </a>
+            </div>
+          </div>
         </Panel>
-        <Panel
-          header={
-            <Button width="100%" margin="0">
-              <div className="content-button">
-                <div className="item-icon">
-                  <img
-                    src="https://webapp.cobiene.mil.pe/imagenes/Universidades/logo1.png"
-                    alt="Convenios cobiene"
-                  />
-                </div>
-                <div className="item-text">AGRARIA LA MOLINA</div>
-              </div>
-            </Button>
-          }
-          key="2"
-          className="site-collapse-custom-panel"
-        >
-          <p>{text}</p>
-        </Panel>
-        <Panel
-          header={
-            <Button width="100%" margin="0">
-              <div className="content-button">
-                <div className="item-icon">
-                  <img
-                    src="https://webapp.cobiene.mil.pe/imagenes/Universidades/logo1.png"
-                    alt="Convenios cobiene"
-                  />
-                </div>
-                <div className="item-text">AGRARIA LA MOLINA</div>
-              </div>
-            </Button>
-          }
-          key="3"
-          className="site-collapse-custom-panel"
-        >
-          <p>{text}</p>
-        </Panel>
-      </Collapse>
-    </Container>
-  );
-};
+      ))}
+    </Collapse>
+  </Container>
+);
 
 const Container = styled.div`
   ${() => css`
@@ -113,7 +88,8 @@ const Container = styled.div`
           align-items: center;
           justify-content: center;
           img {
-            width: 70%;
+            width: 4rem;
+            height: 4rem;
             object-fit: contain;
           }
         }
@@ -122,6 +98,38 @@ const Container = styled.div`
           align-items: center;
           justify-content: start;
           font-size: 100%;
+          h5 {
+            text-align: left;
+            width: 95%;
+            max-width: 100%;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            margin: 0;
+          }
+        }
+      }
+      .content-description {
+        div {
+          .list-benefits {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font-size: 0.77rem;
+            li {
+              margin-bottom: 0.5rem;
+            }
+          }
+        }
+        .item-link {
+          color: dodgerblue;
+          text-decoration: underline;
+          text-transform: uppercase;
+          text-align: center;
+          margin: 1.5rem 0;
+          font-size: 1em;
+          svg {
+            margin-right: 1rem;
+          }
         }
       }
     }

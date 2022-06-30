@@ -370,6 +370,44 @@ const antd = {
       margin-top: 0.7rem;
     }
   `,
+  collapse: css`
+    .ant-collapse {
+      background: transparent;
+    }
+
+    .ant-collapse > .ant-collapse-item > .ant-collapse-header {
+      padding: 0;
+      display: block;
+      .ant-collapse-expand-icon {
+        display: none;
+      }
+    }
+
+    [data-theme="compact"]
+      .site-collapse-custom-collapse
+      .site-collapse-custom-panel,
+    .site-collapse-custom-collapse .site-collapse-custom-panel {
+      margin-bottom: 1rem;
+      overflow: hidden;
+      background: transparent;
+    }
+
+    .ant-collapse-borderless > .ant-collapse-item > .ant-collapse-content {
+      color: ${({ theme }) => theme.colors.font1};
+    }
+
+    .ant-collapse-borderless > .ant-collapse-item {
+      border: none;
+    }
+
+    .ant-collapse-borderless
+      > .ant-collapse-item
+      > .ant-collapse-content
+      > .ant-collapse-content-box {
+      margin-top: 0.7rem;
+      padding: 0 0.5rem;
+    }
+  `,
 };
 
 const scroll = css`

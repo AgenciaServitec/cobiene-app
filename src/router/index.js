@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import { BaseLayout } from "../components";
 import {
+  AboutAs,
   ApoyoDiscapacitado,
   ApoyoEconomico,
   Conventions,
@@ -14,6 +15,7 @@ import {
   PreAcademies,
   ServiceSocial,
   Universities,
+  Bazar,
 } from "../pages";
 
 export const Router = () => {
@@ -127,7 +129,24 @@ export const Router = () => {
           </BaseLayout>
         }
       />
-
+      <Route
+        exact
+        path="/about-as"
+        element={
+          <BaseLayout>
+            <AboutAs />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/bazar"
+        element={
+          <BaseLayout>
+            <Bazar />
+          </BaseLayout>
+        }
+      />
       <Route path="*" element={<Page404 />} />
     </Routes>
   );

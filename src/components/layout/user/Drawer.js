@@ -32,7 +32,7 @@ export const Drawer = ({ visibleDrawer, onSetVisibleDrawer }) => {
         text="Nosotros"
         onClick={() => onSetVisibleDrawer(false)}
         icon={faThLarge}
-        linkTo="/"
+        linkTo="/about-as"
       />
       <MenuItem
         text="Educación"
@@ -56,7 +56,7 @@ export const Drawer = ({ visibleDrawer, onSetVisibleDrawer }) => {
         text="Bazar del Ejercito"
         onClick={() => onSetVisibleDrawer(false)}
         icon={faShoppingCart}
-        linkTo="/"
+        linkTo="/bazar"
       />
       <MenuItem
         text="Casa de servico"

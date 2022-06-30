@@ -12,3 +12,5 @@ export * from "./funeral-fund";
 export * from "./social-service";
 export * from "./social-service/apoyo-economico";
 export * from "./social-service/apoyo-discapacitado";
+export * from "./about-as";
+export * from "./bazar";

@@ -7,10 +7,11 @@ import {
   Education,
   FuneralFund,
   Home,
+  HouseService,
   Institutes,
+  LimaInstitutes,
   Page404,
   PreAcademies,
-  ServiceHouse,
   ServiceSocial,
   Universities,
 } from "../pages";
@@ -33,6 +34,15 @@ export const Router = () => {
         element={
           <BaseLayout>
             <Education />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/education/lima-institutes"
+        element={
+          <BaseLayout>
+            <LimaInstitutes />
           </BaseLayout>
         }
       />
@@ -74,10 +84,10 @@ export const Router = () => {
       />
       <Route
         exact
-        path="/service-house"
+        path="/house-service"
         element={
           <BaseLayout>
-            <ServiceHouse />
+            <HouseService />
           </BaseLayout>
         }
       />

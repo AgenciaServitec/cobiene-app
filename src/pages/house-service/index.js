@@ -3,7 +3,7 @@ import { Button, NavigateGoToLink } from "../../components";
 import styled, { css } from "styled-components";
 import { CasaServicio, ImgMapa } from "../../images";
 
-export const ServiceHouse = () => {
+export const HouseService = () => {
   const [buttonHidden, setButtonHidden] = useState(false);
 
   return (

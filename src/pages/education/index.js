@@ -1,22 +1,30 @@
 import React from "react";
-import { Button } from "../../components";
-import styled, { css } from "styled-components";
+import { Button, Text, Title } from "../../components";
 import { ApoyoEducativo } from "../../images";
+import { useNavigate } from "react-router";
+import styled, { css } from "styled-components";
 
 export const Education = () => {
+  const navigate = useNavigate();
+
   return (
     <Container>
-      <div className="content-logo">
+      <div className="content-initial">
         <img src={ApoyoEducativo} alt="Apoyo educativo" />
-        <h2>Apoyo Educativo</h2>
-        <p>
+        <Title>Apoyo Educativo</Title>
+        <Text>
           El COBIENE cuenta con 23 instituciones educativas a nivel nacional en
           donde se imparte una educación de calidad con mejora continua,
           brindando una educación de calidad con mejora continua, una educación
           integral con valores, fortaleciendo la enseñanza del idioma ingles.
-        </p>
+        </Text>
       </div>
-      <Button width="100%">INSTITUCIONES DE LIMA</Button>
+      <Button
+        width="100%"
+        onClick={() => navigate("/education/lima-institutes")}
+      >
+        INSTITUCIONES DE LIMA
+      </Button>
       <Button width="100%">INSTITUCIONES DE PROVINCIA</Button>
     </Container>
   );
@@ -26,7 +34,7 @@ const Container = styled.div`
   ${({ theme }) => css`
     width: 100%;
     height: auto;
-    .content-logo {
+    .content-initial {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -37,13 +45,6 @@ const Container = styled.div`
         height: auto;
         object-fit: contain;
         margin-bottom: 1rem;
-      }
-      h2 {
-        text-shadow: ${theme.text_shadow.shadow_green};
-      }
-      p {
-        color: ${theme.colors.white};
-        text-align: center;
       }
     }
   `}

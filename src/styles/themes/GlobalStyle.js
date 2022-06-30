@@ -271,17 +271,28 @@ const antd = {
     }
   `,
   carousel: css`
+    .ant-carousel .slick-prev,
+    .ant-carousel .slick-next {
+      top: 46%;
+    }
+    .ant-carousel .slick-next,
+    .ant-carousel .slick-next {
+      top: 46%;
+    }
+    .slick-arrow.slick-prev,
+    .slick-arrow.slick-next {
+      color: white;
+      z-index: 99999;
+    }
+    .slick-arrow.slick-prev {
+      left: 3%;
+    }
+    .slick-arrow.slick-next {
+      right: 3%;
+    }
+
     .ant-carousel .slick-dots-bottom {
-      bottom: 9%;
-    }
-    .ant-carousel .slick-dots li button {
-      width: 1rem;
-      height: 1rem;
-      border-radius: 3rem;
-      background: ${({ theme }) => theme.colors.secondary};
-    }
-    .ant-carousel .slick-dots li.slick-active button {
-      background: ${({ theme }) => theme.colors.primary};
+      display: none !important;
     }
   `,
 };

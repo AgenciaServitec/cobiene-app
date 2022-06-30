@@ -19,6 +19,6 @@ const Container = styled.div`
     color: #fff;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1rem;
   }
 `;

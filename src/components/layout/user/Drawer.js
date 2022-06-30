@@ -62,7 +62,7 @@ export const Drawer = ({ visibleDrawer, onSetVisibleDrawer }) => {
         text="Casa de servico"
         onClick={() => onSetVisibleDrawer(false)}
         icon={faHome}
-        linkTo="/service-house"
+        linkTo="/house-service"
       />
       <MenuItem
         text="Circulo Militar"

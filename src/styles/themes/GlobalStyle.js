@@ -330,6 +330,7 @@ const antd = {
       > .ant-collapse-content
       > .ant-collapse-content-box {
       margin-top: 0.7rem;
+      padding: 0 0.5rem;
     }
   `,
 };

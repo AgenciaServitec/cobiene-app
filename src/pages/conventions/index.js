@@ -37,7 +37,6 @@ export const Conventions = () => {
       >
         ACADEMIAS PRE
       </Button>
-
       <Button width="100%">EMPRESAS</Button>
       <Button width="100%">BANCO</Button>
     </Container>

@@ -27,6 +27,7 @@ export { default as Inst13 } from "./others/inst13.webp";
 export { default as Inst14 } from "./others/inst14.webp";
 export { default as Inst15 } from "./others/inst15.webp";
 
+//-------- Universities------
 export { default as Logo1 } from "./webp/logo1.webp";
 export { default as Logo2 } from "./webp/logo2.webp";
 export { default as Logo3 } from "./webp/logo3.webp";
@@ -49,3 +50,6 @@ export { default as Logo19 } from "./webp/logo19.webp";
 export { default as Logo20 } from "./webp/logo20.webp";
 export { default as Logo21 } from "./webp/logo21.webp";
 export { default as Norte } from "./webp/norte.webp";
+
+//-------- Institutes------
+export { default as InstituteLogo1 } from "./webp/institute-logo1.webp";

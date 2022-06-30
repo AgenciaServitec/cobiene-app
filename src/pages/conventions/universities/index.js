@@ -78,6 +78,7 @@ const Container = styled.div`
 
     .site-collapse-custom-collapse {
       .content-button {
+        width: 100%;
         display: grid;
         grid-template-columns: 17% 1fr;
         grid-column-gap: 1rem;

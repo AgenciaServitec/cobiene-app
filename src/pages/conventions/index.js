@@ -37,8 +37,12 @@ export const Conventions = () => {
       >
         ACADEMIAS PRE
       </Button>
-      <Button width="100%">EMPRESAS</Button>
-      <Button width="100%">BANCO</Button>
+      <Button width="100%" onClick={() => navigate("/conventions/companies")}>
+        EMPRESAS
+      </Button>
+      <Button width="100%" onClick={() => navigate("/conventions/banks")}>
+        BANCO
+      </Button>
     </Container>
   );
 };

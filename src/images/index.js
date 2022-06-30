@@ -53,3 +53,6 @@ export { default as Norte } from "./webp/norte.webp";
 
 //-------- Institutes------
 export { default as InstituteLogo1 } from "./webp/institute-logo1.webp";
+
+//-------- Companies ------
+export { default as CompanyLogo1 } from "./webp/companies-logo1.webp";

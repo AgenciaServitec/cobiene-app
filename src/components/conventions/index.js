@@ -1,1 +1,1 @@
-export * from "./universities/CollapseWithButtons";
+export * from "./CollapseWithButtons";

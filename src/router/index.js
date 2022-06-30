@@ -16,6 +16,8 @@ import {
   ServiceSocial,
   Universities,
   Bazar,
+  Companies,
+  Banks,
 } from "../pages";
 
 export const Router = () => {
@@ -81,6 +83,24 @@ export const Router = () => {
         element={
           <BaseLayout>
             <PreAcademies />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/companies"
+        element={
+          <BaseLayout>
+            <Companies />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/banks"
+        element={
+          <BaseLayout>
+            <Banks />
           </BaseLayout>
         }
       />

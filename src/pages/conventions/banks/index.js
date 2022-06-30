@@ -1,14 +1,14 @@
 import React from "react";
 import styled, { css } from "styled-components";
 import { CollapseWithButtons } from "../../../components";
-import { institutes } from "../../../data-list";
+import { banks } from "../../../data-list";
 
-export const Institutes = () => (
+export const Banks = () => (
   <Container>
     <div className="content-logo">
-      <h2>Institutos</h2>
+      <h2>Bancos</h2>
     </div>
-    <CollapseWithButtons dataLists={institutes} />
+    <CollapseWithButtons dataLists={banks} />
   </Container>
 );
 

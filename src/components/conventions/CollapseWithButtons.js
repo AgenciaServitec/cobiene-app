@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import Collapse from "antd/lib/collapse";
-import { Button } from "../../ui";
+import { Button } from "../ui";
 
 const { Panel } = Collapse;
 

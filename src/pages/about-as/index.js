@@ -53,7 +53,7 @@ export const AboutAs = () => {
             bienestar posible al personal COBIENE, civil y familiares directos
             de la institución.
             <h3>Lema</h3>
-            -TODO LO QUE HACEMOS, LO HACEMOS BIEN.
+            SI LO PUEDES IMAGINAR, LO PUEDES PROGRAMAR.
           </p>
         </div>
       )}

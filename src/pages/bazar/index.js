@@ -8,7 +8,7 @@ import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 export const Bazar = () => {
   return (
     <Container>
-      <div className="content-logo">
+      <div className="content-initial">
         <img src={LogoBazar} alt="Logo Bazar" />
         <h2>BAZAR CENTRAL</h2>
         <text>
@@ -43,7 +43,7 @@ const Container = styled.div`
   ${({ theme }) => css`
     width: 100%;
     height: auto;
-    .content-logo {
+    .content-initial {
       display: flex;
       flex-direction: column;
       align-items: center;

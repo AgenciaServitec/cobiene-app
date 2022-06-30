@@ -25,7 +25,7 @@ export const Home = () => {
       <Button width="100%" onClick={() => navigate("/funeral-fund")}>
         FONDO DE SEPELIO
       </Button>
-      <Button width="100%" onClick={() => navigate("/service-house")}>
+      <Button width="100%" onClick={() => navigate("/house-service")}>
         CASA DE SERVICIO
       </Button>
     </Container>

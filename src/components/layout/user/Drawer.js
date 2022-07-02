@@ -44,7 +44,7 @@ export const Drawer = ({ visibleDrawer, onSetVisibleDrawer }) => {
         text="Servicio Social"
         onClick={() => onSetVisibleDrawer(false)}
         icon={faUsers}
-        linkTo="/"
+        linkTo="/social-service"
       />
       <MenuItem
         text="Servicio de sepelio"
@@ -68,7 +68,7 @@ export const Drawer = ({ visibleDrawer, onSetVisibleDrawer }) => {
         text="Circulo Militar"
         onClick={() => onSetVisibleDrawer(false)}
         icon={faCircle}
-        linkTo="/"
+        linkTo="/military-circle"
       />
       <MenuItem
         text="Solicitudes"

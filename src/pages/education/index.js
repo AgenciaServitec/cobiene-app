@@ -25,7 +25,12 @@ export const Education = () => {
       >
         INSTITUCIONES DE LIMA
       </Button>
-      <Button width="100%">INSTITUCIONES DE PROVINCIA</Button>
+      <Button
+        width="100%"
+        onClick={() => navigate("/education/province-institutes")}
+      >
+        INSTITUCIONES DE PROVINCIA
+      </Button>
     </Container>
   );
 };

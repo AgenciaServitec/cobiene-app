@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faCircleChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { CobieneLogo } from "../../../images";
 import { useNavigate } from "react-router";
@@ -10,8 +10,8 @@ export const Header = ({ onSetVisibleDrawer }) => {
 
   return (
     <Container>
-      <div className="content-left" onClick={() => onSetVisibleDrawer(true)}>
-        <FontAwesomeIcon icon={faBars} size="2x" />
+      <div className="content-left" onClick={() => navigate(-1)}>
+        <FontAwesomeIcon icon={faCircleChevronLeft} size="2x" />
       </div>
       <div className="content-center">
         <img
@@ -20,7 +20,9 @@ export const Header = ({ onSetVisibleDrawer }) => {
           onClick={() => navigate("/")}
         />
       </div>
-      <div className="content-right" />
+      <div className="content-right" onClick={() => onSetVisibleDrawer(true)}>
+        <FontAwesomeIcon icon={faBars} size="2x" />
+      </div>
     </Container>
   );
 };
@@ -32,11 +34,13 @@ const Container = styled.div`
   grid-template-columns: 15% 1fr 15%;
   background: ${({ theme }) => theme.colors.primary};
   color: ${({ theme }) => theme.colors.white};
-  .content-left {
+  .content-left,
+  .content-right {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 1rem;
+    cursor: pointer;
   }
   .content-center {
     display: flex;
@@ -47,6 +51,7 @@ const Container = styled.div`
       width: 2.6rem;
       height: auto;
       object-fit: contain;
+      cursor: pointer;
     }
   }
 `;

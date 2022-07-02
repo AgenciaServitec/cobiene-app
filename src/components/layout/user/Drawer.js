@@ -18,7 +18,7 @@ export const Drawer = ({ visibleDrawer, onSetVisibleDrawer }) => {
   return (
     <ComponentDrawerAntd
       title={null}
-      placement="left"
+      placement="right"
       onClose={() => onSetVisibleDrawer(false)}
       visible={visibleDrawer}
     >

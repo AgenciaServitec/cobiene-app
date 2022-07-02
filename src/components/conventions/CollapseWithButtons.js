@@ -4,8 +4,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import Collapse from "antd/lib/collapse";
 import { Button } from "../ui";
+import Typography from "antd/lib/typography";
 
 const { Panel } = Collapse;
+const { Text } = Typography;
 
 export const CollapseWithButtons = ({ dataLists = [] }) => {
   return (
@@ -20,8 +22,11 @@ export const CollapseWithButtons = ({ dataLists = [] }) => {
                   <img src={dataList.image} alt={dataList.title} />
                 </div>
                 <div className="item-text">
-                  <h5>{dataList.title}</h5>
+                  <Text style={{ width: 300 }} ellipsis>
+                    {dataList.title}
+                  </Text>
                 </div>
+                <div />
               </div>
             </Button>
           }
@@ -55,13 +60,14 @@ const CollapseAntd = styled(Collapse)`
   .content-button {
     width: 100%;
     display: grid;
-    grid-template-columns: 17% 1fr;
-    grid-column-gap: 1rem;
+    grid-template-columns: 10% 1fr 10%;
+    grid-column-gap: 1.5rem;
     position: relative;
     .item-icon {
       display: flex;
       align-items: center;
       justify-content: center;
+      width: 100%;
       img {
         width: 4rem;
         height: 4rem;
@@ -72,16 +78,8 @@ const CollapseAntd = styled(Collapse)`
       display: flex;
       align-items: center;
       justify-content: start;
-      font-size: 100%;
-      h5 {
-        text-align: left;
-        width: 95%;
-        max-width: 100%;
-        text-transform: uppercase;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        margin: 0;
-      }
+      text-align: left;
+      text-transform: uppercase;
     }
   }
   .content-description {
@@ -93,6 +91,7 @@ const CollapseAntd = styled(Collapse)`
         font-size: 0.77rem;
         li {
           margin-bottom: 0.5rem;
+          font-weight: 500;
         }
       }
     }

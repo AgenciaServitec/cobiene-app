@@ -9,8 +9,9 @@ export { default as Servitec } from "./others/servitec.webp";
 export { default as ImgBazar } from "./others/bazar.webp";
 export { default as LogoBazar } from "./others/logo-bazar.webp";
 export { default as Barracks } from "./others/barracks.webp";
-export { default as TechniciansImg } from "./others/tecnicos.webp";
+export { default as TechniciansImg } from "./webp/tecnicos.webp";
 export { default as ImgOfficers } from "./others/oficiales.webp";
+export { default as ImgFedericoVidarreal } from "./webp/federico.webp";
 
 //--------Institutes from Lima and Province------
 export { default as Inst1 } from "./others/inst1.webp";

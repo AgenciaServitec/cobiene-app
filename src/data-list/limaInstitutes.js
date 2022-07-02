@@ -11,7 +11,6 @@ import {
   Inst8,
   Inst9,
 } from "../images";
-import React from "react";
 import {
   faEnvelope,
   faGlobe,

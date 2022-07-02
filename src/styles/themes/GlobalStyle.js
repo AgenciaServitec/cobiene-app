@@ -50,23 +50,24 @@ const global = css`
 
   h4 {
     font-size: ${({ theme }) => theme.font_sizes.large};
-    font-weight: bold;
   }
 
   h5 {
     font-size: ${({ theme }) => theme.font_sizes.medium};
-    font-weight: bold;
   }
 
-  h5 {
+  h6 {
     font-size: ${({ theme }) => theme.font_sizes.small};
-    font-weight: bold;
   }
 
   h1,
   h2,
   h3 {
     line-height: 2.7rem;
+  }
+  p {
+    font-size: ${({ theme }) => theme.font_sizes.small};
+    font-weight: 500;
   }
 `;
 

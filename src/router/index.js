@@ -22,6 +22,7 @@ import {
   MilitaryCircle,
   OfficersCircle,
   TechniciansCircle,
+  PoliciesAndPrivacy,
 } from "../pages";
 
 export const Router = () => {
@@ -204,6 +205,15 @@ export const Router = () => {
         element={
           <BaseLayout>
             <TechniciansCircle />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/policies-and-privacy"
+        element={
+          <BaseLayout>
+            <PoliciesAndPrivacy />
           </BaseLayout>
         }
       />

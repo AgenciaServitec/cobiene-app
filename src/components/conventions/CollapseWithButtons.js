@@ -80,6 +80,9 @@ const CollapseAntd = styled(Collapse)`
       justify-content: start;
       text-align: left;
       text-transform: uppercase;
+      span {
+        color: ${({ theme }) => theme.colors.white};
+      }
     }
   }
   .content-description {

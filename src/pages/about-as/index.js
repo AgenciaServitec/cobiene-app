@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Barracks, Servitec } from "../../images";
+import { Barracks, LogoAgenciaServitec } from "../../images";
 import { Button, Title } from "../../components";
 import styled from "styled-components";
 
@@ -62,15 +62,22 @@ export const AboutAs = () => {
       </Button>
       {buttonHidden2 && (
         <div className="content">
-          <div className="servitec">
-            <img className="img-servitec" src={Servitec} alt="servitec" />
+          <div className="agencia-servitec">
+            <img
+              className="img-agencia-servitec"
+              src={LogoAgenciaServitec}
+              alt="Agencia Servitec"
+            />
           </div>
-          <h3>DETEL MY E. PEREZ</h3>
-          <h4>ANALISTAS y PROGRAMADORES</h4>
-          <h5>ROBERTO MENDOZA</h5>
-          <h5>EMERSON ESTRADA</h5>
-          <h5>ANGEL GAMONAL</h5>
-          <h5>EDUARDO SALAZAR</h5>
+          <h4>DETEL MY E. PEREZ</h4>
+          <h4>TEAM - Agencia Servitec</h4>
+          <ul>
+            <li>Roberto Mendoza</li>
+            <li>Noel Moriano</li>
+            <li>Emerson Estrada</li>
+            <li>Angel Gamonal</li>
+            <li>Eduardo Salazar</li>
+          </ul>
         </div>
       )}
     </Container>
@@ -103,12 +110,19 @@ const Container = styled.div`
       margin: 1rem 0;
     }
   }
-  .servitec {
+  .agencia-servitec {
     text-align: center;
     padding: 1rem 0;
-    .img-servitec {
+    .img-agencia-servitec {
       width: 80%;
+      max-width: 20rem;
       object-fit: contain;
+    }
+  }
+
+  .content {
+    ul {
+      margin: auto 3rem;
     }
   }
 `;

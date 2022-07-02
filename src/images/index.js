@@ -75,3 +75,14 @@ export { default as InstituteLogo1 } from "./webp/institute-logo1.webp";
 
 //-------- Companies ------
 export { default as CompanyLogo1 } from "./webp/companies-logo1.webp";
+
+//-------- Academies PRe ------
+export { default as Academie1 } from "./others/academie1.webp";
+export { default as Academie2 } from "./others/academie2.webp";
+
+//-------- Banks ------
+export { default as Bank1 } from "./others/bank1.webp";
+export { default as Bank2 } from "./others/bank2.webp";
+export { default as Bank3 } from "./others/bank3.webp";
+export { default as Bank4 } from "./others/bank4.webp";
+export { default as Bank5 } from "./others/bank5.webp";

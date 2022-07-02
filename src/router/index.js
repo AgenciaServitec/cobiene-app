@@ -18,6 +18,10 @@ import {
   Bazar,
   Companies,
   Banks,
+  ProvinceInstitutes,
+  MilitaryCircle,
+  OfficersCircle,
+  TechniciansCircle,
 } from "../pages";
 
 export const Router = () => {
@@ -47,6 +51,15 @@ export const Router = () => {
         element={
           <BaseLayout>
             <LimaInstitutes />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/education/province-institutes"
+        element={
+          <BaseLayout>
+            <ProvinceInstitutes />
           </BaseLayout>
         }
       />
@@ -164,6 +177,33 @@ export const Router = () => {
         element={
           <BaseLayout>
             <Bazar />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/military-circle"
+        element={
+          <BaseLayout>
+            <MilitaryCircle />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/military-circle/officers-circle"
+        element={
+          <BaseLayout>
+            <OfficersCircle />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/military-circle/technicians-circle"
+        element={
+          <BaseLayout>
+            <TechniciansCircle />
           </BaseLayout>
         }
       />

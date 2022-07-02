@@ -9,6 +9,8 @@ export { default as Servitec } from "./others/servitec.webp";
 export { default as ImgBazar } from "./others/bazar.webp";
 export { default as LogoBazar } from "./others/logo-bazar.webp";
 export { default as Barracks } from "./others/barracks.webp";
+export { default as TechniciansImg } from "./others/tecnicos.webp";
+export { default as ImgOfficers } from "./others/oficiales.webp";
 
 //--------Institutes from Lima and Province------
 export { default as Inst1 } from "./others/inst1.webp";
@@ -26,6 +28,21 @@ export { default as Inst12 } from "./others/inst12.webp";
 export { default as Inst13 } from "./others/inst13.webp";
 export { default as Inst14 } from "./others/inst14.webp";
 export { default as Inst15 } from "./others/inst15.webp";
+export { default as Inst16 } from "./others/inst16.webp";
+export { default as Inst17 } from "./others/inst17.webp";
+export { default as Inst18 } from "./others/inst18.webp";
+export { default as Inst19 } from "./others/inst19.webp";
+export { default as Inst20 } from "./others/inst20.webp";
+export { default as Inst21 } from "./others/inst21.webp";
+export { default as Inst22 } from "./others/inst22.webp";
+
+//--------Carousel Officers-Circle
+export { default as ImgOfficers1 } from "./others/sede-arequipa.webp";
+export { default as ImgOfficers2 } from "./others/sede-salaverry.webp";
+export { default as ImgOfficers3 } from "./others/sede-chorrillos.webp";
+export { default as ImgOfficers4 } from "./others/sede-tiza.webp";
+export { default as ImgOfficers5 } from "./others/sede-ceande.webp";
+export { default as ImgOfficers6 } from "./others/sede-piura.webp";
 
 //-------- Universities------
 export { default as Logo1 } from "./webp/logo1.webp";

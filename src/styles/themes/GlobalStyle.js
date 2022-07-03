@@ -15,7 +15,7 @@ const global = css`
   body {
     background: ${({ theme }) => theme.colors.white};
     color: ${({ theme }) => theme.colors.font1};
-    font-family: "MontserratRegular", serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     overflow-x: hidden;
   }
@@ -64,10 +64,13 @@ const global = css`
   h2,
   h3 {
     line-height: 2.7rem;
+    font-family: "MontserratRegular", serif;
   }
-  p {
+  p,
+  ul {
     font-size: ${({ theme }) => theme.font_sizes.small};
     font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
   }
 `;
 

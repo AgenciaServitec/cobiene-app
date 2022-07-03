@@ -33,7 +33,7 @@ export const ServiceSocial = () => {
       </Button>
       <Button
         width="100%"
-        onClick={() => navigate("/social-service/apoyo-discapacitado")}
+        onClick={() => navigate("/social-service/disabled-support")}
       >
         APOYO DISCAPACITADO
       </Button>

@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import { BaseLayout } from "../components";
 import {
   AboutAs,
-  ApoyoDiscapacitado,
+  DisabledSupport,
   EconomicalSupport,
   Conventions,
   Education,
@@ -156,10 +156,10 @@ export const Router = () => {
       />
       <Route
         exact
-        path="/social-service/apoyo-discapacitado"
+        path="/social-service/disabled-support"
         element={
           <BaseLayout>
-            <ApoyoDiscapacitado />
+            <DisabledSupport />
           </BaseLayout>
         }
       />

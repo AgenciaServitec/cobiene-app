@@ -18,6 +18,7 @@ export { default as ImgRimac } from "./others/rimac.webp";
 export { default as ImgEmptyDefault } from "./webp/img-default.webp";
 
 //--------Institutes from Lima and Province------
+
 export { default as Inst1 } from "./others/inst1.webp";
 export { default as Inst2 } from "./others/inst2.webp";
 export { default as Inst3 } from "./others/inst3.webp";

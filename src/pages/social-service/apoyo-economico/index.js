@@ -30,7 +30,7 @@ export const ApoyoEconomico = () => {
             psiquiatra.
           </p>
           <strong>Ayuda Economica por Adquisiones:</strong>
-          <ol>
+          <ul>
             <li>
               Adquisición de alimentos: sobre alimentación y suplementos
               nutricionales
@@ -40,18 +40,22 @@ export const ApoyoEconomico = () => {
               audifonos, zapatos ortopedicos, medicinas, pañales, muletas,
               andadores).
             </li>
-          </ol>
+          </ul>
         </div>
+        <br />
         <div>
           <h4>Alcance</h4>
-          <ol>
+          <ul>
             <li>
               Familiares directos del titular (Esposo(A)), hijos y por unica vez
               a los padres
             </li>
-            <li>MONTO</li>
+          </ul>
+          <br />
+          <h4>Monto</h4>
+          <ul>
             <li>Maximo 2 UIT</li>
-          </ol>
+          </ul>
         </div>
       </div>
       <div className="link-list">
@@ -98,6 +102,11 @@ const Container = styled.div`
     }
     .content-help {
       padding: 0 1rem;
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
     }
     .link-list {
       padding: 1rem;

@@ -8,11 +8,13 @@ import {
   faFolderOpen,
   faGraduationCap,
   faHome,
+  faHomeUser,
   faShoppingCart,
   faThLarge,
   faUsers,
 } from "@fortawesome/free-solid-svg-icons";
 import { faCircle } from "@fortawesome/free-regular-svg-icons";
+import { NavigateGoToLink } from "../../ui";
 
 export const Drawer = ({ visibleDrawer, onSetVisibleDrawer }) => {
   return (
@@ -63,6 +65,14 @@ export const Drawer = ({ visibleDrawer, onSetVisibleDrawer }) => {
         onClick={() => onSetVisibleDrawer(false)}
         icon={faHome}
         linkTo="/house-service"
+      />
+      <MenuItem
+        text="Fovime"
+        onClick={() =>
+          NavigateGoToLink("https://fovime.com/expo-fovime-2022/inmobiliarias/")
+        }
+        icon={faHomeUser}
+        linkTo="/"
       />
       <MenuItem
         text="Circulo Militar"

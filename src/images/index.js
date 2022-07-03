@@ -13,6 +13,8 @@ export { default as TechniciansImg } from "./webp/tecnicos.webp";
 export { default as ImgOfficers } from "./others/oficiales.webp";
 export { default as ImgFedericoVidarreal } from "./webp/federico.webp";
 export { default as LogoAgenciaServitec } from "./webp/logotipo-agencia-servitec.webp";
+export { default as ImgTarapaca } from "./others/tarapaca.webp";
+export { default as ImgRimac } from "./others/rimac.webp";
 
 //--------Institutes from Lima and Province------
 export { default as Inst1 } from "./others/inst1.webp";

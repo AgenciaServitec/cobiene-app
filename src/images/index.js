@@ -8,7 +8,7 @@ export { default as Service } from "./others/asistencia.webp";
 export { default as Servitec } from "./others/servitec.webp";
 export { default as ImgBazar } from "./others/bazar.webp";
 export { default as LogoBazar } from "./others/logo-bazar.webp";
-export { default as Barracks } from "./others/barracks.webp";
+export { default as Barracks } from "./others/Barracks.webp";
 export { default as TechniciansImg } from "./webp/tecnicos.webp";
 export { default as ImgOfficers } from "./others/oficiales.webp";
 export { default as ImgFedericoVidarreal } from "./webp/federico.webp";
@@ -74,7 +74,37 @@ export { default as Logo21 } from "./webp/logo21.webp";
 export { default as Norte } from "./webp/norte.webp";
 
 //-------- Institutes------
-export { default as InstituteLogo1 } from "./webp/institute-logo1.webp";
+export { default as CentroModas } from "./webp/instituto1.webp";
+export { default as CEPEA } from "./webp/instituto2.webp";
+export { default as CEPEABAN } from "./webp/instituto3.webp";
+export { default as CESCA } from "./webp/instituto4.webp";
+export { default as GAMOR } from "./webp/instituto5.webp";
+export { default as CEVATUR } from "./webp/instituto6.webp";
+export { default as SanVicente } from "./webp/instituto7.webp";
+export { default as GALLIA } from "./webp/instituto8.webp";
+export { default as DanielCarrion } from "./webp/instituto9.webp";
+export { default as DesarrolloGeneral } from "./webp/instituto10.webp";
+export { default as ProfesionalTecnico } from "./webp/instituto11.webp";
+export { default as EscueladeGerencia } from "./webp/instituto12.webp";
+export { default as AKRON } from "./webp/instituto13.webp";
+export { default as EUROIDIOMAS } from "./webp/instituto14.webp";
+export { default as HEADWAYCOLLEGE } from "./webp/instituto15.webp";
+export { default as INTECI } from "./webp/instituto16.webp";
+export { default as LECTURAVELOZ } from "./webp/instituto17.webp";
+export { default as LATINO } from "./webp/instituto18.webp";
+export { default as LIBERTADOR } from "./webp/instituto19.webp";
+export { default as INIDHE } from "./webp/instituto20.webp";
+export { default as PRIVATECHER } from "./webp/instituto21.webp";
+export { default as SANIGNACIO } from "./webp/instituto22.webp";
+export { default as ICPNA } from "./webp/instituto23.webp";
+export { default as BRITANICO } from "./webp/instituto24.webp";
+export { default as FORMACIONEMPRESARIAL } from "./webp/instituto25.webp";
+export { default as MARKAYACHAY } from "./webp/instituto26.webp";
+export { default as ESCUELADEGRADUADOS } from "./webp/instituto27.webp";
+export { default as ALIANZAFRANCESA } from "./webp/instituto29.webp";
+export { default as SIZE } from "./webp/instituto28.webp";
+export { default as eigra } from "./webp/eigra.webp";
+export { default as guide } from "./webp/guide.webp";
 
 //-------- Companies ------
 export { default as ImgApelac } from "./webp/img-apelac.webp";

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Barracks, LogoAgenciaServitec } from "../../images";
+import { ImgCuartelCobiene, LogoAgenciaServitec } from "../../images";
 import { Button, Title } from "../../components";
 import styled from "styled-components";
 
@@ -11,7 +11,7 @@ export const AboutAs = () => {
   return (
     <Container>
       <div className="content-initial">
-        <img src={Barracks} alt="base" />
+        <img src={ImgCuartelCobiene} alt="base" />
         <div className="wrapper-texts">
           <Title>NOSOTROS</Title>
         </div>

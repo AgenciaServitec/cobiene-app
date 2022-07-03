@@ -15,6 +15,7 @@ export { default as ImgFedericoVidarreal } from "./webp/federico.webp";
 export { default as LogoAgenciaServitec } from "./webp/logotipo-agencia-servitec.webp";
 export { default as ImgTarapaca } from "./others/tarapaca.webp";
 export { default as ImgRimac } from "./others/rimac.webp";
+export { default as ImgEmptyDefault } from "./webp/img-default.webp";
 
 //--------Institutes from Lima and Province------
 export { default as Inst1 } from "./others/inst1.webp";
@@ -76,7 +77,22 @@ export { default as Norte } from "./webp/norte.webp";
 export { default as InstituteLogo1 } from "./webp/institute-logo1.webp";
 
 //-------- Companies ------
-export { default as CompanyLogo1 } from "./webp/companies-logo1.webp";
+export { default as ImgApelac } from "./webp/img-apelac.webp";
+export { default as ImgBiolinks } from "./webp/img-biolinks.webp";
+export { default as ImgBlufstein } from "./webp/img-blufstein.webp";
+export { default as ImgCerema } from "./webp/img-cerema.webp";
+export { default as ImgCruzDelSur } from "./webp/img-cruz-del-sur.webp";
+export { default as ImgInppares } from "./webp/img-inppares.webp";
+export { default as ImgLaPositiva } from "./webp/img-la-positiva.webp";
+export { default as ImgLaPositivaSeguros } from "./webp/img-la-positiva-seguros.webp";
+export { default as ImgLaPositivaVida } from "./webp/img-la-positiva-vida.webp";
+export { default as ImgMedifon } from "./webp/img-medifon.webp";
+export { default as ImgQuirovida } from "./webp/img-quirovida.webp";
+export { default as ImgRimacCompany } from "./webp/img-rimac.webp";
+export { default as ImgRimacSeguros } from "./webp/img-rimac-seguros.webp";
+export { default as ImgRotarInternational } from "./webp/img-rotar-international.webp";
+export { default as ImgTransportesOltursa } from "./webp/img-transportes-oltursa.webp";
+export { default as ImgUnident } from "./webp/img-unident.webp";
 
 //-------- Academies PRe ------
 export { default as Academie1 } from "./others/academie1.webp";

@@ -8,10 +8,17 @@ import { useNavigate } from "react-router";
 export const Header = ({ onSetVisibleDrawer }) => {
   const navigate = useNavigate();
 
+  const pathName = window.location.pathname;
+
   return (
     <Container>
-      <div className="content-left" onClick={() => navigate(-1)}>
-        <FontAwesomeIcon icon={faCircleChevronLeft} size="2x" />
+      <div
+        className="content-left"
+        onClick={() => pathName !== "/" && navigate(-1)}
+      >
+        {pathName !== "/" && (
+          <FontAwesomeIcon icon={faCircleChevronLeft} size="2x" />
+        )}
       </div>
       <div className="content-center">
         <img

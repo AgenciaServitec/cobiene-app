@@ -24,7 +24,7 @@ export const ServiceSocial = () => {
       </div>
       <Button
         width="100%"
-        onClick={() => navigate("/social-service/apoyo-economico")}
+        onClick={() => navigate("/social-service/economical-support")}
       >
         APOYO ECONOMICO
       </Button>

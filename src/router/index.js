@@ -3,7 +3,7 @@ import { BaseLayout } from "../components";
 import {
   AboutAs,
   ApoyoDiscapacitado,
-  ApoyoEconomico,
+  EconomicalSupport,
   Conventions,
   Education,
   FuneralFund,
@@ -147,10 +147,10 @@ export const Router = () => {
       />
       <Route
         exact
-        path="/social-service/apoyo-economico"
+        path="/social-service/economical-support"
         element={
           <BaseLayout>
-            <ApoyoEconomico />
+            <EconomicalSupport />
           </BaseLayout>
         }
       />

@@ -15,8 +15,15 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faCircle } from "@fortawesome/free-regular-svg-icons";
 import { NavigateGoToLink } from "../../ui";
+import { useGlobal } from "reactn";
 
 export const Drawer = ({ visibleDrawer, onSetVisibleDrawer }) => {
+  const [visibleFormContact, setVisibleFormContact] =
+    useGlobal("visibleFormContact");
+
+  const handleVisibleFormContact = () =>
+    setVisibleFormContact(!visibleFormContact);
+
   return (
     <ComponentDrawerAntd
       title={null}
@@ -82,7 +89,10 @@ export const Drawer = ({ visibleDrawer, onSetVisibleDrawer }) => {
       />
       <MenuItem
         text="Contactanos"
-        onClick={() => onSetVisibleDrawer(false)}
+        onClick={() => {
+          handleVisibleFormContact();
+          return onSetVisibleDrawer(false);
+        }}
         icon={faEnvelope}
         linkTo="/"
       />

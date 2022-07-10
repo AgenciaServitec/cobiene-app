@@ -8,8 +8,15 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
+import { useGlobal } from "reactn";
 
 export const Footer = () => {
+  const [visibleFormContact, setVisibleFormContact] =
+    useGlobal("visibleFormContact");
+
+  const handleVisibleFormContact = () =>
+    setVisibleFormContact(!visibleFormContact);
+
   return (
     <Container>
       <div className="social-icons">
@@ -30,7 +37,7 @@ export const Footer = () => {
             </a>
           </li>
           <li className="item-icon">
-            <span>
+            <span onClick={() => handleVisibleFormContact()}>
               <FontAwesomeIcon icon={faEnvelope} size="2x" />
             </span>
           </li>

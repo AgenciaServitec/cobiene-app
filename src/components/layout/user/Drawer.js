@@ -5,6 +5,7 @@ import { MenuItem } from "./MenuItem";
 import {
   faBars,
   faChurch,
+  faEnvelope,
   faGraduationCap,
   faHome,
   faHomeUser,
@@ -79,12 +80,12 @@ export const Drawer = ({ visibleDrawer, onSetVisibleDrawer }) => {
         icon={faCircle}
         linkTo="/military-circle"
       />
-      {/*<MenuItem*/}
-      {/*  text="Solicitudes"*/}
-      {/*  onClick={() => onSetVisibleDrawer(false)}*/}
-      {/*  icon={faFolderOpen}*/}
-      {/*  linkTo="/"*/}
-      {/*/>*/}
+      <MenuItem
+        text="Contactanos"
+        onClick={() => onSetVisibleDrawer(false)}
+        icon={faEnvelope}
+        linkTo="/"
+      />
     </ComponentDrawerAntd>
   );
 };

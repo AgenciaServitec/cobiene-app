@@ -38,7 +38,7 @@ const Container = styled.div`
     align-items: center;
     .item-icon {
       color: #fff;
-      font-size: 0.8em;
+      font-size: 1.2em;
     }
   }
   .box-text {

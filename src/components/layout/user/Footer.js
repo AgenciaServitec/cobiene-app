@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { faHeart } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faHeart } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
@@ -28,6 +28,11 @@ export const Footer = () => {
             <a href="https://www.youtube.com/c/Ej%C3%A9rcitodelPer%C3%BACanaloficial">
               <FontAwesomeIcon icon={faYoutube} size="2x" />
             </a>
+          </li>
+          <li className="item-icon">
+            <span>
+              <FontAwesomeIcon icon={faEnvelope} size="2x" />
+            </span>
           </li>
           {/*<li className="item-icon">*/}
           {/*  <a href="">*/}
@@ -71,7 +76,8 @@ const Container = styled.div`
       .item-icon {
         margin: 0 1rem;
 
-        a {
+        a,
+        span {
           color: inherit;
         }
       }

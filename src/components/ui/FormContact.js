@@ -308,6 +308,11 @@ const ModalComponent = styled(ModalAntd)`
     }
 
     .ant-modal-body {
+      min-height: 100vh;
+      height: auto;
+      ${mediaQuery.minTablet} {
+        min-height: auto;
+      }
       ${ModalBackground};
     }
   }

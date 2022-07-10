@@ -7,7 +7,7 @@ import Col from "antd/lib/col";
 import { Controller, useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
-import { useFormUtils } from "../../hooks/useFormUtils";
+import { useFormUtils, useDevice } from "../../hooks";
 import { Input } from "./Input";
 import { Form } from "./Form";
 import { defaultTo } from "lodash";
@@ -17,19 +17,19 @@ import { InputNumber } from "./InputNumber";
 import { TextArea } from "./TextArea";
 import { notification } from "./notification";
 import { currentConfig } from "../../firebase";
-import { useNavigate } from "react-router";
 import { Button } from "./Button";
-import { useDevice } from "../../hooks";
+import { useGlobal } from "reactn";
 
-export const FormContact = ({
-  visibleFormContact,
-  onClickVisibleFormContact,
-  onEventGaClickHandler,
-}) => {
+export const FormContact = () => {
+  const [visibleFormContact, setVisibleFormContact] =
+    useGlobal("visibleFormContact");
+
   const { isMobile } = useDevice();
-  const navigate = useNavigate();
 
   const [loadingContact, setLoadingContact] = useState(false);
+
+  const handleVisibleFormContact = () =>
+    setVisibleFormContact(!visibleFormContact);
 
   const schema = yup.object({
     firstName: yup.string().required(),
@@ -62,7 +62,7 @@ export const FormContact = ({
 
       notification({ type: "success", title: "Enviado exitosamente" });
 
-      navigate("/contact-success");
+      return handleVisibleFormContact();
     } catch (e) {
       console.log("Error email send:", e);
       notification({ type: "error" });
@@ -72,7 +72,7 @@ export const FormContact = ({
   };
 
   const fetchSendEmail = async (contact) =>
-    await fetch(`${currentConfig.apiUrl}/-/contact`, {
+    await fetch(`${currentConfig.sendingEmailsApi}/cobiene/contact`, {
       method: "POST",
       headers: {
         "Access-Control-Allow-Origin": null,
@@ -94,16 +94,16 @@ export const FormContact = ({
       issue: formData.issue,
       message: formData.message,
       termsAndConditions: true,
-      hostname: window.location.hostname || "gamontllanta.com",
+      hostname: window.location.hostname || "cobiene",
     },
   });
 
   return (
     <ModalComponent
-      title={<h3 style={{ margin: "0" }}>Cotización y Pedidos</h3>}
+      title={<h3 style={{ margin: "0" }}>Contactanos</h3>}
       visible={visibleFormContact}
-      onOk={() => onClickVisibleFormContact()}
-      onCancel={() => onClickVisibleFormContact()}
+      onOk={() => handleVisibleFormContact()}
+      onCancel={() => handleVisibleFormContact()}
       footer={null}
     >
       <Form onSubmit={handleSubmit(onSubmitFetchContacts)}>
@@ -233,16 +233,10 @@ export const FormContact = ({
           </Col>
           <Col xs={24} sm={24} md={24} lg={8}>
             <Button
-              type="secondary"
+              type="tertiary"
               margin="0"
               block
-              onClick={() => {
-                onEventGaClickHandler(
-                  "click-in-button-cancel",
-                  "Click en boton cancelar de formulario"
-                );
-                return onClickVisibleFormContact();
-              }}
+              onClick={() => handleVisibleFormContact()}
               loading={loadingContact}
               disabled={loadingContact}
             >
@@ -269,7 +263,7 @@ export const FormContact = ({
 
 const ModalBackground = css`
   background-color: ${({ backgroundModal, theme }) =>
-    defaultTo(backgroundModal, theme.colors.tertiary)};
+    defaultTo(backgroundModal, theme.colors.dark)};
   color: ${({ theme }) => theme.colors.font2};
 `;
 

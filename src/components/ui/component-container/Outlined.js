@@ -81,7 +81,7 @@ const Container = styled.div`
     position: relative;
     width: inherit;
     border-radius: .3rem;
-    background: ${bgColor ? bgColor : theme.colors.tertiary};
+    background: ${bgColor ? bgColor : theme.colors.dark};
     border: 1px solid ${
       error ? theme.colors.error : theme.colors.gray
     } !important;

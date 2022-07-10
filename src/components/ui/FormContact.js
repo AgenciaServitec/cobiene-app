@@ -237,7 +237,6 @@ export const FormContact = () => {
               margin="0"
               block
               onClick={() => handleVisibleFormContact()}
-              loading={loadingContact}
               disabled={loadingContact}
             >
               Cancelar

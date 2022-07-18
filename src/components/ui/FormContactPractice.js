@@ -1,32 +1,30 @@
 import React, { useState } from "react";
+import { useGlobal } from "reactn";
 import styled, { css } from "styled-components";
 import ModalAntd from "antd/lib/modal/Modal";
 import { mediaQuery } from "../../styles/constants/mediaQuery";
-import Row from "antd/lib/row";
-import Col from "antd/lib/col";
+import { defaultTo, toNumber } from "lodash";
+import { Form } from "./Form";
+import { Input } from "./Input";
 import { Controller, useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
-import { useFormUtils, useDevice } from "../../hooks";
-import { Input } from "./Input";
-import { Form } from "./Form";
-import { defaultTo } from "lodash";
-import { phoneCodes } from "../../data-list";
-import { Select } from "./Select";
+import { Button } from "./Button";
+import { useFormUtils } from "../../hooks";
 import { InputNumber } from "./InputNumber";
 import { TextArea } from "./TextArea";
-import { notification } from "./notification";
+import { Select } from "./Select";
+import { phoneCodes } from "../../data-list";
+import Row from "antd/lib/row";
+import Col from "antd/lib/col";
 import { currentConfig } from "../../firebase";
-import { Button } from "./Button";
-import { useGlobal } from "reactn";
+import { notification } from "./notification";
 
-export const FormContact = () => {
+export const FormContactPractice = () => {
   const [visibleFormContact, setVisibleFormContact] =
     useGlobal("visibleFormContact");
 
-  const { isMobile } = useDevice();
-
-  const [loadingContact, setLoadingContact] = useState(false);
+  const [loadingSendEmail, setLoadingSendEmail] = useState(false);
 
   const handleVisibleFormContact = () =>
     setVisibleFormContact(!visibleFormContact);
@@ -46,58 +44,55 @@ export const FormContact = () => {
     handleSubmit,
     control,
     reset,
-  } = useForm({
-    resolver: yupResolver(schema),
-  });
+  } = useForm({ resolver: yupResolver(schema) });
 
-  const { required, error } = useFormUtils({ errors, schema });
+  const { error, required } = useFormUtils({ errors, schema });
 
-  const onSubmitFetchContacts = async (formData) => {
+  const onSubmitFormContact = async (formData) => {
     try {
-      setLoadingContact(true);
-      const contact = mapContactData(formData);
+      setLoadingSendEmail(true);
+      const contact = mapContact(formData);
 
-      const response = await fetchSendEmail(contact);
+      const response = await fetch(
+        `${currentConfig.sendingEmailsApi}/others/contact`,
+        {
+          method: "POST",
+          headers: {
+            "Access-Control-Allow-Origin": null,
+            "content-Type": "application/json",
+            Accept: "application/json",
+          },
+          body: JSON.stringify(contact),
+        }
+      );
 
-      if (!response.ok) throw new Error(response.statusText);
-
-      notification({ type: "success", title: "Enviado exitosamente" });
+      if (!response.ok) throw new Error(response.message);
 
       resetContactForm();
 
-      return handleVisibleFormContact();
+      notification({ type: "success", title: "Enviado exitosamente!" });
     } catch (e) {
-      console.log("Error email send:", e);
-      notification({ type: "error" });
+      console.error("SendingEmail", e);
+      notification({
+        type: "error",
+      });
     } finally {
-      setLoadingContact(false);
+      handleVisibleFormContact();
+      setLoadingSendEmail(false);
     }
   };
 
-  const fetchSendEmail = async (contact) =>
-    await fetch(`${currentConfig.sendingEmailsApi}/cobiene/contact`, {
-      method: "POST",
-      headers: {
-        "Access-Control-Allow-Origin": null,
-        "content-Type": "application/json",
-        Accept: "application/json",
-      },
-      body: JSON.stringify(contact),
-    });
-
-  const mapContactData = (formData) => ({
+  const mapContact = (formData) => ({
     contact: {
       firstName: formData.firstName,
       lastName: formData.lastName,
       email: formData.email,
       phone: {
-        number: formData.phoneNumber,
         countryCode: formData.countryCode,
+        number: toNumber(formData.phoneNumber),
       },
       issue: formData.issue,
       message: formData.message,
-      termsAndConditions: true,
-      hostname: window.location.hostname || "cobiene",
     },
   });
 
@@ -114,13 +109,13 @@ export const FormContact = () => {
 
   return (
     <ModalComponent
-      title={<h3 style={{ margin: "0" }}>Contactanos</h3>}
+      title={<h3 style={{ margin: "0" }}>Contáctanos</h3>}
       visible={visibleFormContact}
       onOk={() => handleVisibleFormContact()}
       onCancel={() => handleVisibleFormContact()}
       footer={null}
     >
-      <Form onSubmit={handleSubmit(onSubmitFetchContacts)}>
+      <Form onSubmit={handleSubmit(onSubmitFormContact)}>
         <Row gutter={[16, 15]}>
           <Col xs={24} sm={24} md={12}>
             <Controller
@@ -130,11 +125,11 @@ export const FormContact = () => {
               render={({ field: { onChange, value, name } }) => (
                 <Input
                   label="Ingrese nombres"
-                  name={name}
-                  value={value}
                   onChange={onChange}
-                  error={error(name)}
+                  value={value}
+                  name={name}
                   required={required(name)}
+                  error={error(name)}
                 />
               )}
             />
@@ -147,11 +142,11 @@ export const FormContact = () => {
               render={({ field: { onChange, value, name } }) => (
                 <Input
                   label="Ingrese apellidos"
-                  name={name}
-                  value={value}
                   onChange={onChange}
-                  error={error(name)}
+                  value={value}
+                  name={name}
                   required={required(name)}
+                  error={error(name)}
                 />
               )}
             />
@@ -164,49 +159,51 @@ export const FormContact = () => {
               render={({ field: { onChange, value, name } }) => (
                 <Input
                   label="Ingrese email"
-                  name={name}
-                  value={value}
                   onChange={onChange}
-                  error={error(name)}
+                  value={value}
+                  name={name}
                   required={required(name)}
+                  error={error(name)}
                 />
               )}
             />
           </Col>
-          <Col xs={24} sm={24} md={10}>
+          <Col xs={24} sm={24} md={8}>
             <Controller
               name="countryCode"
               control={control}
               defaultValue="+51"
               render={({ field: { onChange, value, name } }) => (
                 <Select
-                  label="Código"
+                  label="Ingrese código"
+                  onChange={onChange}
                   value={value}
-                  onChange={(value) => onChange(value)}
-                  error={error(name)}
+                  name={name}
                   required={required(name)}
-                  isMobile={isMobile}
+                  error={error(name)}
                   options={phoneCodes.map((phoneCode) => ({
-                    code: phoneCode.code,
-                    value: phoneCode.dial_code,
                     label: `${phoneCode.name} (${phoneCode.dial_code})`,
+                    value: phoneCode.dial_code,
+                    code: phoneCode.name,
                   }))}
                 />
               )}
             />
           </Col>
-          <Col xs={24} sm={24} md={14}>
+
+          <Col xs={24} sm={24} md={16}>
             <Controller
               name="phoneNumber"
               control={control}
+              defaultValue=""
               render={({ field: { onChange, value, name } }) => (
                 <InputNumber
                   label="Ingrese teléfono"
-                  name={name}
-                  value={value}
                   onChange={onChange}
-                  error={error(name)}
+                  value={value}
+                  name={name}
                   required={required(name)}
+                  error={error(name)}
                 />
               )}
             />
@@ -219,11 +216,11 @@ export const FormContact = () => {
               render={({ field: { onChange, value, name } }) => (
                 <Input
                   label="Ingrese asunto"
-                  name={name}
-                  value={value}
                   onChange={onChange}
-                  error={error(name)}
+                  value={value}
+                  name={name}
                   required={required(name)}
+                  error={error(name)}
                 />
               )}
             />
@@ -236,35 +233,27 @@ export const FormContact = () => {
               render={({ field: { onChange, value, name } }) => (
                 <TextArea
                   label="Ingrese mensaje"
-                  name={name}
-                  value={value}
                   onChange={onChange}
-                  error={error(name)}
+                  value={value}
+                  name={name}
                   required={required(name)}
+                  error={error(name)}
                 />
               )}
             />
           </Col>
-          <Col xs={24} sm={24} md={24} lg={8}>
+          <Col xs={24} sm={24} md={6}>
             <Button
               type="tertiary"
-              margin="0"
               block
               onClick={() => handleVisibleFormContact()}
-              disabled={loadingContact}
+              disabled={loadingSendEmail}
             >
               Cancelar
             </Button>
           </Col>
-          <Col xs={24} sm={24} md={24} lg={16}>
-            <Button
-              type="primary"
-              margin="0"
-              block
-              htmlType="submit"
-              loading={loadingContact}
-              disabled={loadingContact}
-            >
+          <Col xs={24} sm={24} md={18}>
+            <Button htmlType="submit" block loading={loadingSendEmail}>
               Enviar
             </Button>
           </Col>

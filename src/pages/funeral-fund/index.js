@@ -16,10 +16,9 @@ export const FuneralFund = () => {
         <img src={FondoSepelio} alt="Apoyo educativo" />
         <h2>Fossep</h2>
         <p>
-          Otorgamiento de ayuda económica social a los familiares directos del
-          personal cobiene y personal civil, nombrado y contratado en
-          situaciones de actividad con recursos asignados al presupuesto del
-          COBIENE
+          Somos una asociación sin fines de lucro, brindando un apoyo solidario
+          y auxilio mutuo, creada para otorgar servicios funerarios al personal
+          militar y civil
         </p>
       </div>
 

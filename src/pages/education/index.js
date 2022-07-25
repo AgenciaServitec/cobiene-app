@@ -14,9 +14,9 @@ export const Education = () => {
         <Title>Apoyo Educativo</Title>
         <Text>
           El COBIENE cuenta con 23 instituciones educativas a nivel nacional en
-          donde se imparte una educación de calidad con mejora continua,
-          brindando una educación de calidad con mejora continua, una educación
-          integral con valores, fortaleciendo la enseñanza del idioma ingles.
+          donde se imparte una educación de calidad con mejora continua y una
+          educación integral con valores, fortaleciendo la enseñanza del idioma
+          inglés.
         </Text>
       </div>
       <Button

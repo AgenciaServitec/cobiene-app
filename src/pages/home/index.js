@@ -1,7 +1,6 @@
 import React from "react";
 import styled, { css } from "styled-components";
 import { Button } from "../../components";
-import { CobieneLogo } from "../../images";
 import { useNavigate } from "react-router";
 
 export const Home = () => {
@@ -9,8 +8,7 @@ export const Home = () => {
 
   return (
     <Container>
-      <div className="content-logo">
-        <img src={CobieneLogo} alt="Cobiene logo" />
+      <div className="content-first">
         <h1>COBIENE EP</h1>
       </div>
       <Button width="100%" onClick={() => navigate("/education")}>
@@ -36,7 +34,7 @@ const Container = styled.div`
   ${({ theme }) => css`
     width: 100%;
     height: auto;
-    .content-logo {
+    .content-first {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -49,6 +47,7 @@ const Container = styled.div`
         margin-bottom: 0.5rem;
       }
       h1 {
+        padding-top: 1.5rem;
         color: ${theme.colors.white};
       }
     }

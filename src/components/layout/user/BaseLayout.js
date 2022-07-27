@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { Drawer } from "./Drawer";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
+import { HeaderHomePage } from "./HeaderHomePage";
 
 export const BaseLayout = ({ children }) => {
   const [visibleDrawer, setVisibleDrawer] = useState(false);
@@ -14,7 +15,12 @@ export const BaseLayout = ({ children }) => {
         visibleDrawer={visibleDrawer}
         onSetVisibleDrawer={setVisibleDrawer}
       />
-      <Header onSetVisibleDrawer={setVisibleDrawer} />
+      {window.location.pathname === "/" ? (
+        <HeaderHomePage onSetVisibleDrawer={setVisibleDrawer} />
+      ) : (
+        <Header onSetVisibleDrawer={setVisibleDrawer} />
+      )}
+
       <div className="body">{children}</div>
       <Footer />
     </Container>

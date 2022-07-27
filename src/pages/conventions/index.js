@@ -15,11 +15,11 @@ export const Conventions = () => {
           Convenios Vigentes con Entidades Educativas y Empresas Privadas
         </Title>
         <Text>
-          Convenios Educativos Suscritos por el, Comando de Bienestar del
-          COBIENE con Universidades, Institutos Tecnicos superiores y Pre
-          Universitarios, asi como con empresas privadas con Dsctos y tarifas
-          preferenciales que benefician al personal COBIENE y civil en
-          actividad, retiro, discapacitados y familiares.
+          Convenios Educativos Suscritos por el Comando de Bienestar con
+          Universidades, Institutos superiores y Pre Universidad,son empresas
+          privadas con Descuentos y tarifas preferenciales que benefician al
+          personal COBIENE y civil en actividad, retiro, discapacitados y
+          familiares.
         </Text>
       </div>
       <Button

@@ -31,12 +31,12 @@ export const Conventions = () => {
       <Button width="100%" onClick={() => navigate("/conventions/institutes")}>
         INSTITUTOS
       </Button>
-      <Button
+      {/*<Button
         width="100%"
         onClick={() => navigate("/conventions/pre-academies")}
       >
         ACADEMIAS PRE
-      </Button>
+      </Button>*/}
       <Button width="100%" onClick={() => navigate("/conventions/companies")}>
         EMPRESAS
       </Button>

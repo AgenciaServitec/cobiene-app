@@ -47,7 +47,7 @@ export const FuneralFund = () => {
           />
           <IconList
             icon={faPhone}
-            link="tel:+51958465839"
+            link="tel:014631560"
             text="botón de telefono"
           />
           <IconList

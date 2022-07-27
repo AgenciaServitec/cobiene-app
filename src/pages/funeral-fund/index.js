@@ -1,5 +1,10 @@
 import React from "react";
-import { Button, NavigateGoToLink, SocialLink } from "../../components";
+import {
+  Button,
+  IconList,
+  NavigateGoToLink,
+  SocialLink,
+} from "../../components";
 import styled, { css } from "styled-components";
 import { FondoSepelio } from "../../images";
 import {
@@ -8,18 +13,49 @@ import {
   faLocationDot,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
+import { faFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 export const FuneralFund = () => {
   return (
     <Container>
       <div className="content-logo">
         <img src={FondoSepelio} alt="Apoyo educativo" />
-        <h2>Fossep</h2>
+        <h2>Fondo Solidario De Sepelio Del Ejército Del Perú</h2>
         <p>
-          Somos una asociación sin fines de lucro, brindando un apoyo solidario
-          y auxilio mutuo, creada para otorgar servicios funerarios al personal
-          militar y civil
+          Institución de apoyo solidario y sentido humanista, creado para
+          atender los casos de fallecimiento de sus afiliados
         </p>
+      </div>
+
+      <div className="icon-section">
+        <h2>Contáctanos:</h2>
+        <div className="icon-content">
+          <IconList
+            icon={faLocationDot}
+            link="https://goo.gl/maps/7bTNPRKRks8WrJer5"
+            text="botón de ubicación"
+          />
+          <IconList
+            icon={faEnvelope}
+            link="mailto:fossep1@gmail.com"
+            text="botón de email"
+          />
+          <IconList
+            icon={faGlobe}
+            link="https://www.fossep.com.pe/"
+            text="botón de pagina web"
+          />
+          <IconList
+            icon={faPhone}
+            link="tel:+51958465839"
+            text="botón de telefono"
+          />
+          <IconList
+            icon={faWhatsapp}
+            link="https://api.whatsapp.com/send?phone=+51958465839&text=Hola%21%20Quisiera%20más%20información%20sobre%20Fossep.%20"
+            text="botón de WhatsApp"
+          />
+        </div>
       </div>
 
       <Button
@@ -106,11 +142,15 @@ export const FuneralFund = () => {
       <div className="link-list">
         <SocialLink
           icon={faLocationDot}
-          text="Av. de la policia Cdra.2 Jesús María (Velatorio del Hospital"
-          link="https://www.google.com.pe/maps/place/Velatorio+Hospital+Militar/@-12.0861749,-77.0620123,17z/data=!3m1!4b1!4m5!3m4!1s0x9105c900937c6be1:0xf2b7cf0aa981dc66!8m2!3d-12.0861802!4d-77.0598236?hl=es-419"
+          text="Av. de la policia Cdra.2 Jesús María (Velatorio del Hospital)"
+          link="https://goo.gl/maps/7bTNPRKRks8WrJer5"
         />
-        <SocialLink icon={faPhone} text="942 078 949" link="tel:+51942078949" />
-        <SocialLink icon={faPhone} text="999 851 552" link="tel:+51999851552" />
+        <SocialLink icon={faPhone} text="958 465 839" link="tel:+51958465839" />
+        <SocialLink
+          icon={faWhatsapp}
+          text="958 465 839"
+          link="https://api.whatsapp.com/send?phone=+51958465839&text=Hola%21%20Quisiera%20más%20información%20sobre%20Fossep.%20"
+        />
         <SocialLink
           icon={faEnvelope}
           text="fossep1@gmail.com"
@@ -144,12 +184,25 @@ const Container = styled.div`
       }
       h2 {
         text-shadow: ${theme.text_shadow.shadow_green};
+        text-align: center;
       }
       p {
         color: ${theme.colors.white};
         text-align: center;
       }
     }
+    .icon-section {
+      h2 {
+        line-height: 2.2rem;
+      }
+      .icon-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 1rem;
+      }
+    }
+
     .link-list {
       padding: 1rem;
     }

@@ -23,12 +23,11 @@ import { currentConfig } from "../../firebase";
 export const FormPractice = () => {
   const [visibleFormContact, setVisibleFormContact] =
     useGlobal("visibleFormContact");
-
   const [loadingSendEmail, setLoadingSendEmail] = useState(false);
-
   const handledVisibleFormContact = () =>
     setVisibleFormContact(!visibleFormContact);
 
+  // recoge los datos de los inputs
   const schema = yup.object({
     firstName: yup.string().required(),
     lastName: yup.string().required(),
@@ -39,15 +38,16 @@ export const FormPractice = () => {
     message: yup.string(),
   });
 
+  // pasasn los datos recogidos por las siguientes constantes y se verifican que no hayga ningun error
   const {
     formState: { errors },
     handleSubmit,
     control,
     reset,
   } = useForm({ resolver: yupResolver(schema) });
-
   const { error, required } = useFormUtils({ errors, schema });
 
+  // reuine la informacion para enviar a email
   const onSubmitFromContact = async (formData) => {
     try {
       setLoadingSendEmail(true);
@@ -80,6 +80,7 @@ export const FormPractice = () => {
     }
   };
 
+  //recoge la data y la ordena para enviarlo al email
   const mapContact = (formData) => ({
     contact: {
       firstName: formData.firstName,
@@ -93,7 +94,7 @@ export const FormPractice = () => {
       maessage: formData.message,
     },
   });
-
+  // resetea acabando el envio
   const resetContactFrom = () =>
     reset({
       firstName: "",

@@ -145,22 +145,6 @@ export const FuneralFund = () => {
           text="Av. de la policia Cdra.2 Jesús María (Velatorio del Hospital)"
           link="https://goo.gl/maps/7bTNPRKRks8WrJer5"
         />
-        <SocialLink icon={faPhone} text="958 465 839" link="tel:+51958465839" />
-        <SocialLink
-          icon={faWhatsapp}
-          text="958 465 839"
-          link="https://api.whatsapp.com/send?phone=+51958465839&text=Hola%21%20Quisiera%20más%20información%20sobre%20Fossep.%20"
-        />
-        <SocialLink
-          icon={faEnvelope}
-          text="fossep1@gmail.com"
-          link="mailto:fossep1@gmail.com"
-        />
-        <SocialLink
-          icon={faGlobe}
-          text="www.fossep.com.pe"
-          link="https://www.fossep.com.pe/"
-        />
       </div>
     </Container>
   );

@@ -52,7 +52,7 @@ export const FuneralFund = () => {
           />
           <IconList
             icon={faWhatsapp}
-            link="https://api.whatsapp.com/send?phone=+51958465839&text=Hola%21%20Quisiera%20más%20información%20sobre%20Fossep.%20"
+            link="https://api.whatsapp.com/send?phone=+51958465839&text=Hola%21%20Quisiera%20más%20información.%20"
             text="botón de WhatsApp"
           />
         </div>

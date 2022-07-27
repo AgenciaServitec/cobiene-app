@@ -45,16 +45,7 @@ export const universities = [
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
   },
-  {
-    image: Logo3,
-    title: "CATÓLICA DEL PERÚ",
-    benefits: [
-      "PRE GRADO : UBICA AL ALUMNO EN ESCALA DE PAGOS SEGÚN ESTUDIO REALIZADO EN LA UNIVERSIDAD.",
-      "LOS HIJOS DE PERSONAL COBIENE FALLECIDO O DISCAPACITADO PODRÁN POSTULAR A SU PROGRAMA DE 'BECAS POR SITUACIÓN ESPECIAL'",
-    ],
-    urlFile:
-      "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
-  },
+
   {
     image: Logo4,
     title: "CESAR VALLEJO",

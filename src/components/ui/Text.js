@@ -5,7 +5,7 @@ export const Text = ({ children, align = "center" }) => {
   return <TextContainer align={align}>{children}</TextContainer>;
 };
 
-const TextContainer = styled.h2`
+const TextContainer = styled.p`
   ${({ theme, align }) => css`
     color: ${theme.colors.white};
     text-align: ${align};

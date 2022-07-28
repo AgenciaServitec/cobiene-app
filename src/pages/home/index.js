@@ -1,6 +1,6 @@
 import React from "react";
 import styled, { css } from "styled-components";
-import { Button } from "../../components";
+import { Button, IframeFb } from "../../components";
 import { useNavigate } from "react-router";
 
 export const Home = () => {
@@ -27,6 +27,8 @@ export const Home = () => {
       <Button width="100%" onClick={() => navigate("/house-service")}>
         CASA DE SERVICIO
       </Button>
+
+      <IframeFb />
     </Container>
   );
 };

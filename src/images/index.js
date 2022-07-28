@@ -16,6 +16,7 @@ export { default as LogoAgenciaServitec } from "./webp/logotipo-agencia-servitec
 export { default as ImgTarapaca } from "./others/tarapaca.webp";
 export { default as ImgRimac } from "./others/rimac.webp";
 export { default as ImgEmptyDefault } from "./webp/img-default.webp";
+export { default as EjercitoDelPeruLogo } from "./webp/ejercito-del-peru-logo.webp";
 
 //--------Institutes from Lima and Province------
 

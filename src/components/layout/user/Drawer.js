@@ -15,7 +15,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faCircle } from "@fortawesome/free-regular-svg-icons";
 import { NavigateGoToLink } from "../../ui";
-import { CobieneLogo } from "../../../images";
+import { CobieneLogo, EjercitoDelPeruLogo } from "../../../images";
 
 export const Drawer = ({ visibleDrawer, onSetVisibleDrawer }) => {
   // const [visibleFormContact, setVisibleFormContact] =
@@ -111,6 +111,10 @@ export const Drawer = ({ visibleDrawer, onSetVisibleDrawer }) => {
           linkTo="/"
         />
       </div>
+      <div className="wrapper-footer">
+        <img src={EjercitoDelPeruLogo} alt="Footer image" />
+        <h4>A tu servicio</h4>
+      </div>
     </ComponentDrawerAntd>
   );
 };
@@ -126,5 +130,29 @@ const ComponentDrawerAntd = styled(DrawerAntd)`
   .ant-drawer-header,
   .ant-drawer-content {
     background: ${({ theme }) => theme.colors.white};
+  }
+
+  .wrapper-header {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 1rem 2rem 1rem;
+    img {
+      width: 7rem;
+    }
+  }
+
+  .wrapper-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem 1rem 1rem 1rem;
+    color: ${({ theme }) => theme.colors.dark};
+    img {
+      width: 5rem;
+    }
+    h4 {
+      color: inherit;
+    }
   }
 `;

@@ -78,7 +78,7 @@ const Container = styled.header`
     .item-titles {
       display: flex;
       flex-direction: column;
-      align-items: start;
+      align-items: center;
       justify-content: end;
       padding: 1rem 0 0 0;
       h3 {

@@ -129,7 +129,7 @@ const ComponentDrawerAntd = styled(DrawerAntd)`
   }
   .ant-drawer-header,
   .ant-drawer-content {
-    background: ${({ theme }) => theme.colors.white};
+    background: #fff;
   }
 
   .wrapper-header {

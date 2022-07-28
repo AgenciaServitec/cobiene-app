@@ -5,7 +5,7 @@ export const FormContactContext = createContext({
   setVisibleFormContact: () => null,
 });
 
-export const FormContactPopUp = ({ children }) => {
+export const FormContactProvider = ({ children }) => {
   const [visibleFormContact, setVisibleFormContact] = useState(false);
 
   return (

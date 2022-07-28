@@ -6,7 +6,7 @@ import { theme } from "./styles";
 import { GlobalStyles } from "./styles/themes/GlobalStyle";
 import { yup } from "./config";
 import { setLocale } from "yup";
-import { FormContactPopUp } from "./providers";
+import { FormContactProvider } from "./providers";
 import { FormContact } from "./components";
 
 export const App = () => {
@@ -18,10 +18,10 @@ export const App = () => {
     <BrowserRouter>
       <ThemeProvider theme={theme}>
         <GlobalStyles />
-        <FormContactPopUp>
+        <FormContactProvider>
           <Router />
           <FormContact />
-        </FormContactPopUp>
+        </FormContactProvider>
       </ThemeProvider>
     </BrowserRouter>
   );

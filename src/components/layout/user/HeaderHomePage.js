@@ -61,7 +61,7 @@ const Container = styled.header`
     grid-gap: 0.7rem;
     grid-template-columns: auto 1fr;
     position: absolute;
-    top: 9.4rem;
+    top: 8.4rem;
     padding: 0 1rem;
     .img-box {
       background: radial-gradient(#11581e, #041607);
@@ -70,8 +70,8 @@ const Container = styled.header`
       border-radius: 50%;
 
       img {
-        width: 5.5rem;
-        height: 5.5rem;
+        width: 4.5rem;
+        height: 4.5rem;
         object-fit: contain;
       }
     }
@@ -83,6 +83,7 @@ const Container = styled.header`
       padding: 1rem 0 0 0;
       h3 {
         line-height: 1.7rem;
+        font-size: 1rem;
       }
       h3,
       p {

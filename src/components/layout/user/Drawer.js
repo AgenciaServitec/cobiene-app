@@ -9,6 +9,7 @@ import {
   faGraduationCap,
   faHome,
   faHomeUser,
+  faNewspaper,
   faShoppingCart,
   faThLarge,
   faUsers,
@@ -100,6 +101,15 @@ export const Drawer = ({ visibleDrawer, onSetVisibleDrawer }) => {
           }
           icon={faHomeUser}
           linkTo="/"
+        />
+        <MenuItem
+          text="Noticias"
+          onClick={() => {
+            handleVisibleFormContact();
+            return onSetVisibleDrawer(false);
+          }}
+          icon={faNewspaper}
+          linkTo="/news"
         />
         <MenuItem
           text="Contactanos"

@@ -23,6 +23,7 @@ import {
   OfficersCircle,
   TechniciansCircle,
   PoliciesAndPrivacy,
+  News,
 } from "../pages";
 
 export const Router = () => {
@@ -214,6 +215,15 @@ export const Router = () => {
         element={
           <BaseLayout>
             <PoliciesAndPrivacy />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/news"
+        element={
+          <BaseLayout>
+            <News />
           </BaseLayout>
         }
       />

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useGlobal } from "reactn";
 import styled, { css } from "styled-components";
 import ModalAntd from "antd/lib/modal/Modal";
 import { mediaQuery } from "../../styles/constants/mediaQuery";
@@ -18,7 +19,6 @@ import { TextArea } from "./TextArea";
 import { notification } from "./notification";
 import { currentConfig } from "../../firebase";
 import { Button } from "./Button";
-import { useGlobal } from "reactn";
 
 export const FormContact = () => {
   const [visibleFormContact, setVisibleFormContact] =

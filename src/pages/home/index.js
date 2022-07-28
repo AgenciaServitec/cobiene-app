@@ -10,6 +10,7 @@ export const Home = () => {
     <Container>
       <div className="content-first">
         <h1>COBIENE EP</h1>
+        <h2>Ejercito del Perú</h2>
       </div>
       <Button width="100%" onClick={() => navigate("/education")}>
         APOYO EDUCATIVO
@@ -49,6 +50,9 @@ const Container = styled.div`
       h1 {
         padding-top: 1.5rem;
         color: ${theme.colors.white};
+      }
+      h2 {
+        font-size: 1rem;
       }
     }
   `}

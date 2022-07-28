@@ -15,11 +15,11 @@ export const ServiceSocial = () => {
         <p>
           <br />
           El departamento de Apoyo Social realiza la suscripción de convenios
-          educativos y multisectoriales; re categorización de pensiones
-          educativas superiores; otorgamiento de becas, apoyo social con bolsa
-          de víveres y ayudas económicas; actividades recreativas, culturales,
-          de apoyo religioso y asesoramiento al personal, COBIENE, civil y
-          personal con discapacidad y sus familiares directos
+          educativos; re categorización de pensiones educativas superiores;
+          otorgamiento de becas, apoyo social con bolsa de víveres y ayudas
+          económicas; actividades recreativas, culturales, de apoyo religioso y
+          asesoramiento al personal, COBIENE, civil y personal con discapacidad
+          y sus familiares directos
         </p>
       </div>
       <Button

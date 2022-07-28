@@ -1,4 +1,5 @@
 import {
+  ImgFedericoVidarreal,
   Logo1,
   Logo10,
   Logo11,
@@ -12,10 +13,8 @@ import {
   Logo19,
   Logo2,
   Logo21,
-  Logo3,
   Logo4,
   Logo5,
-  ImgFedericoVidarreal,
   Logo7,
   Logo8,
   Logo9,

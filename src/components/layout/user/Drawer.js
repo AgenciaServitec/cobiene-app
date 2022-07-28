@@ -112,7 +112,7 @@ export const Drawer = ({ visibleDrawer, onSetVisibleDrawer }) => {
         />
       </div>
       <div className="wrapper-footer">
-        <img src={EjercitoDelPeruLogo} alt="Footer image" />
+        <img src={EjercitoDelPeruLogo} alt="Footer logo" />
         <h4>A tu servicio</h4>
       </div>
     </ComponentDrawerAntd>

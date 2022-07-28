@@ -58,10 +58,10 @@ const Container = styled.header`
   .wrapper-header {
     width: 100%;
     display: grid;
-    grid-gap: 1rem;
+    grid-gap: 0.7rem;
     grid-template-columns: auto 1fr;
     position: absolute;
-    top: 9rem;
+    top: 8.4rem;
     padding: 0 1rem;
     .img-box {
       background: radial-gradient(#11581e, #041607);
@@ -80,7 +80,7 @@ const Container = styled.header`
       flex-direction: column;
       align-items: start;
       justify-content: end;
-      padding: 1rem 0;
+      padding: 1rem 0 0.4rem 0;
       h3 {
         line-height: 1.7rem;
       }

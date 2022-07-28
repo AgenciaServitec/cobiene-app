@@ -81,6 +81,7 @@ const CollapseAntd = styled(Collapse)`
       text-align: left;
       text-transform: uppercase;
       span {
+        max-width: 277px;
         color: ${({ theme }) => theme.colors.white};
       }
     }

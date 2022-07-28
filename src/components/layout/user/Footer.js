@@ -8,14 +8,15 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
-import { useGlobal } from "reactn";
 
 export const Footer = () => {
-  const [visibleFormContact, setVisibleFormContact] =
-    useGlobal("visibleFormContact");
+  // const [visibleFormContact, setVisibleFormContact] =
+  //   useGlobal("visibleFormContact");
+  //
+  // const handleVisibleFormContact = () =>
+  //   setVisibleFormContact(!visibleFormContact);
 
-  const handleVisibleFormContact = () =>
-    setVisibleFormContact(!visibleFormContact);
+  const handleVisibleFormContact = () => console.log("PRUEBA");
 
   return (
     <Container>

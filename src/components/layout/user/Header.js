@@ -6,6 +6,9 @@ import { CobieneLogo } from "../../../images";
 import { useNavigate } from "react-router";
 
 export const Header = ({ onSetVisibleDrawer }) => {
+  // const [visibleFormContact, setVisibleFormContact] =
+  //   useGlobal("visibleFormContact");
+
   const navigate = useNavigate();
 
   const pathName = window.location.pathname;

@@ -32,5 +32,5 @@ export const Home = () => {
 const Container = styled.div`
   width: 100%;
   height: auto;
-  margin-top: 5rem;
+  margin-top: 6rem;
 `;

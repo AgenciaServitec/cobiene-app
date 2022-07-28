@@ -27,7 +27,7 @@ export const HeaderHomePage = ({ onSetVisibleDrawer }) => {
           />
         </div>
         <div className="item-titles">
-          <h3>COBIENE EP</h3>
+          <h3>COMANDO DE BIENESTAR</h3>
           <p>Ejercito del Perú</p>
         </div>
       </div>
@@ -61,7 +61,7 @@ const Container = styled.header`
     grid-gap: 0.7rem;
     grid-template-columns: auto 1fr;
     position: absolute;
-    top: 8.4rem;
+    top: 9.4rem;
     padding: 0 1rem;
     .img-box {
       background: radial-gradient(#11581e, #041607);
@@ -80,7 +80,7 @@ const Container = styled.header`
       flex-direction: column;
       align-items: start;
       justify-content: end;
-      padding: 1rem 0 0.4rem 0;
+      padding: 1rem 0 0 0;
       h3 {
         line-height: 1.7rem;
       }

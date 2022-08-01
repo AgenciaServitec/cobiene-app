@@ -28,7 +28,7 @@ export const HeaderHomePage = ({ onSetVisibleDrawer }) => {
         </div>
         <div className="item-titles">
           <h3>COMANDO DE BIENESTAR</h3>
-          <p>Ejercito del Perú</p>
+          <p>Ejército del Perú</p>
         </div>
       </div>
     </Container>

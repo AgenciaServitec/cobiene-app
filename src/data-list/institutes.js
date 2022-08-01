@@ -6,29 +6,28 @@ import {
   CEPEA,
   CEPEABAN,
   CESCA,
+  CEVATUR,
   DanielCarrion,
   DesarrolloGeneral,
+  eigra,
   EscueladeGerencia,
   ESCUELADEGRADUADOS,
   EUROIDIOMAS,
   FORMACIONEMPRESARIAL,
+  GALLIA,
   GAMOR,
-  HEADWAYCOLLEGE,
+  guide,
   ICPNA,
   INIDHE,
   INTECI,
+  LATINO,
   LECTURAVELOZ,
   LIBERTADOR,
   PRIVATECHER,
   ProfesionalTecnico,
   SANIGNACIO,
-  CEVATUR,
   SanVicente,
-  GALLIA,
-  LATINO,
   SIZE,
-  eigra,
-  guide,
 } from "../images";
 
 export const institutes = [
@@ -130,13 +129,13 @@ export const institutes = [
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
   },
-  {
-    image: HEADWAYCOLLEGE,
-    title: "HEADWAYCOLLEGE",
-    benefits: ["10% DSCTO  EN EL PAGO DE PENSIONES"],
-    urlFile:
-      "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-  },
+  // {
+  //   image: HEADWAYCOLLEGE,
+  //   title: "HEADWAYCOLLEGE",
+  //   benefits: ["10% DSCTO  EN EL PAGO DE PENSIONES"],
+  //   urlFile:
+  //     "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+  // },
   {
     image: INTECI,
     title: "INTECI",

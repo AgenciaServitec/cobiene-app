@@ -1,6 +1,5 @@
 import {
   ImgFedericoVidarreal,
-  Logo1,
   Logo10,
   Logo11,
   Logo12,

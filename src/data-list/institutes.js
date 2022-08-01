@@ -5,7 +5,6 @@ import {
   CentroModas,
   CEPEA,
   CEPEABAN,
-  CESCA,
   CEVATUR,
   DanielCarrion,
   DesarrolloGeneral,
@@ -52,13 +51,13 @@ export const institutes = [
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
   },
-  {
-    image: CESCA,
-    title: "CESCA",
-    benefits: ["10% DSCTO  EN EL PAGO DE PENSIONES"],
-    urlFile:
-      "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-  },
+  // {
+  //   image: CESCA,
+  //   title: "CESCA",
+  //   benefits: ["10% DSCTO  EN EL PAGO DE PENSIONES"],
+  //   urlFile:
+  //     "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+  // },
   {
     image: GAMOR,
     title: "GAMOR",

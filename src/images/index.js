@@ -53,27 +53,25 @@ export { default as ImgOfficers6 } from "./others/sede-piura.webp";
 
 //-------- Universities------
 export { default as Logo1 } from "./webp/logo1.webp";
-export { default as Logo2 } from "./webp/logo2.webp";
-export { default as Logo3 } from "./webp/logo3.webp";
-export { default as Logo4 } from "./webp/logo4.webp";
-export { default as Logo5 } from "./webp/logo5.webp";
-export { default as Logo6 } from "./webp/logo6.webp";
-export { default as Logo7 } from "./webp/logo7.webp";
-export { default as Logo8 } from "./webp/logo8.webp";
-export { default as Logo9 } from "./webp/logo9.webp";
-export { default as Logo10 } from "./webp/logo10.webp";
-export { default as Logo11 } from "./webp/logo11.webp";
-export { default as Logo12 } from "./webp/logo12.webp";
-export { default as Logo13 } from "./webp/logo13.webp";
-export { default as Logo14 } from "./webp/logo14.webp";
-export { default as Logo15 } from "./webp/logo15.webp";
-export { default as Logo16 } from "./webp/logo16.webp";
-export { default as Logo17 } from "./webp/logo17.webp";
-export { default as Logo18 } from "./webp/logo18.webp";
-export { default as Logo19 } from "./webp/logo19.webp";
-export { default as Logo20 } from "./webp/logo20.webp";
-export { default as Logo21 } from "./webp/logo21.webp";
+export { default as ImgCientificaDelSur } from "./webp/logo2.webp";
+export { default as ImgCesarVallejo } from "./webp/logo4.webp";
+export { default as ImgEsan } from "./webp/logo5.webp";
+export { default as ImgJaimeBausate } from "./webp/logo7.webp";
+export { default as ImgMarcelinoChampagnat } from "./webp/logo8.webp";
+export { default as ImgNorbertWiener } from "./webp/logo9.webp";
+export { default as ImgUniversidadDelPacifico } from "./webp/logo10.webp";
+export { default as ImgRicardoPalma } from "./webp/logo11.webp";
+export { default as ImgSanIngnacioLoyola } from "./webp/logo12.webp";
+export { default as ImgSanJuanBautista } from "./webp/logo13.webp";
+export { default as ImgSanMartin } from "./webp/logo14.webp";
+export { default as ImgSanMarcos } from "./webp/logo15.webp";
+export { default as ImgSeniorSipan } from "./webp/logo16.webp";
+export { default as ImgUtp } from "./webp/logo17.webp";
+export { default as ImgCatolicaSede } from "./webp/logo18.webp";
+export { default as ImgUnife } from "./webp/logo19.webp";
+export { default as ImgUpc } from "./webp/logo21.webp";
 export { default as Norte } from "./webp/norte.webp";
+export { default as ImgConservatorio } from "./others/img-coservatorio.webp";
 
 //-------- Institutes------
 export { default as CentroModas } from "./webp/instituto1.webp";

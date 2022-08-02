@@ -7,6 +7,10 @@ import { HeaderHomePage } from "./HeaderHomePage";
 
 export const BaseLayout = ({ children }) => {
   const [visibleDrawer, setVisibleDrawer] = useState(false);
+  const [visibleFormContact, setVisibleFormContact] = useState(false);
+
+  const handleVisibleFormContact = () =>
+    setVisibleFormContact(!visibleFormContact);
 
   return (
     <Container>
@@ -14,6 +18,8 @@ export const BaseLayout = ({ children }) => {
       <Drawer
         visibleDrawer={visibleDrawer}
         onSetVisibleDrawer={setVisibleDrawer}
+        visibleFormContact={visibleFormContact}
+        handleVisibleFormContact={handleVisibleFormContact}
       />
       {window.location.pathname === "/" ? (
         <HeaderHomePage onSetVisibleDrawer={setVisibleDrawer} />

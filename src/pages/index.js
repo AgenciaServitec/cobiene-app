@@ -21,3 +21,4 @@ export * from "./military-circle";
 export * from "./military-circle/officers-circle";
 export * from "./military-circle/technicians-circle";
 export * from "./policies-and-privacy";
+export * from "./news";

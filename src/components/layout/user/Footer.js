@@ -38,9 +38,12 @@ export const Footer = () => {
             </a>
           </li>
           <li className="item-icon">
-            <span onClick={() => handleVisibleFormContact()}>
+            <a href="mailto:contacto@cobiene.mil.pe">
               <FontAwesomeIcon icon={faEnvelope} size="2x" />
-            </span>
+            </a>
+            {/*<span onClick={() => handleVisibleFormContact()}>*/}
+            {/*  <FontAwesomeIcon icon={faEnvelope} size="2x" />*/}
+            {/*</span>*/}
           </li>
           {/*<li className="item-icon">*/}
           {/*  <a href="">*/}

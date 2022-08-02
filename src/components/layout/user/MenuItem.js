@@ -7,8 +7,10 @@ export const MenuItem = ({ onClick, text, icon, linkTo }) => {
   return (
     <Container onClick={() => onClick()}>
       <Link to={linkTo} className="section-link">
-        <div className="box-icon">
-          <FontAwesomeIcon className="item-icon" icon={icon} />
+        <div className="item-left">
+          <div className="box-icon">
+            <FontAwesomeIcon className="item-icon" icon={icon} />
+          </div>
         </div>
         <div className="box-text">
           <h3>{text}</h3>
@@ -20,8 +22,8 @@ export const MenuItem = ({ onClick, text, icon, linkTo }) => {
 
 const Container = styled.div`
   .section-link {
-    display: flex;
-    justify-content: start;
+    display: grid;
+    grid-template-columns: 13% 1fr;
     align-items: center;
     gap: 1rem;
     margin-bottom: 1rem;

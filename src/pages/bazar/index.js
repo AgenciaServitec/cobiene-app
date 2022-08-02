@@ -22,12 +22,12 @@ export const Bazar = () => {
         <SocialLink
           icon={faGlobeAmericas}
           text="TUBAZAR.COM.PE"
-          link="http://www.tubazar.com.pe/?content=inicio"
+          link="http://www.tubazar.com.pe/"
         />
         <SocialLink
           icon={faFacebook}
           text="BAZAR-CENTRAL"
-          link="https://m.facebook.com/pages/Bazar-Central-del-Ejercito/106906409343077"
+          link="https://www.facebook.com/bce.tubazar/"
         />
 
         <SocialLink

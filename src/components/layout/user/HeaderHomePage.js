@@ -16,9 +16,20 @@ export const HeaderHomePage = ({ onSetVisibleDrawer }) => {
       <div className="content-right" onClick={() => onSetVisibleDrawer(true)}>
         <FontAwesomeIcon icon={faBars} size="2x" />
       </div>
-      <div className="horizontal-line"></div>
-      <div className="img-box">
-        <img src={CobieneLogo} alt="Logo Cobiene" width="100%" height="100%" />
+      <div className="horizontal-line" />
+      <div className="wrapper-header">
+        <div className="img-box">
+          <img
+            src={CobieneLogo}
+            alt="Logo Cobiene"
+            width="100%"
+            height="100%"
+          />
+        </div>
+        <div className="item-titles">
+          <h3>COMANDO DE BIENESTAR</h3>
+          <p>Ejército del Perú</p>
+        </div>
       </div>
     </Container>
   );
@@ -32,7 +43,7 @@ const Container = styled.header`
   }
   .content-right {
     background-color: #7f9e47;
-    padding: 0.7rem 1rem;
+    padding: 0.5rem 0.7rem;
     border-radius: 0.7em;
     position: absolute;
     right: 4%;
@@ -41,23 +52,43 @@ const Container = styled.header`
   }
   .horizontal-line {
     width: 100%;
-    height: 12px;
+    height: 8px;
     background-color: #7f9e47;
   }
-  .img-box {
-    background: radial-gradient(#11581e, #041607);
-    border: 9px solid #7f9e47;
-    display: inline-block;
-    padding: 1rem;
-    border-radius: 50%;
+  .wrapper-header {
+    width: 100%;
+    display: grid;
+    grid-gap: 0.7rem;
+    grid-template-columns: auto 1fr;
     position: absolute;
-    left: 5%;
-    bottom: -27%;
+    top: 8.4rem;
+    padding: 0 1rem;
+    .img-box {
+      background: radial-gradient(#11581e, #041607);
+      border: 7px solid #7f9e47;
+      padding: 1rem;
+      border-radius: 50%;
 
-    img {
-      width: 5.5rem;
-      height: 5.5rem;
-      object-fit: contain;
+      img {
+        width: 4.5rem;
+        height: 4.5rem;
+        object-fit: contain;
+      }
+    }
+    .item-titles {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: end;
+      padding: 1rem 0 0 0;
+      h3 {
+        line-height: 1.7rem;
+        font-size: 1rem;
+      }
+      h3,
+      p {
+        margin: 0;
+      }
     }
   }
 `;

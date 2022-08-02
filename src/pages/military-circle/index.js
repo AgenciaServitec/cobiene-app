@@ -3,6 +3,9 @@ import { Button, Text, Title } from "../../components";
 import { CobieneLogo } from "../../images";
 import { useNavigate } from "react-router";
 import styled from "styled-components";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faGlobe, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 export const MilitaryCircle = () => {
   const navigate = useNavigate();
@@ -12,6 +15,25 @@ export const MilitaryCircle = () => {
       <div className="content-initial">
         <img src={CobieneLogo} alt="Cobien logo" />
         <Title>Circulo Militar</Title>
+        <div className="social-icons">
+          <ul className="list-icon">
+            <li className="item-icon">
+              <a href="https://www.facebook.com/circulomilitardelperu/?locale2=es?LA">
+                <FontAwesomeIcon icon={faFacebook} size="2x" />
+              </a>
+            </li>
+            <li className="item-icon">
+              <a href="tel:+51012527992">
+                <FontAwesomeIcon icon={faPhone} size="2x" />
+              </a>
+            </li>
+            <li className="item-icon">
+              <a href="https://www.circulomilitardelperu.com/contacto">
+                <FontAwesomeIcon icon={faGlobe} size="2x" />
+              </a>
+            </li>
+          </ul>
+        </div>
         <Text>
           Somos una Asociación, creada para brindar bienestar a nuestros
           asociados y publico en general, ofreciendo una gama de servicios de
@@ -50,6 +72,27 @@ const Container = styled.div`
       height: auto;
       object-fit: contain;
       margin-bottom: 1rem;
+    }
+  }
+  .social-icons {
+    width: 100%;
+    padding-top: 1rem;
+
+    .list-icon {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      list-style: none;
+
+      .item-icon {
+        margin: 0 1rem;
+
+        a,
+        span {
+          color: inherit;
+        }
+      }
     }
   }
 `;

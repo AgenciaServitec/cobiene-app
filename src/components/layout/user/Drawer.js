@@ -103,10 +103,7 @@ export const Drawer = ({ visibleDrawer, onSetVisibleDrawer }) => {
           />
           <MenuItem
             text="Noticias"
-            onClick={() => {
-              handleVisibleFormContact();
-              return onSetVisibleDrawer(false);
-            }}
+            onClick={() => onSetVisibleDrawer(false)}
             icon={faNewspaper}
             linkTo="/news"
           />

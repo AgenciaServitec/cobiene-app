@@ -105,6 +105,11 @@ export { default as ALIANZAFRANCESA } from "./webp/instituto29.webp";
 export { default as SIZE } from "./webp/instituto28.webp";
 export { default as eigra } from "./webp/eigra.webp";
 export { default as guide } from "./webp/guide.webp";
+export { default as ImgVonBraun } from "./webp/img-von-braun.webp";
+export { default as ImgAndreVesalio } from "./webp/img-andre-vesalio.webp";
+export { default as ImgEcaprev } from "./webp/img-ecaprev.webp";
+export { default as ImgIcim } from "./webp/img-icim.webp";
+export { default as ImgIspaci } from "./webp/img-ispaci.webp";
 
 //-------- Companies ------
 export { default as ImgApelac } from "./webp/img-apelac.webp";

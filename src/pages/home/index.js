@@ -21,7 +21,7 @@ export const Home = () => {
         FONDO DE SEPELIO
       </Button>
       <Button width="100%" onClick={() => navigate("/house-service")}>
-        CASA DE SERVICIO
+        VIVIENDA
       </Button>
 
       <IframeFb />

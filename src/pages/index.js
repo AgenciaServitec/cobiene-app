@@ -11,6 +11,7 @@ export * from "./conventions/companies";
 export * from "./conventions/pre-academies";
 export * from "./conventions/banks";
 export * from "./house-service";
+export * from "./house-service/house-services";
 export * from "./funeral-fund";
 export * from "./social-service";
 export * from "./social-service/apoyo-economico";

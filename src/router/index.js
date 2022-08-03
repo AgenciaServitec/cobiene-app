@@ -24,6 +24,7 @@ import {
   TechniciansCircle,
   PoliciesAndPrivacy,
   News,
+  HouseServices,
 } from "../pages";
 
 export const Router = () => {
@@ -125,6 +126,15 @@ export const Router = () => {
         element={
           <BaseLayout>
             <HouseService />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/house-service/house-services"
+        element={
+          <BaseLayout>
+            <HouseServices />
           </BaseLayout>
         }
       />

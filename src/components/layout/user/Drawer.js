@@ -12,12 +12,15 @@ import {
   faNewspaper,
   faShoppingCart,
   faThLarge,
+  faTree,
   faUsers,
 } from "@fortawesome/free-solid-svg-icons";
 import { faCircle } from "@fortawesome/free-regular-svg-icons";
 import { NavigateGoToLink } from "../../ui";
 import { CobieneLogo, EjercitoDelPeruLogo } from "../../../images";
 import { useFormContact } from "../../../providers";
+import Collapse from "antd/lib/collapse";
+import { DrawerShow } from "../../home";
 
 export const Drawer = ({ visibleDrawer, onSetVisibleDrawer }) => {
   const { visibleFormContact, setVisibleFormContact } = useFormContact();
@@ -55,52 +58,79 @@ export const Drawer = ({ visibleDrawer, onSetVisibleDrawer }) => {
             icon={faGraduationCap}
             linkTo="/education"
           />
-          <MenuItem
-            text="Servicio Social"
-            onClick={() => onSetVisibleDrawer(false)}
+          <DrawerShow
             icon={faUsers}
-            linkTo="/social-service"
+            title="Asistencia Social"
+            content={
+              <>
+                <MenuItem
+                  text="Servicio Social"
+                  onClick={() => onSetVisibleDrawer(false)}
+                  icon={faUsers}
+                  linkTo="/social-service"
+                />
+                <MenuItem
+                  text="Servicio de sepelio"
+                  onClick={() => onSetVisibleDrawer(false)}
+                  icon={faChurch}
+                  linkTo="/funeral-fund"
+                />
+              </>
+            }
           />
-          <MenuItem
-            text="Servicio de sepelio"
-            onClick={() => onSetVisibleDrawer(false)}
-            icon={faChurch}
-            linkTo="/funeral-fund"
+
+          <DrawerShow
+            title="Recreación"
+            icon={faTree}
+            content={
+              <>
+                <MenuItem
+                  text="Circulo Militar"
+                  onClick={() => onSetVisibleDrawer(false)}
+                  icon={faCircle}
+                  linkTo="/military-circle"
+                />
+                <MenuItem
+                  text="Circulo Militar SPRES TCOS SOO"
+                  onClick={() => onSetVisibleDrawer(false)}
+                  icon={faCircle}
+                  linkTo="/military-circle-spres-tcos-soo"
+                />
+              </>
+            }
           />
-          <MenuItem
-            text="Circulo Militar"
-            onClick={() => onSetVisibleDrawer(false)}
-            icon={faCircle}
-            linkTo="/military-circle"
-          />
-          <MenuItem
-            text="Circulo Militar SPRES TCOS SOO"
-            onClick={() => onSetVisibleDrawer(false)}
-            icon={faCircle}
-            linkTo="/military-circle-spres-tcos-soo"
-          />
+
           <MenuItem
             text="Bazar del Ejercito"
             onClick={() => onSetVisibleDrawer(false)}
             icon={faShoppingCart}
             linkTo="/bazar"
           />
-          <MenuItem
-            text="Casa de servico"
-            onClick={() => onSetVisibleDrawer(false)}
+          <DrawerShow
+            title="Vivienda"
             icon={faHome}
-            linkTo="/house-service"
-          />
-          <MenuItem
-            text="Fovime"
-            onClick={() =>
-              NavigateGoToLink(
-                "https://fovime.com/expo-fovime-2022/inmobiliarias/"
-              )
+            content={
+              <>
+                <MenuItem
+                  text="Casa de servico"
+                  onClick={() => onSetVisibleDrawer(false)}
+                  icon={faHome}
+                  linkTo="/house-service"
+                />
+                <MenuItem
+                  text="Fovime"
+                  onClick={() =>
+                    NavigateGoToLink(
+                      "https://fovime.com/expo-fovime-2022/inmobiliarias/"
+                    )
+                  }
+                  icon={faHomeUser}
+                  linkTo="/"
+                />
+              </>
             }
-            icon={faHomeUser}
-            linkTo="/"
           />
+
           <MenuItem
             text="Noticias"
             onClick={() => onSetVisibleDrawer(false)}
@@ -146,6 +176,9 @@ const ComponentDrawerAntd = styled(DrawerAntd)`
     img {
       width: 7rem;
     }
+  }
+  .show-list {
+    color: #000;
   }
 
   .wrapper-footer {

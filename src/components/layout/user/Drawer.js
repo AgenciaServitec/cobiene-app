@@ -91,10 +91,10 @@ export const Drawer = ({ visibleDrawer, onSetVisibleDrawer }) => {
                   linkTo="/military-circle"
                 />
                 <MenuItem
-                  text="Circulo Militar SPRES TCOS SOO"
+                  text="Circulo Militar de Técnicos Sub Oficiales "
                   onClick={() => onSetVisibleDrawer(false)}
                   icon={faCircle}
-                  linkTo="/military-circle-spres-tcos-soo"
+                  linkTo="/military-circle/technicians-circle"
                 />
               </>
             }

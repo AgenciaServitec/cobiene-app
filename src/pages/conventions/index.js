@@ -3,6 +3,8 @@ import { Convenios } from "../../images";
 import { Button, Text, Title } from "../../components";
 import styled from "styled-components";
 import { useNavigate } from "react-router";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faList } from "@fortawesome/free-solid-svg-icons";
 
 export const Conventions = () => {
   const navigate = useNavigate();
@@ -21,6 +23,17 @@ export const Conventions = () => {
           personal COBIENE y civil en actividad, retiro, discapacitados y
           familiares.
         </Text>
+      </div>
+      <div className="list-convenios">
+        <a href="https://drive.google.com/file/d/1qg_UAFd9oq_GyB7cGjErzYcSXYlNFWDO/view?usp=sharing">
+          <FontAwesomeIcon icon={faList} size="2x" />
+          Lista de Convenios de empresas:
+        </a>
+
+        <a href="https://drive.google.com/file/d/16Bkp4ZZcFmaKJ9xFuSlpuheaU-GzpDGk/view?usp=sharing">
+          <FontAwesomeIcon icon={faList} size="2x" />
+          Lista de convenios de universidades e institutos:
+        </a>
       </div>
       <Button
         width="100%"
@@ -62,6 +75,21 @@ const Container = styled.div`
       height: auto;
       object-fit: contain;
       margin-bottom: 1rem;
+    }
+  }
+  .list-convenios {
+    color: dodgerblue;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin: 1.5rem 0;
+    font-size: 1em;
+    a {
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: start;
+      svg {
+        margin-right: 1rem;
+      }
     }
   }
 `;

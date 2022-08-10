@@ -137,6 +137,8 @@ export { default as ImgMultident } from "./webp/img-multident.webp";
 export { default as ImgOltursa } from "./webp/img-oltursa.webp";
 export { default as ImgRenzoCosta } from "./webp/img-renzo-costa.webp";
 export { default as ImgTinnitus } from "./webp/img-tinnitus.webp";
+export { default as ImgLogistas } from "./webp/img-logistas.webp";
+export { default as ImgSugo } from "./webp/img-sugo.webp";
 
 //-------- Academies PRe ------
 export { default as Academie1 } from "./others/academie1.webp";

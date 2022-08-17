@@ -101,7 +101,6 @@ export { default as BRITANICO } from "./webp/instituto24.webp";
 export { default as FORMACIONEMPRESARIAL } from "./webp/instituto25.webp";
 export { default as MARKAYACHAY } from "./webp/instituto26.webp";
 export { default as ESCUELADEGRADUADOS } from "./webp/instituto27.webp";
-export { default as ALIANZAFRANCESA } from "./webp/instituto29.webp";
 export { default as SIZE } from "./webp/instituto28.webp";
 export { default as eigra } from "./webp/eigra.webp";
 export { default as guide } from "./webp/guide.webp";
@@ -110,6 +109,8 @@ export { default as ImgAndreVesalio } from "./webp/img-andre-vesalio.webp";
 export { default as ImgEcaprev } from "./webp/img-ecaprev.webp";
 export { default as ImgIcim } from "./webp/img-icim.webp";
 export { default as ImgIspaci } from "./webp/img-ispaci.webp";
+export { default as ImgAlianzaFrancesa } from "./webp/img-alianza-franc.webp";
+export { default as ImgIsilInst } from "./webp/img-isil-inst.webp";
 
 //-------- Companies ------
 export { default as ImgApelac } from "./webp/img-apelac.webp";

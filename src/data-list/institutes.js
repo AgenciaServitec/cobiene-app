@@ -15,9 +15,11 @@ import {
   GAMOR,
   guide,
   ICPNA,
+  ImgAlianzaFrancesa,
   ImgAndreVesalio,
   ImgEcaprev,
   ImgIcim,
+  ImgIsilInst,
   ImgIspaci,
   ImgVonBraun,
   INIDHE,
@@ -40,8 +42,10 @@ export const institutes = [
     image: CEPEA,
     title: "CEPEA",
     benefits: [
-      "20% DESCUENTO EN EL PAGO DE PENSIONES (GASTRONOMIA, GUIA OFICIAL DE TURISMO, ADM. HOTELERA)",
-      "30% DESCUENTO EN EL PAGO DE PENSIONES (ADMINISTRACION, CONTABILIDAD, ENFERMERIA Y SISTEMA INFORMATICO",
+      "CARRERAS DE GASTRONOMÍA Y ARTES CULINARIAS, ADMINISTRACIÓN DE SERVICIOS DE HOTELERÍA Y GUIA TURÍSMO:\n",
+      "20% descuento en el pago de pensiones\n",
+      "CARRERAS DE ADMINISTRACIÓN/CONTABILIDAD/DESARROLLO DE SISTEMAS Y ENFERMERÍA TÉCNICA:\n",
+      " 30% descuento en el pago de pensiones\n",
       "ALCANCE:",
       "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS. PERSONAL  CIVIL Y FAMILIARES DIRECTOS",
     ],
@@ -50,9 +54,11 @@ export const institutes = [
   },
   {
     image: CEPEABAN,
-    title: "CEPEABAN",
+    title: "CEPEBAN",
     benefits: [
-      "25% DESCUENTO  EN EL PAGO DE PENSIONES EN TODAS LAS SEDES EXCEPTO EN LOS OLIVOS (10%)\n",
+      "PROGRAMAS Y CURSOS :\n",
+      "25% descuento  en el pago de pensiones en todas las sedes excepto en el distrito de Los Olivos (10%)\n",
+      "10% de descuento en las pensiones mensuales en el programa in house (seminarios, fórum, talleres)\n",
       "ALCANCE:",
       "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS. PERSONAL  CIVIL Y FAMILIARES DIRECTOS",
     ],
@@ -70,9 +76,10 @@ export const institutes = [
     image: GAMOR,
     title: "GAMOR",
     benefits: [
-      "25% DESCUENTO  EN EL PAGO DE PENSIONES (MECÁNICA Y SOLDADURA) ",
+      "CURSOS DE CARRERAS TÉCNICAS Y TALLER\n",
+      "25% descuento  en el pago de los costos de programas académicos",
       "ALCANCE:",
-      "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS. PERSONAL  CIVIL Y FAMILIARES DIRECTOS",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -81,9 +88,11 @@ export const institutes = [
     image: CEVATUR,
     title: "CEVATUR PERU",
     benefits: [
-      "30% DESCUENTO EN MATRÍCULA Y 25% DESCUENTO EN EL PAGO DE PENSIONES",
+      "CARRERAS PROFESIONALES, TÉCNICAS Y DIPLOMADOS\n",
+      "30% descuento en matrícula \n",
+      "20% descuento en el pago de pensiones en las (en las distintas sedes",
       "ALCANCE:",
-      "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS. PERSONAL  CIVIL Y FAMILIARES DIRECTOS",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -92,10 +101,11 @@ export const institutes = [
     image: SanVicente,
     title: "CORPOTACION EDUCATIVA SAN VICENTE",
     benefits: [
-      "10% DESCUENTO EN EL PAGO DE MATRÍCULA.",
-      "30% DESCUENTO  EN EL PAGO DE PENSIONES.",
+      "PROGRAMAS ACADÉMICOS (INGLÉS, CARRERAS TÉCNICAS, ESPECIALIDADES Y DIPLOMADOS):\n",
+      "10% descuento en el pago de matrícula.\n",
+      "30% descuento  en el pago de pensiones.\n",
       "ALCANCE:",
-      "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS. PERSONAL  CIVIL Y FAMILIARES DIRECTOS",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -104,9 +114,12 @@ export const institutes = [
     image: GALLIA,
     title: "D'GALLIA",
     benefits: [
-      "COSTO DIFERENCIADO POR CONVENIO  EN MATRÍCULA Y PENSIONES DE ACUERDO A CONVENIO EN ESTUDIO DE ALTA COCINA ",
+      "CARRERAS TÉCNICAS: \n",
+      "10% descuento  en el pago de pensiones  \n",
+      "CURSOS LIBRES:\n",
+      "25% descuento  en el pago de pensiones\n",
       "ALCANCE:",
-      "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS. PERSONAL  CIVIL Y FAMILIARES DIRECTOS",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -115,22 +128,27 @@ export const institutes = [
     image: DanielCarrion,
     title: "DANIEL A.CARRION",
     benefits: [
-      "25% DESCUENTO  EN EL PAGO DE PENSIONES CARRERAS TÉCNICO PROFESIONALES 50% DESCUENTO EN CURSO DE EXTENSIÓN (01 AÑO) .",
-      "50% DESCUENTO EN CARRERAS DE EXTENSIÓN PROFESIONAL, MAS EXONERACIÓN EN DERECHO DE INSCRIPCIÓN Y MATRÍCULA ",
+      "CURSO DE EXTENSIÓN (01 AÑO)\n",
+      "50% descuento en el pago de pensiones y\n",
+      "exoneración en derecho de inscripción y matrícula\n",
+      "CARRERAS DE EXTENSIÓN PROFESIONAL  \n",
+      "50% descuento en el pago de pensiones y\n",
+      "exoneración en derecho de inscripción y matrícula \n",
       "ALCANCE:",
-      "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS. PERSONAL  CIVIL Y FAMILIARES DIRECTOS",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
   },
   {
     image: DesarrolloGeneral,
-    title: "INST.DESARROLLO GERENCIAL",
+    title: "INST. DE DESARROLLO GERENCIAL",
     benefits: [
-      "30% DESCUENTO EN LA MATRÍCULA ",
-      "25% DESCUENTO  EN EL PAGO DE PENSIONES DIPLOMADOS EN CARRERAS DE SALUD Y  ADMINISTRACIÓN",
+      "PROGRAMAS ACADÉMICOS (CARRERAS TÉCNICAS, ESPECIALIDADES Y DIPLOMADOS):\n",
+      "20% descuento en el pago de matrícula\n",
+      "20% descuento  en el pago de las pensiones\n",
       "ALCANCE:",
-      "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS. PERSONAL  CIVIL Y FAMILIARES DIRECTOS",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -139,9 +157,11 @@ export const institutes = [
     image: ProfesionalTecnico,
     title: "INST.DESARROLLO PROFESIONAL Y TECNICO",
     benefits: [
-      "20% DESCUENTO EN EL PAGO DE MATRÍCULA Y PENSIONES",
+      "CARRERAS TÉCNICAS, INGLÉS, ESPECIALIDADES Y DIPLOMADOS:\n",
+      "20% descuento en el pago de matrícula\n",
+      "20% descuento  en el pago de pensiones\n",
       "ALCANCE:",
-      "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS. PERSONAL  CIVIL Y FAMILIARES DIRECTOS",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -150,9 +170,10 @@ export const institutes = [
     image: EscueladeGerencia,
     title: "ESCUELA INTERNACIONAL DE GERENCIA",
     benefits: [
-      "DERECHO DE INSCRIPCIÓN POR MODULO CADA 4 MESES S/. 75.00",
+      "CARRERAS TÉCNICAS (COMPUTACIÓN E INFORMÁTICA, ADMINISTRACIÓN COMERCIAL, MARKETING DIGITAL Y VENTAS):\n",
+      "Costo diferenciado, en inscripción anual y cuota mensual\n",
       "ALCANCE:",
-      "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS. PERSONAL  CIVIL Y FAMILIARES DIRECTOS",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -161,9 +182,10 @@ export const institutes = [
     image: AKRON,
     title: "AKRON",
     benefits: [
-      "COSTO DIFERENCIADO POR CONVENIO  EN EL PAGO DE PENSIONES (MODALIDAD INGLES A DISTANCIA) ",
+      "PROGRAMAS ACADÉMICOS (CARRERAS TÉCNICAS, INGLÉS, ESPECIALIDADES Y DIPLOMADOS):\n",
+      "50% descuento  en el pago de pensiones\n",
       "ALCANCE:",
-      "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS. PERSONAL  CIVIL Y FAMILIARES DIRECTOS",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -172,9 +194,14 @@ export const institutes = [
     image: EUROIDIOMAS,
     title: "EUROIDIOMAS",
     benefits: [
-      "30% DSCTO  EN EL PAGO DE PENSIONES ",
+      "IDIOMAS:\n",
+      "30% descuento  en el pago de pensiones de los programas de Ingles\n",
+      "10% descuento  en el pago de pensiones de los programas de portugués\n",
+      "10% descuento  en el pago de pensiones de los programas de Alemán\n",
+      "20% descuento  en el pago de pensiones de los programas de Ingles para Niños y Juniors\n",
+      "10% descuento  en el pago de pensiones de los programas de Inglés Virtual, de manera general\n",
       "ALCANCE:",
-      "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS. PERSONAL  CIVIL Y FAMILIARES DIRECTOS",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -190,9 +217,12 @@ export const institutes = [
     image: INTECI,
     title: "INTECI",
     benefits: [
-      "20% DESCUENTO EN EL PAGO DE PENSIONES ",
+      "CARRERAS  TÉCNICAS  \n",
+      "25% descuento en el pago de pensiones\n",
+      "PROGRAMAS  DE GASTRONOMÍA\n",
+      "20% descuento en el pago de pensiones\n",
       "ALCANCE:",
-      "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS. PERSONAL  CIVIL Y FAMILIARES DIRECTOS",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -222,9 +252,10 @@ export const institutes = [
     image: INIDHE,
     title: "INIDHE",
     benefits: [
-      "50% DESCUENTO EN EL PAGO DE PENSIONES",
+      "PROGRAMAS DE DIPLOMADOS Y ESPECIALIZACIONES:\n",
+      "50% descuento en el costo de los diferentes programas académicos (cursos de especialización, diplomados, seminarios, talleres)\n",
       "ALCANCE:",
-      "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS. PERSONAL  CIVIL Y FAMILIARES DIRECTOS",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -233,9 +264,10 @@ export const institutes = [
     image: PRIVATECHER,
     title: "PRIVATECHER",
     benefits: [
-      "10% DESCUENTO EN EL PAGO DE PENSIONES (INGLES)",
+      "IDIOMAS:\n",
+      "Costo diferenciado por convenio, en el pago de las cuotas mensuales\n",
       "ALCANCE:",
-      "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS. PERSONAL  CIVIL Y FAMILIARES DIRECTOS",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -246,7 +278,7 @@ export const institutes = [
     benefits: [
       "20% DESCUENTO EN EL PAGO DE PENSIONES ",
       "ALCANCE:",
-      "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS. PERSONAL  CIVIL Y FAMILIARES DIRECTOS",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -255,9 +287,10 @@ export const institutes = [
     image: ICPNA,
     title: "ICPNA",
     benefits: [
-      "15% DE DESCUENTO PARA SEGUIR ESTUDIOS DEL IDIOMA INGLES ",
+      "ESTUDIOS  EN EL IDIOMA INGLÉS:\n",
+      "15%  descuento sobre la base de las tarifas publicadas en su portal\n",
       "ALCANCE:",
-      "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS. PERSONAL  CIVIL Y FAMILIARES DIRECTOS",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -266,9 +299,10 @@ export const institutes = [
     image: BRITANICO,
     title: "BRITANICO",
     benefits: [
-      "12.5% DE DESCUENTO PARA EL ESTUDIO DEL IDIOMA INGLES ",
+      "ESTUDIOS  EN EL IDIOMA INGLÉS:\n",
+      "12.5% descuento sobre la base de las tarifas en los programas académicos de enseñanza del idioma (básico, intermedio o avanzado)\n",
       "ALCANCE:",
-      "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS. PERSONAL  CIVIL Y FAMILIARES DIRECTOS",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -277,28 +311,23 @@ export const institutes = [
     image: FORMACIONEMPRESARIAL,
     title: "INST.DEFORMACION EMPRESARIAL",
     benefits: [
-      "37.7%  DESCUENTO EN PENSIONES ",
-      "59% DESCUENTO EN PENSIONES PARA TROPA PARA SEGUIR ESTUDIOS DE INGLES E INFORMATICA  ONLINE",
+      "PROGRAMAS DE FORMACIÓN:\n",
+      "37.7%  de descuento en pensiones en programas de (Ofimática, Inglés, excel en la modalidad On Line)\n",
+      "59% de descuento en pensiones para el personal de tropa en programas de (Ofimática, Ingles, excel en la modalidad On Line)\n",
       "ALCANCE:",
-      "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS. PERSONAL  CIVIL Y FAMILIARES DIRECTOS",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
   },
-  // {
-  //   image: ALIANZAFRANCESA,
-  //   title: "INST.MARKAYACHAY",
-  //   benefits: ["10% DSCTO  EN EL PAGO DE PENSIONES"],
-  //   urlFile:
-  //     "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-  // },
   {
     image: eigra,
     title: "ESCUELA INTERNACIONAL DE GRADUADOS",
     benefits: [
-      "30% DESCUENTO EN DIPLOMADOS, ESPECIALIZACIONES, CURSOS Y SEMINARIOS",
+      "PROGRAMAS DE DIPLOMADOS, ESPECIALIZACIONES, CURSOS CORTOS Y SEMINARIOS:\n",
+      "30% de descuento en las pensiones para estudios\n",
       "ALCANCE:",
-      "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS. PERSONAL  CIVIL Y FAMILIARES DIRECTOS",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -307,9 +336,10 @@ export const institutes = [
     image: guide,
     title: "INSTITUTO GUIDE",
     benefits: [
-      "70% DESCUENTO EN EL PAGO DE PENSIONES EN ASESORIAS ACADEMICAS ",
+      "CURSOS DE PREPARACIÓN:\n",
+      "20% de descuento en los diferentes programas\n",
       "ALCANCE:",
-      "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS. PERSONAL  CIVIL Y FAMILIARES DIRECTOS",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -320,7 +350,7 @@ export const institutes = [
     benefits: [
       "15% DESCUENTO SOBRE LOS CURSOS DE FRANCÉS PARA NIÑOS, JÓVENES Y ADULTOS EN TODOS LOS HORARIOS, DIARIOS Y SABATINOS ",
       "ALCANCE:",
-      "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS. PERSONAL  CIVIL Y FAMILIARES DIRECTOS",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -329,9 +359,10 @@ export const institutes = [
     image: ImgVonBraun,
     title: "VON BRAUN",
     benefits: [
-      "30% DESCUENTO EN EL PAGO DE  MATRÍCULA Y PENSIONES",
+      "PROGRAMAS DE FORMACIÓN:\n",
+      "30% descuento en el pago de  matrícula y pensiones mensuales\n",
       "ALCANCE:",
-      "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS. PERSONAL  CIVIL Y FAMILIARES DIRECTOS",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -340,20 +371,24 @@ export const institutes = [
     image: ImgEcaprev,
     title: "ECAPREV",
     benefits: [
-      "30% DESCUENTO EN EL PAGO DE  MATRÍCULA Y PENSIONES",
+      "PROGRAMAS DE DIPLOMADOS, ESPECIALIZACIONES, CURSOS CORTOS Y SEMINARIOS:\n",
+      "Costo diferenciado por convenio, en el pago de las cuotas mensuales\n",
       "ALCANCE:",
-      "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS. PERSONAL  CIVIL Y FAMILIARES DIRECTOS",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
   },
   {
     image: ImgIspaci,
-    title: "ECAPREV",
+    title: "ISPACJ",
     benefits: [
-      "20% DESCUENTO EN EL PAGO DE  MATRÍCULA Y PENSIONES",
+      "PROGRAMAS DE ESPECIALIZACIÓN Y DIPLOMADOS:\n",
+      "20% descuento  en el costo de los diplomados (ingeniería, gestión empresarial y administración)\n",
+      "30% descuento  en el costo total del programa de capacitación de ingles\n",
+      "35% descuento  en el costo tal del programa de capacitación de computación\n",
       "ALCANCE:",
-      "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS. PERSONAL  CIVIL Y FAMILIARES DIRECTOS",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -362,9 +397,10 @@ export const institutes = [
     image: ImgIcim,
     title: "ICIN",
     benefits: [
-      "15% DESCUENTO EN EL PAGO DE PENSIONES: CARRERAS DE MARKETING,PUBLICIDAD, MERCADOTECNIA, CURSOS, DIPLOMASDOS, SEMINARIOS, SIMPOSIOS Y TALLERES",
+      "CARRERAS PROFESIONALES TÉCNICAS.\n",
+      "15% descuento en el pago de pensiones de las tarifas publicadas.\n",
       "ALCANCE:",
-      "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS. PERSONAL  CIVIL Y FAMILIARES DIRECTOS",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -373,9 +409,38 @@ export const institutes = [
     image: ImgAndreVesalio,
     title: "ANDRE VESALIO",
     benefits: [
-      "50% DESCUENTO EN EL PAGO DE MATRÍCULA Y PENSIONES EN TODOS LOS PROGRAMAS TECNICO CARRERAS TECNICAS N ENFERMERIA, ADMINSTRACIÓN DE EMPRESAS Y COMPUTACIÓN E INFORMATICA PROGRAMA DE FORMACIÓN CONTINUA PROGRAMA DE ESPECIALIZACIÓN ",
+      "PROGRAMAS TÉCNICOS:\n",
+      "50% descuento en el pago de matrícula y pensiones \n",
+      "FORMACIÓN CONTINUA:\n",
+      "50% descuento en el pago de pensiones\n",
+      "PROGRAMA DE ESPECIALIZACIÓN\n",
+      "50% descuento en el pago de pensiones\n",
       "ALCANCE:",
-      "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS. PERSONAL  CIVIL Y FAMILIARES DIRECTOS",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
+    ],
+    urlFile:
+      "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+  },
+  {
+    image: ImgIsilInst,
+    title: "ISIL",
+    benefits: [
+      "PROGRAMAS DE EXTENSIÓN PROFESIONAL Y DE ISILTECH:\n",
+      "20% descuento en el pago de pensiones\n",
+      "ALCANCE:",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
+    ],
+    urlFile:
+      "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+  },
+  {
+    image: ImgAlianzaFrancesa,
+    title: "ALIANZA FRANCESA",
+    benefits: [
+      "CURSOS DE FRANCÉS, PARA NIÑOS, JÓVENES Y ADULTOS EN TODOS LOS HORARIOS:\n",
+      "15% descuento en el pago de las pensiones\n",
+      "ALCANCE:",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",

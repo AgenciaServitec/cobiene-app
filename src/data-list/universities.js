@@ -27,8 +27,7 @@ export const universities = [
     title: "UPC",
     benefits: [
       "PREGRADO: \n",
-      "Escala mínima de pensiones en diferentes carreras y\n",
-      "programa de estudios profesionales para ejecutivos (EPE). \n",
+      "Escala mínima de pensiones en diferentes carreras y programa de estudios profesionales para ejecutivos (EPE). \n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
     ],

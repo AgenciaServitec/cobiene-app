@@ -25,12 +25,15 @@ export const Conventions = () => {
         </Text>
       </div>
       <div className="list-convenios">
-        <a href="https://drive.google.com/file/d/1qg_UAFd9oq_GyB7cGjErzYcSXYlNFWDO/view?usp=sharing">
+        {/* old link
+        <a href="https://drive.google.com/file/d/1qg_UAFd9oq_GyB7cGjErzYcSXYlNFWDO/view?usp=sharing">*/}
+        <a href="https://drive.google.com/file/d/1DSM8krYZI26GmqrWDoL45cYDzaIFRegT/view?usp=sharing">
           <FontAwesomeIcon icon={faList} size="2x" />
           Lista de Convenios de empresas:
         </a>
 
-        <a href="https://drive.google.com/file/d/16Bkp4ZZcFmaKJ9xFuSlpuheaU-GzpDGk/view?usp=sharing">
+        {/*<a href="https://drive.google.com/file/d/16Bkp4ZZcFmaKJ9xFuSlpuheaU-GzpDGk/view?usp=sharing">*/}
+        <a href="https://drive.google.com/file/d/1LmdpMdWNpPxYGJPmOZTeP1_2S20IP-k0/view?usp=sharing">
           <FontAwesomeIcon icon={faList} size="2x" />
           Lista de convenios de universidades e institutos:
         </a>

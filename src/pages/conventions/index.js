@@ -18,7 +18,7 @@ export const Conventions = () => {
         </Title>
         <Text>
           Convenios Educativos Suscritos por el Comando de Bienestar con
-          Universidades, Institutos superiores y Pre Universidad,son empresas
+          Universidades y Institutos superiores ,son empresas
           privadas con Descuentos y tarifas preferenciales que benefician al
           personal COBIENE y civil en actividad, retiro, discapacitados y
           familiares.

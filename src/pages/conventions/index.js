@@ -27,7 +27,7 @@ export const Conventions = () => {
       <div className="list-convenios">
         {/* old link
         <a href="https://drive.google.com/file/d/1qg_UAFd9oq_GyB7cGjErzYcSXYlNFWDO/view?usp=sharing">*/}
-        <a href="https://drive.google.com/file/d/1DSM8krYZI26GmqrWDoL45cYDzaIFRegT/view?usp=sharing">
+        <a href="https://drive.google.com/file/d/1OoNDcmtydINrLsiyON9hZJVwM75Dm-n6/view?usp=sharing">
           <FontAwesomeIcon icon={faList} size="2x" />
           Lista de Convenios de empresas:
         </a>

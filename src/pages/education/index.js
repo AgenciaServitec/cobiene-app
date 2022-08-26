@@ -11,12 +11,18 @@ export const Education = () => {
     <Container>
       <div className="content-initial">
         <img src={ApoyoEducativo} alt="Apoyo educativo" />
-        <Title>Apoyo Educativo</Title>
+        <Title>Jefatura de Apoyo Educativo</Title>
+        <Text>
+          La JAE controla el funcionamiento de la gestión pedagógica y
+          académica, además, apoya la gestión de recursos humanos y materiales
+          de las IIEE del Ejército, impulsando la calidad educativa la cual debe
+          articularse en base a los valores institucionales, en concordancia con
+          los objetivos del Sistema Educativo Nacional y del Comando de
+          Bienestar del Ejército.
+        </Text>
         <Text>
           El Comando bienestar del ejército cuenta con 23 instituciones
-          educativas a nivel nacional en donde se imparte una educación de
-          calidad con mejora continua y una educación integral con valores,
-          fortaleciendo la enseñanza del idioma inglés.
+          educativas a nivel nacional.
         </Text>
       </div>
       <Button

@@ -1,5 +1,5 @@
 import React from "react";
-import { SocialLink } from "../../../components";
+import { Button, SocialLink, Text } from "../../../components";
 import {
   faEnvelope,
   faLocationDot,
@@ -10,51 +10,23 @@ import styled, { css } from "styled-components";
 export const EconomicalSupport = () => (
   <Container>
     <div className="content-logo">
-      <h2>SERVICIO SOCIAL</h2>
-      <p>
-        Otorgamiento de ayuda económica social a los familiares directos del
-        personal militar y personal civil, nombrado y contratado en situaciones
-        de actividad con recursos asignados al presupuesto del COBIENE.
-      </p>
+      <h2>APOYO ECÓNOMICO</h2>
+      <Text align="justify">
+        El beneficio de la ayuda económica social, es el aporte económico
+        parcial o total que proporciona el ejército, al familiar directo del
+        personal militar en situación de actividad y retiro, así como al
+        personal civil, nombrado, contratado y cesante en situaciones
+        excepcionales de salud. Asimismo, a los sobrevivientes del titular
+        fallecido en acción de armas, acto de servicio, a consecuencia del
+        servicio u ocasión del servicio, coadyuvando con el tratamiento de los
+        familiares directos (hijos y cónyuge), en casos excepcionales a los
+        padres del titular, por un monto de hasta dos (02) uit.
+      </Text>
     </div>
     <div className="content-help">
-      <h3>AYUDA ECONÓMICA</h3>
-      <div>
-        <h4>Rubros:</h4>
-        <strong>Ayuda Económica por Servicio:</strong>
-        <p>
-          Pago de servicios medicos, pago de pensión por enseñanza y terapias,
-          pagos de tratamientos de rehabilitación fisica, psicologica y
-          psiquiatra.
-        </p>
-        <strong>Ayuda Económica por Adquisiones:</strong>
-        <ul>
-          <li>
-            Adquisición de alimentos: sobre alimentación y suplementos
-            nutricionales.
-          </li>
-          <li>
-            Adquisición de material insumos e instrumental (silla de ruedas,
-            audifonos, zapatos ortopedicos, medicinas, pañales, muletas,
-            andadores).
-          </li>
-        </ul>
-      </div>
-      <br />
-      <div>
-        <h4>Alcance</h4>
-        <ul>
-          <li>
-            Familiares directos del titular (Esposo(A)), hijos y por unica vez a
-            los padres
-          </li>
-        </ul>
-        <br />
-        <h4>Monto</h4>
-        <ul>
-          <li>Maximo 2 UIT</li>
-        </ul>
-      </div>
+      <Button width="100%">AYUDA ECONÓMICA SOCIAL</Button>
+      <Button width="100%">CONVENIOS MULTISERVICIOS</Button>
+      <Button width="100%">AYUDA ECONÓMICA SOCIAL</Button>
     </div>
     <div className="link-list">
       <SocialLink

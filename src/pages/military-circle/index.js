@@ -14,7 +14,7 @@ export const MilitaryCircle = () => {
     <Container>
       <div className="content-initial">
         <img src={CobieneLogo} alt="Cobien logo" />
-        <Title>Circulo Militar</Title>
+        <Title>Recreación</Title>
         <div className="social-icons">
           <ul className="list-icon">
             <li className="item-icon">
@@ -35,11 +35,8 @@ export const MilitaryCircle = () => {
           </ul>
         </div>
         <Text>
-          Somos una Asociación, creada para brindar bienestar a nuestros
-          asociados y publico en general, ofreciendo una gama de servicios de
-          entretenimiento y recreación para toda la familia, como actividades
-          deportivas, alojamiento, alimentación, peluquería, gimnasio, sauna,
-          así como ambientes para celebraciones y eventos.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda,
+          temporibus.
         </Text>
       </div>
       <Button

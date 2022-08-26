@@ -15,7 +15,7 @@ export const MilitaryCircle = () => {
       <div className="content-initial">
         <img src={CobieneLogo} alt="Cobien logo" />
         <Title>Recreación</Title>
-        <div className="social-icons">
+        {/* <div className="social-icons">
           <ul className="list-icon">
             <li className="item-icon">
               <a href="https://www.facebook.com/circulomilitardelperu/?locale2=es?LA">
@@ -33,23 +33,30 @@ export const MilitaryCircle = () => {
               </a>
             </li>
           </ul>
-        </div>
+        </div>*/}
         <Text>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda,
-          temporibus.
+          {/*Somos una Asociación, creada para brindar bienestar a nuestros
+          asociados y publico en general, ofreciendo una gama de servicios de
+          entretenimiento y recreación para toda la familia, como actividades
+          deportivas, alojamiento, alimentación, peluquería, gimnasio, sauna,
+          así como ambientes para celebraciones y eventos.*/}
+          El comando de bienestar del ejército brinda al personal de oficiales,
+          supervisores, técnicos, sub oficiales en situación de actividad o
+          retiro y sus familiares directos centros de recreación mediante las
+          instalaciones de sus diferentes círculos militares.
         </Text>
       </div>
       <Button
         width="100%"
         onClick={() => navigate("/military-circle/officers-circle")}
       >
-        CIRCULO COBIENE OO.
+        CIRCULO MILITAR DE OFICIALES
       </Button>
       <Button
         width="100%"
         onClick={() => navigate("/military-circle/technicians-circle")}
       >
-        CIRCULO MILITAR SPES. TCO. SO.
+        CIRCULO MILITAR DE SUP. TCOS. Y SSOO
       </Button>
     </Container>
   );

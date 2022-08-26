@@ -8,7 +8,7 @@ export const Text = ({ children, align = "justify" }) => {
 const TextContainer = styled.p`
   ${({ theme, align }) => css`
     color: ${theme.colors.white};
-    text-align: ${align};
+    text-align: ${align} !important;
     font-size: 19px;
     margin: 1rem 0;
     line-height: 1.5rem;

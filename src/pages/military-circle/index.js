@@ -50,13 +50,13 @@ export const MilitaryCircle = () => {
         width="100%"
         onClick={() => navigate("/military-circle/officers-circle")}
       >
-        CIRCULO MILITAR DE OFICIALES
+        CÍRCULO MILITAR DE OFICIALES
       </Button>
       <Button
         width="100%"
         onClick={() => navigate("/military-circle/technicians-circle")}
       >
-        CIRCULO MILITAR DE SUP. TCOS. Y SSOO
+        CÍRCULO MILITAR DE SUP. TCOS. Y SSOO
       </Button>
     </Container>
   );

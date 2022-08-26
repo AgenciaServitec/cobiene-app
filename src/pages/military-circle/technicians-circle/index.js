@@ -23,7 +23,7 @@ export const TechniciansCircle = () => {
     <Container>
       <div className="content-initial">
         <img src={TechniciansImg} alt="Tecnicos Oficiales" />
-        <Title> Circulo de Superiores Tecnicos y Sub Oficiales</Title>
+        <Title> Círculo de Superiores Técnicos y Sub Oficiales</Title>
       </div>
       <div className="section-sedes">
         <h3>SEDES</h3>
@@ -52,7 +52,7 @@ export const TechniciansCircle = () => {
             />
             <SocialLink
               icon={faLocationDot}
-              text="AV. Escuela S/N - Chorrillos"
+              text="COEDE, Hipolito Unanue, 15063"
               link="https://www.google.com/maps/dir/?api=1&destination=-12.167592963634%2C-77.018716326325"
             />
           </div>

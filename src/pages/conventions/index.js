@@ -17,27 +17,19 @@ export const Conventions = () => {
           Convenios Vigentes con Entidades Educativas y Empresas Privadas
         </Title>
         <Text>
-          Convenios Educativos Suscritos por el Comando de Bienestar con
+          {/*Convenios Educativos Suscritos por el Comando de Bienestar con
           Universidades y Institutos superiores ,son empresas
           privadas con Descuentos y tarifas preferenciales que benefician al
           personal COBIENE y civil en actividad, retiro, discapacitados y
-          familiares.
+          familiares.*/}
+          El comando de bienestar del ejército ha suscrito convenios con
+          universidades, institutos superiores, empresas privadas y bancos en
+          beneficio de todo el personal militar, civil en actividad o retiro y
+          sus familiares directos los cuales podrán disfrutar de tarifas o
+          costos diferenciados en todos sus servicios.
         </Text>
       </div>
-      <div className="list-convenios">
-        {/* old link
-        <a href="https://drive.google.com/file/d/1qg_UAFd9oq_GyB7cGjErzYcSXYlNFWDO/view?usp=sharing">*/}
-        <a href="https://drive.google.com/file/d/1OoNDcmtydINrLsiyON9hZJVwM75Dm-n6/view?usp=sharing">
-          <FontAwesomeIcon icon={faList} size="2x" />
-          Lista de Convenios de empresas:
-        </a>
 
-        {/*<a href="https://drive.google.com/file/d/16Bkp4ZZcFmaKJ9xFuSlpuheaU-GzpDGk/view?usp=sharing">*/}
-        <a href="https://drive.google.com/file/d/1LmdpMdWNpPxYGJPmOZTeP1_2S20IP-k0/view?usp=sharing">
-          <FontAwesomeIcon icon={faList} size="2x" />
-          Lista de convenios de universidades e institutos:
-        </a>
-      </div>
       <Button
         width="100%"
         onClick={() => navigate("/conventions/universities")}
@@ -59,6 +51,21 @@ export const Conventions = () => {
       <Button width="100%" onClick={() => navigate("/conventions/banks")}>
         BANCO
       </Button>
+
+      <div className="list-convenios">
+        {/* old link
+        <a href="https://drive.google.com/file/d/1qg_UAFd9oq_GyB7cGjErzYcSXYlNFWDO/view?usp=sharing">*/}
+        <a href="https://drive.google.com/file/d/1OoNDcmtydINrLsiyON9hZJVwM75Dm-n6/view?usp=sharing">
+          <FontAwesomeIcon icon={faList} size="2x" />
+          Lista de Convenios de empresas:
+        </a>
+
+        {/*<a href="https://drive.google.com/file/d/16Bkp4ZZcFmaKJ9xFuSlpuheaU-GzpDGk/view?usp=sharing">*/}
+        <a href="https://drive.google.com/file/d/1LmdpMdWNpPxYGJPmOZTeP1_2S20IP-k0/view?usp=sharing">
+          <FontAwesomeIcon icon={faList} size="2x" />
+          Lista de convenios de universidades e institutos:
+        </a>
+      </div>
     </Container>
   );
 };

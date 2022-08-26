@@ -4,6 +4,7 @@ import {
   IconList,
   NavigateGoToLink,
   SocialLink,
+  Text,
 } from "../../components";
 import styled, { css } from "styled-components";
 import { FondoSepelio } from "../../images";
@@ -14,17 +15,34 @@ import {
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { useNavigate } from "react-router";
 
 export const FuneralFund = () => {
+  const navigate = useNavigate();
   return (
     <Container>
       <div className="content-logo">
         <img src={FondoSepelio} alt="Apoyo educativo" />
         <h2>Fondo Solidario De Sepelio Del Ejército Del Perú</h2>
-        <p>
+        <Text>
           Institución de apoyo solidario y sentido humanista, creado para
-          atender los casos de fallecimiento de sus afiliados
-        </p>
+          atender los casos de fallecimiento de sus afiliados. Pueden afiliarse
+          de manera voluntaria el personal de oficiales, técnicos, sub
+          oficiales, empleados civiles y sus familiares directos excepto los
+          mayores de 75 años.
+        </Text>
+      </div>
+
+      <div className="servicies-section">
+        <Text>El Fossep brinda los siguientes servicios:</Text>
+        <Button width="100%">Servicio de inumación</Button>
+        <Button width="100%">Servicio de decremación</Button>
+        <Button
+          width="100%"
+          onClick={() => navigate("./formalities-funeral-fund")}
+        >
+          Tramites y Informaciones
+        </Button>
       </div>
 
       <div className="icon-section">
@@ -57,87 +75,6 @@ export const FuneralFund = () => {
           />
         </div>
       </div>
-
-      <Button
-        width="100%"
-        onClick={() =>
-          NavigateGoToLink(
-            "https://drive.google.com/file/d/1BsxIrd0JsKyVUo1eDjaH3_YRaZV85eO7/view?usp=sharing"
-          )
-        }
-      >
-        Actividad y Montepio
-      </Button>
-      <Button
-        width="100%"
-        onClick={() =>
-          NavigateGoToLink(
-            "https://drive.google.com/file/d/1epM0isppcDkq4eEoqR6nWj3Kc4cqgyXE/view?usp=sharing"
-          )
-        }
-      >
-        Caja Pensión
-      </Button>
-      <Button
-        width="100%"
-        onClick={() =>
-          NavigateGoToLink(
-            "https://drive.google.com/file/d/1icg3ERdUxUy65bx-Yp-g-59CQsaP78hl/view?usp=sharing"
-          )
-        }
-      >
-        Nuevos Integrantes
-      </Button>
-      <Button
-        width="100%"
-        onClick={() =>
-          NavigateGoToLink(
-            "https://drive.google.com/file/d/15ZU1g_iHweDc7r4pCy6qDJ8u2r6oLjRh/view?usp=sharing"
-          )
-        }
-      >
-        Desafiliaciones
-      </Button>
-      <Button
-        width="100%"
-        onClick={() =>
-          NavigateGoToLink(
-            "https://drive.google.com/file/d/10PNfqaG_g8UQX4Bfh6RRuDjq7a4sESK_/view?usp=sharing"
-          )
-        }
-      >
-        Cambio de Titular
-      </Button>
-      <Button
-        width="100%"
-        onClick={() =>
-          NavigateGoToLink(
-            "https://drive.google.com/file/d/1ZTXsKj7O6VUBjFqyzwM0NZT3r3bBwW7m/view?usp=sharing"
-          )
-        }
-      >
-        Solicitud reembolso
-      </Button>
-      <Button
-        width="100%"
-        onClick={() =>
-          NavigateGoToLink(
-            "https://drive.google.com/file/d/1VZlRgrn5VB4XhD6j67qAQN29OWDeIq-K/view?usp=sharing"
-          )
-        }
-      >
-        Carta Renuncia
-      </Button>
-      <Button
-        width="100%"
-        onClick={() =>
-          NavigateGoToLink(
-            "https://drive.google.com/file/d/1JxCm4D8zXCxPHe6zFJ3qxQYIe3lKkuR1/view?usp=sharing"
-          )
-        }
-      >
-        Familiares Adicionales
-      </Button>
 
       <div className="link-list">
         <SocialLink
@@ -174,6 +111,9 @@ const Container = styled.div`
         color: ${theme.colors.white};
         text-align: center;
       }
+    }
+    .servicies-section {
+      padding-bottom: 2em;
     }
     .icon-section {
       h2 {

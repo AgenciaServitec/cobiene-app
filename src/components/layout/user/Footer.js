@@ -4,8 +4,8 @@ import { faEnvelope, faHeart } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
+  faInstagram,
   faWhatsapp,
-  faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
 
@@ -33,8 +33,8 @@ export const Footer = () => {
             </a>
           </li>
           <li className="item-icon">
-            <a href="https://www.youtube.com/c/Ej%C3%A9rcitodelPer%C3%BACanaloficial">
-              <FontAwesomeIcon icon={faYoutube} size="2x" />
+            <a href="https://www.instagram.com/cobiene_2022/">
+              <FontAwesomeIcon icon={faInstagram} size="2x" />
             </a>
           </li>
           <li className="item-icon">

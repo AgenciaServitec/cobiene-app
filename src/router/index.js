@@ -9,6 +9,7 @@ import {
   DisabledSupport,
   EconomicalSupport,
   Education,
+  FormalitiesFuneralFund,
   FuneralFund,
   Home,
   HouseService,
@@ -144,6 +145,15 @@ export const Router = () => {
         element={
           <BaseLayout>
             <FuneralFund />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/funeral-fund/formalities-funeral-fund"
+        element={
+          <BaseLayout>
+            <FormalitiesFuneralFund />
           </BaseLayout>
         }
       />

@@ -58,29 +58,21 @@ export const Drawer = ({ visibleDrawer, onSetVisibleDrawer }) => {
             icon={faGraduationCap}
             linkTo="/education"
           />
-          <DrawerShow
+          <MenuItem
+            text="Apoyo Social"
+            onClick={() => onSetVisibleDrawer(false)}
             icon={faUsers}
-            title="Asistencia Social"
-            content={
-              <>
-                <MenuItem
-                  text="Servicio Social"
-                  onClick={() => onSetVisibleDrawer(false)}
-                  icon={faUsers}
-                  linkTo="/social-service"
-                />
-                <MenuItem
-                  text="Servicio de sepelio"
-                  onClick={() => onSetVisibleDrawer(false)}
-                  icon={faChurch}
-                  linkTo="/funeral-fund"
-                />
-              </>
-            }
+            linkTo="/social-service"
+          />
+          <MenuItem
+            text="Fondo de sepelio"
+            onClick={() => onSetVisibleDrawer(false)}
+            icon={faChurch}
+            linkTo="/funeral-fund"
           />
 
           <DrawerShow
-            title="Recreación"
+            title="RECREACIÓN"
             icon={faTree}
             content={
               <>

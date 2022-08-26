@@ -13,10 +13,10 @@ export const Education = () => {
         <img src={ApoyoEducativo} alt="Apoyo educativo" />
         <Title>Apoyo Educativo</Title>
         <Text>
-          El COBIENE cuenta con 23 instituciones educativas a nivel nacional en
-          donde se imparte una educación de calidad con mejora continua y una
-          educación integral con valores, fortaleciendo la enseñanza del idioma
-          inglés.
+          El Comando bienestar del ejército cuenta con 23 instituciones
+          educativas a nivel nacional en donde se imparte una educación de
+          calidad con mejora continua y una educación integral con valores,
+          fortaleciendo la enseñanza del idioma inglés.
         </Text>
       </div>
       <Button

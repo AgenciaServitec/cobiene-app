@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { ImgCuartelCobiene, LogoAgenciaServitec } from "../../images";
-import { Button, Title } from "../../components";
+import { Button, Text, Title } from "../../components";
 import styled from "styled-components";
 
 export const AboutAs = () => {
@@ -21,7 +21,7 @@ export const AboutAs = () => {
       </Button>
       {buttonHidden && (
         <div className="content">
-          <p>
+          <Text>
             Les doy la más cordial bienvenida al aplicativo móvil del COBIENE,
             cuyo principal objetivo es dar a conocer al personal de la
             Institución y sus familias, los servicios y convenios que se
@@ -30,10 +30,10 @@ export const AboutAs = () => {
             <br />
             Cabe resaltar que, el bienestar de nuestro personal y sus
             respectivas familias es una prioridad del COBIENE, por eso se ha
-            constituido como uno de sus pilares , esperamos que sea de su total
+            constituido como uno de sus pilares, esperamos que sea de su total
             agrado y por sobre todas las cosas, valoramos su opinión, la que nos
             servirá para ir mejorando permanentemente.
-          </p>
+          </Text>
         </div>
       )}
 
@@ -43,7 +43,7 @@ export const AboutAs = () => {
       {buttonHidden1 && (
         <div className="content">
           <h3>Misión</h3>
-          <p>
+          <Text>
             Promover y desarrollar actividades que aseguren el bienestar del
             personal de la institución y de sus familiares directos, con la
             finalidad de contribuir a elevar su moral y rendimiento.
@@ -53,8 +53,8 @@ export const AboutAs = () => {
             bienestar posible al personal COBIENE, civil y familiares directos
             de la institución.
             <h3>Lema</h3>
-            TODO LO QUE HACEMOS, LO HACEMOS BIEN.
-          </p>
+            Trabajando por el bienestar de la familia militar
+          </Text>
         </div>
       )}
       <Button width="100%" onClick={() => setButtonHidden2(!buttonHidden2)}>
@@ -121,6 +121,7 @@ const Container = styled.div`
   }
 
   .content {
+    padding: 0 0.5rem;
     ul {
       margin: auto 3rem;
     }

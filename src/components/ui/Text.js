@@ -1,7 +1,7 @@
 import React from "react";
 import styled, { css } from "styled-components";
 
-export const Text = ({ children, align = "center" }) => {
+export const Text = ({ children, align = "justify" }) => {
   return <TextContainer align={align}>{children}</TextContainer>;
 };
 

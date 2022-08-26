@@ -13,25 +13,25 @@ export const EconomicalSupport = () => (
       <h2>SERVICIO SOCIAL</h2>
       <p>
         Otorgamiento de ayuda económica social a los familiares directos del
-        personal COBIENE y personal civil, nombrado y contratado en situaciones
-        de actividad con recursos asignados al presupuesto del COBIENE
+        personal militar y personal civil, nombrado y contratado en situaciones
+        de actividad con recursos asignados al presupuesto del COBIENE.
       </p>
     </div>
     <div className="content-help">
-      <h3>AYUDA ECONOMICA</h3>
+      <h3>AYUDA ECONÓMICA</h3>
       <div>
-        <h4>Rubros</h4>
-        <strong>Ayuda Economica por Servicio:</strong>
+        <h4>Rubros:</h4>
+        <strong>Ayuda Económica por Servicio:</strong>
         <p>
-          Pago de sevicios medicos, pago de pensión por enseñanza y terapias,
+          Pago de servicios medicos, pago de pensión por enseñanza y terapias,
           pagos de tratamientos de rehabilitación fisica, psicologica y
           psiquiatra.
         </p>
-        <strong>Ayuda Economica por Adquisiones:</strong>
+        <strong>Ayuda Económica por Adquisiones:</strong>
         <ul>
           <li>
             Adquisición de alimentos: sobre alimentación y suplementos
-            nutricionales
+            nutricionales.
           </li>
           <li>
             Adquisición de material insumos e instrumental (silla de ruedas,

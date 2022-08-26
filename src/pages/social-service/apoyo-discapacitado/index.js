@@ -1,20 +1,25 @@
 import React from "react";
-import { SocialLink } from "../../../components";
+import { SocialLink, Text } from "../../../components";
 import {
   faEnvelope,
   faLocationDot,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import styled, { css } from "styled-components";
+import { ImgLogoSad } from "../../../images";
 
 export const DisabledSupport = () => (
   <Container>
     <div className="content-logo">
+      <img src={ImgLogoSad} alt="Servicio de Discapacitado" />
       <h2>APOYO AL DISCAPACITADO</h2>
-      <p>
-        La Sección de Apoyo al Personal con Discapacidad y el Centro de
-        Educación Técnica Productiva imparte capacitación en los talleres del
-      </p>
+      <Text>
+        La Sección de Apoyo al Personal con Discapacidad (SAD), brindará
+        orientación y/o capacitación al personal militar pensionista en la
+        condición de discapacidad sobre: salud, educación, pensión y otros
+        beneficios que por ley le corresponda a fin de contribuir en el
+        bienestar de la familia militar.
+      </Text>
     </div>
     <div className="link-list">
       <SocialLink

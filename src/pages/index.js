@@ -13,6 +13,7 @@ export * from "./conventions/banks";
 export * from "./house-service";
 export * from "./house-service/house-services";
 export * from "./funeral-fund";
+export * from "./funeral-fund/formalities-funeral-fund";
 export * from "./social-service";
 export * from "./social-service/apoyo-economico";
 export * from "./social-service/apoyo-discapacitado";

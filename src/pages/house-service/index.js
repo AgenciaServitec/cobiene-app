@@ -10,7 +10,7 @@ export const HouseService = () => {
   return (
     <Container>
       <div className="content-logo">
-        <img src={CobieneLogo} alt="Coviene Logo" />
+        <img src={CobieneLogo} alt="Cobiene Logo" />
         <h2>Vivienda</h2>
       </div>
       <Button
@@ -21,9 +21,7 @@ export const HouseService = () => {
       </Button>
       <Button
         width="100%"
-        onClick={() =>
-          NavigateGoToLink("https://fovime.com/expo-fovime-2022/inmobiliarias/")
-        }
+        onClick={() => NavigateGoToLink("https://fovime.com/")}
       >
         Fovime
       </Button>

@@ -14,12 +14,15 @@ export const ServiceSocial = () => {
         <h2>APOYO SOCIAL</h2>
         <p>
           <br />
-          El departamento de Apoyo Social realiza la suscripción de convenios
-          educativos; re categorización de pensiones educativas superiores;
-          otorgamiento de becas, apoyo social con bolsa de víveres y ayudas
-          económicas; actividades recreativas, culturales, de apoyo religioso y
-          asesoramiento al personal, COBIENE, civil y personal con discapacidad
-          y sus familiares directos
+          El departamento de apoyo social como parte del comando de bienestar
+          del ejército, realiza la suscripción de convenios de educación
+          superior, descuentos por convenios en pensiones de estudios
+          superiores, otorgamiento de becas, ayudas económicas para casos
+          excepcionales de salud, descuento por convenios multiservicios, apoyo
+          de servicio religioso, asesoramiento de apoyo a la familia y apoyo al
+          personal discapacitado, orientados a lograr beneficios para el
+          personal militar, civil en actividad, retiro, cesantes y sus
+          familiares directos.
         </p>
       </div>
       <Button

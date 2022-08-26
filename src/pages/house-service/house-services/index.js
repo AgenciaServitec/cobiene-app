@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled, { css } from "styled-components";
-import { CasaServicio, ImgMapa } from "../../../images";
-import { Button, NavigateGoToLink } from "../../../components";
+import { CasaServicio, ImgJace, ImgMapa } from "../../../images";
+import { Button, NavigateGoToLink, Text } from "../../../components";
 
 export const HouseServices = () => {
   const [buttonHidden, setButtonHidden] = useState(false);
@@ -10,14 +10,17 @@ export const HouseServices = () => {
     <Container>
       <div className="content-logo">
         <img src={CasaServicio} alt="Casa de Servicio" />
-        <h2>Dace</h2>
-        <p>
-          El Departamento de Administración de Casas del COBIENE, brinda el
-          servicio de asignación de casas de servicio temporalmente a la familia
-          COBIENE, para lo cual cuenta con las Villas para Oficiales, Técnicos y
-          Sub Oficiales.
-        </p>
-        <img src={ImgMapa} alt="Mapa" className="img-mapa" />
+        <h2>Jace</h2>
+        <Text>
+          La JACE asesora al Comando de Bienestar del Ejército en los aspectos
+          inherentes de la administración de casas de servicios del Ejército.
+          Asimismo, planificara, ejecutara y supervisara los trabajos de
+          conservación, mejoramiento y rehabilitación de la infraestructura,
+          inmobiliaria de las casas de servicio de la guarnición de Lima, a fin
+          de contribuir a la consecución de los objetivos de Bienestar del
+          Ejército.
+        </Text>
+        <img src={ImgJace} alt="Img Jace" className="img-mapa" />
       </div>
       <Button width="100%" onClick={() => setButtonHidden(!buttonHidden)}>
         Requisitos para ser usuarios

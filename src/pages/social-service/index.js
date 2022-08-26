@@ -37,6 +37,9 @@ export const ServiceSocial = () => {
       >
         APOYO DISCAPACITADO
       </Button>
+      <Button width="100%" onClick={() => navigate("/conventions/companies")}>
+        CONVENIOS MULTISECTORIAL
+      </Button>
     </Container>
   );
 };

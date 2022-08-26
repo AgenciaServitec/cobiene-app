@@ -24,22 +24,22 @@ export const Footer = () => {
         <ul className="list-icon">
           <li className="item-icon">
             <a href="https://www.facebook.com/BienestarEP">
-              <FontAwesomeIcon icon={faFacebook} size="2x" />
+              <FontAwesomeIcon icon={faFacebook} size="2x" color="#1877f2" />
             </a>
           </li>
           <li className="item-icon">
             <a href="https://api.whatsapp.com/send?phone=+51929054672&text=Hola%20ServiTecPeru%20Quiero%20Mas%20Info%20Sobre...">
-              <FontAwesomeIcon icon={faWhatsapp} size="2x" />
+              <FontAwesomeIcon icon={faWhatsapp} size="2x" color="#4dc247" />
             </a>
           </li>
           <li className="item-icon">
             <a href="https://www.instagram.com/cobiene_2022/">
-              <FontAwesomeIcon icon={faInstagram} size="2x" />
+              <FontAwesomeIcon icon={faInstagram} size="2x" color="#FED372" />
             </a>
           </li>
           <li className="item-icon">
             <a href="mailto:contacto@cobiene.mil.pe">
-              <FontAwesomeIcon icon={faEnvelope} size="2x" />
+              <FontAwesomeIcon icon={faEnvelope} size="2x" color="#4285f4" />
             </a>
             {/*<span onClick={() => handleVisibleFormContact()}>*/}
             {/*  <FontAwesomeIcon icon={faEnvelope} size="2x" />*/}

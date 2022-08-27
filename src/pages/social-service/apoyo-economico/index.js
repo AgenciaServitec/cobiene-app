@@ -26,7 +26,7 @@ export const EconomicalSupport = () => (
     <div className="content-help">
       <Button width="100%">AYUDA ECONÓMICA SOCIAL</Button>
       <Button width="100%">CONVENIOS MULTISERVICIOS</Button>
-      <Button width="100%">AYUDA ECONÓMICA SOCIAL</Button>
+      <Button width="100%">SERVICIO RELIGIOSO</Button>
     </div>
     <div className="link-list">
       <SocialLink

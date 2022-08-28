@@ -1,7 +1,13 @@
 import React, { useState } from "react";
 import styled, { css } from "styled-components";
-import { CasaServicio, ImgJace, ImgMapa } from "../../../images";
+import {
+  ImgLogoJace,
+  ImgSliderJace,
+  ImgSliderJace2,
+  ImgSliderJace3,
+} from "../../../images";
 import { Button, NavigateGoToLink, Text } from "../../../components";
+import Carousel from "antd/lib/carousel";
 
 export const HouseServices = () => {
   const [buttonHidden, setButtonHidden] = useState(false);
@@ -9,7 +15,7 @@ export const HouseServices = () => {
   return (
     <Container>
       <div className="content-logo">
-        <img src={CasaServicio} alt="Casa de Servicio" />
+        <img src={ImgLogoJace} alt="Casa de Servicio" />
         <h2>Jace</h2>
         <Text>
           La JACE asesora al Comando de Bienestar del Ejército en los aspectos
@@ -20,8 +26,14 @@ export const HouseServices = () => {
           de contribuir a la consecución de los objetivos de Bienestar del
           Ejército.
         </Text>
-        <img src={ImgJace} alt="Img Jace" className="img-mapa" />
       </div>
+
+      <Carousel autoplay>
+        <img src={ImgSliderJace} alt="Img Jace" className="img-mapa" />
+        <img src={ImgSliderJace2} alt="Img Jace" className="img-mapa" />
+        <img src={ImgSliderJace3} alt="Img Jace" className="img-mapa" />
+      </Carousel>
+
       <Button width="100%" onClick={() => setButtonHidden(!buttonHidden)}>
         Requisitos para ser usuarios
       </Button>
@@ -88,15 +100,14 @@ const Container = styled.div`
         text-shadow: ${theme.text_shadow.shadow_green};
       }
 
-      .img-mapa {
-        width: 90%;
-        max-width: 20rem;
-      }
-
       p {
         color: ${theme.colors.white};
         text-align: justify;
       }
     }
   `}
+  .img-mapa {
+    width: 100%;
+    max-width: 24rem;
+  }
 `;

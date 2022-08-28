@@ -4,7 +4,7 @@ import { Text } from "../../components";
 export const InitialContent = ({ img, title, description }) => {
   return (
     <Container>
-      <img src={img} alt={title} />
+      {img && <img src={img} alt={title} />}
       <h2>{title}</h2>
       {description && <Text>{description}</Text>}
     </Container>

@@ -23,6 +23,7 @@ import {
   PoliciesAndPrivacy,
   PreAcademies,
   ProvinceInstitutes,
+  ReligiousService,
   ServiceSocial,
   SocialEconomicSupport,
   TechniciansCircle,
@@ -182,6 +183,15 @@ export const Router = () => {
         element={
           <BaseLayout>
             <SocialEconomicSupport />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/social-service/economical-support/religious-service"
+        element={
+          <BaseLayout>
+            <ReligiousService />
           </BaseLayout>
         }
       />

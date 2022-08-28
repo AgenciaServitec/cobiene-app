@@ -17,9 +17,13 @@ export { default as ImgTarapaca } from "./others/tarapaca.webp";
 export { default as ImgRimac } from "./others/rimac.webp";
 export { default as ImgEmptyDefault } from "./webp/img-default.webp";
 export { default as EjercitoDelPeruLogo } from "./webp/ejercito-del-peru-logo.webp";
-export { default as ImgJace } from "./webp/img-jace.webp";
 export { default as ImgLogoSad } from "./webp/img-logo-sad.webp";
-export { default as ImgLogoJace } from "./webp/image-logo-jace.webp";
+
+//--------Images Jage------
+export { default as ImgLogoJace } from "./jace/image-logo-jace.webp";
+export { default as ImgSliderJace } from "./jace/img-jace.webp";
+export { default as ImgSliderJace2 } from "./jace/img-slider-jace2.webp";
+export { default as ImgSliderJace3 } from "./jace/img-slider-jace.webp";
 
 //--------Institutes from Lima and Province------
 

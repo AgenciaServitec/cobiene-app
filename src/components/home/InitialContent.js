@@ -6,7 +6,7 @@ export const InitialContent = ({ img, title, description }) => {
     <Container>
       <img src={img} alt={title} />
       <h2>{title}</h2>
-      <Text>{description}</Text>
+      {description && <Text>{description}</Text>}
     </Container>
   );
 };

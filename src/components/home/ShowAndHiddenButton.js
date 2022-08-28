@@ -15,7 +15,7 @@ export const ShowAndHiddenButton = ({ requerimentsJace = [] }) => {
         <Panel
           key={index}
           header={
-            <Button width="100%">
+            <Button width="100%" type="tertiary">
               <div className="content-button">
                 <div className="item-img">
                   <FontAwesomeIcon icon={requeriment.icon} />
@@ -40,9 +40,11 @@ export const ShowAndHiddenButton = ({ requerimentsJace = [] }) => {
 const CollapseAnt = styled(Collapse)`
   padding: 0.3em 0;
   .content-button {
-    display: flex;
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+    justify-items: start;
     width: 100%;
-    gap: 1.5em;
+    grid-column-gap: 2.5em;
     .item-img {
       svg {
         font-size: 2.5em;

@@ -1,7 +1,7 @@
 import React from "react";
-import { Button, NavigateGoToLink } from "../../components";
-import styled, { css } from "styled-components";
-import { CasaServicio, CobieneLogo } from "../../images";
+import { Button, InitialContent, NavigateGoToLink } from "../../components";
+import styled from "styled-components";
+import { CobieneLogo } from "../../images";
 import { useNavigate } from "react-router";
 
 export const HouseService = () => {
@@ -9,10 +9,8 @@ export const HouseService = () => {
 
   return (
     <Container>
-      <div className="content-logo">
-        <img src={CobieneLogo} alt="Cobiene Logo" />
-        <h2>Vivienda</h2>
-      </div>
+      <InitialContent title="Vivienda" img={CobieneLogo} />
+
       <Button
         width="100%"
         onClick={() => navigate("/house-service/house-services")}
@@ -30,27 +28,6 @@ export const HouseService = () => {
 };
 
 const Container = styled.div`
-  ${({ theme }) => css`
-    width: 100%;
-    height: auto;
-
-    .content-logo {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      margin: 1rem auto;
-
-      img {
-        width: 8em;
-        height: auto;
-        object-fit: contain;
-        margin-bottom: 1rem;
-      }
-
-      h2 {
-        text-shadow: ${theme.text_shadow.shadow_green};
-      }
-    }
-  `}
+  width: 100%;
+  height: auto;
 `;

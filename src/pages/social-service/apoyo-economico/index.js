@@ -36,8 +36,22 @@ export const EconomicalSupport = () => {
         >
           AYUDA ECONÓMICA SOCIAL
         </Button>
-        <Button width="100%">CONVENIOS MULTISERVICIOS</Button>
-        <Button width="100%">SERVICIO RELIGIOSO</Button>
+        <Button
+          width="100%"
+          onClick={() => {
+            navigate("/conventions/companies");
+          }}
+        >
+          CONVENIOS MULTISERVICIOS
+        </Button>
+        <Button
+          width="100%"
+          onClick={() => {
+            navigate("/social-service/economical-support/religious-service");
+          }}
+        >
+          SERVICIO RELIGIOSO
+        </Button>
       </div>
 
       <div className="link-list">

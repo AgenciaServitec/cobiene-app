@@ -5,7 +5,7 @@ export const InitialContent = ({ img, title, description }) => {
   return (
     <Container>
       {img && <img src={img} alt={title} />}
-      <h2>{title}</h2>
+      {title && <h2>{title}</h2>}
       {description && <Text>{description}</Text>}
     </Container>
   );
@@ -33,6 +33,7 @@ const Container = styled.div`
     p {
       color: ${theme.colors.white};
       text-align: justify;
+      font-size: 1.3em;
     }
   `}
 `;

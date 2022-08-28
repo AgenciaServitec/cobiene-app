@@ -24,6 +24,7 @@ import {
   PreAcademies,
   ProvinceInstitutes,
   ServiceSocial,
+  SocialEconomicSupport,
   TechniciansCircle,
   Universities,
 } from "../pages";
@@ -172,6 +173,15 @@ export const Router = () => {
         element={
           <BaseLayout>
             <EconomicalSupport />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/social-service/economical-support/social-economic-support"
+        element={
+          <BaseLayout>
+            <SocialEconomicSupport />
           </BaseLayout>
         }
       />

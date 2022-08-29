@@ -28,3 +28,4 @@ export * from "./Title";
 export * from "./Text";
 export * from "./IconList";
 export * from "./FormContact";
+export * from "./IconListRow";

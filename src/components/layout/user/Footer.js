@@ -17,7 +17,7 @@ export const Footer = () => {
   // const handleVisibleFormContact = () =>
   //   setVisibleFormContact(!visibleFormContact);
 
-  const handleVisibleFormContact = () => console.log("PRUEBA");
+  // const handleVisibleFormContact = () => console.log("PRUEBA");
 
   return (
     <Container>

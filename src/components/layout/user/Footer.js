@@ -8,6 +8,7 @@ import {
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
+import { IconListRow } from "../../ui";
 
 export const Footer = () => {
   // const [visibleFormContact, setVisibleFormContact] =
@@ -21,36 +22,32 @@ export const Footer = () => {
   return (
     <Container>
       <div className="social-icons">
-        <ul className="list-icon">
-          <li className="item-icon">
-            <a href="https://www.facebook.com/BienestarEP">
-              <FontAwesomeIcon icon={faFacebook} size="2x" />
-            </a>
-          </li>
-          <li className="item-icon">
-            <a href="https://api.whatsapp.com/send?phone=+51929054672&text=Hola%20ServiTecPeru%20Quiero%20Mas%20Info%20Sobre...">
-              <FontAwesomeIcon icon={faWhatsapp} size="2x" />
-            </a>
-          </li>
-          <li className="item-icon">
-            <a href="https://www.instagram.com/cobiene_2022/">
-              <FontAwesomeIcon icon={faInstagram} size="2x" />
-            </a>
-          </li>
-          <li className="item-icon">
-            <a href="mailto:contacto@cobiene.mil.pe">
-              <FontAwesomeIcon icon={faEnvelope} size="2x" />
-            </a>
-            {/*<span onClick={() => handleVisibleFormContact()}>*/}
-            {/*  <FontAwesomeIcon icon={faEnvelope} size="2x" />*/}
-            {/*</span>*/}
-          </li>
-          {/*<li className="item-icon">*/}
-          {/*  <a href="">*/}
-          {/*    <FontAwesomeIcon icon={faRetweet} size="2x" />*/}
-          {/*  </a>*/}
-          {/*</li>*/}
-        </ul>
+        <div className="social-links">
+          <IconListRow
+            icon={faFacebook}
+            ariaLabel="boton de facebook"
+            link="https://www.facebook.com/BienestarEP"
+            background="#1877f2"
+          />
+          <IconListRow
+            icon={faWhatsapp}
+            ariaLabel="boton de whatsapp"
+            link="https://api.whatsapp.com/send?phone=+51929054672&text=Hola%20ServiTecPeru%20Quiero%20Mas%20Info%20Sobre..."
+            background="#00bb2d"
+          />
+          <IconListRow
+            icon={faInstagram}
+            ariaLabel="boton de instagram"
+            link="https://www.instagram.com/cobiene_2022/"
+            background="#c32aa3"
+          />
+          <IconListRow
+            icon={faEnvelope}
+            ariaLabel="boton de gmail"
+            link="mailto:contacto@cobiene.mil.pe"
+            background="#db4a39"
+          />
+        </div>
         <p>
           <Link to="/policies-and-privacy" className="politicas">
             POLÍTICAS Y PRIVACIDAD
@@ -76,51 +73,39 @@ const Container = styled.div`
 
   .social-icons {
     width: 100%;
-
-    .list-icon {
-      width: 100%;
+    .social-links {
       display: flex;
-      align-items: center;
       justify-content: center;
-      list-style: none;
+      align-items: center;
+    }
 
-      .item-icon {
-        margin: 0 1rem;
+    p {
+      justify-content: center;
+      text-align: center;
 
-        a,
-        span {
-          color: inherit;
-        }
+      a {
+        color: white;
+      }
+
+      .politicas {
+        text-decoration: none;
+        font-size: small;
       }
     }
-  }
 
-  p {
-    justify-content: center;
-    text-align: center;
-
-    a {
-      color: white;
-    }
-
-    .politicas {
-      text-decoration: none;
+    .copyright-text {
       font-size: small;
-    }
-  }
+      text-align: center;
+      color: white;
+      padding: 0.5rem;
 
-  .copyright-text {
-    font-size: small;
-    text-align: center;
-    color: white;
-    padding: 0.5rem;
+      svg {
+        color: red;
+      }
 
-    svg {
-      color: red;
-    }
-
-    a {
-      color: #d7b405;
+      a {
+        color: #d7b405;
+      }
     }
   }
 `;

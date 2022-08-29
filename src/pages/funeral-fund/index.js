@@ -1,11 +1,5 @@
-import React from "react";
-import {
-  Button,
-  IconList,
-  NavigateGoToLink,
-  SocialLink,
-  Text,
-} from "../../components";
+import React, { useState } from "react";
+import { Button, IconList, SocialLink, Text } from "../../components";
 import styled, { css } from "styled-components";
 import { FondoSepelio } from "../../images";
 import {
@@ -18,6 +12,8 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { useNavigate } from "react-router";
 
 export const FuneralFund = () => {
+  const [buttonHidden, setButtonHidden] = useState(false);
+  const [buttonHidden2, setButtonHidden2] = useState(false);
   const navigate = useNavigate();
   return (
     <Container>
@@ -35,8 +31,47 @@ export const FuneralFund = () => {
 
       <div className="servicies-section">
         <Text>El Fossep brinda los siguientes servicios:</Text>
-        <Button width="100%">Servicio de inumación</Button>
-        <Button width="100%">Servicio de decremación</Button>
+
+        <Button width="100%" onClick={() => setButtonHidden(!buttonHidden)}>
+          Servicio de inhumación
+        </Button>
+
+        {buttonHidden && (
+          <div className="content-hidden">
+            <ul>
+              <li>Ataúd en Alquiler</li>
+              <li>Formolización</li>
+              <li>Capilla ardiente</li>
+              <li>Carroza</li>
+              <li>Coche de flores</li>
+              <li>Cargadores</li>
+              <li>Vehículo de acompañante</li>
+              <li>Tumba</li>
+              <li>Trámites (RENIEC)</li>
+            </ul>
+          </div>
+        )}
+
+        <Button width="100%" onClick={() => setButtonHidden2(!buttonHidden2)}>
+          Servicio de cremación
+        </Button>
+
+        {buttonHidden2 && (
+          <div className="content-hidden">
+            <ul>
+              <li>Ataúd en Alquiler</li>
+              <li>Formolización</li>
+              <li>Capilla ardiente</li>
+              <li>Carroza</li>
+              <li>Coche de flores</li>
+              <li>Cargadores</li>
+              <li>Vehículo de acompañante</li>
+              <li>Urna</li>
+              <li>Trámites (RENIEC)</li>
+            </ul>
+          </div>
+        )}
+
         <Button
           width="100%"
           onClick={() => navigate("./formalities-funeral-fund")}
@@ -114,6 +149,10 @@ const Container = styled.div`
     }
     .servicies-section {
       padding-bottom: 2em;
+    }
+
+    .content-hidden {
+      padding: 0.5em 2em;
     }
     .icon-section {
       h2 {

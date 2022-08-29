@@ -20,7 +20,7 @@ const Container = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0.7em;
+    padding: 0.6em;
     border-radius: 0.5em;
     background-color: ${({ background }) => background};
     a {

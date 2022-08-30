@@ -234,6 +234,11 @@ export const provinceInstitutes = [
         name: "Tarapacaiquitos@hotmail.com",
         url: "mailto:Tarapacaiquitos@hotmail.com",
       },
+      {
+        icon: faLocationDot,
+        name: 'IEIP N° 601555 "TARAPACA"',
+        url: "https://www.google.com/maps/place/3%C2%B045'48.3%22S+73%C2%B015'40.5%22W/@-6.3399831,-81.3488747,5.22z/data=!4m5!3m4!1s0x0:0x145878e26f4f34ea!8m2!3d-3.763406!4d-73.2612457?hl=es",
+      },
     ],
     buttonUrl:
       "https://drive.google.com/file/d/1wPyMTm7Q2PGc74V4b0K4ULHGDMbEgni7/view?usp=sharing",

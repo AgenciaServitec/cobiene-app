@@ -28,8 +28,8 @@ export const limaInstitutes = [
     socialLinks: [
       {
         icon: faLocationDot,
-        name: "Av. Chorrillos Cdra 2 S/N",
-        url: "https://www.google.com/search?q=Av.+Chorrillos+Cdra+2+S%2FN&tbm=lcl&sxsrf=APq-WBsQO1LUr4UXykiiuMJehBc5HYeH3g%3A1646415322948&ei=2k0iYuKgOca95OUP3fOMkA4&oq=Av.+Chorrillos+Cdra+2+S%2FN&gs_l=psy-ab.3...0.0.0.33307.0.0.0.0.0.0.0.0..0.0....0...1c..64.psy-ab..0.0.0....0.KAY5K77t-Io#rlfi=hd:;si:4991478888383942883;mv:[[-12.1577732,-76.99606639999999],[-12.1869144,-77.024315]]",
+        name: "Av. Cdra 2 S/N Costado de la Clinica Maison de Sante Chorrillos, Chorrillos",
+        url: "https://goo.gl/maps/j7kTFt1rHkt9GJSE8",
       },
       {
         icon: faFacebook,

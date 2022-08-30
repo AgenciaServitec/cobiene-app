@@ -29,6 +29,37 @@ export const FuneralFund = () => {
         </Text>
       </div>
 
+      <div className="icon-section">
+        <h2>Contáctanos:</h2>
+        <div className="icon-content">
+          <IconList
+            icon={faLocationDot}
+            link="https://goo.gl/maps/7bTNPRKRks8WrJer5"
+            text="botón de ubicación"
+          />
+          <IconList
+            icon={faEnvelope}
+            link="mailto:fossep1@gmail.com"
+            text="botón de email"
+          />
+          <IconList
+            icon={faGlobe}
+            link="https://www.fossep.com.pe/"
+            text="botón de pagina web"
+          />
+          <IconList
+            icon={faPhone}
+            link="tel:014631560"
+            text="botón de telefono"
+          />
+          <IconList
+            icon={faWhatsapp}
+            link="https://api.whatsapp.com/send?phone=+51958465839&text=Hola%21%20Quisiera%20más%20información.%20"
+            text="botón de WhatsApp"
+          />
+        </div>
+      </div>
+
       <div className="servicies-section">
         <Text>El Fossep brinda los siguientes servicios:</Text>
 
@@ -78,37 +109,6 @@ export const FuneralFund = () => {
         >
           Tramites y Informaciones
         </Button>
-      </div>
-
-      <div className="icon-section">
-        <h2>Contáctanos:</h2>
-        <div className="icon-content">
-          <IconList
-            icon={faLocationDot}
-            link="https://goo.gl/maps/7bTNPRKRks8WrJer5"
-            text="botón de ubicación"
-          />
-          <IconList
-            icon={faEnvelope}
-            link="mailto:fossep1@gmail.com"
-            text="botón de email"
-          />
-          <IconList
-            icon={faGlobe}
-            link="https://www.fossep.com.pe/"
-            text="botón de pagina web"
-          />
-          <IconList
-            icon={faPhone}
-            link="tel:014631560"
-            text="botón de telefono"
-          />
-          <IconList
-            icon={faWhatsapp}
-            link="https://api.whatsapp.com/send?phone=+51958465839&text=Hola%21%20Quisiera%20más%20información.%20"
-            text="botón de WhatsApp"
-          />
-        </div>
       </div>
 
       <div className="link-list">

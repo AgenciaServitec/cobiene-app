@@ -37,8 +37,8 @@ export const TechniciansCircle = () => {
             <h4>CONTACTOS:</h4>
             <SocialLink
               icon={faPhone}
-              text="(01) 252 7992"
-              link="tel:+51012527992"
+              text="998 461 170"
+              link="tel:+51998461170"
             />
             <SocialLink
               icon={faEnvelope}
@@ -52,7 +52,7 @@ export const TechniciansCircle = () => {
             />
             <SocialLink
               icon={faLocationDot}
-              text="COEDE, Hipolito Unanue, 15063"
+              text="Av. Escuela Militar S/N Chorrillos"
               link="https://www.google.com/maps/dir/?api=1&destination=-12.167592963634%2C-77.018716326325"
             />
           </div>
@@ -66,8 +66,8 @@ export const TechniciansCircle = () => {
             <h4>CONTACTOS:</h4>
             <SocialLink
               icon={faPhone}
-              text="(01) 540 6256"
-              link="tel:+51015406256"
+              text="998 556 087"
+              link="tel:+51998556087"
             />
             <SocialLink
               icon={faEnvelope}
@@ -76,7 +76,7 @@ export const TechniciansCircle = () => {
             />
             <SocialLink
               icon={faFacebook}
-              text="Campo deportivo Tarapacá"
+              text="Av. Prolongación Defensores del Morro N° 1170 Chorrillos"
               link="https://www.facebook.com/Campo-Deportivo-Tarapaca-Chorrillos-101277401232183/"
             />
             <SocialLink
@@ -93,7 +93,7 @@ export const TechniciansCircle = () => {
         )}
 
         <Button width="100%" onClick={() => setHidden3(!hidden3)}>
-          RIMAC
+          RÍMAC
         </Button>
         {hidden3 && (
           <div className="items-sedes">
@@ -101,8 +101,8 @@ export const TechniciansCircle = () => {
             <h4>CONTACTOS:</h4>
             <SocialLink
               icon={faPhone}
-              text="(01) 482 8896"
-              link="tel:+51014828896"
+              text="925 739 072"
+              link="tel:+51925739072"
             />
             <SocialLink
               icon={faEnvelope}
@@ -116,7 +116,7 @@ export const TechniciansCircle = () => {
             />
             <SocialLink
               icon={faLocationDot}
-              text="AV. Morro de Arica N° 499 - Rimac"
+              text="Av. Morro de Arica S/N - Rímac"
               link="https://www.google.com/maps/dir/?api=1&destination=-12.02172%2C-77.03317"
             />
           </div>

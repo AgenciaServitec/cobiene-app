@@ -92,8 +92,9 @@ const CollapseAntd = styled(Collapse)`
         list-style: none;
         margin: 0;
         padding: 0;
-        font-size: 0.77rem;
+        font-size: 0.87rem;
         li {
+          text-align: justify;
           margin-bottom: 0.5rem;
           font-weight: 500;
         }

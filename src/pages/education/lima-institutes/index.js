@@ -17,6 +17,7 @@ export const LimaInstitutes = () => {
       </div>
       <Carousel
         autoplay
+        autoplaySpeed={5000}
         arrows
         prevArrow={<FontAwesomeIcon icon={faChevronLeft} />}
         nextArrow={<FontAwesomeIcon icon={faChevronRight} />}

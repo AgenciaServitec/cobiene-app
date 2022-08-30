@@ -30,7 +30,7 @@ export const ItemCarousel = ({
       </div>
 
       <Button
-        width="100%"
+        width="90%"
         onClick={() => {
           NavigateGoToLink(buttonUrl);
         }}

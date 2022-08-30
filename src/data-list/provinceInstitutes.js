@@ -221,7 +221,7 @@ export const provinceInstitutes = [
   {
     image: Inst18,
     title1: "Institución Educativa",
-    title2: "TARAPACA - IQUITO",
+    title2: "TARAPACA - IQUITOS",
     title3: "INICIAL - PRIMARIA",
     socialLinks: [
       {

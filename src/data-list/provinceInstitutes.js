@@ -1,6 +1,7 @@
 import { faEnvelope, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import {
+  ImgIeMariaMontessori,
   Inst12,
   Inst13,
   Inst14,
@@ -182,7 +183,6 @@ export const provinceInstitutes = [
         url: "mailto:Nelly_7_1@hotmail.com",
       },
     ],
-    buttonUrl: "#",
   },
   {
     image: Inst12,
@@ -201,20 +201,13 @@ export const provinceInstitutes = [
         url: "mailto:Nelly_7_1@hotmail.com",
       },
     ],
-    buttonUrl: "#",
   },
   {
     image: Inst17,
     title1: "Institución Educativa Publica de Gestión Privada",
     title2: "MCAL ANDRES AVELINO CACERES - Iquitos",
     title3: "INICIAL",
-    socialLinks: [
-      {
-        icon: faLocationDot,
-        name: "Jorge Chavez 794, Iquitos 16001",
-        url: "#",
-      },
-    ],
+    socialLinks: [],
     buttonUrl:
       "https://drive.google.com/file/d/1mpOrbslYfssMhQls1CaSk96xSuFTtb_W/view?usp=sharing",
   },
@@ -245,6 +238,7 @@ export const provinceInstitutes = [
   },
   {
     image: Inst19,
+    // image2: ImgIeMariaMontessori,
     title1: "Institución Educativa",
     title2: "N° 169 MARIA MONTESSORI - IQUITOS",
     title3: "INICIAL",

@@ -26,6 +26,7 @@ export const ProvinceInstitutes = () => {
           <ItemCarousel
             key={index}
             image={provinceInstitute.image}
+            image2={provinceInstitute.image2}
             title1={provinceInstitute.title1}
             title2={provinceInstitute.title2}
             title3={provinceInstitute.title3}

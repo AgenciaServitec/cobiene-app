@@ -50,6 +50,9 @@ export { default as Inst20 } from "./others/inst20.webp";
 export { default as Inst21 } from "./others/inst21.webp";
 export { default as Inst22 } from "./others/inst22.webp";
 
+//--------Images provinces------
+export { default as ImgIeMariaMontessori } from "./province-institutes/ie-maria-montessori.webp";
+
 //--------Carousel Officers-Circle
 export { default as ImgOfficers1 } from "./others/sede-arequipa.webp";
 export { default as ImgOfficers2 } from "./others/sede-salaverry.webp";

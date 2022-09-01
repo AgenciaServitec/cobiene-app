@@ -21,7 +21,7 @@ export const FormalitiesFuneralFund = () => {
     <Container>
       <div className="content-logo">
         <img src={FondoSepelio} alt="Apoyo educativo" />
-        <h2>Tramites y informaciones</h2>
+        <h2>Trámites e informaciones</h2>
       </div>
 
       <div className="icon-section">

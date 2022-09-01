@@ -18,9 +18,9 @@ export const ItemCarousel = ({
           <div className="top-image">
             <img src={image} alt={title2} />
           </div>
-          <div className="botton-image">
-            <img src={image2} alt={title2} />
-          </div>
+          {/*<div className="botton-image">*/}
+          {/*  <img src={image2} alt={title2} />*/}
+          {/*</div>*/}
         </div>
       ) : (
         <img src={image} alt={title2} className="content-one-image" />
@@ -30,6 +30,11 @@ export const ItemCarousel = ({
         <h3>{title2}</h3>
         <h3>{title3}</h3>
       </div>
+      {image2 && (
+        <div className="image-corporative">
+          <img src={image2} alt={title2} />
+        </div>
+      )}
       <div className="link-list">
         {socialLinks &&
           socialLinks.map((socialLink, index) => (
@@ -62,12 +67,11 @@ const Container = styled.div`
   .content-two-image {
     width: 100%;
     .top-image {
-      display: inline-block;
       img {
         width: 100%;
         height: 100%;
-        max-width: 6em;
-        max-height: 6em;
+        max-width: 9em;
+        max-height: 9em;
         object-fit: contain;
         margin: 1em auto;
       }
@@ -96,8 +100,19 @@ const Container = styled.div`
     flex-direction: column;
     align-items: center;
     h3 {
+      text-transform: capitalize;
       text-align: center;
       font-size: 1.2rem;
+    }
+  }
+  .image-corporative {
+    img {
+      width: 100%;
+      height: 100%;
+      max-width: 25em;
+      max-height: 15em;
+      object-fit: contain;
+      margin: 1em auto;
     }
   }
 

@@ -35,15 +35,10 @@ export const MilitaryCircle = () => {
           </ul>
         </div>*/}
         <Text>
-          {/*Somos una Asociación, creada para brindar bienestar a nuestros
-          asociados y publico en general, ofreciendo una gama de servicios de
-          entretenimiento y recreación para toda la familia, como actividades
-          deportivas, alojamiento, alimentación, peluquería, gimnasio, sauna,
-          así como ambientes para celebraciones y eventos.*/}
-          El comando de bienestar del ejército brinda al personal de oficiales,
-          supervisores, técnicos, sub oficiales en situación de actividad o
-          retiro y sus familiares directos centros de recreación mediante las
-          instalaciones de sus diferentes círculos militares.
+          El Comando de Bienestar del Ejército brinda al personal de Oficiales,
+          Supervisores, Técnicos, Sub Oficiales en situación de actividad o
+          retiro y sus familiares directos, los centros de recreación mediante
+          las instalaciones de sus diferentes círculos militares.
         </Text>
       </div>
       <Button

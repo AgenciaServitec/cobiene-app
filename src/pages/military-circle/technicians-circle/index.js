@@ -23,7 +23,7 @@ export const TechniciansCircle = () => {
     <Container>
       <div className="content-initial">
         <img src={TechniciansImg} alt="Tecnicos Oficiales" />
-        <Title> Círculo de Superiores Técnicos y Sub Oficiales</Title>
+        <Title> Círculo Militar de Supervisores Técnicos y Sub Oficiales</Title>
       </div>
       <div className="section-sedes">
         <h3>SEDES</h3>

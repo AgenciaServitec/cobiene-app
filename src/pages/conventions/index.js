@@ -17,12 +17,7 @@ export const Conventions = () => {
           Convenios Vigentes con Entidades Educativas y Empresas Privadas
         </Title>
         <Text>
-          {/*Convenios Educativos Suscritos por el Comando de Bienestar con
-          Universidades y Institutos superiores ,son empresas
-          privadas con Descuentos y tarifas preferenciales que benefician al
-          personal COBIENE y civil en actividad, retiro, discapacitados y
-          familiares.*/}
-          El comando de bienestar del ejército ha suscrito convenios con
+          El Comando de Bienestar del Ejército ha suscrito convenios con
           universidades, institutos superiores, empresas privadas y bancos en
           beneficio de todo el personal militar, civil en actividad o retiro y
           sus familiares directos los cuales podrán disfrutar de tarifas o

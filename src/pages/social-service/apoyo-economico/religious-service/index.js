@@ -26,7 +26,7 @@ export const ReligiousService = () => {
         </li>
       </ul>
 
-      <InitialContent description="Asimismo, la Villas militares  cuentan con la guía espiritual de los   Capellanes castrenses de acuerdo al siguiente detalle:" />
+      <InitialContent description="Asimismo, las Villas militares  cuentan con la guía espiritual de los   Capellanes castrenses de acuerdo al siguiente detalle:" />
 
       <ul>
         <li>Villa militar Matellini : Parroquia San Nicolas.</li>

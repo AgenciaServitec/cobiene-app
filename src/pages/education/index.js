@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Text, Title } from "../../components";
-import { ApoyoEducativo } from "../../images";
+import { ImgLogoJaeUpdate } from "../../images";
 import { useNavigate } from "react-router";
 import styled, { css } from "styled-components";
 
@@ -10,7 +10,7 @@ export const Education = () => {
   return (
     <Container>
       <div className="content-initial">
-        <img src={ApoyoEducativo} alt="Apoyo educativo" />
+        <img src={ImgLogoJaeUpdate} alt="Apoyo educativo" />
         <Title>Jefatura de Apoyo Educativo</Title>
         <Text>
           La JAE controla el funcionamiento de la gestión pedagógica y

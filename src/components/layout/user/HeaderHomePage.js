@@ -28,7 +28,7 @@ export const HeaderHomePage = ({ onSetVisibleDrawer }) => {
         </div>
         <div className="item-titles">
           <h3>COMANDO DE BIENESTAR</h3>
-          <p>Ejército del Perú</p>
+          <p>Del Ejército del Perú</p>
         </div>
       </div>
     </Container>
@@ -70,8 +70,8 @@ const Container = styled.header`
       border-radius: 50%;
 
       img {
-        width: 4.5rem;
-        height: 4.5rem;
+        width: 4.7rem;
+        height: 4.7rem;
         object-fit: contain;
       }
     }

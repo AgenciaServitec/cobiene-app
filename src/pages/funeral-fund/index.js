@@ -107,7 +107,7 @@ export const FuneralFund = () => {
           width="100%"
           onClick={() => navigate("./formalities-funeral-fund")}
         >
-          Tramites y Informaciones
+          Trámites e Informaciones
         </Button>
       </div>
 

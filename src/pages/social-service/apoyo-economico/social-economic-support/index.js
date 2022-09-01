@@ -10,17 +10,15 @@ export const SocialEconomicSupport = () => {
       />
 
       <p className="content-support">
-        <span>Alimentos y bebidas para consumo humano</span> (leche medicada,
+        <span>Alimentos y bebidas </span>para consumo humano (leche medicada,
         dietas hipercalórica, hipoglucémica e hipo grasa)
       </p>
       <p className="content-support">
-        <span>
-          Adquisición de material, insumos, instrumental y accesorios médicos,
-          quirúrgicos, odontológicos y laboratorio
-        </span>
-        (silla de ruedas, colchón anti escaras, audífonos, lentes correctores,
-        artículos ortopédicos, prótesis o parte de él, medicinas, pañales, balón
-        de oxígeno)
+        <span>Adquisición de material</span>, insumos, instrumental y accesorios
+        médicos, quirúrgicos, odontológicos y laboratorio (silla de ruedas,
+        colchón anti escaras, audífonos, lentes correctores, artículos
+        ortopédicos, prótesis o parte de él, medicinas, pañales, balón de
+        oxígeno)
       </p>
       <p className="content-support">
         <span>Servicios, </span>
@@ -39,7 +37,7 @@ const Container = styled.section`
     line-height: 1.3em;
     text-align: justify;
     span {
-      font-weight: 800;
+      font-weight: 900;
     }
   }
 `;

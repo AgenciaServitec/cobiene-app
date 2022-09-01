@@ -10,7 +10,7 @@ import {
   ImgOfficers5,
   ImgOfficers6,
 } from "../../../images";
-import { faGlobe } from "@fortawesome/free-solid-svg-icons";
+import { faGlobe, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook, faGooglePlay } from "@fortawesome/free-brands-svg-icons";
 import Carousel from "antd/lib/carousel";
 
@@ -19,10 +19,10 @@ export const OfficersCircle = () => {
     <Container>
       <div className="content-initial">
         <img src={ImgOfficers} alt="Circulo de Oficiales" />
-        <Title>Círculo de Oficiales</Title>
+        <Title>Círculo Militar de Oficiales</Title>
         <Text>
           Somos una Asociación, creada para brindar bienestar a nuestros
-          asociados y publico en general, ofreciendo una gama de servicios de
+          asociados y público en general, ofreciendo una gama de servicios de
           entretenimiento y recreación para toda la familia, como actividades
           deportivas, alojamiento, alimentación, peluquería, gimnasio, sauna,
           así como ambientes para celebraciones y eventos.
@@ -32,7 +32,7 @@ export const OfficersCircle = () => {
       <Carousel autoplay>
         <ImgCarousel image={ImgOfficers1} title="Arequipa" />
         <ImgCarousel image={ImgOfficers2} title="Salaverry" />
-        <ImgCarousel image={ImgOfficers3} title="Chorrillos" />
+        {/*<ImgCarousel image={ImgOfficers3} title="Chorrillos" />*/}
         <ImgCarousel image={ImgOfficers4} title="Tiza" />
         <ImgCarousel image={ImgOfficers5} title="Ceande" />
         <ImgCarousel image={ImgOfficers6} title="Piura" />
@@ -55,6 +55,7 @@ export const OfficersCircle = () => {
           link="https://play.google.com/store/apps/details?id=com.circulomilitar.acmp"
           icon={faGooglePlay}
         />
+        <SocialLink text="01 6449277" link="tel:016449277" icon={faPhone} />
       </div>
     </Container>
   );

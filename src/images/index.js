@@ -18,6 +18,7 @@ export { default as ImgRimac } from "./others/rimac.webp";
 export { default as ImgEmptyDefault } from "./webp/img-default.webp";
 export { default as EjercitoDelPeruLogo } from "./webp/ejercito-del-peru-logo.webp";
 export { default as ImgLogoSad } from "./webp/img-logo-sad.webp";
+export { default as ImgLogoJaeUpdate } from "./webp/img-jae-logo.webp";
 
 //--------Images Jage------
 export { default as ImgLogoJace } from "./jace/image-logo-jace.webp";
@@ -121,6 +122,7 @@ export { default as ImgIcim } from "./webp/img-icim.webp";
 export { default as ImgIspaci } from "./webp/img-ispaci.webp";
 export { default as ImgAlianzaFrancesa } from "./webp/img-alianza-franc.webp";
 export { default as ImgIsilInst } from "./webp/img-isil-inst.webp";
+export { default as ImgInstAkrom } from "./webp/inst-akron.webp";
 
 //-------- Companies ------
 export { default as ImgApelac } from "./webp/img-apelac.webp";

@@ -19,6 +19,7 @@ import {
   ImgAndreVesalio,
   ImgEcaprev,
   ImgIcim,
+  ImgInstAkrom,
   ImgIsilInst,
   ImgIspaci,
   ImgVonBraun,
@@ -42,9 +43,9 @@ export const institutes = [
     image: CEPEA,
     title: "CEPEA",
     benefits: [
-      "CARRERAS DE GASTRONOMÍA Y ARTES CULINARIAS, ADMINISTRACIÓN DE SERVICIOS DE HOTELERÍA Y GUIA TURÍSMO:\n",
+      "CARRERAS DE GASTRONOMÍA Y ARTES CULINARIAS, ADMINISTRACIÓN DE SERVICIOS DE HOTELERÍA Y GUIA TURISMO:\n",
       "20% descuento en el pago de pensiones\n",
-      "CARRERAS DE ADMINISTRACIÓN/CONTABILIDAD/DESARROLLO DE SISTEMAS Y ENFERMERÍA TÉCNICA:\n",
+      "CARRERAS DE ADMINISTRACIÓN, CONTABILIDAD, DESARROLLO DE SISTEMAS Y ENFERMERÍA TÉCNICA:\n",
       " 30% descuento en el pago de pensiones\n",
       "ALCANCE:",
       "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS. PERSONAL  CIVIL Y FAMILIARES DIRECTOS",
@@ -56,7 +57,7 @@ export const institutes = [
     image: CEPEABAN,
     title: "CEPEBAN",
     benefits: [
-      "PROGRAMAS Y CURSOS :\n",
+      "PROGRAMAS Y CURSOS:\n",
       "25% descuento  en el pago de pensiones en todas las sedes excepto en el distrito de Los Olivos (10%)\n",
       "10% de descuento en las pensiones mensuales en el programa in house (seminarios, fórum, talleres)\n",
       "ALCANCE:",
@@ -90,7 +91,7 @@ export const institutes = [
     benefits: [
       "CARRERAS PROFESIONALES, TÉCNICAS Y DIPLOMADOS\n",
       "30% descuento en matrícula \n",
-      "20% descuento en el pago de pensiones en las (en las distintas sedes",
+      "20% descuento en el pago de pensiones en las distintas sedes:",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
     ],
@@ -99,7 +100,7 @@ export const institutes = [
   },
   {
     image: SanVicente,
-    title: "CORPOTACION EDUCATIVA SAN VICENTE",
+    title: "COR. EDU. SAN VICENTE",
     benefits: [
       "PROGRAMAS ACADÉMICOS (INGLÉS, CARRERAS TÉCNICAS, ESPECIALIDADES Y DIPLOMADOS):\n",
       "10% descuento en el pago de matrícula.\n",
@@ -179,7 +180,7 @@ export const institutes = [
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
   },
   {
-    image: AKRON,
+    image: ImgInstAkrom,
     title: "AKRON",
     benefits: [
       "PROGRAMAS ACADÉMICOS (CARRERAS TÉCNICAS, INGLÉS, ESPECIALIDADES Y DIPLOMADOS):\n",
@@ -395,7 +396,7 @@ export const institutes = [
   },
   {
     image: ImgIcim,
-    title: "ICIN",
+    title: "ICIM",
     benefits: [
       "CARRERAS PROFESIONALES TÉCNICAS.\n",
       "15% descuento en el pago de pensiones de las tarifas publicadas.\n",

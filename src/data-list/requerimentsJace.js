@@ -15,21 +15,21 @@ export const requerimentsJace = [
     title: "Paso 1",
     icon: faFileInvoice,
     descriptions: [
-      "Deberá encontrarse en situación militar de actividad con no más de 25 años para Oficiales y 28 años para Tcos y Sub Oficiales.",
+      "Deberá encontrarse en situación militar de actividad con no más de 25 años para Oficiales y 28 años para Tcos. y Sub Oficiales.",
     ],
   },
   {
     title: "Paso 2",
     icon: faLightbulb,
     descriptions: [
-      "Deberá ser casado y tener hijos con su conyugue, mantener una relación estable y vivir con su conyugue en la guarnición donde solicita la casa.",
+      "Deberá ser casado y tener hijos con su cónyugue, mantener una relación estable y vivir con su cónyugue en la guarnición donde solicita la casa.",
     ],
   },
   {
     title: "Paso 3",
     icon: faComments,
     descriptions: [
-      "Deberá tener como mínimo 4 años de servicio cumplido como Oficial o Sub Oficial, con el grado mínimo de Teniente o Sub Oficial 2o.",
+      "Deberá tener como mínimo 4 años de servicio cumplido como Oficial o Sub Oficial, con el grado mínimo de Teniente o Sub Oficial 2°.",
     ],
   },
   {
@@ -57,7 +57,7 @@ export const requerimentsJace = [
     title: "Paso 7",
     icon: faFlag,
     descriptions: [
-      "El personal militar candidato a usuario no debe haber sido obligado a desocupar la casa de servicio en cualquiera de las guarniciones de Ejercito donde existan casas de servicio.",
+      "El personal militar candidato a usuario no debe haber sido obligado a desocupar la casa de servicio en cualquiera de las guarniciones de Ejército donde existan casas de servicio.",
     ],
   },
   {
@@ -67,7 +67,7 @@ export const requerimentsJace = [
       "El personal militar candidato a “usuario” que solicite asignación especial o excepcional deberá contar con:",
       " - Los documentos que acrediten la situación de especialidad o excepcionalidad.",
       " - El dictamen legal favorable.",
-      " - La opinión del Crl Ing Jefe de la DACE.",
+      " - La opinión del Jefe de la Jefatura de Administración de Casas del Ejército.",
       " - La aprobación del General de Brigada Comandante General del COBIENE, para la guarnición de Lima.",
     ],
   },

@@ -22,7 +22,7 @@ import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 export const limaInstitutes = [
   {
     image: Inst1,
-    title1: "Institución educativa Publica de Gestión Privada",
+    title1: "Institución Educativa Pública de Gestión Privada",
     title2: "PEDRO RUIZ GALLO",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
     socialLinks: [
@@ -52,7 +52,7 @@ export const limaInstitutes = [
   },
   {
     image: Inst2,
-    title1: "Institución educativa Publica de Gestión Privada",
+    title1: "Institución Educativa Pública de Gestión Privada",
     title2: "Tte. Crl Alfredo Bonifaz",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
     socialLinks: [
@@ -82,7 +82,7 @@ export const limaInstitutes = [
   },
   {
     image: Inst3,
-    title1: "Institución educativa Publica de Gestión Privada",
+    title1: "Institución Educativa Pública de Gestión Privada",
     title2: "6005 GRAL EMILIO SOYER CABERO",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
     socialLinks: [
@@ -112,7 +112,7 @@ export const limaInstitutes = [
   },
   {
     image: Inst4,
-    title1: "Institución educativa Publica de Gestión Privada",
+    title1: "Institución Educativa Pública de Gestión Privada",
     title2: "CRL JOSE JOAQUIN INCLAN",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
     socialLinks: [
@@ -137,7 +137,7 @@ export const limaInstitutes = [
   },
   {
     image: Inst5,
-    title1: "Institución educativa Publica de Gestión Privada",
+    title1: "Institución Educativa Pública de Gestión Privada",
     title2: "JESUS NIÑO",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
     socialLinks: [
@@ -162,7 +162,7 @@ export const limaInstitutes = [
   },
   {
     image: Inst6,
-    title1: "Institución educativa Publica de Gestión Privada",
+    title1: "Institución Educativa Pública de Gestión Privada",
     title2: "LA ESPERANZA",
     title3: "CUNA - JARDIN",
     socialLinks: [
@@ -192,7 +192,7 @@ export const limaInstitutes = [
   },
   {
     image: Inst7,
-    title1: "Institución educativa Publica de Gestión Privada",
+    title1: "Institución Educativa Pública de Gestión Privada",
     title2: "MATELLINI",
     title3: "CUNA - JARDIN",
     socialLinks: [
@@ -222,7 +222,7 @@ export const limaInstitutes = [
   },
   {
     image: Inst8,
-    title1: "Institución educativa Publica de Gestión Privada",
+    title1: "Institución Educativa Pública de Gestión Privada",
     title2: "Primeros Pasos",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
     socialLinks: [
@@ -247,7 +247,7 @@ export const limaInstitutes = [
   },
   {
     image: Inst9,
-    title1: "Institución educativa Publica de Gestión Privada",
+    title1: "Institución Educativa Pública de Gestión Privada",
     title2: "Las Palmas",
     title3: "INICIAL",
     socialLinks: [
@@ -277,7 +277,7 @@ export const limaInstitutes = [
   },
   {
     image: Inst10,
-    title1: "Institución educativa Publica de Gestión Privada",
+    title1: "Institución Educativa Pública de Gestión Privada",
     title2: "SANTA ISABEL",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
     socialLinks: [

@@ -19,7 +19,7 @@ export const provinceInstitutes = [
   {
     image: Inst14,
     title1: "Institución Educativa",
-    title2: "MCAL ANDRES AVELINO CACERES - TUMBES",
+    title2: "MCAL ANDRÉS AVELINO CÁCERES - TUMBES",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
     socialLinks: [
       {
@@ -32,14 +32,19 @@ export const provinceInstitutes = [
         name: "iemaac2018@hotmail.com",
         url: "mailto:iemaac2018@hotmail.com",
       },
+      {
+        icon: faLocationDot,
+        name: "Andrés Avelino Cáceres - Tumbes",
+        url: "https://goo.gl/maps/iyUdXUdGKhBXjfFBA",
+      },
     ],
     buttonUrl:
       "https://drive.google.com/file/d/1LmkgUYdeuqJo9L-PtBzeSucyv6cueCq4/view?usp=sharing",
   },
   {
     image: Inst20,
-    title1: "INSTITUCION EDUCATIVA PRIVADA",
-    title2: "TTE MIGUEL CORTES - SULLANA",
+    title1: "Institución Educativa Privada",
+    title2: "TTE MIGUEL CORTÉS - SULLANA",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
     socialLinks: [
       {
@@ -52,14 +57,19 @@ export const provinceInstitutes = [
         name: "info@iepmiguelcortes.edu.pe",
         url: "mailto:info@iepmiguelcortes.edu.pe",
       },
+      {
+        icon: faLocationDot,
+        name: "Miguel Cortes – Sullana",
+        url: "https://goo.gl/maps/BUxaWWGoCSoseC7K7",
+      },
     ],
     buttonUrl:
       "https://drive.google.com/file/d/1YgeaqtNT12mxi_TZi7r_FXWCRNSINHxJ/view?usp=sharing",
   },
   {
     image: Inst15,
-    title1: "Institución Educativa Publica de Gestión Privada",
-    title2: "CRL JOSE JOAQUIN INCLAN - PIURA  ",
+    title1: "Institución Educativa Pública de Gestión Privada",
+    title2: "CRL JOSÉ JOAQUÍN INCLÁN - PIURA  ",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
     socialLinks: [
       {
@@ -84,8 +94,8 @@ export const provinceInstitutes = [
   {
     image: Inst22,
     title1: "Institución Educativa Publica de Gestión Privada",
-    title2: "40159  AREQUIPA” - AREQUIPA",
-    title3: "INICIAL - PRIMARIA - SECUNDARIA",
+    title2: "40159  ”AREQUIPA”",
+    title3: "INICIAL - PRIMARIA - SECUNDARIA AREQUIPA",
     socialLinks: [
       {
         icon: faLocationDot,
@@ -108,8 +118,8 @@ export const provinceInstitutes = [
   },
   {
     image: Inst13,
-    title1: "Institución Educativa Publica de Gestión Privada",
-    title2: "ANDRES AVELINO CACERES - PUNO",
+    title1: "Institución Educativa Pública de Gestión Privada",
+    title2: "ANDRÉS AVELINO CÁCERES - PUNO",
     title3: "INICIAL - PRIMARIA",
     socialLinks: [
       {
@@ -122,13 +132,18 @@ export const provinceInstitutes = [
         name: "iep.aacpuno@gmail.com",
         url: "mailto:iep.aacpuno@gmail.com",
       },
+      {
+        icon: faLocationDot,
+        name: "Andrés Avelino Cáceres - Puno",
+        url: "https://goo.gl/maps/EGC9CQZnXv2LRuWK7",
+      },
     ],
     buttonUrl:
       "https://drive.google.com/file/d/1s6C8H6x-KsgljBkyFqPYQ-EMVwkiPVyt/view?usp=sharing",
   },
   {
     image: Inst21,
-    title1: "Institución Educativa Publica de Gestión Privada",
+    title1: "Institución Educativa Pública de Gestión Privada",
     title2: "CRL FRANCISCO BOLONESI - CUZCO",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
     socialLinks: [
@@ -142,14 +157,19 @@ export const provinceInstitutes = [
         name: "iebolognesicusco@hotmail.com",
         url: "mailto:iebolognesicusco@hotmail.com",
       },
+      {
+        icon: faLocationDot,
+        name: "Crl Francisco Bolognesi – Cusco",
+        url: "https://goo.gl/maps/Su8i45tpDbz6tdVi6",
+      },
     ],
     buttonUrl:
       "https://drive.google.com/file/d/1NEi0wH2x6cAErspXBabI1YXh7kRFxnxX/view?usp=sharing",
   },
   {
     image: Inst16,
-    title1: "Institución Educativa Publica de Gestión Privada",
-    title2: "NUESTROS HEROES DE LA GUERRA DEL PACIFICO - TACNA",
+    title1: "Institución Educativa Pública de Gestión Privada",
+    title2: "NUESTROS HÉROES DE LA GUERRA DEL PACÍFICO - TACNA",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
     socialLinks: [
       {
@@ -162,14 +182,19 @@ export const provinceInstitutes = [
         name: "i.e.e.nhgp42217@gmail.com",
         url: "mailto:i.e.e.nhgp42217@gmail.com",
       },
+      {
+        icon: faLocationDot,
+        name: "Nuestros Héroes Guerra del Pacifico – Tacna",
+        url: "https://goo.gl/maps/zAS7qGYPxNNVVUic9",
+      },
     ],
     buttonUrl:
       "https://drive.google.com/file/d/1OV5pmYy4FFrE-WI-FdPsq6blIvBXc9K9/view?usp=sharing",
   },
   {
     image: Inst12,
-    title1: "Institución Educativa Publica de Gestión Privada",
-    title2: "ANDRES AVELINO CACERES - LOCUMBA",
+    title1: "Institución Educativa Pública de Gestión Privada",
+    title2: "ANDRÉS AVELINO CÁCERES - LOCUMBA",
     title3: "INICIAL - PRIMARIA",
     socialLinks: [
       {
@@ -182,12 +207,17 @@ export const provinceInstitutes = [
         name: "Nelly_7_1@hotmail.com",
         url: "mailto:Nelly_7_1@hotmail.com",
       },
+      {
+        icon: faLocationDot,
+        name: "Andrés Avelino Cáceres – Locumba",
+        url: "https://goo.gl/maps/fJH4JFEpZevNLvQZ6",
+      },
     ],
   },
   {
     image: Inst12,
-    title1: "Institución Educativa Publica de Gestión Privada",
-    title2: "CRL RAMON ZAVALA SUAREZ - LOCUMBA",
+    title1: "Institución Educativa Pública de Gestión Privada",
+    title2: "CRL RAMÓN ZAVALA SUÁREZ - LOCUMBA",
     title3: "INICIAL",
     socialLinks: [
       {
@@ -200,21 +230,42 @@ export const provinceInstitutes = [
         name: "Nelly_7_1@hotmail.com",
         url: "mailto:Nelly_7_1@hotmail.com",
       },
+      {
+        icon: faLocationDot,
+        name: "Ramón Zavala Suarez – Locumba",
+        url: "https://goo.gl/maps/fJH4JFEpZevNLvQZ6",
+      },
     ],
   },
   {
     image: Inst17,
-    title1: "Institución Educativa Publica de Gestión Privada",
-    title2: "MCAL ANDRES AVELINO CACERES - Iquitos",
+    title1: "Institución Educativa Pública de Gestión Privada",
+    title2: "MCAL ANDRÉS AVELINO CÁCERES - Iquitos",
     title3: "INICIAL",
-    socialLinks: [],
+    socialLinks: [
+      {
+        icon: faFacebook,
+        name: "ANDRÉS AVELINO CÁCERES",
+        url: "https://www.facebook.com/Colegio-MAAC-111412396891577/",
+      },
+      {
+        icon: faEnvelope,
+        name: "mesadepartesmaac@gmail.com",
+        url: "mailto:mesadepartesmaac@gmail.com",
+      },
+      {
+        icon: faLocationDot,
+        name: "MCAL ANDRÉS AVELINO CÁCERES - Iquitos",
+        url: "https://www.google.com/maps/place/3%C2%B044'49.6%22S+73%C2%B015'48.6%22W/@-3.7471039,-73.2635117,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x992530265f7edf71!8m2!3d-3.7471039!4d-73.2635117",
+      },
+    ],
     buttonUrl:
       "https://drive.google.com/file/d/1mpOrbslYfssMhQls1CaSk96xSuFTtb_W/view?usp=sharing",
   },
   {
     image: Inst18,
     title1: "Institución Educativa",
-    title2: "TARAPACA - IQUITOS",
+    title2: "TARAPACÁ - IQUITOS",
     title3: "INICIAL - PRIMARIA",
     socialLinks: [
       {
@@ -229,8 +280,8 @@ export const provinceInstitutes = [
       },
       {
         icon: faLocationDot,
-        name: 'IEIP N° 601555 "TARAPACA"',
-        url: "https://www.google.com/maps/place/3%C2%B045'48.3%22S+73%C2%B015'40.5%22W/@-6.3399831,-81.3488747,5.22z/data=!4m5!3m4!1s0x0:0x145878e26f4f34ea!8m2!3d-3.763406!4d-73.2612457?hl=es",
+        name: "Tarapacá – Iquitos",
+        url: "https://goo.gl/maps/Uvr6UkERhGMaRgq1A",
       },
     ],
     buttonUrl:
@@ -238,7 +289,7 @@ export const provinceInstitutes = [
   },
   {
     image: Inst19,
-    // image2: ImgIeMariaMontessori,
+    image2: ImgIeMariaMontessori,
     title1: "Institución Educativa",
     title2: "N° 169 MARIA MONTESSORI - IQUITOS",
     title3: "INICIAL",
@@ -252,6 +303,11 @@ export const provinceInstitutes = [
         icon: faEnvelope,
         name: "mariamontessori169.2017@gmail.com",
         url: "mailto:mariamontessori169.2017@gmail.com",
+      },
+      {
+        icon: faLocationDot,
+        name: "María Montessori – Iquitos",
+        url: "https://goo.gl/maps/9eVEJACa887wLkWr6",
       },
     ],
     buttonUrl:

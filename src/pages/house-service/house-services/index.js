@@ -1,11 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import {
-  ImgLogoJace,
-  ImgSliderJace,
-  ImgSliderJace2,
-  ImgSliderJace3,
-} from "../../../images";
+import { ImgLogoJace, ImgSliderJace } from "../../../images";
 import {
   Button,
   InitialContent,
@@ -13,17 +8,16 @@ import {
   ShowAndHiddenButton,
 } from "../../../components";
 import Carousel from "antd/lib/carousel";
-import { faFileInvoice, faLightbulb } from "@fortawesome/free-solid-svg-icons";
 import { requerimentsJace } from "../../../data-list";
 
 export const HouseServices = () => (
   <Container>
     <InitialContent
-      title="Jace"
+      title="JACE"
       img={ImgLogoJace}
-      description=" La JACE asesora al Comando de Bienestar del Ejército en los aspectos
+      description=" La Jefatura de Administración de Casas del Ejército asesora al Comando de Bienestar del Ejército en los aspectos
             inherentes de la administración de casas de servicios del Ejército.
-            Asimismo, planificara, ejecutara y supervisara los trabajos de
+            Asimismo, planificará, ejecutará y supervisará los trabajos de
             conservación, mejoramiento y rehabilitación de la infraestructura,
             inmobiliaria de las casas de servicio de la guarnición de Lima, a fin
             de contribuir a la consecución de los objetivos de Bienestar del
@@ -32,8 +26,6 @@ export const HouseServices = () => (
 
     <Carousel autoplay>
       <img src={ImgSliderJace} alt="Img Jace" className="img-mapa" />
-      <img src={ImgSliderJace2} alt="Img Jace" className="img-mapa" />
-      <img src={ImgSliderJace3} alt="Img Jace" className="img-mapa" />
     </Carousel>
 
     <div className="section-requirements">
@@ -55,7 +47,8 @@ export const HouseServices = () => (
       width="100%"
       onClick={() =>
         NavigateGoToLink(
-          "https://drive.google.com/file/d/1BMuifWm1NTDkhUtynifpoRzutQiQ35Uw/view?usp=sharing"
+          // "https://drive.google.com/file/d/1BMuifWm1NTDkhUtynifpoRzutQiQ35Uw/view?usp=sharing"
+          "https://drive.google.com/file/d/1kmcCz9kdfF420BvjSxXGo6chorO4-V5z/view?usp=sharing"
         )
       }
     >

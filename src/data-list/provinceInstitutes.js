@@ -1,7 +1,16 @@
 import { faEnvelope, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import {
+  ImgAndresAvelinoIquitos,
+  ImgAndresAvelinoPuno,
+  ImgAndresAvelinoTumbes,
+  ImgEjercitoArequipa,
+  ImgFranciscoBolonesiCusco,
   ImgIeMariaMontessori,
+  ImgJoseJuaquinPiura,
+  ImgMiguelCortezSullana,
+  ImgRamonZavalaLocumba,
+  ImgTarapacaIquitos,
   Inst12,
   Inst13,
   Inst14,
@@ -18,6 +27,7 @@ import {
 export const provinceInstitutes = [
   {
     image: Inst14,
+    image2: ImgAndresAvelinoTumbes,
     title1: "Institución Educativa",
     title2: "MCAL ANDRÉS AVELINO CÁCERES - TUMBES",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
@@ -43,6 +53,7 @@ export const provinceInstitutes = [
   },
   {
     image: Inst20,
+    image2: ImgMiguelCortezSullana,
     title1: "Institución Educativa Privada",
     title2: "TTE MIGUEL CORTÉS - SULLANA",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
@@ -68,6 +79,7 @@ export const provinceInstitutes = [
   },
   {
     image: Inst15,
+    image2: ImgJoseJuaquinPiura,
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "CRL JOSÉ JOAQUÍN INCLÁN - PIURA  ",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
@@ -93,6 +105,7 @@ export const provinceInstitutes = [
   },
   {
     image: Inst22,
+    image2: ImgEjercitoArequipa,
     title1: "Institución Educativa Publica de Gestión Privada",
     title2: "40159  ”AREQUIPA”",
     title3: "INICIAL - PRIMARIA - SECUNDARIA AREQUIPA",
@@ -118,6 +131,7 @@ export const provinceInstitutes = [
   },
   {
     image: Inst13,
+    image2: ImgAndresAvelinoPuno,
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "ANDRÉS AVELINO CÁCERES - PUNO",
     title3: "INICIAL - PRIMARIA",
@@ -143,6 +157,7 @@ export const provinceInstitutes = [
   },
   {
     image: Inst21,
+    image2: ImgFranciscoBolonesiCusco,
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "CRL FRANCISCO BOLONESI - CUZCO",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
@@ -193,6 +208,7 @@ export const provinceInstitutes = [
   },
   {
     image: Inst12,
+
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "ANDRÉS AVELINO CÁCERES - LOCUMBA",
     title3: "INICIAL - PRIMARIA",
@@ -216,6 +232,7 @@ export const provinceInstitutes = [
   },
   {
     image: Inst12,
+    image2: ImgRamonZavalaLocumba,
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "CRL RAMÓN ZAVALA SUÁREZ - LOCUMBA",
     title3: "INICIAL",
@@ -239,6 +256,7 @@ export const provinceInstitutes = [
   },
   {
     image: Inst17,
+    image2: ImgAndresAvelinoIquitos,
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "MCAL ANDRÉS AVELINO CÁCERES - Iquitos",
     title3: "INICIAL",
@@ -264,6 +282,7 @@ export const provinceInstitutes = [
   },
   {
     image: Inst18,
+    image2: ImgTarapacaIquitos,
     title1: "Institución Educativa",
     title2: "TARAPACÁ - IQUITOS",
     title3: "INICIAL - PRIMARIA",

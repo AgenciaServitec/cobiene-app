@@ -13,18 +13,8 @@ export const ItemCarousel = ({
 }) => {
   return (
     <Container>
-      {image2 ? (
-        <div className="content-two-image">
-          <div className="top-image">
-            <img src={image} alt={title2} />
-          </div>
-          {/*<div className="botton-image">*/}
-          {/*  <img src={image2} alt={title2} />*/}
-          {/*</div>*/}
-        </div>
-      ) : (
-        <img src={image} alt={title2} className="content-one-image" />
-      )}
+      <img src={image} alt={title2} className="content-one-image" />
+
       <div className="wrapper-titles">
         <h3>{title1}</h3>
         <h3>{title2}</h3>
@@ -64,34 +54,11 @@ const Container = styled.div`
   width: 100%;
   height: auto;
 
-  .content-two-image {
-    width: 100%;
-    .top-image {
-      img {
-        width: 100%;
-        height: 100%;
-        max-width: 9em;
-        max-height: 9em;
-        object-fit: contain;
-        margin: 1em auto;
-      }
-    }
-    .botton-image {
-      img {
-        width: 100%;
-        height: 100%;
-        max-width: 25em;
-        max-height: 15em;
-        object-fit: contain;
-        margin: 1em auto;
-      }
-    }
-  }
   .content-one-image {
     width: 60%;
-    height: 20em;
-    max-width: 20em;
-    max-height: 20em;
+    height: 10em;
+    max-width: 9em;
+    max-height: 9em;
     object-fit: contain;
     margin: 1em auto;
   }
@@ -106,18 +73,19 @@ const Container = styled.div`
     }
   }
   .image-corporative {
+    width: 95%;
+    margin: auto;
     img {
       width: 100%;
-      height: 100%;
-      max-width: 25em;
-      max-height: 15em;
+      height: auto;
+      max-width: 40em;
       object-fit: contain;
       margin: 1em auto;
     }
   }
 
   .link-list {
-    margin: 1rem auto;
+    margin: 1.5rem auto;
     padding: 0 1rem;
   }
 `;

@@ -1,4 +1,8 @@
-import { faEnvelope, faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import {
+  faEnvelope,
+  faGlobe,
+  faLocationDot,
+} from "@fortawesome/free-solid-svg-icons";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import {
   ImgAndresAvelinoIquitos,
@@ -73,6 +77,11 @@ export const provinceInstitutes = [
         name: "Miguel Cortes – Sullana",
         url: "https://goo.gl/maps/BUxaWWGoCSoseC7K7",
       },
+      {
+        icon: faGlobe,
+        name: "https://www.iepmiguelcortes.edu.pe",
+        url: "https://www.iepmiguelcortes.edu.pe",
+      },
     ],
     buttonUrl:
       "https://drive.google.com/file/d/1YgeaqtNT12mxi_TZi7r_FXWCRNSINHxJ/view?usp=sharing",
@@ -85,11 +94,6 @@ export const provinceInstitutes = [
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
     socialLinks: [
       {
-        icon: faLocationDot,
-        name: "Av. San Martin N° 900",
-        url: "https://www.google.com/maps/place/Urb+Cuartel+Almte.+Miguel+Grau,+Piura+20001/@-5.1421023,-80.8108343,10.17z/data=!4m16!1m10!4m9!1m4!2m2!1d-77.0219014!2d-12.1858658!4e1!1m3!2m2!1d-80.636963!2d-5.1992226!3m4!1s0x904a1a874f9dec03:0x7363f626a0466074!8m2!3d-5.1980054!4d-80.6375476",
-      },
-      {
         icon: faFacebook,
         name: "facebook.com/inclanpiura",
         url: "https://www.facebook.com/inclanpiura",
@@ -98,6 +102,11 @@ export const provinceInstitutes = [
         icon: faEnvelope,
         name: "jjinclan@hotmail.es",
         url: "mailto:jjinclan@hotmail.es",
+      },
+      {
+        icon: faLocationDot,
+        name: "Av. San Martin N° 900",
+        url: "https://www.google.com/maps/place/Urb+Cuartel+Almte.+Miguel+Grau,+Piura+20001/@-5.1421023,-80.8108343,10.17z/data=!4m16!1m10!4m9!1m4!2m2!1d-77.0219014!2d-12.1858658!4e1!1m3!2m2!1d-80.636963!2d-5.1992226!3m4!1s0x904a1a874f9dec03:0x7363f626a0466074!8m2!3d-5.1980054!4d-80.6375476",
       },
     ],
     buttonUrl:
@@ -111,11 +120,6 @@ export const provinceInstitutes = [
     title3: "INICIAL - PRIMARIA - SECUNDARIA AREQUIPA",
     socialLinks: [
       {
-        icon: faLocationDot,
-        name: "Av. Progreso 1220",
-        url: "https://www.google.com.pe/maps/place/Instituci%C3%B3n+Educativa+Ej%C3%A9rcito+Arequipa/@-16.3982408,-71.5184189,756m/data=!3m1!1e3!4m9!1m2!2m1!1s40159+EJERCITO+AREQUIPA%E2%80%9D%7D!3m5!1s0x91424ba8ddc31f57:0x7f7dc0980a100ca3!8m2!3d-16.398448!4d-71.5158218!15sChs0MDE1OSBFSkVSQ0lUTyBBUkVRVUlQQeKAnX2SAQZzY2hvb2w!5m1!1e4?hl=es-419",
-      },
-      {
         icon: faFacebook,
         name: "facebook.com/IE-40159",
         url: "https://m.facebook.com/IE-40159-Del-Ej%C3%A9rcito-Arequipa-1982516118723178",
@@ -124,6 +128,11 @@ export const provinceInstitutes = [
         icon: faEnvelope,
         name: "informes@colegioejercitoarequipa.com",
         url: "mailto:informes@colegioejercitoarequipa.com",
+      },
+      {
+        icon: faLocationDot,
+        name: "Av. Progreso 1220",
+        url: "https://www.google.com.pe/maps/place/Instituci%C3%B3n+Educativa+Ej%C3%A9rcito+Arequipa/@-16.3982408,-71.5184189,756m/data=!3m1!1e3!4m9!1m2!2m1!1s40159+EJERCITO+AREQUIPA%E2%80%9D%7D!3m5!1s0x91424ba8ddc31f57:0x7f7dc0980a100ca3!8m2!3d-16.398448!4d-71.5158218!15sChs0MDE1OSBFSkVSQ0lUTyBBUkVRVUlQQeKAnX2SAQZzY2hvb2w!5m1!1e4?hl=es-419",
       },
     ],
     buttonUrl:
@@ -138,8 +147,8 @@ export const provinceInstitutes = [
     socialLinks: [
       {
         icon: faFacebook,
-        name: "facebook.com/AACPUNO",
-        url: "https://www.facebook.com/AACPUNO",
+        name: "facebook.com/AndresAvelinoPuno",
+        url: "https://www.facebook.com/AndresAvelinoPuno",
       },
       {
         icon: faEnvelope,
@@ -165,7 +174,7 @@ export const provinceInstitutes = [
       {
         icon: faFacebook,
         name: "facebook.com/CoronelFranciscoBolognesi",
-        url: "https://www.facebook.com/CoronelFranciscoBolognesi",
+        url: "Facebook: https://www.facebook.com/I-E-Crl-Francisco-Bolognesi-104490221717515/?ti=as",
       },
       {
         icon: faEnvelope,
@@ -176,6 +185,11 @@ export const provinceInstitutes = [
         icon: faLocationDot,
         name: "Crl Francisco Bolognesi – Cusco",
         url: "https://goo.gl/maps/Su8i45tpDbz6tdVi6",
+      },
+      {
+        icon: faGlobe,
+        name: "https://iecfb.edu.pe/",
+        url: "https://iecfb.edu.pe/",
       },
     ],
     buttonUrl:
@@ -190,7 +204,7 @@ export const provinceInstitutes = [
       {
         icon: faFacebook,
         name: "facebook.com/colegio.nhgp",
-        url: "https://www.facebook.com/colegio.nhgp",
+        url: "https://www.facebook.com/nhgp.edu.pe/",
       },
       {
         icon: faEnvelope,
@@ -201,6 +215,11 @@ export const provinceInstitutes = [
         icon: faLocationDot,
         name: "Nuestros Héroes Guerra del Pacifico – Tacna",
         url: "https://goo.gl/maps/zAS7qGYPxNNVVUic9",
+      },
+      {
+        icon: faGlobe,
+        name: "http://nhgp.edu.pe/",
+        url: "http://nhgp.edu.pe/",
       },
     ],
     buttonUrl:
@@ -290,7 +309,7 @@ export const provinceInstitutes = [
       {
         icon: faFacebook,
         name: "facebook.com/Colegio%20Tarapaca",
-        url: "https://m.facebook.com/pages/Colegio%20Tarapaca/1884438888513346/",
+        url: "https://www.facebook.com/profile.php?id=100054614057405",
       },
       {
         icon: faEnvelope,
@@ -310,13 +329,13 @@ export const provinceInstitutes = [
     image: Inst19,
     image2: ImgIeMariaMontessori,
     title1: "Institución Educativa",
-    title2: "N° 169 MARIA MONTESSORI - IQUITOS",
+    title2: "N° 169 MARÍA MONTESSORI - IQUITOS",
     title3: "INICIAL",
     socialLinks: [
       {
         icon: faFacebook,
         name: "facebook.com/mariamontessori169iquitos",
-        url: "https://www.facebook.com/mariamontessori169iquitos",
+        url: "https://www.facebook.com/maria.montessori.1441810",
       },
       {
         icon: faEnvelope,

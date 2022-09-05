@@ -70,16 +70,18 @@ const Container = styled.div`
       text-transform: capitalize;
       text-align: center;
       font-size: 1.2rem;
+      line-height: 1.7em !important;
     }
   }
   .image-corporative {
     width: 95%;
+    height: 12em;
     margin: auto;
     img {
       width: 100%;
-      height: auto;
+      height: 100%;
       max-width: 40em;
-      object-fit: contain;
+      object-fit: cover;
       margin: 1em auto;
     }
   }

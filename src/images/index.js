@@ -51,7 +51,7 @@ export { default as Inst20 } from "./others/inst20.webp";
 export { default as Inst21 } from "./others/inst21.webp";
 export { default as Inst22 } from "./others/inst22.webp";
 
-//--------Images provinces------
+//--------Corporatives images provinces------
 export { default as ImgIeMariaMontessori } from "./province-institutes/ie-maria-montessori.webp";
 export { default as ImgAndresAvelinoIquitos } from "./province-institutes/andres-avelino-caceras-iquitos.webp";
 export { default as ImgAndresAvelinoPuno } from "./province-institutes/andres-avelino-caceres-puno.webp";
@@ -62,6 +62,8 @@ export { default as ImgMiguelCortezSullana } from "./province-institutes/miguel-
 export { default as ImgFranciscoBolonesiCusco } from "./province-institutes/province-francisco-bolognesi-cusco.webp";
 export { default as ImgRamonZavalaLocumba } from "./province-institutes/ramon-zavala-juares-locumba.webp";
 export { default as ImgTarapacaIquitos } from "./province-institutes/tarapaca-iquitos.webp";
+export { default as ImgAndresAvelinoCaceresLocumba } from "./province-institutes/iep-andres-avelino-caceres-locumba.webp";
+export { default as ImgNuestrosHeroes } from "./province-institutes/iep-nuestros-heroes.webp";
 
 //--------Carousel Officers-Circle
 export { default as ImgOfficers1 } from "./others/sede-arequipa.webp";

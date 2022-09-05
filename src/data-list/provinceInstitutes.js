@@ -5,6 +5,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import {
+  ImgAndresAvelinoCaceresLocumba,
   ImgAndresAvelinoIquitos,
   ImgAndresAvelinoPuno,
   ImgAndresAvelinoTumbes,
@@ -197,6 +198,7 @@ export const provinceInstitutes = [
   },
   {
     image: Inst16,
+    // image2: ImgNuestrosHeroes,
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "NUESTROS HÉROES DE LA GUERRA DEL PACÍFICO - TACNA",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
@@ -227,7 +229,7 @@ export const provinceInstitutes = [
   },
   {
     image: Inst12,
-
+    image2: ImgAndresAvelinoCaceresLocumba,
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "ANDRÉS AVELINO CÁCERES - LOCUMBA",
     title3: "INICIAL - PRIMARIA",

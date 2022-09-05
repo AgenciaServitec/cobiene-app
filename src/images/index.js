@@ -51,7 +51,7 @@ export { default as Inst20 } from "./others/inst20.webp";
 export { default as Inst21 } from "./others/inst21.webp";
 export { default as Inst22 } from "./others/inst22.webp";
 
-//--------Corporatives images provinces------
+//--------Corporatives images provinces institutes------
 export { default as ImgIeMariaMontessori } from "./province-institutes/ie-maria-montessori.webp";
 export { default as ImgAndresAvelinoIquitos } from "./province-institutes/andres-avelino-caceras-iquitos.webp";
 export { default as ImgAndresAvelinoPuno } from "./province-institutes/andres-avelino-caceres-puno.webp";
@@ -64,6 +64,17 @@ export { default as ImgRamonZavalaLocumba } from "./province-institutes/ramon-za
 export { default as ImgTarapacaIquitos } from "./province-institutes/tarapaca-iquitos.webp";
 export { default as ImgAndresAvelinoCaceresLocumba } from "./province-institutes/iep-andres-avelino-caceres-locumba.webp";
 export { default as ImgNuestrosHeroes } from "./province-institutes/iep-nuestros-heroes.webp";
+
+//--------Corporatives images lima institues------
+export { default as ImgEmilioSoyerCabero } from "./lima-institutes/iel-emilio-soyer-cabero.webp";
+export { default as ImgJesusNino } from "./lima-institutes/iel-jesus-nino.webp";
+export { default as ImgJoseJoaquinInclan } from "./lima-institutes/iel-jose-joaquin-inclan.webp";
+export { default as ImgLaEsperanza } from "./lima-institutes/iel-la-ezperanza.webp";
+export { default as ImgLasPalmas } from "./lima-institutes/iel-las-palmas.webp";
+export { default as ImgMatelini } from "./lima-institutes/iel-matellini.webp";
+export { default as ImgPedroRuizGallo } from "./lima-institutes/iel-pedro-ruiz-gallo.webp";
+export { default as ImgPrimerosPasos } from "./lima-institutes/iel-primeros-pasos.webp";
+export { default as ImgSantaIsabel } from "./lima-institutes/iel-santa-isabel.webp";
 
 //--------Carousel Officers-Circle
 export { default as ImgOfficers1 } from "./others/sede-arequipa.webp";

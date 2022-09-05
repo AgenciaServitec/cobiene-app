@@ -1,4 +1,5 @@
 import {
+  ImgAlfredoBonifaz,
   ImgEmilioSoyerCabero,
   ImgJesusNino,
   ImgJoseJoaquinInclan,
@@ -62,6 +63,7 @@ export const limaInstitutes = [
   },
   {
     image: Inst2,
+    image2: ImgAlfredoBonifaz,
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "Tte. Crl Alfredo Bonifaz",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
@@ -74,7 +76,7 @@ export const limaInstitutes = [
       {
         icon: faFacebook,
         name: "facebook.com/TteCrlABonifaz",
-        url: "https://m.facebook.com/TteCrlABonifaz",
+        url: "https://www.facebook.com/TteCrlAlfredoBonifazFonseca",
       },
       {
         icon: faEnvelope,
@@ -143,6 +145,11 @@ export const limaInstitutes = [
         name: "(01) 2515134",
         url: "tel:+51012515134",
       },
+      {
+        icon: faGlobe,
+        name: "http://www.jjinclan.edu.pe/",
+        url: "http://www.jjinclan.edu.pe/",
+      },
     ],
     buttonUrl:
       "https://drive.google.com/file/d/1gqElfhd2BDuA1M8BJkrIHcILox83ejUC/view?usp=sharing",
@@ -167,7 +174,7 @@ export const limaInstitutes = [
       {
         icon: faGlobe,
         name: "www.jnep.edu.pe",
-        url: "https://www.jnep.edu.pe/",
+        url: "https://jnep.edu.pe/",
       },
     ],
     buttonUrl:
@@ -198,7 +205,7 @@ export const limaInstitutes = [
       {
         icon: faGlobe,
         name: "www.ielaesperanza.com",
-        url: "https://www.ielaesperanza.com/",
+        url: "https://www.ielaesperanza.org/",
       },
     ],
     buttonUrl:
@@ -250,12 +257,17 @@ export const limaInstitutes = [
       {
         icon: faFacebook,
         name: "facebook.com/primerospasos.pasos",
-        url: "https://www.facebook.com/primerospasos.pasos",
+        url: "https://www.facebook.com/ieprimerospasos",
       },
       {
         icon: faPhone,
         name: "(01) 2511047",
         url: "tel:+51012511047",
+      },
+      {
+        icon: faGlobe,
+        name: "https://primerospasos.sieweb.com.pe",
+        url: "https://primerospasos.sieweb.com.pe/sistema/login",
       },
     ],
     buttonUrl:
@@ -276,7 +288,7 @@ export const limaInstitutes = [
       {
         icon: faFacebook,
         name: "facebook.com/laspalmas.ie.3",
-        url: "https://www.facebook.com/laspalmas.ie.3",
+        url: "https://www.facebook.com/ieejercitolaspalmas",
       },
       {
         icon: faEnvelope,
@@ -307,7 +319,7 @@ export const limaInstitutes = [
       {
         icon: faFacebook,
         name: "m.facebook.com/cebesanta.isabel.3",
-        url: "https://facebook.com/cebesanta.isabel.3",
+        url: "https://www.facebook.com/Centro-de-Educación-Básica-Especial-Santa-Isabel-100332839293866",
       },
       {
         icon: faPhone,
@@ -332,7 +344,7 @@ export const limaInstitutes = [
       {
         icon: faFacebook,
         name: "facebook.com/cuna.corazondejesus",
-        url: "https://facebook.com/cuna.corazondejesus",
+        url: "https://www.facebook.com/Cuna-Coraz%C3%B3n-de-Jes%C3%BAs-106450965095491",
       },
     ],
     buttonUrl:

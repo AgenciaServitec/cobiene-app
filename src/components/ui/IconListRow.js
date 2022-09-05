@@ -5,7 +5,7 @@ export const IconListRow = ({ icon, link, ariaLabel, background }) => {
   return (
     <Container background={background}>
       <div className="section-icon">
-        <a href={link} aria-label={ariaLabel} target="_blank">
+        <a href={link} aria-label={ariaLabel}>
           <FontAwesomeIcon icon={icon} size="2x" />
         </a>
       </div>

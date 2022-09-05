@@ -14,6 +14,7 @@ import {
   ImgIeMariaMontessori,
   ImgJoseJuaquinPiura,
   ImgMiguelCortezSullana,
+  ImgNuestrosHeroes,
   ImgRamonZavalaLocumba,
   ImgTarapacaIquitos,
   Inst12,
@@ -198,7 +199,7 @@ export const provinceInstitutes = [
   },
   {
     image: Inst16,
-    // image2: ImgNuestrosHeroes,
+    image2: ImgNuestrosHeroes,
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "NUESTROS HÉROES DE LA GUERRA DEL PACÍFICO - TACNA",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",

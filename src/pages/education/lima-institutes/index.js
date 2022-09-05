@@ -26,6 +26,7 @@ export const LimaInstitutes = () => {
           <ItemCarousel
             key={index}
             image={limaInstitute.image}
+            image2={limaInstitute.image2}
             title1={limaInstitute.title1}
             title2={limaInstitute.title2}
             title3={limaInstitute.title3}

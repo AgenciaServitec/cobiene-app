@@ -42,18 +42,18 @@ export const AboutAs = () => {
       </Button>
       {buttonHidden1 && (
         <div className="content">
-          <h3>Misión</h3>
           <Text>
+            <h3>Misión</h3>
             Promover y desarrollar actividades que aseguren el bienestar del
             personal de la institución y de sus familiares directos, con la
             finalidad de contribuir a elevar su moral y rendimiento.
             <h3>Visión</h3>
             Ser una organización eficiente, reconocida, valorada y transparente,
             comprometida con la calidad de servicio, que brinde el mayor
-            bienestar posible al personal COBIENE, civil y familiares directos
+            bienestar posible al personal militar, civil y familiares directos
             de la institución.
             <h3>Lema</h3>
-            Trabajando por el bienestar de la familia militar
+            "TRABAJANDO POR EL BIENESTAR DE LA FAMILIA MILITAR"
           </Text>
         </div>
       )}

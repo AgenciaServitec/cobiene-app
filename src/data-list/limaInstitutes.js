@@ -1,4 +1,13 @@
 import {
+  ImgEmilioSoyerCabero,
+  ImgJesusNino,
+  ImgJoseJoaquinInclan,
+  ImgLaEsperanza,
+  ImgLasPalmas,
+  ImgMatelini,
+  ImgPedroRuizGallo,
+  ImgPrimerosPasos,
+  ImgSantaIsabel,
   Inst1,
   Inst10,
   Inst11,
@@ -22,6 +31,7 @@ import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 export const limaInstitutes = [
   {
     image: Inst1,
+    image2: ImgPedroRuizGallo,
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "PEDRO RUIZ GALLO",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
@@ -82,6 +92,7 @@ export const limaInstitutes = [
   },
   {
     image: Inst3,
+    image2: ImgEmilioSoyerCabero,
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "6005 GRAL EMILIO SOYER CABERO",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
@@ -94,7 +105,7 @@ export const limaInstitutes = [
       {
         icon: faFacebook,
         name: "facebook.com/iesoyer",
-        url: "https://m.facebook.com/iesoyer",
+        url: "https://facebook.com/iesoyer",
       },
       {
         icon: faEnvelope,
@@ -112,6 +123,7 @@ export const limaInstitutes = [
   },
   {
     image: Inst4,
+    image2: ImgJoseJoaquinInclan,
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "CRL JOSE JOAQUIN INCLAN",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
@@ -137,6 +149,7 @@ export const limaInstitutes = [
   },
   {
     image: Inst5,
+    image2: ImgJesusNino,
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "JESUS NIÑO",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
@@ -162,6 +175,7 @@ export const limaInstitutes = [
   },
   {
     image: Inst6,
+    image2: ImgLaEsperanza,
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "LA ESPERANZA",
     title3: "CUNA - JARDIN",
@@ -192,6 +206,7 @@ export const limaInstitutes = [
   },
   {
     image: Inst7,
+    image2: ImgMatelini,
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "MATELLINI",
     title3: "CUNA - JARDIN",
@@ -222,6 +237,7 @@ export const limaInstitutes = [
   },
   {
     image: Inst8,
+    image2: ImgPrimerosPasos,
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "Primeros Pasos",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
@@ -247,6 +263,7 @@ export const limaInstitutes = [
   },
   {
     image: Inst9,
+    image2: ImgLasPalmas,
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "Las Palmas",
     title3: "INICIAL",
@@ -277,6 +294,7 @@ export const limaInstitutes = [
   },
   {
     image: Inst10,
+    image2: ImgSantaIsabel,
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "SANTA ISABEL",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
@@ -289,7 +307,7 @@ export const limaInstitutes = [
       {
         icon: faFacebook,
         name: "m.facebook.com/cebesanta.isabel.3",
-        url: "https://m.facebook.com/cebesanta.isabel.3",
+        url: "https://facebook.com/cebesanta.isabel.3",
       },
       {
         icon: faPhone,
@@ -314,7 +332,7 @@ export const limaInstitutes = [
       {
         icon: faFacebook,
         name: "facebook.com/cuna.corazondejesus",
-        url: "https://m.facebook.com/cuna.corazondejesus",
+        url: "https://facebook.com/cuna.corazondejesus",
       },
     ],
     buttonUrl:

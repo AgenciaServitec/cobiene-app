@@ -75,6 +75,7 @@ export { default as ImgMatelini } from "./lima-institutes/iel-matellini.webp";
 export { default as ImgPedroRuizGallo } from "./lima-institutes/iel-pedro-ruiz-gallo.webp";
 export { default as ImgPrimerosPasos } from "./lima-institutes/iel-primeros-pasos.webp";
 export { default as ImgSantaIsabel } from "./lima-institutes/iel-santa-isabel.webp";
+export { default as ImgAlfredoBonifaz } from "./lima-institutes/iel-alfedro-bonifaz.webp";
 
 //--------Carousel Officers-Circle
 export { default as ImgOfficers1 } from "./others/sede-arequipa.webp";

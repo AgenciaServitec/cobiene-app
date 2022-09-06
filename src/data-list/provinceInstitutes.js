@@ -33,6 +33,9 @@ import {
   ImgCarouselMiguelSullana,
   ImgCarouselMiguelSullana2,
   ImgCarouselMiguelSullana3,
+  ImgCarouselNuestrosHeroes,
+  ImgCarouselNuestrosHeroes2,
+  ImgCarouselNuestrosHeroes3,
   ImgCarouselRamonZavalaLocumba,
   ImgCarouselRamonZavalaLocumba2,
   ImgCarouselRamonZavalaLocumba3,
@@ -258,7 +261,12 @@ export const provinceInstitutes = [
   },
   {
     image: Inst16,
-    imgCarousels: [ImgNuestrosHeroes],
+    imgCarousels: [
+      ImgNuestrosHeroes,
+      ImgCarouselNuestrosHeroes,
+      ImgCarouselNuestrosHeroes2,
+      ImgCarouselNuestrosHeroes3,
+    ],
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "NUESTROS HÉROES DE LA GUERRA DEL PACÍFICO - TACNA",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",

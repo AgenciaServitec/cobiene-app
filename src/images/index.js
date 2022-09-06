@@ -64,6 +64,39 @@ export { default as ImgRamonZavalaLocumba } from "./province-institutes/ramon-za
 export { default as ImgTarapacaIquitos } from "./province-institutes/tarapaca-iquitos.webp";
 export { default as ImgAndresAvelinoCaceresLocumba } from "./province-institutes/iep-andres-avelino-caceres-locumba.webp";
 export { default as ImgNuestrosHeroes } from "./province-institutes/iep-nuestros-heroes.webp";
+|
+//--------Carousel images provinces institutes------
+export { default as ImgCarouselAacIquitos } from "./province-institutes/carousel-andre-avelino-iquitos.webp";
+export { default as ImgCarouselAacIquitos2 } from "./province-institutes/carousel-andre-avelino-iquitos2.webp";
+export { default as ImgCarouselAacIquitos3 } from "./province-institutes/carousel-andre-avelino-iquitos3.webp";
+export { default as ImgCarouselAacLocumba } from "./province-institutes/carousel-andre-avelino-locumba.webp";
+export { default as ImgCarouselAacLocumba2 } from "./province-institutes/carousel-andre-avelino-locumba-2.webp";
+export { default as ImgCarouselAacLocumba3 } from "./province-institutes/carousel-andre-avelino-locumba-4.webp";
+export { default as ImgCarouselRamonZavalaLocumba } from "./province-institutes/carousel-andre-avelino-locumba-3.webp";
+export { default as ImgCarouselRamonZavalaLocumba2 } from "./province-institutes/carousel-ramon-savala-locumba-2.webp";
+export { default as ImgCarouselRamonZavalaLocumba3 } from "./province-institutes/carousel-ramon-savala-locumba-3.webp";
+export { default as ImgCarouselAacPuno } from "./province-institutes/carousel-andre-avelino-puno.webp";
+export { default as ImgCarouselAacPuno2 } from "./province-institutes/carousel-andre-avelino-puno-2.webp";
+export { default as ImgCarouselAacPuno3 } from "./province-institutes/carousel-andre-avelino-puno-3.webp";
+export { default as ImgCarouselAacTumbes } from "./province-institutes/carousel-andre-avelino-tumbes.webp";
+export { default as ImgCarouselAacTumbes2 } from "./province-institutes/carousel-andre-avelino-tumbes-2.webp";
+export { default as ImgCarouselAacTumbes3 } from "./province-institutes/carousel-andre-avelino-tumbes-3.webp";
+export { default as ImgCarouselEjercitoArequipa } from "./province-institutes/carousel-ejercito-arequipa.webp";
+export { default as ImgCarouselEjercitoArequipa2 } from "./province-institutes/carousel-ejercito-arequipa-2.webp";
+export { default as ImgCarouselFranciscoBolonesCusco } from "./province-institutes/carousel-francisco-bolonesi-cusco.webp";
+export { default as ImgCarouselFranciscoBolonesiCusco2 } from "./province-institutes/carousel-francisco-bolonesi--cusco-2.webp";
+export { default as ImgCarouselFranciscoBolonesiCusco3 } from "./province-institutes/carousel-francisco-bolonesi-cusco-3.webp";
+export { default as ImgCarouselInclanPiura } from "./province-institutes/carousel-inclan-piura.webp";
+export { default as ImgCarouselInclanPiura2 } from "./province-institutes/carousel-inclan-piura-2.webp";
+export { default as ImgCarouselInclanPiura3 } from "./province-institutes/carousel-inclan-piura-3.webp";
+export { default as ImgCarouselMariaMontesori } from "./province-institutes/carousel-maria-montesori.webp";
+export { default as ImgCarouselMariaMontesori2 } from "./province-institutes/carousel-maria-montesori-2.webp";
+export { default as ImgCarouselMiguelSullana } from "./province-institutes/carousel-miguel-cortes-sullana.webp";
+export { default as ImgCarouselMiguelSullana2 } from "./province-institutes/carousel-miguel-cortes-sullana-2.webp";
+export { default as ImgCarouselMiguelSullana3 } from "./province-institutes/carousel-miguel-cortes-sulla-3.webp";
+export { default as ImgCarouselTarapaca } from "./province-institutes/carousel-tarapaca.webp";
+export { default as ImgCarouselTarapaca2 } from "./province-institutes/carousel-tarapaca2.webp";
+export { default as ImgCarouselTarapaca3 } from "./province-institutes/carousel-tarapaca3.webp";
 
 //--------Corporatives images lima institues------
 export { default as ImgEmilioSoyerCabero } from "./lima-institutes/iel-emilio-soyer-cabero.webp";

@@ -3,11 +3,6 @@ import styled from "styled-components";
 import { ItemCarousel, Title } from "../../../components";
 import Carousel from "antd/lib/carousel";
 import { limaInstitutes } from "../../../data-list";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faChevronLeft,
-  faChevronRight,
-} from "@fortawesome/free-solid-svg-icons";
 
 export const LimaInstitutes = () => {
   return (
@@ -16,22 +11,19 @@ export const LimaInstitutes = () => {
         <Title>Institutos de Lima</Title>
       </div>
       <Carousel
-        autoplay
-        autoplaySpeed={5000}
-        arrows
-        prevArrow={<FontAwesomeIcon icon={faChevronLeft} />}
-        nextArrow={<FontAwesomeIcon icon={faChevronRight} />}
+      // autoplay
+      // autoplaySpeed={5000}
       >
         {limaInstitutes.map((limaInstitute, index) => (
           <ItemCarousel
             key={index}
             image={limaInstitute.image}
-            image2={limaInstitute.image2}
             title1={limaInstitute.title1}
             title2={limaInstitute.title2}
             title3={limaInstitute.title3}
             socialLinks={limaInstitute.socialLinks}
             buttonUrl={limaInstitute.buttonUrl}
+            imgCarousels={limaInstitute.imgCarousels}
           />
         ))}
       </Carousel>

@@ -1,12 +1,35 @@
 import {
   ImgAlfredoBonifaz,
+  ImgCarouselAlfredoBonifaz,
+  ImgCarouselAlfredoBonifaz2,
+  ImgCarouselCorazonJesus,
+  ImgCarouselCorazonJesus2,
+  ImgCarouselCorazonJesus3,
+  ImgCarouselEmilioSoyer,
+  ImgCarouselEmilioSoyer2,
+  ImgCarouselEsperanza,
+  ImgCarouselEsperanza2,
+  ImgCarouselJesusNino,
+  ImgCarouselJesusNino2,
+  ImgCarouselJoseInclan,
+  ImgCarouselJoseInclan2,
+  ImgCarouselLasPalmas,
+  ImgCarouselLasPalmas2,
+  ImgCarouselMatellini,
+  ImgCarouselMatellini2,
+  ImgCarouselPedroRuizGallo,
+  ImgCarouselPedroRuizGallo2,
+  ImgCarouselPedroRuizGallo3,
+  ImgCarouselPrimerosPasos,
+  ImgCarouselPrimerosPasos2,
+  ImgCarouselSantaIsabel,
+  ImgCarouselSantaIsabel2,
   ImgEmilioSoyerCabero,
   ImgJesusNino,
   ImgJoseJoaquinInclan,
   ImgLaEsperanza,
   ImgLasPalmas,
   ImgMatelini,
-  ImgPedroRuizGallo,
   ImgPrimerosPasos,
   ImgSantaIsabel,
   Inst1,
@@ -32,7 +55,12 @@ import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 export const limaInstitutes = [
   {
     image: Inst1,
-    imgCarousels: [ImgPedroRuizGallo],
+    imgCarousels: [
+      // ImgPedroRuizGallo,
+      ImgCarouselPedroRuizGallo,
+      ImgCarouselPedroRuizGallo2,
+      ImgCarouselPedroRuizGallo3,
+    ],
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "PEDRO RUIZ GALLO",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
@@ -63,7 +91,11 @@ export const limaInstitutes = [
   },
   {
     image: Inst2,
-    imgCarousels: [ImgAlfredoBonifaz],
+    imgCarousels: [
+      ImgAlfredoBonifaz,
+      ImgCarouselAlfredoBonifaz,
+      ImgCarouselAlfredoBonifaz2,
+    ],
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "Tte. Crl Alfredo Bonifaz",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
@@ -94,7 +126,11 @@ export const limaInstitutes = [
   },
   {
     image: Inst3,
-    imgCarousels: [ImgEmilioSoyerCabero],
+    imgCarousels: [
+      ImgEmilioSoyerCabero,
+      ImgCarouselEmilioSoyer,
+      ImgCarouselEmilioSoyer2,
+    ],
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "6005 GRAL EMILIO SOYER CABERO",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
@@ -125,7 +161,11 @@ export const limaInstitutes = [
   },
   {
     image: Inst4,
-    imgCarousels: [ImgJoseJoaquinInclan],
+    imgCarousels: [
+      ImgJoseJoaquinInclan,
+      ImgCarouselJoseInclan,
+      ImgCarouselJoseInclan2,
+    ],
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "CRL JOSE JOAQUIN INCLAN",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
@@ -156,7 +196,7 @@ export const limaInstitutes = [
   },
   {
     image: Inst5,
-    imgCarousels: [ImgJesusNino],
+    imgCarousels: [ImgJesusNino, ImgCarouselJesusNino, ImgCarouselJesusNino2],
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "JESUS NIÑO",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
@@ -182,7 +222,7 @@ export const limaInstitutes = [
   },
   {
     image: Inst6,
-    imgCarousels: [ImgLaEsperanza],
+    imgCarousels: [ImgLaEsperanza, ImgCarouselEsperanza, ImgCarouselEsperanza2],
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "LA ESPERANZA",
     title3: "CUNA - JARDIN",
@@ -213,7 +253,7 @@ export const limaInstitutes = [
   },
   {
     image: Inst7,
-    imgCarousels: [ImgMatelini],
+    imgCarousels: [ImgMatelini, ImgCarouselMatellini, ImgCarouselMatellini2],
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "MATELLINI",
     title3: "CUNA - JARDIN",
@@ -244,7 +284,11 @@ export const limaInstitutes = [
   },
   {
     image: Inst8,
-    imgCarousels: [ImgPrimerosPasos],
+    imgCarousels: [
+      ImgPrimerosPasos,
+      ImgCarouselPrimerosPasos,
+      ImgCarouselPrimerosPasos2,
+    ],
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "Primeros Pasos",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
@@ -275,7 +319,7 @@ export const limaInstitutes = [
   },
   {
     image: Inst9,
-    imgCarousels: [ImgLasPalmas],
+    imgCarousels: [ImgLasPalmas, ImgCarouselLasPalmas, ImgCarouselLasPalmas2],
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "Las Palmas",
     title3: "INICIAL",
@@ -306,7 +350,11 @@ export const limaInstitutes = [
   },
   {
     image: Inst10,
-    imgCarousels: [ImgSantaIsabel],
+    imgCarousels: [
+      ImgSantaIsabel,
+      ImgCarouselSantaIsabel,
+      ImgCarouselSantaIsabel2,
+    ],
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "SANTA ISABEL",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
@@ -335,6 +383,11 @@ export const limaInstitutes = [
     title1: "Cuna",
     title2: "Corazon de Jesus",
     // title3: "",
+    imgCarousels: [
+      ImgCarouselCorazonJesus,
+      ImgCarouselCorazonJesus2,
+      ImgCarouselCorazonJesus3,
+    ],
     socialLinks: [
       {
         icon: faLocationDot,

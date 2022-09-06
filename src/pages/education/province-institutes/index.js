@@ -3,11 +3,6 @@ import styled from "styled-components";
 import { ItemCarousel, Title } from "../../../components";
 import Carousel from "antd/lib/carousel";
 import { provinceInstitutes } from "../../../data-list";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faChevronLeft,
-  faChevronRight,
-} from "@fortawesome/free-solid-svg-icons";
 
 export const ProvinceInstitutes = () => {
   return (
@@ -16,22 +11,22 @@ export const ProvinceInstitutes = () => {
         <Title>Institutos de Provincia</Title>
       </div>
       <Carousel
-        autoplay
-        autoplaySpeed={5000}
-        arrows
-        prevArrow={<FontAwesomeIcon icon={faChevronLeft} />}
-        nextArrow={<FontAwesomeIcon icon={faChevronRight} />}
+      // autoplay
+      // autoplaySpeed={5000}
+      // arrows
+      // prevArrow={<FontAwesomeIcon icon={faChevronLeft} />}
+      // nextArrow={<FontAwesomeIcon icon={faChevronRight} />}
       >
         {provinceInstitutes.map((provinceInstitute, index) => (
           <ItemCarousel
             key={index}
             image={provinceInstitute.image}
-            image2={provinceInstitute.image2}
             title1={provinceInstitute.title1}
             title2={provinceInstitute.title2}
             title3={provinceInstitute.title3}
             socialLinks={provinceInstitute.socialLinks}
             buttonUrl={provinceInstitute.buttonUrl}
+            imgCarousels={provinceInstitute.imgCarousels}
           />
         ))}
       </Carousel>

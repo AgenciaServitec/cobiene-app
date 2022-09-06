@@ -52,6 +52,7 @@ export { default as Inst21 } from "./others/inst21.webp";
 export { default as Inst22 } from "./others/inst22.webp";
 
 //--------Corporatives images provinces institutes------
+
 export { default as ImgIeMariaMontessori } from "./province-institutes/ie-maria-montessori.webp";
 export { default as ImgAndresAvelinoIquitos } from "./province-institutes/andres-avelino-caceras-iquitos.webp";
 export { default as ImgAndresAvelinoPuno } from "./province-institutes/andres-avelino-caceres-puno.webp";
@@ -64,7 +65,9 @@ export { default as ImgRamonZavalaLocumba } from "./province-institutes/ramon-za
 export { default as ImgTarapacaIquitos } from "./province-institutes/tarapaca-iquitos.webp";
 export { default as ImgAndresAvelinoCaceresLocumba } from "./province-institutes/iep-andres-avelino-caceres-locumba.webp";
 export { default as ImgNuestrosHeroes } from "./province-institutes/iep-nuestros-heroes.webp";
+
 //--------Carousel images provinces institutes------
+
 export { default as ImgCarouselAacIquitos } from "./province-institutes/carousel-andre-avelino-iquitos.webp";
 export { default as ImgCarouselAacIquitos2 } from "./province-institutes/carousel-andre-avelino-iquitos2.webp";
 export { default as ImgCarouselAacIquitos3 } from "./province-institutes/carousel-andre-avelino-iquitos3.webp";
@@ -96,6 +99,9 @@ export { default as ImgCarouselMiguelSullana3 } from "./province-institutes/caro
 export { default as ImgCarouselTarapaca } from "./province-institutes/carousel-tarapaca.webp";
 export { default as ImgCarouselTarapaca2 } from "./province-institutes/carousel-tarapaca2.webp";
 export { default as ImgCarouselTarapaca3 } from "./province-institutes/carousel-tarapaca3.webp";
+export { default as ImgCarouselNuestrosHeroes } from "./province-institutes/nuestro-heroes-pacifico-1.webp";
+export { default as ImgCarouselNuestrosHeroes2 } from "./province-institutes/nuestros-heroes-pacifico-2.webp";
+export { default as ImgCarouselNuestrosHeroes3 } from "./province-institutes/nuestros-heroes-pacifico-3.webp";
 
 //--------Corporatives images lima institues------
 export { default as ImgEmilioSoyerCabero } from "./lima-institutes/iel-emilio-soyer-cabero.webp";

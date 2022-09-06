@@ -5,10 +5,40 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import {
-  ImgAndresAvelinoCaceresLocumba,
   ImgAndresAvelinoIquitos,
   ImgAndresAvelinoPuno,
   ImgAndresAvelinoTumbes,
+  ImgCarouselAacIquitos,
+  ImgCarouselAacIquitos2,
+  ImgCarouselAacIquitos3,
+  ImgCarouselAacLocumba,
+  ImgCarouselAacLocumba2,
+  ImgCarouselAacLocumba3,
+  ImgCarouselAacPuno,
+  ImgCarouselAacPuno2,
+  ImgCarouselAacPuno3,
+  ImgCarouselAacTumbes,
+  ImgCarouselAacTumbes2,
+  ImgCarouselAacTumbes3,
+  ImgCarouselEjercitoArequipa,
+  ImgCarouselEjercitoArequipa2,
+  ImgCarouselFranciscoBolonesCusco,
+  ImgCarouselFranciscoBolonesiCusco2,
+  ImgCarouselFranciscoBolonesiCusco3,
+  ImgCarouselInclanPiura,
+  ImgCarouselInclanPiura2,
+  ImgCarouselInclanPiura3,
+  ImgCarouselMariaMontesori,
+  ImgCarouselMariaMontesori2,
+  ImgCarouselMiguelSullana,
+  ImgCarouselMiguelSullana2,
+  ImgCarouselMiguelSullana3,
+  ImgCarouselRamonZavalaLocumba,
+  ImgCarouselRamonZavalaLocumba2,
+  ImgCarouselRamonZavalaLocumba3,
+  ImgCarouselTarapaca,
+  ImgCarouselTarapaca2,
+  ImgCarouselTarapaca3,
   ImgEjercitoArequipa,
   ImgFranciscoBolonesiCusco,
   ImgIeMariaMontessori,
@@ -33,7 +63,12 @@ import {
 export const provinceInstitutes = [
   {
     image: Inst14,
-    image2: ImgAndresAvelinoTumbes,
+    imgCarousels: [
+      ImgAndresAvelinoTumbes,
+      ImgCarouselAacTumbes,
+      ImgCarouselAacTumbes2,
+      ImgCarouselAacTumbes3,
+    ],
     title1: "Institución Educativa",
     title2: "MCAL ANDRÉS AVELINO CÁCERES - TUMBES",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
@@ -59,7 +94,12 @@ export const provinceInstitutes = [
   },
   {
     image: Inst20,
-    image2: ImgMiguelCortezSullana,
+    imgCarousels: [
+      ImgMiguelCortezSullana,
+      ImgCarouselMiguelSullana,
+      ImgCarouselMiguelSullana2,
+      ImgCarouselMiguelSullana3,
+    ],
     title1: "Institución Educativa Privada",
     title2: "TTE MIGUEL CORTÉS - SULLANA",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
@@ -90,7 +130,12 @@ export const provinceInstitutes = [
   },
   {
     image: Inst15,
-    image2: ImgJoseJuaquinPiura,
+    imgCarousels: [
+      ImgJoseJuaquinPiura,
+      ImgCarouselInclanPiura,
+      ImgCarouselInclanPiura2,
+      ImgCarouselInclanPiura3,
+    ],
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "CRL JOSÉ JOAQUÍN INCLÁN - PIURA  ",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
@@ -116,7 +161,11 @@ export const provinceInstitutes = [
   },
   {
     image: Inst22,
-    image2: ImgEjercitoArequipa,
+    imgCarousels: [
+      ImgEjercitoArequipa,
+      ImgCarouselEjercitoArequipa,
+      ImgCarouselEjercitoArequipa2,
+    ],
     title1: "Institución Educativa Publica de Gestión Privada",
     title2: "40159  ”AREQUIPA”",
     title3: "INICIAL - PRIMARIA - SECUNDARIA AREQUIPA",
@@ -142,7 +191,12 @@ export const provinceInstitutes = [
   },
   {
     image: Inst13,
-    image2: ImgAndresAvelinoPuno,
+    imgCarousels: [
+      ImgAndresAvelinoPuno,
+      ImgCarouselAacPuno,
+      ImgCarouselAacPuno2,
+      ImgCarouselAacPuno3,
+    ],
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "ANDRÉS AVELINO CÁCERES - PUNO",
     title3: "INICIAL - PRIMARIA",
@@ -168,7 +222,12 @@ export const provinceInstitutes = [
   },
   {
     image: Inst21,
-    image2: ImgFranciscoBolonesiCusco,
+    imgCarousels: [
+      ImgFranciscoBolonesiCusco,
+      ImgCarouselFranciscoBolonesCusco,
+      ImgCarouselFranciscoBolonesiCusco2,
+      ImgCarouselFranciscoBolonesiCusco3,
+    ],
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "CRL FRANCISCO BOLONESI - CUZCO",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
@@ -199,7 +258,7 @@ export const provinceInstitutes = [
   },
   {
     image: Inst16,
-    image2: ImgNuestrosHeroes,
+    imgCarousels: [ImgNuestrosHeroes],
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "NUESTROS HÉROES DE LA GUERRA DEL PACÍFICO - TACNA",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
@@ -230,7 +289,12 @@ export const provinceInstitutes = [
   },
   {
     image: Inst12,
-    image2: ImgAndresAvelinoCaceresLocumba,
+    imgCarousels: [
+      // ImgAndresAvelinoCaceresLocumba,
+      ImgCarouselAacLocumba,
+      ImgCarouselAacLocumba2,
+      ImgCarouselAacLocumba3,
+    ],
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "ANDRÉS AVELINO CÁCERES - LOCUMBA",
     title3: "INICIAL - PRIMARIA",
@@ -254,7 +318,12 @@ export const provinceInstitutes = [
   },
   {
     image: Inst12,
-    image2: ImgRamonZavalaLocumba,
+    imgCarousels: [
+      ImgRamonZavalaLocumba,
+      ImgCarouselRamonZavalaLocumba,
+      ImgCarouselRamonZavalaLocumba2,
+      ImgCarouselRamonZavalaLocumba3,
+    ],
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "CRL RAMÓN ZAVALA SUÁREZ - LOCUMBA",
     title3: "INICIAL",
@@ -278,7 +347,12 @@ export const provinceInstitutes = [
   },
   {
     image: Inst17,
-    image2: ImgAndresAvelinoIquitos,
+    imgCarousels: [
+      ImgAndresAvelinoIquitos,
+      ImgCarouselAacIquitos,
+      ImgCarouselAacIquitos2,
+      ImgCarouselAacIquitos3,
+    ],
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "MCAL ANDRÉS AVELINO CÁCERES - Iquitos",
     title3: "INICIAL",
@@ -304,7 +378,12 @@ export const provinceInstitutes = [
   },
   {
     image: Inst18,
-    image2: ImgTarapacaIquitos,
+    imgCarousels: [
+      ImgTarapacaIquitos,
+      ImgCarouselTarapaca,
+      ImgCarouselTarapaca2,
+      ImgCarouselTarapaca3,
+    ],
     title1: "Institución Educativa",
     title2: "TARAPACÁ - IQUITOS",
     title3: "INICIAL - PRIMARIA",
@@ -330,7 +409,11 @@ export const provinceInstitutes = [
   },
   {
     image: Inst19,
-    image2: ImgIeMariaMontessori,
+    imgCarousels: [
+      ImgIeMariaMontessori,
+      ImgCarouselMariaMontesori,
+      ImgCarouselMariaMontesori2,
+    ],
     title1: "Institución Educativa",
     title2: "N° 169 MARÍA MONTESSORI - IQUITOS",
     title3: "INICIAL",

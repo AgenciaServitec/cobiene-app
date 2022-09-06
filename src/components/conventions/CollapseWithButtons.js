@@ -43,12 +43,14 @@ export const CollapseWithButtons = ({ dataLists = [] }) => {
                 ))}
               </ul>
             </div>
-            <div className="item-link">
-              <a href={dataList.urlFile} rel="noreferrer">
-                <FontAwesomeIcon icon={faDownload} size="2x" />
-                Descargar Ficha de Solicitud
-              </a>
-            </div>
+            {dataList.urlFile && (
+              <div className="item-link">
+                <a href={dataList.urlFile} rel="noreferrer">
+                  <FontAwesomeIcon icon={faDownload} size="2x" />
+                  Descargar Ficha de Solicitud
+                </a>
+              </div>
+            )}
           </div>
         </Panel>
       ))}

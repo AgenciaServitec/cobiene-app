@@ -1,29 +1,45 @@
 import React from "react";
 import { Button, NavigateGoToLink, SocialLink } from "../ui";
 import styled from "styled-components";
+import Carousel from "antd/lib/carousel";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faChevronLeft,
+  faChevronRight,
+} from "@fortawesome/free-solid-svg-icons";
 
 export const ItemCarousel = ({
   image,
-  image2,
   title1,
   title2,
   title3,
   socialLinks,
   buttonUrl,
+  imgCarousels,
 }) => {
   return (
     <Container>
       <img src={image} alt={title2} className="content-one-image" />
 
       <div className="wrapper-titles">
-        <h3>{title1}</h3>
-        <h3>{title2}</h3>
-        <h3>{title3}</h3>
+        {title1 && <h3>{title1}</h3>}
+        {title2 && <h3>{title2}</h3>}
+        {title3 && <h3>{title3}</h3>}
       </div>
-      {image2 && (
-        <div className="image-corporative">
-          <img src={image2} alt={title2} />
-        </div>
+
+      {imgCarousels && (
+        <Carousel
+          autoplay
+          arrows
+          prevArrow={<FontAwesomeIcon icon={faChevronLeft} color="#000" />}
+          nextArrow={<FontAwesomeIcon icon={faChevronRight} color="#000" />}
+        >
+          {imgCarousels.map((imgCarousel, index) => (
+            <div key={index} className="image-corporative">
+              <img src={imgCarousel} alt={title2} />
+            </div>
+          ))}
+        </Carousel>
       )}
       <div className="link-list">
         {socialLinks &&
@@ -53,6 +69,7 @@ export const ItemCarousel = ({
 const Container = styled.div`
   width: 100%;
   height: auto;
+  padding: 0 0.3em;
 
   .content-one-image {
     width: 60%;

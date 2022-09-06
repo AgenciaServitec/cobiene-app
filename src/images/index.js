@@ -64,7 +64,6 @@ export { default as ImgRamonZavalaLocumba } from "./province-institutes/ramon-za
 export { default as ImgTarapacaIquitos } from "./province-institutes/tarapaca-iquitos.webp";
 export { default as ImgAndresAvelinoCaceresLocumba } from "./province-institutes/iep-andres-avelino-caceres-locumba.webp";
 export { default as ImgNuestrosHeroes } from "./province-institutes/iep-nuestros-heroes.webp";
-|
 //--------Carousel images provinces institutes------
 export { default as ImgCarouselAacIquitos } from "./province-institutes/carousel-andre-avelino-iquitos.webp";
 export { default as ImgCarouselAacIquitos2 } from "./province-institutes/carousel-andre-avelino-iquitos2.webp";

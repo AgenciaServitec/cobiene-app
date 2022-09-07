@@ -31,16 +31,6 @@ import {
 
 export const campusCircleMilitary = [
   {
-    title: "Sede de Chorrillos",
-    images: [
-      ImgSedeChorrillos2,
-      ImgSedeChorrillos1,
-      ImgSedeChorrillos3,
-      ImgSedeChorrillos4,
-      ImgSedeChorrillos5,
-    ],
-  },
-  {
     title: "Sede de Salaverry",
     images: [
       ImgOfficers2,
@@ -51,16 +41,26 @@ export const campusCircleMilitary = [
     ],
   },
   {
-    title: "Sede de Arequipa",
+    title: "Sede de Chorrillos",
     images: [
-      ImgSedeArequipa1,
-      ImgSedeArequipa2,
-      ImgSedeArequipa3,
-      ImgSedeArequipa4,
+      ImgSedeChorrillos2,
+      ImgSedeChorrillos1,
+      ImgSedeChorrillos3,
+      ImgSedeChorrillos4,
+      ImgSedeChorrillos5,
     ],
   },
   {
-    title: "Sede de Tiza",
+    title: "Ceande",
+    images: [
+      ImgOfficers5,
+      ImgSedeSedeCeande1,
+      ImgSedeSedeCeande2,
+      ImgSedeSedeCeande3,
+    ],
+  },
+  {
+    title: "Playa la Tiza",
     images: [
       ImgOfficers4,
       ImgSedeSedeTiza1,
@@ -70,12 +70,12 @@ export const campusCircleMilitary = [
     ],
   },
   {
-    title: "Sede de Ceande",
+    title: "Sede de Arequipa",
     images: [
-      ImgOfficers5,
-      ImgSedeSedeCeande1,
-      ImgSedeSedeCeande2,
-      ImgSedeSedeCeande3,
+      ImgSedeArequipa1,
+      ImgSedeArequipa2,
+      ImgSedeArequipa3,
+      ImgSedeArequipa4,
     ],
   },
   {

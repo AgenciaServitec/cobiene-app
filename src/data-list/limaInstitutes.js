@@ -187,7 +187,7 @@ export const limaInstitutes = [
       },
       {
         icon: faGlobe,
-        name: "http://www.jjinclan.edu.pe/",
+        name: "www.jjinclan.edu.pe/",
         url: "http://www.jjinclan.edu.pe/",
       },
     ],
@@ -280,7 +280,8 @@ export const limaInstitutes = [
       },
     ],
     buttonUrl:
-      "https://drive.google.com/file/d/1EiRHOGXrOlQS209CcCoCLJvplp7SQA15/view?usp=sharing",
+      //old link -> "https://drive.google.com/file/d/1EiRHOGXrOlQS209CcCoCLJvplp7SQA15/view?usp=sharing"
+      "https://drive.google.com/file/d/1zpGV4OnmszJrZEoKJffKKzYL88JOY8Ou/view?usp=sharing",
   },
   {
     image: Inst8,

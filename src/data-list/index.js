@@ -7,3 +7,4 @@ export * from "./pre-academies";
 export * from "./companies";
 export * from "./banks";
 export * from "./requerimentsJace";
+export * from "./campusCircleMilitary";

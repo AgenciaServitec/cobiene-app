@@ -1,0 +1,91 @@
+import {
+  ImgOfficers2,
+  ImgOfficers4,
+  ImgOfficers5,
+  ImgOfficers6,
+  ImgSedeArequipa1,
+  ImgSedeArequipa2,
+  ImgSedeArequipa3,
+  ImgSedeArequipa4,
+  ImgSedeChorrillos1,
+  ImgSedeChorrillos2,
+  ImgSedeChorrillos3,
+  ImgSedeChorrillos4,
+  ImgSedeChorrillos5,
+  ImgSedeSalaverry1,
+  ImgSedeSalaverry2,
+  ImgSedeSalaverry3,
+  ImgSedeSalaverry4,
+  ImgSedeSedeCeande1,
+  ImgSedeSedeCeande2,
+  ImgSedeSedeCeande3,
+  ImgSedeSedePiura1,
+  ImgSedeSedePiura2,
+  ImgSedeSedePiura3,
+  ImgSedeSedePiura4,
+  ImgSedeSedeTiza1,
+  ImgSedeSedeTiza2,
+  ImgSedeSedeTiza3,
+  ImgSedeSedeTiza4,
+} from "../images";
+
+export const campusCircleMilitary = [
+  {
+    title: "Sede de Chorrillos",
+    images: [
+      ImgSedeChorrillos2,
+      ImgSedeChorrillos1,
+      ImgSedeChorrillos3,
+      ImgSedeChorrillos4,
+      ImgSedeChorrillos5,
+    ],
+  },
+  {
+    title: "Sede de Salaverry",
+    images: [
+      ImgOfficers2,
+      ImgSedeSalaverry1,
+      ImgSedeSalaverry2,
+      ImgSedeSalaverry3,
+      ImgSedeSalaverry4,
+    ],
+  },
+  {
+    title: "Sede de Arequipa",
+    images: [
+      ImgSedeArequipa1,
+      ImgSedeArequipa2,
+      ImgSedeArequipa3,
+      ImgSedeArequipa4,
+    ],
+  },
+  {
+    title: "Sede de Tiza",
+    images: [
+      ImgOfficers4,
+      ImgSedeSedeTiza1,
+      ImgSedeSedeTiza2,
+      ImgSedeSedeTiza3,
+      ImgSedeSedeTiza4,
+    ],
+  },
+  {
+    title: "Sede de Ceande",
+    images: [
+      ImgOfficers5,
+      ImgSedeSedeCeande1,
+      ImgSedeSedeCeande2,
+      ImgSedeSedeCeande3,
+    ],
+  },
+  {
+    title: "Sede de Piura",
+    images: [
+      ImgOfficers6,
+      ImgSedeSedePiura1,
+      ImgSedeSedePiura2,
+      ImgSedeSedePiura3,
+      ImgSedeSedePiura4,
+    ],
+  },
+];

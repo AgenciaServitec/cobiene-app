@@ -44,15 +44,26 @@ export const HouseServices = () => (
 
     <Button
       type="secondary"
-      width="100%"
+      width="90%"
       onClick={() =>
         NavigateGoToLink(
-          // "https://drive.google.com/file/d/1BMuifWm1NTDkhUtynifpoRzutQiQ35Uw/view?usp=sharing"
-          "https://drive.google.com/file/d/1kmcCz9kdfF420BvjSxXGo6chorO4-V5z/view?usp=sharing"
+          "https://drive.google.com/file/d/1Sbv5-3Sg-r1yzTAX98fiPEU30ukz33k0/view?usp=sharing"
         )
       }
     >
-      Descargar Solicitud
+      Formato de Solicitud
+    </Button>
+
+    <Button
+      type="secondary"
+      width="90%"
+      onClick={() =>
+        NavigateGoToLink(
+          "https://drive.google.com/file/d/18ijZQMm8AzhtT8CtngmdiMlGDHVx4IP2/view?usp=sharing"
+        )
+      }
+    >
+      Formato de Devolución
     </Button>
   </Container>
 );

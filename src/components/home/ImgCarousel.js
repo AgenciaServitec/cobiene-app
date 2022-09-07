@@ -1,10 +1,12 @@
 import styled from "styled-components";
 
-export const ImgCarousel = ({ title, image }) => {
+export const ImgCarousel = ({ title, image, alt = "imagen" }) => {
   return (
     <Container>
-      <h3>{title}</h3>
-      <img src={image} alt={title} />
+      {title && <h3>{title}</h3>}
+      <div className="content-image">
+        <img src={image} alt={alt} />
+      </div>
     </Container>
   );
 };
@@ -17,8 +19,15 @@ const Container = styled.div`
     font-size: 1.5rem;
     text-align: center;
   }
-  img {
+  .content-image {
     width: 100%;
-    height: auto;
+    height: 100%;
+    max-height: 14em;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      max-height: 14em;
+    }
   }
 `;

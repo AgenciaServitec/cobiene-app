@@ -12,7 +12,7 @@ export const ShowAndHiddenButton = ({ requerimentsJace = [] }) => {
   return (
     <CollapseAnt accordion bordered={false} expandIcon={null}>
       {requerimentsJace.map((requeriment, index) => {
-        console.log("requeriment", requeriment);
+        // console.log("requeriment", requeriment);
         return (
           <Panel
             key={index}

@@ -1,10 +1,10 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export const SocialLink = ({ icon, text, link }) => {
+export const SocialLink = ({ icon, text, link, color = "#fff" }) => {
   return (
-    <Container>
+    <Container color={color}>
       <a href={link} rel="nofollow">
         <FontAwesomeIcon icon={icon} size="2x" />
         {text}
@@ -14,11 +14,15 @@ export const SocialLink = ({ icon, text, link }) => {
 };
 
 const Container = styled.div`
-  margin-bottom: 1rem;
-  a {
-    color: #fff;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-  }
+  ${({ color }) => css`
+    margin-bottom: 1rem;
+    a {
+      font-size: 1.1em;
+      color: ${color};
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      text-decoration: underline;
+    }
+  `}
 `;

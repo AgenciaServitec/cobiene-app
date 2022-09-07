@@ -1,61 +1,69 @@
 import React from "react";
 import styled from "styled-components";
-import { ImgCarousel, SocialLink, Text, Title } from "../../../components";
-import {
-  ImgOfficers,
-  ImgOfficers1,
-  ImgOfficers2,
-  ImgOfficers3,
-  ImgOfficers4,
-  ImgOfficers5,
-  ImgOfficers6,
-} from "../../../images";
+import { ImgCarousel, InitialContent, SocialLink } from "../../../components";
+import { ImgOfficers } from "../../../images";
 import { faGlobe, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook, faGooglePlay } from "@fortawesome/free-brands-svg-icons";
 import Carousel from "antd/lib/carousel";
+import { campusCircleMilitary } from "../../../data-list";
+
+const socialLinks = [
+  {
+    text: "Visita Nuestra Pagina Web",
+    link: "https://www.circulomilitardelperu.com/",
+    icon: faGlobe,
+  },
+  {
+    text: "circulomilitardelperu",
+    link: "https://m.facebook.com/circulomilitardelperu/?ref=page_internal",
+    icon: faFacebook,
+  },
+  {
+    text: "DESCARGAR NUESTRA APP",
+    link: "https://play.google.com/store/apps/details?id=com.circulomilitar.acmp",
+    icon: faGooglePlay,
+  },
+  {
+    text: "01 6449277",
+    link: "tel:016449277",
+    icon: faPhone,
+  },
+];
 
 export const OfficersCircle = () => {
   return (
     <Container>
-      <div className="content-initial">
-        <img src={ImgOfficers} alt="Circulo de Oficiales" />
-        <Title>Círculo Militar de Oficiales</Title>
-        <Text>
-          Somos una Asociación, creada para brindar bienestar a nuestros
+      <InitialContent
+        title="Círculo Militar de Oficiales"
+        img={ImgOfficers}
+        description="Somos una Asociación, creada para brindar bienestar a nuestros
           asociados y público en general, ofreciendo una gama de servicios de
           entretenimiento y recreación para toda la familia, como actividades
           deportivas, alojamiento, alimentación, peluquería, gimnasio, sauna,
-          así como ambientes para celebraciones y eventos.
-        </Text>
-      </div>
+          así como ambientes para celebraciones y eventos."
+      />
 
-      <Carousel autoplay>
-        <ImgCarousel image={ImgOfficers1} title="Arequipa" />
-        <ImgCarousel image={ImgOfficers2} title="Salaverry" />
-        {/*<ImgCarousel image={ImgOfficers3} title="Chorrillos" />*/}
-        <ImgCarousel image={ImgOfficers4} title="Tiza" />
-        <ImgCarousel image={ImgOfficers5} title="Ceande" />
-        <ImgCarousel image={ImgOfficers6} title="Piura" />
-      </Carousel>
+      {campusCircleMilitary.map(({ images, title }, index) => (
+        <div key={index}>
+          <span>{title}</span>
+          <Carousel autoplay>
+            {images.map((image, index) => (
+              <ImgCarousel key={index} image={image} alt={title} />
+            ))}
+          </Carousel>
+        </div>
+      ))}
 
       <span>Más Información:</span>
       <div className="link-list">
-        <SocialLink
-          text="Visita Nuestra Pagina Web"
-          link="https://circulomilitardelperu.com/index.html"
-          icon={faGlobe}
-        />
-        <SocialLink
-          text="circulomilitardelperu"
-          icon={faFacebook}
-          link="https://m.facebook.com/circulomilitardelperu/?ref=page_internal"
-        />
-        <SocialLink
-          text="DESCARGAR NUESTRA APP"
-          link="https://play.google.com/store/apps/details?id=com.circulomilitar.acmp"
-          icon={faGooglePlay}
-        />
-        <SocialLink text="01 6449277" link="tel:016449277" icon={faPhone} />
+        {socialLinks.map((socialLink, index) => (
+          <SocialLink
+            key={index}
+            text={socialLink.text}
+            link={socialLink.link}
+            icon={socialLink.icon}
+          />
+        ))}
       </div>
     </Container>
   );
@@ -64,25 +72,13 @@ export const OfficersCircle = () => {
 const Container = styled.div`
   width: 100%;
   height: auto;
-  .content-initial {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem auto;
-    img {
-      width: 8em;
-      height: auto;
-      object-fit: contain;
-      margin-bottom: 1rem;
-    }
-  }
   span {
     display: block;
     font-size: 1.5rem;
-    padding-top: 2rem;
+    font-weight: 900;
+    padding: 2.4em 0 1em 0;
   }
   .link-list {
-    padding: 1rem;
+    padding: 1.5em 1em;
   }
 `;

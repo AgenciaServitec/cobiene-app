@@ -1,5 +1,10 @@
 import styled from "styled-components";
-import { Button, SocialLink, Title } from "../../../components";
+import {
+  Button,
+  NavigateGoToLink,
+  SocialLink,
+  Title,
+} from "../../../components";
 import {
   ImgOfficers3,
   ImgRimac,
@@ -76,18 +81,13 @@ export const TechniciansCircle = () => {
             />
             <SocialLink
               icon={faFacebook}
-              text="Av. Prolongación Defensores del Morro N° 1170 Chorrillos"
+              text="facebook.com/Campo-Deportivo-Tarapaca-Chorrillos"
               link="https://www.facebook.com/Campo-Deportivo-Tarapaca-Chorrillos-101277401232183/"
             />
             <SocialLink
               icon={faLocationDot}
               text="AV. Prolongación Defensores del Morro 1170 -  Chorrillos"
               link="https://www.google.com/maps/dir/?api=1&destination=-12.194105661443%2C-77.00196146965"
-            />
-            <SocialLink
-              icon={faCircleDown}
-              text="Descargar Ficha de Inscripción"
-              link="https://drive.google.com/file/d/1B2v9KxLs0xr0AfKlY-uhdikXAbqKNOk1/view?usp=sharing"
             />
           </div>
         )}
@@ -121,6 +121,16 @@ export const TechniciansCircle = () => {
             />
           </div>
         )}
+        <Button
+          width="100%"
+          onClick={() =>
+            NavigateGoToLink(
+              "https://drive.google.com/file/d/1B2v9KxLs0xr0AfKlY-uhdikXAbqKNOk1/view?usp=sharing"
+            )
+          }
+        >
+          Ficha de Inscripción
+        </Button>
       </div>
     </Container>
   );

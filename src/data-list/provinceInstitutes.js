@@ -52,7 +52,6 @@ import {
   ImgTarapacaIquitos,
   Inst12,
   Inst13,
-  Inst14,
   Inst15,
   Inst16,
   Inst17,
@@ -61,11 +60,12 @@ import {
   Inst20,
   Inst21,
   Inst22,
+  LogoAacTumbes,
 } from "../images";
 
 export const provinceInstitutes = [
   {
-    image: Inst14,
+    image: LogoAacTumbes,
     imgCarousels: [
       ImgAndresAvelinoTumbes,
       ImgCarouselAacTumbes,

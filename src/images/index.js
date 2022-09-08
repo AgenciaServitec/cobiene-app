@@ -53,7 +53,6 @@ export { default as Inst22 } from "./others/inst22.webp";
 export { default as LogoAacTumbes } from "./province-institutes/logo-aac-tumbes.webp";
 
 //--------Corporatives images provinces institutes------
-
 export { default as ImgIeMariaMontessori } from "./province-institutes/ie-maria-montessori.webp";
 export { default as ImgAndresAvelinoIquitos } from "./province-institutes/andres-avelino-caceras-iquitos.webp";
 export { default as ImgAndresAvelinoPuno } from "./province-institutes/andres-avelino-caceres-puno.webp";
@@ -68,7 +67,6 @@ export { default as ImgAndresAvelinoCaceresLocumba } from "./province-institutes
 export { default as ImgNuestrosHeroes } from "./province-institutes/iep-nuestros-heroes.webp";
 
 //--------Carousel images provinces institutes------
-
 export { default as ImgCarouselAacIquitos } from "./province-institutes/carousel-andre-avelino-iquitos.webp";
 export { default as ImgCarouselAacIquitos2 } from "./province-institutes/carousel-andre-avelino-iquitos2.webp";
 export { default as ImgCarouselAacIquitos3 } from "./province-institutes/carousel-andre-avelino-iquitos3.webp";
@@ -173,6 +171,21 @@ export { default as ImgSedeSedePiura1 } from "./circle-military/sede-piura-1.web
 export { default as ImgSedeSedePiura2 } from "./circle-military/sede-piura-2.webp";
 export { default as ImgSedeSedePiura3 } from "./circle-military/sede-piura-3.webp";
 export { default as ImgSedeSedePiura4 } from "./circle-military/sede-piura-4.webp";
+
+//--------Carousel Technicians-military
+export { default as ImgSedeTecChorrillos1 } from "./technicians-military/sede-tec-chorrillos-1.webp";
+export { default as ImgSedeTecChorrillos2 } from "./technicians-military/sede-tec-chorrillos-2.webp";
+export { default as ImgSedeTecChorrillos3 } from "./technicians-military/sede-tec-chorrillos-3.webp";
+export { default as ImgSedeTecChorrillos4 } from "./technicians-military/sede-tec-chorrillos-4.webp";
+export { default as ImgSedeTecChorrillos5 } from "./technicians-military/sede-tec-chorrillos-5.webp";
+export { default as ImgSedeTecRimac1 } from "./technicians-military/sede-tec-rimac-1.webp";
+export { default as ImgSedeTecRimac2 } from "./technicians-military/sede-tec-rimac-2.webp";
+export { default as ImgSedeTecRimac3 } from "./technicians-military/sede-tec-rimac-3.webp";
+export { default as ImgSedeTecRimac4 } from "./technicians-military/sede-tec-rimac-4.webp";
+export { default as ImgSedeTecTarapaca1 } from "./technicians-military/sede-tec-tarapaca-1.webp";
+export { default as ImgSedeTecTarapaca2 } from "./technicians-military/sede-tec-tarapaca-2.webp";
+export { default as ImgSedeTecTarapaca3 } from "./technicians-military/sede-tec-tarapaca-3.webp";
+export { default as ImgSedeTecTarapaca4 } from "./technicians-military/sede-tec-tarapaca-4.webp";
 
 //-------- Universities------
 export { default as Logo1 } from "./webp/logo1.webp";

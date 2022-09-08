@@ -27,11 +27,22 @@ export const TechniciansCircle = () => (
         type="secondary"
         onClick={() =>
           NavigateGoToLink(
-            "https://drive.google.com/file/d/1B2v9KxLs0xr0AfKlY-uhdikXAbqKNOk1/view?usp=sharing"
+            "https://drive.google.com/file/d/1ZfL2fJE6WFzoe8D9yXIzRVvoNg0ehK8U/view?usp=sharing"
           )
         }
       >
-        Ficha de Inscripción
+        Ficha de Inscripción - Actividad
+      </Button>
+      <Button
+        width="100%"
+        type="secondary"
+        onClick={() =>
+          NavigateGoToLink(
+            "https://drive.google.com/file/d/1pHCoY0VK69WitX93z72zuOVhuMipBPZi/view?usp=sharing"
+          )
+        }
+      >
+        Ficha de Inscripción - Retiro
       </Button>
     </div>
   </Container>

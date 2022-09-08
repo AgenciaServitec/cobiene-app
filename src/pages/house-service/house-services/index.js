@@ -30,16 +30,11 @@ export const HouseServices = () => (
 
     <div className="section-requirements">
       <h3>Requisitos para ser usuario:</h3>
-
-      {/* {requerimentsJace.map((requerimentJace, index) => (
-        <ShowAndHiddenButton
-          key={index}
-          title={requerimentJace.title}
-          icon={requerimentJace.icon}
-          description={requerimentJace.description}
-        />
-      ))}*/}
-      <ShowAndHiddenButton requerimentsJace={requerimentsJace} />
+      <ShowAndHiddenButton
+        dataLists={requerimentsJace}
+        buttonType="tertiary"
+        gripTemplateColumns="10% 1fr 10%"
+      />
     </div>
 
     <Button

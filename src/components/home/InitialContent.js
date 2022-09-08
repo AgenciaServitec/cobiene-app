@@ -27,6 +27,7 @@ const Container = styled.div`
     }
 
     h2 {
+      text-align: center;
       text-shadow: ${theme.text_shadow.shadow_green};
     }
 

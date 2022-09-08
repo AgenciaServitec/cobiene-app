@@ -115,7 +115,7 @@ export { default as ImgPrimerosPasos } from "./lima-institutes/iel-primeros-paso
 export { default as ImgSantaIsabel } from "./lima-institutes/iel-santa-isabel.webp";
 export { default as ImgAlfredoBonifaz } from "./lima-institutes/iel-alfedro-bonifaz.webp";
 
-//--------Carousel images provinces institutes------
+//--------Carousel images lima institutes------
 export { default as ImgCarouselAlfredoBonifaz } from "./lima-institutes/c-alfredo-bonifaz.webp";
 export { default as ImgCarouselAlfredoBonifaz2 } from "./lima-institutes/c-alfredo-bonifaz-2.webp";
 export { default as ImgCarouselCorazonJesus } from "./lima-institutes/c-corazon-jesus.webp";
@@ -123,8 +123,9 @@ export { default as ImgCarouselCorazonJesus2 } from "./lima-institutes/c-corazon
 export { default as ImgCarouselCorazonJesus3 } from "./lima-institutes/c-corazon-jesus-3.webp";
 export { default as ImgCarouselEmilioSoyer } from "./lima-institutes/c-emilio-soyer.webp";
 export { default as ImgCarouselEmilioSoyer2 } from "./lima-institutes/emilio-soyer-2.webp";
-export { default as ImgCarouselEsperanza } from "./lima-institutes/c-esperanza.webp";
 export { default as ImgCarouselEsperanza2 } from "./lima-institutes/c-esperanza-2.webp";
+export { default as ImgCarouselEsperanza3 } from "./lima-institutes/iel-la-esperanza-carousel-2.webp";
+export { default as ImgCarouselEsperanza4 } from "./lima-institutes/iel-carusel-esperanza-new-1.webp";
 export { default as ImgCarouselJesusNino } from "./lima-institutes/c-jesus-nino.webp";
 export { default as ImgCarouselJesusNino2 } from "./lima-institutes/c-jesus-nino-2.webp";
 export { default as ImgCarouselJoseInclan } from "./lima-institutes/c-jose-inclan.webp";

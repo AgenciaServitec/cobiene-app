@@ -1,5 +1,4 @@
 import {
-  ImgAlfredoBonifaz,
   ImgCarouselAlfredoBonifaz,
   ImgCarouselAlfredoBonifaz2,
   ImgCarouselCorazonJesus,
@@ -25,7 +24,6 @@ import {
   ImgCarouselSantaIsabel,
   ImgCarouselSantaIsabel2,
   ImgEmilioSoyerCabero,
-  ImgJesusNino,
   ImgJoseJoaquinInclan,
   ImgLaEsperanza,
   ImgLasPalmas,
@@ -41,8 +39,8 @@ import {
   Inst5,
   Inst6,
   Inst7,
-  Inst8,
   Inst9,
+  LogoPrimerosPasos,
 } from "../images";
 import {
   faEnvelope,
@@ -92,7 +90,7 @@ export const limaInstitutes = [
   {
     image: Inst2,
     imgCarousels: [
-      ImgAlfredoBonifaz,
+      // ImgAlfredoBonifaz,
       ImgCarouselAlfredoBonifaz,
       ImgCarouselAlfredoBonifaz2,
     ],
@@ -196,9 +194,9 @@ export const limaInstitutes = [
   },
   {
     image: Inst5,
-    imgCarousels: [ImgJesusNino, ImgCarouselJesusNino, ImgCarouselJesusNino2],
+    imgCarousels: [ImgCarouselJesusNino, ImgCarouselJesusNino2],
     title1: "Institución Educativa Pública de Gestión Privada",
-    title2: "JESUS NIÑO",
+    title2: "JESÚS NIÑO",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
     socialLinks: [
       {
@@ -225,7 +223,7 @@ export const limaInstitutes = [
     imgCarousels: [ImgLaEsperanza, ImgCarouselEsperanza, ImgCarouselEsperanza2],
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "LA ESPERANZA",
-    title3: "CUNA - JARDIN",
+    title3: "CUNA - JARDÍN",
     socialLinks: [
       {
         icon: faLocationDot,
@@ -256,7 +254,7 @@ export const limaInstitutes = [
     imgCarousels: [ImgMatelini, ImgCarouselMatellini, ImgCarouselMatellini2],
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "MATELLINI",
-    title3: "CUNA - JARDIN",
+    title3: "CUNA - JARDÍN",
     socialLinks: [
       {
         icon: faLocationDot,
@@ -284,7 +282,7 @@ export const limaInstitutes = [
       "https://drive.google.com/file/d/1zpGV4OnmszJrZEoKJffKKzYL88JOY8Ou/view?usp=sharing",
   },
   {
-    image: Inst8,
+    image: LogoPrimerosPasos,
     imgCarousels: [
       ImgPrimerosPasos,
       ImgCarouselPrimerosPasos,
@@ -292,7 +290,7 @@ export const limaInstitutes = [
     ],
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "Primeros Pasos",
-    title3: "INICIAL - PRIMARIA - SECUNDARIA",
+    title3: "CUNA - JARDÍN",
     socialLinks: [
       {
         icon: faLocationDot,
@@ -316,7 +314,7 @@ export const limaInstitutes = [
       },
     ],
     buttonUrl:
-      "https://drive.google.com/file/d/1RCmrIN30XLi4joPX00keOtVLXdDPWeEu/view?usp=sharing",
+      "https://drive.google.com/file/d/1kQdHSgtuiYUEuhWcNdtDjC7jFt0sHrf1/view?usp=sharing",
   },
   {
     image: Inst9,
@@ -382,7 +380,7 @@ export const limaInstitutes = [
   {
     image: Inst11,
     title1: "Cuna",
-    title2: "Corazon de Jesus",
+    title2: "Corazon de Jesús",
     // title3: "",
     imgCarousels: [
       ImgCarouselCorazonJesus,

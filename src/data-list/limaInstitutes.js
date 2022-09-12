@@ -233,13 +233,13 @@ export const limaInstitutes = [
     socialLinks: [
       {
         icon: faLocationDot,
-        name: "Av. Chorrillos Cdra 2 S/N",
-        url: "https://www.google.com/search?q=iep.esperanza%40gmail.com&oq=iep.esperanza%40gmail.com&aqs=chrome..69i57j69i58.257j0j1&sourceid=chrome&ie=UTF-8&tbs=lf:1,lf_ui:2&tbm=lcl&sxsrf=APq-WBtHnojmgInbliqqgbCGGby_uN5Dmw:1646416410476&rflfq=1&num=10&rldimm=5026984898567106504&lqi=ChdpZXAuZXNwZXJhbnphQGdtYWlsLmNvbVoZIhdpZXAgZXNwZXJhbnphIGdtYWlsIGNvbZIBBnNjaG9vbKoBHxABKhsiF2llcCBlc3BlcmFuemEgZ21haWwgY29tKA4&ved=2ahUKEwintbGKg632AhXQqpUCHQRjDo4QvS56BAgBECs&rlst=f#rlfi=hd:;si:5026984898567106504,l,ChdpZXAuZXNwZXJhbnphQGdtYWlsLmNvbVoZIhdpZXAgZXNwZXJhbnphIGdtYWlsIGNvbZIBBnNjaG9vbKoBHxABKhsiF2llcCBlc3BlcmFuemEgZ21haWwgY29tKA4;mv:[[-11.398628299999999,-76.9041031],[-12.286990399999999,-77.2682969]]",
+        name: "Jr. Pantoja s/n Villa Militar Este - Chorillos",
+        url: "https://goo.gl/maps/KrUNZ1RNEkAhVHbq7",
       },
       {
         icon: faFacebook,
         name: "facebook.com/007765308346",
-        url: "https://www.facebook.com/profile.php?id=100007765308346",
+        url: "https://goo.gl/maps/hvE3sEpZbNJvqPJP7",
       },
       {
         icon: faEnvelope,
@@ -249,11 +249,11 @@ export const limaInstitutes = [
       {
         icon: faGlobe,
         name: "www.ielaesperanza.com",
-        url: "https://www.ielaesperanza.org/",
+        url: "https://www.ielaesperanza.com/",
       },
     ],
     buttonUrl:
-      "https://drive.google.com/file/d/1ik7NbQkmTmSnFGX4GTz5IOZw7dqjaEsZ/view?usp=sharing",
+      "https://drive.google.com/file/d/1kuYJJHyPJ8Uk-wUKzErveV2l0QRIh5dT/view?usp=sharing",
   },
   {
     image: Inst7,

@@ -360,9 +360,9 @@ export const limaInstitutes = [
       ImgCarouselSantaIsabel,
       ImgCarouselSantaIsabel2,
     ],
-    title1: "Institución Educativa Pública de Gestión Privada",
-    title2: "SANTA ISABEL",
-    title3: "INICIAL - PRIMARIA - SECUNDARIA",
+    title1: "Educación Básica Especial del Ejército del Perú",
+    title2: "Santa Isabel",
+    title3: "INICIAL - PRIMARIA Y PROGRAMA DE INCLUCIÓN FAMILIAR Y LABORAL",
     socialLinks: [
       {
         icon: faLocationDot,

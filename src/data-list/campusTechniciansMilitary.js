@@ -22,7 +22,7 @@ import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 
 export const campusTechniciansMilitary = [
   {
-    title: "CHORRILLOS",
+    title: "Sede de Chorrillos",
     imgCarousels: [
       ImgSedeTecChorrillos1,
       ImgSedeTecChorrillos2,
@@ -54,7 +54,7 @@ export const campusTechniciansMilitary = [
     ],
   },
   {
-    title: "TARAPACÁ",
+    title: "Sede de Tarapacá",
     imgCarousels: [
       ImgSedeTecTarapaca1,
       ImgSedeTecTarapaca2,
@@ -85,7 +85,7 @@ export const campusTechniciansMilitary = [
     ],
   },
   {
-    title: "RÍMAC",
+    title: "Sede de Rímac",
     imgCarousels: [
       ImgSedeTecRimac1,
       ImgSedeTecRimac2,

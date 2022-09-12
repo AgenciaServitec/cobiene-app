@@ -52,6 +52,7 @@ export { default as Inst21 } from "./others/inst21.webp";
 export { default as Inst22 } from "./others/inst22.webp";
 export { default as LogoAacTumbes } from "./province-institutes/logo-aac-tumbes.webp";
 export { default as LogoPrimerosPasos } from "./lima-institutes/primerospasos-logo.webp";
+export { default as LogoAlfredoBonifaz } from "./lima-institutes/logo-alfredo-bonifaz.webp";
 
 //--------Corporatives images provinces institutes------
 export { default as ImgIeMariaMontessori } from "./province-institutes/ie-maria-montessori.webp";
@@ -118,6 +119,7 @@ export { default as ImgAlfredoBonifaz } from "./lima-institutes/iel-alfedro-boni
 //--------Carousel images lima institutes------
 export { default as ImgCarouselAlfredoBonifaz } from "./lima-institutes/c-alfredo-bonifaz.webp";
 export { default as ImgCarouselAlfredoBonifaz2 } from "./lima-institutes/c-alfredo-bonifaz-2.webp";
+export { default as ImgCarouselAlfredoBonifaz3 } from "./lima-institutes/iel-carousel-alfredo-bonifaz.webp";
 export { default as ImgCarouselCorazonJesus } from "./lima-institutes/c-corazon-jesus.webp";
 export { default as ImgCarouselCorazonJesus2 } from "./lima-institutes/c-corazon-jesus-2.webp";
 export { default as ImgCarouselCorazonJesus3 } from "./lima-institutes/c-corazon-jesus-3.webp";

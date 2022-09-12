@@ -381,7 +381,7 @@ export const limaInstitutes = [
       },
     ],
     buttonUrl:
-      "https://drive.google.com/file/d/1ldtJtF0l3-zmL57HHifd4rnv8AYpVHc4/view?usp=sharing",
+      "https://drive.google.com/file/d/1BuyY4l_jBrJO7eBbo9w69gHFTwmCh3Q_/view?usp=sharing",
   },
   {
     image: Inst11,

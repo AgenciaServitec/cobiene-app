@@ -1,6 +1,7 @@
 import {
   ImgCarouselAlfredoBonifaz,
   ImgCarouselAlfredoBonifaz2,
+  ImgCarouselAlfredoBonifaz3,
   ImgCarouselCorazonJesus,
   ImgCarouselCorazonJesus2,
   ImgCarouselCorazonJesus3,
@@ -34,13 +35,13 @@ import {
   Inst1,
   Inst10,
   Inst11,
-  Inst2,
   Inst3,
   Inst4,
   Inst5,
   Inst6,
   Inst7,
   Inst9,
+  LogoAlfredoBonifaz,
   LogoPrimerosPasos,
 } from "../images";
 import {
@@ -89,14 +90,14 @@ export const limaInstitutes = [
       "https://drive.google.com/file/d/1ugr1y_i1NL2CcXi1FSThGSCJKxzNd6wq/view?usp=sharing",
   },
   {
-    image: Inst2,
+    image: LogoAlfredoBonifaz,
     imgCarousels: [
-      // ImgAlfredoBonifaz,
       ImgCarouselAlfredoBonifaz,
       ImgCarouselAlfredoBonifaz2,
+      ImgCarouselAlfredoBonifaz3,
     ],
     title1: "Institución Educativa Pública de Gestión Privada",
-    title2: "Tte. Crl Alfredo Bonifaz",
+    title2: "TC Alfredo Bonifaz",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
     socialLinks: [
       {

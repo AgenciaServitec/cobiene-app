@@ -1,12 +1,14 @@
 import styled from "styled-components";
 import {
   Button,
+  ImgCarousel,
   InitialContent,
   NavigateGoToLink,
-  ShowAndHiddenButton,
+  SocialLink,
 } from "../../../components";
 import { TechniciansImg } from "../../../images";
 import { campusTechniciansMilitary } from "../../../data-list";
+import Carousel from "antd/lib/carousel";
 
 export const TechniciansCircle = () => (
   <Container>
@@ -15,12 +17,26 @@ export const TechniciansCircle = () => (
       title="Círculo Militar de Supervisores Técnicos y Sub Oficiales"
     />
     <div className="section-sedes">
-      <h2>SEDES</h2>
+      {campusTechniciansMilitary.map(
+        ({ title, imgCarousels, listSocialLinks }, index) => (
+          <div className="item-sede" key={index}>
+            <h2>{title}</h2>
+            <Carousel autoplay>
+              {imgCarousels.map((imgCarousel, index) => (
+                <ImgCarousel key={index} image={imgCarousel} alt={title} />
+              ))}
+            </Carousel>
 
-      <ShowAndHiddenButton
-        dataLists={campusTechniciansMilitary}
-        contentAlign="center"
-      />
+            <h3>Contactos:</h3>
+
+            {listSocialLinks.map(({ icon, text, link }, index) => (
+              <div className="social-links" key={index}>
+                <SocialLink link={link} icon={icon} text={text} />
+              </div>
+            ))}
+          </div>
+        )
+      )}
 
       <Button
         width="100%"
@@ -54,6 +70,15 @@ const Container = styled.div`
   .section-sedes {
     h2 {
       text-align: start;
+    }
+    .item-sede {
+      padding: 1em 0;
+      h3 {
+        margin: 1em 0 0.5em 0;
+      }
+      .social-links {
+        padding: 0 0.5em;
+      }
     }
   }
 `;

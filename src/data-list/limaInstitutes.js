@@ -2,16 +2,21 @@ import {
   ImgCarouselAlfredoBonifaz,
   ImgCarouselAlfredoBonifaz2,
   ImgCarouselAlfredoBonifaz3,
+  ImgCarouselAlfredoBonifaz4,
   ImgCarouselCorazonJesus,
-  ImgCarouselCorazonJesus2,
-  ImgCarouselCorazonJesus3,
+  ImgCarouselCorazonJesus4,
+  ImgCarouselCorazonJesus5,
+  ImgCarouselCorazonJesus6,
   ImgCarouselEmilioSoyer,
   ImgCarouselEmilioSoyer2,
+  ImgCarouselEmilioSoyer3,
   ImgCarouselEsperanza2,
   ImgCarouselEsperanza3,
   ImgCarouselEsperanza4,
   ImgCarouselJesusNino,
   ImgCarouselJesusNino2,
+  ImgCarouselJesusNino3,
+  ImgCarouselJesusNino4,
   ImgCarouselJoseInclan,
   ImgCarouselJoseInclan2,
   ImgCarouselLasPalmas,
@@ -23,14 +28,13 @@ import {
   ImgCarouselPedroRuizGallo3,
   ImgCarouselPrimerosPasos,
   ImgCarouselPrimerosPasos2,
+  ImgCarouselPrimerosPasos4,
   ImgCarouselSantaIsabel,
   ImgCarouselSantaIsabel2,
-  ImgEmilioSoyerCabero,
   ImgJoseJoaquinInclan,
   ImgLaEsperanza,
   ImgLasPalmas,
   ImgMatelini,
-  ImgPrimerosPasos,
   ImgSantaIsabel,
   Inst1,
   Inst10,
@@ -92,6 +96,7 @@ export const limaInstitutes = [
   {
     image: LogoAlfredoBonifaz,
     imgCarousels: [
+      ImgCarouselAlfredoBonifaz4,
       ImgCarouselAlfredoBonifaz,
       ImgCarouselAlfredoBonifaz2,
       ImgCarouselAlfredoBonifaz3,
@@ -127,9 +132,10 @@ export const limaInstitutes = [
   {
     image: Inst3,
     imgCarousels: [
-      ImgEmilioSoyerCabero,
+      // ImgEmilioSoyerCabero,
       ImgCarouselEmilioSoyer,
       ImgCarouselEmilioSoyer2,
+      ImgCarouselEmilioSoyer3,
     ],
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "6005 GRAL EMILIO SOYER CABERO",
@@ -196,7 +202,12 @@ export const limaInstitutes = [
   },
   {
     image: Inst5,
-    imgCarousels: [ImgCarouselJesusNino, ImgCarouselJesusNino2],
+    imgCarousels: [
+      ImgCarouselJesusNino2,
+      ImgCarouselJesusNino,
+      ImgCarouselJesusNino3,
+      ImgCarouselJesusNino4,
+    ],
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "JESÚS NIÑO",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
@@ -261,7 +272,7 @@ export const limaInstitutes = [
     imgCarousels: [ImgMatelini, ImgCarouselMatellini, ImgCarouselMatellini2],
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "MATELLINI",
-    title3: "CUNA - JARDÍN",
+    title3: "INICIAL",
     socialLinks: [
       {
         icon: faLocationDot,
@@ -291,9 +302,10 @@ export const limaInstitutes = [
   {
     image: LogoPrimerosPasos,
     imgCarousels: [
-      ImgPrimerosPasos,
+      // ImgPrimerosPasos,
       ImgCarouselPrimerosPasos,
       ImgCarouselPrimerosPasos2,
+      ImgCarouselPrimerosPasos4,
     ],
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "Primeros Pasos",
@@ -391,8 +403,9 @@ export const limaInstitutes = [
     // title3: "",
     imgCarousels: [
       ImgCarouselCorazonJesus,
-      ImgCarouselCorazonJesus2,
-      ImgCarouselCorazonJesus3,
+      ImgCarouselCorazonJesus4,
+      ImgCarouselCorazonJesus5,
+      ImgCarouselCorazonJesus6,
     ],
     socialLinks: [
       {

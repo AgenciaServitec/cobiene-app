@@ -15,13 +15,7 @@ export const HouseServices = () => (
     <InitialContent
       title="JACE"
       img={ImgLogoJace}
-      description=" La Jefatura de Administración de Casas del Ejército asesora al Comando de Bienestar del Ejército en los aspectos
-            inherentes de la administración de casas de servicios del Ejército.
-            Asimismo, planificará, ejecutará y supervisará los trabajos de
-            conservación, mejoramiento y rehabilitación de la infraestructura,
-            inmobiliaria de las casas de servicio de la guarnición de Lima, a fin
-            de contribuir a la consecución de los objetivos de Bienestar del
-            Ejército."
+      description="La Jefatura de Administración de Casas del Ejército, asesorará al Comando de Bienestar del Ejército en los aspectos inherentes a la administración de casas de servicio; asimismo planificará, ejecutará y supervisará los trabajos de conservación, mejoramiento y rehabilitación de la infraestructura de las casas de servicio de la guarnición de Lima, a fin de contribuir a la consecución de los objetivos de Bienestar del Ejército."
     />
 
     <Carousel autoplay>

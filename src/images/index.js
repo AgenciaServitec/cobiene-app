@@ -86,9 +86,11 @@ export { default as ImgCarouselAacTumbes2 } from "./province-institutes/carousel
 export { default as ImgCarouselAacTumbes3 } from "./province-institutes/carousel-andre-avelino-tumbes-3.webp";
 export { default as ImgCarouselEjercitoArequipa } from "./province-institutes/carousel-ejercito-arequipa.webp";
 export { default as ImgCarouselEjercitoArequipa2 } from "./province-institutes/carousel-ejercito-arequipa-2.webp";
+export { default as ImgCarouselEjercitoArequipa4 } from "./province-institutes/c-ejer-arequipa-4.webp";
 export { default as ImgCarouselFranciscoBolonesCusco } from "./province-institutes/carousel-francisco-bolonesi-cusco.webp";
 export { default as ImgCarouselFranciscoBolonesiCusco2 } from "./province-institutes/carousel-francisco-bolonesi--cusco-2.webp";
 export { default as ImgCarouselFranciscoBolonesiCusco3 } from "./province-institutes/carousel-francisco-bolonesi-cusco-3.webp";
+export { default as ImgCarouselFranciscoBolonesiCusco5 } from "./province-institutes/c-francisco-cusco-5.webp";
 export { default as ImgCarouselInclanPiura } from "./province-institutes/carousel-inclan-piura.webp";
 export { default as ImgCarouselInclanPiura2 } from "./province-institutes/carousel-inclan-piura-2.webp";
 export { default as ImgCarouselInclanPiura3 } from "./province-institutes/carousel-inclan-piura-3.webp";
@@ -103,6 +105,8 @@ export { default as ImgCarouselTarapaca3 } from "./province-institutes/carousel-
 export { default as ImgCarouselNuestrosHeroes } from "./province-institutes/nuestro-heroes-pacifico-1.webp";
 export { default as ImgCarouselNuestrosHeroes2 } from "./province-institutes/nuestros-heroes-pacifico-2.webp";
 export { default as ImgCarouselNuestrosHeroes3 } from "./province-institutes/nuestros-heroes-pacifico-3.webp";
+export { default as ImgCarouselNuestrosHeroes4 } from "./province-institutes/c-heroes-4.webp";
+export { default as ImgCarouselNuestrosHeroes5 } from "./province-institutes/c-heroes-5.webp";
 
 //--------Corporatives images lima institues------
 export { default as ImgEmilioSoyerCabero } from "./lima-institutes/iel-emilio-soyer-cabero.webp";
@@ -120,16 +124,23 @@ export { default as ImgAlfredoBonifaz } from "./lima-institutes/iel-alfedro-boni
 export { default as ImgCarouselAlfredoBonifaz } from "./lima-institutes/c-alfredo-bonifaz.webp";
 export { default as ImgCarouselAlfredoBonifaz2 } from "./lima-institutes/c-alfredo-bonifaz-2.webp";
 export { default as ImgCarouselAlfredoBonifaz3 } from "./lima-institutes/iel-carousel-alfredo-bonifaz.webp";
+export { default as ImgCarouselAlfredoBonifaz4 } from "./lima-institutes/c-alfredo-4.webp";
 export { default as ImgCarouselCorazonJesus } from "./lima-institutes/c-corazon-jesus.webp";
 export { default as ImgCarouselCorazonJesus2 } from "./lima-institutes/c-corazon-jesus-2.webp";
 export { default as ImgCarouselCorazonJesus3 } from "./lima-institutes/c-corazon-jesus-3.webp";
+export { default as ImgCarouselCorazonJesus4 } from "./lima-institutes/c-co-jesus-4.webp";
+export { default as ImgCarouselCorazonJesus5 } from "./lima-institutes/c-co-jesus-5.webp";
+export { default as ImgCarouselCorazonJesus6 } from "./lima-institutes/c-co-jesus-6.webp";
 export { default as ImgCarouselEmilioSoyer } from "./lima-institutes/c-emilio-soyer.webp";
 export { default as ImgCarouselEmilioSoyer2 } from "./lima-institutes/emilio-soyer-2.webp";
+export { default as ImgCarouselEmilioSoyer3 } from "./lima-institutes/c-emilio-soyer-3.webp";
 export { default as ImgCarouselEsperanza2 } from "./lima-institutes/c-esperanza-2.webp";
 export { default as ImgCarouselEsperanza3 } from "./lima-institutes/iel-la-esperanza-carousel-2.webp";
 export { default as ImgCarouselEsperanza4 } from "./lima-institutes/iel-carusel-esperanza-new-1.webp";
 export { default as ImgCarouselJesusNino } from "./lima-institutes/c-jesus-nino.webp";
 export { default as ImgCarouselJesusNino2 } from "./lima-institutes/c-jesus-nino-2.webp";
+export { default as ImgCarouselJesusNino3 } from "./lima-institutes/c-jesus-nino-3.webp";
+export { default as ImgCarouselJesusNino4 } from "./lima-institutes/c-jesus-nino-4.webp";
 export { default as ImgCarouselJoseInclan } from "./lima-institutes/c-jose-inclan.webp";
 export { default as ImgCarouselJoseInclan2 } from "./lima-institutes/c-jose-inclan-2.webp";
 export { default as ImgCarouselLasPalmas } from "./lima-institutes/c-las-palmas.webp";
@@ -141,6 +152,7 @@ export { default as ImgCarouselPedroRuizGallo2 } from "./lima-institutes/c-pedro
 export { default as ImgCarouselPedroRuizGallo3 } from "./lima-institutes/c-pedro-ruiz-gallo-3.webp";
 export { default as ImgCarouselPrimerosPasos } from "./lima-institutes/c-primeros-pasos.webp";
 export { default as ImgCarouselPrimerosPasos2 } from "./lima-institutes/c-primeros-pasos-2.webp";
+export { default as ImgCarouselPrimerosPasos4 } from "./lima-institutes/c-primeros-pasos-4.webp";
 export { default as ImgCarouselSantaIsabel } from "./lima-institutes/c-santa-isabel.webp";
 export { default as ImgCarouselSantaIsabel2 } from "./lima-institutes/c-santa-isabel-2.webp";
 
@@ -155,6 +167,8 @@ export { default as ImgSedeSalaverry1 } from "./circle-military/sede-salaverry-1
 export { default as ImgSedeSalaverry2 } from "./circle-military/sede-salaverry-2.webp";
 export { default as ImgSedeSalaverry3 } from "./circle-military/sede-salaverry-3.webp";
 export { default as ImgSedeSalaverry4 } from "./circle-military/sede-salaverry-4.webp";
+export { default as ImgSedeSalaverry5 } from "./circle-military/sede-salaverry-5.webp";
+export { default as ImgSedeSalaverry6 } from "./circle-military/sede-salaverry-6.webp";
 export { default as ImgSedeArequipa1 } from "./circle-military/sede-arequipa-1.webp";
 export { default as ImgSedeArequipa2 } from "./circle-military/sede-arequipa-2.webp";
 export { default as ImgSedeArequipa3 } from "./circle-military/sede-arequipa-3.webp";

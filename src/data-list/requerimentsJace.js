@@ -15,7 +15,7 @@ export const requerimentsJace = [
     title: "Paso 1",
     icon: faFileInvoice,
     descriptions: [
-      "Deberá encontrarse en situación militar de actividad con no más de 25 años para Oficiales y 28 años para Tcos. y Sub Oficiales.",
+      "Deberá encontrarse en situación militar de actividad con no más de 25 años de servicio como Oficial y 28 años como Técnico, o Sub Oficial.",
     ],
   },
   {
@@ -43,7 +43,7 @@ export const requerimentsJace = [
     title: "Paso 5",
     icon: faPeopleGroup,
     descriptions: [
-      "No deben haber sido favorecidos con un préstamo de Ores –Fovime.",
+      "El titular y/o su cónyuge no deben haber sido favorecidos con un préstamo del ORES – FOVIME.",
     ],
   },
   {
@@ -64,11 +64,11 @@ export const requerimentsJace = [
     title: "Paso 8",
     icon: faPuzzlePiece,
     descriptions: [
-      "El personal militar candidato a “usuario” que solicite asignación especial o excepcional deberá contar con:",
-      " - Los documentos que acrediten la situación de especialidad o excepcionalidad.",
-      " - El dictamen legal favorable.",
-      " - La opinión del Jefe de la Jefatura de Administración de Casas del Ejército.",
-      " - La aprobación del General de Brigada Comandante General del COBIENE, para la guarnición de Lima.",
+      "El personal militar candidato a “usuario” que solicite asignación especial o excepcional deberá contar con",
+      "- Los documentos que acrediten la situación de especialidad o excepcionalidad.",
+      "- El dictamen Legal favorable.",
+      "- La opinión del Jefe de Administración de Casas del Ejército.",
+      "- La aprobación del General de Brigada Comandante General del COBIENE para la guarnición de Lima.",
     ],
   },
 ];

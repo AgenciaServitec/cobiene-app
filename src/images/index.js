@@ -63,6 +63,7 @@ export { default as ImgTarapacaIquitos } from "./province-institutes/tarapaca-iq
 export { default as ImgCarouselAacIquitos } from "./province-institutes/carousel-andre-avelino-iquitos.webp";
 export { default as ImgCarouselAacIquitos2 } from "./province-institutes/carousel-andre-avelino-iquitos2.webp";
 export { default as ImgCarouselAacIquitos3 } from "./province-institutes/carousel-andre-avelino-iquitos3.webp";
+export { default as ImgCarouselAacIquitos4 } from "./province-institutes/c-a-a-c-iqutios-new-1.webp";
 export { default as ImgCarouselAacLocumba } from "./province-institutes/carousel-andre-avelino-locumba.webp";
 export { default as ImgCarouselAacLocumba2 } from "./province-institutes/carousel-andre-avelino-locumba-2.webp";
 export { default as ImgCarouselAacLocumba3 } from "./province-institutes/carousel-andre-avelino-locumba-4.webp";

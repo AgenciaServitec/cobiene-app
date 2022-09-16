@@ -11,6 +11,7 @@ import {
   ImgCarouselAacIquitos,
   ImgCarouselAacIquitos2,
   ImgCarouselAacIquitos3,
+  ImgCarouselAacIquitos4,
   ImgCarouselAacLocumba,
   ImgCarouselAacLocumba2,
   ImgCarouselAacLocumba3,
@@ -375,10 +376,11 @@ export const provinceInstitutes = [
       ImgCarouselAacIquitos,
       ImgCarouselAacIquitos2,
       ImgCarouselAacIquitos3,
+      ImgCarouselAacIquitos4,
     ],
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "MCAL ANDRÉS AVELINO CÁCERES - Iquitos",
-    title3: "INICIAL",
+    title3: "PRIMARIA - SECUNDARIA",
     socialLinks: [
       {
         icon: faFacebook,

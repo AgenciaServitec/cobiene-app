@@ -126,8 +126,8 @@ export const limaInstitutes = [
       },
       {
         icon: faPhone,
-        name: "(01) 3387147",
-        url: "tel:+51013387147",
+        name: "915 390 214",
+        url: "tel:+51915390214",
       },
     ],
     buttonUrl:
@@ -352,7 +352,7 @@ export const limaInstitutes = [
     imgCarousels: [ImgLasPalmas, ImgCarouselLasPalmas, ImgCarouselLasPalmas2],
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "Las Palmas",
-    title3: "INICIAL",
+    title3: "CUNA - INICIAL",
     socialLinks: [
       {
         icon: faLocationDot,
@@ -385,7 +385,7 @@ export const limaInstitutes = [
       ImgCarouselSantaIsabel,
       ImgCarouselSantaIsabel2,
     ],
-    title1: "Educación Básica Especial del Ejército del Perú",
+    title1: "Centro de Educación Básica Especial del Ejército del Perú",
     title2: "Santa Isabel",
     title3: "INICIAL - PRIMARIA Y PROGRAMA DE INCLUCIÓN FAMILIAR Y LABORAL",
     socialLinks: [

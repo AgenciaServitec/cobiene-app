@@ -13,7 +13,7 @@ const global = css`
   }
 
   body {
-    background: ${({ theme }) => theme.colors.white};
+    background: ${({ theme }) => theme.colors.dark};
     color: ${({ theme }) => theme.colors.font1};
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;

@@ -92,7 +92,7 @@ const Container = styled.div`
   }
   .image-corporative {
     width: 95%;
-    height: 12em;
+    height: 14em;
     margin: auto;
     img {
       width: 100%;

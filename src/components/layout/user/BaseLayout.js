@@ -4,6 +4,7 @@ import { Drawer } from "./Drawer";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 import { HeaderHomePage } from "./HeaderHomePage";
+import { breakPoints } from "../../../styles/constants/breakPoints";
 
 export const BaseLayout = ({ children }) => {
   const [visibleDrawer, setVisibleDrawer] = useState(false);
@@ -35,6 +36,8 @@ export const BaseLayout = ({ children }) => {
 
 const Container = styled.div`
   width: 100vw;
+  max-width: ${breakPoints.tablet}px;
+  margin: auto;
   min-height: 100vh;
   height: auto;
   position: relative;

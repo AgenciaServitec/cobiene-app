@@ -8,7 +8,7 @@ export const ProvinceInstitutes = () => {
   return (
     <Container>
       <div className="wrapper-title">
-        <Title>Institutos de Provincia</Title>
+        <Title>Institución Educativa de Provincia</Title>
       </div>
       <Carousel
       // autoplay

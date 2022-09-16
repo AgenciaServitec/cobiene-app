@@ -66,6 +66,8 @@ export { default as ImgCarouselAacIquitos3 } from "./province-institutes/carouse
 export { default as ImgCarouselAacLocumba } from "./province-institutes/carousel-andre-avelino-locumba.webp";
 export { default as ImgCarouselAacLocumba2 } from "./province-institutes/carousel-andre-avelino-locumba-2.webp";
 export { default as ImgCarouselAacLocumba3 } from "./province-institutes/carousel-andre-avelino-locumba-4.webp";
+export { default as ImgCarouselAacLocumba4 } from "./province-institutes/c-a-a-c-locumba-new-1.webp";
+export { default as ImgCarouselAacLocumba5 } from "./province-institutes/c-a-a-c-locumba-new-2.webp";
 export { default as ImgCarouselRamonZavalaLocumba } from "./province-institutes/carousel-andre-avelino-locumba-3.webp";
 export { default as ImgCarouselRamonZavalaLocumba2 } from "./province-institutes/carousel-ramon-savala-locumba-2.webp";
 export { default as ImgCarouselRamonZavalaLocumba3 } from "./province-institutes/carousel-ramon-savala-locumba-3.webp";
@@ -97,6 +99,9 @@ export { default as ImgCarouselMiguelSullana3 } from "./province-institutes/caro
 export { default as ImgCarouselTarapaca } from "./province-institutes/carousel-tarapaca.webp";
 export { default as ImgCarouselTarapaca2 } from "./province-institutes/carousel-tarapaca2.webp";
 export { default as ImgCarouselTarapaca3 } from "./province-institutes/carousel-tarapaca3.webp";
+export { default as ImgCarouselTarapaca4 } from "./province-institutes/c-tarapaca-new-1.webp";
+export { default as ImgCarouselTarapaca5 } from "./province-institutes/c-tarapaca-new-2.webp";
+export { default as ImgCarouselTarapaca6 } from "./province-institutes/c-tarapaca-new-3.webp";
 export { default as ImgCarouselNuestrosHeroes } from "./province-institutes/nuestro-heroes-pacifico-1.webp";
 export { default as ImgCarouselNuestrosHeroes3 } from "./province-institutes/nuestros-heroes-pacifico-3.webp";
 export { default as ImgCarouselNuestrosHeroes4 } from "./province-institutes/c-heroes-4.webp";
@@ -113,6 +118,7 @@ export { default as ImgCarouselAlfredoBonifaz } from "./lima-institutes/c-alfred
 export { default as ImgCarouselAlfredoBonifaz2 } from "./lima-institutes/c-alfredo-bonifaz-new-2.webp";
 export { default as ImgCarouselAlfredoBonifaz3 } from "./lima-institutes/iel-carousel-alfredo-bonifaz.webp";
 export { default as ImgCarouselAlfredoBonifaz4 } from "./lima-institutes/c-alfredo-bonifaz-new-1.webp";
+export { default as ImgCarouselAlfredoBonifaz5 } from "./lima-institutes/c-alfredo-bonifaz-new-3.webp";
 export { default as ImgCarouselCorazonJesus } from "./lima-institutes/c-corazon-jesus.webp";
 export { default as ImgCarouselCorazonJesus4 } from "./lima-institutes/c-co-jesus-4.webp";
 export { default as ImgCarouselCorazonJesus5 } from "./lima-institutes/c-co-jesus-5.webp";

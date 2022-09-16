@@ -21,6 +21,7 @@ export const LimaInstitutes = () => {
             title1={limaInstitute.title1}
             title2={limaInstitute.title2}
             title3={limaInstitute.title3}
+            title4={limaInstitute.title4}
             socialLinks={limaInstitute.socialLinks}
             buttonUrl={limaInstitute.buttonUrl}
             imgCarousels={limaInstitute.imgCarousels}

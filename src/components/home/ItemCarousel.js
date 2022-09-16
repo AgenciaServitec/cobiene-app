@@ -13,6 +13,7 @@ export const ItemCarousel = ({
   title1,
   title2,
   title3,
+  title4,
   socialLinks,
   buttonUrl,
   imgCarousels,
@@ -22,9 +23,10 @@ export const ItemCarousel = ({
       <img src={image} alt={title2} className="content-one-image" />
 
       <div className="wrapper-titles">
-        {title1 && <h3>{title1}</h3>}
+        {title1 && <h3 className="title-top">{title1}</h3>}
         {title2 && <h3>{title2}</h3>}
         {title3 && <h3>{title3}</h3>}
+        {title4 && <h3 className="title-top">{title4}</h3>}
       </div>
 
       {imgCarousels && (
@@ -83,8 +85,11 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    .title-top {
+      text-transform: initial;
+    }
     h3 {
-      text-transform: capitalize;
+      text-transform: uppercase;
       text-align: center;
       font-size: 1.2rem;
       line-height: 1.7em !important;

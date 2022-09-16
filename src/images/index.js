@@ -140,7 +140,9 @@ export { default as ImgCarouselJoseInclan } from "./lima-institutes/c-jose-incla
 export { default as ImgCarouselJoseInclan2 } from "./lima-institutes/c-jose-inclan-2.webp";
 export { default as ImgCarouselLasPalmas } from "./lima-institutes/c-las-palmas.webp";
 export { default as ImgCarouselLasPalmas2 } from "./lima-institutes/c-las-palmas-2.webp";
-export { default as ImgCarouselMatellini } from "./lima-institutes/c-matelini.webp";
+export { default as ImgCarouselLasPalmas3 } from "./lima-institutes/c-palmas-new-1.webp";
+export { default as ImgCarouselLasPalmas4 } from "./lima-institutes/c-palmas-new-2.webp";
+export { default as ImgCarouselLasPalmas5 } from "./lima-institutes/c-palmas-new-3.webp";
 export { default as ImgCarouselMatellini2 } from "./lima-institutes/c-matelini-2.webp";
 export { default as ImgCarouselMatellini3 } from "./lima-institutes/c-matellini-new1.webp";
 export { default as ImgCarouselMatellini4 } from "./lima-institutes/c-matellini-new2.webp";
@@ -148,11 +150,20 @@ export { default as ImgCarouselMatellini5 } from "./lima-institutes/c-matellini-
 export { default as ImgCarouselPedroRuizGallo } from "./lima-institutes/c-pedro-ruiz-gallo.webp";
 export { default as ImgCarouselPedroRuizGallo2 } from "./lima-institutes/c-pedro-ruiz-gallo-2.webp";
 export { default as ImgCarouselPedroRuizGallo3 } from "./lima-institutes/c-pedro-ruiz-gallo-3.webp";
+export { default as ImgCarouselPedroRuizGallo4 } from "./lima-institutes/c-pedro-ruiz-new-1.webp";
+export { default as ImgCarouselPedroRuizGallo5 } from "./lima-institutes/c-pedro-ruiz-new-2.webp";
+export { default as ImgCarouselPedroRuizGallo6 } from "./lima-institutes/c-pedro-ruiz-new-3.webp";
 export { default as ImgCarouselPrimerosPasos } from "./lima-institutes/c-primeros-pasos.webp";
 export { default as ImgCarouselPrimerosPasos2 } from "./lima-institutes/c-primeros-pasos-2.webp";
 export { default as ImgCarouselPrimerosPasos4 } from "./lima-institutes/c-primeros-pasos-4.webp";
+export { default as ImgCarouselPrimerosPasos5 } from "./lima-institutes/c-primeros-pasos-new-1.webp";
+export { default as ImgCarouselPrimerosPasos6 } from "./lima-institutes/c-primeros-paso-new-2.webp";
+export { default as ImgCarouselPrimerosPasos7 } from "./lima-institutes/c-primeros-pasos-new-3.webp";
 export { default as ImgCarouselSantaIsabel } from "./lima-institutes/c-santa-isabel.webp";
 export { default as ImgCarouselSantaIsabel2 } from "./lima-institutes/c-santa-isabel-2.webp";
+export { default as ImgCarouselSantaIsabel3 } from "./lima-institutes/c-santa-isabel-new-1.webp";
+export { default as ImgCarouselSantaIsabel4 } from "./lima-institutes/c-santa-isabel-new-2.webp";
+export { default as ImgCarouselSantaIsabel5 } from "./lima-institutes/c-santa-isabel-new3.webp";
 
 //--------Carousel Officers-Circle
 export { default as ImgOfficers2 } from "./others/sede-salaverry.webp";

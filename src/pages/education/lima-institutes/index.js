@@ -8,7 +8,7 @@ export const LimaInstitutes = () => {
   return (
     <Container>
       <div className="wrapper-title">
-        <Title>Institutos de Lima</Title>
+        <Title>Institución Educativa de Lima</Title>
       </div>
       <Carousel
       // autoplay

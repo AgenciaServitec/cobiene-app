@@ -14,6 +14,7 @@ export const SocialLink = ({ icon, text, link, color = "#fff" }) => {
 };
 
 const Container = styled.div`
+  overflow: hidden;
   ${({ color }) => css`
     margin-bottom: 1rem;
     a {

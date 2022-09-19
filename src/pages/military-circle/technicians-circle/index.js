@@ -29,11 +29,11 @@ export const TechniciansCircle = () => (
 
             <h3>Contactos:</h3>
 
-            {listSocialLinks.map(({ icon, text, link }, index) => (
-              <div className="social-links" key={index}>
-                <SocialLink link={link} icon={icon} text={text} />
-              </div>
-            ))}
+            <div className="social-links">
+              {listSocialLinks.map(({ icon, text, link }, index) => (
+                <SocialLink key={index} link={link} icon={icon} text={text} />
+              ))}
+            </div>
           </div>
         )
       )}

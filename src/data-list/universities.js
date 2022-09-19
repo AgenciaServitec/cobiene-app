@@ -182,7 +182,11 @@ export const universities = [
     title: "SAN IGNACIO DE LOYOLA USIL",
     benefits: [
       "PREGRADO \n",
-      "Escala mínima de pensiones – CATEGORIA A",
+      "Escala mínima de pensiones – CATEGORIA A, por única vez y si se conservará en los periodos académicos, en la medida  que el rendimiento académico  se aprobatorio .\n",
+      "\n" + "POSGRADO: \n",
+      "15% de descuento, sobre los precios de lista, en los diferentes Programas Académicos ofrecidos en la EPG (maestría, doctorado, especializaciones, diplomados y formación continua), en cualquiera de sus modalidades en la Sede La Molina – Campus 2\n",
+      "PROGRAMA ONLINE \n",
+      "15% de descuento, sobre los precios de lista, en los diferentes Programas Académicos ofrecidos en USIL ONLIFE, en la Sede La Molina – Campus 2\n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuge e hijos).",
     ],

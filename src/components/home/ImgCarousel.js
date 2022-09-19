@@ -24,8 +24,10 @@ const Container = styled.div`
     height: 100%;
     max-height: 14em;
     img {
+      margin: auto;
       width: 100%;
       height: 100%;
+      max-width: 35em;
       object-fit: cover;
       max-height: 14em;
     }

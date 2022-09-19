@@ -16,7 +16,6 @@ import {
   ImgCarouselAacLocumba2,
   ImgCarouselAacLocumba3,
   ImgCarouselAacLocumba4,
-  ImgCarouselAacLocumba5,
   ImgCarouselAacPuno,
   ImgCarouselAacPuno2,
   ImgCarouselAacPuno3,
@@ -48,6 +47,7 @@ import {
   ImgCarouselRamonZavalaLocumba,
   ImgCarouselRamonZavalaLocumba2,
   ImgCarouselRamonZavalaLocumba3,
+  ImgCarouselRamonZavalaLocumba4,
   ImgCarouselTarapaca2,
   ImgCarouselTarapaca4,
   ImgCarouselTarapaca5,
@@ -56,7 +56,6 @@ import {
   ImgIeMariaMontessori,
   ImgJoseJuaquinPiura,
   ImgMiguelCortezSullana,
-  ImgRamonZavalaLocumba,
   ImgTarapacaIquitos,
   Inst12,
   Inst13,
@@ -312,12 +311,10 @@ export const provinceInstitutes = [
   {
     image: Inst12,
     imgCarousels: [
-      // ImgAndresAvelinoCaceresLocumba,
       ImgCarouselAacLocumba,
       ImgCarouselAacLocumba2,
       ImgCarouselAacLocumba3,
       ImgCarouselAacLocumba4,
-      ImgCarouselAacLocumba5,
     ],
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "ANDRÉS AVELINO CÁCERES - LOCUMBA",
@@ -343,10 +340,10 @@ export const provinceInstitutes = [
   {
     image: Inst12,
     imgCarousels: [
-      ImgRamonZavalaLocumba,
       ImgCarouselRamonZavalaLocumba,
       ImgCarouselRamonZavalaLocumba2,
       ImgCarouselRamonZavalaLocumba3,
+      ImgCarouselRamonZavalaLocumba4,
     ],
     title1: "Institución Educativa Pública de Gestión Privada",
     title2: "CRL RAMÓN ZAVALA SUÁREZ - LOCUMBA",
@@ -446,7 +443,7 @@ export const provinceInstitutes = [
     socialLinks: [
       {
         icon: faFacebook,
-        name: "facebook.com/mariamontessori169iquitos",
+        name: "mariamontessori169iquitos",
         url: "https://www.facebook.com/maria.montessori.1441810",
       },
       {

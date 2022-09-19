@@ -71,7 +71,7 @@ export const ItemCarousel = ({
 const Container = styled.div`
   width: 100%;
   height: auto;
-  padding: 0 0.3em;
+  padding: 0 0.2em;
 
   .content-one-image {
     width: 60%;
@@ -110,6 +110,6 @@ const Container = styled.div`
 
   .link-list {
     margin: 1.5rem auto;
-    padding: 0 1rem;
+    padding: 0 0.5rem;
   }
 `;

@@ -75,9 +75,14 @@ export { default as ImgCarouselRamonZavalaLocumba4 } from "./province-institutes
 export { default as ImgCarouselAacPuno } from "./province-institutes/carousel-andre-avelino-puno.webp";
 export { default as ImgCarouselAacPuno2 } from "./province-institutes/carousel-andre-avelino-puno-2.webp";
 export { default as ImgCarouselAacPuno3 } from "./province-institutes/carousel-andre-avelino-puno-3.webp";
+export { default as ImgCarouselAacPuno4 } from "./province-institutes/c-aac-puno-new-1.webp";
+export { default as ImgCarouselAacPuno5 } from "./province-institutes/c-aac-puno-new-2.webp";
 export { default as ImgCarouselAacTumbes } from "./province-institutes/carousel-andre-avelino-tumbes.webp";
 export { default as ImgCarouselAacTumbes2 } from "./province-institutes/carousel-andre-avelino-tumbes-2.webp";
 export { default as ImgCarouselAacTumbes3 } from "./province-institutes/carousel-andre-avelino-tumbes-3.webp";
+export { default as ImgCarouselAacTumbes4 } from "./province-institutes/c-aac-tumbes-new-1.webp";
+export { default as ImgCarouselAacTumbes5 } from "./province-institutes/c-aac-tumbes-new-2.webp";
+export { default as ImgCarouselAacTumbes6 } from "./province-institutes/c-aac-tumbes-new-3.webp";
 export { default as ImgCarouselEjercitoArequipa } from "./province-institutes/carousel-ejercito-arequipa.webp";
 export { default as ImgCarouselEjercitoArequipa2 } from "./province-institutes/carousel-ejercito-arequipa-2.webp";
 export { default as ImgCarouselEjercitoArequipa4 } from "./province-institutes/c-ejer-arequipa-4.webp";
@@ -92,11 +97,15 @@ export { default as ImgCarouselFranciscoBolonesiCusco6 } from "./province-instit
 export { default as ImgCarouselInclanPiura } from "./province-institutes/carousel-inclan-piura.webp";
 export { default as ImgCarouselInclanPiura2 } from "./province-institutes/carousel-inclan-piura-2.webp";
 export { default as ImgCarouselInclanPiura3 } from "./province-institutes/carousel-inclan-piura-3.webp";
+export { default as ImgCarouselInclanPiura4 } from "./province-institutes/c-jose-inclan-new-1.webp";
+export { default as ImgCarouselInclanPiura5 } from "./province-institutes/c-jose-inclan-new-2.webp";
 export { default as ImgCarouselMariaMontesori } from "./province-institutes/carousel-maria-montesori.webp";
 export { default as ImgCarouselMariaMontesori2 } from "./province-institutes/carousel-maria-montesori-2.webp";
 export { default as ImgCarouselMiguelSullana } from "./province-institutes/carousel-miguel-cortes-sullana.webp";
 export { default as ImgCarouselMiguelSullana2 } from "./province-institutes/carousel-miguel-cortes-sullana-2.webp";
 export { default as ImgCarouselMiguelSullana3 } from "./province-institutes/carousel-miguel-cortes-sulla-3.webp";
+export { default as ImgCarouselMiguelSullana4 } from "./province-institutes/c-mc-sullana-new-1.webp";
+export { default as ImgCarouselMiguelSullana5 } from "./province-institutes/c-mc-sullana-new-2.webp";
 export { default as ImgCarouselTarapaca } from "./province-institutes/carousel-tarapaca.webp";
 export { default as ImgCarouselTarapaca2 } from "./province-institutes/carousel-tarapaca2.webp";
 export { default as ImgCarouselTarapaca3 } from "./province-institutes/carousel-tarapaca3.webp";
@@ -107,6 +116,8 @@ export { default as ImgCarouselNuestrosHeroes } from "./province-institutes/nues
 export { default as ImgCarouselNuestrosHeroes3 } from "./province-institutes/nuestros-heroes-pacifico-3.webp";
 export { default as ImgCarouselNuestrosHeroes4 } from "./province-institutes/c-heroes-4.webp";
 export { default as ImgCarouselNuestrosHeroes5 } from "./province-institutes/c-heroes-5.webp";
+export { default as ImgCarouselNuestrosHeroes1 } from "./province-institutes/c-nhp-tacna-new-1.webp";
+export { default as ImgCarouselNuestrosHeroes2 } from "./province-institutes/c-nhp-new-2.webp";
 
 //--------Corporatives images lima institues------
 export { default as ImgJoseJoaquinInclan } from "./lima-institutes/iel-jose-joaquin-inclan.webp";

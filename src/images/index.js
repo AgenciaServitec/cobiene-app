@@ -293,6 +293,7 @@ export { default as ImgIspaci } from "./webp/img-ispaci.webp";
 export { default as ImgAlianzaFrancesa } from "./webp/img-alianza-franc.webp";
 export { default as ImgIsilInst } from "./webp/img-isil-inst.webp";
 export { default as ImgInstAkrom } from "./webp/inst-akron.webp";
+export { default as ImgCibertec } from "./webp/logo-inst-cibertec.webp";
 
 //-------- Companies ------
 export { default as ImgApelac } from "./webp/img-apelac.webp";

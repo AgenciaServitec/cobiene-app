@@ -174,6 +174,7 @@ export { default as ImgCarouselPedroRuizGallo3 } from "./lima-institutes/c-pedro
 export { default as ImgCarouselPedroRuizGallo4 } from "./lima-institutes/c-pedro-ruiz-new-1.webp";
 export { default as ImgCarouselPedroRuizGallo5 } from "./lima-institutes/c-pedro-ruiz-new-2.webp";
 export { default as ImgCarouselPedroRuizGallo6 } from "./lima-institutes/c-pedro-ruiz-new-3.webp";
+export { default as ImgCarouselPedroRuizGallo7 } from "./lima-institutes/c-pedro-ruiz-new-4.webp";
 export { default as ImgCarouselPrimerosPasos } from "./lima-institutes/c-primeros-pasos.webp";
 export { default as ImgCarouselPrimerosPasos2 } from "./lima-institutes/c-primeros-pasos-2.webp";
 export { default as ImgCarouselPrimerosPasos4 } from "./lima-institutes/c-primeros-pasos-4.webp";

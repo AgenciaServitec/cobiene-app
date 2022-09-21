@@ -70,15 +70,16 @@ export const FuneralFund = () => {
         {buttonHidden && (
           <div className="content-hidden">
             <ul>
-              <li>Ataúd en Alquiler</li>
-              <li>Formolización</li>
-              <li>Capilla ardiente</li>
-              <li>Carroza</li>
-              <li>Coche de flores</li>
-              <li>Cargadores</li>
-              <li>Vehículo de acompañante</li>
-              <li>Tumba</li>
-              <li>Trámites (RENIEC)</li>
+              <li>ATAÚD</li>
+              <li>CARROZA</li>
+              <li>CAPILLA ARDIENTE</li>
+              <li>SALA VELATORIA</li>
+              <li>TRASLADO (F) AL VELATORIO</li>
+              <li>VEHÍCULO PORTA FLORES</li>
+              <li>TRÁMITE ADMINISTRATIVO </li>
+              <li> PREPARACIÓN DE CUERPO</li>
+              <li> VEHÍCULO FAMILIAR O CARGADORES</li>
+              <li> TUMBA O NICHO</li>
             </ul>
           </div>
         )}
@@ -90,15 +91,16 @@ export const FuneralFund = () => {
         {buttonHidden2 && (
           <div className="content-hidden">
             <ul>
-              <li>Ataúd en Alquiler</li>
-              <li>Formolización</li>
-              <li>Capilla ardiente</li>
-              <li>Carroza</li>
-              <li>Coche de flores</li>
-              <li>Cargadores</li>
-              <li>Vehículo de acompañante</li>
-              <li>Urna</li>
-              <li>Trámites (RENIEC)</li>
+              <li> ALQUILER DE ATAÚD</li>
+              <li>CARROZA</li>
+              <li>CAPILLA ARDIENTE</li>
+              <li>SALA VELATORIA</li>
+              <li>TRASLADO (F) AL VELATORIO</li>
+              <li>VEHÍCULO DE FLORES</li>
+              <li>TRÁMITE ADMINISTRATIVO</li>
+              <li>PREPARACIÓN DE CUERPO</li>
+              <li>VEHÍCULO FAMILIAR O CARGADORES</li>
+              <li>URNA, HORNO CREMATORIO Y NECROPSIA</li>
             </ul>
           </div>
         )}

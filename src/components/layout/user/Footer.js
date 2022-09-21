@@ -32,7 +32,7 @@ export const Footer = () => {
           <IconListRow
             icon={faWhatsapp}
             ariaLabel="boton de whatsapp"
-            link="https://api.whatsapp.com/send?phone=+51929054672&text=Hola%20ServiTecPeru%20Quiero%20Mas%20Info%20Sobre..."
+            link="https://api.whatsapp.com/send?phone=+51929054672&text=Hola%20quiero%20mas%20info%20sobre..."
             background="#00bb2d"
           />
           <IconListRow

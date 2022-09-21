@@ -55,8 +55,7 @@ export const Conventions = () => {
           Lista de Convenios de empresas:
         </a>
 
-        {/*<a href="https://drive.google.com/file/d/1dvMnhfWHFrt2ehOkaN8vY-OrK7swkLb_/view?usp=sharing">*/}
-        <a href="https://drive.google.com/file/d/14dz5pLfdbWT9nmWjpFgcii_F2nLsOmgo/view?usp=sharing">
+        <a href="https://drive.google.com/file/d/1pK7E2rAXIhb0cni54e9285WyvuDwktWq/view?usp=sharing">
           <FontAwesomeIcon icon={faList} size="2x" />
           Lista de convenios de universidades e institutos:
         </a>

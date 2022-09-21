@@ -17,6 +17,7 @@ import {
   ICPNA,
   ImgAlianzaFrancesa,
   ImgAndreVesalio,
+  ImgCibertec,
   ImgEcaprev,
   ImgIcim,
   ImgInstAkrom,
@@ -440,6 +441,24 @@ export const institutes = [
     benefits: [
       "CURSOS DE FRANCÉS, PARA NIÑOS, JÓVENES Y ADULTOS EN TODOS LOS HORARIOS:\n",
       "15% descuento en el pago de las pensiones\n",
+      "ALCANCE:",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
+    ],
+    urlFile:
+      "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+  },
+  {
+    image: ImgCibertec,
+    title: "CIBERTEC",
+    benefits: [
+      "PROGRAMAS TÉCNICOS:\n",
+      " - 25 % de descuento sobre el costo de enseñanza, en la primera mensualidad, en cualquiera de sus modalidades y sedes. A partir de la segunda mensualidad para el costo de la enseñanza se aplicará el 8% de descuento sobre las mensualidades, en cualquiera de sus modalidades y sedes.\n",
+      "FORMACIÓN CONTINUA:\n",
+      " - 15 % de descuento sobre las mensualidades, en cualquiera de sus sedes en programas de formación continua, en la modalidad presencial. \n",
+      " - 20 % de descuento sobre las mensualidades, en cualquiera de sus sedes, en programas de formación continua, en la modalidad virtual.\n",
+      " - 20 % de descuento sobre las mensualidades en programas de formación continua en aquellos cursos solicitados a un grupo y con tema específico. \n",
+      " - 15% de descuento sobre programas académicos específicos a los docentes de la comunidad educativa EP\n",
+      " - 15% de descuento sobre programas virtuales de verano de máximo de 24 horas,  a los estudiantes entre 7 y 17 años\n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
     ],

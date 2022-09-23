@@ -9,9 +9,13 @@ import {
   DisabledSupport,
   EconomicalSupport,
   Education,
+  EducationConventions,
+  Financials,
   FormalitiesFuneralFund,
   FuneralFund,
+  Health,
   Home,
+  Hotels,
   HouseService,
   HouseServices,
   Institutes,
@@ -27,6 +31,7 @@ import {
   ServiceSocial,
   SocialEconomicSupport,
   TechniciansCircle,
+  Transportations,
   Universities,
 } from "../pages";
 
@@ -80,24 +85,6 @@ export const Router = () => {
       />
       <Route
         exact
-        path="/conventions/universities"
-        element={
-          <BaseLayout>
-            <Universities />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/institutes"
-        element={
-          <BaseLayout>
-            <Institutes />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
         path="/conventions/pre-academies"
         element={
           <BaseLayout>
@@ -120,6 +107,69 @@ export const Router = () => {
         element={
           <BaseLayout>
             <Banks />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/transportations"
+        element={
+          <BaseLayout>
+            <Transportations />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/hotels"
+        element={
+          <BaseLayout>
+            <Hotels />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/health"
+        element={
+          <BaseLayout>
+            <Health />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/financials"
+        element={
+          <BaseLayout>
+            <Financials />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/education-conventions"
+        element={
+          <BaseLayout>
+            <EducationConventions />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/education-conventions/universities"
+        element={
+          <BaseLayout>
+            <Universities />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/education-conventions/institutes"
+        element={
+          <BaseLayout>
+            <Institutes />
           </BaseLayout>
         }
       />

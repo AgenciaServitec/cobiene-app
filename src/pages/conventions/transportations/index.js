@@ -3,10 +3,10 @@ import styled, { css } from "styled-components";
 import { CollapseWithButtons } from "../../../components";
 import { universities } from "../../../data-list";
 
-export const Universities = () => (
+export const Transportations = () => (
   <Container>
     <div className="content-logo">
-      <h2>Universidades</h2>
+      <h2>Transportes</h2>
     </div>
     <CollapseWithButtons dataLists={universities} />
   </Container>

@@ -25,26 +25,47 @@ export const Conventions = () => {
         </Text>
       </div>
 
-      <Button
-        width="100%"
-        onClick={() => navigate("/conventions/universities")}
-      >
-        UNIVERSIDADES
-      </Button>
-      <Button width="100%" onClick={() => navigate("/conventions/institutes")}>
-        INSTITUTOS
-      </Button>
+      {/*<Button*/}
+      {/*  width="100%"*/}
+      {/*  onClick={() => navigate("/conventions/universities")}*/}
+      {/*>*/}
+      {/*  UNIVERSIDADES*/}
+      {/*</Button>*/}
+      {/*<Button width="100%" onClick={() => navigate("/conventions/institutes")}>*/}
+      {/*  INSTITUTOS*/}
+      {/*</Button>*/}
       {/*<Button
         width="100%"
         onClick={() => navigate("/conventions/pre-academies")}
       >
         ACADEMIAS PRE
       </Button>*/}
+      <Button
+        width="100%"
+        onClick={() => navigate("/conventions/education-conventions")}
+      >
+        EDUCACIÓN
+      </Button>
       <Button width="100%" onClick={() => navigate("/conventions/companies")}>
         EMPRESAS
       </Button>
+      <Button width="100%" onClick={() => navigate("/conventions/financials")}>
+        FINANCIERAS
+      </Button>
       <Button width="100%" onClick={() => navigate("/conventions/banks")}>
-        BANCO
+        BANCOS
+      </Button>
+      <Button width="100%" onClick={() => navigate("/conventions/health")}>
+        SALUD
+      </Button>
+      <Button
+        width="100%"
+        onClick={() => navigate("/conventions/transportations")}
+      >
+        TRANSPORTES
+      </Button>
+      <Button width="100%" onClick={() => navigate("/conventions/hotels")}>
+        HOTELES
       </Button>
 
       <div className="list-convenios">

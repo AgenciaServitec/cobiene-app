@@ -5,6 +5,7 @@ import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import Collapse from "antd/lib/collapse";
 import { Button } from "../ui";
 import Typography from "antd/lib/typography";
+import { ImgDefault } from "../../images";
 
 const { Panel } = Collapse;
 const { Text } = Typography;
@@ -19,7 +20,15 @@ export const CollapseWithButtons = ({ dataLists = [] }) => {
             <Button width="100%">
               <div className="content-button">
                 <div className="item-icon">
-                  <img src={dataList.image} alt={dataList.title} />
+                  {dataList.image ? (
+                    <img src={dataList.image} alt={dataList.title} />
+                  ) : (
+                    <img
+                      src={ImgDefault}
+                      alt="img-default"
+                      className="img-default"
+                    />
+                  )}
                 </div>
                 <div className="item-text">
                   <Text style={{ width: 300 }} ellipsis>
@@ -71,9 +80,13 @@ const CollapseAntd = styled(Collapse)`
       justify-content: center;
       width: 100%;
       img {
-        width: 4rem;
-        height: 4rem;
+        width: 3rem;
+        height: 3rem;
         object-fit: contain;
+      }
+      .img-default {
+        width: 2em;
+        height: 2em;
       }
     }
     .item-text {

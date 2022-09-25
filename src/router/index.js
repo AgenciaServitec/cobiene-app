@@ -4,6 +4,7 @@ import {
   AboutAs,
   Banks,
   Bazar,
+  CommercialShop,
   Companies,
   Conventions,
   DisabledSupport,
@@ -13,6 +14,7 @@ import {
   Financials,
   FormalitiesFuneralFund,
   FuneralFund,
+  Gym,
   Health,
   Home,
   Hotels,
@@ -98,6 +100,24 @@ export const Router = () => {
         element={
           <BaseLayout>
             <Companies />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/companies/commercial-shop"
+        element={
+          <BaseLayout>
+            <CommercialShop />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/companies/gym"
+        element={
+          <BaseLayout>
+            <Gym />
           </BaseLayout>
         }
       />

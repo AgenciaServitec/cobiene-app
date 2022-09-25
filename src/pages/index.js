@@ -6,6 +6,8 @@ export * from "./education/lima-institutes";
 export * from "./education/province-institutes";
 export * from "./conventions";
 export * from "./conventions/companies";
+export * from "./conventions/companies/commercial-shop";
+export * from "./conventions/companies/gym";
 export * from "./conventions/pre-academies";
 export * from "./conventions/financials";
 export * from "./conventions/banks";

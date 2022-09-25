@@ -1,16 +1,19 @@
 import React from "react";
 import styled, { css } from "styled-components";
 import { CollapseWithButtons } from "../../../components";
-import { universities } from "../../../data-list";
+import { companies } from "../../../data-list";
 
-export const Financials = () => (
-  <Container>
-    <div className="content-logo">
-      <h2>Financieras</h2>
-    </div>
-    <CollapseWithButtons dataLists={universities} />
-  </Container>
-);
+export const Financials = () => {
+  const financial = companies.filter((com) => com.type === "financial");
+  return (
+    <Container>
+      <div className="content-logo">
+        <h2>Financieras</h2>
+      </div>
+      <CollapseWithButtons dataLists={financial} />
+    </Container>
+  );
+};
 
 const Container = styled.div`
   ${() => css`

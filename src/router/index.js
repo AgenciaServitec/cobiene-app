@@ -4,6 +4,7 @@ import {
   AboutAs,
   Banks,
   Bazar,
+  Clinics,
   CommercialShop,
   Companies,
   Conventions,
@@ -21,6 +22,7 @@ import {
   HouseService,
   HouseServices,
   Institutes,
+  Laboratories,
   LimaInstitutes,
   MilitaryCircle,
   News,
@@ -154,6 +156,24 @@ export const Router = () => {
         element={
           <BaseLayout>
             <Health />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/health/laboratories"
+        element={
+          <BaseLayout>
+            <Laboratories />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/health/clinics"
+        element={
+          <BaseLayout>
+            <Clinics />
           </BaseLayout>
         }
       />

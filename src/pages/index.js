@@ -12,6 +12,8 @@ export * from "./conventions/pre-academies";
 export * from "./conventions/financials";
 export * from "./conventions/banks";
 export * from "./conventions/health";
+export * from "./conventions/health/clinics";
+export * from "./conventions/health/laboratories";
 export * from "./conventions/transportations";
 export * from "./conventions/hotels";
 export * from "./conventions/education-conventions";

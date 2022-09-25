@@ -1,5 +1,6 @@
 import {
   BankComercio,
+  BankContinental,
   BankGnb,
   BankInterbank,
   BankPichincha,
@@ -44,14 +45,11 @@ export const banks = [
       "Campañas impulsadas por el banco según el análisis del mercado\n",
     ],
   },
-  // {
-  //   image: Bank4,
-  //   title: "BCO. CONTINENTAL  ",
-  //   benefits: [
-  //     "TASAS PREFERENCIALES PARA PRÉSTRAMO POR CONVENIO - COMPRA DE DEUDAS",
-  //     "TASAS PREFERENCIALES 12% Y 16%  PARA PRÉSTAMOS PERSONALES",
-  //   ],
-  // },
+  {
+    image: BankContinental,
+    title: "BCO. CONTINENTAL  ",
+    benefits: ["POR FIRMAR"],
+  },
   {
     image: BankInterbank,
     title: "BCO. INTERBANK",

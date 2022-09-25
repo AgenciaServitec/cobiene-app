@@ -18,7 +18,7 @@ export const Health = () => {
         width="100%"
         onClick={() => navigate("/conventions/health/clinics")}
       >
-        Clinicas
+        Clínicas
       </Button>
     </Container>
   );

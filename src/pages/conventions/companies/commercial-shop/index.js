@@ -1,13 +1,23 @@
 import styled, { css } from "styled-components";
 import React from "react";
+import { companies } from "../../../../data-list";
+import { CollapseWithButtons } from "../../../../components";
 
-export const CommercialShop = () => (
-  <Container>
-    <div className="content-logo">
-      <h2>Tiendas Comerciales</h2>
-    </div>
-  </Container>
-);
+export const CommercialShop = () => {
+  const commercials = companies.filter(
+    (comp) => comp.type === "commercial-shop"
+  );
+
+  return (
+    <Container>
+      <div className="content-logo">
+        <h2>Tiendas Comerciales</h2>
+      </div>
+
+      <CollapseWithButtons dataLists={commercials} />
+    </Container>
+  );
+};
 
 const Container = styled.div`
   ${() => css`

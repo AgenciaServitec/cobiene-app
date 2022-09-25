@@ -370,3 +370,5 @@ export { default as BankGnb } from "./others/bank3.webp";
 export { default as BankContinental } from "./others/bank4.webp";
 export { default as BankInterbank } from "./others/bank5.webp";
 export { default as BankPichincha } from "./others/bank-pichincha.webp";
+
+export { default as ImgDefault } from "./others/loader.gif";

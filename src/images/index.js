@@ -358,6 +358,10 @@ export { default as ImgRenzoCosta } from "./webp/img-renzo-costa.webp";
 export { default as ImgTinnitus } from "./webp/img-tinnitus.webp";
 export { default as ImgLogistas } from "./webp/img-logistas.webp";
 export { default as ImgSugo } from "./webp/img-sugo.webp";
+export { default as ImgClinicAuna } from "./companies/clinic-auna.webp";
+export { default as ImgEfectiva } from "./companies/efectiva.webp";
+export { default as ImgCostaSol } from "./companies/hotel-costa-sol.webp";
+export { default as ImgLabRoe } from "./companies/lab-roe.webp";
 
 //-------- Academies PRe ------
 export { default as Academie1 } from "./others/academie1.webp";

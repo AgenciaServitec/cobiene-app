@@ -327,7 +327,7 @@ export const universities = [
   },
   {
     image: ImgConservatorio,
-    title: "UNIVERDAD NACIONAL DE MÚSICA",
+    title: "UNIV. NACIONAL DE MÚSICA",
     benefits: [
       "PREGRADO\n",
       "Entre el 20% y 25 % en el pago de las pensiones en las carreras de Educación musical, dirección musical y artista profesional\n",

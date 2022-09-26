@@ -18,6 +18,7 @@ export const banks = [
       "Hasta 16% desde 06 hasta 72 meses\n",
       "Según campañas impulsadas por el banco\n",
     ],
+    links: [{ url: "https://www.scotiabank.com.pe" }],
   },
   {
     image: BankComercio,
@@ -32,6 +33,7 @@ export const banks = [
       "14.5 %.",
       "Campañas impulsadas por el banco según el análisis del mercado",
     ],
+    links: [{ url: "https://www.bancomercio.com" }],
   },
   {
     image: BankGnb,
@@ -44,6 +46,7 @@ export const banks = [
       "Clasificación SBS CPP 16.0% desde 06 meses hasta 72 meses\n",
       "Campañas impulsadas por el banco según el análisis del mercado\n",
     ],
+    links: [{ url: "https://www.bancognb.com.pe" }],
   },
   {
     image: BankContinental,
@@ -60,6 +63,7 @@ export const banks = [
       "Hasta 19.5% desde 06 hasta 72 meses\n",
       "Campañas impulsadas por el banco según análisis del mercado\n",
     ],
+    links: [{ url: "https://interbank.pe" }],
   },
   {
     image: BankPichincha,
@@ -71,5 +75,6 @@ export const banks = [
       "Clasificación SBS normal Hasta 14% desde 06 hasta 72 meses\n",
       "Campañas impulsadas por el banco de acuerdo al análisis del mercado\n",
     ],
+    links: [{}],
   },
 ];

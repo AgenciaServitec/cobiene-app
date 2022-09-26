@@ -36,6 +36,7 @@ export const companies = [
       "b)\tDescuento entre el 5% y 10% sobre los costos de las tarifas regulares en, EXÁMENES DE LABORATORIO Y PROCEDIMIENTOS CLÍNICOS, realizados en la sede de Jesús María. Anexo 01\n",
       "c)\tDescuento del 5% de sobre los costos de las tarifas regulares en sedes de LOS OLIVOS Y SAN JUAN DE LURIGANCHO, EN CONSULTAS, EXÁMENES DE LABORATORIO Y PROCEDIMIENTOS CLÍNICOS, en las diferentes especialidades sede.  Anexo 01\n",
     ],
+    links: [{ url: "https://inppares.org/" }],
   },
 
   {
@@ -60,6 +61,7 @@ export const companies = [
       "Otorgará el valor de $2000 dos mil dólares americanos de descuento sobre el costo tarifa regular del dispositivo medico a largo plazo, IMPLANTE COCLEAR, en lo correspondiente a la colocación quirúrgica (clínica, operación, anestesiólogo, equipo, post operatorio, cincuenta terapías de lenguaje y otros).\n",
       "Los beneficios antes indicados serán en todas las sedes de MEDIFON, según Anexo 01.\n",
     ],
+    links: [{ url: "https://medifonperu.pe/" }],
   },
 
   {
@@ -91,6 +93,7 @@ export const companies = [
       "\n",
       "Correo electrónico adn@biolinksperù.com – www.biolinksperu.com.\n",
     ],
+    links: [{ url: "https://biolinksperu.com" }],
   },
 
   {
@@ -112,6 +115,7 @@ export const companies = [
       "•\tForma PRESENCIAL\n",
       "•\tVía CALL CENTER, debiendo acreditarse el día de la cita con el CIP, CIF y/o DNI, según sea el caso, y la presentación de las ordenes médicas emitidas por el HMC o centros de salud privados.\n",
     ],
+    links: [{ url: "https://unilabs.pe" }],
   },
   {
     type: "transport",
@@ -132,6 +136,7 @@ export const companies = [
       "d)\tAcceso al 10% de descuento sobre la tarifa \tregular, en el servicio de envió a través de Servicio expreso y Servicio consolidado, en todos sus destinos.\n",
       "e)\tCostos diferenciados, de transporte del tipo CORPORATIVO o transporte TURÍSTICO, previa evaluación de OLTURSA.\n",
     ],
+    links: [{ url: "https://www.oltursa.pe" }],
   },
   {
     type: "commercial-shop",
@@ -150,6 +155,7 @@ export const companies = [
       "d)\tDescuento del 10% en todas marcas diferentes.\n",
       "e)\tTiendas ubicadas en todos los centros comerciales \n",
     ],
+    links: [{ url: "https://www.footloose.pe" }],
   },
   {
     type: "clinic",
@@ -167,6 +173,7 @@ export const companies = [
       "Gratis Kit de limpieza por la compra de audífonos medicados. \n",
       "Descuento del 20% de en servicios de audiología, psicología nutrición.\n",
     ],
+    links: [{ url: "http://tinnitusperu.com" }],
   },
   {
     type: "commercial-shop",
@@ -184,6 +191,7 @@ export const companies = [
       "c)\tDescuento del 10% en todos los productos tiendas propias según relación anexo\n",
       "d)\tDescuento del 5% en todos los productos, toda la cadena de tiendas a nivel nacional (centros comerciales), anexo\n",
     ],
+    links: [{ url: "https://www.renzocosta.com" }],
   },
   {
     image: ImgLazzosComerciales,
@@ -193,6 +201,7 @@ export const companies = [
       "BENEFICIARIOS:",
       "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES  Y FAMILIARES DIRECTOS",
     ],
+    links: [{ url: "https://www.lazzos.com.pe" }],
   },
   {
     type: "clinic",
@@ -212,6 +221,7 @@ export const companies = [
       "CONSULTA GRATUITA \n",
       "Profilaxis y destartraje de cortesía.\n",
     ],
+    links: [{ url: "https://www.multident.pe" }],
   },
   {
     type: "transport",
@@ -233,6 +243,7 @@ export const companies = [
       "e)\tAcceso al 15% de descuento sobre la tarifa regular, en el servicio de envió a través de MOVIL CARGA y MOVIL COURIER que inicien en Lima, hacia cualquiera de los destinos ofrecidos.\n",
       "f)\tCostos diferenciados, de transporte del tipo CORPORATIVO o transporte TURÍSTICO, previa evaluación de MOVILBUS.\n",
     ],
+    links: [{ url: "https://www.movilbus.pe/" }],
   },
   {
     type: "gym",
@@ -256,6 +267,7 @@ export const companies = [
       "•\tAcceso de manera ilimitada a la plataforma Virtual SMART FIT GO.\n",
       "•\tLibre de elección de fechas de entrenamiento, mínimo un mes.\n",
     ],
+    links: [{ url: "https://www.smartfit.com.pe" }],
   },
   {
     type: "clinic",
@@ -274,6 +286,7 @@ export const companies = [
       "Sede Surco Mariscal Castilla 1170 - Teléfonos 4356989 y 990436788.\n",
       "Sede Rímac Calle Fray Ramón Rojas 191 – Teléfono: 990436788.\n",
     ],
+    links: [{}],
   },
   {
     type: "commercial-shop",
@@ -285,6 +298,7 @@ export const companies = [
       "BENEFICIARIOS:",
       "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES  Y FAMILIARES DIRECTOS",
     ],
+    links: [{}],
   },
   // {
   //   type: "commercial-shop",
@@ -302,12 +316,14 @@ export const companies = [
     image: ImgClinicAuna,
     title: "Clínica Auna",
     benefits: ["POR FIRMAR"],
+    links: [{ url: "https://auna.pe/conocenos/" }],
   },
   {
     type: "financial",
     image: ImgEfectiva,
     title: "Financ. Efectiva",
     benefits: ["POR FIRMAR"],
+    links: [{ url: "https://www.efectiva.com.pe/" }],
   },
   {
     type: "financial",
@@ -320,6 +336,7 @@ export const companies = [
       "Según clasificación de SBS de 18% a 22%\n",
       "Mejores tasas por campañas impulsadas por la FINANCIERA de acuerdo al análisis del mercado\n",
     ],
+    links: [{ url: "https://www.finantel.pe/" }],
   },
   {
     type: "financial",
@@ -332,6 +349,7 @@ export const companies = [
       "Según clasificación de SBS de 18.5% a 24.6%\n",
       "Mejores tasas por campañas impulsadas por la FINANCIERA de acuerdo al análisis del mercado\n",
     ],
+    links: [{ url: "https://larehabilitadora.com/" }],
   },
   {
     type: "hotel",
@@ -353,18 +371,21 @@ export const companies = [
       "f)\tLas reservas realizadas son de tarifas NO REEMBOLSABLE.\n",
       "g)\tAl finalizar el pago, cabe mencionar que se aplicará el 10% a la tarifa inicial por el cargo correspondiente a servicios y el 18% de impuestos de ley vigentes; los mismos que podrán variar de acuerdo a las regulaciones gubernamentales.\n",
     ],
+    links: [{}],
   },
   {
     type: "hotel",
     image: ImgCostaSol,
     title: "HOTEL COSTA DEL SOL ",
     benefits: [""],
+    links: [{ url: "https://www.casa-andina.com/es/home?partner=6588" }],
   },
   {
     type: "laboratory",
     image: ImgLabRoe,
     title: "Lab. Roe",
     benefits: ["Por Firmar"],
+    links: [{ url: "https://www.labroe.com/" }],
   },
   {
     type: "commercial-shop",
@@ -384,5 +405,6 @@ export const companies = [
       "c)\tDescuento del 15% en marcas propias \n",
       "d)\tDescuento del 10% en todas marcas diferentes.\n",
     ],
+    links: [{}],
   },
 ];

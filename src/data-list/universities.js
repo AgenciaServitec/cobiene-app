@@ -33,6 +33,11 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
+    links: [
+      {
+        url: "https://www.utp.edu.pe",
+      },
+    ],
   },
   {
     image: ImgCientificaDelSur,
@@ -54,6 +59,7 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
+    links: [{ url: "https://www.cientifica.edu.pe" }],
   },
 
   {
@@ -72,6 +78,7 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
+    links: [{ url: "https://www.ucv.edu.pe" }],
   },
   {
     image: ImgEsan,
@@ -86,6 +93,7 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
+    links: [{ url: "https://www.ue.edu.pe" }],
   },
   {
     image: ImgFedericoVidarreal,
@@ -98,6 +106,7 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
+    links: [{ url: "http://www.unfv.edu.pe" }],
   },
   {
     image: ImgJaimeBausate,
@@ -112,6 +121,7 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
+    links: [{ url: "http://bausate.edu.pe" }],
   },
   {
     image: ImgMarcelinoChampagnat,
@@ -126,6 +136,7 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
+    links: [{ url: "https://umch.edu.pe" }],
   },
   {
     image: ImgNorbertWiener,
@@ -143,6 +154,7 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
+    links: [{ url: "https://www.uwiener.edu.pe" }],
   },
   {
     image: ImgUniversidadDelPacifico,
@@ -156,6 +168,7 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
+    links: [{ url: "https://www.up.edu.pe/" }],
   },
   {
     image: ImgRicardoPalma,
@@ -176,6 +189,7 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
+    links: [{ url: "https://www.urp.edu.pe" }],
   },
   {
     image: ImgSanIngnacioLoyola,
@@ -192,6 +206,7 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
+    links: [{ url: "https://usil.edu.pe" }],
   },
   {
     image: ImgSanJuanBautista,
@@ -213,6 +228,7 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
+    links: [{ url: "https://www.upsjb.edu.pe" }],
   },
   {
     image: ImgSanMartin,
@@ -232,6 +248,7 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
+    links: [{ url: "https://usmp.edu.pe" }],
   },
   {
     image: ImgSanMarcos,
@@ -244,6 +261,7 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
+    links: [{ url: "https://economia.unmsm.edu.pe" }],
   },
   {
     image: ImgSeniorSipan,
@@ -258,6 +276,7 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
+    links: [{ url: "https://www.uss.edu.pe" }],
   },
   {
     image: ImgUtp,
@@ -270,6 +289,7 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
+    links: [{ url: "https://www.utp.edu.pe" }],
   },
   {
     image: ImgCatolicaSede,
@@ -284,6 +304,7 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
+    links: [{ url: "https://www.ucss.edu.pe" }],
   },
   {
     image: ImgUnife,
@@ -310,6 +331,7 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
+    links: [{ url: "https://www.unife.edu.pe" }],
   },
   {
     image: Norte,
@@ -324,6 +346,7 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
+    links: [{ url: "https://www.upn.edu.pe" }],
   },
   {
     image: ImgConservatorio,
@@ -341,5 +364,6 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
+    links: [{ url: "http://www.unm.edu.pe/" }],
   },
 ];

@@ -53,6 +53,7 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+    links: [{ url: "https://cepea.edu.pe" }],
   },
   {
     image: CEPEABAN,
@@ -66,6 +67,7 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+    links: [{ url: "https://www.cepeban.edu.pe" }],
   },
   // {
   //   image: CESCA,
@@ -85,10 +87,11 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+    links: [{ url: "https://gamor.edu.pe" }],
   },
   {
     image: CEVATUR,
-    title: "CEVATUR PERU",
+    title: "CEVATUR PERÚ",
     benefits: [
       "CARRERAS PROFESIONALES, TÉCNICAS Y DIPLOMADOS\n",
       "30% descuento en matrícula \n",
@@ -98,6 +101,7 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+    links: [{ url: "http://cevaturperu.edu.pe" }],
   },
   {
     image: SanVicente,
@@ -111,6 +115,7 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+    links: [{}],
   },
   {
     image: GALLIA,
@@ -125,6 +130,7 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+    links: [{ url: "https://dgallia.edu.pe" }],
   },
   {
     image: DanielCarrion,
@@ -141,6 +147,7 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+    links: [{ url: "https://www.acarrion.edu.pe" }],
   },
   {
     image: DesarrolloGeneral,
@@ -154,6 +161,7 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+    links: [{ url: "http://www.idg.edu.pe" }],
   },
   {
     image: ProfesionalTecnico,
@@ -167,6 +175,7 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+    links: [{ url: "http://www.idept.edu.pe" }],
   },
   {
     image: EscueladeGerencia,
@@ -179,6 +188,7 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+    links: [{ url: "https://portal.eiger.edu.pe" }],
   },
   {
     image: ImgInstAkrom,
@@ -191,6 +201,7 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+    links: [{ url: "https://www.uakron.edu/" }],
   },
   {
     image: EUROIDIOMAS,
@@ -207,6 +218,7 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+    links: [{ url: "https://euroidiomas.edu.pe" }],
   },
   // {
   //   image: HEADWAYCOLLEGE,
@@ -228,6 +240,7 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+    links: [{ url: "https://www.inteci.edu.pe" }],
   },
   // {
   //   image: LECTURAVELOZ,
@@ -261,6 +274,7 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+    links: [{ url: "https://www.inidhe.edu.pe/" }],
   },
   {
     image: PRIVATECHER,
@@ -273,6 +287,7 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+    links: [{ url: "https://www.privateacher.edu.pe" }],
   },
   {
     image: SANIGNACIO,
@@ -284,6 +299,7 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+    links: [{ url: "https://isil.pe" }],
   },
   {
     image: ICPNA,
@@ -296,6 +312,7 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+    links: [{ url: "https://www.icpna.edu.pe" }],
   },
   {
     image: BRITANICO,
@@ -308,6 +325,7 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+    links: [{ url: "https://www.britanico.edu.pe" }],
   },
   {
     image: FORMACIONEMPRESARIAL,
@@ -321,6 +339,7 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+    links: [{ url: "https://ifeep.edu.pe" }],
   },
   {
     image: eigra,
@@ -333,6 +352,7 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+    links: [{ url: "https://www.eigra.edu.pe" }],
   },
   {
     image: guide,
@@ -345,17 +365,7 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-  },
-  {
-    image: ESCUELADEGRADUADOS,
-    title: "ALIANZA FRANCESA",
-    benefits: [
-      "15% DESCUENTO SOBRE LOS CURSOS DE FRANCÉS PARA NIÑOS, JÓVENES Y ADULTOS EN TODOS LOS HORARIOS, DIARIOS Y SABATINOS ",
-      "ALCANCE:",
-      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
-    ],
-    urlFile:
-      "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+    links: [{ url: "https://www.guideasesores.com/cursosmilitares/" }],
   },
   {
     image: ImgVonBraun,
@@ -368,6 +378,7 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+    links: [{ url: "https://istvonbraun.edu.pe/" }],
   },
   {
     image: ImgEcaprev,
@@ -380,6 +391,7 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+    links: [{ url: "https://ecaprev.edu.pe" }],
   },
   {
     image: ImgIspaci,
@@ -394,6 +406,7 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+    links: [{ url: "https://ispacj.com/" }],
   },
   {
     image: ImgIcim,
@@ -406,6 +419,7 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+    links: [{ url: "https://www.icim.edu.pe/" }],
   },
   {
     image: ImgAndreVesalio,
@@ -422,6 +436,7 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+    links: [{ url: "https://www.institutovesalio.edu.pe" }],
   },
   {
     image: ImgIsilInst,
@@ -434,6 +449,7 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+    links: [{ url: "https://isil.pe" }],
   },
   {
     image: ImgAlianzaFrancesa,
@@ -446,6 +462,7 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+    links: [{ url: "https://www.aflima.org.pe/" }],
   },
   {
     image: ImgCibertec,
@@ -464,5 +481,6 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+    links: [{ url: "https://www.cibertec.edu.pe/" }],
   },
 ];

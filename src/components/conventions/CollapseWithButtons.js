@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import { faDownload, faGlobe } from "@fortawesome/free-solid-svg-icons";
 import Collapse from "antd/lib/collapse";
 import { Button } from "../ui";
 import Typography from "antd/lib/typography";
@@ -42,9 +42,8 @@ export const CollapseWithButtons = ({ dataLists = [] }) => {
           className="site-collapse-custom-panel"
         >
           <div className="content-description">
-            <div>
-              <h4>BENEFICIOS:</h4>
-            </div>
+            <h4>BENEFICIOS:</h4>
+
             <div>
               <ul className="list-benefits">
                 {dataList.benefits.map((benefit, index) => (
@@ -52,6 +51,22 @@ export const CollapseWithButtons = ({ dataLists = [] }) => {
                 ))}
               </ul>
             </div>
+            {dataList.links &&
+              dataList.links.map(
+                (link, index) =>
+                  link.url && (
+                    <div className="item-link" key={index}>
+                      <a href={link.url} rel="noreferrer" target="_blank">
+                        <FontAwesomeIcon
+                          icon={link.icon ? link.icon : faGlobe}
+                          size="2x"
+                        />
+                        {link.text ? link.text : "Visita nuestra pagina web"}
+                      </a>
+                    </div>
+                  )
+              )}
+
             {dataList.urlFile && (
               <div className="item-link">
                 <a href={dataList.urlFile} rel="noreferrer">
@@ -119,11 +134,12 @@ const CollapseAntd = styled(Collapse)`
       color: dodgerblue;
       text-decoration: underline;
       text-transform: uppercase;
-      text-align: center;
-      margin: 1.5rem 0;
+      text-align: start;
+      margin: 1.3rem auto;
       font-size: 1em;
+      padding-left: 1em;
       svg {
-        margin-right: 1rem;
+        margin-right: 0.8rem;
       }
     }
   }

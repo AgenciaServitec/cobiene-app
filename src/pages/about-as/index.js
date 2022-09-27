@@ -58,16 +58,18 @@ export const AboutAs = () => {
         </div>
       )}
       <Button width="100%" onClick={() => setButtonHidden2(!buttonHidden2)}>
-        INFORMACION Y SOPORTE
+        INFORMACIÓN Y SOPORTE
       </Button>
       {buttonHidden2 && (
         <div className="content">
           <div className="agencia-servitec">
-            <img
-              className="img-agencia-servitec"
-              src={LogoAgenciaServitec}
-              alt="Agencia Servitec"
-            />
+            <a href="https://servitecperu.com/" target="_blank">
+              <img
+                className="img-agencia-servitec"
+                src={LogoAgenciaServitec}
+                alt="Agencia Servitec"
+              />
+            </a>
           </div>
           <h4>DETEL MY E. PEREZ</h4>
           <h4>TEAM - Agencia Servitec</h4>
@@ -123,7 +125,9 @@ const Container = styled.div`
   .content {
     padding: 0 0.5rem;
     ul {
-      margin: auto 3rem;
+      margin: auto;
+      text-align: center;
+      list-style-type: none;
     }
   }
 `;

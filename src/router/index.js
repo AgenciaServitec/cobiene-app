@@ -35,6 +35,7 @@ import {
   ServiceSocial,
   SocialEconomicSupport,
   TechniciansCircle,
+  Technology,
   Transportations,
   Universities,
 } from "../pages";
@@ -183,6 +184,15 @@ export const Router = () => {
         element={
           <BaseLayout>
             <Financials />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/technology"
+        element={
+          <BaseLayout>
+            <Technology />
           </BaseLayout>
         }
       />

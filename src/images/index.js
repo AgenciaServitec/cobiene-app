@@ -366,6 +366,7 @@ export { default as ImgCasaAndina } from "./companies/casa-andina.webp";
 export { default as ImgVizzano } from "./companies/calzado-vizzano.webp";
 export { default as ImgFinantel } from "./companies/finantel.webp";
 export { default as ImgRehabilitadora } from "./companies/rehabilitador.webp";
+export { default as ImgStoreServitec } from "./companies/store-servitec.webp";
 
 //-------- Academies PRe ------
 export { default as Academie1 } from "./others/academie1.webp";

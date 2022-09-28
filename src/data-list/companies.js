@@ -1,9 +1,11 @@
 import {
   ImgApelac,
   ImgBiolinks,
+  ImgCasaAndina,
   ImgClinicAuna,
   ImgCostaSol,
   ImgEfectiva,
+  ImgFinantel,
   ImgFootloose,
   ImgInppares,
   ImgLabRoe,
@@ -13,10 +15,14 @@ import {
   ImgMovilBus,
   ImgMultident,
   ImgOltursa,
+  ImgRehabilitadora,
   ImgRenzoCosta,
   ImgSmartFit,
+  ImgStoreServitec,
   ImgTinnitus,
   ImgUnilabs,
+  ImgVizzano,
+  Servitec,
 } from "../images";
 
 export const companies = [
@@ -327,7 +333,7 @@ export const companies = [
   },
   {
     type: "financial",
-    image: "",
+    image: ImgFinantel,
     title: "Financ. Finantel",
     benefits: [
       "ALCANCE DEL CONVENIO:\n",
@@ -340,7 +346,7 @@ export const companies = [
   },
   {
     type: "financial",
-    image: "",
+    image: ImgRehabilitadora,
     title: "FINANC. LA REHABILITADORA",
     benefits: [
       "ALCANCE DEL CONVENIO:\n",
@@ -353,7 +359,7 @@ export const companies = [
   },
   {
     type: "hotel",
-    image: "",
+    image: ImgCasaAndina,
     title: "HOTEL CASA ANDINA",
     benefits: [
       "ALCANCE DEL CONVENIO:\n",
@@ -371,14 +377,18 @@ export const companies = [
       "f)\tLas reservas realizadas son de tarifas NO REEMBOLSABLE.\n",
       "g)\tAl finalizar el pago, cabe mencionar que se aplicará el 10% a la tarifa inicial por el cargo correspondiente a servicios y el 18% de impuestos de ley vigentes; los mismos que podrán variar de acuerdo a las regulaciones gubernamentales.\n",
     ],
-    links: [{}],
+    links: [{ url: "https://www.casa-andina.com/es/home?partner=6588" }],
   },
   {
     type: "hotel",
     image: ImgCostaSol,
     title: "HOTEL COSTA DEL SOL ",
     benefits: [""],
-    links: [{ url: "https://www.casa-andina.com/es/home?partner=6588" }],
+    links: [
+      {
+        url: "https://www.costadelsolperu.com/hoteles/hotel-costa-del-sol-wyndham-lima-ciudad/",
+      },
+    ],
   },
   {
     type: "laboratory",
@@ -389,7 +399,7 @@ export const companies = [
   },
   {
     type: "commercial-shop",
-    image: "",
+    image: ImgVizzano,
     title: "CALZADO VIZZANO",
     benefits: [
       "ALCANCE DEL CONVENIO:\n",
@@ -406,5 +416,19 @@ export const companies = [
       "d)\tDescuento del 10% en todas marcas diferentes.\n",
     ],
     links: [{}],
+  },
+  {
+    type: "technology",
+    image: Servitec,
+    title: "Servitec - Perú",
+    benefits: [],
+    links: [{ url: "https://servitecperu.com/" }],
+  },
+  {
+    type: "technology",
+    image: ImgStoreServitec,
+    title: "Tienda Servitec",
+    benefits: [],
+    links: [{ url: "https://tiendaservitec.com/" }],
   },
 ];

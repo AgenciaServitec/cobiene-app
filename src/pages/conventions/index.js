@@ -67,6 +67,9 @@ export const Conventions = () => {
       <Button width="100%" onClick={() => navigate("/conventions/hotels")}>
         HOTELES
       </Button>
+      <Button width="100%" onClick={() => navigate("/conventions/technology")}>
+        TECNOLOGÍA
+      </Button>
 
       <div className="list-convenios">
         {/* old link

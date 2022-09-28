@@ -1,5 +1,5 @@
 import React from "react";
-import { Convenios } from "../../images";
+import { Convenios, ImgLogoConvention, ImgLogoConvention2 } from "../../images";
 import { Button, Text, Title } from "../../components";
 import styled from "styled-components";
 import { useNavigate } from "react-router";
@@ -12,7 +12,11 @@ export const Conventions = () => {
   return (
     <Container>
       <div className="content-initial">
-        <img src={Convenios} alt="Apoyo educativo" />
+        <div className="section-images">
+          <img src={ImgLogoConvention} alt="Convenios" />
+          <img src={Convenios} alt="Apoyo educativo" />
+          <img src={ImgLogoConvention2} alt="convenios" />
+        </div>
         <Title>
           Convenios Vigentes con Entidades Educativas y Empresas Privadas
         </Title>
@@ -97,12 +101,17 @@ const Container = styled.div`
     align-items: center;
     justify-content: center;
     margin: 1rem auto;
-
-    img {
-      width: 8em;
-      height: auto;
-      object-fit: contain;
-      margin-bottom: 1rem;
+    .section-images {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 0.5em;
+      align-items: center;
+      img {
+        width: 6em;
+        height: auto;
+        object-fit: contain;
+        margin-bottom: 1rem;
+      }
     }
   }
   .list-convenios {

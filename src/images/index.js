@@ -362,6 +362,10 @@ export { default as ImgClinicAuna } from "./companies/clinic-auna.webp";
 export { default as ImgEfectiva } from "./companies/efectiva.webp";
 export { default as ImgCostaSol } from "./companies/hotel-costa-sol.webp";
 export { default as ImgLabRoe } from "./companies/lab-roe.webp";
+export { default as ImgCasaAndina } from "./companies/casa-andina.webp";
+export { default as ImgVizzano } from "./companies/calzado-vizzano.webp";
+export { default as ImgFinantel } from "./companies/finantel.webp";
+export { default as ImgRehabilitadora } from "./companies/rehabilitador.webp";
 
 //-------- Academies PRe ------
 export { default as Academie1 } from "./others/academie1.webp";

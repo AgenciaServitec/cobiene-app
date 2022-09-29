@@ -1,11 +1,12 @@
 import { companies } from "../../../../data-list";
-import { CollapseWithButtons } from "../../../../components";
+import { CollapseWithButtons, SortWords } from "../../../../components";
 import styled from "styled-components";
 import React from "react";
 
 export const Laboratories = () => {
   const laboratory = companies.filter((com) => com.type === "laboratory");
 
+  SortWords(laboratory);
   return (
     <Container>
       <div className="content-logo">

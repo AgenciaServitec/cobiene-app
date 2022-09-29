@@ -1,16 +1,19 @@
-import { CollapseWithButtons } from "../../../../components";
+import { CollapseWithButtons, SortWords } from "../../../../components";
 import { institutes } from "../../../../data-list";
 import styled, { css } from "styled-components";
 import React from "react";
 
-export const Institutes = () => (
-  <Container>
-    <div className="content-logo">
-      <h2>Institutos</h2>
-    </div>
-    <CollapseWithButtons dataLists={institutes} />
-  </Container>
-);
+export const Institutes = () => {
+  SortWords(institutes);
+  return (
+    <Container>
+      <div className="content-logo">
+        <h2>Institutos</h2>
+      </div>
+      <CollapseWithButtons dataLists={institutes} />
+    </Container>
+  );
+};
 
 const Container = styled.div`
   ${() => css`

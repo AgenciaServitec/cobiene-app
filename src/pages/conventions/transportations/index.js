@@ -1,11 +1,12 @@
 import React from "react";
 import styled, { css } from "styled-components";
-import { CollapseWithButtons } from "../../../components";
+import { CollapseWithButtons, SortWords } from "../../../components";
 import { companies } from "../../../data-list";
 
 export const Transportations = () => {
   const transportation = companies.filter((com) => com.type === "transport");
 
+  SortWords(transportation);
   return (
     <Container>
       <div className="content-logo">

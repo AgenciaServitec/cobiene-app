@@ -8,20 +8,11 @@ export const CommercialShop = () => {
     (comp) => comp.type === "commercial-shop"
   );
 
-  const orderName = commercials.sort((a, b) => {
-    const titleA = a.title.toLocaleLowerCase();
-    const titleB = b.title.toLocaleLowerCase();
+  // console.log("antes->", commercials);
 
-    if (titleA < titleB) {
-      return -1;
-    }
-    if (titleA > titleB) {
-      return 1;
-    }
-    return 0;
-  });
+  SortWords(commercials);
 
-  // console.log(orderName);
+  // console.log("despues->", commercials);
 
   return (
     <Container>
@@ -29,7 +20,7 @@ export const CommercialShop = () => {
         <h2>Tiendas Comerciales</h2>
       </div>
 
-      <CollapseWithButtons dataLists={orderName} />
+      <CollapseWithButtons dataLists={commercials} />
     </Container>
   );
 };

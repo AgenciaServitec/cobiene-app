@@ -1,28 +1,18 @@
 import React from "react";
 import styled, { css } from "styled-components";
-import { CollapseWithButtons } from "../../../components";
+import { CollapseWithButtons, SortWords } from "../../../components";
 import { banks } from "../../../data-list";
 
 export const Banks = () => {
-  const orderName = banks.sort((a, b) => {
-    const titleA = a.title.toLocaleLowerCase();
-    const titleB = b.title.toLocaleLowerCase();
-
-    if (titleA < titleB) {
-      return -1;
-    }
-    if (titleA > titleB) {
-      return 1;
-    }
-    return 0;
-  });
+  // console.log("antes->", banks);
+  SortWords(banks);
 
   return (
     <Container>
       <div className="content-logo">
         <h2>Bancos</h2>
       </div>
-      <CollapseWithButtons dataLists={orderName} />
+      <CollapseWithButtons dataLists={banks} />
     </Container>
   );
 };

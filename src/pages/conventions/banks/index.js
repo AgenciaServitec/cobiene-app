@@ -3,14 +3,29 @@ import styled, { css } from "styled-components";
 import { CollapseWithButtons } from "../../../components";
 import { banks } from "../../../data-list";
 
-export const Banks = () => (
-  <Container>
-    <div className="content-logo">
-      <h2>Bancos</h2>
-    </div>
-    <CollapseWithButtons dataLists={banks} />
-  </Container>
-);
+export const Banks = () => {
+  const orderName = banks.sort((a, b) => {
+    const titleA = a.title.toLocaleLowerCase();
+    const titleB = b.title.toLocaleLowerCase();
+
+    if (titleA < titleB) {
+      return -1;
+    }
+    if (titleA > titleB) {
+      return 1;
+    }
+    return 0;
+  });
+
+  return (
+    <Container>
+      <div className="content-logo">
+        <h2>Bancos</h2>
+      </div>
+      <CollapseWithButtons dataLists={orderName} />
+    </Container>
+  );
+};
 
 const Container = styled.div`
   ${() => css`

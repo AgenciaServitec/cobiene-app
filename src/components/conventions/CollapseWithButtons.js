@@ -132,7 +132,6 @@ const CollapseAntd = styled(Collapse)`
     }
     .item-link {
       color: dodgerblue;
-      text-decoration: underline;
       text-transform: uppercase;
       text-align: start;
       margin: 1.3rem auto;

@@ -24,6 +24,7 @@ import {
   ImgVizzano,
   Servitec,
 } from "../images";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export const companies = [
   {
@@ -362,26 +363,26 @@ export const companies = [
     image: ImgCasaAndina,
     title: "HOTEL CASA ANDINA",
     benefits: [
-      "ALCANCE DEL CONVENIO:\n",
-      "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres); debidamente acreditados.\n",
-      "FORMA DE ACREDITACIÓN:\n",
-      "Presentación del carnet de identificación personal militar o civil CIP\n",
-      "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).\n",
-      "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.\n",
-      "BENEFICIO: \n",
-      "a)\tBrindará a los BENEFICIARIOS, acceso a descuentos sobre la tarifa regular, de hasta 30%, en los alojamientos propios y asociados, ubicados a nivel nacional, vigentes al momento de la reserva, según relación actualizada, de forma trimestral.\n",
-      `b) El acceso a los servicios hoteleros ofrecidos, a través de porcentaje de descuento sobre las tarifas regulares, otorgados EXCLUSIVAMENTE mediante la web https://www.casa-andina.com/es/ofertas/ejercitoperu , canales de atención a través de correo electrónico centraldereservas@casa-andina.com y call center (01) 3916500.`,
-      "c)\tEl código de acceso al descuento es EJERCITOPERU22.\n",
-      "d)\tValidará indispensablemente, al BENEFICIARIO, mediante la presentación física del respectivo Carnet de Identidad Personal del titular (CIP), y familiares directos mediante presentación del Carnet de Identificación Familiar (CIF); al momento de ingreso al hotel.\n",
-      "e)\tEn caso el BENEFICIARIO, no pueda acreditar que es personal de “EL EJÉRCITO”, “CASA ANDINA” informará a dicho huésped, que no es acreedor al descuento por convenio y además se reserva el derecho de cobrar el monto vigente al momento del check – in.\n",
-      "f)\tLas reservas realizadas son de tarifas NO REEMBOLSABLE.\n",
-      "g)\tAl finalizar el pago, cabe mencionar que se aplicará el 10% a la tarifa inicial por el cargo correspondiente a servicios y el 18% de impuestos de ley vigentes; los mismos que podrán variar de acuerdo a las regulaciones gubernamentales.\n",
+      "PREGRADO:\n",
+      "CATEGORIA A\n",
+      "la Escala mínima de pensiones será  por única vez , si se conservara en los periodos académicos, en la medida que el rendimiento académico se a aprobatorio .\n",
+      "POSGRADO:\n",
+      "15% de descuento, sobre los precios de lista, en los diferentes Programas Académicos ofrecidos en la EPG (maestría, doctorado, especializaciones, diplomados y formación continua), en cualquiera de sus modalidades en la Sede La Molina – Campus 2\n",
+      "PROGRAMA ONLINE:\n",
+      "15% de descuento, sobre los precios de lista, en los diferentes Programas Académicos ofrecidos en USIL ONLIFE, en la Sede La Molina – Campus 2\n",
+      "ALCANCE:\n",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuge e hijos).",
     ],
     links: [
       { url: "https://www.casa-andina.com/es/home8" },
       {
         url: "https://www.casa-andina.com/es/ofertas/ejercitoperu",
         text: "https://www.casa-andina.com/es/ofertas/ejercitoperu",
+      },
+      {
+        url: "mailto:centraldereservas@casa-andina.com",
+        text: "centraldereservas@casa-andina.com",
+        icon: faEnvelope,
       },
     ],
   },

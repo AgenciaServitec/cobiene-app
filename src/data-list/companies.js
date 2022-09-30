@@ -377,7 +377,13 @@ export const companies = [
       "f)\tLas reservas realizadas son de tarifas NO REEMBOLSABLE.\n",
       "g)\tAl finalizar el pago, cabe mencionar que se aplicará el 10% a la tarifa inicial por el cargo correspondiente a servicios y el 18% de impuestos de ley vigentes; los mismos que podrán variar de acuerdo a las regulaciones gubernamentales.\n",
     ],
-    links: [{ url: "https://www.casa-andina.com/es/home8" }],
+    links: [
+      { url: "https://www.casa-andina.com/es/home8" },
+      {
+        url: "https://www.casa-andina.com/es/ofertas/ejercitoperu",
+        text: "https://www.casa-andina.com/es/ofertas/ejercitoperu",
+      },
+    ],
   },
   {
     type: "hotel",

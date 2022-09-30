@@ -368,7 +368,7 @@ export const companies = [
       "Presentación del carnet de identificación personal militar o civil CIP\n",
       "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).\n",
       "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.\n",
-      "3)\tBENEFICIO \n",
+      "BENEFICIO: \n",
       "a)\tBrindará a los BENEFICIARIOS, acceso a descuentos sobre la tarifa regular, de hasta 30%, en los alojamientos propios y asociados, ubicados a nivel nacional, vigentes al momento de la reserva, según relación actualizada, de forma trimestral.\n",
       `b) El acceso a los servicios hoteleros ofrecidos, a través de porcentaje de descuento sobre las tarifas regulares, otorgados EXCLUSIVAMENTE mediante la web https://www.casa-andina.com/es/ofertas/ejercitoperu , canales de atención a través de correo electrónico centraldereservas@casa-andina.com y call center (01) 3916500.`,
       "c)\tEl código de acceso al descuento es EJERCITOPERU22.\n",

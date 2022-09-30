@@ -24,7 +24,7 @@ import {
   ImgVizzano,
   Servitec,
 } from "../images";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 export const companies = [
   {
@@ -370,19 +370,22 @@ export const companies = [
       "15% de descuento, sobre los precios de lista, en los diferentes Programas Académicos ofrecidos en la EPG (maestría, doctorado, especializaciones, diplomados y formación continua), en cualquiera de sus modalidades en la Sede La Molina – Campus 2\n",
       "PROGRAMA ONLINE:\n",
       "15% de descuento, sobre los precios de lista, en los diferentes Programas Académicos ofrecidos en USIL ONLIFE, en la Sede La Molina – Campus 2\n",
-      "ALCANCE:\n",
-      "Personal militar en actividad o retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuge e hijos).",
     ],
     links: [
       { url: "https://www.casa-andina.com/es/home8" },
       {
-        url: "https://www.casa-andina.com/es/ofertas/ejercitoperu",
-        text: "https://www.casa-andina.com/es/ofertas/ejercitoperu",
+        url: "https://www.casa-andina.com/es/ofertas",
+        text: "https://www.casa-andina.com/es/ofertas",
       },
       {
         url: "mailto:centraldereservas@casa-andina.com",
         text: "centraldereservas@casa-andina.com",
         icon: faEnvelope,
+      },
+      {
+        url: "tel:013916500",
+        text: "(01) 3916500.",
+        icon: faPhone,
       },
     ],
   },

@@ -16,6 +16,8 @@ export { default as ImgLogoSad } from "./webp/img-logo-sad.webp";
 export { default as ImgLogoJaeUpdate } from "./webp/img-jae-logo.webp";
 export { default as ImgLogoConvention } from "./webp/convention-1.webp";
 export { default as ImgLogoConvention2 } from "./webp/convention-2.webp";
+export { default as LogoFactura } from "./others/logo-factura.webp";
+export { default as LogoPublicidad } from "./others/logo-servitec.webp";
 
 //--------Images Jage------
 export { default as ImgLogoJace } from "./jace/image-logo-jace.webp";

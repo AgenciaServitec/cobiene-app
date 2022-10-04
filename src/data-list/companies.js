@@ -22,9 +22,12 @@ import {
   ImgTinnitus,
   ImgUnilabs,
   ImgVizzano,
+  LogoFactura,
+  LogoPublicidad,
   Servitec,
 } from "../images";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 export const companies = [
   {
@@ -456,14 +459,70 @@ export const companies = [
     type: "technology",
     image: Servitec,
     title: "Servitec - Perú",
-    benefits: [],
-    links: [{ url: "https://servitecperu.com/" }],
+    benefits: ["Con la presentación de su SIC 10% de descuento"],
+    links: [
+      { url: "https://servitecperu.com/" },
+      {
+        url: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+servicio:+https://servitecperu.com/&app_absent=0",
+        icon: faWhatsapp,
+        text: "Contactenos",
+      },
+    ],
+  },
+  {
+    type: "technology",
+    image: LogoPublicidad,
+    title: "Pagina Web",
+    benefits: ["Con la presentación de su SIC 10% de descuento"],
+    links: [
+      { url: "https://servitec.site/08_service_ppc_management.php" },
+      {
+        url: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+servicio:+https://servitec.site/&app_absent=0",
+        icon: faWhatsapp,
+        text: "Contactenos",
+      },
+    ],
+  },
+  {
+    type: "technology",
+    image: LogoFactura,
+    title: "Facturación Electronica",
+    benefits: ["Con la presentación de su SIC 10% de descuento"],
+    links: [
+      { url: "https://factura.servitec.site/" },
+      {
+        url: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+servicio:+https://factura.servitec.site/&app_absent=0",
+        icon: faWhatsapp,
+        text: "Contactenos",
+      },
+    ],
+  },
+  {
+    type: "technology",
+    image: LogoPublicidad,
+    title: "Publicidad Google",
+    benefits: ["Con la presentación de su SIC 10% de descuento"],
+    links: [
+      { url: "https://publicidadgoogle.site/" },
+      {
+        url: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+producto:+https://publicidadgoogle.site/&app_absent=0",
+        icon: faWhatsapp,
+        text: "Contactenos",
+      },
+    ],
   },
   {
     type: "technology",
     image: ImgStoreServitec,
     title: "Tienda Servitec",
-    benefits: [],
-    links: [{ url: "https://tiendaservitec.com/" }],
+    benefits: ["Con la presentación de su SIC 10% de descuento"],
+    links: [
+      { url: "https://tiendaservitec.com/" },
+      {
+        url: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+producto+%2F+servicio&app_absent=0",
+        icon: faWhatsapp,
+        text: "Contactenos",
+      },
+    ],
   },
 ];

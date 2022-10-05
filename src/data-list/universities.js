@@ -14,6 +14,7 @@ import {
   ImgSanMarcos,
   ImgSanMartin,
   ImgSeniorSipan,
+  ImgUniContinental,
   ImgUnife,
   ImgUniversidadDelPacifico,
   ImgUpc,
@@ -365,5 +366,30 @@ export const universities = [
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
     links: [{ url: "http://www.unm.edu.pe/" }],
+  },
+  {
+    image: ImgUniContinental,
+    title: "Universidad Continental",
+    benefits: [
+      "MATRICULA\n",
+      "100 % de beneficio, sobre los costos por concepto de examen de admisión y matrícula, en todas las carreras de pregrado, en sus diferentes modalidades y en todas sus sedes a nivel nacional.\n",
+      "PREGRADO: \n",
+      " 10% de descuento sobre el costo de la pensión, en todas las carreras de pregrado, en sus diferentes modalidades de estudio y en todas sus sedes a nivel nacional.\n",
+      "POSGRADO:\n",
+      "10% de descuento sobre el costo de la pensión, en todos los programas de posgrado (formación continua, maestría), en cualquiera de sus modalidades de estudio y en todas sus sedes a nivel nacional.\n",
+      "ESTUDIOS IN HOUSE\n",
+      "10% de descuento en denominado programa IN HOUSE, que contempla capacitaciones, dirigidas a un grupo de personas que soliciten un tema determinado de estudio.\n",
+      "CENTRO DE IDIOMAS \n",
+      " 17% de descuento sobre el costo de la pensión, en el Centro de Idiomas en las diferentes modalidades y sedes a nivel nacional.\n",
+      "ALCANCE:",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+    ],
+    urlFile:
+      "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
+    links: [
+      {
+        url: "https://ucontinental.edu.pe/",
+      },
+    ],
   },
 ];

@@ -473,7 +473,7 @@ export const companies = [
     type: "technology",
     image: LogoPublicidad,
     title: "Pagina Web",
-    benefits: ["Con la presentación de su SIC 10% de descuento"],
+    benefits: ["Con la presentación de su SIP 10% de descuento"],
     links: [
       { url: "https://servitec.site/08_service_ppc_management.php" },
       {
@@ -487,7 +487,7 @@ export const companies = [
     type: "technology",
     image: LogoFactura,
     title: "Facturación Electronica",
-    benefits: ["Con la presentación de su SIC 10% de descuento"],
+    benefits: ["Con la presentación de su SIP 10% de descuento"],
     links: [
       { url: "https://factura.servitec.site/" },
       {
@@ -501,7 +501,7 @@ export const companies = [
     type: "technology",
     image: LogoPublicidad,
     title: "Publicidad Google",
-    benefits: ["Con la presentación de su SIC 10% de descuento"],
+    benefits: ["Con la presentación de su SIP 10% de descuento"],
     links: [
       { url: "https://publicidadgoogle.site/" },
       {
@@ -515,7 +515,7 @@ export const companies = [
     type: "technology",
     image: ImgStoreServitec,
     title: "Tienda Servitec",
-    benefits: ["Con la presentación de su SIC 10% de descuento"],
+    benefits: ["Con la presentación de su SIP 10% de descuento"],
     links: [
       { url: "https://tiendaservitec.com/" },
       {

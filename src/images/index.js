@@ -292,6 +292,7 @@ export { default as ImgUnife } from "./webp/logo19.webp";
 export { default as ImgUpc } from "./webp/logo21.webp";
 export { default as Norte } from "./webp/norte.webp";
 export { default as ImgConservatorio } from "./others/img-coservatorio.webp";
+export { default as ImgUniContinental } from "./companies/uni-continental.webp";
 
 //-------- Institutes------
 export { default as CentroModas } from "./webp/instituto1.webp";

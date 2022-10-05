@@ -427,11 +427,26 @@ export const companies = [
       "RESERVAS:\n",
       " AL 51(1) 2009200, opción 1 y mediante correo electrónico, dirigido a:",
       "raggiuro@costadelsolperu.com",
-      " corporativo@costadelsolperu.com\n",
+      "corporativo@costadelsolperu.com",
     ],
     links: [
       {
         url: "https://www.costadelsolperu.com/hoteles/hotel-costa-del-sol-wyndham-lima-ciudad/",
+      },
+      {
+        url: "tel:2009200",
+        text: "51(1) 2009200",
+        icon: faPhone,
+      },
+      {
+        url: "mailto:raggiuro@costadelsolperu.com",
+        text: "raggiuro@costadelsolperu.com",
+        icon: faEnvelope,
+      },
+      {
+        url: "mailto:corporativo@costadelsolperu.com",
+        text: "corporativo@costadelsolperu.com",
+        icon: faEnvelope,
       },
       {
         url: "https://drive.google.com/file/d/1uq6ZomiXJkiQlECigzB9DL75uaJ5kmJu/view",

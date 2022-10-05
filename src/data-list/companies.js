@@ -459,7 +459,7 @@ export const companies = [
     type: "technology",
     image: Servitec,
     title: "Servitec - Perú",
-    benefits: ["Con la presentación de su SIC 10% de descuento"],
+    benefits: ["Con la presentación de su SIP 10% de descuento"],
     links: [
       { url: "https://servitecperu.com/" },
       {

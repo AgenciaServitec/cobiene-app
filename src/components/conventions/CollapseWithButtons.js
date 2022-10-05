@@ -137,8 +137,10 @@ const CollapseAntd = styled(Collapse)`
       margin: 1.3rem auto;
       font-size: 1em;
       padding-left: 1em;
-      svg {
-        margin-right: 0.8rem;
+      a {
+        display: grid;
+        grid-template-columns: 13% 1fr;
+        align-items: center;
       }
     }
   }

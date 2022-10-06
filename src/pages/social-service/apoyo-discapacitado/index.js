@@ -1,5 +1,5 @@
 import React from "react";
-import { SocialLink, Text } from "../../../components";
+import { SocialLink, Text } from "../../../components/public";
 import {
   faEnvelope,
   faLocationDot,

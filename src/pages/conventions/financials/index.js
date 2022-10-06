@@ -1,6 +1,6 @@
 import React from "react";
 import styled, { css } from "styled-components";
-import { CollapseWithButtons, SortWords } from "../../../components";
+import { CollapseWithButtons, SortWords } from "../../../components/public";
 import { companies } from "../../../data-list";
 
 export const Financials = () => {

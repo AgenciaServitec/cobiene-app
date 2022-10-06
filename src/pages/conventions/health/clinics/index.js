@@ -1,5 +1,5 @@
 import { companies } from "../../../../data-list";
-import { CollapseWithButtons, SortWords } from "../../../../components";
+import { CollapseWithButtons, SortWords } from "../../../../components/public";
 import styled from "styled-components";
 import React from "react";
 

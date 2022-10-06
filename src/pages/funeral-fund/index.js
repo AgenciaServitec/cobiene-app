@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, IconList, SocialLink, Text } from "../../components";
+import { Button, IconList, SocialLink, Text } from "../../components/public";
 import styled, { css } from "styled-components";
 import { FondoSepelio } from "../../images";
 import {

@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 import React from "react";
 import { companies } from "../../../../data-list";
-import { CollapseWithButtons, SortWords } from "../../../../components";
+import { CollapseWithButtons, SortWords } from "../../../../components/public";
 
 export const CommercialShop = () => {
   const commercials = companies.filter(

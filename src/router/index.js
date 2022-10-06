@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import { BaseLayout } from "../components";
+import { BaseLayout } from "../components/public";
 import {
   AboutAs,
   Banks,

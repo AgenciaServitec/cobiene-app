@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, InitialContent, SocialLink } from "../../../components";
+import { Button, InitialContent, SocialLink } from "../../../components/public";
 import {
   faEnvelope,
   faLocationDot,

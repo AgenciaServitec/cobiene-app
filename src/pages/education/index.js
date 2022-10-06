@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Text, Title } from "../../components";
+import { Button, Text, Title } from "../../components/public";
 import { ImgLogoJaeUpdate } from "../../images";
 import { useNavigate } from "react-router";
 import styled, { css } from "styled-components";

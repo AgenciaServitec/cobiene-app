@@ -5,7 +5,7 @@ import {
   InitialContent,
   NavigateGoToLink,
   SocialLink,
-} from "../../../components";
+} from "../../../components/public";
 import { TechniciansImg } from "../../../images";
 import { campusTechniciansMilitary } from "../../../data-list";
 import Carousel from "antd/lib/carousel";

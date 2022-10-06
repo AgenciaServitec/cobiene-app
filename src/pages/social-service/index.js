@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router";
 import { Service } from "../../images";
-import { Button, InitialContent } from "../../components";
+import { Button, InitialContent } from "../../components/public";
 import styled from "styled-components";
 
 export const ServiceSocial = () => {

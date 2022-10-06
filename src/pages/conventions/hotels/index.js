@@ -1,6 +1,6 @@
 import React from "react";
 import styled, { css } from "styled-components";
-import { CollapseWithButtons } from "../../../components";
+import { CollapseWithButtons } from "../../../components/public";
 import { companies } from "../../../data-list";
 
 export const Hotels = () => {

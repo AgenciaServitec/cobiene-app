@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router";
 import styled, { css } from "styled-components";
-import { Button } from "../../../components";
+import { Button } from "../../../components/public";
 
 export const Companies = () => {
   const navigate = useNavigate();

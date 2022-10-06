@@ -1,6 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-import { ImgCarousel, InitialContent, SocialLink } from "../../../components";
+import {
+  ImgCarousel,
+  InitialContent,
+  SocialLink,
+} from "../../../components/public";
 import { ImgOfficers } from "../../../images";
 import { faGlobe, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook, faGooglePlay } from "@fortawesome/free-brands-svg-icons";

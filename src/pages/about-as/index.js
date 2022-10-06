@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { ImgCuartelCobiene, LogoAgenciaServitec } from "../../images";
-import { Button, Text, Title } from "../../components";
+import { Button, Text, Title } from "../../components/public";
 import styled from "styled-components";
 
 export const AboutAs = () => {

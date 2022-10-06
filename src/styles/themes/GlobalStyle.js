@@ -357,7 +357,7 @@ const scroll = css`
   }
 `;
 
-export const GlobalStyles = createGlobalStyle`
+export const GlobalStyle = createGlobalStyle`
     ${global}
     ${Object.values(antd).map((antdComponent) => antdComponent)}
     ${mediaQuery.minTablet}{    

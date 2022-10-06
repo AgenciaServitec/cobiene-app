@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Button, IframeFb } from "../../components";
+import { Button, IframeFb } from "../../components/public";
 import { useNavigate } from "react-router";
 
 export const Home = () => {

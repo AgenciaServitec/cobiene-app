@@ -1,13 +1,13 @@
 import React, { useEffect } from "react";
-import { BrowserRouter } from "react-router-dom";
 import { Router } from "./router";
-import { ThemeProvider } from "styled-components";
-import { theme } from "./styles";
-import { GlobalStyles } from "./styles/themes/GlobalStyle";
 import { yup } from "./config";
 import { setLocale } from "yup";
-import { FormContactProvider } from "./providers";
-import { FormContact } from "./components";
+import { FormContact } from "./components/public";
+import {
+  AuthenticationProvider,
+  VersionProvider,
+  FormContactProvider,
+} from "./providers";
 
 export const App = () => {
   useEffect(() => {
@@ -15,14 +15,13 @@ export const App = () => {
   }, []);
 
   return (
-    <BrowserRouter>
-      <ThemeProvider theme={theme}>
-        <GlobalStyles />
+    <VersionProvider>
+      <AuthenticationProvider>
         <FormContactProvider>
           <Router />
           <FormContact />
         </FormContactProvider>
-      </ThemeProvider>
-    </BrowserRouter>
+      </AuthenticationProvider>
+    </VersionProvider>
   );
 };

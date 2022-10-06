@@ -1,5 +1,9 @@
 import React from "react";
-import { Button, InitialContent, NavigateGoToLink } from "../../components";
+import {
+  Button,
+  InitialContent,
+  NavigateGoToLink,
+} from "../../components/public";
 import styled from "styled-components";
 import { CobieneLogo } from "../../images";
 import { useNavigate } from "react-router";

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { InitialContent } from "../../../../components";
+import { InitialContent } from "../../../../components/public";
 
 export const SocialEconomicSupport = () => {
   return (

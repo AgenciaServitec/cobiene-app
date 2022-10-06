@@ -1,7 +1,7 @@
 import React from "react";
 import styled, { css } from "styled-components";
 import { companies } from "../../../../data-list";
-import { CollapseWithButtons } from "../../../../components";
+import { CollapseWithButtons } from "../../../../components/public";
 
 export const Gym = () => {
   const gyms = companies.filter((com) => com.type === "gym");

@@ -5,7 +5,7 @@ import {
   NavigateGoToLink,
   SocialLink,
   Text,
-} from "../../../components";
+} from "../../../components/public";
 import styled, { css } from "styled-components";
 import { FondoSepelio } from "../../../images";
 import {

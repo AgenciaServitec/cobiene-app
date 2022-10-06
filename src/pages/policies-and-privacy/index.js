@@ -1,5 +1,5 @@
 import React from "react";
-import { Title } from "../../components";
+import { Title } from "../../components/public";
 import styled from "styled-components";
 
 export const PoliciesAndPrivacy = () => {

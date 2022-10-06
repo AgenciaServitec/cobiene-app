@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Title } from "../../components";
+import { Title } from "../../components/public";
 
 export const News = () => {
   return (

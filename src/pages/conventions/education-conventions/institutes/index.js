@@ -1,4 +1,4 @@
-import { CollapseWithButtons, SortWords } from "../../../../components";
+import { CollapseWithButtons, SortWords } from "../../../../components/public";
 import { institutes } from "../../../../data-list";
 import styled, { css } from "styled-components";
 import React from "react";

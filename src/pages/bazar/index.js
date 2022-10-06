@@ -1,7 +1,7 @@
 import React from "react";
 import { LogoBazar, ImgBazar } from "../../images";
 import styled, { css } from "styled-components";
-import { SocialLink } from "../../components";
+import { SocialLink } from "../../components/public";
 import { faGlobeAmericas, faPlay } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 

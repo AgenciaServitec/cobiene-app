@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Title } from "../../../components";
+import { Button, Title } from "../../../components/public";
 
 import { useNavigate } from "react-router";
 

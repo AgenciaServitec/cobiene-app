@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { ItemCarousel, Title } from "../../../components";
+import { ItemCarousel, Title } from "../../../components/public";
 import Carousel from "antd/lib/carousel";
 import { limaInstitutes } from "../../../data-list";
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { Convenios, ImgLogoConvention, ImgLogoConvention2 } from "../../images";
-import { Button, Text, Title } from "../../components";
+import { Button, Text, Title } from "../../components/public";
 import styled from "styled-components";
 import { useNavigate } from "react-router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

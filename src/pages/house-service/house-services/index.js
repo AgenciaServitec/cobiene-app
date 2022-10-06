@@ -6,7 +6,7 @@ import {
   InitialContent,
   NavigateGoToLink,
   ShowAndHiddenButton,
-} from "../../../components";
+} from "../../../components/public";
 import Carousel from "antd/lib/carousel";
 import { requerimentsJace } from "../../../data-list";
 

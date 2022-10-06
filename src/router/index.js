@@ -7,6 +7,9 @@ import {
   Clinics,
   CommercialShop,
   Companies,
+  ConventionInternational,
+  ConventionLima,
+  ConventionNational,
   Conventions,
   DisabledSupport,
   EconomicalSupport,
@@ -220,6 +223,33 @@ export const Router = () => {
         element={
           <BaseLayout>
             <Institutes />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/convention-lima"
+        element={
+          <BaseLayout>
+            <ConventionLima />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/convention-national"
+        element={
+          <BaseLayout>
+            <ConventionNational />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/convention-international"
+        element={
+          <BaseLayout>
+            <ConventionInternational />
           </BaseLayout>
         }
       />

@@ -44,7 +44,7 @@ export const Conventions = () => {
       >
         ACADEMIAS PRE
       </Button>*/}
-      <Button
+      {/* <Button
         width="100%"
         onClick={() => navigate("/conventions/education-conventions")}
       >
@@ -73,11 +73,28 @@ export const Conventions = () => {
       </Button>
       <Button width="100%" onClick={() => navigate("/conventions/technology")}>
         TECNOLOGÍA
+      </Button>*/}
+
+      <Button
+        width="100%"
+        onClick={() => navigate("/conventions/convention-lima")}
+      >
+        CONVENIO LOCAL - LIMA
+      </Button>
+      <Button
+        width="100%"
+        onClick={() => navigate("/conventions/convention-national")}
+      >
+        CONVENIO NACIONAL - DPTO - PROVINCIA
+      </Button>
+      <Button
+        width="100%"
+        onClick={() => navigate("/conventions/convention-international")}
+      >
+        CONVENIO - INTERNACIONAL
       </Button>
 
-      <div className="list-convenios">
-        {/* old link
-        <a href="https://drive.google.com/file/d/1qg_UAFd9oq_GyB7cGjErzYcSXYlNFWDO/view?usp=sharing">*/}
+      {/*  <div className="list-convenios">
         <a href="https://drive.google.com/file/d/1OoNDcmtydINrLsiyON9hZJVwM75Dm-n6/view?usp=sharing">
           <FontAwesomeIcon icon={faList} size="2x" />
           Lista de Convenios de empresas:
@@ -87,7 +104,7 @@ export const Conventions = () => {
           <FontAwesomeIcon icon={faList} size="2x" />
           Lista de convenios de universidades e institutos:
         </a>
-      </div>
+      </div>*/}
     </Container>
   );
 };

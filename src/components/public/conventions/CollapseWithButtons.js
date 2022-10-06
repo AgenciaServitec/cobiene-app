@@ -6,6 +6,7 @@ import Collapse from "antd/lib/collapse";
 import { Button } from "../ui";
 import Typography from "antd/lib/typography";
 import { ImgDefault } from "../../../images";
+import Parser from "html-react-parser";
 
 const { Panel } = Collapse;
 const { Text } = Typography;
@@ -47,10 +48,11 @@ export const CollapseWithButtons = ({ dataLists = [] }) => {
             <div>
               <ul className="list-benefits">
                 {dataList.benefits.map((benefit, index) => (
-                  <li key={index}>{benefit}</li>
+                  <li key={index}>{Parser(benefit)}</li>
                 ))}
               </ul>
             </div>
+
             {dataList.links &&
               dataList.links.map(
                 (link, index) =>

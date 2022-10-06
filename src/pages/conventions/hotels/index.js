@@ -4,7 +4,7 @@ import { CollapseWithButtons } from "../../../components/public";
 import { companies } from "../../../data-list";
 
 export const Hotels = () => {
-  const hotel = companies.filter((com) => com.type === "hotel");
+  const hotel = companies.filter((company) => company.type === "hotel");
 
   return (
     <Container>

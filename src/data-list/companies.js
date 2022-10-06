@@ -377,9 +377,9 @@ export const companies = [
       "3.1.\tAcceso a descuentos sobre la tarifa regular, de hasta 29%, en los alojamientos propios y asociados, ubicados a nivel nacional, vigentes al momento de la reserva, según relación actualizada, de forma trimestral.",
       "ANEXO 01.\n",
       "3.2. Acceso a los servicios hoteleros ofrecidos, a través de porcentaje de descuento sobre las tarifas regulares, otorgados EXCLUSIVAMENTE mediante la web.",
-      "https://www.casa-andina.com/es/ofertas/ejercitoperu",
+      `<a href="https://www.casa-andina.com/es/ofertas/ejercitoperu" target="_blank">https://www.casa-andina.com/es/ofertas/ejercitoperu</a>`,
       "Canales de atención a través de correo electrónico:",
-      "centraldereservas@casa-andina.com",
+      `<a href="centraldereservas@casa-andina.com" target="_blank">centraldereservas@casa-andina.com</a>`,
       "Y call center",
       " (01) 3916500",
       "Código de acceso al descuento es EJERCITOPERU22.",
@@ -426,8 +426,8 @@ export const companies = [
       "-\t10% de descuento en los servicios de lavandería.\n",
       "RESERVAS:\n",
       " AL 51(1) 2009200, opción 1 y mediante correo electrónico, dirigido a:",
-      "raggiuro@costadelsolperu.com",
-      "corporativo@costadelsolperu.com",
+      `<a href="raggiuro@costadelsolperu.com" target="_blank">raggiuro@costadelsolperu.com</a>`,
+      `<a href="corporativo@costadelsolperu.com" target="_blank">corporativo@costadelsolperu.com</a>`,
     ],
     links: [
       {

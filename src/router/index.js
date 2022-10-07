@@ -9,6 +9,7 @@ import {
   Companies,
   ConventionInternational,
   ConventionLima,
+  ConventionMultiServices,
   ConventionNational,
   Conventions,
   DisabledSupport,
@@ -228,10 +229,10 @@ export const Router = () => {
       />
       <Route
         exact
-        path="/conventions/convention-lima"
+        path="/conventions/convention-multiservices"
         element={
           <BaseLayout>
-            <ConventionLima />
+            <ConventionMultiServices />
           </BaseLayout>
         }
       />

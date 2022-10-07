@@ -74,24 +74,30 @@ export const Conventions = () => {
       <Button width="100%" onClick={() => navigate("/conventions/technology")}>
         TECNOLOGÍA
       </Button>*/}
+      <Button
+        width="100%"
+        onClick={() => navigate("/conventions/education-conventions")}
+      >
+        CONVENIOS - EDUCACIÓN
+      </Button>
 
       <Button
         width="100%"
-        onClick={() => navigate("/conventions/convention-lima")}
+        onClick={() => navigate("/conventions/convention-multiservices")}
       >
-        CONVENIO LOCAL - LIMA
+        CONVENIOS - MULTISERVICIOS
       </Button>
       <Button
         width="100%"
         onClick={() => navigate("/conventions/convention-national")}
       >
-        CONVENIO NACIONAL - DPTO - PROVINCIA
+        CONVENIOS - PROVINCIAS
       </Button>
       <Button
         width="100%"
         onClick={() => navigate("/conventions/convention-international")}
       >
-        CONVENIO - INTERNACIONAL
+        CONVENIOS - INTERNACIONALES
       </Button>
 
       {/*  <div className="list-convenios">

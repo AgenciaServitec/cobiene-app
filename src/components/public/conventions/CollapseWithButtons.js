@@ -43,6 +43,7 @@ export const CollapseWithButtons = ({ dataLists = [] }) => {
           className="site-collapse-custom-panel"
         >
           <div className="content-description">
+            <h3>{dataList.title}</h3>
             <h4>BENEFICIOS:</h4>
 
             <div>
@@ -119,6 +120,10 @@ const CollapseAntd = styled(Collapse)`
     }
   }
   .content-description {
+    h3 {
+      text-align: center;
+      line-height: 2em;
+    }
     div {
       .list-benefits {
         list-style: none;

@@ -16,7 +16,6 @@ import {
   ImgSeniorSipan,
   ImgUniContinental,
   ImgUnife,
-  ImgUniversidadDelPacifico,
   ImgUpc,
   ImgUtp,
   Norte,
@@ -156,20 +155,6 @@ export const universities = [
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
     links: [{ url: "https://www.uwiener.edu.pe" }],
-  },
-  {
-    image: ImgUniversidadDelPacifico,
-    title: "UNIVERSIDAD DEL PACIFICO",
-    benefits: [
-      "CENTRO DE IDIOMAS - CIDUP \n",
-      "20 %  de descuento en el pago de las pensiones de los programas de idiomas \n",
-      "20% de descuento en el pago de las pensiones de los programas de idiomas para niños o adolescentes\n",
-      "ALCANCE:",
-      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos)\n",
-    ],
-    urlFile:
-      "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
-    links: [{ url: "https://www.up.edu.pe/" }],
   },
   {
     image: ImgRicardoPalma,
@@ -382,7 +367,7 @@ export const universities = [
       "CENTRO DE IDIOMAS \n",
       " 17% de descuento sobre el costo de la pensión, en el Centro de Idiomas en las diferentes modalidades y sedes a nivel nacional.\n",
       "ALCANCE:",
-      "Personal militar en actividad o retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuge e hijos)",
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",

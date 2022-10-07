@@ -1,8 +1,7 @@
 import React, { createContext, useContext } from "react";
 import { useDocumentData } from "react-firebase-hooks/firestore";
 import { firestore, version } from "../firebase";
-import { Button, Result } from "../components/public/ui";
-/*import Result from "antd/lib/result";*/
+import { Button, Result } from "../components/public";
 import styled from "styled-components";
 import { spinLoaderFixed } from "../utils/loader";
 

@@ -282,7 +282,7 @@ export const companies = [
   {
     type: "clinic",
     image: ImgApelac,
-    title: "Apelac",
+    title: "Apeplac",
     benefits: [
       "ALCANCE DEL CONVENIO:\n",
       "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.\n",
@@ -374,7 +374,7 @@ export const companies = [
       "2.3.\tPara el caso de familiares directos, que no posean el Carnet de Identidad \tFamiliar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.\n",
 
       "3.\tBENEFICIO \n",
-      "3.1.\tAcceso a descuentos sobre la tarifa regular, de hasta 29%, en los alojamientos propios y asociados, ubicados a nivel nacional, vigentes al momento de la reserva, según relación actualizada, de forma trimestral.",
+      "3.1.\tAcceso a descuentos sobre la tarifa regular, precios diferenciales, en los alojamientos propios y asociados, ubicados a nivel nacional, vigentes al momento de la reserva, según relación actualizada, de forma trimestral.",
       "ANEXO 01.\n",
       "3.2. Acceso a los servicios hoteleros ofrecidos, a través de porcentaje de descuento sobre las tarifas regulares, otorgados EXCLUSIVAMENTE mediante la web.",
       `<a href="https://www.casa-andina.com/es/ofertas/ejercitoperu" target="_blank">https://www.casa-andina.com/es/ofertas/ejercitoperu</a>`,

@@ -17,6 +17,7 @@ export * from "./conventions/health/laboratories";
 export * from "./conventions/transportations";
 export * from "./conventions/hotels";
 export * from "./conventions/technology";
+export * from "./conventions/technology/servitec-page";
 export * from "./conventions/education-conventions";
 export * from "./conventions/education-conventions/universities";
 export * from "./conventions/education-conventions/institutes";

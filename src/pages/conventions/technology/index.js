@@ -1,17 +1,28 @@
 import React from "react";
 import styled, { css } from "styled-components";
-import { CollapseWithButtons } from "../../../components/public";
-import { companies } from "../../../data-list";
+import { Button } from "../../../components/public";
+import { useNavigate } from "react-router";
 
 export const Technology = () => {
-  const technology = companies.filter((com) => com.type === "technology");
-
+  const navigate = useNavigate();
   return (
     <Container>
       <div className="content-logo">
         <h2>Tecnología</h2>
       </div>
-      <CollapseWithButtons dataLists={technology} />
+
+      <Button
+        width="100%"
+        onClick={() => navigate("/conventions/technology/servitec-page")}
+      >
+        SERVITEC
+      </Button>
+      <Button
+        width="100%"
+        onClick={() => navigate("/conventions/convention-international")}
+      >
+        SAMSUNG
+      </Button>
     </Container>
   );
 };

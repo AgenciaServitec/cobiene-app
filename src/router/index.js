@@ -37,6 +37,7 @@ import {
   ProvinceInstitutes,
   ReligiousService,
   ServiceSocial,
+  ServitecPage,
   SocialEconomicSupport,
   TechniciansCircle,
   Technology,
@@ -197,6 +198,15 @@ export const Router = () => {
         element={
           <BaseLayout>
             <Technology />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/technology/servitec-page"
+        element={
+          <BaseLayout>
+            <ServitecPage />
           </BaseLayout>
         }
       />

@@ -32,6 +32,7 @@ export const universities = [
       "Escala mínima de pensiones en diferentes carreras y programa de estudios profesionales para ejecutivos (EPE). \n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
@@ -58,6 +59,7 @@ export const universities = [
       "30% descuento en el pago de las pensiones de los cursos \n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
@@ -77,6 +79,7 @@ export const universities = [
       "5% descuento por pago anticipado a estudiantes regulares \n",
       "ALCANCE:",
       "Personal militar en situación de actividad y retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge , hijos, padres y hermanos en caso de ser trabajadores solteros)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
@@ -92,6 +95,7 @@ export const universities = [
       "10 % de descuento en el pago de las pensiones  \n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, así como sus familiares directos (cónyuge e hijos)\n",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
@@ -105,6 +109,7 @@ export const universities = [
       "25 % de descuento en matrícula y pensiones en los diferentes  maestrías y doctorados",
       "ALCANCE:",
       "Personal militar en actividad",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
@@ -120,6 +125,7 @@ export const universities = [
       "20 % de descuento sobre el costo de la pensión en enseñanza de posgrado, diplomados y curso de proyección social.\n",
       "ALCANCE:",
       "personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos)\n",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
@@ -135,6 +141,7 @@ export const universities = [
       "10% de descuento en el pago de las pensiones en maestría y doctorado. ",
       "ALCANCE:",
       "Personal militar en actividad o retiro, Personal civil en actividad y cesante así como a familiares directos (cónyuge, hijos y hermanos)\n",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
@@ -153,6 +160,7 @@ export const universities = [
       "15% de descuento en las carreras de administración y negocios internacionales, contabilidad y auditoria, derecho y ciencia política, ingeniería industrial y gestión empresarial, ingeniería de sistemas e informática.\n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos)\n",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
@@ -174,6 +182,7 @@ export const universities = [
       "Maestría, doctorado, segunda especialización, descuento en el pago de las pensiones de 4 cuotas pagan 3",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad, así como sus familiares directos (cónyuge e hijos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
@@ -191,6 +200,7 @@ export const universities = [
       "15% de descuento, sobre los precios de lista, en los diferentes Programas Académicos ofrecidos en USIL ONLIFE, en la Sede La Molina – Campus 2\n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuge e hijos).",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
@@ -213,6 +223,7 @@ export const universities = [
       "50% de descuento en el pago de las pensiones en todos los cursos",
       "ALCANCE:",
       "Personal militar en actividad o retiro, Personal civil en actividad o cesante así como a familiares directos (cónyuge, hijos y hermanos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
@@ -233,6 +244,7 @@ export const universities = [
       "25% de descuentos en diplomados \n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuge e hijos).\n",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
@@ -246,6 +258,7 @@ export const universities = [
       "20 % de descuento en el costo total de diplomados, maestrías y doctorados\n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuge e hijos).\n",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
@@ -261,6 +274,7 @@ export const universities = [
       "20 % de descuento en las pensiones\n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos)\n",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
@@ -274,6 +288,7 @@ export const universities = [
       "25 % de descuento en todas las carreras, en todas las sedes a nivel nacional. \n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos)\n",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
@@ -289,6 +304,7 @@ export const universities = [
       "Hasta el 20 % de descuento del costo total de los programas de posgrado (maestrías y diplomados) a excepción del programa de doble grado.  \n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge e hijos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
@@ -316,6 +332,7 @@ export const universities = [
       "Personal de Tcos y SSOO escala N° 30 en el pago de las pensiones \n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad, así como sus familiares directos (cónyuge e hijos)\n",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
@@ -331,6 +348,7 @@ export const universities = [
       "15 % de descuento en el pago de las pensiones \n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
@@ -349,6 +367,7 @@ export const universities = [
       "Cursos virtuales, descuento del 20% en el pago de las pensiones  \n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
@@ -370,6 +389,7 @@ export const universities = [
       " 17% de descuento sobre el costo de la pensión, en el Centro de Idiomas en las diferentes modalidades y sedes a nivel nacional.\n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuge e hijos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
@@ -388,6 +408,7 @@ export const universities = [
       "20% de descuento en el pago de las pensiones de los programas de idiomas para niños o adolescentes\n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos)\n",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
@@ -405,6 +426,7 @@ export const universities = [
       "50% DE DESCUENTO EN EL PROCESO DE ADMISIÓN, PARA ESTUDIANTES INTERESADOS EN FORMACIÓN DE PREGRADO\n",
       "ALCANCE:",
       "PARA ESTUDIANTES DE EDUCACION BÁSICA REGULAR (NIVEL SECUNDARIA) DE LAS INSTITUCIONES EDUCATIVAS DEL EJÉRCITO.\n",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",

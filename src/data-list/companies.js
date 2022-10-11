@@ -213,7 +213,14 @@ export const companies = [
       "d)\tDescuento del 10% en todas marcas diferentes.\n",
       "e)\tTiendas ubicadas en todos los centros comerciales \n",
     ],
-    links: [{ url: "https://www.footloose.pe" }],
+    links: [
+      { url: "https://www.footloose.pe" },
+      {
+        url: "https://drive.google.com/file/d/1RAtb1BTaEEwVh9xCId0Xm7QBtZaymmr4/view?usp=sharing",
+        icon: faLink,
+        text: "Detalles del convenio",
+      },
+    ],
   },
   {
     type: "clinic",
@@ -339,7 +346,14 @@ export const companies = [
       "•\tAcceso de manera ilimitada a la plataforma Virtual SMART FIT GO.\n",
       "•\tLibre de elección de fechas de entrenamiento, mínimo un mes.\n",
     ],
-    links: [{ url: "https://www.smartfit.com.pe" }],
+    links: [
+      { url: "https://www.smartfit.com.pe" },
+      {
+        url: "https://drive.google.com/file/d/1doEYxPYrX21ttcHH79tNk35SRY0dGddw/view?usp=sharing",
+        icon: faLink,
+        text: "Detalles del convenio",
+      },
+    ],
   },
   {
     type: "clinic",

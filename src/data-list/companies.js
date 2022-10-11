@@ -375,7 +375,6 @@ export const companies = [
 
       "3.\tBENEFICIO \n",
       "3.1.\tAcceso a descuentos sobre la tarifa regular, precios diferenciales, en los alojamientos propios y asociados, ubicados a nivel nacional, vigentes al momento de la reserva, según relación actualizada, de forma trimestral.",
-      "ANEXO 01.\n",
       "3.2. Acceso a los servicios hoteleros ofrecidos, a través de porcentaje de descuento sobre las tarifas regulares, otorgados EXCLUSIVAMENTE mediante la web.",
       `<a href="https://www.casa-andina.com/es/ofertas/ejercitoperu" target="_blank">https://www.casa-andina.com/es/ofertas/ejercitoperu</a>`,
       "Canales de atención a través de correo electrónico:",

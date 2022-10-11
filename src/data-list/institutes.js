@@ -48,6 +48,7 @@ export const institutes = [
       " 30% descuento en el pago de pensiones\n",
       "ALCANCE:",
       "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS. PERSONAL  CIVIL Y FAMILIARES DIRECTOS",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -62,6 +63,7 @@ export const institutes = [
       "10% de descuento en las pensiones mensuales en el programa in house (seminarios, fórum, talleres)\n",
       "ALCANCE:",
       "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS. PERSONAL  CIVIL Y FAMILIARES DIRECTOS",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -82,6 +84,7 @@ export const institutes = [
       "25% descuento  en el pago de los costos de programas académicos",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -96,6 +99,7 @@ export const institutes = [
       "20% descuento en el pago de pensiones en las distintas sedes:",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -110,6 +114,7 @@ export const institutes = [
       "30% descuento  en el pago de pensiones.\n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -125,6 +130,7 @@ export const institutes = [
       "25% descuento  en el pago de pensiones\n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -142,6 +148,7 @@ export const institutes = [
       "exoneración en derecho de inscripción y matrícula \n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -156,6 +163,7 @@ export const institutes = [
       "20% descuento  en el pago de las pensiones\n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -170,6 +178,7 @@ export const institutes = [
       "20% descuento  en el pago de pensiones\n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -183,6 +192,7 @@ export const institutes = [
       "Costo diferenciado, en inscripción anual y cuota mensual\n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -196,6 +206,7 @@ export const institutes = [
       "50% descuento  en el pago de pensiones\n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -213,6 +224,7 @@ export const institutes = [
       "10% descuento  en el pago de pensiones de los programas de Inglés Virtual, de manera general\n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -235,6 +247,7 @@ export const institutes = [
       "20% descuento en el pago de pensiones\n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -269,6 +282,7 @@ export const institutes = [
       "50% descuento en el costo de los diferentes programas académicos (cursos de especialización, diplomados, seminarios, talleres)\n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -282,6 +296,7 @@ export const institutes = [
       "Costo diferenciado por convenio, en el pago de las cuotas mensuales\n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -295,6 +310,7 @@ export const institutes = [
       "15%  descuento sobre la base de las tarifas publicadas en su portal\n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -308,6 +324,7 @@ export const institutes = [
       "12.5% descuento sobre la base de las tarifas en los programas académicos de enseñanza del idioma (básico, intermedio o avanzado)\n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -322,6 +339,7 @@ export const institutes = [
       "59% de descuento en pensiones para el personal de tropa en programas de (Ofimática, Ingles, excel en la modalidad On Line)\n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -335,6 +353,7 @@ export const institutes = [
       "30% de descuento en las pensiones para estudios\n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -348,6 +367,7 @@ export const institutes = [
       "20% de descuento en los diferentes programas\n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -361,6 +381,7 @@ export const institutes = [
       "30% descuento en el pago de  matrícula y pensiones mensuales\n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -374,6 +395,7 @@ export const institutes = [
       "Costo diferenciado por convenio, en el pago de las cuotas mensuales\n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -389,6 +411,7 @@ export const institutes = [
       "35% descuento  en el costo tal del programa de capacitación de computación\n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -402,6 +425,7 @@ export const institutes = [
       "15% descuento en el pago de pensiones de las tarifas publicadas.\n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -419,6 +443,7 @@ export const institutes = [
       "50% descuento en el pago de pensiones\n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -432,6 +457,7 @@ export const institutes = [
       "20% descuento en el pago de pensiones\n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -445,6 +471,7 @@ export const institutes = [
       "15% descuento en el pago de las pensiones\n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -464,6 +491,7 @@ export const institutes = [
       " - 15% de descuento sobre programas virtuales de verano de máximo de 24 horas,  a los estudiantes entre 7 y 17 años\n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
+      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",

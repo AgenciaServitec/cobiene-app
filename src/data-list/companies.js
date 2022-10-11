@@ -372,16 +372,16 @@ export const companies = [
     ],
     links: [{}],
   },
-  {
-    type: "commercial-shop",
-    image: ImgSugo,
-    title: "Sugo",
-    benefits: [
-      "COMPRAS EN LINEA EN SUS PLATAFORMAS DE CONSUMO SOSTENIBLE HASTA EL 50% DE DESCUENTO DEL PRECIO DEL MERCADO",
-      "ALCANCE:",
-      "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS PERSONAL CIVIL (CÓNYUGUES, HIJOS, PADRES )",
-    ],
-  },
+  // {
+  //   type: "commercial-shop",
+  //   image: ImgSugo,
+  //   title: "Sugo",
+  //   benefits: [
+  //     "COMPRAS EN LINEA EN SUS PLATAFORMAS DE CONSUMO SOSTENIBLE HASTA EL 50% DE DESCUENTO DEL PRECIO DEL MERCADO",
+  //     "ALCANCE:",
+  //     "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS PERSONAL CIVIL (CÓNYUGUES, HIJOS, PADRES )",
+  //   ],
+  // },
   {
     type: "clinic",
     image: ImgClinicAuna,

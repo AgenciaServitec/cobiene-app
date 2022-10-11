@@ -10,7 +10,7 @@ export const Clinics = () => {
   return (
     <Container>
       <div className="content-logo">
-        <h2>Clínicas</h2>
+        <h2>Entidades médicas</h2>
       </div>
       <CollapseWithButtons dataLists={clinic} />
     </Container>

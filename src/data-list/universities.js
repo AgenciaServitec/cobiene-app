@@ -14,8 +14,10 @@ import {
   ImgSanMarcos,
   ImgSanMartin,
   ImgSeniorSipan,
+  ImgUniAnahuaca,
   ImgUniContinental,
   ImgUnife,
+  ImgUniversidadDelPacifico,
   ImgUpc,
   ImgUtp,
   Norte,
@@ -376,5 +378,36 @@ export const universities = [
         url: "https://ucontinental.edu.pe/",
       },
     ],
+  },
+  {
+    image: ImgUniversidadDelPacifico,
+    title: "UP. CENTRO DE IDIOMAS",
+    benefits: [
+      "CENTRO DE IDIOMAS - CIDUP \n",
+      "20 %  de descuento en el pago de las pensiones de los programas de idiomas \n",
+      "20% de descuento en el pago de las pensiones de los programas de idiomas para niños o adolescentes\n",
+      "ALCANCE:",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos)\n",
+    ],
+    urlFile:
+      "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
+    links: [{ url: "https://www.up.edu.pe/" }],
+  },
+  {
+    image: ImgUniAnahuaca,
+    title: "UNIVERSIDAD ANÁHUAC",
+    benefits: [
+      "70% DE BECA AL MEJOR ESTUDIANTE:\n",
+      "OTORGAR EL BENEFICIO AL ESTUDIANTE DE EDUCACIÓN BASICA REGULAR (NIVEL SECUNDARIA)  QUE LOGRE CULMINAR EN SUS TRES AÑOS DE EDUCACIÓN SECUNDARIA, EN EL PRIMER PUESTO.\n",
+      "50% DE BECA A LOS 02 MEJORES ESTUDIANTES:\n",
+      "SI SE DETERMINA EN EL PROCESO DE EVALUACIÓN SON 02 LOS BENEFICIARIOS, SE OTORGARÁ EL BENEFICIO A LOS 02 ESTUDIANTES CON EL PORCENTAJE ESTABLECIDO Y QUE HALLAN LOGRADO CULMINAR EN SUS TRES AÑOS DE EDUCACIÓN SECUNDARIA CON EL PROMEDIO REQUERIDO.\n",
+      "100% DE DESCUENTO POR DERECHO EN EL PROCESO DE ADMISIÓN A LOS ALUMNOS QUE OBTUVIERON LA BECA AL MEJOR ESTUDIANTE.\n",
+      "50% DE DESCUENTO EN EL PROCESO DE ADMISIÓN, PARA ESTUDIANTES INTERESADOS EN FORMACIÓN DE PREGRADO\n",
+      "ALCANCE:",
+      "PARA ESTUDIANTES DE EDUCACION BÁSICA REGULAR (NIVEL SECUNDARIA) DE LAS INSTITUCIONES EDUCATIVAS DEL EJÉRCITO.\n",
+    ],
+    urlFile:
+      "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
+    links: [{ url: "https://www.anahuac.mx/" }],
   },
 ];

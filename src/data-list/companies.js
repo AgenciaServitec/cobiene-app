@@ -26,7 +26,13 @@ import {
   LogoPublicidad,
   Servitec,
 } from "../images";
-import { faEnvelope, faFile, faPhone } from "@fortawesome/free-solid-svg-icons";
+import {
+  faEnvelope,
+  faFile,
+  faPhone,
+  faLink,
+  faBuilding,
+} from "@fortawesome/free-solid-svg-icons";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 export const companies = [
@@ -46,7 +52,14 @@ export const companies = [
       "b)\tDescuento entre el 5% y 10% sobre los costos de las tarifas regulares en, EXÁMENES DE LABORATORIO Y PROCEDIMIENTOS CLÍNICOS, realizados en la sede de Jesús María. Anexo 01\n",
       "c)\tDescuento del 5% de sobre los costos de las tarifas regulares en sedes de LOS OLIVOS Y SAN JUAN DE LURIGANCHO, EN CONSULTAS, EXÁMENES DE LABORATORIO Y PROCEDIMIENTOS CLÍNICOS, en las diferentes especialidades sede.  Anexo 01\n",
     ],
-    links: [{ url: "https://inppares.org/" }],
+    links: [
+      {
+        url: "https://drive.google.com/file/d/12sqPYvBLOgP1_XeonoiGnCNeHMIJyEyY/view?usp=sharing",
+        icon: faLink,
+        text: "Detalles",
+      },
+      { url: "https://inppares.org/" },
+    ],
   },
 
   {
@@ -71,7 +84,15 @@ export const companies = [
       "Otorgará el valor de $2000 dos mil dólares americanos de descuento sobre el costo tarifa regular del dispositivo medico a largo plazo, IMPLANTE COCLEAR, en lo correspondiente a la colocación quirúrgica (clínica, operación, anestesiólogo, equipo, post operatorio, cincuenta terapías de lenguaje y otros).\n",
       "Los beneficios antes indicados serán en todas las sedes de MEDIFON, según Anexo 01.\n",
     ],
-    links: [{ url: "https://medifonperu.pe/" }],
+    links: [
+      {
+        url: "https://drive.google.com/file/d/1TuvuRj3_e4N2eM1IhgMb7rowjYQxEg9x/view?usp=sharing",
+        icon: faLink,
+        text: "Detalles",
+      },
+      ,
+      { url: "https://medifonperu.pe/" },
+    ],
   },
 
   {
@@ -103,7 +124,19 @@ export const companies = [
       "\n",
       "Correo electrónico adn@biolinksperù.com – www.biolinksperu.com.\n",
     ],
-    links: [{ url: "https://biolinksperu.com" }],
+    links: [
+      {
+        url: "https://drive.google.com/file/d/1032hsI94wA332DYLBX_bDUvmNupGaG8r/view?usp=sharing",
+        icon: faBuilding,
+        text: "Sedes",
+      },
+      {
+        url: "https://drive.google.com/file/d/19cC4wjIEd7SI5ISCS87xyomg0nOaMxzY/view?usp=sharing",
+        icon: faLink,
+        text: "Detalles",
+      },
+      { url: "https://biolinksperu.com" },
+    ],
   },
 
   {
@@ -125,7 +158,14 @@ export const companies = [
       "•\tForma PRESENCIAL\n",
       "•\tVía CALL CENTER, debiendo acreditarse el día de la cita con el CIP, CIF y/o DNI, según sea el caso, y la presentación de las ordenes médicas emitidas por el HMC o centros de salud privados.\n",
     ],
-    links: [{ url: "https://unilabs.pe" }],
+    links: [
+      {
+        url: "https://drive.google.com/file/d/144YibViWp6vReO7y61RCcVrv9PL8AkK3/view?usp=sharing",
+        icon: faLink,
+        text: "Detalles",
+      },
+      { url: "https://unilabs.pe" },
+    ],
   },
   {
     type: "transport",
@@ -146,7 +186,14 @@ export const companies = [
       "d)\tAcceso al 10% de descuento sobre la tarifa \tregular, en el servicio de envió a través de Servicio expreso y Servicio consolidado, en todos sus destinos.\n",
       "e)\tCostos diferenciados, de transporte del tipo CORPORATIVO o transporte TURÍSTICO, previa evaluación de OLTURSA.\n",
     ],
-    links: [{ url: "https://www.oltursa.pe" }],
+    links: [
+      {
+        url: "https://drive.google.com/file/d/1oSV8pJdnILl9eVi85lKyQ2dhwk6sSx3G/view?usp=sharing",
+        icon: faLink,
+        text: "Detalles",
+      },
+      { url: "https://www.oltursa.pe" },
+    ],
   },
   {
     type: "commercial-shop",
@@ -201,7 +248,14 @@ export const companies = [
       "c)\tDescuento del 10% en todos los productos tiendas propias según relación anexo\n",
       "d)\tDescuento del 5% en todos los productos, toda la cadena de tiendas a nivel nacional (centros comerciales), anexo\n",
     ],
-    links: [{ url: "https://www.renzocosta.com" }],
+    links: [
+      {
+        url: "https://drive.google.com/file/d/1MIAudy4sU8wGOjzaqcvbtvG2CMTKod0n/view?usp=sharing",
+        icon: faLink,
+        text: "Detalles",
+      },
+      { url: "https://www.renzocosta.com" },
+    ],
   },
   {
     image: ImgLazzosComerciales,
@@ -231,7 +285,14 @@ export const companies = [
       "CONSULTA GRATUITA \n",
       "Profilaxis y destartraje de cortesía.\n",
     ],
-    links: [{ url: "https://www.multident.pe" }],
+    links: [
+      {
+        url: "https://drive.google.com/file/d/1ESEdYrS0JqrWB2c-RDd_YbWBOJlGIRQG/view?usp=sharing",
+        icon: faLink,
+        text: "Detalles",
+      },
+      { url: "https://www.multident.pe" },
+    ],
   },
   {
     type: "transport",
@@ -479,7 +540,13 @@ export const companies = [
       "c)\tDescuento del 20% en marcas propias \n",
       "d)\tDescuento del 20% en todas marcas diferentes.\n",
     ],
-    links: [{}],
+    links: [
+      {
+        url: "https://drive.google.com/file/d/1T_a8CfUiAOElAIivhkejrIpFXFuWUwSL/view?usp=sharing",
+        icon: faLink,
+        text: "Detalles",
+      },
+    ],
   },
   {
     type: "technology",

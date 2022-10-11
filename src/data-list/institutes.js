@@ -16,7 +16,6 @@ import {
   ICPNA,
   ImgAlianzaFrancesa,
   ImgAndreVesalio,
-  ImgCentroIdiomaPacifico,
   ImgCibertec,
   ImgEcaprev,
   ImgIcim,
@@ -469,19 +468,5 @@ export const institutes = [
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
     links: [{ url: "https://www.cibertec.edu.pe/" }],
-  },
-  {
-    image: ImgCentroIdiomaPacifico,
-    title: "CENTRO DE IDIOMAS UNIV. DEL PACIFICO",
-    benefits: [
-      "CENTRO DE IDIOMAS - CIDUP \n",
-      "20 %  de descuento en el pago de las pensiones de los programas de idiomas \n",
-      "20% de descuento en el pago de las pensiones de los programas de idiomas para niños o adolescentes\n",
-      "ALCANCE:",
-      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos)\n",
-    ],
-    urlFile:
-      "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
-    links: [{ url: "https://www.up.edu.pe/" }],
   },
 ];

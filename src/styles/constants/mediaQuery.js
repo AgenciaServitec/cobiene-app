@@ -2,6 +2,7 @@ import { breakPoints } from "./breakPoints";
 
 export const mediaQuery = {
   minMobileS: `@media (min-width: ${breakPoints.mobile_s}px)`,
+  minMobileM: `@media (min-width: ${breakPoints.mobile_m}px)`,
   minMobile: `@media (min-width: ${breakPoints.mobile}px)`,
   minTablet: `@media (min-width: ${breakPoints.tablet}px)`,
   minDesktop: `@media (min-width: ${breakPoints.desktop}px)`,

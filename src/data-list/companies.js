@@ -57,7 +57,7 @@ export const companies = [
       {
         url: "https://drive.google.com/file/d/12sqPYvBLOgP1_XeonoiGnCNeHMIJyEyY/view?usp=sharing",
         icon: faLink,
-        text: "Detalles",
+        text: "Detalles del convenio",
       },
       { url: "https://inppares.org/" },
     ],
@@ -89,7 +89,7 @@ export const companies = [
       {
         url: "https://drive.google.com/file/d/1TuvuRj3_e4N2eM1IhgMb7rowjYQxEg9x/view?usp=sharing",
         icon: faLink,
-        text: "Detalles",
+        text: "Detalles del convenio",
       },
       ,
       { url: "https://medifonperu.pe/" },
@@ -134,7 +134,7 @@ export const companies = [
       {
         url: "https://drive.google.com/file/d/19cC4wjIEd7SI5ISCS87xyomg0nOaMxzY/view?usp=sharing",
         icon: faLink,
-        text: "Detalles",
+        text: "Detalles del convenio",
       },
       { url: "https://biolinksperu.com" },
     ],
@@ -163,7 +163,7 @@ export const companies = [
       {
         url: "https://drive.google.com/file/d/144YibViWp6vReO7y61RCcVrv9PL8AkK3/view?usp=sharing",
         icon: faLink,
-        text: "Detalles",
+        text: "Detalles del convenio",
       },
       { url: "https://unilabs.pe" },
     ],
@@ -191,7 +191,7 @@ export const companies = [
       {
         url: "https://drive.google.com/file/d/1oSV8pJdnILl9eVi85lKyQ2dhwk6sSx3G/view?usp=sharing",
         icon: faLink,
-        text: "Detalles",
+        text: "Detalles del convenio",
       },
       { url: "https://www.oltursa.pe" },
     ],
@@ -209,8 +209,8 @@ export const companies = [
       "BENEFICIO \n",
       "a)\tExclusivo para compras presenciales.\n",
       "b)\tNo aplica compras por web, app, o Facebook\n",
-      "c)\tDescuento del 15% en marcas propias según relación anexo \n",
-      "d)\tDescuento del 10% en todas marcas diferentes.\n",
+      "c)\tDescuento del 20% en marcas propias según relación anexo \n",
+      "d)\tDescuento del 15% en todas marcas diferentes.\n",
       "e)\tTiendas ubicadas en todos los centros comerciales \n",
     ],
     links: [
@@ -260,7 +260,7 @@ export const companies = [
       {
         url: "https://drive.google.com/file/d/1MIAudy4sU8wGOjzaqcvbtvG2CMTKod0n/view?usp=sharing",
         icon: faLink,
-        text: "Detalles",
+        text: "Detalles del convenio",
       },
       { url: "https://www.renzocosta.com" },
     ],
@@ -290,14 +290,14 @@ export const companies = [
       "Acceso a los distintos servicios odontológicos ofrecidos, a través de costos diferenciados, mediante porcentaje de descuento sobre las tarifas regulares, de acuerdo a lo establecido.\n",
       "Implementará a través la programación a través del call center, y de forma presencial en todas sedes a nivel nacional, y en todos sus horarios.\n",
       "Servicios de emergencias dentales, las 24 horas del día, los 7 días de la semana en la sede de la Av. César Vallejo N° 1560 - Lince y en todas las sedes a nivel nacional en horario de atención.\n",
-      "CONSULTA GRATUITA \n",
+      // "CONSULTA GRATUITA \n",
       "Examen odontológico de cortesía.\n",
     ],
     links: [
       {
         url: "https://drive.google.com/file/d/1ESEdYrS0JqrWB2c-RDd_YbWBOJlGIRQG/view?usp=sharing",
         icon: faLink,
-        text: "Detalles",
+        text: "Detalles del convenio",
       },
       { url: "https://www.multident.pe" },
     ],
@@ -322,7 +322,14 @@ export const companies = [
       "e)\tAcceso al 15% de descuento sobre la tarifa regular, en el servicio de envió a través de MOVIL CARGA y MOVIL COURIER que inicien en Lima, hacia cualquiera de los destinos ofrecidos.\n",
       "f)\tCostos diferenciados, de transporte del tipo CORPORATIVO o transporte TURÍSTICO, previa evaluación de MOVILBUS.\n",
     ],
-    links: [{ url: "https://www.movilbus.pe/" }],
+    links: [
+      { url: "https://www.movilbus.pe/" },
+      {
+        url: "https://drive.google.com/file/d/13qwGSu6d6IFbM4Yx8SZBvhIGkbl3mKCQ/view?usp=sharing",
+        icon: faLink,
+        text: "Detalles del convenio",
+      },
+    ],
   },
   {
     type: "gym",
@@ -372,7 +379,13 @@ export const companies = [
       `Sede Surco Mariscal Castilla 1170 - Teléfonos <a href="tel:4356989" target="_blank" >4356989</a>  y <a href="tel:990436788" target="_blank" >990436788</a>.`,
       'Sede Rímac Calle Fray Ramón Rojas 191 – Teléfono: <a href="tel:990436788" target="_blank" >990436788</a>. ',
     ],
-    links: [{}],
+    links: [
+      {
+        url: "https://drive.google.com/file/d/1lctGxgax5YZDgsAV_H-Dr-xeQQbXgiyd/view?usp=sharing",
+        icon: faLink,
+        text: "Detalles del convenio",
+      },
+    ],
   },
   {
     type: "commercial-shop",
@@ -558,7 +571,7 @@ export const companies = [
       {
         url: "https://drive.google.com/file/d/1T_a8CfUiAOElAIivhkejrIpFXFuWUwSL/view?usp=sharing",
         icon: faLink,
-        text: "Detalles",
+        text: "Detalles del convenio",
       },
     ],
   },

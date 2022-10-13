@@ -387,18 +387,18 @@ export const companies = [
       },
     ],
   },
-  {
-    type: "commercial-shop",
-    image: ImgLogistas,
-    title: "Logistas",
-    benefits: [
-      "•\tSERVICIOS DE MANTENIMIENTO VEHICULAR CORRECTIVOS\n",
-      "COSTOS DIFERENCIADOS DE LA TARIFA REGULAR, SEGÚN TARIFARIO",
-      "BENEFICIARIOS:",
-      "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES  Y FAMILIARES DIRECTOS",
-    ],
-    links: [{}],
-  },
+  // {
+  //   type: "commercial-shop",
+  //   image: ImgLogistas,
+  //   title: "Logistas",
+  //   benefits: [
+  //     "•\tSERVICIOS DE MANTENIMIENTO VEHICULAR CORRECTIVOS\n",
+  //     "COSTOS DIFERENCIADOS DE LA TARIFA REGULAR, SEGÚN TARIFARIO",
+  //     "BENEFICIARIOS:",
+  //     "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES  Y FAMILIARES DIRECTOS",
+  //   ],
+  //   links: [{}],
+  // },
   // {
   //   type: "commercial-shop",
   //   image: ImgSugo,

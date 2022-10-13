@@ -9,3 +9,4 @@ export * from "./banks";
 export * from "./requerimentsJace";
 export * from "./campusCircleMilitary";
 export * from "./campusTechniciansMilitary";
+export * from "./conventionInternational";

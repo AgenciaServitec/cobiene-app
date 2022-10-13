@@ -6,6 +6,7 @@ import { Button, SocialLink } from "../ui";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Carousel from "antd/lib/carousel";
 import { ImgCarousel } from "./ImgCarousel";
+import Parser from "html-react-parser";
 
 const { Panel } = Collapse;
 const { Text } = Typography;
@@ -15,6 +16,7 @@ export const ShowAndHiddenButton = ({
   buttonType = "primary",
   contentAlign = "start",
   gripTemplateColumns = "1fr",
+  paddingButton = ".8em 2em",
 }) => {
   return (
     <CollapseAnt
@@ -30,7 +32,7 @@ export const ShowAndHiddenButton = ({
           <Panel
             key={index}
             header={
-              <Button width="100%" type={buttonType}>
+              <Button width="100%" type={buttonType} padding={paddingButton}>
                 <div className="content-button">
                   {dataList.icon && (
                     <div className="item-img">
@@ -50,7 +52,7 @@ export const ShowAndHiddenButton = ({
             {dataList.descriptions && (
               <ul className="description">
                 {dataList.descriptions.map((description, index) => (
-                  <li key={index}>{description}</li>
+                  <li key={index}>{Parser(description)}</li>
                 ))}
               </ul>
             )}

@@ -22,6 +22,8 @@ import {
   Health,
   Home,
   Hotels,
+  HotelsPiura,
+  HotelsTacna,
   HouseService,
   HouseServices,
   Institutes,
@@ -37,6 +39,8 @@ import {
   ProvinceInstitutes,
   Puno,
   ReligiousService,
+  RestaurantsPiura,
+  RestaurantsTacna,
   Samsung,
   ServiceSocial,
   ServitecPage,
@@ -278,10 +282,46 @@ export const Router = () => {
       />
       <Route
         exact
+        path="/conventions/convention-province/piura-sullana/hotels-piura"
+        element={
+          <BaseLayout>
+            <HotelsPiura />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/convention-province/piura-sullana/restaurant-piura"
+        element={
+          <BaseLayout>
+            <RestaurantsPiura />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
         path="/conventions/convention-province/tacna"
         element={
           <BaseLayout>
             <Tacna />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/convention-province/tacna/hotels-tacna"
+        element={
+          <BaseLayout>
+            <HotelsTacna />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/convention-province/tacna/restaurant-tacna"
+        element={
+          <BaseLayout>
+            <RestaurantsTacna />
           </BaseLayout>
         }
       />

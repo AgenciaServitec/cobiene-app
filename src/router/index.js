@@ -31,14 +31,17 @@ import {
   News,
   OfficersCircle,
   Page404,
+  PiuraSullana,
   PoliciesAndPrivacy,
   PreAcademies,
   ProvinceInstitutes,
+  Puno,
   ReligiousService,
   Samsung,
   ServiceSocial,
   ServitecPage,
   SocialEconomicSupport,
+  Tacna,
   TechniciansCircle,
   Technology,
   Transportations,
@@ -261,6 +264,33 @@ export const Router = () => {
         element={
           <BaseLayout>
             <ConventionProvince />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/convention-province/piura-sullana"
+        element={
+          <BaseLayout>
+            <PiuraSullana />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/convention-province/tacna"
+        element={
+          <BaseLayout>
+            <Tacna />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/convention-province/puno"
+        element={
+          <BaseLayout>
+            <Puno />
           </BaseLayout>
         }
       />

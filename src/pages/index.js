@@ -44,6 +44,7 @@ export * from "./conventions/convention-province";
 export * from "./conventions/convention-province/tacna";
 export * from "./conventions/convention-province/tacna/hotels-tacna";
 export * from "./conventions/convention-province/tacna/restaurants-tacna";
+export * from "./conventions/convention-province/tacna/health-tacna";
 export * from "./conventions/convention-province/puno";
 export * from "./conventions/convention-province/piura-sullana";
 export * from "./conventions/convention-province/piura-sullana/hotels-piura";

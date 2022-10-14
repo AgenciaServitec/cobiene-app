@@ -1,19 +1,34 @@
 import React from "react";
-import {
-  CollapseWithButtons,
-  InitialContent,
-} from "../../../../components/public";
-import { conventionProvincies } from "../../../../data-list";
+import { useNavigate } from "react-router";
+import { Button, InitialContent } from "../../../../components/public";
 
 export const PiuraSullana = () => {
-  const conventions = conventionProvincies.filter(
-    (province) => province.province === "piura-sullana"
-  );
-  return (
-    <div>
-      <InitialContent title="Piura -Sullana" />
+  const navigate = useNavigate();
 
-      <CollapseWithButtons dataLists={conventions} />
-    </div>
+  return (
+    <>
+      <InitialContent title="Piura - Sullana" />
+
+      <Button
+        width="100%"
+        onClick={() =>
+          navigate(
+            "/conventions/convention-province/piura-sullana/restaurant-piura"
+          )
+        }
+      >
+        RESTAURANTES
+      </Button>
+      <Button
+        width="100%"
+        onClick={() =>
+          navigate(
+            "/conventions/convention-province/piura-sullana/hotels-piura"
+          )
+        }
+      >
+        HOTELES
+      </Button>
+    </>
   );
 };

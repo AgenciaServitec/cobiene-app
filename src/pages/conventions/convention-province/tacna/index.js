@@ -1,19 +1,28 @@
-import {
-  CollapseWithButtons,
-  InitialContent,
-} from "../../../../components/public";
-import React from "react";
-import { conventionProvincies } from "../../../../data-list";
+import { useNavigate } from "react-router";
+import { Button, InitialContent } from "../../../../components/public";
 
 export const Tacna = () => {
-  const convention = conventionProvincies.filter(
-    (province) => province.province === "tacna"
-  );
+  const navigate = useNavigate();
 
   return (
-    <div>
+    <>
       <InitialContent title="Tacna" />
-      <CollapseWithButtons dataLists={convention} />
-    </div>
+      <Button
+        width="100%"
+        onClick={() =>
+          navigate("/conventions/convention-province/tacna/restaurant-tacna")
+        }
+      >
+        RESTAURANTES
+      </Button>
+      <Button
+        width="100%"
+        onClick={() =>
+          navigate("/conventions/convention-province/tacna/hotels-tacna")
+        }
+      >
+        HOTELES
+      </Button>
+    </>
   );
 };

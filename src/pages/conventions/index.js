@@ -89,7 +89,7 @@ export const Conventions = () => {
       </Button>
       <Button
         width="100%"
-        onClick={() => navigate("/conventions/convention-national")}
+        onClick={() => navigate("/conventions/convention-province")}
       >
         CONVENIOS - PROVINCIAS
       </Button>

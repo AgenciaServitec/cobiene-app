@@ -20,6 +20,7 @@ import {
   FuneralFund,
   Gym,
   Health,
+  HealthTacna,
   Home,
   Hotels,
   HotelsPiura,
@@ -322,6 +323,15 @@ export const Router = () => {
         element={
           <BaseLayout>
             <RestaurantsTacna />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/convention-province/tacna/health-tacna"
+        element={
+          <BaseLayout>
+            <HealthTacna />
           </BaseLayout>
         }
       />

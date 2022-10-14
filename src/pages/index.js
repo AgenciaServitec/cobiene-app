@@ -41,3 +41,6 @@ export * from "./news";
 export * from "./conventions/convention-multiservices";
 export * from "./conventions/convention-international";
 export * from "./conventions/convention-province";
+export * from "./conventions/convention-province/tacna";
+export * from "./conventions/convention-province/puno";
+export * from "./conventions/convention-province/piura-sullana";

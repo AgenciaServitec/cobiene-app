@@ -10,6 +10,14 @@ export const Tacna = () => {
       <Button
         width="100%"
         onClick={() =>
+          navigate("/conventions/convention-province/tacna/hotels-tacna")
+        }
+      >
+        HOTELES
+      </Button>
+      <Button
+        width="100%"
+        onClick={() =>
           navigate("/conventions/convention-province/tacna/restaurant-tacna")
         }
       >
@@ -18,10 +26,10 @@ export const Tacna = () => {
       <Button
         width="100%"
         onClick={() =>
-          navigate("/conventions/convention-province/tacna/hotels-tacna")
+          navigate("/conventions/convention-province/tacna/health-tacna")
         }
       >
-        HOTELES
+        SALUD
       </Button>
     </>
   );

@@ -19,7 +19,7 @@ export const Technology = () => {
       </Button>
       <Button
         width="100%"
-        onClick={() => navigate("/conventions/convention-international")}
+        onClick={() => navigate("/conventions/technology/samsung")}
       >
         SAMSUNG
       </Button>

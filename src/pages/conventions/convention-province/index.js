@@ -2,7 +2,7 @@ import React from "react";
 import { InitialContent } from "../../../components/public";
 import { CobieneLogo } from "../../../images";
 
-export const ConventionNational = () => {
+export const ConventionProvince = () => {
   return (
     <div>
       <InitialContent

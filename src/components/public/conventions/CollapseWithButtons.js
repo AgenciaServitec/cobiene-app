@@ -19,25 +19,25 @@ export const CollapseWithButtons = ({ dataLists = [] }) => {
           key={index}
           header={
             <Button width="100%">
-              <div className="content-button">
-                <div className="item-icon">
-                  {dataList.image ? (
+              {dataList.image ? (
+                <div className="content-button">
+                  <div className="item-icon">
                     <img src={dataList.image} alt={dataList.title} />
-                  ) : (
-                    <img
-                      src={ImgDefault}
-                      alt="img-default"
-                      className="img-default"
-                    />
-                  )}
+                  </div>
+                  <div className="item-text">
+                    <Text style={{ width: 300 }} ellipsis>
+                      {dataList.title}
+                    </Text>
+                  </div>
+                  <div />
                 </div>
-                <div className="item-text">
+              ) : (
+                <div className="content-button-no-image">
                   <Text style={{ width: 300 }} ellipsis>
                     {dataList.title}
                   </Text>
                 </div>
-                <div />
-              </div>
+              )}
             </Button>
           }
           className="site-collapse-custom-panel"
@@ -119,6 +119,11 @@ const CollapseAntd = styled(Collapse)`
       }
     }
   }
+  .content-button-no-image {
+    span {
+      color: ${({ theme }) => theme.colors.white};
+    }
+  }
   .content-description {
     h3 {
       text-align: center;
@@ -129,7 +134,7 @@ const CollapseAntd = styled(Collapse)`
         list-style: none;
         margin: 0;
         padding: 0;
-        font-size: 0.87rem;
+        font-size: 0.8rem;
         li {
           text-align: justify;
           margin-bottom: 0.5rem;

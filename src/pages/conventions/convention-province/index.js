@@ -6,7 +6,7 @@ import { CobieneLogo } from "../../../images";
 export const ConventionProvince = () => {
   const navigate = useNavigate();
   return (
-    <div>
+    <>
       <InitialContent img={CobieneLogo} title="Convenios de Provincia" />
 
       <Button
@@ -29,6 +29,6 @@ export const ConventionProvince = () => {
       >
         PUNO
       </Button>
-    </div>
+    </>
   );
 };

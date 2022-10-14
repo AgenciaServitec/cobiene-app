@@ -12,7 +12,7 @@ export const HealthTacna = () => {
 
   return (
     <>
-      <InitialContent title="Restaurantes" />
+      <InitialContent title="Salud" />
 
       <CollapseWithButtons dataLists={health} />
     </>

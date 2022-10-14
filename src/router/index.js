@@ -8,9 +8,8 @@ import {
   CommercialShop,
   Companies,
   ConventionInternational,
-  ConventionLima,
   ConventionMultiServices,
-  ConventionNational,
+  ConventionProvince,
   Conventions,
   DisabledSupport,
   EconomicalSupport,
@@ -36,6 +35,7 @@ import {
   PreAcademies,
   ProvinceInstitutes,
   ReligiousService,
+  Samsung,
   ServiceSocial,
   ServitecPage,
   SocialEconomicSupport,
@@ -212,6 +212,15 @@ export const Router = () => {
       />
       <Route
         exact
+        path="/conventions/technology/samsung"
+        element={
+          <BaseLayout>
+            <Samsung />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
         path="/conventions/education-conventions"
         element={
           <BaseLayout>
@@ -248,10 +257,10 @@ export const Router = () => {
       />
       <Route
         exact
-        path="/conventions/convention-national"
+        path="/conventions/convention-province"
         element={
           <BaseLayout>
-            <ConventionNational />
+            <ConventionProvince />
           </BaseLayout>
         }
       />

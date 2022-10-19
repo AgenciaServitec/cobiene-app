@@ -29,6 +29,7 @@ import {
   HouseServices,
   Institutes,
   Laboratories,
+  LifeInsurance,
   LimaInstitutes,
   LimaRestaurants,
   MilitaryCircle,
@@ -189,6 +190,15 @@ export const Router = () => {
         element={
           <BaseLayout>
             <Clinics />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/health/life-insurance"
+        element={
+          <BaseLayout>
+            <LifeInsurance />
           </BaseLayout>
         }
       />

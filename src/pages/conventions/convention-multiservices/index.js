@@ -37,6 +37,14 @@ export const ConventionMultiServices = () => {
       <Button width="100%" onClick={() => navigate("/conventions/hotels")}>
         HOTELES
       </Button>
+      <Button
+        width="100%"
+        onClick={() =>
+          navigate("/conventions/convention-multiservices/lima-restaurants")
+        }
+      >
+        RESTAURANTES
+      </Button>
       <Button width="100%" onClick={() => navigate("/conventions/technology")}>
         TECNOLOGÍA
       </Button>

@@ -5,7 +5,6 @@ import { faDownload, faGlobe } from "@fortawesome/free-solid-svg-icons";
 import Collapse from "antd/lib/collapse";
 import { Button } from "../ui";
 import Typography from "antd/lib/typography";
-import { ImgDefault } from "../../../images";
 import Parser from "html-react-parser";
 
 const { Panel } = Collapse;
@@ -46,13 +45,15 @@ export const CollapseWithButtons = ({ dataLists = [] }) => {
             <h3>{dataList.title}</h3>
             <h4>BENEFICIOS:</h4>
 
-            <div>
-              <ul className="list-benefits">
-                {dataList.benefits.map((benefit, index) => (
-                  <li key={index}>{Parser(benefit)}</li>
-                ))}
-              </ul>
-            </div>
+            {dataList.benefits && (
+              <div>
+                <ul className="list-benefits">
+                  {dataList.benefits.map((benefit, index) => (
+                    <li key={index}>{Parser(benefit)}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
 
             {dataList.links &&
               dataList.links.map(

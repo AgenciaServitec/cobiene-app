@@ -20,6 +20,12 @@ export const Health = () => {
       >
         Entidades médicas
       </Button>
+      <Button
+        width="100%"
+        onClick={() => navigate("/conventions/health/life-insurance")}
+      >
+        Seguros
+      </Button>
     </Container>
   );
 };

@@ -340,20 +340,20 @@ export { default as ImgCentroIdiomaPacifico } from "./companies/centro-idioma-pa
 //-------- Companies ------
 export { default as ImgApelac } from "./webp/img-apelac.webp";
 export { default as ImgBiolinks } from "./webp/img-biolinks.webp";
+export { default as ImgInppares } from "./others/inppares.webp";
 export { default as ImgBlufstein } from "./webp/img-blufstein.webp";
 export { default as ImgCerema } from "./webp/img-cerema.webp";
 export { default as ImgCruzDelSur } from "./webp/img-cruz-del-sur.webp";
-export { default as ImgInppares } from "./others/inppares.webp";
 export { default as ImgLaPositiva } from "./webp/img-la-positiva.webp";
 export { default as ImgLaPositivaSeguros } from "./webp/img-la-positiva-seguros.webp";
 export { default as ImgLaPositivaVida } from "./webp/img-la-positiva-vida.webp";
-export { default as ImgMedifon } from "./webp/img-medifon.webp";
 export { default as ImgQuirovida } from "./webp/img-quirovida.webp";
 export { default as ImgRimacCompany } from "./webp/img-rimac.webp";
 export { default as ImgRimacSeguros } from "./webp/img-rimac-seguros.webp";
 export { default as ImgRotarInternational } from "./webp/img-rotar-international.webp";
 export { default as ImgTransportesOltursa } from "./webp/img-transportes-oltursa.webp";
 export { default as ImgUnident } from "./webp/img-unident.webp";
+export { default as ImgMedifon } from "./webp/img-medifon.webp";
 export { default as ImgSmartFit } from "./webp/img-smart-fit.webp";
 export { default as ImgUnilabs } from "./webp/img-unilabs.webp";
 export { default as ImgFootloose } from "./webp/img-footloose.webp";

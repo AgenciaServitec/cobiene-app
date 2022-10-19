@@ -30,6 +30,7 @@ import {
   Institutes,
   Laboratories,
   LimaInstitutes,
+  LimaRestaurants,
   MilitaryCircle,
   News,
   OfficersCircle,
@@ -260,6 +261,15 @@ export const Router = () => {
         element={
           <BaseLayout>
             <ConventionMultiServices />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/convention-multiservices/lima-restaurants"
+        element={
+          <BaseLayout>
+            <LimaRestaurants />
           </BaseLayout>
         }
       />

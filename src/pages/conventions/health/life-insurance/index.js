@@ -1,20 +1,24 @@
 import React from "react";
 import { companies } from "../../../../data-list";
-import { CollapseWithButtons, SortWords } from "../../../../components/public";
+import { InitialContent, SortWords } from "../../../../components/public";
 import styled from "styled-components";
+import { CobieneLogo } from "../../../../images";
 
 export const LifeInsurance = () => {
   const lives = companies.filter((com) => com.type === "life-insurance");
 
   SortWords(lives);
-
-  console.log(companies);
   return (
     <Container>
-      <div className="content-logo">
+      <InitialContent
+        img={CobieneLogo}
+        title="Estamos trabajando por el bienestar"
+      />
+      <InitialContent title="Proximamente..." />
+      {/*<div className="content-logo">
         <h2>Seguros</h2>
       </div>
-      <CollapseWithButtons dataLists={lives} />
+      <CollapseWithButtons dataLists={lives} />*/}
     </Container>
   );
 };

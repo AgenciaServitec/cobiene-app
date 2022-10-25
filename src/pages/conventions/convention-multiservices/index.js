@@ -9,7 +9,7 @@ export const ConventionMultiServices = () => {
   const navigate = useNavigate();
   return (
     <Container>
-      <InitialContent title="Convenios de Multiservicios" />
+      <InitialContent title="Convenios Multiservicios" />
       {/*<Button*/}
       {/*  width="100%"*/}
       {/*  onClick={() => navigate("/conventions/education-conventions")}*/}
@@ -27,6 +27,12 @@ export const ConventionMultiServices = () => {
       </Button>
       <Button width="100%" onClick={() => navigate("/conventions/health")}>
         SALUD
+      </Button>
+      <Button
+        width="100%"
+        onClick={() => navigate("/conventions/health/life-insurance")}
+      >
+        SEGUROS
       </Button>
       <Button
         width="100%"

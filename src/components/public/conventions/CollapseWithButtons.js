@@ -73,7 +73,11 @@ export const CollapseWithButtons = ({ dataLists = [] }) => {
 
             {dataList.urlFile && (
               <div className="item-link">
-                <a href={dataList.urlFile} rel="noreferrer">
+                <a
+                  href={dataList.urlFile}
+                  rel="noreferrer"
+                  download="Convenio-universidad.pdf"
+                >
                   <FontAwesomeIcon icon={faDownload} size="2x" />
                   Descargar Ficha de Solicitud
                 </a>
@@ -150,7 +154,8 @@ const CollapseAntd = styled(Collapse)`
       margin: 1.3rem auto;
       font-size: 1em;
       padding-left: 1em;
-      a {
+      a,
+      span {
         display: grid;
         grid-template-columns: 13% 1fr;
         align-items: center;

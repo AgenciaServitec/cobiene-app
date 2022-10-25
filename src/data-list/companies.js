@@ -319,7 +319,7 @@ export const companies = [
       "d)\tDeberá de presentar copia de CIP al momento de la compra.\n",
       "BENEFICIO \n",
       "a)\tNo aplica para compras por página web, call center \n",
-      "b)\tAcceso los 364 días del año, de forma PRESENCIAL\n",
+      "b)\tAcceso los 365 días del año, de forma PRESENCIAL\n",
       "c)\tAcceso al 20% de descuento sobre la tarifa regular, en transporte interprovincial de pasajeros (económico, premier, presidencial, ejecutivo, vip), hacia cualquiera de los destinos.\n",
       "d)\tAcceso al 30% de descuento sobre la tarifa regular, en el servicio de envió a través de MOVIL CARGA y MOVIL COURIER,\tque inicien en provincias (hacia Lima) a excepción de Lima como origen.\n",
       "e)\tAcceso al 15% de descuento sobre la tarifa regular, en el servicio de envió a través de MOVIL CARGA y MOVIL COURIER que inicien en Lima, hacia cualquiera de los destinos ofrecidos.\n",

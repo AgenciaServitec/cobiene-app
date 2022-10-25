@@ -59,4 +59,12 @@ export const conventionInternational = [
       "Teléfono cel (ws): <a href='https://wa.me/34629228505' target='_blank' >34629228505</a> ",
     ],
   },
+  {
+    title: "Ecuador",
+    descriptions: ["Estamos trabajando por el bienestar", "Proximamente..."],
+  },
+  {
+    title: "Bolivia",
+    descriptions: ["Estamos trabajando por el bienestar", "Proximamente..."],
+  },
 ];

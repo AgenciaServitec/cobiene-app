@@ -51,3 +51,4 @@ export * from "./conventions/convention-province/puno";
 export * from "./conventions/convention-province/piura-sullana";
 export * from "./conventions/convention-province/piura-sullana/hotels-piura";
 export * from "./conventions/convention-province/piura-sullana/restaurants-piura";
+export * from "./page-default";

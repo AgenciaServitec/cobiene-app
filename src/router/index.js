@@ -36,6 +36,7 @@ import {
   News,
   OfficersCircle,
   Page404,
+  PageDefault,
   PiuraSullana,
   PoliciesAndPrivacy,
   PreAcademies,
@@ -514,6 +515,15 @@ export const Router = () => {
         element={
           <BaseLayout>
             <News />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/page-default"
+        element={
+          <BaseLayout>
+            <PageDefault />
           </BaseLayout>
         }
       />

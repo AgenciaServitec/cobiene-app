@@ -1,10 +1,42 @@
-import React from "react";
 import { useNavigate } from "react-router";
-import { Button, InitialContent } from "../../../components/public";
+import { Button, InitialContent, SortWords } from "../../../components/public";
 import { CobieneLogo } from "../../../images";
 
 export const ConventionProvince = () => {
   const navigate = useNavigate();
+
+  const listButtons = [
+    {
+      title: " PIURA - SULLANA",
+      url: "/conventions/convention-province/piura-sullana",
+    },
+    {
+      url: "/conventions/convention-province/tacna",
+      title: "TACNA",
+    },
+    {
+      url: "/conventions/convention-province/puno",
+      title: "PUNO",
+    },
+    {
+      title: "TRUJILLO",
+    },
+    {
+      title: "TUMBES",
+    },
+    {
+      title: "AYACUCHO",
+    },
+    {
+      title: "CHICLAYO",
+    },
+    {
+      title: "HUANCAYO",
+    },
+  ];
+
+  SortWords(listButtons);
+
   return (
     <>
       <InitialContent
@@ -14,26 +46,17 @@ export const ConventionProvince = () => {
 "
       />
 
-      <Button
-        width="100%"
-        onClick={() =>
-          navigate("/conventions/convention-province/piura-sullana")
-        }
-      >
-        PIURA - SULLANA
-      </Button>
-      <Button
-        width="100%"
-        onClick={() => navigate("/conventions/convention-province/tacna")}
-      >
-        TACNA
-      </Button>
-      <Button
-        width="100%"
-        onClick={() => navigate("/conventions/convention-province/puno")}
-      >
-        PUNO
-      </Button>
+      {listButtons.map((listButton, index) => (
+        <Button
+          key={index}
+          width="100%"
+          onClick={() =>
+            navigate(listButton.url ? listButton.url : "/page-default")
+          }
+        >
+          {listButton.title}
+        </Button>
+      ))}
     </>
   );
 };

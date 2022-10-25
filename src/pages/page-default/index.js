@@ -8,7 +8,7 @@ export const PageDefault = () => {
         img={CobieneLogo}
         title="Estamos trabajando por el bienestar"
       />
-      <InitialContent title="Proximamente" />
+      <InitialContent title="Proximamente..." />
     </>
   );
 };

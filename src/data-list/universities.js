@@ -22,6 +22,7 @@ import {
   ImgUtp,
   Norte,
 } from "../images";
+import { UniversityConventionPdf } from "../docs";
 
 export const universities = [
   {
@@ -306,8 +307,7 @@ export const universities = [
       "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge e hijos)",
       "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
-    urlFile:
-      "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
+    urlFile: UniversityConventionPdf,
     links: [{ url: "https://www.ucss.edu.pe" }],
   },
   {

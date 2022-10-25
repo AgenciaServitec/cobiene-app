@@ -7,53 +7,60 @@ import { faList } from "@fortawesome/free-solid-svg-icons";
 
 export const ConventionMultiServices = () => {
   const navigate = useNavigate();
+
+  const listButtons = [
+    {
+      title: "EMPRESAS",
+      url: "/conventions/companies",
+    },
+    {
+      title: "FINANCIERAS",
+      url: "/conventions/financials",
+    },
+    {
+      title: "BANCOS",
+      url: "/conventions/banks",
+    },
+    {
+      title: "SALUD",
+      url: "/conventions/health",
+    },
+    {
+      title: "SEGUROS",
+      url: "/conventions/health/life-insurance",
+    },
+    {
+      title: "TRANSPORTES",
+      url: "/conventions/transportations",
+    },
+    {
+      title: "HOTELES",
+      url: "/conventions/hotels",
+    },
+    {
+      title: "RESTAURANTES",
+      url: "/conventions/convention-multiservices/lima-restaurants",
+    },
+    {
+      title: "TECNOLOGÍA",
+      url: "/conventions/technology",
+    },
+    { title: "ASESORÍA LEGAL", url: "/page-default" },
+  ];
+
   return (
     <Container>
       <InitialContent title="Convenios Multiservicios" />
-      {/*<Button*/}
-      {/*  width="100%"*/}
-      {/*  onClick={() => navigate("/conventions/education-conventions")}*/}
-      {/*>*/}
-      {/*  EDUCACIÓN*/}
-      {/*</Button>*/}
-      <Button width="100%" onClick={() => navigate("/conventions/companies")}>
-        EMPRESAS
-      </Button>
-      <Button width="100%" onClick={() => navigate("/conventions/financials")}>
-        FINANCIERAS
-      </Button>
-      <Button width="100%" onClick={() => navigate("/conventions/banks")}>
-        BANCOS
-      </Button>
-      <Button width="100%" onClick={() => navigate("/conventions/health")}>
-        SALUD
-      </Button>
-      <Button
-        width="100%"
-        onClick={() => navigate("/conventions/health/life-insurance")}
-      >
-        SEGUROS
-      </Button>
-      <Button
-        width="100%"
-        onClick={() => navigate("/conventions/transportations")}
-      >
-        TRANSPORTES
-      </Button>
-      <Button width="100%" onClick={() => navigate("/conventions/hotels")}>
-        HOTELES
-      </Button>
-      <Button
-        width="100%"
-        onClick={() =>
-          navigate("/conventions/convention-multiservices/lima-restaurants")
-        }
-      >
-        RESTAURANTES
-      </Button>
-      <Button width="100%" onClick={() => navigate("/conventions/technology")}>
-        TECNOLOGÍA
-      </Button>
+
+      {listButtons.map((listButton, index) => (
+        <Button
+          key={index}
+          width="100%"
+          onClick={() => navigate(listButton.url)}
+        >
+          {listButton.title}
+        </Button>
+      ))}
 
       <div className="list-convenios">
         <a href="https://drive.google.com/file/d/1OoNDcmtydINrLsiyON9hZJVwM75Dm-n6/view?usp=sharing">

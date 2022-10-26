@@ -58,6 +58,10 @@ import {
   Universities,
   HealthArequipa,
   Ayacucho,
+  Chiclayo,
+  HealthChiclayo,
+  HotelsChiclayo,
+  CompaniesChiclayo,
 } from "../pages";
 
 export const Router = () => {
@@ -411,6 +415,42 @@ export const Router = () => {
         element={
           <BaseLayout>
             <Ayacucho />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/convention-province/chiclayo"
+        element={
+          <BaseLayout>
+            <Chiclayo />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/convention-province/chiclayo/health"
+        element={
+          <BaseLayout>
+            <HealthChiclayo />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/convention-province/chiclayo/hotels"
+        element={
+          <BaseLayout>
+            <HotelsChiclayo />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/convention-province/chiclayo/companies"
+        element={
+          <BaseLayout>
+            <CompaniesChiclayo />
           </BaseLayout>
         }
       />

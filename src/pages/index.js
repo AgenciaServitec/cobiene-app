@@ -56,4 +56,7 @@ export * from "./conventions/convention-province/arequipa/restaurants";
 export * from "./conventions/convention-province/arequipa/health";
 export * from "./conventions/convention-province/ayacucho";
 export * from "./conventions/convention-province/chiclayo";
+export * from "./conventions/convention-province/chiclayo/health";
+export * from "./conventions/convention-province/chiclayo/companies";
+export * from "./conventions/convention-province/chiclayo/hotels";
 export * from "./page-default";

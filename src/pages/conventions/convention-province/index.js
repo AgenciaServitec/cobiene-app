@@ -33,6 +33,10 @@ export const ConventionProvince = () => {
     {
       title: "HUANCAYO",
     },
+    {
+      title: "AREQUIPA",
+      url: "/conventions/convention-province/arequipa",
+    },
   ];
 
   SortWords(listButtons);

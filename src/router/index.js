@@ -54,6 +54,7 @@ import {
   Technology,
   Transportations,
   Universities,
+  Arequipa,
 } from "../pages";
 
 export const Router = () => {
@@ -362,6 +363,15 @@ export const Router = () => {
         element={
           <BaseLayout>
             <Puno />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/convention-province/arequipa"
+        element={
+          <BaseLayout>
+            <Arequipa />
           </BaseLayout>
         }
       />

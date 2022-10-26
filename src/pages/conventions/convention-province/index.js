@@ -30,6 +30,7 @@ export const ConventionProvince = () => {
     },
     {
       title: "CHICLAYO",
+      url: "/conventions/convention-province/chiclayo",
     },
     {
       title: "HUANCAYO",

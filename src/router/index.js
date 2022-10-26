@@ -57,6 +57,7 @@ import {
   Transportations,
   Universities,
   HealthArequipa,
+  Ayacucho,
 } from "../pages";
 
 export const Router = () => {
@@ -401,6 +402,15 @@ export const Router = () => {
         element={
           <BaseLayout>
             <ConventionInternational />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/convention-province/ayacucho"
+        element={
+          <BaseLayout>
+            <Ayacucho />
           </BaseLayout>
         }
       />

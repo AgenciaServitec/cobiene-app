@@ -54,4 +54,5 @@ export * from "./conventions/convention-province/piura-sullana/restaurants-piura
 export * from "./conventions/convention-province/arequipa";
 export * from "./conventions/convention-province/arequipa/restaurants";
 export * from "./conventions/convention-province/arequipa/health";
+export * from "./conventions/convention-province/ayacucho";
 export * from "./page-default";

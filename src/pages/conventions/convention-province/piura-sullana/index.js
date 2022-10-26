@@ -12,9 +12,7 @@ export const PiuraSullana = () => {
       <Button
         width="100%"
         onClick={() =>
-          navigate(
-            "/conventions/convention-province/piura-sullana/restaurant-piura"
-          )
+          navigate("/conventions/convention-province/piura-sullana/restaurants")
         }
       >
         RESTAURANTES
@@ -22,9 +20,7 @@ export const PiuraSullana = () => {
       <Button
         width="100%"
         onClick={() =>
-          navigate(
-            "/conventions/convention-province/piura-sullana/hotels-piura"
-          )
+          navigate("/conventions/convention-province/piura-sullana/hotels")
         }
       >
         HOTELES

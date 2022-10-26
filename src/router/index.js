@@ -312,7 +312,7 @@ export const Router = () => {
       />
       <Route
         exact
-        path="/conventions/convention-province/piura-sullana/hotels-piura"
+        path="/conventions/convention-province/piura-sullana/hotels"
         element={
           <BaseLayout>
             <HotelsPiura />
@@ -321,7 +321,7 @@ export const Router = () => {
       />
       <Route
         exact
-        path="/conventions/convention-province/piura-sullana/restaurant-piura"
+        path="/conventions/convention-province/piura-sullana/restaurants"
         element={
           <BaseLayout>
             <RestaurantsPiura />
@@ -339,7 +339,7 @@ export const Router = () => {
       />
       <Route
         exact
-        path="/conventions/convention-province/tacna/hotels-tacna"
+        path="/conventions/convention-province/tacna/hotels"
         element={
           <BaseLayout>
             <HotelsTacna />
@@ -348,7 +348,7 @@ export const Router = () => {
       />
       <Route
         exact
-        path="/conventions/convention-province/tacna/restaurant-tacna"
+        path="/conventions/convention-province/tacna/restaurants"
         element={
           <BaseLayout>
             <RestaurantsTacna />
@@ -357,7 +357,7 @@ export const Router = () => {
       />
       <Route
         exact
-        path="/conventions/convention-province/tacna/health-tacna"
+        path="/conventions/convention-province/tacna/health"
         element={
           <BaseLayout>
             <HealthTacna />

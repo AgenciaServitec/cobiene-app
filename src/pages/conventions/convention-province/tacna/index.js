@@ -10,7 +10,7 @@ export const Tacna = () => {
       <Button
         width="100%"
         onClick={() =>
-          navigate("/conventions/convention-province/tacna/hotels-tacna")
+          navigate("/conventions/convention-province/tacna/hotels")
         }
       >
         HOTELES
@@ -18,7 +18,7 @@ export const Tacna = () => {
       <Button
         width="100%"
         onClick={() =>
-          navigate("/conventions/convention-province/tacna/restaurant-tacna")
+          navigate("/conventions/convention-province/tacna/restaurants")
         }
       >
         RESTAURANTES
@@ -26,7 +26,7 @@ export const Tacna = () => {
       <Button
         width="100%"
         onClick={() =>
-          navigate("/conventions/convention-province/tacna/health-tacna")
+          navigate("/conventions/convention-province/tacna/health")
         }
       >
         SALUD

@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import { BaseLayout } from "../components/public";
 import {
   AboutAs,
+  Arequipa,
   Banks,
   Bazar,
   Clinics,
@@ -43,6 +44,7 @@ import {
   ProvinceInstitutes,
   Puno,
   ReligiousService,
+  RestaurantsArequipa,
   RestaurantsPiura,
   RestaurantsTacna,
   Samsung,
@@ -54,7 +56,7 @@ import {
   Technology,
   Transportations,
   Universities,
-  Arequipa,
+  HealthArequipa,
 } from "../pages";
 
 export const Router = () => {
@@ -372,6 +374,24 @@ export const Router = () => {
         element={
           <BaseLayout>
             <Arequipa />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/convention-province/arequipa/health"
+        element={
+          <BaseLayout>
+            <HealthArequipa />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/convention-province/arequipa/restaurants"
+        element={
+          <BaseLayout>
+            <RestaurantsArequipa />
           </BaseLayout>
         }
       />

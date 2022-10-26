@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, InitialContent } from "../../../components/public";
+import { Button, InitialContent, SortWords } from "../../../components/public";
 import { useNavigate } from "react-router";
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -48,6 +48,7 @@ export const ConventionMultiServices = () => {
     { title: "ASESORÍA LEGAL", url: "/page-default" },
   ];
 
+  SortWords(listButtons);
   return (
     <Container>
       <InitialContent title="Convenios Multiservicios" />
@@ -72,7 +73,7 @@ export const ConventionMultiServices = () => {
   );
 };
 
-const Container = styled.div`
+const Container = styled.section`
   .list-convenios {
     color: dodgerblue;
     text-decoration: underline;

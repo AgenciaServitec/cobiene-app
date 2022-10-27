@@ -62,6 +62,7 @@ import {
   HealthChiclayo,
   HotelsChiclayo,
   CompaniesChiclayo,
+  Huancayo,
 } from "../pages";
 
 export const Router = () => {
@@ -451,6 +452,15 @@ export const Router = () => {
         element={
           <BaseLayout>
             <CompaniesChiclayo />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/convention-province/huancayo"
+        element={
+          <BaseLayout>
+            <Huancayo />
           </BaseLayout>
         }
       />

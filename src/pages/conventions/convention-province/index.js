@@ -20,6 +20,7 @@ export const ConventionProvince = () => {
     },
     {
       title: "TRUJILLO",
+      url: "/conventions/convention-province/trujillo",
     },
     {
       title: "TUMBES",

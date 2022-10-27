@@ -63,6 +63,9 @@ import {
   HotelsChiclayo,
   CompaniesChiclayo,
   Huancayo,
+  Trujillo,
+  TrujilloHotels,
+  TrujilloRestaurants,
 } from "../pages";
 
 export const Router = () => {
@@ -461,6 +464,33 @@ export const Router = () => {
         element={
           <BaseLayout>
             <Huancayo />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/convention-province/trujillo"
+        element={
+          <BaseLayout>
+            <Trujillo />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/convention-province/trujillo/hotels"
+        element={
+          <BaseLayout>
+            <TrujilloHotels />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/convention-province/trujillo/restaurants"
+        element={
+          <BaseLayout>
+            <TrujilloRestaurants />
           </BaseLayout>
         }
       />

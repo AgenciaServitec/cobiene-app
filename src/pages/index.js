@@ -60,4 +60,7 @@ export * from "./conventions/convention-province/chiclayo/health";
 export * from "./conventions/convention-province/chiclayo/companies";
 export * from "./conventions/convention-province/chiclayo/hotels";
 export * from "./conventions/convention-province/huancayo";
+export * from "./conventions/convention-province/trujillo";
+export * from "./conventions/convention-province/trujillo/hotels";
+export * from "./conventions/convention-province/trujillo/restaurants";
 export * from "./page-default";

@@ -412,13 +412,13 @@ export const companies = [
   //     "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS PERSONAL CIVIL (CÓNYUGUES, HIJOS, PADRES )",
   //   ],
   // },
-  {
-    type: "clinic",
-    image: ImgClinicAuna,
-    title: "Clínica Auna",
-    benefits: ["POR FIRMAR"],
-    links: [{ url: "https://auna.pe/conocenos/" }],
-  },
+  // {
+  //   type: "clinic",
+  //   image: ImgClinicAuna,
+  //   title: "Clínica Auna",
+  //   benefits: ["POR FIRMAR"],
+  //   links: [{ url: "https://auna.pe/conocenos/" }],
+  // },
   {
     type: "financial",
     image: ImgEfectiva,

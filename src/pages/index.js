@@ -64,4 +64,7 @@ export * from "./conventions/convention-province/trujillo";
 export * from "./conventions/convention-province/trujillo/hotels";
 export * from "./conventions/convention-province/trujillo/restaurants";
 export * from "./conventions/convention-province/tumbes";
+export * from "./conventions/convention-province/tumbes/restaurants";
+export * from "./conventions/convention-province/tumbes/hotels";
+export * from "./conventions/convention-province/tumbes/transports";
 export * from "./page-default";

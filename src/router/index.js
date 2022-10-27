@@ -67,6 +67,9 @@ import {
   TrujilloHotels,
   TrujilloRestaurants,
   Tumbes,
+  TumbesTransports,
+  TumbesRestaurants,
+  TumbesHotels,
 } from "../pages";
 
 export const Router = () => {
@@ -501,6 +504,33 @@ export const Router = () => {
         element={
           <BaseLayout>
             <Tumbes />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/convention-province/tumbes/transports"
+        element={
+          <BaseLayout>
+            <TumbesTransports />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/convention-province/tumbes/restaurants"
+        element={
+          <BaseLayout>
+            <TumbesRestaurants />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/convention-province/tumbes/hotels"
+        element={
+          <BaseLayout>
+            <TumbesHotels />
           </BaseLayout>
         }
       />

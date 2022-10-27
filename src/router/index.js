@@ -66,6 +66,7 @@ import {
   Trujillo,
   TrujilloHotels,
   TrujilloRestaurants,
+  Tumbes,
 } from "../pages";
 
 export const Router = () => {
@@ -491,6 +492,15 @@ export const Router = () => {
         element={
           <BaseLayout>
             <TrujilloRestaurants />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/convention-province/tumbes"
+        element={
+          <BaseLayout>
+            <Tumbes />
           </BaseLayout>
         }
       />

@@ -1,4 +1,5 @@
 import {
+  CobieneLogo,
   ImgApelac,
   ImgBiolinks,
   ImgCasaAndina,
@@ -666,18 +667,33 @@ export const companies = [
     type: "life-insurance",
     image: ImgRimacSeguros,
     title: "Seguros Rimac",
-    links: [{ url: "https://www.rimac.com" }],
+    benefits: [
+      `<img src="${CobieneLogo}" width="15%"/> `,
+      "Estamos trabajando por el bienestar",
+      "Proximamente...",
+    ],
+    // links: [{ url: "https://www.rimac.com" }],
   },
   {
     type: "life-insurance",
     image: ImgLaPositiva,
+    benefits: [
+      `<img src="${CobieneLogo}" width="15%"/> `,
+      "Estamos trabajando por el bienestar",
+      "Proximamente...",
+    ],
     title: "Seguro Salud Positiva",
-    links: [{ url: "https://www.lapositiva.com.pe" }],
+    // links: [{ url: "https://www.lapositiva.com.pe" }],
   },
   {
     type: "life-insurance",
+    benefits: [
+      `<img src="${CobieneLogo}" width="15%"/> `,
+      "Estamos trabajando por el bienestar",
+      "Proximamente...",
+    ],
     image: ImgLaPositivaVida,
     title: "Seguro Vida Positiva",
-    links: [{ url: "https://www.lapositiva.com.pe" }],
+    // links: [{ url: "https://www.lapositiva.com.pe" }],
   },
 ];

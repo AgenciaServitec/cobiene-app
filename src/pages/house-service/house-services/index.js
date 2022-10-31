@@ -1,13 +1,17 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router";
 import styled from "styled-components";
 import { ImgLogoJace, ImgSliderJace } from "../../../images";
-import { Button, InitialContent, Text } from "../../../components/public";
+import {
+  Button,
+  InitialContent,
+  NavigateGoToLink,
+  Text,
+} from "../../../components/public";
 import { requerimentsJace } from "../../../data-list";
 
 export const HouseServices = () => {
   const [viewContent, setViewContent] = useState(false);
-  const navigate = useNavigate();
+
   return (
     <Container>
       <InitialContent
@@ -18,19 +22,7 @@ export const HouseServices = () => {
       <div className="section-image">
         <img src={ImgSliderJace} alt="Img Jace" className="img-mapa" />
       </div>
-      {/*<div className="section-requirements">*/}
-      {/*  <h3>Requisitos para ser usuario:</h3>*/}
-      {/*  <ShowAndHiddenButton*/}
-      {/*    dataLists={requerimentsJace}*/}
-      {/*    buttonType="tertiary"*/}
-      {/*    gripTemplateColumns="10% 1fr 10%"*/}
-      {/*  />*/}
-      {/*</div>*/}
-      <Button
-        type="secondary"
-        width="100%"
-        onClick={() => setViewContent(!viewContent)}
-      >
+      <Button width="100%" onClick={() => setViewContent(!viewContent)}>
         Requisitos para ser usuario:
       </Button>
       {viewContent && (
@@ -66,13 +58,40 @@ export const HouseServices = () => {
       >
         Formato de Devolución
       </Button>*/}
-      <Button width="100%" onClick={() => navigate("/page-default")}>
+      <Button
+        width="100%"
+        onClick={() =>
+          NavigateGoToLink(
+            "https://drive.google.com/file/d/1dO4anLFLZZUZnZVgwkcAxNMNt7rnWvYY/view?usp=sharing"
+          )
+        }
+      >
+        Requisito para solicitar casa de servicio
+      </Button>
+      <Button
+        width="100%"
+        onClick={() =>
+          NavigateGoToLink(
+            "https://drive.google.com/file/d/1lWQCovfD74g8JzGZenuE5fz_kK1zmZMt/view?usp=sharing"
+          )
+        }
+      >
         Requisito para acceder sirecase
       </Button>
-      <Button width="100%" onClick={() => navigate("/page-default")}>
+      <Button
+        width="100%"
+        onClick={() =>
+          NavigateGoToLink(
+            "https://drive.google.com/file/d/1t_ZxhgX92TgHXL61mvzqbQsgIWJ0BxeB/view?usp=sharing"
+          )
+        }
+      >
         Manual SIRECASE
       </Button>{" "}
-      <Button width="100%" onClick={() => navigate("/page-default")}>
+      <Button
+        width="100%"
+        onClick={() => NavigateGoToLink("https://ws.ejercito.mil.pe/sirecase")}
+      >
         Sistema de registro de casas del ejercito
       </Button>
     </Container>

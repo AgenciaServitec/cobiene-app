@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useState } from "react";
 import styled, { css } from "styled-components";
 import ModalAntd from "antd/lib/modal/Modal";
 import { mediaQuery } from "../../../styles/constants/mediaQuery";
@@ -36,7 +36,6 @@ export const FormContact = () => {
     email: yup.string().email().required(),
     countryCode: yup.string().required(),
     phoneNumber: yup.number().required(),
-    issue: yup.string().required(),
     message: yup.string(),
   });
 
@@ -66,7 +65,7 @@ export const FormContact = () => {
 
       handleVisibleFormContact();
     } catch (e) {
-      console.log("Error email send:", e);
+      console.log("ErrorEmailSend:", e);
       notification({ type: "error" });
     } finally {
       setLoadingContact(false);
@@ -74,7 +73,7 @@ export const FormContact = () => {
   };
 
   const fetchSendEmail = async (contact) =>
-    await fetch(`${currentConfig.sendingEmailsApi}/cobiene/contact`, {
+    await fetch(`${currentConfig.sendingEmailsApi}/generic/contact`, {
       method: "POST",
       headers: {
         "Access-Control-Allow-Origin": null,
@@ -93,10 +92,8 @@ export const FormContact = () => {
         number: formData.phoneNumber,
         countryCode: formData.countryCode,
       },
-      issue: formData.issue,
       message: formData.message,
-      termsAndConditions: true,
-      hostname: window.location.hostname || "cobiene",
+      hostname: window.location.hostname || "cobiene-352004.web.app",
     },
   });
 
@@ -107,7 +104,6 @@ export const FormContact = () => {
       email: "",
       countryCode: "+51",
       phoneNumber: "",
-      issue: "",
       message: "",
     });
 
@@ -201,23 +197,6 @@ export const FormContact = () => {
               render={({ field: { onChange, value, name } }) => (
                 <InputNumber
                   label="Ingrese teléfono"
-                  name={name}
-                  value={value}
-                  onChange={onChange}
-                  error={error(name)}
-                  required={required(name)}
-                />
-              )}
-            />
-          </Col>
-          <Col span={24}>
-            <Controller
-              name="issue"
-              control={control}
-              defaultValue=""
-              render={({ field: { onChange, value, name } }) => (
-                <Input
-                  label="Ingrese asunto"
                   name={name}
                   value={value}
                   onChange={onChange}

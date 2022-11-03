@@ -15,6 +15,7 @@ import {
   ImgSanMartin,
   ImgSeniorSipan,
   ImgUniAnahuaca,
+  ImgUniAutonoma,
   ImgUniContinental,
   ImgUnife,
   ImgUniversidadDelPacifico,
@@ -211,13 +212,13 @@ export const universities = [
     image: ImgSanJuanBautista,
     title: "SAN JUAN BAUTISTA",
     benefits: [
-      "PREGRADO: \n" +
-        "25% de descuento en el pago de las pensiones en todas las carreras profesionales \n",
+      "PREGRADO: \n",
+      "25% de descuento en el pago de las pensiones en todas las carreras profesionales \n",
       "PROGRAMA ESPECIAL PARA ADULTOS  \n",
       "25% de descuento en el pago de las pensiones de carreras de contabilidad y administración \n",
       "POSGRADO: \n",
-      "25 %  de descuento en el pago de las pensiones en maestría en gestión pública, maestría en  gestión estratégica, maestría en derecho civil y comercial  \n" +
-        " ",
+      "25 %  de descuento en el pago de las pensiones en maestría en gestión pública, maestría en  gestión estratégica, maestría en derecho civil y comercial  \n",
+      " ",
       "CENTRO DE IDIOMAS - CURSOS DE EXTENSIÓN Y DIPLOMADOS. \n",
       "50 % de descuento en el pago de las pensiones de los diferentes cursos de idiomas\n",
       "CURSOS DE EXTENSIÓN \n",
@@ -316,7 +317,8 @@ export const universities = [
     benefits: [
       "CENTRO PRE UNIFÉ: \n",
       "20 % descuento en el ciclo completo  \n",
-      "PREGRADO: \n" + "Personal de oficiales  Escala N° 28 en pensiones \n",
+      "PREGRADO: \n",
+      "Personal de oficiales  Escala N° 28 en pensiones \n",
       "Personal de Tcos y SSOO Escala N° 30 en pensiones  \n",
       "PREGRADO SEGUNDA CARRERA\n",
       "Personal de oficiales  Escala N° 28 en pensiones \n",
@@ -431,5 +433,33 @@ export const universities = [
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
     links: [{ url: "https://www.anahuac.mx/" }],
+  },
+  {
+    title: "Autónoma",
+    image: ImgUniAutonoma,
+    benefits: [
+      "PREGRADO REGULAR: Escala “D” \n",
+      "CARRERAS PARA PERSONAS QUE TRABAJAN (CPT) Escala “C” \n",
+      "POSGRADO:  Escala “B”\n",
+      "EDUCACIÓN CONTINUA\n",
+      "10% dscto. si se inscriben 1 o 2 BENEFICIARIOS \n",
+      "15% dscto. si se inscriben 3 o más BENEFICIARIOS \n",
+      "Alcance:",
+      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuges e hijos); tropa servicio militar en actividad, licenciados.\n",
+    ],
+  },
+  {
+    title: "Anáhuac Cancún",
+    image: ImgUniAnahuaca,
+    benefits: [
+      "70% DE BECA AL MEJOR ESTUDIANTE: \n",
+      "OTORGAR EL BENEFICIO AL ESTUDIANTE DE EDUCACIÓN BÁSICA REGULAR (NIVEL SECUNDARIO) QUE LOGRE CULMINAR EN SUS TRES AÑOS DE EDUCACIÓN SECUNDARIA, EN EL PRIMER PUESTO.\n",
+      "50% DE BECA A LOS 02 MEJORES ESTUDIANTES: \n",
+      "SI SE DETERMINA EN EL PROCESO DE EVALUACIÓN SON 02 LOS BENEFICIARIOS, SE OTORGARÁ EL BENEFICIO A LOS 02 ESTUDIANTES CON EL PORCENTAJE ESTABLECIDO Y QUE HAYAN LOGRADO CULMINAR EN SUS TRES AÑOS DE EDUCACIÓN SECUNDARIA CON EL PROMEDIO REQUERIDO.\n",
+      "100% DE DESCUENTO POR DERECHO EN EL PROCESO DE ADMISIÓN A LOS ALUMNOS QUE OBTUVIERON LA BECA AL MEJOR ESTUDIANTE. \n",
+      "50% DE DESCUENTO EN EL PROCESO DE ADMISIÓN, PARA ESTUDIANTES INTERESADOS EN FORMACIÓN DE PREGRADO \n",
+      "Alcance:",
+      "PARA ESTUDIANTES DE EDUCACIÓN BÁSICA REGULAR (NIVEL SECUNDARIA) DE LAS INSTITUCIONES EDUCATIVAS DEL EJÉRCITO",
+    ],
   },
 ];

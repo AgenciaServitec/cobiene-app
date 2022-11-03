@@ -58,16 +58,16 @@ export const HouseServices = () => {
       >
         Formato de Devolución
       </Button>*/}
-      <Button
-        width="100%"
-        onClick={() =>
-          NavigateGoToLink(
-            "https://drive.google.com/file/d/1dO4anLFLZZUZnZVgwkcAxNMNt7rnWvYY/view?usp=sharing"
-          )
-        }
-      >
-        Requisito para solicitar casa de servicio
-      </Button>
+      {/*<Button*/}
+      {/*  width="100%"*/}
+      {/*  onClick={() =>*/}
+      {/*    NavigateGoToLink(*/}
+      {/*      "https://drive.google.com/file/d/1dO4anLFLZZUZnZVgwkcAxNMNt7rnWvYY/view?usp=sharing"*/}
+      {/*    )*/}
+      {/*  }*/}
+      {/*>*/}
+      {/*  Requisito para solicitar casa de servicio*/}
+      {/*</Button>*/}
       <Button
         width="100%"
         onClick={() =>

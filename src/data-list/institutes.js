@@ -29,6 +29,7 @@ import {
   ProfesionalTecnico,
   SanVicente,
 } from "../images";
+import { faPaste } from "@fortawesome/free-solid-svg-icons";
 
 export const institutes = [
   // {
@@ -52,7 +53,14 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-    links: [{ url: "https://cepea.edu.pe" }],
+    links: [
+      { url: "https://cepea.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: CEPEABAN,
@@ -67,7 +75,14 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-    links: [{ url: "https://www.cepeban.edu.pe" }],
+    links: [
+      { url: "https://www.cepeban.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   // {
   //   image: CESCA,
@@ -88,7 +103,14 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-    links: [{ url: "https://gamor.edu.pe" }],
+    links: [
+      { url: "https://gamor.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: CEVATUR,
@@ -103,7 +125,14 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-    links: [{ url: "http://cevaturperu.edu.pe" }],
+    links: [
+      { url: "http://cevaturperu.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: SanVicente,
@@ -118,7 +147,13 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-    links: [{}],
+    links: [
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: GALLIA,
@@ -134,7 +169,14 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-    links: [{ url: "https://dgallia.edu.pe" }],
+    links: [
+      { url: "https://dgallia.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: DanielCarrion,
@@ -152,7 +194,14 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-    links: [{ url: "https://www.acarrion.edu.pe" }],
+    links: [
+      { url: "https://www.acarrion.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: DesarrolloGeneral,
@@ -167,7 +216,14 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-    links: [{ url: "http://www.idg.edu.pe" }],
+    links: [
+      { url: "http://www.idg.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: ProfesionalTecnico,
@@ -182,7 +238,14 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-    links: [{ url: "http://www.idept.edu.pe" }],
+    links: [
+      { url: "http://www.idept.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: EscueladeGerencia,
@@ -196,7 +259,14 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-    links: [{ url: "https://portal.eiger.edu.pe" }],
+    links: [
+      { url: "https://portal.eiger.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: ImgInstAkrom,
@@ -210,7 +280,14 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-    links: [{ url: "https://www.uakron.edu/" }],
+    links: [
+      { url: "https://www.uakron.edu/" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: EUROIDIOMAS,
@@ -228,7 +305,14 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-    links: [{ url: "https://euroidiomas.edu.pe" }],
+    links: [
+      { url: "https://euroidiomas.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   // {
   //   image: HEADWAYCOLLEGE,
@@ -251,7 +335,14 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-    links: [{ url: "https://www.inteci.edu.pe" }],
+    links: [
+      { url: "https://www.inteci.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   // {
   //   image: LECTURAVELOZ,
@@ -286,7 +377,14 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-    links: [{ url: "https://www.inidhe.edu.pe/" }],
+    links: [
+      { url: "https://www.inidhe.edu.pe/" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: PRIVATECHER,
@@ -300,7 +398,14 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-    links: [{ url: "https://www.privateacher.edu.pe" }],
+    links: [
+      { url: "https://www.privateacher.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: ICPNA,
@@ -314,7 +419,14 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-    links: [{ url: "https://www.icpna.edu.pe" }],
+    links: [
+      { url: "https://www.icpna.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: BRITANICO,
@@ -328,7 +440,14 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-    links: [{ url: "https://www.britanico.edu.pe" }],
+    links: [
+      { url: "https://www.britanico.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: FORMACIONEMPRESARIAL,
@@ -343,7 +462,14 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-    links: [{ url: "https://ifeep.edu.pe" }],
+    links: [
+      { url: "https://ifeep.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: eigra,
@@ -357,7 +483,14 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-    links: [{ url: "https://www.eigra.edu.pe" }],
+    links: [
+      { url: "https://www.eigra.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: guide,
@@ -371,7 +504,14 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-    links: [{ url: "https://www.guideasesores.com/cursosmilitares/" }],
+    links: [
+      { url: "https://www.guideasesores.com/cursosmilitares/" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: ImgVonBraun,
@@ -385,7 +525,14 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-    links: [{ url: "https://istvonbraun.edu.pe/" }],
+    links: [
+      { url: "https://istvonbraun.edu.pe/" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: ImgEcaprev,
@@ -399,7 +546,14 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-    links: [{ url: "https://ecaprev.edu.pe" }],
+    links: [
+      { url: "https://ecaprev.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: ImgIspaci,
@@ -415,7 +569,14 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-    links: [{ url: "https://ispacj.com/" }],
+    links: [
+      { url: "https://ispacj.com/" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: ImgIcim,
@@ -429,7 +590,14 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-    links: [{ url: "https://www.icim.edu.pe/" }],
+    links: [
+      { url: "https://www.icim.edu.pe/" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: ImgAndreVesalio,
@@ -447,7 +615,14 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-    links: [{ url: "https://www.institutovesalio.edu.pe" }],
+    links: [
+      { url: "https://www.institutovesalio.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: ImgIsilInst,
@@ -461,7 +636,14 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-    links: [{ url: "https://isil.pe" }],
+    links: [
+      { url: "https://isil.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: ImgAlianzaFrancesa,
@@ -475,7 +657,14 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-    links: [{ url: "https://www.aflima.org.pe/" }],
+    links: [
+      { url: "https://www.aflima.org.pe/" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: ImgCibertec,
@@ -495,6 +684,13 @@ export const institutes = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-    links: [{ url: "https://www.cibertec.edu.pe/" }],
+    links: [
+      { url: "https://www.cibertec.edu.pe/" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
 ];

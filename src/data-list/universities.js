@@ -24,6 +24,7 @@ import {
   Norte,
 } from "../images";
 import { UniversityConventionPdf } from "../docs";
+import { faPaste } from "@fortawesome/free-solid-svg-icons";
 
 export const universities = [
   {
@@ -39,8 +40,11 @@ export const universities = [
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
     links: [
+      { url: "https://www.utp.edu.pe" },
       {
-        url: "https://www.utp.edu.pe",
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
       },
     ],
   },
@@ -65,7 +69,14 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
-    links: [{ url: "https://www.cientifica.edu.pe" }],
+    links: [
+      { url: "https://www.cientifica.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
 
   {
@@ -85,7 +96,14 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
-    links: [{ url: "https://www.ucv.edu.pe" }],
+    links: [
+      { url: "https://www.ucv.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: ImgEsan,
@@ -101,7 +119,14 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
-    links: [{ url: "https://www.ue.edu.pe" }],
+    links: [
+      { url: "https://www.ue.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: ImgFedericoVidarreal,
@@ -115,7 +140,14 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
-    links: [{ url: "http://www.unfv.edu.pe" }],
+    links: [
+      { url: "http://www.unfv.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: ImgJaimeBausate,
@@ -131,7 +163,14 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
-    links: [{ url: "http://bausate.edu.pe" }],
+    links: [
+      { url: "http://bausate.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: ImgMarcelinoChampagnat,
@@ -147,7 +186,14 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
-    links: [{ url: "https://umch.edu.pe" }],
+    links: [
+      { url: "https://umch.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: ImgNorbertWiener,
@@ -166,7 +212,14 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
-    links: [{ url: "https://www.uwiener.edu.pe" }],
+    links: [
+      { url: "https://www.uwiener.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: ImgRicardoPalma,
@@ -188,7 +241,14 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
-    links: [{ url: "https://www.urp.edu.pe" }],
+    links: [
+      { url: "https://www.urp.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: ImgSanIngnacioLoyola,
@@ -206,7 +266,14 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
-    links: [{ url: "https://usil.edu.pe" }],
+    links: [
+      { url: "https://usil.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: ImgSanJuanBautista,
@@ -229,7 +296,14 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
-    links: [{ url: "https://www.upsjb.edu.pe" }],
+    links: [
+      { url: "https://www.upsjb.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: ImgSanMartin,
@@ -250,7 +324,14 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
-    links: [{ url: "https://usmp.edu.pe" }],
+    links: [
+      { url: "https://usmp.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: ImgSanMarcos,
@@ -264,7 +345,14 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
-    links: [{ url: "https://economia.unmsm.edu.pe" }],
+    links: [
+      { url: "https://economia.unmsm.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: ImgSeniorSipan,
@@ -280,7 +368,14 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
-    links: [{ url: "https://www.uss.edu.pe" }],
+    links: [
+      { url: "https://www.uss.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: ImgUtp,
@@ -294,7 +389,14 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
-    links: [{ url: "https://www.utp.edu.pe" }],
+    links: [
+      { url: "https://www.utp.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: ImgCatolicaSede,
@@ -309,7 +411,14 @@ export const universities = [
       "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile: UniversityConventionPdf,
-    links: [{ url: "https://www.ucss.edu.pe" }],
+    links: [
+      { url: "https://www.ucss.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: ImgUnife,
@@ -338,7 +447,14 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
-    links: [{ url: "https://www.unife.edu.pe" }],
+    links: [
+      { url: "https://www.unife.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: Norte,
@@ -354,7 +470,14 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
-    links: [{ url: "https://www.upn.edu.pe" }],
+    links: [
+      { url: "https://www.upn.edu.pe" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: ImgConservatorio,
@@ -373,7 +496,14 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
-    links: [{ url: "http://www.unm.edu.pe/" }],
+    links: [
+      { url: "http://www.unm.edu.pe/" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     image: ImgUniContinental,
@@ -396,8 +526,11 @@ export const universities = [
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
     links: [
+      { url: "https://ucontinental.edu.pe/" },
       {
-        url: "https://ucontinental.edu.pe/",
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
       },
     ],
   },
@@ -414,7 +547,14 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
-    links: [{ url: "https://www.up.edu.pe/" }],
+    links: [
+      { url: "https://www.up.edu.pe/" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   // {
   //   image: ImgUniAnahuaca,
@@ -447,6 +587,13 @@ export const universities = [
       "Alcance:",
       "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuges e hijos); tropa servicio militar en actividad, licenciados.\n",
     ],
+    links: [
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
   {
     title: "Anáhuac Cancún",
@@ -463,6 +610,13 @@ export const universities = [
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
-    links: [{ url: "https://www.anahuac.mx/" }],
+    links: [
+      { url: "https://www.anahuac.mx/" },
+      {
+        url: "https://tramites.cobiene.mil.pe/",
+        text: "Solicita tu convenio SITRACON",
+        icon: faPaste,
+      },
+    ],
   },
 ];

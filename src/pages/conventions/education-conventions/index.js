@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Title } from "../../../components/public";
+import { Button, NavigateGoToLink, Title } from "../../../components/public";
 import { useNavigate } from "react-router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faList } from "@fortawesome/free-solid-svg-icons";
@@ -26,6 +26,12 @@ export const EducationConventions = () => {
         }
       >
         Institutos
+      </Button>
+      <Button
+        width="100%"
+        onClick={() => NavigateGoToLink("https://tramites.cobiene.mil.pe/")}
+      >
+        Solicitudes de convenios
       </Button>
 
       <div className="list-convenios">

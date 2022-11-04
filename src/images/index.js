@@ -389,3 +389,15 @@ export { default as BankInterbank } from "./others/bank5.webp";
 export { default as BankPichincha } from "./others/bank-pichincha.webp";
 
 export { default as ImgDefault } from "./others/loader.gif";
+
+//-----------International Conventions-----
+export { default as ArgentinaBandera } from "./international/argentinabandera.webp";
+export { default as BrasilBandera } from "./international/brasilbandera.webp";
+export { default as ChileBandera } from "./international/chilebandera.webp";
+export { default as ColombianaBandera } from "./international/colombiabandera.webp";
+export { default as CoreaBandera } from "./international/coreabandera.webp";
+export { default as EspanaBandera } from "./international/espanabandera.webp";
+export { default as FranciaBandera } from "./international/franciabandera.webp";
+export { default as MexicoBandera } from "./international/mexicobandera.webp";
+export { default as BoliviaBandera } from "./international/bolivia.webp";
+export { default as EcuadorBandera } from "./international/ecuador.webp";

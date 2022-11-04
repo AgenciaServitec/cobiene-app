@@ -332,7 +332,7 @@ export const institutes = [
   },
   {
     image: FORMACIONEMPRESARIAL,
-    title: "INST.DEFORMACION EMPRESARIAL",
+    title: "INST.DE FORMACIÓN EMPRESARIAL",
     benefits: [
       "PROGRAMAS DE FORMACIÓN:\n",
       "37.7%  de descuento en pensiones en programas de (Ofimática, Inglés, excel en la modalidad On Line)\n",

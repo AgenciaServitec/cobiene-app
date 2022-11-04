@@ -31,7 +31,7 @@ export const EducationConventions = () => {
         width="100%"
         onClick={() => NavigateGoToLink("https://tramites.cobiene.mil.pe/")}
       >
-        Solicitudes de convenios
+        Solicita tu convenio SITRACON
       </Button>
 
       <div className="list-convenios">

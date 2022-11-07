@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, InitialContent, SortWords } from "../../../components/public";
+import { Button, InitialContent } from "../../../components/public";
 import { useNavigate } from "react-router";
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -9,6 +9,7 @@ export const ConventionMultiServices = () => {
   const navigate = useNavigate();
 
   const listButtons = [
+    { title: "ASESORÍA LEGAL", url: "/page-default" },
     {
       title: "EMPRESAS",
       url: "/conventions/companies",
@@ -18,8 +19,8 @@ export const ConventionMultiServices = () => {
       url: "/conventions/financials",
     },
     {
-      title: "BANCOS",
-      url: "/conventions/banks",
+      title: "HOTELES",
+      url: "/conventions/hotels",
     },
     {
       title: "SALUD",
@@ -30,14 +31,6 @@ export const ConventionMultiServices = () => {
       url: "/conventions/health/life-insurance",
     },
     {
-      title: "TRANSPORTES",
-      url: "/conventions/transportations",
-    },
-    {
-      title: "HOTELES",
-      url: "/conventions/hotels",
-    },
-    {
       title: "RESTAURANTES",
       url: "/conventions/convention-multiservices/lima-restaurants",
     },
@@ -45,10 +38,16 @@ export const ConventionMultiServices = () => {
       title: "TECNOLOGÍA",
       url: "/conventions/technology",
     },
-    { title: "ASESORÍA LEGAL", url: "/page-default" },
+    {
+      title: "TRANSPORTES",
+      url: "/conventions/transportations",
+    },
+    {
+      title: "BANCOS",
+      url: "/conventions/banks",
+    },
   ];
 
-  SortWords(listButtons);
   return (
     <Container>
       <InitialContent title="Convenios Multiservicios" />

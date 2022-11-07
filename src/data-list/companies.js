@@ -717,4 +717,21 @@ export const companies = [
       "- Las reservas deberán ser realizadas a través de central de reservas <a href='tel:016195200' target='_blank'>016195200</a> whatsapp <a href='https://wa.me/989468821' target='_blank'>989468821</a> y mediante correo electrónico <a href='reservas@hotelcarrera.com.pe' target='_blank'>reservas@hotelcarrera.com.pe</a>",
     ],
   },
+  {
+    type: "restaurant",
+    title: "Gruarguero",
+    benefits: [
+      "ALCANCE DEL CONVENIO:",
+      "Dirigido al personal militar y civil en actividad y retiro así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados.",
+      "FORMA DE CREDITACIÓN:",
+      "a)\tPresentación del carnet de identificación personal militar o civil CIP\n",
+      "b)\tPresentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).\n",
+      "c)\tPara el caso de familiares directos, que no posean el Carnet de Identidad \tFamiliar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.\n",
+      "BENEFICIO:",
+      "-\t20% de descuento sobre el valor total sobre alimentos y bebidas  al momento del pago. \n",
+      "-\tNo valido para promociones ni acumulables\n",
+      "-\tUna bebida de cortesía, wellcome drink, pisco sour por su primera visita y única vez.\n",
+      "-\t20% de descuento a los que soliciten reserva de los ambientes privados, de la carta de acuerdo a disponibilidad y previo requerimiento mediante comunicación al correo <a href='mailto:administracion@guarguero.com'>administracion@guarguero.com</a>.",
+    ],
+  },
 ];

@@ -1,15 +1,18 @@
 import React from "react";
-import { InitialContent } from "../../../../components/public";
-import { CobieneLogo } from "../../../../images";
+import {
+  CollapseWithButtons,
+  InitialContent,
+} from "../../../../components/public";
+import { companies } from "../../../../data-list";
 
 export const LimaRestaurants = () => {
+  const restaurants = companies.filter((comp) => comp.type === "restaurant");
+
   return (
     <>
-      <InitialContent
-        title="Estamos trabajando por el bienestar."
-        img={CobieneLogo}
-      />
-      <InitialContent title="Proximamente" />
+      <InitialContent title="Restaurantes" />
+
+      <CollapseWithButtons dataLists={restaurants} />
     </>
   );
 };

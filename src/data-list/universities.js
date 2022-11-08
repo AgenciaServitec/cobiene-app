@@ -158,7 +158,7 @@ export const universities = [
       "POSGRADO \n",
       "20 % de descuento sobre el costo de la pensión en enseñanza de posgrado, diplomados y curso de proyección social.\n",
       "ALCANCE:",
-      "personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos)\n",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como a familiares directos (cónyuge, hijos y hermanos)\n",
       "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
     ],
     urlFile:

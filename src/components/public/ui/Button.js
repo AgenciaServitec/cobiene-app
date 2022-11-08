@@ -36,6 +36,7 @@ export const Button = ({
   position = "initial",
   opacity = "0.8",
   block = false,
+  textTransform = "capitalize",
 
   loading,
   disabled = false,
@@ -65,6 +66,7 @@ export const Button = ({
       position={position}
       opacity={opacity}
       icon={icon}
+      textTransform={textTransform}
     >
       {children}
     </ItemButtonAntd>
@@ -75,7 +77,7 @@ const ItemButtonAntd = styled(ButtonAntd)`
   width: ${({ width, block }) => (block ? "100%" : width)};
   height: ${({ height }) => height};
   word-break: ${({ wordBreak }) => wordBreak};
-  text-transform: capitalize;
+  text-transform: ${({ textTransform }) => textTransform};
   background: ${({ background }) => background};
   color: ${({ color }) => color};
   border-width: 1px;

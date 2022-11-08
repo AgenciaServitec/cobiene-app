@@ -18,7 +18,7 @@ export const Conventions = () => {
           <img src={ImgLogoConvention2} alt="convenios" />
         </div>
         <Title>
-          Convenios Vigentes con Entidades Educativas y Empresas Privadas
+          Convenios vigentes con entidades educativas y empresas privadas
         </Title>
         <Text>
           El Comando de Bienestar del Ejército ha suscrito convenios con

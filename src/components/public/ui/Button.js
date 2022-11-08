@@ -36,7 +36,7 @@ export const Button = ({
   position = "initial",
   opacity = "0.8",
   block = false,
-  textTransform = "capitalize",
+  textTransform = "none",
 
   loading,
   disabled = false,

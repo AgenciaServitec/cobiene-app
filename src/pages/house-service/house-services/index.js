@@ -76,7 +76,7 @@ export const HouseServices = () => {
           )
         }
       >
-        Requisito para acceder sirecase
+        Requisito para acceder SIRECASE
       </Button>
       <Button
         width="100%"
@@ -92,7 +92,7 @@ export const HouseServices = () => {
         width="100%"
         onClick={() => NavigateGoToLink("https://ws.ejercito.mil.pe/sirecase")}
       >
-        Sistema de registro de casas del ejercito
+        Sistema de registro de casas del ejército
       </Button>
     </Container>
   );

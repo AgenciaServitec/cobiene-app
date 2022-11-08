@@ -133,7 +133,7 @@ export const universities = [
     title: "FEDERICO VILLARREAL",
     benefits: [
       "POS GRADO:",
-      "25 % de descuento en matrícula y pensiones en los diferentes  maestrías y doctorados",
+      "25 % de descuento en matrícula y pensiones en las diferentes  maestrías y doctorados",
       "ALCANCE:",
       "Personal militar en actividad",
       "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
@@ -400,7 +400,7 @@ export const universities = [
   },
   {
     image: ImgCatolicaSede,
-    title: "CATOLICA SEDE SAPIENTIAE",
+    title: "CATÓLICA SEDE SAPIENTIAE",
     benefits: [
       "PREGRADO: \n",
       "Costos diferenciados en pensiones en las distintas carreras profesionales  \n",

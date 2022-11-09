@@ -1,0 +1,47 @@
+import React from "react";
+import { useParams } from "react-router";
+import {
+  CollapseWithButtons,
+  InitialContent,
+} from "../../../../../components/public";
+import { companies } from "../../../../../data-list";
+import { CobieneLogo } from "../../../../../images";
+
+export const Service = () => {
+  const { service } = useParams();
+
+  const listTitles = [
+    {
+      title: "Comida Peruana",
+      serviceUrl: "peruvianFood",
+    },
+    {
+      title: "Chifa",
+      serviceUrl: "chifa",
+    },
+  ];
+
+  const titleFilter = listTitles.filter((list) => list.serviceUrl === service);
+
+  const company = companies.filter((comp) => comp.type === service);
+
+  return (
+    <>
+      {titleFilter.map(({ title }, index) => (
+        <InitialContent key={index} title={title ? title : "No hay titulo"} />
+      ))}
+
+      {company.length >= 1 ? (
+        <CollapseWithButtons dataLists={company} />
+      ) : (
+        <div>
+          <InitialContent
+            img={CobieneLogo}
+            title="Estamos trabajando por el bienestar"
+          />
+          <InitialContent title="Proximamente..." />
+        </div>
+      )}
+    </>
+  );
+};

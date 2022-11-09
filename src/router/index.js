@@ -323,15 +323,6 @@ export const Router = () => {
       />
       <Route
         exact
-        path="/conventions/convention-multiservices/lima-restaurants"
-        element={
-          <BaseLayout>
-            <LimaRestaurants />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
         path="/conventions/convention-province"
         element={
           <BaseLayout>

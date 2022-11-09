@@ -38,7 +38,7 @@ export const Conventions = () => {
 
       <Button
         width="100%"
-        onClick={() => navigate("/conventions/convention-multiservices")}
+        onClick={() => navigate("/conventions/multi-service")}
       >
         CONVENIOS - MULTISERVICIOS
       </Button>

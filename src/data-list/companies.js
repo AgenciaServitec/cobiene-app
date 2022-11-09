@@ -718,7 +718,8 @@ export const companies = [
     ],
   },
   {
-    type: "restaurant",
+    type: "peruvianFood",
+    service: "restaurant",
     title: "Gruarguero",
     benefits: [
       "ALCANCE DEL CONVENIO:",

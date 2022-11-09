@@ -70,6 +70,9 @@ import {
   TumbesTransports,
   TumbesRestaurants,
   TumbesHotels,
+  MultiService,
+  ServiceType,
+  Service,
 } from "../pages";
 
 export const Router = () => {
@@ -288,6 +291,33 @@ export const Router = () => {
         element={
           <BaseLayout>
             <ConventionMultiServices />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/multi-service"
+        element={
+          <BaseLayout>
+            <MultiService />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/multi-service/:typeService"
+        element={
+          <BaseLayout>
+            <ServiceType />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/multi-service/:typeService/:service"
+        element={
+          <BaseLayout>
+            <Service />
           </BaseLayout>
         }
       />

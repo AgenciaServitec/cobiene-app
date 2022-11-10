@@ -3,37 +3,33 @@ import { BaseLayout } from "../components/public";
 import {
   AboutAs,
   Arequipa,
-  Banks,
+  Ayacucho,
   Bazar,
-  Clinics,
-  CommercialShop,
-  Companies,
+  Chiclayo,
+  CompaniesChiclayo,
   ConventionInternational,
-  ConventionMultiServices,
   ConventionProvince,
   Conventions,
   DisabledSupport,
   EconomicalSupport,
   Education,
   EducationConventions,
-  Financials,
   FormalitiesFuneralFund,
   FuneralFund,
-  Gym,
-  Health,
+  HealthArequipa,
+  HealthChiclayo,
   HealthTacna,
   Home,
-  Hotels,
+  HotelsChiclayo,
   HotelsPiura,
   HotelsTacna,
   HouseService,
   HouseServices,
+  Huancayo,
   Institutes,
-  Laboratories,
-  LifeInsurance,
   LimaInstitutes,
-  LimaRestaurants,
   MilitaryCircle,
+  MultiService,
   News,
   OfficersCircle,
   Page404,
@@ -48,31 +44,22 @@ import {
   RestaurantsPiura,
   RestaurantsTacna,
   Samsung,
+  Service,
   ServiceSocial,
+  ServiceType,
   ServitecPage,
   SocialEconomicSupport,
   Tacna,
   TechniciansCircle,
   Technology,
-  Transportations,
-  Universities,
-  HealthArequipa,
-  Ayacucho,
-  Chiclayo,
-  HealthChiclayo,
-  HotelsChiclayo,
-  CompaniesChiclayo,
-  Huancayo,
   Trujillo,
   TrujilloHotels,
   TrujilloRestaurants,
   Tumbes,
-  TumbesTransports,
-  TumbesRestaurants,
   TumbesHotels,
-  MultiService,
-  ServiceType,
-  Service,
+  TumbesRestaurants,
+  TumbesTransports,
+  Universities,
 } from "../pages";
 
 export const Router = () => {
@@ -134,105 +121,6 @@ export const Router = () => {
       />
       <Route
         exact
-        path="/conventions/companies"
-        element={
-          <BaseLayout>
-            <Companies />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/companies/commercial-shop"
-        element={
-          <BaseLayout>
-            <CommercialShop />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/companies/gym"
-        element={
-          <BaseLayout>
-            <Gym />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/banks"
-        element={
-          <BaseLayout>
-            <Banks />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/transportations"
-        element={
-          <BaseLayout>
-            <Transportations />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/hotels"
-        element={
-          <BaseLayout>
-            <Hotels />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/health"
-        element={
-          <BaseLayout>
-            <Health />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/health/laboratories"
-        element={
-          <BaseLayout>
-            <Laboratories />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/health/clinics"
-        element={
-          <BaseLayout>
-            <Clinics />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/health/life-insurance"
-        element={
-          <BaseLayout>
-            <LifeInsurance />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/financials"
-        element={
-          <BaseLayout>
-            <Financials />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
         path="/conventions/technology"
         element={
           <BaseLayout>
@@ -282,15 +170,6 @@ export const Router = () => {
         element={
           <BaseLayout>
             <Institutes />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/convention-multiservices"
-        element={
-          <BaseLayout>
-            <ConventionMultiServices />
           </BaseLayout>
         }
       />

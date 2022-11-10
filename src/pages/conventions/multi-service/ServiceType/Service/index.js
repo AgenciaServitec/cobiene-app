@@ -12,12 +12,28 @@ export const Service = () => {
 
   const listTitles = [
     {
-      title: "Comida Peruana",
+      title: "Comida peruana",
       serviceUrl: "peruvianFood",
     },
     {
       title: "Chifa",
       serviceUrl: "chifa",
+    },
+    {
+      title: "Tiendas comerciales",
+      serviceUrl: "commercialShop",
+    },
+    {
+      title: "Gimnasio",
+      serviceUrl: "gym",
+    },
+    {
+      title: "Laboratorios",
+      serviceUrl: "laboratory",
+    },
+    {
+      title: "Entidades médicas",
+      serviceUrl: "clinic",
     },
   ];
 
@@ -34,13 +50,13 @@ export const Service = () => {
       {company.length >= 1 ? (
         <CollapseWithButtons dataLists={company} />
       ) : (
-        <div>
+        <>
           <InitialContent
             img={CobieneLogo}
             title="Estamos trabajando por el bienestar"
           />
           <InitialContent title="Proximamente..." />
-        </div>
+        </>
       )}
     </>
   );

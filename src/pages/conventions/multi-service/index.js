@@ -12,23 +12,23 @@ export const MultiService = () => {
     { title: "ASESORÍA LEGAL", url: "/page-default" },
     {
       title: "EMPRESAS",
-      url: "/conventions/companies",
+      url: "/conventions/multi-service/companies",
     },
     {
       title: "FINANCIERAS",
-      url: "/conventions/financials",
+      url: "/conventions/multi-service/financials",
     },
     {
       title: "HOTELES",
-      url: "/conventions/hotels",
+      url: "/conventions/multi-service/hotel",
     },
     {
       title: "SALUD",
-      url: "/conventions/health",
+      url: "/conventions/multi-service/health",
     },
     {
       title: "SEGUROS",
-      url: "/conventions/health/life-insurance",
+      url: "/conventions/multi-service/life-insurance",
     },
     {
       title: "RESTAURANTES",
@@ -40,11 +40,11 @@ export const MultiService = () => {
     },
     {
       title: "TRANSPORTES",
-      url: "/conventions/transportations",
+      url: "/conventions/multi-service/transport",
     },
     {
       title: "BANCOS",
-      url: "/conventions/banks",
+      url: "/conventions/multi-service/banks",
     },
   ];
 

@@ -1,9 +1,14 @@
 import {
+  BankComercio,
+  BankContinental,
+  BankGnb,
+  BankInterbank,
+  BankPichincha,
+  BankScotiabank,
   CobieneLogo,
   ImgApelac,
   ImgBiolinks,
   ImgCasaAndina,
-  ImgClinicAuna,
   ImgCostaSol,
   ImgEfectiva,
   ImgFinantel,
@@ -13,7 +18,6 @@ import {
   ImgLaPositiva,
   ImgLaPositivaVida,
   ImgLazzosComerciales,
-  ImgLogistas,
   ImgMedifon,
   ImgMovilBus,
   ImgMultident,
@@ -23,7 +27,6 @@ import {
   ImgRimacSeguros,
   ImgSmartFit,
   ImgStoreServitec,
-  ImgSugo,
   ImgTinnitus,
   ImgUnilabs,
   ImgVizzano,
@@ -32,17 +35,18 @@ import {
   Servitec,
 } from "../images";
 import {
+  faBuilding,
   faEnvelope,
   faFile,
-  faPhone,
   faLink,
-  faBuilding,
+  faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 export const companies = [
   {
     type: "laboratory",
+    service: "health",
     image: ImgInppares,
     title: "Lab. INPPARES",
     benefits: [
@@ -69,6 +73,7 @@ export const companies = [
 
   {
     type: "clinic",
+    service: "health",
     image: ImgMedifon,
     title: "MEDIFON",
     benefits: [
@@ -102,6 +107,7 @@ export const companies = [
 
   {
     type: "laboratory",
+    service: "health",
     image: ImgBiolinks,
     title: "LAB. 'BIOLINKS'",
     benefits: [
@@ -146,6 +152,7 @@ export const companies = [
 
   {
     type: "laboratory",
+    service: "health",
     image: ImgUnilabs,
     title: "Lab. UNILABS",
     benefits: [
@@ -200,8 +207,29 @@ export const companies = [
       { url: "https://www.oltursa.pe" },
     ],
   },
+
   {
-    type: "commercial-shop",
+    type: "clinic",
+    service: "health",
+    image: ImgTinnitus,
+    title: "TINNITUS",
+    benefits: [
+      "ALCANCE DEL CONVENIO:\n",
+      "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.\n",
+      "FORMA DE ACREDITACIÓN:\n",
+      "Presentación del carnet de identificación personal militar o civil CIP\n",
+      "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).\n",
+      "BENEFICIO \n",
+      "Consultas e informes a través del celular y WhatsApp: 980688232, así como correo electrónico comercial@grupoinfinitech.com y presencial en la Av. Canadá Nº 3630, consultorio 205 San Borja en todos sus servicios, procedimientos y dispositivos médicos auditivos ofrecidos.  \n",
+      "Descuento del 30% en audífonos medicados programables que comercialice la empresa.\n",
+      "Gratis Kit de limpieza por la compra de audífonos medicados. \n",
+      "Descuento del 20% de en servicios de audiología, psicología nutrición.\n",
+    ],
+    links: [{ url: "http://tinnitusperu.com" }],
+  },
+  {
+    type: "commercialShop",
+    service: "companies",
     image: ImgFootloose,
     title: "Calzado FOOTLOOSE",
     benefits: [
@@ -227,25 +255,35 @@ export const companies = [
     ],
   },
   {
-    type: "clinic",
-    image: ImgTinnitus,
-    title: "TINNITUS",
+    type: "commercialShop",
+    service: "companies",
+    image: ImgVizzano,
+    title: "CALZADO VIZZANO",
     benefits: [
       "ALCANCE DEL CONVENIO:\n",
-      "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.\n",
+      "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres); debidamente acreditados.\n",
       "FORMA DE ACREDITACIÓN:\n",
-      "Presentación del carnet de identificación personal militar o civil CIP\n",
-      "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).\n",
+      "a)\tPresentación del carnet de identificación personal militar o civil CIP\n",
+      "b)\tPresentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).\n",
       "BENEFICIO \n",
-      "Consultas e informes a través del celular y WhatsApp: 980688232, así como correo electrónico comercial@grupoinfinitech.com y presencial en la Av. Canadá Nº 3630, consultorio 205 San Borja en todos sus servicios, procedimientos y dispositivos médicos auditivos ofrecidos.  \n",
-      "Descuento del 30% en audífonos medicados programables que comercialice la empresa.\n",
-      "Gratis Kit de limpieza por la compra de audífonos medicados. \n",
-      "Descuento del 20% de en servicios de audiología, psicología nutrición.\n",
+      "a)\tCompras presenciales, solo en tiendas propias. \n",
+      "b)\tAplica para compras en tienda virtual, mediante el uso del cupón al momento de hacer el pago\n",
+      `<a href="https://www.mossashoes.com/" target="_blank">https://www.mossashoes.com/</a>`,
+      "\tCupón MOSSAEJE20\n",
+      "c)\tDescuento del 20% en marcas propias \n",
+      "d)\tDescuento del 20% en todas marcas diferentes.\n",
     ],
-    links: [{ url: "http://tinnitusperu.com" }],
+    links: [
+      {
+        url: "https://drive.google.com/file/d/1T_a8CfUiAOElAIivhkejrIpFXFuWUwSL/view?usp=sharing",
+        icon: faLink,
+        text: "Detalles del convenio",
+      },
+    ],
   },
   {
-    type: "commercial-shop",
+    type: "commercialShop",
+    service: "companies",
     image: ImgRenzoCosta,
     title: "RENZO COSTA",
     benefits: [
@@ -281,6 +319,7 @@ export const companies = [
   },
   {
     type: "clinic",
+    service: "health",
     image: ImgMultident,
     title: "MULTIDENT",
     benefits: [
@@ -337,6 +376,7 @@ export const companies = [
   },
   {
     type: "gym",
+    service: "companies",
     image: ImgSmartFit,
     title: "Smart Fit",
     benefits: [
@@ -368,6 +408,7 @@ export const companies = [
   },
   {
     type: "clinic",
+    service: "health",
     image: ImgApelac,
     title: "Apeplac",
     benefits: [
@@ -391,44 +432,15 @@ export const companies = [
       },
     ],
   },
-  // {
-  //   type: "commercial-shop",
-  //   image: ImgLogistas,
-  //   title: "Logistas",
-  //   benefits: [
-  //     "•\tSERVICIOS DE MANTENIMIENTO VEHICULAR CORRECTIVOS\n",
-  //     "COSTOS DIFERENCIADOS DE LA TARIFA REGULAR, SEGÚN TARIFARIO",
-  //     "BENEFICIARIOS:",
-  //     "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES  Y FAMILIARES DIRECTOS",
-  //   ],
-  //   links: [{}],
-  // },
-  // {
-  //   type: "commercial-shop",
-  //   image: ImgSugo,
-  //   title: "Sugo",
-  //   benefits: [
-  //     "COMPRAS EN LINEA EN SUS PLATAFORMAS DE CONSUMO SOSTENIBLE HASTA EL 50% DE DESCUENTO DEL PRECIO DEL MERCADO",
-  //     "ALCANCE:",
-  //     "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS PERSONAL CIVIL (CÓNYUGUES, HIJOS, PADRES )",
-  //   ],
-  // },
-  // {
-  //   type: "clinic",
-  //   image: ImgClinicAuna,
-  //   title: "Clínica Auna",
-  //   benefits: ["POR FIRMAR"],
-  //   links: [{ url: "https://auna.pe/conocenos/" }],
-  // },
   {
-    type: "financial",
+    type: "financials",
     image: ImgEfectiva,
     title: "Financ. Efectiva",
     benefits: ["POR FIRMAR"],
     links: [{ url: "https://www.efectiva.com.pe/" }],
   },
   {
-    type: "financial",
+    type: "financials",
     image: ImgFinantel,
     title: "Financ. Finantel",
     benefits: [
@@ -441,7 +453,7 @@ export const companies = [
     links: [{ url: "https://www.finantel.pe/" }],
   },
   {
-    type: "financial",
+    type: "financials",
     image: ImgRehabilitadora,
     title: "FINANC. LA REHABILITADORA",
     benefits: [
@@ -548,36 +560,11 @@ export const companies = [
   },
   {
     type: "laboratory",
+    service: "health",
     image: ImgLabRoe,
     title: "Lab. Roe",
     benefits: ["Por Firmar"],
     links: [{ url: "https://www.labroe.com/" }],
-  },
-  {
-    type: "commercial-shop",
-    image: ImgVizzano,
-    title: "CALZADO VIZZANO",
-    benefits: [
-      "ALCANCE DEL CONVENIO:\n",
-      "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres); debidamente acreditados.\n",
-      "FORMA DE ACREDITACIÓN:\n",
-      "a)\tPresentación del carnet de identificación personal militar o civil CIP\n",
-      "b)\tPresentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).\n",
-      "BENEFICIO \n",
-      "a)\tCompras presenciales, solo en tiendas propias. \n",
-      "b)\tAplica para compras en tienda virtual, mediante el uso del cupón al momento de hacer el pago\n",
-      `<a href="https://www.mossashoes.com/" target="_blank">https://www.mossashoes.com/</a>`,
-      "\tCupón MOSSAEJE20\n",
-      "c)\tDescuento del 20% en marcas propias \n",
-      "d)\tDescuento del 20% en todas marcas diferentes.\n",
-    ],
-    links: [
-      {
-        url: "https://drive.google.com/file/d/1T_a8CfUiAOElAIivhkejrIpFXFuWUwSL/view?usp=sharing",
-        icon: faLink,
-        text: "Detalles del convenio",
-      },
-    ],
   },
   {
     type: "technology",
@@ -1061,5 +1048,80 @@ export const companies = [
       "REQUISITOS:",
       "Personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres); debidamente acreditados.",
     ],
+  },
+  {
+    type: "banks",
+    image: BankScotiabank,
+    title: "BCO. SCOTIABANK",
+    benefits: [
+      "ALCANCE DEL CONVENIO\n",
+      "Dirigido al personal militar en situación de actividad o retiro y al personal civil en actividad o cesante\n",
+      "TASA DE INTERES ANUAL\n",
+      "Hasta 16% desde 06 hasta 72 meses\n",
+      "Según campañas impulsadas por el banco\n",
+    ],
+    links: [{ url: "https://www.scotiabank.com.pe" }],
+  },
+  {
+    type: "banks",
+    image: BankComercio,
+    title: "BCO. COMERCIO",
+    benefits: [
+      "ALCANCE DEL CONVENIO:",
+      "Dirigido al personal militar en situación de actividad o retiro y personal civil en situación de actividad o cesante.",
+      "EDAD PARA ACCEDER AL PRESTAMO:",
+      " - MINIMA 18 AÑOS",
+      " - MAXIMA 69 AÑOS 11 MESES",
+      "TASA DE INTERES EFECTIVA ANUAL: ",
+      "14.5 %.",
+      "Campañas impulsadas por el banco según el análisis del mercado",
+    ],
+    links: [{ url: "https://www.bancomercio.com" }],
+  },
+  {
+    type: "banks",
+    image: BankGnb,
+    title: "BCO. GNB ",
+    benefits: [
+      "ALCANCE DEL CONVENIO\n",
+      "Dirigido al personal militar en situación de actividad o retiro y personal civil en situación de actividad y cesante\n",
+      "TASA DE INTERES EFECTIVA ANUAL\n",
+      "Clasificación SBS Normal hasta 15.0% desde 06 meses hasta 72 meses\n",
+      "Clasificación SBS CPP 16.0% desde 06 meses hasta 72 meses\n",
+      "Campañas impulsadas por el banco según el análisis del mercado\n",
+    ],
+    links: [{ url: "https://www.bancognb.com.pe" }],
+  },
+  {
+    type: "banks",
+    image: BankContinental,
+    title: "BCO. CONTINENTAL  ",
+    benefits: ["POR FIRMAR"],
+  },
+  {
+    type: "banks",
+    image: BankInterbank,
+    title: "BCO. INTERBANK",
+    benefits: [
+      "ALCANCE DEL CONVENIO\n",
+      "Dirigido al personal militar en situación de actividad o retiro y al personal civil en actividad o cesante\n",
+      "TASA DE INTERES ANUAL\n",
+      "Hasta 19.5% desde 06 hasta 72 meses\n",
+      "Campañas impulsadas por el banco según análisis del mercado\n",
+    ],
+    links: [{ url: "https://interbank.pe" }],
+  },
+  {
+    type: "banks",
+    image: BankPichincha,
+    title: "BCO. PICHINCHA",
+    benefits: [
+      "ALCANCE DEL CONVENIO\n",
+      "Dirigido al personal militar en situación de actividad o retiro y al personal civil en actividad o cesante\n",
+      "TASA DE INTERES ANUAL\n",
+      "Clasificación SBS normal Hasta 14% desde 06 hasta 72 meses\n",
+      "Campañas impulsadas por el banco de acuerdo al análisis del mercado\n",
+    ],
+    links: [{}],
   },
 ];

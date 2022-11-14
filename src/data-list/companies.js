@@ -707,7 +707,7 @@ export const companies = [
   {
     type: "peruvianFood",
     service: "restaurants",
-    title: "Gruarguero",
+    title: "Guargüero",
     benefits: [
       "ALCANCE DEL CONVENIO:",
       "Dirigido al personal militar y civil en actividad y retiro así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados.",

@@ -39,6 +39,7 @@ import {
   faEnvelope,
   faFile,
   faLink,
+  faLocationDot,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
@@ -720,7 +721,14 @@ export const companies = [
       "-\tNo valido para promociones ni acumulables\n",
       "-\tUna bebida de cortesía, wellcome drink, pisco sour por su primera visita y única vez.\n",
       "-\t20% de descuento a los que soliciten reserva de los ambientes privados, de la carta de acuerdo a disponibilidad y previo requerimiento mediante comunicación al correo <a href='mailto:administracion@guarguero.com'>administracion@guarguero.com</a>.",
-      "<a href='https://guarguero.com/\nhttps://guarguero.com/'>Av. la Paz 1025, Miraflores, Lima</a>",
+    ],
+    links: [
+      { url: "https://guarguero.com" },
+      {
+        url: "https://goo.gl/maps/M12KqSFF58RXGriD8",
+        text: "Av. la Paz 1025, Miraflores, Lima",
+        icon: faLocationDot,
+      },
     ],
   },
   {

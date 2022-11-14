@@ -36,8 +36,10 @@ import {
   PageDefault,
   PiuraSullana,
   PoliciesAndPrivacy,
-  PreAcademies,
+  Province,
   ProvinceInstitutes,
+  Provinces,
+  ProvinceService,
   Puno,
   ReligiousService,
   RestaurantsArequipa,
@@ -107,15 +109,6 @@ export const Router = () => {
         element={
           <BaseLayout>
             <Conventions />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/pre-academies"
-        element={
-          <BaseLayout>
-            <PreAcademies />
           </BaseLayout>
         }
       />
@@ -197,6 +190,33 @@ export const Router = () => {
         element={
           <BaseLayout>
             <Service />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/provinces"
+        element={
+          <BaseLayout>
+            <Provinces />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/provinces/:provinceId"
+        element={
+          <BaseLayout>
+            <Province />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/provinces/:provinceId/:provinceService"
+        element={
+          <BaseLayout>
+            <ProvinceService />
           </BaseLayout>
         }
       />

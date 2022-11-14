@@ -136,7 +136,7 @@ export const conventionProvincies = [
   },
   {
     province: "arequipa",
-    type: "restaurant",
+    type: "cake-shop",
     title: "PASTELERIA MOCCA",
     benefits: [
       "15% DE DESCUENTO CON LA PRESENTACIÓN DE SU CIP",

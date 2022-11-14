@@ -42,10 +42,7 @@ export const Conventions = () => {
       >
         CONVENIOS - MULTISERVICIOS
       </Button>
-      <Button
-        width="100%"
-        onClick={() => navigate("/conventions/convention-province")}
-      >
+      <Button width="100%" onClick={() => navigate("/conventions/provinces")}>
         CONVENIOS - PROVINCIAS
       </Button>
       <Button

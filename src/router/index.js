@@ -2,13 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import { BaseLayout } from "../components/public";
 import {
   AboutAs,
-  Arequipa,
-  Ayacucho,
   Bazar,
-  Chiclayo,
-  CompaniesChiclayo,
-  ConventionInternational,
-  ConventionProvince,
   Conventions,
   DisabledSupport,
   EconomicalSupport,
@@ -16,16 +10,9 @@ import {
   EducationConventions,
   FormalitiesFuneralFund,
   FuneralFund,
-  HealthArequipa,
-  HealthChiclayo,
-  HealthTacna,
   Home,
-  HotelsChiclayo,
-  HotelsPiura,
-  HotelsTacna,
   HouseService,
   HouseServices,
-  Huancayo,
   Institutes,
   LimaInstitutes,
   MilitaryCircle,
@@ -34,33 +21,20 @@ import {
   OfficersCircle,
   Page404,
   PageDefault,
-  PiuraSullana,
   PoliciesAndPrivacy,
   Province,
   ProvinceInstitutes,
   Provinces,
   ProvinceService,
-  Puno,
   ReligiousService,
-  RestaurantsArequipa,
-  RestaurantsPiura,
-  RestaurantsTacna,
   Samsung,
   Service,
   ServiceSocial,
   ServiceType,
   ServitecPage,
   SocialEconomicSupport,
-  Tacna,
   TechniciansCircle,
   Technology,
-  Trujillo,
-  TrujilloHotels,
-  TrujilloRestaurants,
-  Tumbes,
-  TumbesHotels,
-  TumbesRestaurants,
-  TumbesTransports,
   Universities,
 } from "../pages";
 
@@ -217,240 +191,6 @@ export const Router = () => {
         element={
           <BaseLayout>
             <ProvinceService />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/convention-province"
-        element={
-          <BaseLayout>
-            <ConventionProvince />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/convention-province/piura-sullana"
-        element={
-          <BaseLayout>
-            <PiuraSullana />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/convention-province/piura-sullana/hotels"
-        element={
-          <BaseLayout>
-            <HotelsPiura />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/convention-province/piura-sullana/restaurants"
-        element={
-          <BaseLayout>
-            <RestaurantsPiura />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/convention-province/tacna"
-        element={
-          <BaseLayout>
-            <Tacna />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/convention-province/tacna/hotels"
-        element={
-          <BaseLayout>
-            <HotelsTacna />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/convention-province/tacna/restaurants"
-        element={
-          <BaseLayout>
-            <RestaurantsTacna />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/convention-province/tacna/health"
-        element={
-          <BaseLayout>
-            <HealthTacna />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/convention-province/puno"
-        element={
-          <BaseLayout>
-            <Puno />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/convention-province/arequipa"
-        element={
-          <BaseLayout>
-            <Arequipa />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/convention-province/arequipa/health"
-        element={
-          <BaseLayout>
-            <HealthArequipa />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/convention-province/arequipa/restaurants"
-        element={
-          <BaseLayout>
-            <RestaurantsArequipa />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/convention-international"
-        element={
-          <BaseLayout>
-            <ConventionInternational />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/convention-province/ayacucho"
-        element={
-          <BaseLayout>
-            <Ayacucho />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/convention-province/chiclayo"
-        element={
-          <BaseLayout>
-            <Chiclayo />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/convention-province/chiclayo/health"
-        element={
-          <BaseLayout>
-            <HealthChiclayo />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/convention-province/chiclayo/hotels"
-        element={
-          <BaseLayout>
-            <HotelsChiclayo />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/convention-province/chiclayo/companies"
-        element={
-          <BaseLayout>
-            <CompaniesChiclayo />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/convention-province/huancayo"
-        element={
-          <BaseLayout>
-            <Huancayo />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/convention-province/trujillo"
-        element={
-          <BaseLayout>
-            <Trujillo />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/convention-province/trujillo/hotels"
-        element={
-          <BaseLayout>
-            <TrujilloHotels />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/convention-province/trujillo/restaurants"
-        element={
-          <BaseLayout>
-            <TrujilloRestaurants />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/convention-province/tumbes"
-        element={
-          <BaseLayout>
-            <Tumbes />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/convention-province/tumbes/transports"
-        element={
-          <BaseLayout>
-            <TumbesTransports />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/convention-province/tumbes/restaurants"
-        element={
-          <BaseLayout>
-            <TumbesRestaurants />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/convention-province/tumbes/hotels"
-        element={
-          <BaseLayout>
-            <TumbesHotels />
           </BaseLayout>
         }
       />

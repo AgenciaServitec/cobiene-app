@@ -11,30 +11,12 @@ export const Service = () => {
   const { service } = useParams();
 
   const listTitles = [
-    {
-      title: "Comida peruana",
-      serviceUrl: "peruvianFood",
-    },
-    {
-      title: "Chifa",
-      serviceUrl: "chifa",
-    },
-    {
-      title: "Tiendas comerciales",
-      serviceUrl: "commercialShop",
-    },
-    {
-      title: "Gimnasio",
-      serviceUrl: "gym",
-    },
-    {
-      title: "Laboratorios",
-      serviceUrl: "laboratory",
-    },
-    {
-      title: "Entidades médicas",
-      serviceUrl: "clinic",
-    },
+    { title: "Comida peruana", serviceUrl: "peruvianFood" },
+    { title: "Chifa", serviceUrl: "chifa" },
+    { title: "Tiendas comerciales", serviceUrl: "commercialShop" },
+    { title: "Gimnasio", serviceUrl: "gym" },
+    { title: "Laboratorios", serviceUrl: "laboratory" },
+    { title: "Entidades médicas", serviceUrl: "clinic" },
   ];
 
   const titleFilter = listTitles.filter((list) => list.serviceUrl === service);

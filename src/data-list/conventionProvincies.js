@@ -89,7 +89,7 @@ export const conventionProvincies = [
     type: "restaurant",
     title: 'CHIFA RESTAURANTE "WONG SEN"',
     benefits: [
-      "5% DE DESCUENTO CON LA PRESENTACIÓN DE SU CIP",
+      "10% DE DESCUENTO CON LA PRESENTACIÓN DE SU CIP",
       "ALCANCE:",
       "DESCUENTO EN CONSUMO DE COMIDA Y TODO TIPO DE BEBIDAS, POR EL CONSUMO MINIMO DE S/. 50.00.",
       "MÉTODOS DE PAGO: EFECTIVO, YAPE, PLIM O TRANSFERENCIAS.",

@@ -3,6 +3,7 @@ import { BaseLayout } from "../components/public";
 import {
   AboutAs,
   Bazar,
+  ConventionInternational,
   Conventions,
   DisabledSupport,
   EconomicalSupport,
@@ -191,6 +192,15 @@ export const Router = () => {
         element={
           <BaseLayout>
             <ProvinceService />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/convention-international"
+        element={
+          <BaseLayout>
+            <ConventionInternational />
           </BaseLayout>
         }
       />

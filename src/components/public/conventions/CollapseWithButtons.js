@@ -119,6 +119,7 @@ const CollapseAntd = styled(Collapse)`
       text-align: left;
       text-transform: uppercase;
       span {
+        text-transform: uppercase;
         max-width: 277px;
         color: ${({ theme }) => theme.colors.white};
       }
@@ -133,6 +134,7 @@ const CollapseAntd = styled(Collapse)`
     h3 {
       text-align: center;
       line-height: 2em;
+      text-transform: uppercase;
     }
     div {
       .list-benefits {

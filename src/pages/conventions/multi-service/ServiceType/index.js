@@ -103,6 +103,7 @@ const MapButtons = ({ service, navigate }) =>
       key={index}
       width="100%"
       onClick={() => navigate(button.url ? button.url : "/page-default")}
+      textTransform="uppercase"
     >
       {button.title}
     </Button>

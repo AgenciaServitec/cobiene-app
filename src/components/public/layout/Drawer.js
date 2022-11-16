@@ -71,7 +71,7 @@ export const Drawer = ({ visibleDrawer, onSetVisibleDrawer }) => {
           />
 
           <DrawerShow
-            title="RECREACIÓN"
+            title="Recreación"
             icon={faTree}
             content={
               <>

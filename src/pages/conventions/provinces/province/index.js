@@ -54,6 +54,10 @@ export const Province = () => {
           title: "Salud",
           url: `/conventions/provinces/${provinceId}/health`,
         },
+        {
+          title: "Clinicas",
+          url: `/conventions/provinces/${provinceId}/clinic`,
+        },
       ],
     },
     { provinceId_: "huancayo", title: "Huancayo" },
@@ -96,6 +100,14 @@ export const Province = () => {
         },
       ],
     },
+    {
+      provinceId_: "merced",
+      title: "La Merced",
+    },
+    {
+      provinceId_: "lambayeque",
+      title: "Lambayeque",
+    },
   ];
 
   const services = listProvinces.filter(
@@ -124,9 +136,6 @@ const MapServices = ({ service }) => {
   const conventionService = conventionProvincies.filter(
     (convention) => convention.province == service.provinceId_
   );
-
-  console.log(conventionService);
-
   return <CollapseWithButtons dataLists={conventionService} />;
 };
 

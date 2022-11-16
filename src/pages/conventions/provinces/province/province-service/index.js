@@ -17,6 +17,7 @@ export const ProvinceService = () => {
     { title: "Salud", type: "health" },
     { title: "Transportes", type: "transport" },
     { title: "Empresas", type: "company" },
+    { title: "Clinicas", type: "clinic" },
   ];
   const titleFilter = listTitles.filter(
     (listTitle) => listTitle.type == provinceService

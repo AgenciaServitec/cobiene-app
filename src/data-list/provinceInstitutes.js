@@ -197,7 +197,7 @@ export const provinceInstitutes = [
       ImgCarouselEjercitoArequipa3,
       ImgCarouselEjercitoArequipa5,
     ],
-    title1: "Institución Educativa Publica de Gestión Privada",
+    title1: "Institución Educativa Pública de Gestión Privada",
     title2: "40159 ”EJÉRCITO AREQUIPA”",
     title3: "INICIAL - PRIMARIA - SECUNDARIA",
     socialLinks: [

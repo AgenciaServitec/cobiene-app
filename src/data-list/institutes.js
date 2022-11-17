@@ -43,13 +43,13 @@ export const institutes = [
     image: CEPEA,
     title: "CEPEA",
     benefits: [
-      "CARRERAS DE GASTRONOMÍA Y ARTES CULINARIAS, ADMINISTRACIÓN DE SERVICIOS DE HOTELERÍA Y GUIA TURISMO:\n",
+      "Carreras de gastronomía y artes culinarias, administración de servicios de hotelería y guia turismo:\n",
       "20% descuento en el pago de pensiones\n",
-      "CARRERAS DE ADMINISTRACIÓN, CONTABILIDAD, DESARROLLO DE SISTEMAS Y ENFERMERÍA TÉCNICA:\n",
-      " 30% descuento en el pago de pensiones\n",
-      "ALCANCE:",
-      "PERSONAL MILITAR EN ACTIVIDAD O RETIRO Y FAMILIARES DIRECTOS. PERSONAL  CIVIL Y FAMILIARES DIRECTOS",
-      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
+      "Carreras de administración, contabilidad, desarrollo de sistemas y enfermería técnica:\n",
+      "30% descuento en el pago de pensiones\n",
+      "Alcance:",
+      "Personal militar en actividad o retiro y familiares directos. personal  civil y familiares directos",
+      "- OO, SUP. TCOS. SSOO.  tropa activo y licenciado.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
@@ -180,7 +180,7 @@ export const institutes = [
   },
   {
     image: DanielCarrion,
-    title: "DANIEL A.CARRION",
+    title: "DANIEL A.CARRIÓN",
     benefits: [
       "CURSO DE EXTENSIÓN (01 AÑO)\n",
       "50% descuento en el pago de pensiones y\n",
@@ -205,7 +205,7 @@ export const institutes = [
   },
   {
     image: DesarrolloGeneral,
-    title: "INST. DE DESARROLLO GERENCIAL",
+    title: "INSTITUTO DE DESARROLLO GERENCIAL",
     benefits: [
       "PROGRAMAS ACADÉMICOS (CARRERAS TÉCNICAS, ESPECIALIDADES Y DIPLOMADOS):\n",
       "20% descuento en el pago de matrícula\n",
@@ -227,7 +227,7 @@ export const institutes = [
   },
   {
     image: ProfesionalTecnico,
-    title: "INST.DESARROLLO PROFESIONAL Y TECNICO",
+    title: "INSTITUTO DESARROLLO PROFESIONAL Y TECNICO",
     benefits: [
       "CARRERAS TÉCNICAS, INGLÉS, ESPECIALIDADES Y DIPLOMADOS:\n",
       "20% descuento en el pago de matrícula\n",
@@ -430,7 +430,7 @@ export const institutes = [
   },
   {
     image: BRITANICO,
-    title: "BRITANICO",
+    title: "BRITÁNICO",
     benefits: [
       "ESTUDIOS  EN EL IDIOMA INGLÉS:\n",
       "12.5% descuento sobre la base de las tarifas en los programas académicos de enseñanza del idioma (básico, intermedio o avanzado)\n",
@@ -451,7 +451,7 @@ export const institutes = [
   },
   {
     image: FORMACIONEMPRESARIAL,
-    title: "INST.DE FORMACIÓN EMPRESARIAL",
+    title: "INSTITUTO DE FORMACIÓN EMPRESARIAL",
     benefits: [
       "PROGRAMAS DE FORMACIÓN:\n",
       "37.7%  de descuento en pensiones en programas de (Ofimática, Inglés, excel en la modalidad On Line)\n",

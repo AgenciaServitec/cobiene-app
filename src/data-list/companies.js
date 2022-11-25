@@ -11,6 +11,7 @@ import {
   ImgCasaAndina,
   ImgCostaSol,
   ImgEfectiva,
+  ImgElCentro,
   ImgFinantel,
   ImgFootloose,
   ImgInppares,
@@ -1131,5 +1132,43 @@ export const companies = [
       "Campañas impulsadas por el banco de acuerdo al análisis del mercado\n",
     ],
     links: [{}],
+  },
+  {
+    type: "legal-advice",
+    title: "CENTRO DE CONCILIACIÓN",
+    image: ImgElCentro,
+    benefits: [
+      "Empresa privada, con una experiencia en temas de materia civil, de familia, vecinal, contrataciones y adquisiciones del estado, dedicada a través de su centro de conciliación y arbitraje a ofrecer alternativas creativas sobre requerimientos legales o desarrollo en temas extrajudiciales y laudos arbitrales. ",
+      "ALCANCE DEL CONVENIO:",
+      "Dirigido al personal militar en situación de actividad o retiro, personal civil; así como sus familiares directos (cónyuge, hijos, padres y hermanos) ddebidamente acreditados.",
+      "BENEFICIO:",
+      "Otorgará a los BENEFICIARIOS, acceso al 20% de descuento en los servicios de conciliación (civil, familiar, vecinal y contrataciones y adquisiciones del estado) sobre el costo total al momento del pago. ",
+      "FORMA DE ACREDITACIÓN:",
+      "Mediante la presentación física del respectivo Carnet de Identidad Personal del titular (CIP), y familiares directos, mediante presentación del Carnet de Identificación Familiar (CIF).",
+      "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar",
+    ],
+    links: [
+      { url: "www.elcentro.com.pe" },
+      {
+        url: "mailto:elcentro@gmail.com",
+        text: "elcentro@gmail.com",
+        icon: faEnvelope,
+      },
+      {
+        url: "tel:989977979",
+        text: "989977979",
+        icon: faPhone,
+      },
+      {
+        url: "tel:4228039",
+        text: "4228039",
+        icon: faPhone,
+      },
+      {
+        url: "https://goo.gl/maps/yiTzThVrcsUCUmKv8",
+        text: "Calle Los Ángeles 137 Miraflores",
+        icon: faLocationDot,
+      },
+    ],
   },
 ];

@@ -9,7 +9,7 @@ export const MultiService = () => {
   const navigate = useNavigate();
 
   const listButtons = [
-    { title: "ASESORÍA LEGAL", url: "/page-default" },
+    { title: "ASESORÍA LEGAL", url: "/conventions/multi-service/legal-advice" },
     {
       title: "EMPRESAS",
       url: "/conventions/multi-service/companies",

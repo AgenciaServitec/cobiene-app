@@ -75,6 +75,10 @@ export const ServiceType = () => {
       type: "life-insurance",
       title: "Seguros",
     },
+    {
+      type: "legal-advice",
+      title: "Asesoría Legal",
+    },
   ];
 
   const serviceType = listServices.filter(

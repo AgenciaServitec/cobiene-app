@@ -376,6 +376,7 @@ export { default as ImgFinantel } from "./companies/finantel.webp";
 export { default as ImgRehabilitadora } from "./companies/rehabilitador.webp";
 export { default as ImgStoreServitec } from "./companies/store-servitec.webp";
 export { default as ImgElCentro } from "./companies/el-centro.webp";
+export { default as ImgOftalmoSalud } from "./companies/oftalmosalud.webp";
 
 //-------- Academies PRe ------
 export { default as Academie1 } from "./others/academie1.webp";

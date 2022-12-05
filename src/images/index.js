@@ -337,6 +337,9 @@ export { default as ImgIsilInst } from "./webp/img-isil-inst.webp";
 export { default as ImgInstAkrom } from "./webp/inst-akron.webp";
 export { default as ImgCibertec } from "./webp/logo-inst-cibertec.webp";
 export { default as ImgCentroIdiomaPacifico } from "./companies/centro-idioma-pacifico.webp";
+export { default as ImgCertus } from "./companies/certus.webp";
+export { default as ImgTltc } from "./companies/tltc.webp";
+export { default as ImgUcal } from "./companies/ucal.webp";
 
 //-------- Companies ------
 export { default as ImgApelac } from "./webp/img-apelac.webp";

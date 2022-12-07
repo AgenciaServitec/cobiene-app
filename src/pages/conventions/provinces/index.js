@@ -51,6 +51,10 @@ export const Provinces = () => {
       title: "LAMBAYEQUE",
       url: "/conventions/provinces/lambayeque",
     },
+    {
+      title: "TARAPOTO",
+      url: "/conventions/provinces/tarapoto",
+    },
   ];
 
   SortWords(listButtons);

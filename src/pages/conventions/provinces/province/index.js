@@ -108,6 +108,10 @@ export const Province = () => {
       provinceId_: "lambayeque",
       title: "Lambayeque",
     },
+    {
+      provinceId_: "tarapoto",
+      title: "Tarapoto",
+    },
   ];
 
   const services = listProvinces.filter(

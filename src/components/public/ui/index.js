@@ -31,3 +31,4 @@ export * from "./FormContact";
 export * from "./IconListRow";
 export * from "./SortWords";
 export * from "./Result";
+export * from "./FloatingBtnTel";

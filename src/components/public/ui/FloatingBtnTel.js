@@ -5,7 +5,7 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 export const FloatingBtnTel = () => {
   return (
     <Container>
-      <a href="tel:013171700" target="_blank">
+      <a href="tel:013171700">
         <FontAwesomeIcon icon={faPhone} size="lg" />
         <div className="content">
           <span>Anexo </span>

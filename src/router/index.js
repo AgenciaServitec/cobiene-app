@@ -37,6 +37,7 @@ import {
   TechniciansCircle,
   Technology,
   Universities,
+  VideosTutorial,
 } from "../pages";
 
 export const Router = () => {
@@ -138,6 +139,15 @@ export const Router = () => {
         element={
           <BaseLayout>
             <Institutes />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/conventions/education-conventions/videos-tutorial"
+        element={
+          <BaseLayout>
+            <VideosTutorial />
           </BaseLayout>
         }
       />

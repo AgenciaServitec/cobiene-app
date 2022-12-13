@@ -33,6 +33,14 @@ export const EducationConventions = () => {
       >
         Solicita tu convenio SITRACON
       </Button>
+      <Button
+        width="100%"
+        onClick={() =>
+          navigate("/conventions/education-conventions/videos-tutorial")
+        }
+      >
+        Videos tutorial
+      </Button>
 
       <div className="list-convenios">
         <a href="https://drive.google.com/file/d/1lKdcV-kFnP7aHESdeSZ36eJXxqgTjlwh/view?usp=sharing">

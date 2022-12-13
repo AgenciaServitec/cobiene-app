@@ -11,6 +11,7 @@ export * from "./conventions/technology/samsung";
 export * from "./conventions/education-conventions";
 export * from "./conventions/education-conventions/universities";
 export * from "./conventions/education-conventions/institutes";
+export * from "./conventions/education-conventions/videos-tutorial";
 export * from "./house-service";
 export * from "./house-service/house-services";
 export * from "./funeral-fund";

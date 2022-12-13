@@ -36,3 +36,4 @@ export * from "./conventions/provinces";
 export * from "./conventions/provinces/province";
 export * from "./conventions/provinces/province/province-service";
 export * from "./page-default";
+export * from "./privacy-policy";

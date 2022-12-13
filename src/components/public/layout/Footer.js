@@ -1,6 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-import { faEnvelope, faHeart } from "@fortawesome/free-solid-svg-icons";
+import {
+  faEnvelope,
+  faHeart,
+  faPhone,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
@@ -48,6 +52,17 @@ export const Footer = () => {
             background="#db4a39"
           />
         </div>
+
+        <div className="section-btn-tel">
+          <a href="tel:013171700">
+            <FontAwesomeIcon icon={faPhone} size="lg" />
+            <div className="content">
+              <span>Anexo </span>
+              <strong>3924</strong>
+            </div>
+          </a>
+        </div>
+
         <p>
           <Link to="/policies-and-privacy" className="politicas">
             POLÍTICAS Y PRIVACIDAD
@@ -77,6 +92,21 @@ const Container = styled.div`
       display: flex;
       justify-content: center;
       align-items: center;
+    }
+
+    .section-btn-tel {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0.7em auto;
+      a {
+        display: flex;
+        gap: 0.5em;
+        background: ${({ theme }) => theme.colors.secondary};
+        padding: 0.7em 1em;
+        border-radius: 1em;
+        color: #fff;
+      }
     }
 
     p {

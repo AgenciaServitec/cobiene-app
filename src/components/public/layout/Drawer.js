@@ -10,6 +10,7 @@ import {
   faHome,
   faHomeUser,
   faNewspaper,
+  faPhone,
   faShoppingCart,
   faThLarge,
   faTree,
@@ -141,6 +142,14 @@ export const Drawer = ({ visibleDrawer, onSetVisibleDrawer }) => {
               return onSetVisibleDrawer(false);
             }}
             icon={faEnvelope}
+            linkTo="/"
+          />
+          <MenuItem
+            text="Anexo 3924"
+            onClick={() => {
+              NavigateGoToLink("tel:013171700");
+            }}
+            icon={faPhone}
             linkTo="/"
           />
         </div>

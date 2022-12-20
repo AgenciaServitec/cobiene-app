@@ -1203,7 +1203,7 @@ export const companies = [
   },
   {
     type: "transport",
-    title: "Cruz del sur",
+    title: "CRUZ DEL SUR",
     benefits: [
       "CRUZ DEL SUR, es una sociedad privada que tiene como actividad principal el transporte por vía terrestre y transporte de carga por carretera. Quien facilitará a través de un convenio con la institución, beneficios a la familia militar, mediante costos diferenciados.",
       "ALCANCE DEL CONVENIO:",

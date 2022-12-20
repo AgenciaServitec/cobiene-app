@@ -261,7 +261,7 @@ export const companies = [
     type: "commercialShop",
     service: "companies",
     image: ImgVizzano,
-    title: "CALZADO VIZZANO",
+    title: "Mossashoes - CALZADO VIZZANO",
     benefits: [
       "ALCANCE DEL CONVENIO:\n",
       "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres); debidamente acreditados.\n",
@@ -1199,6 +1199,25 @@ export const companies = [
       {
         url: "https://oftalmosalud.pe/",
       },
+    ],
+  },
+  {
+    type: "transport",
+    title: "Cruz del sur",
+    benefits: [
+      "CRUZ DEL SUR, es una sociedad privada que tiene como actividad principal el transporte por vía terrestre y transporte de carga por carretera. Quien facilitará a través de un convenio con la institución, beneficios a la familia militar, mediante costos diferenciados.",
+      "ALCANCE DEL CONVENIO:",
+      "Dirigido al personal militar en situación de actividad o retiro, personal civil; así como sus familiares directos (cónyuge, hijos, padres y hermanos), debidamente acreditados, los 365 días del año.",
+      "Válido solo para compras mediante página web <a href='https://www.cruzdelsur.com.pe/'>https://www.cruzdelsur.com.pe/</a>, mediante la asignación de un código de descuento al titular, el cual debe de ser usado por los BENEFICIARIOS acreditados, al momento de la compra virtual de los boletos.",
+      "BENEFICIO:",
+      "-\t10% de descuento sobre la tarifa regular, en transporte interprovincial de pasajeros, en temporada alta o baja, en el primer nivel de los servicios de cruzero suite, cruzero evolution,  cruzero plus, ica line expres, hacia cualquiera de los destinos ofrecidos.",
+      "-\t10% de descuento sobre la tarifa regular, en transporte interprovincial de pasajeros, en temporada alta o baja, en el primer nivel de los servicios de cruzero suite, cruzero evolution, cruzero plus, ica line expres, hacia cualquiera de los destinos ofrecidos.",
+      "-\t10% de descuento sobre la tarifa regular, en transporte interprovincial de pasajeros, en temporada alta, en el segundo nivel de los servicios de cruzero suite, cruzero evolution, cruzero plus hacia cualquiera de los destinos ofrecidos.",
+      "-\t15% de descuento sobre la tarifa regular, en transporte interprovincial de pasajeros, en temporada baja, en el segundo nivel de los servicios de cruzero suite, cruzero evolution, cruzero plus, hacia cualquiera de los destinos ofrecidos.",
+      "-\t10% de descuento sobre la tarifa regular, en los servicios de correspondencia, encomiendas, paquetería y carga ligera o mediana a cualquiera de los servicios ofrecidos.\n",
+      "FORMA DE ACREDITACIÓN:",
+      "Mediante la presentación física del respectivo Carnet de Identidad Personal del titular (CIP), y familiares directos, mediante presentación del Carnet de Identificación Familiar (CIF).",
+      "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el DNI.",
     ],
   },
 ];

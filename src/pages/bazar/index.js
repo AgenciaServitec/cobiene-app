@@ -16,7 +16,7 @@ export const Bazar = () => {
           la primera necesidad a precios competitivos y otras actividades
           comerciales que aporten al bienestar del personal y familia cobiene
         </text>
-        <img src={ImgBazar} className="img-bazar" alt="Bazar" />
+        {/*<img src={ImgBazar} className="img-bazar" alt="Bazar" />*/}
       </div>
       <div className="link-list">
         <SocialLink
@@ -64,10 +64,10 @@ const Container = styled.div`
         justify-content: center;
         padding: 1rem 0;
       }
-      .img-bazar {
-        width: 100%;
-        padding: 1rem 0;
-      }
+      //.img-bazar {
+      //  width: 100%;
+      //  padding: 1rem 0;
+      //}
     }
     .link-list {
       padding: 0 1rem;

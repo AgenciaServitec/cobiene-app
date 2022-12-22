@@ -6,10 +6,16 @@ import {
   SocialLink,
 } from "../../../components/public";
 import { ImgOfficers } from "../../../images";
-import { faGlobe, faPhone } from "@fortawesome/free-solid-svg-icons";
+import {
+  faChevronLeft,
+  faChevronRight,
+  faGlobe,
+  faPhone,
+} from "@fortawesome/free-solid-svg-icons";
 import { faFacebook, faGooglePlay } from "@fortawesome/free-brands-svg-icons";
 import Carousel from "antd/lib/carousel";
 import { campusCircleMilitary } from "../../../data-list";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const socialLinks = [
   {
@@ -50,7 +56,12 @@ export const OfficersCircle = () => {
       {campusCircleMilitary.map(({ images, title }, index) => (
         <div key={index}>
           <span>{title}</span>
-          <Carousel autoplay>
+          <Carousel
+            autoplay
+            arrows
+            prevArrow={<FontAwesomeIcon icon={faChevronLeft} />}
+            nextArrow={<FontAwesomeIcon icon={faChevronRight} />}
+          >
             {images.map((image, index) => (
               <ImgCarousel key={index} image={image} alt={title} />
             ))}

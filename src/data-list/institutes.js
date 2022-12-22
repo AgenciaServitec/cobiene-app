@@ -731,6 +731,14 @@ export const institutes = [
   {
     title: "COLUMBIA",
     image: ImgColumbia,
-    benefits: ["Proximamente..."],
+    benefits: [
+      "BENEFICIOS QUE OFRECE:",
+      "Turismo, Hostelería, Alta Cocina, Aviación Comercial ",
+      "Alcance:",
+      "100% de descuento en costo por derecho de admisión. ",
+      "50% de descuento en mensualidades",
+      "BENEFICIARIOS:",
+      "Personal militar en actividad o retiro, personal civil y familiares directos (cónyuge e hijos) ",
+    ],
   },
 ];

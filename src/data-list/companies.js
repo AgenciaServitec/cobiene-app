@@ -27,6 +27,7 @@ import {
   ImgRehabilitadora,
   ImgRenzoCosta,
   ImgRimacSeguros,
+  ImgRimacTable,
   ImgSmartFit,
   ImgStoreServitec,
   ImgTinnitus,
@@ -658,9 +659,7 @@ export const companies = [
     image: ImgRimacSeguros,
     title: "Seguros Rimac",
     benefits: [
-      `<img src="${CobieneLogo}" width="15%"/> `,
-      "Estamos trabajando por el bienestar",
-      "Proximamente...",
+      `<div className="rimac"><img src="${ImgRimacTable}" width="90%" /></div> `,
     ],
     // links: [{ url: "https://www.rimac.com" }],
   },

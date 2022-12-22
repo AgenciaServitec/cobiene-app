@@ -1,5 +1,5 @@
 import React from "react";
-import { LogoBazar, ImgBazar } from "../../images";
+import { LogoBazar } from "../../images";
 import styled, { css } from "styled-components";
 import { SocialLink } from "../../components/public";
 import { faGlobeAmericas, faPlay } from "@fortawesome/free-solid-svg-icons";

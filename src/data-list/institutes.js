@@ -734,7 +734,7 @@ export const institutes = [
     benefits: [
       "BENEFICIOS QUE OFRECE:",
       "Turismo, Hostelería, Alta Cocina, Aviación Comercial ",
-      "Alcance:",
+      "ALCANCE:",
       "100% de descuento en costo por derecho de admisión. ",
       "50% de descuento en mensualidades",
       "BENEFICIARIOS:",

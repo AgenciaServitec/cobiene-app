@@ -18,6 +18,7 @@ import {
   ImgAndreVesalio,
   ImgCertus,
   ImgCibertec,
+  ImgColumbia,
   ImgEcaprev,
   ImgIcim,
   ImgInstAkrom,
@@ -726,5 +727,10 @@ export const institutes = [
       "ALCANCE:",
       "Para estudiantes de educación básica regular (nivel secundaria) de las instituciones educativas del ejército.\n",
     ],
+  },
+  {
+    title: "COLUMBIA",
+    image: ImgColumbia,
+    benefits: ["Proximamente..."],
   },
 ];

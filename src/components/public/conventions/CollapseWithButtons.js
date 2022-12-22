@@ -146,6 +146,12 @@ const CollapseAntd = styled(Collapse)`
           text-align: justify;
           margin-bottom: 0.5rem;
           font-weight: 500;
+
+          .rimac {
+            margin: auto;
+            display: flex;
+            justify-content: center;
+          }
         }
       }
     }

@@ -79,6 +79,20 @@ export const ServiceType = () => {
       type: "legal-advice",
       title: "Asesoría Legal",
     },
+    {
+      type: "technology",
+      title: "Tecnologia",
+      buttons: [
+        {
+          title: "Servitec",
+          url: `/conventions/multi-service/${typeService}/servitec`,
+        },
+        {
+          title: "Samsung",
+          url: `/conventions/multi-service/${typeService}/samsung`,
+        },
+      ],
+    },
   ];
 
   const serviceType = listServices.filter(

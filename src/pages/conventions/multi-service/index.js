@@ -36,7 +36,7 @@ export const MultiService = () => {
     },
     {
       title: "TECNOLOGÍA",
-      url: "/conventions/technology",
+      url: "/conventions/multi-service/technology",
     },
     {
       title: "TRANSPORTES",

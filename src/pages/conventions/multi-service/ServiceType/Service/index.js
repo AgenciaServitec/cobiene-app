@@ -17,6 +17,7 @@ export const Service = () => {
     { title: "Gimnasio", serviceUrl: "gym" },
     { title: "Laboratorios", serviceUrl: "laboratory" },
     { title: "Entidades médicas", serviceUrl: "clinic" },
+    { title: "Servitec", serviceUrl: "servitec" },
   ];
 
   const titleFilter = listTitles.filter((list) => list.serviceUrl === service);

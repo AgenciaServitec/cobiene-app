@@ -15,6 +15,7 @@ import {
   ImgElCentro,
   ImgFinantel,
   ImgFootloose,
+  ImgHotelCarrera,
   ImgInppares,
   ImgLabRoe,
   ImgLaPositiva,
@@ -669,6 +670,7 @@ export const companies = [
   {
     type: "hotel",
     title: "HOTEL CARRERA",
+    image: ImgHotelCarrera,
     benefits: [
       "ALCANCE DEL CONVENIO:",
       "Dirigido al personal militar y civil en actividad y retiro así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados.",

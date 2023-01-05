@@ -10,6 +10,7 @@ import {
   ImgBiolinks,
   ImgCasaAndina,
   ImgCostaSol,
+  ImgCruzDelSur,
   ImgEfectiva,
   ImgElCentro,
   ImgFinantel,
@@ -20,6 +21,7 @@ import {
   ImgLaPositivaVida,
   ImgLazzosComerciales,
   ImgMedifon,
+  ImgMossaShoes,
   ImgMovilBus,
   ImgMultident,
   ImgOftalmoSalud,
@@ -260,7 +262,7 @@ export const companies = [
   {
     type: "commercialShop",
     service: "companies",
-    image: ImgVizzano,
+    image: ImgMossaShoes,
     title: "Mossashoes - CALZADO VIZZANO",
     benefits: [
       "ALCANCE DEL CONVENIO:\n",
@@ -544,7 +546,8 @@ export const companies = [
     links: [{ url: "https://www.labroe.com/" }],
   },
   {
-    type: "technology",
+    type: "servitec",
+    service: "technology",
     image: Servitec,
     title: "Servitec - Perú",
     benefits: ["Con la presentación de su CIP 10% de descuento"],
@@ -558,7 +561,8 @@ export const companies = [
     ],
   },
   {
-    type: "technology",
+    type: "servitec",
+    service: "technology",
     image: LogoPublicidad,
     title: "Pagina Web",
     benefits: ["Con la presentación de su CIP 10% de descuento"],
@@ -572,7 +576,8 @@ export const companies = [
     ],
   },
   {
-    type: "technology",
+    type: "servitec",
+    service: "technology",
     image: LogoFactura,
     title: "Facturación Electronica",
     benefits: ["Con la presentación de su CIP 10% de descuento"],
@@ -586,7 +591,8 @@ export const companies = [
     ],
   },
   {
-    type: "technology",
+    type: "servitec",
+    service: "technology",
     image: LogoPublicidad,
     title: "Publicidad Google",
     benefits: ["Con la presentación de su CIP 10% de descuento"],
@@ -600,7 +606,8 @@ export const companies = [
     ],
   },
   {
-    type: "technology",
+    type: "servitec",
+    service: "technology",
     image: Servitec,
     title: "Reparación de Proyectores",
     benefits: ["Con la presentación de su CIP 10% de descuento"],
@@ -614,7 +621,8 @@ export const companies = [
     ],
   },
   {
-    type: "technology",
+    type: "servitec",
+    service: "technology",
     image: ImgStoreServitec,
     title: "Tienda Servitec",
     benefits: ["Con la presentación de su CIP 10% de descuento"],
@@ -632,7 +640,9 @@ export const companies = [
     image: ImgRimacSeguros,
     title: "Seguros Rimac",
     benefits: [
-      `<div className="rimac"><img src="${ImgRimacTable}" width="90%" /></div> `,
+      `<img src="${CobieneLogo}" width="15%"/> `,
+      "Estamos trabajando por el bienestar",
+      "Proximamente...",
     ],
     // links: [{ url: "https://www.rimac.com" }],
   },
@@ -640,9 +650,7 @@ export const companies = [
     type: "life-insurance",
     image: ImgLaPositiva,
     benefits: [
-      `<img src="${CobieneLogo}" width="15%"/> `,
-      "Estamos trabajando por el bienestar",
-      "Proximamente...",
+      `<div className="rimac"><img src="${ImgRimacTable}" width="90%" /></div> `,
     ],
     title: "Seguro Salud Positiva",
     // links: [{ url: "https://www.lapositiva.com.pe" }],
@@ -1176,6 +1184,7 @@ export const companies = [
   {
     type: "transport",
     title: "CRUZ DEL SUR",
+    image: ImgCruzDelSur,
     benefits: [
       "CRUZ DEL SUR, es una sociedad privada que tiene como actividad principal el transporte por vía terrestre y transporte de carga por carretera. Quien facilitará a través de un convenio con la institución, beneficios a la familia militar, mediante costos diferenciados.",
       "ALCANCE DEL CONVENIO:",

@@ -29,14 +29,11 @@ import {
   Provinces,
   ProvinceService,
   ReligiousService,
-  Samsung,
   Service,
   ServiceSocial,
   ServiceType,
-  ServitecPage,
   SocialEconomicSupport,
   TechniciansCircle,
-  Technology,
   Universities,
   VideosTutorial,
 } from "../pages";
@@ -86,33 +83,6 @@ export const Router = () => {
         element={
           <BaseLayout>
             <Conventions />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/technology"
-        element={
-          <BaseLayout>
-            <Technology />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/technology/servitec-page"
-        element={
-          <BaseLayout>
-            <ServitecPage />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/technology/samsung"
-        element={
-          <BaseLayout>
-            <Samsung />
           </BaseLayout>
         }
       />

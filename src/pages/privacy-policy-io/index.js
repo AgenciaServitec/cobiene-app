@@ -1,11 +1,11 @@
 import React from "react";
 
-export const PrivacyPolicy = () => {
+export const PrivacyPolicyIos = () => {
   return (
     <>
       <p>
         Esta política de privacidad rige para todas las aplicaciones móviles
-        para IOS creadas por SERVITEC-PERU y publicadas en la cuenta de
+        para IOS creadas por ROBERTO MENDOZA y publicadas en la cuenta de
         desarrollador con el nombre de roberto mend.
       </p>
       <h2>¿Que tipo de información recolectamos?</h2>
@@ -104,13 +104,13 @@ export const PrivacyPolicy = () => {
         solo el usuario dueño de la información puede acceder a ellos.
       </p>
       <h4>Datos recolectados por terceros</h4>
-      <lu>
-        <p>En los datos recolectados por terceros están:</p>
-        <li>App Store</li>
-        <li>Google Analytics</li>
-        <li>Google Admob</li>
-        <li>Firebase</li>
-      </lu>
+      {/*<lu>*/}
+      {/*  <p>En los datos recolectados por terceros están:</p>*/}
+      {/*  /!*<li>App Store</li>*!/*/}
+      {/*  /!*<li>Google Analytics</li>*!/*/}
+      {/*  /!*<li>Google Admob</li>*!/*/}
+      {/*  <li>Firebase</li>*/}
+      {/*</lu>*/}
       <p>
         {" "}
         Puedes dar click a cada uno de los elementos de la lista para acceder a

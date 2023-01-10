@@ -24,6 +24,7 @@ import {
   PageDefault,
   PoliciesAndPrivacy,
   PrivacyPolicy,
+  PrivacyPolicyIos,
   Province,
   ProvinceInstitutes,
   Provinces,
@@ -344,6 +345,15 @@ export const Router = () => {
         element={
           <BaseLayout>
             <PrivacyPolicy />
+          </BaseLayout>
+        }
+      />
+      <Route
+        exact
+        path="/privacy-policy-io"
+        element={
+          <BaseLayout>
+            <PrivacyPolicyIos />
           </BaseLayout>
         }
       />

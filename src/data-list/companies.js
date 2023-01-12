@@ -35,6 +35,7 @@ import {
   ImgTinnitus,
   ImgUnilabs,
   ImgVizzano,
+  LavidLogo,
   LogoFactura,
   LogoPublicidad,
   Servitec,
@@ -386,6 +387,21 @@ export const companies = [
       },
     ],
   },
+
+  {
+    type: "products",
+    service: "companies",
+    image: LavidLogo,
+    title: "Lavid",
+    benefits: [
+      "BENEFICIO: \n",
+      "Con la presentación de su CIP 3% de descuento",
+      "NOSOTROS: \n",
+      " Venta de vino sin alcohol, zumo de uva borgoña 100 por ciento natural y apto para todas las edades con propiedades minerales, vitaminas, desintoxicante, anticancerígeno, antiestrés.",
+    ],
+    links: [{ url: "https://www.lavid.life" }],
+  },
+
   {
     type: "clinic",
     service: "health",

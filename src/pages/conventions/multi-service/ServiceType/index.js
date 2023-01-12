@@ -39,6 +39,10 @@ export const ServiceType = () => {
           title: "Gimnasios",
           url: `/conventions/multi-service/${typeService}/gym`,
         },
+        {
+          title: "Productos",
+          url: `/conventions/multi-service/${typeService}/products`,
+        },
       ],
     },
     {

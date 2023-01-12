@@ -341,9 +341,9 @@ export { default as ImgCertus } from "./companies/certus.webp";
 export { default as ImgTltc } from "./companies/tltc.webp";
 export { default as ImgUcal } from "./companies/ucal.webp";
 export { default as ImgColumbia } from "./companies/columbia.webp";
-
 //-------- Companies ------
 export { default as ImgRimacTable } from "./companies/rimac.webp";
+export { default as LavidLogo } from "./webp/img-lavid-logo.webp";
 export { default as ImgApelac } from "./webp/img-apelac.webp";
 export { default as ImgBiolinks } from "./webp/img-biolinks.webp";
 export { default as ImgInppares } from "./others/inppares.webp";

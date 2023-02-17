@@ -43,8 +43,8 @@ export const CollapseWithButtons = ({ dataLists = [] }) => {
         >
           <div className="content-description">
             <h3>{dataList.title}</h3>
+            {dataList.alert && <h2>"{dataList.alert}"</h2>}
             <h4>BENEFICIOS:</h4>
-
             {dataList.benefits && (
               <div>
                 <ul className="list-benefits">

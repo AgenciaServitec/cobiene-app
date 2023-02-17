@@ -462,6 +462,8 @@ export const universities = [
   {
     image: Norte,
     title: "UNIV. PRIVADA DEL NORTE",
+    alert:
+      "Se completaron las vacantes para el beneficio del ejercito y su familia militar para el semestre 2023-1.",
     benefits: [
       "PREGRADO: \n",
       "15 % de descuento en el pago de las pensiones en todas las carreras profesionales \n",

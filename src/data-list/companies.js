@@ -52,7 +52,7 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 export const companies = [
   {
-    type: "laboratory",
+    type: "clinic",
     service: "health",
     image: ImgInppares,
     title: "Lab. INPPARES",
@@ -67,6 +67,11 @@ export const companies = [
       "a)\tDescuento del 10% de sobre los costos de las tarifas regulares, EN CONSULTAS EN LAS DIFERENTES ESPECIALIDADES LA SEDE DE JESÚS MARÍA.",
       "b)\tDescuento entre el 5% y 10% sobre los costos de las tarifas regulares en, EXÁMENES DE LABORATORIO Y PROCEDIMIENTOS CLÍNICOS, realizados en la sede de Jesús María.",
       "c)\tDescuento del 5% de sobre los costos de las tarifas regulares en sedes de LOS OLIVOS Y SAN JUAN DE LURIGANCHO, EN CONSULTAS, EXÁMENES DE LABORATORIO Y PROCEDIMIENTOS CLÍNICOS, en las diferentes especialidades sede.",
+      "Direcciones y citas telefónicas \n",
+      `Sede Arequipa Av. La Paz 424 Cercado - Teléfonos <a href="tel:874-226211" target="_blank" >874-226211</a>  y <a href="tel:054-286600" target="_blank" >054-286600</a>.`,
+      'Sede Clicayo Calle Leoncio Prado 485 – Teléfono: <a href="tel:074-227270" target="_blank" >074-227270</a>. ',
+      'Sede Chimbote Av. Jr. Elías Aguirre 636 – Teléfono: <a href="tel:043-346157" target="_blank" >043-346157</a>. ',
+      `Sede Tacna Av. Bolognesi 1361 - Teléfonos <a href="tel:052-426972" target="_blank" >052-426972</a>  y <a href="tel:052-412709" target="_blank" >052-412709</a>.`,
     ],
     links: [
       {
@@ -141,6 +146,10 @@ export const companies = [
       "•\tInformes a los teléfonos:  2614411 y 2614412, debiendo acreditarse el día de la cita con el CIP, CIF y/o DNI, según sea el caso, y la presentación de las órdenes médicas respectivas.\n",
       "\n",
       "Correo electrónico adn@biolinksperù.com – www.biolinksperu.com.\n",
+      "Direcciones y citas telefónicas: \n",
+      "Sede Trujillo Av. jesús de Nazareth 364 Urb.San Andrés",
+      "Sede Huancayo Av. Zamacola 203 Yanahuara",
+      "Sede Iquitos Clinica Ana Sthal Av.La Marina 285 Iquitos",
     ],
     links: [
       {

@@ -71,7 +71,7 @@ export const AboutAs = () => {
               />
             </a>
           </div>
-          <h4>DETEL MY E. PEREZ</h4>
+          <h4>DETEL TCO.ORTEGA</h4>
           <h4>TEAM - Agencia Servitec</h4>
           <ul>
             <li>Roberto Mendoza</li>

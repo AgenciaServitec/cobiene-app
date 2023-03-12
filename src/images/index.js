@@ -341,6 +341,10 @@ export { default as ImgCertus } from "./companies/certus.webp";
 export { default as ImgTltc } from "./companies/tltc.webp";
 export { default as ImgUcal } from "./companies/ucal.webp";
 export { default as ImgColumbia } from "./companies/columbia.webp";
+export { default as ADEX } from "./webp/logo-adexjpg.webp";
+export { default as CentroLima } from "./webp/logo-ccl.webp";
+export { default as SENATI } from "./webp/unnamed.webp";
+
 //-------- Companies ------
 export { default as ImgRimacTable } from "./companies/rimac.webp";
 export { default as LavidLogo } from "./webp/img-lavid-logo.webp";

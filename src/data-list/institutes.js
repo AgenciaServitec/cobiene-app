@@ -4,6 +4,7 @@ import {
   CEPEA,
   CEPEABAN,
   CEVATUR,
+  ADEX,
   DanielCarrion,
   DesarrolloGeneral,
   eigra,
@@ -30,7 +31,7 @@ import {
   INTECI,
   PRIVATECHER,
   ProfesionalTecnico,
-  SanVicente,
+  SanVicente, CentroLima, SENATI
 } from "../images";
 import { faPaste } from "@fortawesome/free-solid-svg-icons";
 
@@ -705,7 +706,7 @@ export const institutes = [
       "CARRERAS PARA GENTE QUE TRABAJA:\n",
       "Otorgar el 20% de descuento en costo de enseñanza (mensualidades) considerando las diferentes modalidades y sedes a nivel nacional.\n",
       "CURSOS DE FORMACIÓN:\n",
-      "Otorgar el 20% de descuento en costo de enseñanza (mensualidades) considerando las diferentes modalidades y sedes a nivel nacional.\n",
+      "Otorgar el 20% de descuento en costo de enseñanza (mensualidades) EN CURSOS LIBRES, considerando las diferentes modalidades y sedes a nivel nacional.\n",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal  civil en actividad o cesantes así como  familiares directos (cónyuges e hijos), tropa servicio militar en actividad o licenciados.\n",
     ],
@@ -732,13 +733,82 @@ export const institutes = [
     title: "COLUMBIA",
     image: ImgColumbia,
     benefits: [
-      "BENEFICIOS QUE OFRECE:",
-      "Turismo, Hostelería, Alta Cocina, Aviación Comercial ",
+      "CARRERAS DE ALTA COCINA:",
+      "25 medias becas, (50%) de descuento en el costo de enseñanza (mensualidades) nivel\n" +
+      "nacional.",
+      "CARRERAS TÉCNICAS DE ADMINISTRACIÓN DE SERVICIOS DE HOSTELERIA Y RESTAURANTE\n" +
+      "CON MENCIÓN EN GERENCIA DE LA HOSPITALIDAD INTERNACIONAL (TURNOS TARDE Y\n" +
+      "NOCHE):\n",
+      "25 medias becas, (50%) de descuento en el costo de enseñanza (mensualidades) nivel\n" +
+      "nacional.",
       "ALCANCE:",
       "100% de descuento en costo por derecho de admisión. ",
-      "50% de descuento en mensualidades",
       "BENEFICIARIOS:",
       "Personal militar en actividad o retiro, personal civil y familiares directos (cónyuge e hijos) ",
+    ],
+  },
+  {
+    title: "Instituto de Comercio Exterior",
+    image: ADEX,
+    benefits: [
+      "BENEFICIOS QUE OFRECE:",
+      "22% de descuento en el costo de enseñanza (mensualidades) a nivel Nacional, para el\n" +
+      "personal militar en actividad o retiro, personal civil en actividad o cesantes. ",
+      "10% de descuento en el costo de enseñanza (mensualidades) a nivel Nacional, para\n" +
+      "familiares directos (cónyuges, hijos y hermanos) ",
+      "DIPLOMADOS, CURSOS O PROGRAMAS DE ESPECIALIZACIÓN:",
+      "22% de descuento en el costo de enseñanza (mensualidades) a nivel nacional, para\n" +
+      "personal militar en actividad o retiro, personal civil en actividad o cesantes.",
+      "DIPLOMADOS, CURSOS O PROGRAMAS DE ESPECIALIZACIÓN:",
+      "10% de descuento en el costo de enseñanza (mensualidades) a nivel nacional, para\n" +
+      "familiares directos (conyuges, hijos y hermanos). ",
+      "ALCANCE:",
+      "Personal militar en actividad o retiro,\n" +
+      "personal civil en actividad o\n" +
+      "cesantes,\n" +
+      "así como sus familiares directos\n" +
+      "(cónyuge, hijos y hermanos)\n",
+    ],
+  },
+  {
+    title: "Instituto de Comercio de Lima",
+    image: CentroLima,
+    benefits: [
+      "BENEFICIOS QUE OFRECE:",
+      "25% descuento en diplomados, seminarios y en programas de especialización" +
+      "30% descuento aplica a todos los cursos virtuales\n ",
+      "10% descuento en la matrícula, y en el pago de las pensiones, siempre y cuando, el\n" +
+      "participante mantenga un promedio de nota no menor a 14 (a partir del 2do ciclo)\n" +
+      "25% descuento en las mensualidades",
+      "ALCANCE:",
+      "Personal militar en actividad o retiro,\n" +
+      "personal civil en actividad o\n" +
+      "cesantes,\n" +
+      "así como sus familiares directos\n" +
+      "(cónyuge e hijos)",
+    ],
+  },
+  {
+    title: "SENATI",
+    image: SENATI,
+    benefits: [
+      "BENEFICIOS QUE OFRECE:",
+      "10% de descuento en el pago anticipado (pronto pago), hasta un día antes de la fecha de\n" +
+      "vencimiento, sobre las mensualidades de costo de enseñanza en todos los programas de\n" +
+      "formación de CARRERAS DE: NIVEL TÉCNICO OPERATIVO, NIVEL PROFESIONAL TÉCNICO",
+      "15%, de descuento en costo de enseñanza (mensualidades) en los diferentes programas de\n" +
+      "verano para escolares; a nivel nacional. en etapa escolar entre 07 y 17 años",
+      "15%, de descuento en costo de enseñanza (mensualidades) en los diferentes programas\n" +
+      "modulares para adultos, en Tecnologías de la Información, entre otros que se definan en\n" +
+      "conjunto con “EL EJÉRCITO.",
+      "15% de descuento en costo de enseñanza (mensualidades) en todos los diplomados, cursos\n" +
+      "y especializaciones ",
+      "ALCANCE:",
+      "Personal militar en actividad o retiro,\n" +
+      "personal civil en actividad o\n" +
+      "cesantes,\n" +
+      "así como sus familiares directos\n" +
+      "(cónyuge e hijos)",
     ],
   },
 ];

@@ -65,8 +65,12 @@ export const universities = [
       "FORMACIÓN CONTINUA\n",
       "30% descuento en el pago de las pensiones de los cursos \n",
       "ALCANCE:",
-      "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
-      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
+      "Personal militar en\n" +
+      "actividad o retiro, personal\n" +
+      "civil en actividad y cesante,\n" +
+      "así como sus familiares\n" +
+      "directos (cónyuge, hijos y\n" +
+      "hermanos)",
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
@@ -85,17 +89,23 @@ export const universities = [
     title: "CESAR VALLEJO",
     benefits: [
       "PREGRADO: \n",
-      "Categoría B en pensiones para todas las carreras profesionales del programa Pregrado Regular.",
-      "Categoría C en pensiones para los que ocupen el primer puesto del cuadro de meritos semestral",
+      "Categoría B en pensiones para todas las carreras profesionales.",
+      "Categoría C en pensiones para los que ocupen el primer puesto del\n" +
+      "cuadro de meritos semestral.\n",
       "PROGRAMA FORMACIÓN ADULTOS: ",
-      "Categoría B en pensiones  para el programa de formación de adultos.",
-      "Categoría C en pensiones para los que ocupen el primer puesto del cuadro de meritos semestral",
+      "Categoría B en pensiones para el programa de formación de adultos.",
       "POSGRADO: ",
       "Categoría B en pensiones para estudios de maestrías",
-      "Para mantener la Categoría B, deberá mantener el Promedio mínimo aprobatorio.",
-      "Otorgara el 5% de descuento adicional  del costo de la Pensión por semestre, aquellos beneficiarios que realicen el pago total anticipado de la pensión de todas las materias establecidas en el ciclo académico.",
       "ALCANCE:",
-      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge , hijos, padres y hermanos en caso de ser trabajadores solteros)",
+      "Personal militar en situación\n" +
+      "de actividad y retiro,\n" +
+      "personal civil en actividad o\n" +
+      "cesantes, así como sus\n" +
+      "familiares directos (cónyuge ,\n" +
+      "hijos, padres y hermanos en\n" +
+      "caso de ser trabajadores\n" +
+      "solteros\n" +
+      ")",
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
@@ -237,7 +247,7 @@ export const universities = [
       "Oficiales del grado de coronel el descuento en el pago de pensiones es (de 5 cuotas pagan 4)\n",
       "Oficiales del grado de Teniente Coronel hasta Sub Oficiales de 3ra, personal civil e Hijos, el descuento en el pago de las pensiones será(de 5 cuotas pagan 3) \n",
       "POSGRADO\n",
-      "Maestría, doctorado, segunda especialización, descuento en el pago de las pensiones de 4 cuotas pagan 3",
+      "Maestría, doctorado, segunda especialización, descuento en el pago de las pensiones de 5 cuotas pagan 4",
       "ALCANCE:",
       "Personal militar en actividad o retiro, personal civil en actividad, así como sus familiares directos (cónyuge e hijos)",
       "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
@@ -406,12 +416,15 @@ export const universities = [
     title: "CATÓLICA SEDE SAPIENTIAE",
     benefits: [
       "PREGRADO: \n",
-      "Costos diferenciados en pensiones en las distintas carreras profesionales  \n",
+      "Costos diferenciados en pensiones en las distintas carreras profesionales",
       "POSGRADO: \n",
-      "Hasta el 20 % de descuento del costo total de los programas de posgrado (maestrías y diplomados) a excepción del programa de doble grado.  \n",
+      "Hasta el 20 % de descuento del costo total de los programas de Posgrado (maestrías y diplomados) a excepción del programa de doble grado.   \n",
       "ALCANCE:",
-      "Personal militar en actividad o retiro, personal civil en actividad y cesante, así como sus familiares directos (cónyuge e hijos)",
-      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
+      "Personal militar en actividad\n" +
+      "o retiro, personal civil en\n" +
+      "actividad y cesante,\n" +
+      "así como sus familiares\n" +
+      "directos (cónyuge e hijos).\n",
     ],
     urlFile: UniversityConventionPdf,
     links: [
@@ -496,8 +509,13 @@ export const universities = [
       "Cursos libres, descuento del 20% en el pago de las pensiones \n",
       "Cursos virtuales, descuento del 20% en el pago de las pensiones  \n",
       "ALCANCE:",
-      "Personal militar en actividad o retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuge, hijos y hermanos)",
-      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
+      "Personal militar en\n" +
+      "actividad o retiro,\n" +
+      "personal civil en actividad\n" +
+      "o cesante,\n" +
+      "así como sus familiares\n" +
+      "directos (cónyuge, hijos y\n" +
+      "hermanos)",
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
@@ -525,8 +543,12 @@ export const universities = [
       "CENTRO DE IDIOMAS \n",
       " 17% de descuento sobre el costo de la pensión, en el Centro de Idiomas en las diferentes modalidades y sedes a nivel nacional.\n",
       "ALCANCE:",
-      "Personal militar en actividad o retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuge e hijos)",
-      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
+      "personal militar en\n" +
+      "actividad o retiro, personal\n" +
+      "civil en actividad o\n" +
+      "cesantes,\n" +
+      "así como sus familiares\n" +
+      "directos (cónyuge e hijos)",
     ],
     urlFile:
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
@@ -583,14 +605,21 @@ export const universities = [
     title: "Autónoma",
     image: ImgUniAutonoma,
     benefits: [
-      "PREGRADO REGULAR: Escala “D” \n",
-      "CARRERAS PARA PERSONAS QUE TRABAJAN (CPT) Escala “C” \n",
-      "POSGRADO:  Escala “B”\n",
+      "PREGRADO REGULAR: COSTO DIFERENCIADO POR ESCALAS\n",
+      "CARRERAS PARA PERSONAS QUE TRABAJAN (CPT) COSTO DIFERENCIADO\n" +
+      "POR ESCALAS",
+      "POSGRADO:  : COSTO DIFERENCIADO POR ESCALAS\n",
       "EDUCACIÓN CONTINUA\n",
       "10% dscto. si se inscriben 1 o 2 BENEFICIARIOS \n",
       "15% dscto. si se inscriben 3 o más BENEFICIARIOS \n",
       "Alcance:",
-      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuges e hijos); tropa servicio militar en actividad, licenciados.\n",
+      "Personal militar en situación\n" +
+      "de actividad y retiro,\n" +
+      "personal civil en actividad o\n" +
+      "cesante, así como sus\n" +
+      "familiares directos (cónyuges\n" +
+      "e hijos); tropa servicio militar\n" +
+      "en actividad, licenciados.",
     ],
     links: [
       {
@@ -629,13 +658,21 @@ export const universities = [
     image: ImgUcal,
     benefits: [
       "PREGRADO:",
-      "Otorgar el 15% de descuento, sobre los costos por concepto de pensiones, para estudios en todas las carreras, en cualquiera de sus modalidades en las diferentes sedes a nivel nacional.",
+      "15% de descuento, sobre los costos por concepto de pensiones, para\n" +
+      "estudios de, en todas las carreras.\n",
       "POSGRADO: ",
-      "Otorgar el 15% de descuento, sobre los costos por concepto de pensiones, para estudios de maestría, en cualquiera de sus modalidades en las diferentes sedes a nivel nacional.",
+      "15% de descuento, sobre los costos por concepto de pensiones, para\n" +
+      "estudios de MAESTRÍA\n",
       "DIPLOMADOS Y CURSOS ESPECIALIZADOS: \n",
-      "Otorgar el 15% de descuento, sobre los costos por concepto de pensiones, para estudios de diplomados y cursos especializados, en cualquiera de sus modalidades en las diferentes sedes a nivel nacional.\n",
+      "15% de descuento, sobre los costos por concepto de pensiones",
       "ALCANCE:",
-      "Personal militar en actividad o retiro, personal  civil en actividad o cesantes así como  familiares directos (cónyuges e hijos), tropa servicio militar en actividad o licenciados.\n",
+      "Personal militar en situación\n" +
+      "de actividad y retiro,\n" +
+      "personal civil en actividad o\n" +
+      "cesante, así como sus\n" +
+      "familiares directos\n" +
+      "(cónyuge, hijos); tropa\n" +
+      "servicio militar en activid\n",
     ],
   },
 ];

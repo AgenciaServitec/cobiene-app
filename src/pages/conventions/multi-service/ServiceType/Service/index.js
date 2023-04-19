@@ -18,6 +18,7 @@ export const Service = () => {
     { title: "Laboratorios", serviceUrl: "laboratory" },
     { title: "Entidades médicas", serviceUrl: "clinic" },
     { title: "Servitec", serviceUrl: "servitec" },
+    { title: "Samsung", serviceUrl: "samsung" },
   ];
 
   const titleFilter = listTitles.filter((list) => list.serviceUrl === service);
@@ -31,7 +32,13 @@ export const Service = () => {
       ))}
 
       {company.length >= 1 ? (
-        <CollapseWithButtons dataLists={company} />
+        <>
+          {/*{service === "samsung" ? (*/}
+          {/*  <SamsungPage data={company} />*/}
+          {/*) : (*/}
+          <CollapseWithButtons dataLists={company} />
+          {/*)}*/}
+        </>
       ) : (
         <>
           <InitialContent
@@ -44,3 +51,8 @@ export const Service = () => {
     </>
   );
 };
+
+// const SamsungPage = ({ data }) => {
+//   console.log("data->", data);
+//   return <h2>Hola</h2>;
+// };

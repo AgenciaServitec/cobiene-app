@@ -146,6 +146,7 @@ const CollapseAntd = styled(Collapse)`
           text-align: justify;
           margin-bottom: 0.5rem;
           font-weight: 500;
+          overflow: hidden;
 
           .rimac {
             margin: auto;

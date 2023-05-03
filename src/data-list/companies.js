@@ -1234,23 +1234,12 @@ export const companies = [
 
     title: "Samsung",
     benefits: [
-      "“SAMSUNG”, es un conglomerado de empresas multinacionales, con sede en Seúl, Corea del Sur, con más de 50" +
-        " años. Siendo el mayor grupo de negocios en electrónica de consumo, tecnología, biotecnología entre otros." +
-        " Actualmente se ha consolidado en el mercado mundial convirtiéndose en el mayor productor de equipos de telefonía móvil, biotecnología y relojes inteligentes.\n",
-      "ALCANCE DEL CONVENIO:\n",
-      "El presente Convenio de cooperación por su naturaleza será dirigido al personal militar en actividad o" +
-        " retiro y civil en actividad; debidamente acreditados mediante los correos electrónicos institucionales" +
-        " autorizados por “EL EJÉRCITO”; que en adelante serán denominados BENEFICIARIOS.\n",
-      "El presente Convenio busca contribuir al fortalecimiento de las actividades de bienestar realizadas por el" +
-        " Comando de Bienestar del Ejército, mediante el otorgamiento de beneficios en apoyo al personal militar y" +
-        " civil (actividad o retiro), así como sus familiares directos, quienes accederán a los servicios y productos ofrecidos por “SAMSUNG”.\n",
-
-      "BENEFICIO: \n",
-      "Brindará acceso a los diversos productos y servicios de su marca a precios reducidos en comparación a los" +
-        " que oferta en otros canales de venta, a través de la tienda virtual de “SAMSUNG”" +
-        " <a href='https://shop.samsung.com/pe/multistore/beneficios_empleados/'>https://shop.samsung.com/pe/multistore/beneficios_empleados/</a> beneficios_empleados/login/, siendo" +
-        " válido para Lima y provincias.\n",
-      "Brindará descuentos sobre la tarifa    regular, a costos especiales, en todas las líneas de smartphones,  tabletas, relojes inteligentes, dispositivos de audios, accesorios,  televisores,  audio,  video, refrigeradoras, lavado, soluciones de aire, electrodomésticos de cocina, monitores, entre otros.\n",
+      "Acceso a los diversos productos y servicios de su marca a precios reducidos, a través de la tienda virtual de" +
+        " “SAMSUNG” <a href='https://shop.samsung.com/pe/multistore/beneficios_empleados/beneficios_empleados/login/'>https://shop.samsung.com/pe/multistore/beneficios_empleados/beneficios_empleados/login/</a>," +
+        " siendo válido para Lima y provincias.",
+      "Descuentos sobre la tarifa regular, a costos especiales, en todas las líneas de smartphone, tablet, relojes inteligentes, dispositivos de audios, accesorios, televisores, audio, video, refrigeradoras, lavado, soluciones de aire, electrodomésticos de cocina, monitores, entre otros.",
+      "ALCANCE",
+      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuges e hijos)\n",
     ],
   },
 ];

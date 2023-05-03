@@ -162,29 +162,6 @@ export const institutes = [
     ],
   },
   {
-    image: GALLIA,
-    title: "D'GALLIA",
-    benefits: [
-      "CARRERAS TÉCNICAS: \n",
-      "10% descuento  en el pago de pensiones  \n",
-      "CURSOS LIBRES:\n",
-      "25% descuento  en el pago de pensiones\n",
-      "ALCANCE:",
-      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
-      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
-    ],
-    urlFile:
-      "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-    links: [
-      { url: "https://dgallia.edu.pe" },
-      {
-        url: "https://tramites.cobiene.mil.pe/",
-        text: "Solicita tu convenio SITRACON",
-        icon: faPaste,
-      },
-    ],
-  },
-  {
     image: DanielCarrion,
     title: "DANIEL A.CARRIÓN",
     benefits: [
@@ -644,27 +621,6 @@ export const institutes = [
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
     links: [
       { url: "https://isil.pe" },
-      {
-        url: "https://tramites.cobiene.mil.pe/",
-        text: "Solicita tu convenio SITRACON",
-        icon: faPaste,
-      },
-    ],
-  },
-  {
-    image: ImgAlianzaFrancesa,
-    title: "ALIANZA FRANCESA",
-    benefits: [
-      "CURSOS DE FRANCÉS, PARA NIÑOS, JÓVENES Y ADULTOS EN TODOS LOS HORARIOS:\n",
-      "15% descuento en el pago de las pensiones\n",
-      "ALCANCE:",
-      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
-      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
-    ],
-    urlFile:
-      "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-    links: [
-      { url: "https://www.aflima.org.pe/" },
       {
         url: "https://tramites.cobiene.mil.pe/",
         text: "Solicita tu convenio SITRACON",

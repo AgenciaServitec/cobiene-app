@@ -368,29 +368,6 @@ export const universities = [
     ],
   },
   {
-    image: ImgSeniorSipan,
-    title: "SEÑOR DE SIPAN",
-    benefits: [
-      "PREGRADO: \n",
-      "Categoría(04), descuento en las pensiones en todas las carreras (a excepción de medicina humana, estomatología y enfermería)\n",
-      "POSGRADO:\n",
-      "20 % de descuento en las pensiones\n",
-      "ALCANCE:",
-      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos)\n",
-      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
-    ],
-    urlFile:
-      "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
-    links: [
-      { url: "https://www.uss.edu.pe" },
-      {
-        url: "https://tramites.cobiene.mil.pe/",
-        text: "Solicita tu convenio SITRACON",
-        icon: faPaste,
-      },
-    ],
-  },
-  {
     image: ImgUtp,
     title: "UTP",
     benefits: [

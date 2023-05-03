@@ -31,7 +31,9 @@ import {
   INTECI,
   PRIVATECHER,
   ProfesionalTecnico,
-  SanVicente, CentroLima, SENATI
+  SanVicente,
+  CentroLima,
+  SENATI,
 } from "../images";
 import { faPaste } from "@fortawesome/free-solid-svg-icons";
 
@@ -735,12 +737,12 @@ export const institutes = [
     benefits: [
       "CARRERAS DE ALTA COCINA:",
       "25 medias becas, (50%) de descuento en el costo de enseñanza (mensualidades) nivel\n" +
-      "nacional.",
+        "nacional.",
       "CARRERAS TÉCNICAS DE ADMINISTRACIÓN DE SERVICIOS DE HOSTELERIA Y RESTAURANTE\n" +
-      "CON MENCIÓN EN GERENCIA DE LA HOSPITALIDAD INTERNACIONAL (TURNOS TARDE Y\n" +
-      "NOCHE):\n",
+        "CON MENCIÓN EN GERENCIA DE LA HOSPITALIDAD INTERNACIONAL (TURNOS TARDE Y\n" +
+        "NOCHE):\n",
       "25 medias becas, (50%) de descuento en el costo de enseñanza (mensualidades) nivel\n" +
-      "nacional.",
+        "nacional.",
       "ALCANCE:",
       "100% de descuento en costo por derecho de admisión. ",
       "BENEFICIARIOS:",
@@ -753,21 +755,21 @@ export const institutes = [
     benefits: [
       "BENEFICIOS QUE OFRECE:",
       "22% de descuento en el costo de enseñanza (mensualidades) a nivel Nacional, para el\n" +
-      "personal militar en actividad o retiro, personal civil en actividad o cesantes. ",
+        "personal militar en actividad o retiro, personal civil en actividad o cesantes. ",
       "10% de descuento en el costo de enseñanza (mensualidades) a nivel Nacional, para\n" +
-      "familiares directos (cónyuges, hijos y hermanos) ",
+        "familiares directos (cónyuges, hijos y hermanos) ",
       "DIPLOMADOS, CURSOS O PROGRAMAS DE ESPECIALIZACIÓN:",
       "22% de descuento en el costo de enseñanza (mensualidades) a nivel nacional, para\n" +
-      "personal militar en actividad o retiro, personal civil en actividad o cesantes.",
+        "personal militar en actividad o retiro, personal civil en actividad o cesantes.",
       "DIPLOMADOS, CURSOS O PROGRAMAS DE ESPECIALIZACIÓN:",
       "10% de descuento en el costo de enseñanza (mensualidades) a nivel nacional, para\n" +
-      "familiares directos (conyuges, hijos y hermanos). ",
+        "familiares directos (conyuges, hijos y hermanos). ",
       "ALCANCE:",
       "Personal militar en actividad o retiro,\n" +
-      "personal civil en actividad o\n" +
-      "cesantes,\n" +
-      "así como sus familiares directos\n" +
-      "(cónyuge, hijos y hermanos)\n",
+        "personal civil en actividad o\n" +
+        "cesantes,\n" +
+        "así como sus familiares directos\n" +
+        "(cónyuge, hijos y hermanos)\n",
     ],
   },
   {
@@ -776,16 +778,16 @@ export const institutes = [
     benefits: [
       "BENEFICIOS QUE OFRECE:",
       "25% descuento en diplomados, seminarios y en programas de especialización" +
-      "30% descuento aplica a todos los cursos virtuales\n ",
+        "30% descuento aplica a todos los cursos virtuales\n ",
       "10% descuento en la matrícula, y en el pago de las pensiones, siempre y cuando, el\n" +
-      "participante mantenga un promedio de nota no menor a 14 (a partir del 2do ciclo)\n" +
-      "25% descuento en las mensualidades",
+        "participante mantenga un promedio de nota no menor a 14 (a partir del 2do ciclo)\n" +
+        "25% descuento en las mensualidades",
       "ALCANCE:",
       "Personal militar en actividad o retiro,\n" +
-      "personal civil en actividad o\n" +
-      "cesantes,\n" +
-      "así como sus familiares directos\n" +
-      "(cónyuge e hijos)",
+        "personal civil en actividad o\n" +
+        "cesantes,\n" +
+        "así como sus familiares directos\n" +
+        "(cónyuge e hijos)",
     ],
   },
   {
@@ -794,21 +796,63 @@ export const institutes = [
     benefits: [
       "BENEFICIOS QUE OFRECE:",
       "10% de descuento en el pago anticipado (pronto pago), hasta un día antes de la fecha de\n" +
-      "vencimiento, sobre las mensualidades de costo de enseñanza en todos los programas de\n" +
-      "formación de CARRERAS DE: NIVEL TÉCNICO OPERATIVO, NIVEL PROFESIONAL TÉCNICO",
+        "vencimiento, sobre las mensualidades de costo de enseñanza en todos los programas de\n" +
+        "formación de CARRERAS DE: NIVEL TÉCNICO OPERATIVO, NIVEL PROFESIONAL TÉCNICO",
       "15%, de descuento en costo de enseñanza (mensualidades) en los diferentes programas de\n" +
-      "verano para escolares; a nivel nacional. en etapa escolar entre 07 y 17 años",
+        "verano para escolares; a nivel nacional. en etapa escolar entre 07 y 17 años",
       "15%, de descuento en costo de enseñanza (mensualidades) en los diferentes programas\n" +
-      "modulares para adultos, en Tecnologías de la Información, entre otros que se definan en\n" +
-      "conjunto con “EL EJÉRCITO.",
+        "modulares para adultos, en Tecnologías de la Información, entre otros que se definan en\n" +
+        "conjunto con “EL EJÉRCITO.",
       "15% de descuento en costo de enseñanza (mensualidades) en todos los diplomados, cursos\n" +
-      "y especializaciones ",
+        "y especializaciones ",
       "ALCANCE:",
       "Personal militar en actividad o retiro,\n" +
-      "personal civil en actividad o\n" +
-      "cesantes,\n" +
-      "así como sus familiares directos\n" +
-      "(cónyuge e hijos)",
+        "personal civil en actividad o\n" +
+        "cesantes,\n" +
+        "así como sus familiares directos\n" +
+        "(cónyuge e hijos)",
+    ],
+  },
+  {
+    title: "CÁMARA DE COMERCIO LIMA",
+    benefits: [
+      "25%  descuento en diplomados, seminarios y en programas de especialización\n",
+      "30%  descuento aplica a todos los cursos virtuales\n",
+      "10% descuento en la matrícula, y en el pago de las pensiones, siempre y cuando, el participante mantenga" +
+        "  un promedio de nota no menor a 14 (a partir del 2do ciclo)\n",
+      "25%   descuento en las mensualidades\n",
+      "ALCANCE",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes,\n" +
+        "así como sus familiares directos (cónyuge  e hijos) tropa servicio ",
+    ],
+  },
+  {
+    title: "AVIA",
+    benefits: [
+      "CARRERAS TECNICAS\n",
+      "20% DE DESCUENTO EN COSTO DE ENSEÑANZA (MENSUALIDADES) EN TODOS LOS PROGRAMAS Y CARRERAS TÉCNICAS PARA ESTUDIOS DE AVIACIÓN COMERCIAL, PROGRAMA COUNTER PROFESIONAL, PROGRAMA DE ESPECIALIZACIÓN COMO TRIPULANTE DE CABINA. \n",
+      "CURSOS O PROGRAMAS DE ESPECIALIZACIÓN. \n",
+      "20% DE DESCUENTO EN COSTO DE ENSEÑANZA (MENSUALIDADES) \n",
+      "ALCANCE",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes,\n" +
+        "así como sus familiares directos (cónyuge  e hijos) tropa servicio militar en actividad, licenciados.\n",
+    ],
+  },
+  {
+    title: "Corporación Educativa PEAH San Judas",
+    benefits: [
+      "CURSOS DE ESPECIALIZACIÓN PROFESIONAL \n",
+      "25% descuento en el pago de matrícula\n",
+      "25% descuento  en el pago de pensiones\n",
+    ],
+  },
+  {
+    title: "CEGICAP",
+    benefits: [
+      "30% DE DESCUENTO EN MATRICULA Y COSTOS DE ENSEÑANZA EN (MENSUALIDADES), EN TODOS SUS CURSOS DE ESPECIALIZACIÓN PROFESIONAL, CONSIDERANDO LAS DIFERENTES MODALIDADES, SEDES O LOCALES, INCLUSO SI EXISTIERA A NIVEL NACIONAL.\n",
+      "ALCANCE",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes,\n" +
+        "así como sus familiares directos (cónyuge  e hijos) tropa servicio militar en actividad, licenciados.\n",
     ],
   },
 ];

@@ -774,8 +774,8 @@ export const institutes = [
     benefits: [
       "25%  descuento en diplomados, seminarios y en programas de especialización\n",
       "30%  descuento aplica a todos los cursos virtuales\n",
-      "10% descuento en la matrícula, y en el pago de las pensiones, siempre y cuando, el participante mantenga" +
-        "  un promedio de nota no menor a 14 (a partir del 2do ciclo)\n",
+      "10% descuento en la matrícula, y en el pago de las pensiones, siempre y cuando, el participante mantenga un" +
+        " promedio de nota no menor a 14 (a partir del 2do ciclo)\n",
       "25%   descuento en las mensualidades\n",
       "ALCANCE",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes,\n" +
@@ -800,6 +800,9 @@ export const institutes = [
       "CURSOS DE ESPECIALIZACIÓN PROFESIONAL \n",
       "25% descuento en el pago de matrícula\n",
       "25% descuento  en el pago de pensiones\n",
+      "ALCANCE",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes,\n" +
+        "así como sus familiares directos (cónyuge  e hijos) tropa servicio militar en actividad, licenciados.\n",
     ],
   },
   {

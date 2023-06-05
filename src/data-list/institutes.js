@@ -1,21 +1,20 @@
 import {
+  ADEX,
   AKRON,
   BRITANICO,
+  CentroLima,
   CEPEA,
   CEPEABAN,
   CEVATUR,
-  ADEX,
   DanielCarrion,
   DesarrolloGeneral,
   eigra,
   EscueladeGerencia,
   EUROIDIOMAS,
   FORMACIONEMPRESARIAL,
-  GALLIA,
   GAMOR,
   guide,
   ICPNA,
-  ImgAlianzaFrancesa,
   ImgAndreVesalio,
   ImgCertus,
   ImgCibertec,
@@ -31,20 +30,11 @@ import {
   INTECI,
   PRIVATECHER,
   ProfesionalTecnico,
-  SanVicente,
-  CentroLima,
   SENATI,
 } from "../images";
 import { faPaste } from "@fortawesome/free-solid-svg-icons";
 
 export const institutes = [
-  // {
-  //   image: CentroModas,
-  //   title: "CENTRO DE ALTOS ESTUDIOS DE LA MODA",
-  //   benefits: ["10% DSCTO  EN EL PAGO DE PENSIONES"],
-  //   urlFile:
-  //     "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-  // },
   {
     image: CEPEA,
     title: "CEPEA",
@@ -140,7 +130,7 @@ export const institutes = [
       },
     ],
   },
-  {
+  /*  {
     image: SanVicente,
     title: "COR. EDU. SAN VICENTE",
     benefits: [
@@ -160,7 +150,7 @@ export const institutes = [
         icon: faPaste,
       },
     ],
-  },
+  },*/
   {
     image: DanielCarrion,
     title: "DANIEL A.CARRIÓN",
@@ -327,27 +317,27 @@ export const institutes = [
       },
     ],
   },
-  // {
-  //   image: LECTURAVELOZ,
-  //   title: "LECTURA VELOZ",
-  //   benefits: ["10% DSCTO  EN EL PAGO DE PENSIONES"],
-  //   urlFile:
-  //     "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-  // },
-  // {
-  //   image: LATINO,
-  //   title: "LATINO",
-  //   benefits: ["10% DSCTO  EN EL PAGO DE PENSIONES"],
-  //   urlFile:
-  //     "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-  // },
-  // {
-  //   image: LIBERTADOR,
-  //   title: "LIBERTADOR",
-  //   benefits: ["10% DSCTO  EN EL PAGO DE PENSIONES"],
-  //   urlFile:
-  //     "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-  // },
+  /* {
+    image: LECTURAVELOZ,
+    title: "LECTURA VELOZ",
+    benefits: ["10% DSCTO  EN EL PAGO DE PENSIONES"],
+    urlFile:
+      "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+  },
+  {
+    image: LATINO,
+    title: "LATINO",
+    benefits: ["10% DSCTO  EN EL PAGO DE PENSIONES"],
+    urlFile:
+      "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+  },
+  {
+    image: LIBERTADOR,
+    title: "LIBERTADOR",
+    benefits: ["10% DSCTO  EN EL PAGO DE PENSIONES"],
+    urlFile:
+      "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+  },*/
   {
     image: INIDHE,
     title: "INIDHE",

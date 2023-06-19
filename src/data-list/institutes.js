@@ -15,7 +15,7 @@ import {
   GAMOR,
   guide,
   ICPNA,
-  ImgAndreVesalio,
+  ImgAndreVesalio, ImgAvia, ImgCcl, ImgCegicap,
   ImgCertus,
   ImgCibertec,
   ImgColumbia,
@@ -23,7 +23,7 @@ import {
   ImgIcim,
   ImgInstAkrom,
   ImgIsilInst,
-  ImgIspaci,
+  ImgIspaci, ImgPeahSanJuan,
   ImgTltc,
   ImgVonBraun,
   INIDHE,
@@ -761,6 +761,7 @@ export const institutes = [
   },
   {
     title: "CÁMARA DE COMERCIO LIMA",
+    image: ImgCcl,
     benefits: [
       "25%  descuento en diplomados, seminarios y en programas de especialización\n",
       "30%  descuento aplica a todos los cursos virtuales\n",
@@ -774,6 +775,7 @@ export const institutes = [
   },
   {
     title: "AVIA",
+    image: ImgAvia,
     benefits: [
       "CARRERAS TECNICAS\n",
       "20% DE DESCUENTO EN COSTO DE ENSEÑANZA (MENSUALIDADES) EN TODOS LOS PROGRAMAS Y CARRERAS TÉCNICAS PARA ESTUDIOS DE AVIACIÓN COMERCIAL, PROGRAMA COUNTER PROFESIONAL, PROGRAMA DE ESPECIALIZACIÓN COMO TRIPULANTE DE CABINA. \n",
@@ -786,6 +788,7 @@ export const institutes = [
   },
   {
     title: "Corporación Educativa PEAH San Judas",
+    image: ImgPeahSanJuan,
     benefits: [
       "CURSOS DE ESPECIALIZACIÓN PROFESIONAL \n",
       "25% descuento en el pago de matrícula\n",
@@ -797,6 +800,7 @@ export const institutes = [
   },
   {
     title: "CEGICAP",
+    image: ImgCegicap,
     benefits: [
       "30% DE DESCUENTO EN MATRICULA Y COSTOS DE ENSEÑANZA EN (MENSUALIDADES), EN TODOS SUS CURSOS DE ESPECIALIZACIÓN PROFESIONAL, CONSIDERANDO LAS DIFERENTES MODALIDADES, SEDES O LOCALES, INCLUSO SI EXISTIERA A NIVEL NACIONAL.\n",
       "ALCANCE",

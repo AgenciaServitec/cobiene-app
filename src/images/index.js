@@ -50,6 +50,11 @@ export { default as Inst22 } from "./others/inst22.webp";
 export { default as LogoAacTumbes } from "./province-institutes/logo-aac-tumbes.webp";
 export { default as LogoPrimerosPasos } from "./lima-institutes/primerospasos-logo.webp";
 export { default as LogoAlfredoBonifaz } from "./lima-institutes/logo-alfredo-bonifaz.webp";
+export {default as ImgCcl } from "./com-institutes/descarga-removebg-preview.webp";
+export {default as ImgAvia } from "./com-institutes/logo-avia-ok.webp";
+export {default as ImgCegicap } from "./com-institutes/cegicap.webp";
+export {default as ImgPeahSanJuan } from "./com-institutes/logo_black.a5e8a72b.webp";
+
 
 //--------Corporatives images provinces institutes------
 export { default as ImgIeMariaMontessori } from "./province-institutes/ie-maria-montessori.webp";

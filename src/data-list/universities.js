@@ -2,6 +2,7 @@ import {
   ImgCatolicaSede,
   ImgCesarVallejo,
   ImgCientificaDelSur,
+  ImgConserLima,
   ImgConservatorio,
   ImgEsan,
   ImgFedericoVidarreal,
@@ -13,7 +14,6 @@ import {
   ImgSanJuanBautista,
   ImgSanMarcos,
   ImgSanMartin,
-  ImgSeniorSipan,
   ImgUcal,
   ImgUniAnahuaca,
   ImgUniAutonoma,
@@ -653,7 +653,8 @@ export const universities = [
     ],
   },
   {
-    title: "UNIVERSIDAD CONSERVATORIO DE LIMA",
+    title: "UNIV. CONSERVATORIO DE LIMA",
+    image: ImgConserLima,
     benefits: [
       "PREGRADO:",
       "Entre el 20% y 25 % en el pago de las pensiones en las carreras de Educación musical, dirección musical y" +

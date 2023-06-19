@@ -300,6 +300,7 @@ export { default as ImgConservatorio } from "./others/img-coservatorio.webp";
 export { default as ImgUniContinental } from "./companies/uni-continental.webp";
 export { default as ImgUniAnahuaca } from "./webp/uni-anahuaca.webp";
 export { default as ImgUniAutonoma } from "./webp/uni-autonoma.webp";
+export { default as ImgConserLima } from "./universities/conser-lima.webp";
 
 //-------- Institutes------
 export { default as CentroModas } from "./webp/instituto1.webp";

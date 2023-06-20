@@ -4,7 +4,6 @@ import {
   ImgCientificaDelSur,
   ImgConserLima,
   ImgConservatorio,
-  ImgEsan,
   ImgFedericoVidarreal,
   ImgJaimeBausate,
   ImgMarcelinoChampagnat,
@@ -111,29 +110,6 @@ export const universities = [
       "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
     links: [
       { url: "https://www.ucv.edu.pe" },
-      {
-        url: "https://tramites.cobiene.mil.pe/",
-        text: "Solicita tu convenio SITRACON",
-        icon: faPaste,
-      },
-    ],
-  },
-  {
-    image: ImgEsan,
-    title: "ESAN",
-    benefits: [
-      "CENTRO PRE UNIVERSITARIO: \n",
-      "10 % de descuento en el pago de las pensiones  \n",
-      "PREGRADO: \n",
-      "10 % de descuento en el pago de las pensiones  \n",
-      "ALCANCE:",
-      "Personal militar en actividad o retiro, así como sus familiares directos (cónyuge e hijos)\n",
-      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
-    ],
-    urlFile:
-      "https://drive.google.com/file/d/1E9wVieCur8Alr6B-XKSaF4tiTTFJQcHg/view?usp=sharing",
-    links: [
-      { url: "https://www.ue.edu.pe" },
       {
         url: "https://tramites.cobiene.mil.pe/",
         text: "Solicita tu convenio SITRACON",

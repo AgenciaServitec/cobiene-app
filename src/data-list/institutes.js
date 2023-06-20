@@ -15,7 +15,9 @@ import {
   GAMOR,
   guide,
   ICPNA,
-  ImgAndreVesalio, ImgAvia, ImgCcl, ImgCegicap,
+  ImgAndreVesalio,
+  ImgAvia,
+  ImgCegicap,
   ImgCertus,
   ImgCibertec,
   ImgColumbia,
@@ -23,7 +25,8 @@ import {
   ImgIcim,
   ImgInstAkrom,
   ImgIsilInst,
-  ImgIspaci, ImgPeahSanJuan,
+  ImgIspaci,
+  ImgPeahSanJuan,
   ImgTltc,
   ImgVonBraun,
   INIDHE,
@@ -719,7 +722,7 @@ export const institutes = [
     ],
   },
   {
-    title: "Instituto de Comercio de Lima",
+    title: "INSTITUTO DE LA CÁMARA DE COMERCIO DE LIMA ",
     image: CentroLima,
     benefits: [
       "BENEFICIOS QUE OFRECE:",
@@ -757,20 +760,6 @@ export const institutes = [
         "cesantes,\n" +
         "así como sus familiares directos\n" +
         "(cónyuge e hijos)",
-    ],
-  },
-  {
-    title: "CÁMARA DE COMERCIO LIMA",
-    image: ImgCcl,
-    benefits: [
-      "25%  descuento en diplomados, seminarios y en programas de especialización\n",
-      "30%  descuento aplica a todos los cursos virtuales\n",
-      "10% descuento en la matrícula, y en el pago de las pensiones, siempre y cuando, el participante mantenga un" +
-        " promedio de nota no menor a 14 (a partir del 2do ciclo)\n",
-      "25%   descuento en las mensualidades\n",
-      "ALCANCE",
-      "Personal militar en actividad o retiro, personal civil en actividad o cesantes,\n" +
-        "así como sus familiares directos (cónyuge  e hijos) tropa servicio ",
     ],
   },
   {

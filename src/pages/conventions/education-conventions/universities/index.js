@@ -4,13 +4,17 @@ import styled, { css } from "styled-components";
 import React from "react";
 
 export const Universities = () => {
-  SortWords(universities);
+  const newUniv = universities.map((uni) => {
+    const addUniv = `Univ. ${uni.title}`;
+    return { ...uni, title: addUniv };
+  });
+  SortWords(newUniv);
   return (
     <Container>
       <div className="content-logo">
         <h2>Universidades</h2>
       </div>
-      <CollapseWithButtons dataLists={universities} />
+      <CollapseWithButtons dataLists={newUniv} />
     </Container>
   );
 };

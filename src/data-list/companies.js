@@ -1240,4 +1240,18 @@ export const companies = [
       "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuges e hijos)\n",
     ],
   },
+  {
+    type: "clinic",
+    service: "health",
+    title: "UCHIS MED",
+    image:
+      "https://apoyosocial.cobiene.mil.pe/static/media/dent.247b6e3e15a859e1ccd1.webp",
+    links: [
+      {
+        url: "https://drive.google.com/file/d/1JRr9PoACvducDhu9_e7G0LnGPL58xS2c/view?usp=sharing",
+        icon: faLink,
+        text: "Detalles del convenio",
+      },
+    ],
+  },
 ];

@@ -21,7 +21,11 @@ export const CollapseWithButtons = ({ dataLists = [] }) => {
               {dataList.image ? (
                 <div className="content-button">
                   <div className="item-icon">
-                    <img src={dataList.image} alt={dataList.title} />
+                    <img
+                      src={dataList.image}
+                      alt={dataList.title}
+                      loading="lazy"
+                    />
                   </div>
                   <div className="item-text">
                     <Text style={{ width: 300 }} ellipsis>

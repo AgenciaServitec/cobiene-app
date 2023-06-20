@@ -324,7 +324,7 @@ export const universities = [
   },
   {
     image: ImgSanMarcos,
-    title: "UNMSM FAC. CIENCIAS ECONOMICAS",
+    title: "NMSM FAC. CIENCIAS ECONOMICAS",
     benefits: [
       "POSGRADO:\n",
       "20 % de descuento en el costo total de diplomados, maestrías y doctorados\n",
@@ -427,7 +427,7 @@ export const universities = [
   },
   {
     image: Norte,
-    title: "UNIV. PRIVADA DEL NORTE",
+    title: "PRIVADA DEL NORTE",
     alert:
       "Se completaron las vacantes para el beneficio del ejercito y su familia militar para el semestre 2023-1.",
     benefits: [
@@ -452,7 +452,7 @@ export const universities = [
   },
   {
     image: ImgConservatorio,
-    title: "UNIV. NACIONAL DE MÚSICA",
+    title: "NACIONAL DE MÚSICA",
     benefits: [
       "PREGRADO\n",
       "Entre el 20% y 25 % en el pago de las pensiones en las carreras de Educación musical, dirección musical y artista profesional\n",
@@ -483,7 +483,7 @@ export const universities = [
   },
   {
     image: ImgUniContinental,
-    title: "Universidad Continental",
+    title: "Continental",
     benefits: [
       "MATRICULA\n",
       "100 % de beneficio, sobre los costos por concepto de examen de admisión y matrícula, en todas las carreras de pregrado, en sus diferentes modalidades y en todas sus sedes a nivel nacional.\n",
@@ -607,7 +607,7 @@ export const universities = [
     ],
   },
   {
-    title: "UNIVERSIDAD DE CIENCIAS Y ARTES DE AMÉRICA LATINA",
+    title: "CIENCIAS Y ARTES DE AMÉRICA LATINA",
     image: ImgUcal,
     benefits: [
       "PREGRADO:",
@@ -629,7 +629,7 @@ export const universities = [
     ],
   },
   {
-    title: "UNIV. CONSERVATORIO DE LIMA",
+    title: "CONSERVATORIO DE LIMA",
     image: ImgConserLima,
     benefits: [
       "PREGRADO:",

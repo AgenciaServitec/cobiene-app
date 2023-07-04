@@ -1278,8 +1278,27 @@ export const companies = [
     type: "clinic",
     service: "health",
     title: "CLINICA SUIZA",
-    benefits: ["PROXIMAMENTE..."],
+    benefits: [
+      "ALCANCE DEL CONVENIO:\n",
+      "El convenio tiene como objetivo beneficiar a miembros del personal militar y civil activo, retirado o" +
+        ' cesante, así como a sus familiares directos. "SUIZA LAB" ofrecerá descuentos de hasta un 40% en servicios médicos de laboratorios, imágenes y consultas médicas exclusivamente para los beneficiarios acreditados ante el Ejército.\n',
+      "BENEFICIO:\n",
+      "- Descuentos en laboratorio clínico y biología molecular de hasta 40%\n",
+      "- Descuentos en consultas por especialidad de hasta 20%\n",
+      "- Descuentos en diagnóstico por imágenes (radiografías, ecografía, mamografía 2D y 3D, densitometría," +
+        " etc.)de hasta 20%\n",
+      "- Descuentos en procedimientos médicos de hasta 20%\n",
+      "- Descuentos en vacunatorio de hasta 10%\n",
+      "FORMA DE ACREDITACIÓN:\n",
+      "Para acreditar el acceso al beneficio, se requiere la presentación del Carnet de Identidad Personal (CIP) del titular y del Carnet de Identificación Familiar (CIF) o Documento Nacional de Identidad (DNI) de los familiares directos. Si los familiares directos no tienen CIF, pueden presentar su DNI y el titular debe acompañarlos para acreditar el vínculo familiar.",
+    ],
     image: "https://www.suizalab.com/wp-content/uploads/2020/08/logo-SL100.png",
-    links: [],
+    links: [
+      {
+        url: "https://drive.google.com/file/d/13mDAaw0GN44G_NSrtdouPt5vp7XWSDiO/view?usp=sharing",
+        icon: faLink,
+        text: "Detalles del convenio",
+      },
+    ],
   },
 ];

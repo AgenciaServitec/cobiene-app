@@ -561,29 +561,29 @@ export const companies = [
       },
     ],
   },
-  {
-    type: "laboratory",
-    service: "health",
-    image: ImgLabRoe,
-    title: "Lab. Roe",
-    benefits: ["Por Firmar"],
-    links: [{ url: "https://www.labroe.com/" }],
-  },
-  {
-    type: "servitec",
-    service: "technology",
-    image: Servitec,
-    title: "Servitec - Perú",
-    benefits: ["Con la presentación de su CIP 10% de descuento"],
-    links: [
-      { url: "https://servitecperu.com/" },
-      {
-        url: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+servicio:+https://servitecperu.com/&app_absent=0",
-        icon: faWhatsapp,
-        text: "Contactenos",
-      },
-    ],
-  },
+  // {
+  //   type: "laboratory",
+  //   service: "health",
+  //   image: ImgLabRoe,
+  //   title: "Lab. Roe",
+  //   benefits: ["Por Firmar"],
+  //   links: [{ url: "https://www.labroe.com/" }],
+  // },
+  // {
+  //   type: "servitec",
+  //   service: "technology",
+  //   image: Servitec,
+  //   title: "Servitec - Perú",
+  //   benefits: ["Con la presentación de su CIP 10% de descuento"],
+  //   links: [
+  //     { url: "https://servitecperu.com/" },
+  //     {
+  //       url: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+servicio:+https://servitecperu.com/&app_absent=0",
+  //       icon: faWhatsapp,
+  //       text: "Contactenos",
+  //     },
+  //   ],
+  // },
   {
     type: "servitec",
     service: "technology",
@@ -1244,6 +1244,26 @@ export const companies = [
     type: "clinic",
     service: "health",
     title: "UCHIS MED",
+    benefits: [
+      "ALCANCE DEL CONVENIO:\n",
+      "El presente Convenio de cooperación por su naturaleza será dirigido al personal militar en situación de" +
+        " actividad o retiro, personal civil; así como sus " +
+        "familiares directos (cónyuge e hijos menores de 25 años); debidamente" +
+        "acreditados; que en adelante serán denominados BENEFICIARIOS. Mediante" +
+        "un plan odontológico familiar con un costo de afiliación de S/. 35.00" +
+        "mensuales y no afiliación con tarifas preferenciales.\n",
+      "BENEFICIO:\n",
+      "Con el Plan Odontológico de 35.00, accederán el titular cónyuge e hijos\n" +
+        "menores de 25 años a:\n" +
+        "CONSULTA ODONTOLÓGICA, LIMPIEZA COMPLETA CON ULTRASONIDO,\n" +
+        "FLUORIZACIÓN, SELLANTE DE FOSAS Y FISURAS, CURACIONES SIMPLES CON\n" +
+        "RESINA Y LUZ HALÓGENA, CURACIONES COMPUESTAS CON RESINA Y LUZ\n" +
+        "HALÓGENA, EXTRACCIONES SIMPLES, ENDODONCIA EN PIEZAS ANTERIORES, 02\n" +
+        "RX PERIAPICALES.\n",
+      "Descontar el 10% a los BENEFICIARIOS afiliados y no afiliados en tratamientos\n" +
+        "especializados por encima de la tarifa especial indicada.\n",
+      "FORMA DE ACREDITACIÓN:",
+    ],
     image:
       "https://apoyosocial.cobiene.mil.pe/static/media/dent.247b6e3e15a859e1ccd1.webp",
     links: [
@@ -1253,5 +1273,13 @@ export const companies = [
         text: "Detalles del convenio",
       },
     ],
+  },
+  {
+    type: "clinic",
+    service: "health",
+    title: "CLINICA SUIZA",
+    benefits: ["PROXIMAMENTE..."],
+    image: "https://www.suizalab.com/wp-content/uploads/2020/08/logo-SL100.png",
+    links: [],
   },
 ];

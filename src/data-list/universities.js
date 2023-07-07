@@ -2,7 +2,6 @@ import {
   ImgCatolicaSede,
   ImgCesarVallejo,
   ImgCientificaDelSur,
-  ImgConserLima,
   ImgConservatorio,
   ImgFedericoVidarreal,
   ImgJaimeBausate,
@@ -628,21 +627,21 @@ export const universities = [
         "servicio militar en activid\n",
     ],
   },
-  {
-    title: "CONSERVATORIO DE LIMA",
-    image: ImgConserLima,
-    benefits: [
-      "PREGRADO:",
-      "Entre el 20% y 25 % en el pago de las pensiones en las carreras de Educación musical, dirección musical y" +
-        " artista profesional\n",
-      "ALCANCE:",
-      "Personal militar en situación\n" +
-        "de actividad y retiro,\n" +
-        "personal civil en actividad o\n" +
-        "cesante, así como sus\n" +
-        "familiares directos\n" +
-        "(cónyuge, hijos); tropa\n" +
-        "servicio militar en activid\n",
-    ],
-  },
+  // {
+  //   title: "CONSERVATORIO DE LIMA",
+  //   image: ImgConserLima,
+  //   benefits: [
+  //     "PREGRADO:",
+  //     "Entre el 20% y 25 % en el pago de las pensiones en las carreras de Educación musical, dirección musical y" +
+  //       " artista profesional\n",
+  //     "ALCANCE:",
+  //     "Personal militar en situación\n" +
+  //       "de actividad y retiro,\n" +
+  //       "personal civil en actividad o\n" +
+  //       "cesante, así como sus\n" +
+  //       "familiares directos\n" +
+  //       "(cónyuge, hijos); tropa\n" +
+  //       "servicio militar en activid\n",
+  //   ],
+  // },
 ];

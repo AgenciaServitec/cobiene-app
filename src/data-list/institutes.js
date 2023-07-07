@@ -15,6 +15,7 @@ import {
   GAMOR,
   guide,
   ICPNA,
+  ImgAlianzaFrancesa,
   ImgAndreVesalio,
   ImgAvia,
   ImgCegicap,
@@ -28,7 +29,6 @@ import {
   ImgIspaci,
   ImgPeahSanJuan,
   ImgTltc,
-  ImgVonBraun,
   INIDHE,
   INTECI,
   PRIVATECHER,
@@ -489,27 +489,27 @@ export const institutes = [
       },
     ],
   },
-  {
-    image: ImgVonBraun,
-    title: "VON BRAUN",
-    benefits: [
-      "PROGRAMAS DE FORMACIÓN:\n",
-      "30% descuento en el pago de  matrícula y pensiones mensuales\n",
-      "ALCANCE:",
-      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
-      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
-    ],
-    urlFile:
-      "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-    links: [
-      { url: "https://istvonbraun.edu.pe/" },
-      {
-        url: "https://tramites.cobiene.mil.pe/",
-        text: "Solicita tu convenio SITRACON",
-        icon: faPaste,
-      },
-    ],
-  },
+  // {
+  //   image: ImgVonBraun,
+  //   title: "VON BRAUN",
+  //   benefits: [
+  //     "PROGRAMAS DE FORMACIÓN:\n",
+  //     "30% descuento en el pago de  matrícula y pensiones mensuales\n",
+  //     "ALCANCE:",
+  //     "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
+  //     "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
+  //   ],
+  //   urlFile:
+  //     "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
+  //   links: [
+  //     { url: "https://istvonbraun.edu.pe/" },
+  //     {
+  //       url: "https://tramites.cobiene.mil.pe/",
+  //       text: "Solicita tu convenio SITRACON",
+  //       icon: faPaste,
+  //     },
+  //   ],
+  // },
   {
     image: ImgEcaprev,
     title: "ECAPREV",
@@ -795,6 +795,17 @@ export const institutes = [
       "ALCANCE",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes,\n" +
         "así como sus familiares directos (cónyuge  e hijos) tropa servicio militar en actividad, licenciados.\n",
+    ],
+  },
+  {
+    title: "Alianza Francesa",
+    image: ImgAlianzaFrancesa,
+    benefits: [
+      "ESTUDIOS EN EL IDIOMA FRANCES:\n" +
+        "15% descuento en el pago de las personas a nivel nacional. (Para aumentar regulares que hagan lleven el" +
+        " curso de manera interrumpida y manteniendo la nota de 11).\n",
+      "Alcance:\n",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos), hermanos solteros, tropa servicio militar en actividad, licenciados.",
     ],
   },
 ];

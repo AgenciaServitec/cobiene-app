@@ -807,5 +807,6 @@ export const institutes = [
       "Alcance:\n",
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos), hermanos solteros, tropa servicio militar en actividad, licenciados.",
     ],
+    links: [{ url: "https://www.alianzafrancesa.org.pe/" }],
   },
 ];

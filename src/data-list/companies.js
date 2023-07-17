@@ -1301,4 +1301,34 @@ export const companies = [
       },
     ],
   },
+  {
+    title: "OTIK LENS EIRL",
+    type: "clinic",
+    service: "health",
+    benefits: [
+      "Empresa que nos dedicamos a la salud visual, realizamos medidas de vista\n" +
+        "computarizada y despistajes de defectos de refracción, poniendo a su disposición su staff de profesionales.\n" +
+        "ALCANCE DEL CONVENIO:\n",
+      "Dirigido al personal militar en situación de actividad o de retiro, personal civil directos (cónyuge," +
+        " hijos, padres y hermanos), debidamente acreditados.\n",
+      "BENEFICIO:\n",
+      "Brinda servicios gratuitos de medidas de vista computarizada y despistaje de defectos de refracción, miopía" +
+        " ambliopía, astigmatismo, glaucoma, catarata.\n",
+      "Brinda a los beneficiarios del Ejercito acceso a tarifas especiales hasta un 15% en servicio de lunas" +
+        " (blancas, blue, anti réflex monofocales, bifocales, progresivos, en material policarbonato, resinas y cristales, entre otros.\n",
+      "Brinda a los beneficiarios del ejercito acceso a tarifas especiales hasta un 25% en servicios de monturas" +
+        " económicas, intermedias y alta gama entre otros.\n",
+      "FORMA DE ACREDITACION:\n",
+      "Mediante la presentación física del respectivo Carnet de Identidad Personal del titular (CIP), y familiares directos, mediante presentación del Carnet de Identificación Familiar (CIF).\n",
+      "Horarios: Miércoles, jueves y viernes de 9 am a 3 pm.",
+    ],
+    links: [
+      { url: "tel:968624571", text: "968624571", icon: faPhone },
+      {
+        url: "mailto:Marothmoralesmarreros@gmail.com",
+        text: "Marothmoralesmarreros@gmail.com",
+        icon: faEnvelope,
+      },
+    ],
+  },
 ];

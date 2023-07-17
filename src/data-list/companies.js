@@ -16,7 +16,6 @@ import {
   ImgFootloose,
   ImgHotelCarrera,
   ImgInppares,
-  ImgLabRoe,
   ImgLaPositiva,
   ImgLaPositivaVida,
   ImgLazzosComerciales,
@@ -26,6 +25,7 @@ import {
   ImgMultident,
   ImgOftalmoSalud,
   ImgOltursa,
+  ImgOtikLensEirl,
   ImgRehabilitadora,
   ImgRimacSeguros,
   ImgRimacTable,
@@ -1303,6 +1303,7 @@ export const companies = [
   },
   {
     title: "OTIK LENS EIRL",
+    image: ImgOtikLensEirl,
     type: "clinic",
     service: "health",
     benefits: [

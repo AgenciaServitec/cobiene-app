@@ -43,7 +43,7 @@ export const EducationConventions = () => {
       </Button>
 
       <div className="list-convenios">
-        <a href="https://drive.google.com/file/d/1lKdcV-kFnP7aHESdeSZ36eJXxqgTjlwh/view?usp=sharing">
+        <a href="https://drive.google.com/file/d/1CgwLqBMSp1nr3_DCeSMzNRs3Bp657WGA/view?usp=sharing">
           <FontAwesomeIcon icon={faList} size="2x" />
           Lista de convenios de universidades e institutos:
         </a>

@@ -42,13 +42,12 @@ export const institutes = [
     image: CEPEA,
     title: "CEPEA",
     benefits: [
-      "Carreras de gastronomía y artes culinarias, administración de servicios de hotelería y guia turismo:\n",
-      "20% descuento en el pago de pensiones\n",
-      "Carreras de administración, contabilidad, desarrollo de sistemas y enfermería técnica:\n",
-      "30% descuento en el pago de pensiones\n",
+      "CARRERAS TÉCNICAS:\n",
+      "30% de descuento en los programas de administración de empresas, contabilidad, desarrollo de sistemas de información  y enfermería técnica.\n",
+
+      "20 % de descuento en los programas de carreras técnicas de gastronomía y arte culinario, guía oficial de turismo y administración de servicios de hostelería. \n",
       "Alcance:",
-      "Personal militar en actividad o retiro y familiares directos. personal  civil y familiares directos",
-      "- OO, SUP. TCOS. SSOO.  tropa activo y licenciado.",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos) tropa servicio militar en actividad, licenciados.",
     ],
     urlFile:
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",

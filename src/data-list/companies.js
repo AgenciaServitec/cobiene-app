@@ -13,7 +13,7 @@ import {
     ImgEfectiva,
     ImgElCentro,
     ImgFinantel,
-    ImgFootloose,
+    ImgFootloose, ImgHankooalvillanta,
     ImgHotelCarrera,
     ImgInppares,
     ImgLaPositiva,
@@ -41,7 +41,7 @@ import {
 import {
     faBuilding,
     faEnvelope,
-    faFile,
+    faFile, faGlobe,
     faLink,
     faLocationDot,
     faPhone,
@@ -1336,5 +1336,21 @@ export const companies = [
                 icon: faEnvelope,
             },
         ],
+    },
+    {
+        type: "cars",
+        service: "companies",
+        title: 'Hankookalvillanta',
+        image: ImgHankooalvillanta,
+
+        benefits: [
+
+            "Beneficio:",
+            "Tenemos personal altamente capacitado para atender su requerimiento a la mayor brevedad, con eficacia y garantizando la calidad de nuestras llantas y atención profesional. Realizamos rápido y efectivo servicio a domicilio a Lima metropolitana.",
+            "Ventas de LLantas Hankook a un precio insuperable",
+        ],
+        links:[
+            {url: "https://hankookalvillanta.com/", text: "Visita nuestra pagina web", icon: faGlobe},
+        ]
     },
 ];

@@ -395,6 +395,8 @@ export { default as ImgCruzDelSur2 } from "./companies/cruz-del-sur.webp";
 export { default as ImgHotelCarrera } from "./companies/hotel-carrera.webp";
 export { default as ImgMossaShoes } from "./companies/mossa-shoes.webp";
 export { default as ImgOtikLensEirl } from "./companies/lens.webp";
+export { default as ImgHankooalvillanta } from "./companies/hankookalvillanta.webp";
+
 
 //-------- Academies PRe ------
 export { default as Academie1 } from "./others/academie1.webp";

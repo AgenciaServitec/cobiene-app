@@ -43,6 +43,10 @@ export const ServiceType = () => {
           title: "Productos",
           url: `/conventions/multi-service/${typeService}/products`,
         },
+        {
+          title: "Vehiculos",
+          url: `/conventions/multi-service/${typeService}/cars`,
+        },
       ],
     },
     {

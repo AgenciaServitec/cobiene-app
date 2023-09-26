@@ -138,6 +138,7 @@ export { default as ImgJoseJoaquinInclan } from "./lima-institutes/iel-jose-joaq
 export { default as ImgLasPalmas } from "./lima-institutes/iel-las-palmas.webp";
 export { default as ImgMatelini } from "./lima-institutes/iel-matellini.webp";
 export { default as ImgSantaIsabel } from "./lima-institutes/iel-santa-isabel.webp";
+export { default as ImgCivitec } from "./com-institutes/civimeLogo.webp";
 
 //--------Carousel images lima institutes------
 export { default as ImgCarouselAlfredoBonifaz } from "./lima-institutes/c-alfredo-bonifaz.webp";

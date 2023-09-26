@@ -812,10 +812,12 @@ export const institutes = [
     title: "Civime",
     image: ImgCivitec,
     benefits: [
-      "Calidad Educativa:\n" +
+      " Institución educativa de sólida trayectoria brindando servicio de enseñanza de calidad en idiomas.\n",
+
       " Nuestros cursos son impartidos por instructores altamente calificados y con experiencia en sus respectivos campos. \n",
-      "Alcance:\n",
       "Desarrollo de Habilidades, Flexibilidad",
+      "Alcance:\n",
+
       "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos), hermanos solteros, tropa servicio militar en actividad, licenciados.",
     ],
     links: [{ url: "https://www.civime.edu.pe/" }],

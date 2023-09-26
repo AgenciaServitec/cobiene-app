@@ -808,4 +808,16 @@ export const institutes = [
     ],
     links: [{ url: "https://www.alianzafrancesa.org.pe/" }],
   },
+  {
+    title: "Civime",
+    image: ImgAlianzaFrancesa,
+    benefits: [
+      "ESTUDIOS EN EL IDIOMA:\n" +
+      "Calidad Educativa: Nuestros cursos son impartidos por instructores altamente calificados y con experiencia en sus respectivos campos. \n",
+      "Alcance:\n",
+      "Desarrollo de Habilidades, Flexibilidad",
+      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge e hijos), hermanos solteros, tropa servicio militar en actividad, licenciados.",
+    ],
+    links: [{ url: "https://www.civime.edu.pe/" }],
+  },
 ];

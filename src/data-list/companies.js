@@ -1340,7 +1340,7 @@ export const companies = [
     {
         type: "cars",
         service: "companies",
-        title: 'Hankookalvillanta',
+        title: 'Llantas | Hankookalvillanta',
         image: ImgHankooalvillanta,
 
         benefits: [

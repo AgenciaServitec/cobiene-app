@@ -812,7 +812,7 @@ export const institutes = [
     title: "Civime",
     image: ImgCivitec,
     benefits: [
-      " Institución educativa de sólida trayectoria brindando servicio de enseñanza de calidad en idiomas.\n",
+      "Institución educativa de sólida trayectoria brindando servicio de enseñanza de calidad en idiomas.\n",
 
       " Nuestros cursos son impartidos por instructores altamente calificados y con experiencia en sus respectivos campos. \n",
       "Desarrollo de Habilidades, Flexibilidad",

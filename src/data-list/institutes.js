@@ -20,7 +20,6 @@ import {
   ImgAvia,
   ImgCegicap,
   ImgCertus,
-  ImgCibertec, ImgCivitec,
   ImgColumbia,
   ImgEcaprev,
   ImgIcim,
@@ -34,6 +33,7 @@ import {
   PRIVATECHER,
   ProfesionalTecnico,
   SENATI,
+  ImgCibertec,
 } from "../images";
 import { faPaste } from "@fortawesome/free-solid-svg-icons";
 
@@ -810,7 +810,7 @@ export const institutes = [
   },
   {
     title: "Civime",
-    image: ImgCivitec,
+
     benefits: [
       "Institución educativa de sólida trayectoria brindando servicio de enseñanza de calidad en idiomas.\n",
 

@@ -138,7 +138,7 @@ export { default as ImgJoseJoaquinInclan } from "./lima-institutes/iel-jose-joaq
 export { default as ImgLasPalmas } from "./lima-institutes/iel-las-palmas.webp";
 export { default as ImgMatelini } from "./lima-institutes/iel-matellini.webp";
 export { default as ImgSantaIsabel } from "./lima-institutes/iel-santa-isabel.webp";
-export { default as ImgCivitec } from "./com-institutes/civimeLogo.webp";
+// export { default as ImgCivitec } from "./com-institutes/civimeLogo.webp";
 
 //--------Carousel images lima institutes------
 export { default as ImgCarouselAlfredoBonifaz } from "./lima-institutes/c-alfredo-bonifaz.webp";
@@ -396,8 +396,7 @@ export { default as ImgCruzDelSur2 } from "./companies/cruz-del-sur.webp";
 export { default as ImgHotelCarrera } from "./companies/hotel-carrera.webp";
 export { default as ImgMossaShoes } from "./companies/mossa-shoes.webp";
 export { default as ImgOtikLensEirl } from "./companies/lens.webp";
-export { default as ImgHankooalvillanta } from "./companies/hankookalvillanta.webp";
-
+// export { default as ImgHankooalvillanta } from "./companies/hankookalvillanta.webp";
 
 //-------- Academies PRe ------
 export { default as Academie1 } from "./others/academie1.webp";

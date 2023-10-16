@@ -14,7 +14,6 @@ import {
   ImgElCentro,
   ImgFinantel,
   ImgFootloose,
-  ImgHankooalvillanta,
   ImgHotelCarrera,
   ImgInppares,
   ImgLaPositiva,
@@ -1343,7 +1342,6 @@ export const companies = [
     type: "cars",
     service: "companies",
     title: "Llantas | Hankookalvillanta ",
-    image: ImgHankooalvillanta,
 
     benefits: [
       "Envió gratis en Lima",

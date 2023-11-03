@@ -6,14 +6,14 @@ import {
   BankPichincha,
   BankScotiabank,
   CobieneLogo,
-  ImgApelac,
+  ImgApelac, ImgAunaSvida,
   ImgBiolinks,
   ImgCostaSol,
   ImgCruzDelSur,
   ImgEfectiva,
-  ImgElCentro,
+  ImgElCentro, ImgFesalud,
   ImgFinantel,
-  ImgFootloose,
+  ImgFootloose, ImgGlobalLaser,
   ImgHotelCarrera,
   ImgInppares,
   ImgLaPositiva,
@@ -26,7 +26,7 @@ import {
   ImgOftalmoSalud,
   ImgOltursa,
   ImgOtikLensEirl,
-  ImgRehabilitadora,
+  ImgRehabilitadora, ImgResocentro,
   ImgRimacSeguros,
   ImgRimacTable,
   ImgSmartFit,
@@ -111,7 +111,7 @@ export const companies = [
         icon: faLink,
         text: "Detalles del convenio",
       },
-      ,
+
       { url: "https://medifonperu.pe/" },
     ],
   },
@@ -241,6 +241,77 @@ export const companies = [
       "Descuento del 20% de en servicios de audiología, psicología nutrición.\n",
     ],
     links: [{ url: "http://tinnitusperu.com" }],
+  },
+  {
+    type: "clinic",
+    service: "health",
+    image: ImgFesalud,
+    title: "FE SALUD",
+    benefits: [
+      "Institución Administradora de Fondos de Aseguramiento en Salud privada. debidamente registrada en el Registro RIAFAS de la Superintendencia Nacional de Salud (SUSALUD) bajo Código Único N 20028 Es una institucion altamente especializada en lo prestación de servicios médicos asistenciales complementarios.",
+
+      "ALCANCE DEL CONVENIO:\n",
+      "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.\n",
+      "FORMA DE ACREDITACIÓN:\n",
+      "Presentación del carnet de identificación personal militar o civil CIP\n",
+      "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).\n",
+
+
+    ],
+    links: [{ url: "https://fesalud.com.pe/" }],
+  },
+  {
+    type: "clinic",
+    service: "health",
+    image: ImgAunaSvida,
+    title: "AUNA SVIDA",
+    benefits: [
+      "Es una institución altamente especializada en la prestación de servicios médicos Y asistenciales complementarios.",
+
+      "ALCANCE DEL CONVENIO:\n",
+      "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.\n",
+      "FORMA DE ACREDITACIÓN:\n",
+      "Presentación del carnet de identificación personal militar o civil CIP\n",
+      "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).\n",
+
+    ],
+    links: [{ url: "https://www.auna.org/pe/auna-salud" }],
+  },
+  {
+    type: "clinic",
+    service: "health",
+    image: ImgGlobalLaser,
+    title: "GLOBAL LASER",
+    benefits: [
+      "servicios especializados en  oftamalogica mediante\n" +
+      "\n" +
+      "un diagnostico, tratamiento y prevención de enfermedades oftamologicas contando con un soporte tecnológicos, profesional y administrativo odecuado, con equipos de última tecnologia y profesionales altamente capacitados contando con sedes en las provincias de lquitos Pucorpo y Puerto Maldonado.",
+      "ALCANCE DEL CONVENIO:\n",
+      "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.\n",
+      "FORMA DE ACREDITACIÓN:\n",
+      "Presentación del carnet de identificación personal militar o civil CIP\n",
+      "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).\n",
+
+
+    ],
+    links: [{ url: "https://www.globallaserperu.com/" }],
+  },
+  {
+    type: "clinic",
+    service: "health",
+    image: ImgResocentro,
+    title: "RESOCENTRO",
+    benefits: [
+      "Centro avanzado de resonancia, Servicios especializados en ayuda al diagnóstico mediante imagenes contando con equipos de última generación dando resultado altamente calificado.",
+      "ALCANCE DEL CONVENIO:\n",
+      "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.\n",
+      "FORMA DE ACREDITACIÓN:\n",
+      "Presentación del carnet de identificación personal militar o civil CIP\n",
+      "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).\n",
+
+
+    ],
+    links: [{ url: "https://resocentro.com/" }],
   },
   {
     type: "commercialShop",

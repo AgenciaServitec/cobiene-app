@@ -396,6 +396,13 @@ export { default as ImgCruzDelSur2 } from "./companies/cruz-del-sur.webp";
 export { default as ImgHotelCarrera } from "./companies/hotel-carrera.webp";
 export { default as ImgMossaShoes } from "./companies/mossa-shoes.webp";
 export { default as ImgOtikLensEirl } from "./companies/lens.webp";
+
+export { default as ImgAunaSvida } from "./webp/aunaSvida.webp";
+export { default as ImgGlobalLaser } from "./webp/globalLaser.webp";
+export { default as ImgFesalud } from "./webp/Logo-fesalud-svg.webp";
+export { default as ImgResocentro } from "./webp/resocentro.webp";
+
+
 // export { default as ImgHankooalvillanta } from "./companies/hankookalvillanta.webp";
 
 //-------- Academies PRe ------

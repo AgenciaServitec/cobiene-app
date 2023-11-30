@@ -6,14 +6,16 @@ import {
   BankPichincha,
   BankScotiabank,
   CobieneLogo,
-  ImgApelac, ImgAunaSvida,
+  ImgApelac,
+  ImgAunaSvida,
   ImgBiolinks,
-  ImgCostaSol,
   ImgCruzDelSur,
   ImgEfectiva,
-  ImgElCentro, ImgFesalud,
+  ImgElCentro,
+  ImgFesalud,
   ImgFinantel,
-  ImgFootloose, ImgGlobalLaser,
+  ImgFootloose,
+  ImgGlobalLaser,
   ImgHotelCarrera,
   ImgInppares,
   ImgLaPositiva,
@@ -26,7 +28,8 @@ import {
   ImgOftalmoSalud,
   ImgOltursa,
   ImgOtikLensEirl,
-  ImgRehabilitadora, ImgResocentro,
+  ImgRehabilitadora,
+  ImgResocentro,
   ImgRimacSeguros,
   ImgRimacTable,
   ImgSmartFit,
@@ -255,8 +258,6 @@ export const companies = [
       "FORMA DE ACREDITACIÓN:\n",
       "Presentación del carnet de identificación personal militar o civil CIP\n",
       "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).\n",
-
-
     ],
     links: [{ url: "https://fesalud.com.pe/" }],
   },
@@ -273,7 +274,6 @@ export const companies = [
       "FORMA DE ACREDITACIÓN:\n",
       "Presentación del carnet de identificación personal militar o civil CIP\n",
       "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).\n",
-
     ],
     links: [{ url: "https://www.auna.org/pe/auna-salud" }],
   },
@@ -284,15 +284,13 @@ export const companies = [
     title: "GLOBAL LASER",
     benefits: [
       "servicios especializados en  oftamalogica mediante\n" +
-      "\n" +
-      "un diagnostico, tratamiento y prevención de enfermedades oftamologicas contando con un soporte tecnológicos, profesional y administrativo odecuado, con equipos de última tecnologia y profesionales altamente capacitados contando con sedes en las provincias de lquitos Pucorpo y Puerto Maldonado.",
+        "\n" +
+        "un diagnostico, tratamiento y prevención de enfermedades oftamologicas contando con un soporte tecnológicos, profesional y administrativo odecuado, con equipos de última tecnologia y profesionales altamente capacitados contando con sedes en las provincias de lquitos Pucorpo y Puerto Maldonado.",
       "ALCANCE DEL CONVENIO:\n",
       "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.\n",
       "FORMA DE ACREDITACIÓN:\n",
       "Presentación del carnet de identificación personal militar o civil CIP\n",
       "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).\n",
-
-
     ],
     links: [{ url: "https://www.globallaserperu.com/" }],
   },
@@ -308,8 +306,6 @@ export const companies = [
       "FORMA DE ACREDITACIÓN:\n",
       "Presentación del carnet de identificación personal militar o civil CIP\n",
       "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).\n",
-
-
     ],
     links: [{ url: "https://resocentro.com/" }],
   },
@@ -540,122 +536,7 @@ export const companies = [
     ],
     links: [{ url: "https://larehabilitadora.com/" }],
   },
-  /*  {
-      type: "hotel",
-      image: ImgCasaAndina,
-      title: "HOTEL CASA ANDINA",
-      benefits: [
-        "1.\tALCANCE DEL CONVENIO:\n",
-        "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres); debidamente acreditados.\n",
-        "2.\tFORMA DE ACREDITACIÓN:\n",
-        "2.1.\tPresentación del carnet de identificación personal militar o civil CIP\n",
-        "2.2.\tPresentación del carnet de identificación familiar CIF (cónyuge, \thijos, padres y hermanos).\n",
-        "2.3.\tPara el caso de familiares directos, que no posean el Carnet de Identidad \tFamiliar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.\n",
 
-        "3.\tBENEFICIO \n",
-        "3.1.\tAcceso a descuentos sobre la tarifa regular, precios diferenciales, en los alojamientos propios y asociados, ubicados a nivel nacional, vigentes al momento de la reserva, según relación actualizada, de forma trimestral.",
-        "3.2. Acceso a los servicios hoteleros ofrecidos, a través de porcentaje de descuento sobre las tarifas regulares, otorgados EXCLUSIVAMENTE mediante la web.",
-        `<a href="https://www.casa-andina.com/es/ofertas/ejercitoperu" target="_blank">https://www.casa-andina.com/es/ofertas/ejercitoperu</a>`,
-        "Canales de atención a través de correo electrónico:",
-        `<a href="centraldereservas@casa-andina.com" target="_blank">centraldereservas@casa-andina.com</a>`,
-        "Y call center",
-        `<a href="tel:013916500" target="_blank">(01) 3916500</a>`,
-        "Código de acceso al descuento es EJERCITOPERU22.",
-        "3.3.\tBeneficio previa presentación física del respectivo Carnet de Identidad Personal del titular (CIP), y familiares directos mediante presentación del Carnet de Identificación Familiar (CIF); y/o DNI, al momento del CHECK IN en el hotel elegido.\n",
-        "3.4.\tLa no acreditación del BENEFICIARIO, ante el Hotel será motivo de no acceder a los descuentos por convenio, reservándose el derecho de cobrar el monto vigente al momento del CHECK – IN.\n",
-        "3.5.\tLas reservas realizadas son de tarifas NO REEMBOLSABLE.\n",
-        "3.6.\tAplica el 10% a la tarifa inicial por el cargo correspondiente a servicios y el  IGV. \n",
-      ],
-      links: [
-        { url: "https://www.casa-andina.com/es/home8" },
-        {
-          url: "https://drive.google.com/file/d/1c-r__vS6vfKcRTSOXe85pw2pHiR1OuRW/view",
-          text: "Ver descuentos",
-          icon: faFile,
-        },
-        {
-          url: "mailto:centraldereservas@casa-andina.com",
-          text: "centraldereservas@casa-andina.com",
-          icon: faEnvelope,
-        },
-        {
-          url: "tel:013916500",
-          text: "(01) 3916500.",
-          icon: faPhone,
-        },
-      ],
-    },*/
-  {
-    type: "hotel",
-    image: ImgCostaSol,
-    title: "HOTEL COSTA DEL SOL ",
-    benefits: [
-      "1.\tALCANCE DEL CONVENIO:\n",
-      "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos y padres); debidamente acreditados.\n",
-      "2.\tFORMA DE ACREDITACIÓN:\n",
-      "Presentación del carnet de identificación personal militar o civil CIP\n",
-      "Presentación del carnet de identificación familiar CIF (cónyuge, \thijos, padres).\n",
-      "3.\tBENEFICIO \n",
-      "-\tDesayuno buffet, bebida de bienvenida, wifi en todas las instalaciones, uso de piscina, gimnasio, spa (jacuzzi, sauna) sin costo en alojamiento como parte de las reserva.\n",
-      "-\t10% de DSCTO  en el restaurante PAPRIKA, sobre precio de carta, incluyendo bebidas. \n",
-      "-\t10% de DSCTO descuento en el consumo de alimentos y bebidas solicitados en el servicio a la habitación, en el bar, en el spa, u otro ambiente. \n",
-      "-\t10% de descuento en los servicios del SPA (masajes, tratamiento de manos, pies, faciales, entre otros),sobre el costo total al momento del pago, para las sedes de Piura – Trujillo Golf – Trujillo Centro – Cajamarca – Lima Aeropuerto – Lima Salaverry. \n",
-      "-\t10% en no alojados en el hotel en restaurante PAPRIKA o el BARWALAKy SARIA SKY BAR. \n",
-      "-\t10% de descuento en los servicios de lavandería.\n",
-      "RESERVAS:\n",
-      `AL <a href="tel:2009200" target="_blank">51(1) 2009200</a>, opción 1 y mediante correo electrónico, dirigido a:`,
-      `<a href="raggiuro@costadelsolperu.com" target="_blank">raggiuro@costadelsolperu.com</a>`,
-      `<a href="corporativo@costadelsolperu.com" target="_blank">corporativo@costadelsolperu.com</a>`,
-    ],
-    links: [
-      {
-        url: "https://www.costadelsolperu.com/hoteles/hotel-costa-del-sol-wyndham-lima-ciudad/",
-      },
-      {
-        url: "tel:2009200",
-        text: "51(1) 2009200",
-        icon: faPhone,
-      },
-      {
-        url: "mailto:raggiuro@costadelsolperu.com",
-        text: "raggiuro@costadelsolperu.com",
-        icon: faEnvelope,
-      },
-      {
-        url: "mailto:corporativo@costadelsolperu.com",
-        text: "corporativo@costadelsolperu.com",
-        icon: faEnvelope,
-      },
-      {
-        url: "https://drive.google.com/file/d/1uq6ZomiXJkiQlECigzB9DL75uaJ5kmJu/view",
-        text: "Ver descuentos",
-        icon: faFile,
-      },
-    ],
-  },
-  // {
-  //   type: "laboratory",
-  //   service: "health",
-  //   image: ImgLabRoe,
-  //   title: "Lab. Roe",
-  //   benefits: ["Por Firmar"],
-  //   links: [{ url: "https://www.labroe.com/" }],
-  // },
-  // {
-  //   type: "servitec",
-  //   service: "technology",
-  //   image: Servitec,
-  //   title: "Servitec - Perú",
-  //   benefits: ["Con la presentación de su CIP 10% de descuento"],
-  //   links: [
-  //     { url: "https://servitecperu.com/" },
-  //     {
-  //       url: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+servicio:+https://servitecperu.com/&app_absent=0",
-  //       icon: faWhatsapp,
-  //       text: "Contactenos",
-  //     },
-  //   ],
-  // },
   {
     type: "servitec",
     service: "technology",

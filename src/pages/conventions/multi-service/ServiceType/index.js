@@ -17,10 +17,6 @@ export const ServiceType = () => {
       title: "Restaurantes",
       buttons: [
         {
-          title: "Chifa",
-          url: `/conventions/multi-service/${typeService}/chifa`,
-        },
-        {
           title: "Comida peruana",
           url: `/conventions/multi-service/${typeService}/peruvianFood`,
         },

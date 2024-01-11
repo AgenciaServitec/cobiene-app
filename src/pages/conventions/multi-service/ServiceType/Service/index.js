@@ -12,7 +12,6 @@ export const Service = () => {
 
   const listTitles = [
     { title: "Comida peruana", serviceUrl: "peruvianFood" },
-    { title: "Chifa", serviceUrl: "chifa" },
     { title: "Tiendas comerciales", serviceUrl: "commercialShop" },
     { title: "Gimnasio", serviceUrl: "gym" },
     { title: "Laboratorios", serviceUrl: "laboratory" },

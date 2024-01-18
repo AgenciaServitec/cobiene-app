@@ -18,6 +18,7 @@ export { default as ImgLogoConvention } from "./webp/convention-1.webp";
 export { default as ImgLogoConvention2 } from "./webp/convention-2.webp";
 export { default as LogoFactura } from "./others/logo-factura.webp";
 export { default as LogoPublicidad } from "./others/logo-servitec.webp";
+export { default as SmartFitPost } from "./companies/smart-fit-post.jpeg";
 
 //--------Images Jage------
 export { default as ImgLogoJace } from "./jace/image-logo-jace.webp";

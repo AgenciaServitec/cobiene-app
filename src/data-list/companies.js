@@ -45,7 +45,6 @@ import {
 import {
   faBuilding,
   faEnvelope,
-  faFile,
   faFilePdf,
   faGlobe,
   faLink,

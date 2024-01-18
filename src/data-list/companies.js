@@ -620,7 +620,7 @@ export const companies = [
     type: "life-insurance",
     image: ImgLaPositiva,
     benefits: [
-      `<div className="rimac"><img src="${ImgRimacTable}" width="90%" /></div> `,
+      `<div><img src="${ImgRimacTable}" width="100%" alt="rimac tabla" /></div> `,
     ],
     title: "Seguro Salud Positiva",
     // links: [{ url: "https://www.lapositiva.com.pe" }],

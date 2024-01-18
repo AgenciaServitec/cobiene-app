@@ -610,7 +610,7 @@ export const companies = [
     image: ImgRimacSeguros,
     title: "Seguros Rimac",
     benefits: [
-      `<img src="${CobieneLogo}" width="15%"/> `,
+      `<img src="${CobieneLogo}" width="15%" alt="cobiene logo"/> `,
       "Estamos trabajando por el bienestar",
       "Proximamente...",
     ],
@@ -628,7 +628,7 @@ export const companies = [
   {
     type: "life-insurance",
     benefits: [
-      `<img src="${CobieneLogo}" width="15%"/> `,
+      `<img src="${CobieneLogo}" width="15%" alt="cobiene logo"/> `,
       "Estamos trabajando por el bienestar",
       "Proximamente...",
     ],
@@ -655,7 +655,7 @@ export const companies = [
       "  Niños de 0 a 05 años incluye el servicio de desayuno.\n",
       "  Niños de 06 a 11 años se cobrara el costo por desayuno según tarifa asignada.\n",
       "  Niños a partir de los 12 años se considera como adultos con cargo adicional, incluyendo el desayuno.\n",
-      "- Las reservas deberán ser realizadas a través de central de reservas <a href='tel:016195200' target='_blank'>016195200</a> whatsapp <a href='https://wa.me/989468821' target='_blank'>989468821</a> y mediante correo electrónico <a href='reservas@hotelcarrera.com.pe' target='_blank'>reservas@hotelcarrera.com.pe</a>",
+      "- Las reservas deberán ser realizadas a través de central de reservas <a href='tel:016195200' target='_blank'>016195200</a> whatsapp <a href='https://wa.me/989468821' target='_blank'>989468821</a> y mediante correo electrónico <a href='mailto:reservas@hotelcarrera.com.pe' target='_blank'>reservas@hotelcarrera.com.pe</a>",
     ],
   },
   {

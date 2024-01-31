@@ -74,11 +74,10 @@ export const AboutAs = () => {
           <h4>DETEL TCO.ORTEGA</h4>
           <h4>TEAM - Agencia Servitec</h4>
           <ul>
-            <li>Roberto Mendoza</li>
-            <li>Noel Moriano</li>
-            <li>Emerson Estrada</li>
-            <li>Angel Gamonal</li>
-            <li>Eduardo Salazar</li>
+            <li>Ing. - Roberto Mendoza</li>
+            <li>FullStack - Noel Moriano</li>
+            <li>FrontEnd - Angel Gamonal T.</li>
+            <li>FrontEnd - Eduardo Salazar</li>
           </ul>
         </div>
       )}

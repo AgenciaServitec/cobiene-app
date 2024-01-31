@@ -72,7 +72,7 @@ export const Footer = () => {
         <p className="copyright-text">
           Copyright 2022. Todos los derechos reservados - Diseñado con{" "}
           <FontAwesomeIcon icon={faHeart} size="sm" /> por{" "}
-          <a href="https://agenciaservitec.com/">Agencia Servitec</a>.
+          <a href="https://servitec.site/">Servitec Site</a>.
         </p>
       </div>
     </Container>

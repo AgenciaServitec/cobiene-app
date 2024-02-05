@@ -1,5 +1,3 @@
-import { FacebookProvider, Page } from "react-facebook";
-
 export const IframeFb = () => {
   return (
     <section

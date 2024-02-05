@@ -34,7 +34,7 @@ export const Drawer = ({ visibleDrawer, onSetVisibleDrawer }) => {
         title={null}
         placement="right"
         onClose={() => onSetVisibleDrawer(false)}
-        visible={visibleDrawer}
+        open={visibleDrawer}
       >
         <div className="wrapper-header">
           <img src={CobieneLogo} alt="Logo cobiene" />

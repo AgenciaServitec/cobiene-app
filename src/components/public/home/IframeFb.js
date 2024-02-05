@@ -1,15 +1,14 @@
-import styled from "styled-components";
+import { FacebookProvider, Page } from "react-facebook";
 
 export const IframeFb = () => {
-  return <Container></Container>;
+  return (
+    <section
+      style={{
+        width: "100%",
+        display: "flex",
+        justifyContent: "center",
+        marginTop: "2em",
+      }}
+    ></section>
+  );
 };
-const Container = styled.div`
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 2rem;
-  iframe {
-    width: 340px;
-    margin: auto;
-  }
-`;

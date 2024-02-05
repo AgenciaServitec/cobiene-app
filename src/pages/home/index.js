@@ -23,8 +23,6 @@ export const Home = () => {
       <Button width="100%" onClick={() => navigate("/house-service")}>
         VIVIENDA
       </Button>
-
-      <IframeFb />
     </Container>
   );
 };

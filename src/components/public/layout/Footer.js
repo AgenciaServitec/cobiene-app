@@ -30,7 +30,7 @@ export const Footer = () => {
           <IconListRow
             icon={faFacebook}
             ariaLabel="boton de facebook"
-            link="https://www.facebook.com/BienestarEP"
+            link="https://www.facebook.com/people/Comando-de-Bienestar-EP/61555409192993/"
             background="#1877f2"
           />
           <IconListRow

@@ -37,7 +37,6 @@ export const Button = ({
   opacity = "0.8",
   block = false,
   textTransform = "none",
-
   loading,
   disabled = false,
   children,
@@ -55,10 +54,10 @@ export const Button = ({
       width={width}
       height={height}
       wordBreak={wordBreak}
-      background={buttonStyle.background}
-      color={buttonStyle.color}
-      borderColor={buttonStyle.borderColor}
-      borderRadius={borderRadius}
+      $background={buttonStyle.background}
+      $color={buttonStyle.color}
+      $borderColor={buttonStyle.borderColor}
+      $borderRadius={borderRadius}
       margin={margin}
       padding={padding}
       fontSize={fontSize}
@@ -66,7 +65,7 @@ export const Button = ({
       position={position}
       opacity={opacity}
       icon={icon}
-      textTransform={textTransform}
+      $textTransform={textTransform}
     >
       {children}
     </ItemButtonAntd>
@@ -77,14 +76,14 @@ const ItemButtonAntd = styled(ButtonAntd)`
   width: ${({ width, block }) => (block ? "100%" : width)};
   height: ${({ height }) => height};
   word-break: ${({ wordBreak }) => wordBreak};
-  text-transform: ${({ textTransform }) => textTransform};
-  background: ${({ background }) => background};
-  color: ${({ color }) => color};
+  text-transform: ${({ $textTransform }) => $textTransform};
+  background: ${({ $background }) => $background};
+  color: ${({ $color }) => $color};
   border-width: 1px;
   border-style: solid;
-  border-color: ${({ borderColor, background }) =>
-    background !== "transparent" ? background : borderColor};
-  border-radius: ${({ borderRadius }) => borderRadius};
+  border-color: ${({ $borderColor, $background }) =>
+    $background !== "transparent" ? $background : $borderColor};
+  border-radius: ${({ $borderRadius }) => $borderRadius};
   margin: ${({ margin }) => margin};
   padding: ${({ padding }) => padding};
   font-size: ${({ fontSize }) => fontSize};
@@ -108,14 +107,14 @@ const ItemButtonAntd = styled(ButtonAntd)`
   &:hover,
   &:focus,
   &:active {
-    border: ${({ border, background }) =>
-      background !== "transparent" ? `1px solid ${background}` : border};
-    border-color: ${({ borderColor, background }) =>
-      background !== "transparent" ? background : borderColor};
+    border: ${({ border, $background }) =>
+      $background !== "transparent" ? `1px solid ${$background}` : border};
+    border-color: ${({ $borderColor, $background }) =>
+      $background !== "transparent" ? $background : $borderColor};
     opacity: ${({ opacity, bgEvent }) => (bgEvent ? "1" : opacity)};
-    color: ${({ color = "" }) => color};
-    background: ${({ bgEvent, background }) =>
-      defaultTo(bgEvent, defaultTo(background, ""))};
+    color: ${({ $color = "" }) => $color};
+    background: ${({ bgEvent, $background }) =>
+      defaultTo(bgEvent, defaultTo($background, ""))};
   }
 
   &[disabled] {

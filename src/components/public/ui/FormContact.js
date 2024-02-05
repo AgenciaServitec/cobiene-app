@@ -110,7 +110,7 @@ export const FormContact = () => {
   return (
     <ModalComponent
       title={<h3 style={{ margin: "0" }}>Contactanos</h3>}
-      visible={visibleFormContact}
+      open={visibleFormContact}
       onOk={() => handleVisibleFormContact()}
       onCancel={() => handleVisibleFormContact()}
       footer={null}

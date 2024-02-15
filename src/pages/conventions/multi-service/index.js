@@ -65,7 +65,7 @@ export const MultiService = () => {
       ))}
 
       <div className="list-convenios">
-        <a href="https://drive.google.com/file/d/1tWZ1vhFTvYpEL51FPJhZ5HVGitZRbpJf/view">
+        <a href="https://drive.google.com/file/d/1lwjD65jUxl9etGS7JZcZryyYuIxNFyz-/view?usp=sharing">
           <FontAwesomeIcon icon={faList} size="2x" />
           Lista de Convenios de empresas:
         </a>

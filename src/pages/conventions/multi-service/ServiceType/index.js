@@ -87,10 +87,10 @@ export const ServiceType = () => {
       type: "technology",
       title: "Tecnologia",
       buttons: [
-        {
-          title: "Servitec",
-          url: `/conventions/multi-service/${typeService}/servitec`,
-        },
+        // {
+        //   title: "Servitec",
+        //   url: `/conventions/multi-service/${typeService}/servitec`,
+        // },
         {
           title: "Samsung",
           url: `/conventions/multi-service/${typeService}/samsung`,

@@ -41,6 +41,8 @@ import {
   LogoPublicidad,
   Servitec,
   SmartFitPost,
+  ImgUchismed,
+  ImgOtiklens
 } from "../images";
 import {
   faBuilding,
@@ -1203,6 +1205,10 @@ export const companies = [
         "acreditados; que en adelante serán denominados BENEFICIARIOS. Mediante" +
         "un plan odontológico familiar con un costo de afiliación de S/. 35.00" +
         "mensuales y no afiliación con tarifas preferenciales.\n",
+      "FORMA DE ACREDITACIÓN:",
+      "Presentación del carnet de identificación personal militar o civil CIP",
+      "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, hermanos y padres).",
+      "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar",
       "BENEFICIO:\n",
       "Con el Plan Odontológico de 35.00, accederán el titular cónyuge e hijos\n" +
         "menores de 25 años a:\n" +
@@ -1213,10 +1219,8 @@ export const companies = [
         "RX PERIAPICALES.\n",
       "Descontar el 10% a los BENEFICIARIOS afiliados y no afiliados en tratamientos\n" +
         "especializados por encima de la tarifa especial indicada.\n",
-      "FORMA DE ACREDITACIÓN:",
     ],
-    image:
-      "https://apoyosocial.cobiene.mil.pe/static/media/dent.247b6e3e15a859e1ccd1.webp",
+    image: ImgUchismed,
     links: [
       {
         url: "https://drive.google.com/file/d/1JRr9PoACvducDhu9_e7G0LnGPL58xS2c/view?usp=sharing",
@@ -1254,7 +1258,7 @@ export const companies = [
   },
   {
     title: "OTIK LENS EIRL",
-    image: ImgOtikLensEirl,
+    image: ImgOtiklens,
     type: "clinic",
     service: "health",
     benefits: [

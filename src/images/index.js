@@ -377,6 +377,8 @@ export { default as ImgFootloose } from "./webp/img-footloose.webp";
 export { default as ImgLazzosComerciales } from "./webp/img-lazzos-comerciales.webp";
 export { default as ImgMovilBus } from "./webp/img-movil-bus.webp";
 export { default as ImgMultident } from "./webp/img-multident.webp";
+export { default as ImgOtiklens } from "./webp/otiklens.webp";
+export { default as ImgUchismed } from "./webp/uchismed.webp";
 export { default as ImgOltursa } from "./webp/img-oltursa.webp";
 export { default as ImgRenzoCosta } from "./webp/img-renzo-costa.webp";
 export { default as ImgTinnitus } from "./webp/img-tinnitus.webp";

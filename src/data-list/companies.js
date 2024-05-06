@@ -42,7 +42,10 @@ import {
   Servitec,
   SmartFitPost,
   ImgUchismed,
-  ImgOtiklens
+  ImgOtiklens,
+  ImgTuringCusco,
+  ImgCinemark,
+  ImgPostCinemark,
 } from "../images";
 import {
   faBuilding,
@@ -1308,6 +1311,36 @@ export const companies = [
         text: "967787227",
         icon: faPhone,
       },
+    ],
+  },
+  {
+    type: "automobiles",
+    image: ImgTuringCusco,
+    service: "companies",
+    title: "MULTISERVICIOS TURING CUSCO E.I.R.L",
+    benefits: [
+      "ALCANCE",
+      "PERSONAL MILITAR EN SITUACIÓN DE ACTIVIDAD Y RETIRO, PERSONAL CIVIL EN ACTIVIDAD O CESANTE ASÍ COMO A SUS FAMILIARES DIRECTOS (CÓNYUGE, HIJOS, HERMANOS Y PADRES)",
+      "BENEFICIOS",
+      "30% DE DESCUENTO DEL COSTO TOTAL DE CUALQUIER VEHÍCULO DE CUATRO RUEDAS A MÁS A PASAR REVISIÓN TÉCNICA EN CUALQUIERA DE SUS LOCALES DE “MULTISERVICIOS TURING CUSCO E.I.R.L.” UBICADOS A NIVEL NACIONAL.",
+      "10% DE DESCUENTO DEL COSTO TOTAL PARA VEHÍCULO MENOR (MOTO LINEAL, MOTO TAXI), A PASAR REVISIÓN TÉCNICA EN CUALQUIERA DE SUS LOCALES UBICADOS A NIVEL NACIONAL.",
+    ],
+  },
+  {
+    type: "entertainment",
+    image: ImgCinemark,
+    service: "companies",
+    title: "CINEMARK",
+    benefits: [
+      "ALCANCE",
+      "PERSONAL MILITAR EN SITUACIÓN DE ACTIVIDAD (CÓNYUGE E HIJOS)",
+      "BENEFICIOS",
+      "02 ENTRADAS 2D AL COSTO DE PROMOCIÓN DE S/ 20.00 SOLES (LUNES A VIERNES)",
+      "REQUISITOS",
+      "NOTA IMPORTANTE: (CÓDIGO: EJER100000017178)",
+      "EN LAS BOLETERÍAS DEL CINE AL COMPRAR SUS ENTRADAS DEBERÁ PRESENTAR CIP O CIF ACOMPAÑADO DEL CÓDIGO: EJER100000017178",
+      "LA OFERTA ES VÁLIDA A NIVEL NACIONAL, LOS MESES MAYO Y JUNIO.",
+      `<img src="${ImgPostCinemark}" alt="Smart Fit Post" width="100%" />`,
     ],
   },
 ];

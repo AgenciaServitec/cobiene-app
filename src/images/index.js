@@ -399,6 +399,9 @@ export { default as ImgCruzDelSur2 } from "./companies/cruz-del-sur.webp";
 export { default as ImgHotelCarrera } from "./companies/hotel-carrera.webp";
 export { default as ImgMossaShoes } from "./companies/mossa-shoes.webp";
 export { default as ImgOtikLensEirl } from "./companies/lens.webp";
+export { default as ImgTuringCusco } from "./companies/turing-cusco.webp";
+export { default as ImgCinemark } from "./companies/cinemark.webp";
+export { default as ImgPostCinemark } from "./companies/post-cinemark.webp";
 
 export { default as ImgAunaSvida } from "./webp/aunaSvida.webp";
 export { default as ImgGlobalLaser } from "./webp/globalLaser.webp";

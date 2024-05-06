@@ -46,6 +46,14 @@ export const MultiService = () => {
       title: "BANCOS",
       url: "/conventions/multi-service/banks",
     },
+    {
+      title: "AUTOMÓVILES",
+      url: "/conventions/multi-service/automobiles",
+    },
+    {
+      title: "ENTRETENIMIENTO",
+      url: "/conventions/multi-service/entertainment",
+    },
   ];
 
   return (

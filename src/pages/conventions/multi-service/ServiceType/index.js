@@ -97,6 +97,14 @@ export const ServiceType = () => {
         },
       ],
     },
+    {
+      type: "automobiles",
+      title: "Automóviles"
+    },
+    {
+      type: "entertainment",
+      title: "Entretenimiento"
+    },
   ];
 
   const serviceType = listServices.filter(

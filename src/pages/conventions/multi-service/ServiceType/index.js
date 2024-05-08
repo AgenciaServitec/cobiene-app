@@ -94,6 +94,9 @@ export const ServiceType = () => {
         {
           title: "Samsung",
           url: `/conventions/multi-service/${typeService}/samsung`,
+        },{
+          title: "LG",
+          url: `/conventions/multi-service/${typeService}/lg`,
         },
       ],
     },

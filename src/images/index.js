@@ -397,6 +397,8 @@ export { default as ImgElCentro } from "./companies/el-centro.webp";
 export { default as ImgOftalmoSalud } from "./companies/oftalmosalud.webp";
 export { default as ImgCruzDelSur2 } from "./companies/cruz-del-sur.webp";
 export { default as ImgHotelCarrera } from "./companies/hotel-carrera.webp";
+export { default as ImgLogoAutoPlan } from "./companies/logoAutoPlan.webp";
+export { default as ImgLogoLg } from "./companies/logolg.webp";
 export { default as ImgMossaShoes } from "./companies/mossa-shoes.webp";
 export { default as ImgOtikLensEirl } from "./companies/lens.webp";
 export { default as ImgTuringCusco } from "./companies/turing-cusco.webp";

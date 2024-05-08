@@ -45,7 +45,7 @@ import {
   ImgOtiklens,
   ImgTuringCusco,
   ImgCinemark,
-  ImgPostCinemark,
+  ImgPostCinemark, ImgLogoAutoPlan, ImgLogoLg,
 } from "../images";
 import {
   faBuilding,
@@ -507,6 +507,19 @@ export const companies = [
     title: "Financ. Efectiva",
     benefits: ["POR FIRMAR"],
     links: [{ url: "https://www.efectiva.com.pe/" }],
+  },
+  {
+    type: "financials",
+    image: ImgLogoAutoPlan,
+    title: "Empresa administradora de fondos colectivos",
+    benefits: [
+      "BENEFICIOS:\n",
+      "Ofrece a través de un modeo de financiamiento accesible, (fondo colectivo), un certificado (con valor) para la adquisición de un vehículo de acuerdo a la elección del beneficiario, siendo válido para Lima y provincias.",
+      "Otroga un Beneficio Corporativo con un descuento del 50% en la cuota de inscripción (equivalente al 2% del valor del certificado), asimismo un costo administrativo preferencial por cuota de mantenimiento del 12.99% (por unica vez) sobre el valor del certificado. ",
+      "Además, se otorgará la posibilidad de contar con un producto que le permitirá la adjudicación anticipada llamado PLAN 21 con un descuento del 50% en la cuota de inscripción (equivalente al 2% del valor del certificado) y con una taza del gasto administrativo del 28%",
+      "ALCANCE",
+      "Personal militar en situacion de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos\n",
+    ],
   },
   // {
   //   type: "financials",
@@ -1194,6 +1207,18 @@ export const companies = [
       "Paso 2      Inicio de sesión, previo registro.",
       "Paso 3    Identifícate, e ingresa el código de verificación asignado al  Ejército   del Perú ",
       "Paso 4     Disfruta en tus beneficios exclusivos.\n",
+    ],
+  }, {
+    type: "lg",
+    service: "technology",
+    image: ImgLogoLg,
+    title: "LG Electronics",
+    benefits: [
+      "BENEFICIOS:\n",
+      "Brindara acceso a los diversos productos y servicios de su marca hasta un 40% de descuento en productos seleccionados, a través de la tienda virtual LG VIP, E-COMMERCE, propia de la marca, siendo válido para Lima y provincias ",
+      "Brindará acceso a la tienda virtual de \"LG\" a través de su pagina principal <a href='https:www.lg.com/pe'>https:www.lg.com/pe</a>, a los BENEFICIARIOS, que podran acceder a estos beneficios debiendo registrarse como clientes VIP en su sitio web, mediante el uso de sus correos electronicos, carnet de identidad personal y usando el cupon EJERCITOVIP",
+      "ALCANCE",
+      "Personal militar en situacion de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos\n",
     ],
   },
   {

@@ -45,7 +45,9 @@ import {
   ImgOtiklens,
   ImgTuringCusco,
   ImgCinemark,
-  ImgPostCinemark, ImgLogoAutoPlan, ImgLogoLg,
+  ImgPostCinemark,
+  ImgLogoAutoPlan,
+  ImgLogoLg,
 } from "../images";
 import {
   faBuilding,
@@ -342,33 +344,6 @@ export const companies = [
       },
     ],
   },
-  // {
-  //   type: "commercialShop",
-  //   service: "companies",
-  //   image: ImgMossaShoes,
-  //   title: "Mossashoes - CALZADO VIZZANO",
-  //   benefits: [
-  //     "ALCANCE DEL CONVENIO:\n",
-  //     "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres); debidamente acreditados.\n",
-  //     "FORMA DE ACREDITACIÓN:\n",
-  //     "a)\tPresentación del carnet de identificación personal militar o civil CIP\n",
-  //     "b)\tPresentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).\n",
-  //     "BENEFICIO \n",
-  //     "a)\tCompras presenciales, solo en tiendas propias. \n",
-  //     "b)\tAplica para compras en tienda virtual, mediante el uso del cupón al momento de hacer el pago\n",
-  //     `<a href="https://www.mossashoes.com/" target="_blank">https://www.mossashoes.com/</a>`,
-  //     "\tCupón MOSSAEJE20\n",
-  //     "c)\tDescuento del 20% en marcas propias \n",
-  //     "d)\tDescuento del 20% en todas marcas diferentes.\n",
-  //   ],
-  //   links: [
-  //     {
-  //       url: "https://drive.google.com/file/d/1T_a8CfUiAOElAIivhkejrIpFXFuWUwSL/view?usp=sharing",
-  //       icon: faLink,
-  //       text: "Detalles del convenio",
-  //     },
-  //   ],
-  // },
   {
     image: ImgLazzosComerciales,
     title: "LAZZOS COMERCIALES",
@@ -395,7 +370,6 @@ export const companies = [
       "Acceso a los distintos servicios odontológicos ofrecidos, a través de costos diferenciados, mediante porcentaje de descuento sobre las tarifas regulares, de acuerdo a lo establecido.\n",
       "Implementará a través la programación a través del call center, y de forma presencial en todas sedes a nivel nacional, y en todos sus horarios.\n",
       "Servicios de emergencias dentales, las 24 horas del día, los 7 días de la semana en la sede de la Av. César Vallejo N° 1560 - Lince y en todas las sedes a nivel nacional en horario de atención.\n",
-      // "CONSULTA GRATUITA \n",
       "Examen odontológico de cortesía.\n",
     ],
     links: [
@@ -460,21 +434,6 @@ export const companies = [
       },
     ],
   },
-
-  // {
-  //   type: "products",
-  //   service: "companies",
-  //   image: LavidLogo,
-  //   title: "Lavid",
-  //   benefits: [
-  //     "BENEFICIO: \n",
-  //     "Con la presentación de su CIP 3% de descuento",
-  //     "NOSOTROS: \n",
-  //     " Venta de vino sin alcohol, zumo de uva borgoña 100 por ciento natural y apto para todas las edades con propiedades minerales, vitaminas, desintoxicante, anticancerígeno, antiestrés.",
-  //   ],
-  //   links: [{ url: "https://www.lavid.life" }],
-  // },
-
   {
     type: "clinic",
     service: "health",
@@ -505,35 +464,15 @@ export const companies = [
     type: "financials",
     image: ImgEfectiva,
     title: "Financ. Efectiva",
-    benefits: ["POR FIRMAR"],
+    benefits: [
+      "ALCANCE DEL CONVENIO",
+      "Personal militar en situación de actividad y personal civil en actividad.",
+      "TASA DE INTERES ANUAL:",
+      "TASA EFECTIVA ANUAL (TEA): 19 %",
+      "MODALIDAD: PRESTAMO POR CONSUMO BAJO LA MODALIDAD DE DESCUENTO POR PLANILLA.",
+    ],
     links: [{ url: "https://www.efectiva.com.pe/" }],
   },
-  {
-    type: "financials",
-    image: ImgLogoAutoPlan,
-    title: "Empresa administradora de fondos colectivos",
-    benefits: [
-      "BENEFICIOS:\n",
-      "Ofrece a través de un modeo de financiamiento accesible, (fondo colectivo), un certificado (con valor) para la adquisición de un vehículo de acuerdo a la elección del beneficiario, siendo válido para Lima y provincias.",
-      "Otroga un Beneficio Corporativo con un descuento del 50% en la cuota de inscripción (equivalente al 2% del valor del certificado), asimismo un costo administrativo preferencial por cuota de mantenimiento del 12.99% (por unica vez) sobre el valor del certificado. ",
-      "Además, se otorgará la posibilidad de contar con un producto que le permitirá la adjudicación anticipada llamado PLAN 21 con un descuento del 50% en la cuota de inscripción (equivalente al 2% del valor del certificado) y con una taza del gasto administrativo del 28%",
-      "ALCANCE",
-      "Personal militar en situacion de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos\n",
-    ],
-  },
-  // {
-  //   type: "financials",
-  //   image: ImgFinantel,
-  //   title: "Financ. Finantel",
-  //   benefits: [
-  //     "ALCANCE DEL CONVENIO:\n",
-  //     "Dirigido al personal militar en situación de actividad o retiro y personal civil en situación de actividad o cesante.\t.\n",
-  //     "TASA DE INTERES ANUAL:\n",
-  //     "Según clasificación de SBS de 18% a 22%\n",
-  //     "Mejores tasas por campañas impulsadas por la FINANCIERA de acuerdo al análisis del mercado\n",
-  //   ],
-  //   links: [{ url: "https://www.finantel.pe/" }],
-  // },
   {
     type: "financials",
     image: ImgRehabilitadora,
@@ -547,7 +486,24 @@ export const companies = [
     ],
     links: [{ url: "https://larehabilitadora.com/" }],
   },
-
+  {
+    type: "financials",
+    image: ImgLogoAutoPlan,
+    title: "Empresa administradora de fondos colectivos",
+    benefits: [
+      "ALCANCE DEL CONVENIO",
+      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos.\n",
+      "BENEFICIO",
+      "Ofrece a través de un modelo de financiamiento accesible, (fondo colectivo), un certificado (con valor) para la adquisición de un vehículo de acuerdo a elección del BENEFICIARIO, siendo válido para Lima y provincias.",
+      "Otorga un Beneficio Corporativo con un descuento del 50% en la cuota de inscripción (equivalente al 2% del valor del certificado), asimismo un costo administrativo preferencial por cuota de mantenimiento del 12.99% (por única vez) sobre el valor del certificado.",
+      "Además, se otorgará la posibilidad de contar con un producto que le permitirá la adjudicación anticipada llamado PLAN 21 con un Descuento del 50% en la cuota de inscripción (equivalente al 2%   del   valor   del   certificado) y   con   una   taza del gasto administrativo del 28%.",
+    ],
+    links: [
+      {
+        url: "https://www.autoplan.pe/",
+      },
+    ],
+  },
   {
     type: "servitec",
     service: "technology",
@@ -676,32 +632,6 @@ export const companies = [
       "- Las reservas deberán ser realizadas a través de central de reservas <a href='tel:016195200' target='_blank'>016195200</a> whatsapp <a href='https://wa.me/989468821' target='_blank'>989468821</a> y mediante correo electrónico <a href='mailto:reservas@hotelcarrera.com.pe' target='_blank'>reservas@hotelcarrera.com.pe</a>",
     ],
   },
-  // {
-  //   type: "peruvianFood",
-  //   service: "restaurants",
-  //   title: "Guargüero",
-  //   benefits: [
-  //     "ALCANCE DEL CONVENIO:",
-  //     "Dirigido al personal militar y civil en actividad y retiro así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados.",
-  //     "FORMA DE CREDITACIÓN:",
-  //     "a)\tPresentación del carnet de identificación personal militar o civil CIP\n",
-  //     "b)\tPresentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).\n",
-  //     "c)\tPara el caso de familiares directos, que no posean el Carnet de Identidad \tFamiliar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.\n",
-  //     "BENEFICIO:",
-  //     "-\t20% de descuento sobre el valor total sobre alimentos y bebidas  al momento del pago. \n",
-  //     "-\tNo valido para promociones ni acumulables\n",
-  //     "-\tUna bebida de cortesía, wellcome drink, pisco sour por su primera visita y única vez.\n",
-  //     "-\t20% de descuento a los que soliciten reserva de los ambientes privados, de la carta de acuerdo a disponibilidad y previo requerimiento mediante comunicación al correo <a href='mailto:administracion@guarguero.com'>administracion@guarguero.com</a>.",
-  //   ],
-  //   links: [
-  //     { url: "https://guarguero.com" },
-  //     {
-  //       url: "https://goo.gl/maps/M12KqSFF58RXGriD8",
-  //       text: "Av. la Paz 1025, Miraflores, Lima",
-  //       icon: faLocationDot,
-  //     },
-  //   ],
-  // },
   {
     type: "chifa",
     service: "restaurants",
@@ -1208,17 +1138,23 @@ export const companies = [
       "Paso 3    Identifícate, e ingresa el código de verificación asignado al  Ejército   del Perú ",
       "Paso 4     Disfruta en tus beneficios exclusivos.\n",
     ],
-  }, {
+  },
+  {
     type: "lg",
     service: "technology",
     image: ImgLogoLg,
-    title: "LG Electronics",
+    title: "LG Electronics Perú S.A.",
     benefits: [
-      "BENEFICIOS:\n",
-      "Brindara acceso a los diversos productos y servicios de su marca hasta un 40% de descuento en productos seleccionados, a través de la tienda virtual LG VIP, E-COMMERCE, propia de la marca, siendo válido para Lima y provincias ",
-      "Brindará acceso a la tienda virtual de \"LG\" a través de su pagina principal <a href='https:www.lg.com/pe'>https:www.lg.com/pe</a>, a los BENEFICIARIOS, que podran acceder a estos beneficios debiendo registrarse como clientes VIP en su sitio web, mediante el uso de sus correos electronicos, carnet de identidad personal y usando el cupon EJERCITOVIP",
-      "ALCANCE",
+      "ALCANCE DEL CONVENIO",
       "Personal militar en situacion de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos\n",
+      "BENEFICIO\n",
+      "Brindará acceso a los diversos productos y servicios de su marca hasta un 40% de descuento en productos seleccionados, a través de la tienda virtual LG VIP, E-COMMERCE, propia de la marca, siendo válido para Lima y provincias ",
+      "Brindará acceso a la tienda virtual de \"LG\" a través de su pagina principal <a href='https:www.lg.com/pe'>https:www.lg.com/pe</a>, a los BENEFICIARIOS, que podrán acceder a estos beneficios debiendo registrarse como clientes VIP en su sitio web, mediante el uso de sus correos electronicos, carnet de identidad personal y usando el cupon EJÉRCITOVIP",
+    ],
+    links: [
+      {
+        url: "https://www.lg.com/pe/",
+      },
     ],
   },
   {

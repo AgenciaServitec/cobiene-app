@@ -87,14 +87,7 @@ export const ServiceType = () => {
       type: "technology",
       title: "Tecnologia",
       buttons: [
-        // {
-        //   title: "Servitec",
-        //   url: `/conventions/multi-service/${typeService}/servitec`,
-        // },
         {
-          title: "Samsung",
-          url: `/conventions/multi-service/${typeService}/samsung`,
-        },{
           title: "LG",
           url: `/conventions/multi-service/${typeService}/lg`,
         },
@@ -102,11 +95,11 @@ export const ServiceType = () => {
     },
     {
       type: "automobiles",
-      title: "Automóviles"
+      title: "Automóviles",
     },
     {
       type: "entertainment",
-      title: "Entretenimiento"
+      title: "Entretenimiento",
     },
   ];
 

@@ -19,6 +19,8 @@ export { default as ImgLogoConvention2 } from "./webp/convention-2.webp";
 export { default as LogoFactura } from "./others/logo-factura.webp";
 export { default as LogoPublicidad } from "./others/logo-servitec.webp";
 export { default as SmartFitPost } from "./companies/smart-fit-post.jpeg";
+export { default as AzaleiaPost1 } from "./companies/post-azaleia-1.jpeg";
+export { default as AzaleiaPost2 } from "./companies/post-azaleia-2.jpeg";
 
 //--------Images Jage------
 export { default as ImgLogoJace } from "./jace/image-logo-jace.webp";
@@ -374,6 +376,7 @@ export { default as ImgMedifon } from "./webp/img-medifon.webp";
 export { default as ImgSmartFit } from "./webp/img-smart-fit.webp";
 export { default as ImgUnilabs } from "./webp/img-unilabs.webp";
 export { default as ImgFootloose } from "./webp/img-footloose.webp";
+export { default as ImgAzaleia } from "./webp/img-azaleia.webp";
 export { default as ImgLazzosComerciales } from "./webp/img-lazzos-comerciales.webp";
 export { default as ImgMovilBus } from "./webp/img-movil-bus.webp";
 export { default as ImgMultident } from "./webp/img-multident.webp";
@@ -409,7 +412,6 @@ export { default as ImgAunaSvida } from "./webp/aunaSvida.webp";
 export { default as ImgGlobalLaser } from "./webp/globalLaser.webp";
 export { default as ImgFesalud } from "./webp/Logo-fesalud-svg.webp";
 export { default as ImgResocentro } from "./webp/resocentro.webp";
-
 
 // export { default as ImgHankooalvillanta } from "./companies/hankookalvillanta.webp";
 

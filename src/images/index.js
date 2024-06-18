@@ -407,6 +407,10 @@ export { default as ImgOtikLensEirl } from "./companies/lens.webp";
 export { default as ImgTuringCusco } from "./companies/turing-cusco.webp";
 export { default as ImgCinemark } from "./companies/cinemark.webp";
 export { default as ImgPostCinemark } from "./companies/post-cinemark.webp";
+export { default as ImgPacificSuitesHotel } from "./companies/pacific-suites-hotel.webp";
+export { default as ImgBthHotelRebelTacna } from "./companies/bth-hotel-rebel-tacna.webp";
+export { default as ImgMirandaEscobarPeruTravels } from "./companies/miranda-escobar-peru-travels.webp";
+export { default as ImgCentroOpticoJesus } from "./companies/centro-optico-jesus-eirl.webp";
 
 export { default as ImgAunaSvida } from "./webp/aunaSvida.webp";
 export { default as ImgGlobalLaser } from "./webp/globalLaser.webp";

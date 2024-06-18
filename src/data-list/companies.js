@@ -51,6 +51,8 @@ import {
   ImgPostCinemark,
   ImgLogoAutoPlan,
   ImgLogoLg,
+  ImgMirandaEscobarPeruTravels,
+  ImgCentroOpticoJesus,
 } from "../images";
 import {
   faBuilding,

@@ -525,8 +525,88 @@ export const companies = [
   {
     type: "servitec",
     service: "technology",
+    image: ImgStoreServitec,
+    title: "Venta de lámparas para proyector",
+    benefits: ["Con la presentación de su CIP 10% de descuento"],
+    links: [
+      { url: "https://www.tiendaservitec.com/categoria-producto/lamparas/" },
+      {
+        url: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+servicio:+https://servitec.site/&app_absent=0",
+        icon: faWhatsapp,
+        text: "Contactenos",
+      },
+    ],
+  },
+  {
+    type: "servitec",
+    service: "technology",
+    image: ImgStoreServitec,
+    title: "Venta de proyector",
+    benefits: ["Con la presentación de su CIP 10% de descuento"],
+    links: [
+      { url: "https://www.tiendaservitec.com/categoria-producto/proyectores/" },
+      {
+        url: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+servicio:+https://servitec.site/&app_absent=0",
+        icon: faWhatsapp,
+        text: "Contactenos",
+      },
+    ],
+  },
+  {
+    type: "servitec",
+    service: "technology",
+    image: ImgStoreServitec,
+    title: "Venta de pizarras o pantallas interactivas",
+    benefits: ["Con la presentación de su CIP 10% de descuento"],
+    links: [
+      {
+        url: "https://www.tiendaservitec.com/categoria-producto/pantallas-interactivas/",
+      },
+      {
+        url: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+servicio:+https://servitec.site/&app_absent=0",
+        icon: faWhatsapp,
+        text: "Contactenos",
+      },
+    ],
+  },
+  {
+    type: "servitec",
+    service: "technology",
+    image: Servitec,
+    title: "Reparación de proyectores",
+    benefits: ["Con la presentación de su CIP 10% de descuento"],
+    links: [
+      {
+        url: "https://reparacion-proyectores.com/",
+      },
+      {
+        url: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+servicio:+https://servitec.site/&app_absent=0",
+        icon: faWhatsapp,
+        text: "Contactenos",
+      },
+    ],
+  },
+  {
+    type: "servitec",
+    service: "technology",
+    image: LogoFactura,
+    title: "Sistemas de venta",
+    benefits: ["Con la presentación de su CIP 10% de descuento"],
+    links: [
+      { url: "https://facil-factura.com/" },
+      {
+        url: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+servicio:+https://factura.servitec.site/&app_absent=0",
+        icon: faWhatsapp,
+        text: "Contactenos",
+      },
+    ],
+  },
+  {
+    type: "servitec",
+    service: "technology",
     image: LogoPublicidad,
-    title: "Pagina Web",
+    title: "Desarrollo de página web",
+    titleContent: "Desarrollo de página web para tu negocio o emprendimiento",
     benefits: ["Con la presentación de su CIP 10% de descuento"],
     links: [
       { url: "https://servitec.site/08_service_ppc_management.php" },
@@ -540,58 +620,13 @@ export const companies = [
   {
     type: "servitec",
     service: "technology",
-    image: LogoFactura,
-    title: "Facturación Electronica",
-    benefits: ["Con la presentación de su CIP 10% de descuento"],
-    links: [
-      { url: "https://factura.servitec.site/" },
-      {
-        url: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+servicio:+https://factura.servitec.site/&app_absent=0",
-        icon: faWhatsapp,
-        text: "Contactenos",
-      },
-    ],
-  },
-  {
-    type: "servitec",
-    service: "technology",
     image: LogoPublicidad,
     title: "Publicidad Google",
     benefits: ["Con la presentación de su CIP 10% de descuento"],
     links: [
-      { url: "https://publicidadgoogle.site/" },
+      { url: "https://anuncia-google-ads.digital" },
       {
         url: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+producto:+https://publicidadgoogle.site/&app_absent=0",
-        icon: faWhatsapp,
-        text: "Contactenos",
-      },
-    ],
-  },
-  {
-    type: "servitec",
-    service: "technology",
-    image: Servitec,
-    title: "Reparación de Proyectores",
-    benefits: ["Con la presentación de su CIP 10% de descuento"],
-    links: [
-      { url: "https://reparacion-proyectores.com/" },
-      {
-        url: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+servicio:+https://reparacion-proyectores.com/&app_absent=0",
-        icon: faWhatsapp,
-        text: "Contactenos",
-      },
-    ],
-  },
-  {
-    type: "servitec",
-    service: "technology",
-    image: ImgStoreServitec,
-    title: "Tienda Servitec",
-    benefits: ["Con la presentación de su CIP 10% de descuento"],
-    links: [
-      { url: "https://tiendaservitec.com/" },
-      {
-        url: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+producto+https://tiendaservitec.com/&app_absent=0",
         icon: faWhatsapp,
         text: "Contactenos",
       },

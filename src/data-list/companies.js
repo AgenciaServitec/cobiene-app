@@ -21,7 +21,6 @@ import {
   ImgElCentro,
   ImgFesalud,
   ImgFootloose,
-  ImgAzaleia,
   ImgGlobalLaser,
   ImgHotelCarrera,
   ImgInppares,
@@ -40,7 +39,9 @@ import {
   ImgRehabilitadora,
   ImgResocentro,
   ImgRimacSeguros,
-  ImgRimacTable, ImgRoyalDecameronPuntaSal, ImgRoyalDecameronPuntaSal1,
+  ImgRimacTable,
+  ImgRoyalDecameronPuntaSal,
+  ImgRoyalDecameronPuntaSal1,
   ImgSmartFit,
   ImgStoreServitec,
   ImgTinnitus,
@@ -50,18 +51,7 @@ import {
   LogoFactura,
   LogoPublicidad,
   Servitec,
-  SmartFitPost,
-  AzaleiaPost1,
-  AzaleiaPost2,
-  ImgUchismed,
-  ImgOtiklens,
-  ImgTuringCusco,
-  ImgCinemark,
-  ImgPostCinemark,
-  ImgLogoAutoPlan,
-  ImgLogoLg,
-  ImgMirandaEscobarPeruTravels,
-  ImgCentroOpticoJesus,
+  SmartFitPost
 } from "../images";
 import {
   faBuilding,
@@ -70,7 +60,7 @@ import {
   faGlobe,
   faLink,
   faLocationDot,
-  faPhone,
+  faPhone
 } from "@fortawesome/free-solid-svg-icons";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 

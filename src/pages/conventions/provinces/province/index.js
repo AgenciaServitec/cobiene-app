@@ -72,6 +72,14 @@ export const Province = () => {
           url: `/conventions/provinces/${provinceId}/restaurant`,
         },
         { title: "Salud", url: `/conventions/provinces/${provinceId}/health` },
+        {
+          title: "Transporte",
+          url: `/conventions/provinces/${provinceId}/transport`,
+        },
+        {
+          title: "Estudios",
+          url: `/conventions/provinces/${provinceId}/studies`,
+        },
       ],
     },
     {

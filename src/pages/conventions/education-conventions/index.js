@@ -29,9 +29,9 @@ export const EducationConventions = () => {
       </Button>
       <Button
         width="100%"
-        onClick={() => NavigateGoToLink("https://tramites.cobiene.mil.pe/")}
+        onClick={() => NavigateGoToLink("https://korekenke.mil.pe/")}
       >
-        Solicita tu convenio SITRACON
+        Solicita tu convenio
       </Button>
       <Button
         width="100%"

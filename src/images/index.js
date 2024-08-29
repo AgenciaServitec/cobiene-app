@@ -407,6 +407,11 @@ export { default as ImgOtikLensEirl } from "./companies/lens.webp";
 export { default as ImgTuringCusco } from "./companies/turing-cusco.webp";
 export { default as ImgCinemark } from "./companies/cinemark.webp";
 export { default as ImgPostCinemark } from "./companies/post-cinemark.webp";
+export { default as ImgClinicaDelInca } from "./companies/clinica-del-inca.webp";
+export { default as ImgRoyalDecameronPuntaSal } from "./companies/royal-decameron-punta-sal.webp";
+export { default as ImgClinicaDelInca1 } from "./companies/clinica-del-inca-1.webp";
+export { default as ImgClinicaDelInca2 } from "./companies/clinica-del-inca-2.webp";
+export { default as ImgRoyalDecameronPuntaSal1 } from "./companies/royal-decameron-punta-sal-1.webp";
 
 export { default as ImgAunaSvida } from "./webp/aunaSvida.webp";
 export { default as ImgGlobalLaser } from "./webp/globalLaser.webp";

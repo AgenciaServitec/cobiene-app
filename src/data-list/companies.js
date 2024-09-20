@@ -21,7 +21,7 @@ import {
   ImgElCentro,
   ImgFesalud,
   ImgFootloose,
-  ImgGlobalLaser,
+  ImgGlobalLaser, ImgHolidayInn, ImgHolidayInnExpress,
   ImgHotelCarrera,
   ImgInppares,
   ImgLaPositiva,
@@ -42,7 +42,7 @@ import {
   ImgRimacTable,
   ImgRoyalDecameronPuntaSal,
   ImgRoyalDecameronPuntaSal1,
-  ImgSmartFit,
+  ImgSmartFit, ImgStarPeru,
   ImgStoreServitec,
   ImgTinnitus,
   ImgTuringCusco,
@@ -237,6 +237,25 @@ export const companies = [
       { url: "https://www.oltursa.pe" },
     ],
   },
+  {
+    type: "transport",
+    image: ImgStarPeru,
+    title: "STAR PERU",
+    benefits: [
+      "- 20% descuento en los viajes sobre el valor neto de las siguientes clases según ruta.",
+      "- De Lima / hacia Lima",
+      "- Pucallpa, Tarapoto, Cajamarca, Chiclayo",
+      "- Iquitos",
+      "- No aplica ruts intermedias. Ejem. (Tarapoto - Chiclayo o Cajamarca - Iquitos).",
+      "- Equipajes de bodega no mayor a 23k.",
+      "- Menores de edad 50% dcto.",
+      "- Equipaje de mano no debe exceder a 8k.",
+      "- Se accederá la compra a través de las oficinas de lima 997522792, tarapoto 993558645, pucallpa 961841201, iquitos 984765939 y huánuco 936338145 en los horarios de lun - vie 0900 a 1300 y 1400 a 1800, sab 0900 a 1300.",
+    ],
+    links: [
+      { url: "https://www.starperu.com/es" },
+    ],
+  },
 
   {
     type: "clinic",
@@ -373,12 +392,12 @@ export const companies = [
     links: [{ url: "https://www.azaleia.pe/" }],
   },
   {
+    type: "commercialShop",
+    service: "companies",
     image: ImgLazzosComerciales,
     title: "LAZZOS COMERCIALES",
     benefits: [
-      "\t20% DE DESCUENTO SOBRE EL PRECIO DE ETIQUETA EN TODAS LAS TIENDAS MOSSA SHOES Y VISANO TIENDA FÍSICO Y VIRTUAL\n",
-      "BENEFICIARIOS:",
-      "PERSONAL MILITAR EN ACTIVIDAD, RETIRO Y FAMILIARES DIRECTOS EMPLEADOS CIVILES  Y FAMILIARES DIRECTOS",
+      "- Productos de calzado y accesorios para damas y caballeros con el 20% de descuento sobre el precio de etiqueta en todas las tiendas Mossa shoes.",
     ],
     links: [{ url: "https://www.lazzos.com.pe" }],
   },
@@ -647,31 +666,44 @@ export const companies = [
     image: ImgRimacSeguros,
     title: "Seguros Rimac",
     benefits: [
-      `<img src="${CobieneLogo}" width="15%" alt="cobiene logo"/> `,
-      "Estamos trabajando por el bienestar",
-      "Proximamente...",
+      "- Protección familiar vida (desde S/ 33.00)",
+      "- Protección familiar sepelio (desde S/ 22.90)",
+      "- Protección familiar ahorro ws (desde S/ 23.90)",
+      "- Protección familiar accidental (desde S/ 23.90)",
+      "- Seguro domiciliario (desde S/ 21.00)",
     ],
-    // links: [{ url: "https://www.rimac.com" }],
+    links: [{ url: "https://www.rimac.com/" }],
   },
   {
     type: "life-insurance",
     image: ImgLaPositiva,
     benefits: [
-      `<div><img src="${ImgRimacTable}" width="100%" alt="rimac tabla" /></div> `,
+      "- Desde US$ 15.94 en seguro vida individual positiva futúro.",
+      "- Vida entera. (con devolución)",
+      "- Suma asegurada según contrato",
+      "- Fallecimiento",
     ],
-    title: "Seguro Salud Positiva",
-    // links: [{ url: "https://www.lapositiva.com.pe" }],
+    title: "Seguro Vida Positiva",
+    links: [{ url: "https://www.lapositiva.com.pe/wps/portal/landing/seguros-vida-individual" }],
   },
   {
     type: "life-insurance",
+    image: ImgLaPositiva,
     benefits: [
-      `<img src="${CobieneLogo}" width="15%" alt="cobiene logo"/> `,
-      "Estamos trabajando por el bienestar",
-      "Proximamente...",
+      "- Seguro empresa salud en coberturas básicas de acuerdo a red de clínicas.",
+      "- (desde S/. 160)",
     ],
-    image: ImgLaPositivaVida,
-    title: "Seguro Vida Positiva",
-    // links: [{ url: "https://www.lapositiva.com.pe" }],
+    title: "Seguro Salud Positiva",
+    links: [{ url: "https://www.lapositiva.com.pe/wps/portal/landing/medisalud" }],
+  },
+  {
+    type: "life-insurance",
+    image: ImgLaPositiva,
+    benefits: [
+      "- Todo riesgo (desde $ 37).",
+    ],
+    title: "Seguro Vehicular Positiva",
+    links: [{ url: "https://www.lapositiva.com.pe/wps/portal/corporativo/home/proteger/mi-vehiculo/seguro-vehicular" }],
   },
   {
     type: "hotel",
@@ -702,6 +734,57 @@ export const companies = [
     benefits: [
       `<img src="${ImgRoyalDecameronPuntaSal1}" alt="Convenio Hotel Royal Decameron Punta Sal" width="100%" />`,
     ],
+    links: [{ url: "https://www.decameron.com/es/pe-destinos/peru/punta-sal/royal-decameron-punta-sal" }],
+  },
+  {
+    type: "hotel",
+    title: "HOTEL ROYAL DECAMERON EL PUEBLO",
+    image: ImgRoyalDecameronPuntaSal,
+    benefits: [
+      "BLUE MARLIN BEACH CLUB S.A.” EN ADELANTE SERÁ “HOTELES\n" +
+      "DECAMERON EL PUEBLO” CONCEDERÁ A LOS BENEFICIARIOS, EL\n" +
+      "ACCESO A LOS SERVICIOS HOTELEROS OFRECIDOS, A TRAVÉS DE UN\n" +
+      "25% DE DESCUENTO EN TARIFAS EXPRESADAS, EN TEMPORADA BAJA\n" +
+      "(EXCEPTO LAS FECHAS FESTIVAS U OTRAS QUE SE INDIQUEN,). QUE VA\n" +
+      "DEL 13 AGO AL 29 SET Y DEL 15 OCT AL 28 DIC.\n" +
+      "BRINDARÁ A LOS BENEFICIARIOS, SISTEMA TODO INCLUIDO. ACCESO\n" +
+      "A LAS COMPRAS POR INTERMEDIO DE UN CALL CENTER AL NÚMERO\n" +
+      "(01) 6342424 Y A TRAVÉS DEL WHATSAPP AL 989211707 INDICANDO EL\n" +
+      "CÓDIGO PROMOCIONAL PER-H194PB",
+    ],
+    links: [{ url: "https://www.decameron.com/es/pe-destinos/peru/santa-clara/decameron-el-pueblo" }],
+  },
+  {
+    type: "hotel",
+    title: "HOTEL HOLIDAY INN",
+    image: ImgHolidayInn,
+    benefits: [
+      "Concederá a los BENEFICIARIOS, el acceso a los servicios\n" +
+      "hoteleros ofrecidos, a través de descuentos sobre las tarifas\n" +
+      "regulares, excepto las fechas festivas u otras que se\n" +
+      "indiquen\n" +
+      "Brindará a los BENEFICIARIOS, acceso a descuentos\n" +
+      "diferenciados sobre la tarifa regular, en los alojamientos\n" +
+      "propios, ubicados a nivel nacional e incluyen desayuno\n" +
+      "buffet.",
+    ],
+    links: [{ url: "https://www.ihg.com/holidayinn/hotels/es/es/lima/limmi/hoteldetail" }],
+  },
+  {
+    type: "hotel",
+    title: "HOTEL HOLIDAY INN EXPRESS",
+    image: ImgHolidayInnExpress,
+    benefits: [
+      "Concederá a los BENEFICIARIOS, el acceso a los servicios\n" +
+      "hoteleros ofrecidos, a través de descuentos sobre las tarifas\n" +
+      "regulares, excepto las fechas festivas u otras que se\n" +
+      "indiquen\n" +
+      "Brindará a los BENEFICIARIOS, acceso a descuentos\n" +
+      "diferenciados sobre la tarifa regular, en los alojamientos\n" +
+      "propios, ubicados a nivel nacional e incluyen desayuno\n" +
+      "buffet",
+    ],
+    links: [{ url: "https://www.ihg.com/holidayinnexpress/hotels/es/es/lima/limsi/hoteldetail" }],
   },
   {
     type: "chifa",

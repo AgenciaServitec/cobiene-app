@@ -416,6 +416,9 @@ export { default as ImgRoyalDecameronPuntaSal } from "./companies/royal-decamero
 export { default as ImgClinicaDelInca1 } from "./companies/clinica-del-inca-1.webp";
 export { default as ImgClinicaDelInca2 } from "./companies/clinica-del-inca-2.webp";
 export { default as ImgRoyalDecameronPuntaSal1 } from "./companies/royal-decameron-punta-sal-1.webp";
+export { default as ImgHolidayInn } from "./companies/hotel-holiday-inn.webp";
+export { default as ImgHolidayInnExpress } from "./companies/hotel-holiday-inn-express.webp";
+export { default as ImgStarPeru } from "./companies/star-peru.webp";
 
 export { default as ImgAunaSvida } from "./webp/aunaSvida.webp";
 export { default as ImgGlobalLaser } from "./webp/globalLaser.webp";

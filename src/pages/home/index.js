@@ -27,16 +27,16 @@ export const Home = () => {
         VIVIENDA
       </Button>
       {isMobile ? (
-        <a
-          href="https://www.facebook.com/profile.php?id=61555409192993"
-          target="_blank"
-        >
-          <img
-            src={ImgFacebookMobileView}
-            alt="Cobiene ep"
-            className="image-facebook-view"
-          />
-        </a>
+        <img
+          src={ImgFacebookMobileView}
+          alt="Cobiene ep"
+          className="image-facebook-view"
+          onClick={() =>
+            window.location.replace(
+              "https://www.facebook.com/profile.php?id=61555409192993"
+            )
+          }
+        />
       ) : (
         <IframeFb />
       )}
@@ -57,6 +57,9 @@ const Container = styled.div`
   }
 
   .image-facebook-view {
-    width: 100%;
+    width: 330px;
+    max-width: 500px;
+    display: block;
+    margin: 2rem auto 0;
   }
 `;

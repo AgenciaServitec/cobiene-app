@@ -32,9 +32,8 @@ export const Home = () => {
           alt="Cobiene ep"
           className="image-facebook-view"
           onClick={() =>
-            window.location.replace(
-              "https://www.facebook.com/profile.php?id=61555409192993"
-            )
+            (window.location.href =
+              "https://www.facebook.com/profile.php?id=61555409192993")
           }
         />
       ) : (

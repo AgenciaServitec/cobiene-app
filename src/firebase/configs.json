@@ -58,7 +58,7 @@
       "measurementId": "G-D831LLXKEV"
     },
     "buckets": {},
-    "sendingEmailsApi": "https://us-central1-sendingemails-348505.cloudfunctions.net/api",
+    "sendingEmailsApi": "https://api-servitecsales.web.app",
     "ipInfoApi": "-"
   }
 }

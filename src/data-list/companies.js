@@ -50,7 +50,7 @@ import {
   ImgUnilabs,
   LogoFactura,
   LogoPublicidad,
-  Servitec,
+  Servitec, Sky,
   SmartFitPost
 } from "../images";
 import {
@@ -455,6 +455,23 @@ export const companies = [
         icon: faLink,
         text: "Detalles del convenio",
       },
+    ],
+  },
+  {
+    type: "transport",
+    image: Sky,
+    title: "Sky",
+    benefits: [
+      "ALCANCE DEL CONVENIO:",
+      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como a sus familiares directos (cónyuge, hijos). Identificándose con CIP o CI Y DNI",
+      "1.OFRECERÁ UN 10% DE DESCUENTO SOBRE EL VALOR NETO DE LAS TARIFAS, TANTO PARA PERSONALES DE ACUERDO A ELECCIÓN DEL BENEFICIARIO, SIENDO VÁLIDO PARA VUELOS NACIONALES COMO INTERNACIONALES.",
+      "2. EL DESCUENTO APLICA SOBRE LA TARIFA BASE SIN INCLUIR IMPUESTOS NI SERVICIOS ADICIONALES Y NO ES APLICABLE SOBRE TARIFAS PROMOCIONALES.",
+      "3. PARA ACCEDER A LA COMPRA DE LOS PASAJES, LO PODRÁN REALIZAR EN LA PAGINA WEB HTTPS://WWW.SKYAIRLINE.COM/ES/PERU, DEBIENDO TOMAR EN CUENTA LAS SIGUIENTES CONDICIONES:",
+      'A. AL MOMENTO DE HACER LA COMPRA DEBERÁN INGRESAR EL "PROMOCODE" ASIGNADO (ESTE PROMOCODE CAMBIARÁ MENSUALMENTE Y SERÁ DIFUNDIDO POR EL DEPARTAMENTO DE APOYO SOCIAL DEL COMANDO DE BIENESTAR DEL EJÉRCITO), PROMOCODE FEBRERO 2025: SKYEJERCITO6 VALIDO DEL 01/012025 HASTA EL 31/01/2025',
+      "B. ES REQUISITO FUNDAMENTAL QUE EL MIEMBRO DEL EJÉRCITO DEL PERÚ, SEA UNO DE LOS PASAJEROS DE LA RESERVA SOBRE LA CUAL SE APLICA EL DESCUENTO."
+    ],
+    links: [
+      { url: "https://www.skyairline.com/es/peru" },
     ],
   },
   {

@@ -21,6 +21,7 @@ export { default as LogoPublicidad } from "./others/logo-servitec.webp";
 export { default as SmartFitPost } from "./companies/smart-fit-post.jpeg";
 export { default as AzaleiaPost1 } from "./companies/post-azaleia-1.jpeg";
 export { default as AzaleiaPost2 } from "./companies/post-azaleia-2.jpeg";
+export { default as Sky } from "./companies/sky.webp";
 
 //--------Images Jage------
 export { default as ImgLogoJace } from "./jace/image-logo-jace.webp";

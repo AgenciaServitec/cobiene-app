@@ -388,6 +388,9 @@ export const companies = [
       `<img src="${AzaleiaPost1}" alt="Post Azaleia 20% descuento en damas" width="100%" />`,
       "CABALLEROS",
       `<img src="${AzaleiaPost2}" alt="Post Azaleia 20% descuento en caballeros" width="100%" />`,
+      "OTORGARÁ UN DESCUENTO DEL 20% DEL COSTO TOTAL EN LAS MARCAS AZALEIA, OLYMPIKUS Y DIJEAN, AL PERSONAL MILITAR Y CIVIL EN ACTIVIDAD, RETIRO Y/O CESANTE (DEBIENDO PRESENTAR SU CARNET DE IDENTIDAD CIP O CIF) EN CUALQUIER DE SUS TIENDAS POR DEPARTAMENTOS Y A NIVEL NACIONAL. (COMPRA DE MANERA PRESENCIAL)",
+      "CONCEDERÁ A LOS BENEFICIARIOS, EL DESCUENTO DE TRES (03) PRODUCTOS MÁXIMO POR MES EN LAS MARCAS AZALEIA, OLYMPIKUS Y DIJEAN.",
+      "BRINDARÁ EL 20 % DE DESCUENTO ATREVES DE SU TIENDA ONLINE DE AZALEIA PERÚ, <a href='https://www.azaleia.pe/'>(HTTPS://WWW.AZALEIA.PE/)</a> <a href='https://www.olympikus.pe/tiendas'>(HTTPS://WWW.OLYMPIKUS.PE/TIENDAS)</a>, MOMENTO DE LA COMPRA SE ENVIARÁ UN CÓDIGO DE SEGURIDAD (Ejercito20) QUE DEBERÁ SER RESPALDADO POR EL USUARIO (TITULAR) A TRAVÉS DE SU CORREO INSTITUCIONAL EN CASO DEL PERSONAL EN ACTIVIDAD. EL DESCUENTO APLICA AL VALOR DEL PRECIO REAL."
     ],
     links: [{ url: "https://www.azaleia.pe/" }],
   },
@@ -488,7 +491,9 @@ export const companies = [
       "INSCRIPCIÓN PRESENCIAL:",
       "Acercarse con su carnet respectivo y su DNI",
       "PARA FAMILIARES EN PRESENCIA DE TITULAR",
-    ],
+      "CODIGO: CORPORATIVOEP",
+      "COSTO MENSUAL S/. 99.90 EN SERVICIOS EXCLUSIVOS"
+  ],
     links: [
       { url: "https://www.smartfit.com.pe" },
       {

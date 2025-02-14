@@ -54,7 +54,7 @@ export const institutes = [
     links: [
       { url: "https://cepea.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -76,7 +76,7 @@ export const institutes = [
     links: [
       { url: "https://www.cepeban.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -104,7 +104,7 @@ export const institutes = [
     links: [
       { url: "https://gamor.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -126,7 +126,7 @@ export const institutes = [
     links: [
       { url: "http://cevaturperu.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -147,7 +147,7 @@ export const institutes = [
       "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
     links: [
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -172,7 +172,7 @@ export const institutes = [
     links: [
       { url: "https://www.acarrion.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -194,7 +194,7 @@ export const institutes = [
     links: [
       { url: "http://www.idg.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -216,7 +216,7 @@ export const institutes = [
     links: [
       { url: "http://www.idept.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -237,7 +237,7 @@ export const institutes = [
     links: [
       { url: "https://portal.eiger.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -258,7 +258,7 @@ export const institutes = [
     links: [
       { url: "https://www.uakron.edu/" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -283,7 +283,7 @@ export const institutes = [
     links: [
       { url: "https://euroidiomas.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -313,7 +313,7 @@ export const institutes = [
     links: [
       { url: "https://www.inteci.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -355,7 +355,7 @@ export const institutes = [
     links: [
       { url: "https://www.inidhe.edu.pe/" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -376,7 +376,7 @@ export const institutes = [
     links: [
       { url: "https://www.privateacher.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -397,7 +397,7 @@ export const institutes = [
     links: [
       { url: "https://www.icpna.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -418,7 +418,7 @@ export const institutes = [
     links: [
       { url: "https://www.britanico.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -440,7 +440,7 @@ export const institutes = [
     links: [
       { url: "https://ifeep.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -461,7 +461,7 @@ export const institutes = [
     links: [
       { url: "https://www.eigra.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -482,7 +482,7 @@ export const institutes = [
     links: [
       { url: "https://www.guideasesores.com/cursosmilitares/" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -503,7 +503,7 @@ export const institutes = [
   //   links: [
   //     { url: "https://istvonbraun.edu.pe/" },
   //     {
-  //       url: "https://tramites.cobiene.mil.pe/",
+  //       url: "https://tramites.cobiene.com/",
   //       text: "Solicita tu convenio SITRACON",
   //       icon: faPaste,
   //     },
@@ -524,7 +524,7 @@ export const institutes = [
     links: [
       { url: "https://ecaprev.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -547,7 +547,7 @@ export const institutes = [
     links: [
       { url: "https://ispacj.com/" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -568,7 +568,7 @@ export const institutes = [
     links: [
       { url: "https://www.icim.edu.pe/" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -593,7 +593,7 @@ export const institutes = [
     links: [
       { url: "https://www.institutovesalio.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -614,7 +614,7 @@ export const institutes = [
     links: [
       { url: "https://isil.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -641,7 +641,7 @@ export const institutes = [
     links: [
       { url: "https://www.cibertec.edu.pe/" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },

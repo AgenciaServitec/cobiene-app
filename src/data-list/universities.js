@@ -41,7 +41,7 @@ export const universities = [
     links: [
       { url: "https://www.utp.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -75,7 +75,7 @@ export const universities = [
     links: [
       { url: "https://www.cientifica.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -110,7 +110,7 @@ export const universities = [
     links: [
       { url: "https://www.ucv.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -131,7 +131,7 @@ export const universities = [
     links: [
       { url: "http://www.unfv.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -154,7 +154,7 @@ export const universities = [
     links: [
       { url: "http://bausate.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -177,7 +177,7 @@ export const universities = [
     links: [
       { url: "https://umch.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -203,7 +203,7 @@ export const universities = [
     links: [
       { url: "https://www.uwiener.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -232,7 +232,7 @@ export const universities = [
     links: [
       { url: "https://www.urp.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -257,7 +257,7 @@ export const universities = [
     links: [
       { url: "https://usil.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -287,7 +287,7 @@ export const universities = [
     links: [
       { url: "https://www.upsjb.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -315,7 +315,7 @@ export const universities = [
     links: [
       { url: "https://usmp.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -336,7 +336,7 @@ export const universities = [
     links: [
       { url: "https://economia.unmsm.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -357,7 +357,7 @@ export const universities = [
     links: [
       { url: "https://www.utp.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -382,7 +382,7 @@ export const universities = [
     links: [
       { url: "https://www.ucss.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -418,7 +418,7 @@ export const universities = [
     links: [
       { url: "https://www.unife.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -443,7 +443,7 @@ export const universities = [
     links: [
       { url: "https://www.upn.edu.pe" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -474,7 +474,7 @@ export const universities = [
     links: [
       { url: "http://www.unm.edu.pe/" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -507,7 +507,7 @@ export const universities = [
     links: [
       { url: "https://ucontinental.edu.pe/" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -529,7 +529,7 @@ export const universities = [
     links: [
       { url: "https://www.up.edu.pe/" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -575,7 +575,7 @@ export const universities = [
     ],
     links: [
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },
@@ -599,7 +599,7 @@ export const universities = [
     links: [
       { url: "https://www.anahuac.mx/" },
       {
-        url: "https://tramites.cobiene.mil.pe/",
+        url: "https://tramites.cobiene.com/",
         text: "Solicita tu convenio SITRACON",
         icon: faPaste,
       },

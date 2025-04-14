@@ -24,6 +24,7 @@ export { default as AzaleiaPost2 } from "./companies/post-azaleia-2.jpeg";
 export { default as Sky } from "./companies/sky.webp";
 export { default as Dpromartperu } from "./companies/dpromartperu.webp";
 export { default as Domireps } from "./companies/domireps.webp";
+export { default as Niuvida } from "./companies/niuvida.webp";
 
 //--------Images Jage------
 export { default as ImgLogoJace } from "./jace/image-logo-jace.webp";

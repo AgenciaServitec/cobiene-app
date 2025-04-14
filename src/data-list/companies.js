@@ -49,7 +49,7 @@ import {
   ImgUchismed,
   ImgUnilabs,
   LogoFactura,
-  LogoPublicidad,
+  LogoPublicidad, Niuvida,
   Servitec, Sky,
   SmartFitPost
 } from "../images";
@@ -214,6 +214,9 @@ export const companies = [
     image: ImgStarPeru,
     title: "STAR PERU",
     benefits: [
+      "ALCANCE DEL CONVENIO:",
+      "Dirigido al personal militar en situación de actividad o retiro, personal civil; así como sus familiares directos (cónyuge, hijos),debidamente acreditados. Identificándose con CIP o CIF Y DNI",
+      "BENEFICIO:",
       "20% DESCUENTO EN LOS VIAJES SOBRE EL VALOR NETO DE LAS SIGUIENTES CLASES SEGÚN RUTA.",
       "<b>DE LIMA / HACIA LIMA.</b>",
       "<b>- PUCALLPA, TARAPOTO, CAJAMARCA, CHICLAYO</b>",
@@ -253,7 +256,6 @@ export const companies = [
     title: "FE SALUD",
     benefits: [
       "Institución Administradora de Fondos de Aseguramiento en Salud privada. debidamente registrada en el Registro RIAFAS de la Superintendencia Nacional de Salud (SUSALUD) bajo Código Único N 20028 Es una institucion altamente especializada en lo prestación de servicios médicos asistenciales complementarios.",
-
       "ALCANCE DEL CONVENIO:\n",
       "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.\n",
       "BENEFICIOS:",
@@ -286,6 +288,9 @@ export const companies = [
     image: ImgGlobalLaser,
     title: "GLOBAL LASER",
     benefits: [
+      "ALCANCE DEL CONVENIO:\n",
+      "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.\n",
+      "BENEFICIOS:",
       "Brinda descuentos especiales en consultas (agudezavisual, motilidadocular, presión intraocular, etc.).",
       "Brinda tarifa regular en servicio quirúrgicos (cataratas, glaucoma, refractaria laser pterigión).",
       "Tárifa preferencial en exámenes especiales.",
@@ -304,8 +309,9 @@ export const companies = [
     image: ImgResocentro,
     title: "RESOCENTRO",
     benefits: [
+      "ALCANCE DEL CONVENIO:\n",
+      "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres, hermanos y nietos); debidamente acreditados sin límite de edad.\n",
       "Centro avanzado de resonancia, Servicios especializados en ayuda al diagnóstico mediante imagenes contando con equipos de última generación dando resultado altamente calificado.",
-      "ALCANCE DEL CONVENIO:",
       "- RESONANCIA MAGNÉTICA",
       "- TOMOGRAFÍA",
       "- FIBROSCAN",
@@ -377,6 +383,9 @@ export const companies = [
     image: ImgAzaleia,
     title: "Calzado Azaleia",
     benefits: [
+      "ALCANCE DEL CONVENIO:",
+      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (esposa).",
+      "BENEFICIO:",
       "DAMAS:",
       `<img src="${AzaleiaPost1}" alt="Post Azaleia 20% descuento en damas" width="100%" />`,
       "CABALLEROS",
@@ -393,6 +402,9 @@ export const companies = [
     image: ImgLazzosComerciales,
     title: "LAZZOS COMERCIALES",
     benefits: [
+      "ALCANCE DEL CONVENIO:",
+      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como asus familiares directos (cónyuge, hijos y padres).",
+      "BENEFICIO:",
       "- Productos de calzado y accesorios para damas y caballeros con el 20% de descuento sobre el precio de etiqueta en todas las tiendas Mossa shoes.",
     ],
     links: [{ url: "https://www.lazzos.com.pe" }],
@@ -454,6 +466,7 @@ export const companies = [
     benefits: [
       "ALCANCE DEL CONVENIO:",
       "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como a sus familiares directos (cónyuge, hijos). Identificándose con CIP o CI Y DNI",
+      "BENEFICIO:",
       "1.OFRECERÁ UN 10% DE DESCUENTO SOBRE EL VALOR NETO DE LAS TARIFAS, TANTO PARA PERSONALES DE ACUERDO A ELECCIÓN DEL BENEFICIARIO, SIENDO VÁLIDO PARA VUELOS NACIONALES COMO INTERNACIONALES.",
       "2. EL DESCUENTO APLICA SOBRE LA TARIFA BASE SIN INCLUIR IMPUESTOS NI SERVICIOS ADICIONALES Y NO ES APLICABLE SOBRE TARIFAS PROMOCIONALES.",
       "3. PARA ACCEDER A LA COMPRA DE LOS PASAJES, LO PODRÁN REALIZAR EN LA PAGINA WEB HTTPS://WWW.SKYAIRLINE.COM/ES/PERU, DEBIENDO TOMAR EN CUENTA LAS SIGUIENTES CONDICIONES:",
@@ -496,8 +509,11 @@ export const companies = [
     title: "Smart Fit",
     benefits: [
       `<img src="${SmartFitPost}" alt="Smart Fit Post" width="100%" />`,
-      `<strong>ALCANCE DEL CONVENIO:</strong>`,
-      "Código corporativo: <strong>CORPORATIVOEP</strong>",
+      "ALCANCE DEL CONVENIO:",
+      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos,hermanos y padres).",
+      "BENEFICIO:",
+      "CADENA DE GIMNASIO MEDIANTE PLAN CORPORATIVO MEDIANTE CÒDIGO:",
+      "<strong>CORPORATIVOEP</strong>",
       "INSCRIPCIÓN VIRTUAL:",
       "<a href='https://corporativo.smartfit-peru.com' target='_blank'>https://corporativo.smartfit-peru.com</a>",
       "INSCRIPCIÓN PRESENCIAL:",
@@ -529,9 +545,11 @@ export const companies = [
       "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.\n",
       "BENEFICIOS:",
       "Servicios psicopedagógicos, especializados en problemas de lenguaje, aprendizaje y conducta, a través de tarifas especiales, mediante porcentaje de descuento, según grado de el BENEFICIARIO, así como costos diferenciados en las sedes de APEPLAC.  SURCO y RÌMAC",
+      "Costo diferenciado de acuerdo al grado del personal militar ycivil en servicio de apoyo psicopedagógico.",
       "Direcciones y citas telefónicas \n",
-      `Sede Surco Mariscal Castilla 1170 - Teléfonos <a href="tel:4356989" target="_blank" >4356989</a>  y <a href="tel:990436788" target="_blank" >990436788</a>.`,
-      'Sede Rímac Calle Fray Ramón Rojas 191 – Teléfono: <a href="tel:990436788" target="_blank" >990436788</a>. ',
+      `Sede Surco Mariscal Castilla 1170 - Teléfonos <a href="tel:4356989" target="_blank" >4356989</a>  y <a href="tel:970302066" target="_blank" >970302066</a>.`,
+      'Sede Rímac Calle Fray Ramón Rojas 191 – Teléfono: <a href="tel:970302066" target="_blank" >970302066</a>. ',
+      'LIC. EDDY FUENTES: <a href="mailto:efuentes@apeplac.com" target="_blank" >efuentes@apeplac.com</a>. ',
     ],
     links: [
       {
@@ -564,6 +582,8 @@ export const companies = [
       "TASA DE INTERES ANUAL:\n",
       "Según clasificación de SBS de 18.5% a 24.6%\n",
       "Mejores tasas por campañas impulsadas por la FINANCIERA de acuerdo al análisis del mercado\n",
+      "MODALIDAD:\n",
+      "PRESTAMO POR CONSUMO BAJO LA MODALIDAD DE DESCUENTO POR PLANILLA, PREVIA AFILIACIÓN.\n",
     ],
     links: [{ url: "https://larehabilitadora.com/" }],
   },
@@ -705,6 +725,9 @@ export const companies = [
     image: ImgRimacSeguros,
     title: "Seguros Rimac",
     benefits: [
+      "ALCANCE DEL CONVENIO:",
+      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante.cesante, así como sus familiares directos (cónyuges e hijos)",
+      "BENEFICOS:",
       "- Protección familiar vida (desde s/. 33)",
       "- Protección familiar sepelio (desde s/. 22.9)",
       "- Protección familiar ahorro ws (desde $/. 23.9)",
@@ -721,6 +744,9 @@ export const companies = [
     type: "life-insurance",
     image: ImgLaPositiva,
     benefits: [
+      "ALCANCE DEL CONVENIO:",
+      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante.",
+      "BENEFICIOS:",
       "- DESDE US$ 15.94 EN SEGURO VIDA INDIVIDUAL POSITIVA VIDA",
       "- FUTUROVIDA ENTERA. (CON DEVOLUCIÓN).",
       "- SUMA ASEGURADA SEGÚN",
@@ -740,6 +766,9 @@ export const companies = [
     type: "life-insurance",
     image: ImgLaPositiva,
     benefits: [
+      "ALCANCE DEL CONVENIO:",
+      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante.",
+      "BENEFICIOS:",
       "- Seguro empresa salud en coberturas básicas de acuerdo a red de clínicas.",
       "- (desde S/. 160)",
       "<b>CONTACTO: PAMELA MORON</b>"
@@ -757,6 +786,9 @@ export const companies = [
     type: "life-insurance",
     image: ImgLaPositiva,
     benefits: [
+      "ALCANCE DEL CONVENIO:",
+      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante.",
+      "BENEFICIOS:",
       "- Todo riesgo (desde $ 37).",
       "<b>CONTACTO: PAMELA MORON</b>"
     ],
@@ -787,6 +819,9 @@ export const companies = [
     title: "HOTEL ROYAL DECAMERON PUNTA SAL",
     image: ImgRoyalDecameronPuntaSal,
     benefits: [
+      "ALCANCE DEL CONVENIO:",
+      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge e hijos).",
+      "BENEFICIO:",
       "<b>“BLUE MARLIN BEACH CLUB S.A.”</b> en adelante será <b>“HOTELES DECAMERON PUNTA SAL”</b> concederá a los <b>BENEFICIARIOS</b>, el acceso a los servicios hoteleros ofrecidos, a través de un <b>25%</b> de descuento en tarifas expresadas, en <b>TEMPORADA BAJA</b> (excepto las fechas festivas u otras que se indiquen,). que va del <b>13 AGO AL 29 SET Y DEL 15 OCT AL 28 DIC</b>.",
       "Brindará a los beneficiarios, sistema todo incluido. acceso a las compras por intermedio de un call center al número <a href='tel:016342424' target='_blank'>(01) 6342424</a> y a través del whatsapp al <a href='https://api.whatsapp.com/send/?phone=51989211707' target='_blank'>989211707</a> indicando el código promocional: <b>PER-H194PB</b>"
     ],
@@ -807,6 +842,9 @@ export const companies = [
     title: "HOTEL HOLIDAY INN",
     image: ImgHolidayInn,
     benefits: [
+      "ALCANCE DEL CONVENIO:",
+      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge e hijos).",
+      "BENEFICIO:",
       "Concederá a los beneficiarios, el acceso a los servicios hoteleros ofrecidos, a través de descuentos sobre las tarifas regulares, excepto las fechas festivas u otras que se indiquen.",
       "Brindará a los beneficiarios, acceso a descuentos diferenciados sobre la tarifa regular, en los alojamientos propios, ubicados a nivel nacional e incluyen desayuno buffet; acceso a las compras virtuales mediante la reserva al correo electrónico <a href='mailto:sandra.pineda@agrisal.com'>SANDRA.PINEDA@AGRISAL.COM</a>; reservas en caso sea de noche y para lima <a href='mailto:reservas.limsi@agrisal.com'>RESERVAS.LIMSI@AGRISAL.COM</a>"
     ],
@@ -817,6 +855,9 @@ export const companies = [
     title: "HOTEL HOLIDAY INN EXPRESS",
     image: ImgHolidayInnExpress,
     benefits: [
+      "ALCANCE DEL CONVENIO:",
+      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge e hijos).",
+      "BENEFICIO:",
       "Concederá a los BENEFICIARIOS, el acceso a los servicios\n" +
       "hoteleros ofrecidos, a través de descuentos sobre las tarifas\n" +
       "regulares, excepto las fechas festivas u otras que se\n" +
@@ -1164,6 +1205,8 @@ export const companies = [
       "TASA DE INTERES ANUAL\n",
       "Hasta 16% desde 06 hasta 72 meses\n",
       "Según campañas impulsadas por el banco\n",
+      "MODALIDAD\n",
+      "PRESTAMO POR CONSUMO BAJO LA MODALIDAD DE DESCUENTO POR PLANILLA.\n",
     ],
     links: [{ url: "https://www.scotiabank.com.pe" }],
   },
@@ -1174,12 +1217,16 @@ export const companies = [
     benefits: [
       "ALCANCE DEL CONVENIO:",
       "Dirigido al personal militar en situación de actividad o retiro y personal civil en situación de actividad o cesante.",
+      "BENEFICIO:",
       "EDAD PARA ACCEDER AL PRESTAMO:",
       " - MINIMA 18 AÑOS",
       " - MAXIMA 69 AÑOS 11 MESES",
       "TASA DE INTERES EFECTIVA ANUAL: ",
-      "14.5 %.",
+      "16%.",
       "Campañas impulsadas por el banco según el análisis del mercado",
+      "MODALIDAD: PRESTAMO POR CONSUMO BAJO LA MODALIDAD DE DESCUENTO POR PLANILLA.",
+
+
     ],
     links: [{ url: "https://www.bancomercio.com" }],
   },
@@ -1191,9 +1238,11 @@ export const companies = [
       "ALCANCE DEL CONVENIO\n",
       "Dirigido al personal militar en situación de actividad o retiro y personal civil en situación de actividad y cesante\n",
       "TASA DE INTERES EFECTIVA ANUAL\n",
-      "Clasificación SBS Normal hasta 15.0% desde 06 meses hasta 72 meses\n",
+      "Clasificación SBS Normal hasta 16.0% desde 06 meses hasta 72 meses\n",
       "Clasificación SBS CPP 16.0% desde 06 meses hasta 72 meses\n",
       "Campañas impulsadas por el banco según el análisis del mercado\n",
+      "MODALIDAD\n",
+      "PRESTAMO POR CONSUMO BAJO LA MODALIDAD DE DESCUENTO POR PLANILLA.\n",
     ],
     links: [{ url: "https://www.bancognb.com.pe" }],
   },
@@ -1201,7 +1250,14 @@ export const companies = [
     type: "banks",
     image: BankContinental,
     title: "BCO. CONTINENTAL  ",
-    benefits: ["POR FIRMAR"],
+    benefits: [
+      "ALCANCE DEL CONVENIO\n",
+      "Personal militar en situación de actividad y personal civil en actividad.\n",
+      "TASA DE INTERES ANUAL\n",
+      "Hasta 15.5%\n",
+      "MODALIDAD\n",
+      "PRESTAMO POR CONSUMO BAJO LA MODALIDAD DE DESCUENTO POR PLANILLA.\n",
+    ],
   },
   {
     type: "banks",
@@ -1213,6 +1269,8 @@ export const companies = [
       "TASA DE INTERES ANUAL\n",
       "Hasta 19.5% desde 06 hasta 72 meses\n",
       "Campañas impulsadas por el banco según análisis del mercado\n",
+      "MODALIDAD\n",
+      "PRESTAMO POR CONSUMO BAJO LA MODALIDAD DE DESCUENTO POR PLANILLA.\n",
     ],
     links: [{ url: "https://interbank.pe" }],
   },
@@ -1272,11 +1330,11 @@ export const companies = [
     title: "Oftalmo Salud",
     image: ImgOftalmoSalud,
     benefits: [
-      "Empresa  privada, formalmente constituida conforme a la legislación nacional y cuyo objeto social es el diagnóstico, tratamiento y prevención de enfermedades oftalmológicas, contando para ello con el       soporte tecnológico, profesional y administrativo adecuado",
+      "Empresa  privada, formalmente constituida conforme a la legislación nacional y cuyo objeto social es el diagnóstico, tratamiento y prevención de enfermedades oftalmológicas, contando para ello con el soporte tecnológico, profesional y administrativo adecuado",
       "ALCANCE DEL CONVENIO:",
       "Dirigido al personal militar en situación de actividad o retiro, personal civil; así como sus familiares directos (cónyuge, hijos, padres y hermanos),debidamente acreditados",
       "BENEFICIO:",
-      "50 % DE DESCUENTO EN CONSULTAS MÉDICAS.",
+      " 50 % DE DESCUENTO EN CONSULTAS MÉDICAS.",
       " 30% DE DESCUENTO SOBRE LA TARIFA REGULAR, EN EXÁMENESAUXILIARES SOBRE TARIFARIO VIGENTE DE PACIENTE PARTICULAR.",
       " 30% DE DESCUENTO SOBRE LA TARIFA REGULAR VIGENTE DEL PACIENTE PARTICULAR SOBRE LOS PROCEDIMIENTOS DE CIRUGÍASOFTÁLMICAS. PUEDEN APLICARSE RESTRICCIONES POR MOTIVO DE INSUMOS O COMPLEJIDAD QUIRÚRGICA.",
       " SEDE SAN ISIDRO <a href='tel:015121300'>01 512-1300</a>",
@@ -1443,9 +1501,9 @@ export const companies = [
     service: "companies",
     title: "MULTISERVICIOS TURING CUSCO E.I.R.L",
     benefits: [
-      "ALCANCE",
-      "PERSONAL MILITAR EN SITUACIÓN DE ACTIVIDAD Y RETIRO, PERSONAL CIVIL EN ACTIVIDAD O CESANTE ASÍ COMO A SUS FAMILIARES DIRECTOS (CÓNYUGE, HIJOS, HERMANOS Y PADRES)",
-      "BENEFICIOS",
+      "ALCANCE DEL CONVENIO:",
+      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y padres).",
+      "BENEFICIO:",
       "30% DE DESCUENTO DEL COSTO TOTAL DE CUALQUIER VEHÍCULO DE CUATRO RUEDAS A MÁS A PASAR REVISIÓN TÉCNICA EN CUALQUIERA DE SUS LOCALES DE “MULTISERVICIOS TURING CUSCO E.I.R.L.” UBICADOS A NIVEL NACIONAL.",
       "10% DE DESCUENTO DEL COSTO TOTAL PARA VEHÍCULO MENOR (MOTO LINEAL, MOTO TAXI), A PASAR REVISIÓN TÉCNICA EN CUALQUIERA DE SUS LOCALES UBICADOS A NIVEL NACIONAL.",
     ],
@@ -1463,9 +1521,9 @@ export const companies = [
     service: "companies",
     title: "CINEMARK",
     benefits: [
-      "ALCANCE",
+      "ALCANCE DEL CONVENIO:",
       "PERSONAL MILITAR EN SITUACIÓN DE ACTIVIDAD (CÓNYUGE E HIJOS)",
-      "BENEFICIOS",
+      "BENEFICIOS:",
       "02 ENTRADAS 2D AL COSTO DE PROMOCIÓN DE S/ 20.00 SOLES (LUNES A VIERNES)",
       "REQUISITOS",
       "NOTA IMPORTANTE: (CÓDIGO: EJER100000017178)",
@@ -1480,7 +1538,7 @@ export const companies = [
     service: "companies",
     title: "D'PROMART",
     benefits: [
-      "ALCANCE: ",
+      "ALCANCE DEL CONVENIO:",
       "- Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos,hermanos y padres).",
       "BENEFICIOS: ",
       "- Brinda tarifa preferenciales en (eventos circense, teatro infantil y adulto (no valido en 28 julio al 20 agosto).",
@@ -1493,4 +1551,33 @@ export const companies = [
       },
     ],
   },
+  {
+    type: "clinic",
+    image: Niuvida,
+    service: "Health",
+    title: "NiuVida",
+    benefits: [
+      "ALCANCE DEL CONVENIO:",
+      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos,hermanos y padres).",
+      "BENEFICIOS: ",
+      "PROCEDIMIENTO DESCUENTO\n" +
+      "ASPIRACIÓN CON ÓVULO PROPIO S/3,800.00\n" +
+      "FECUNDACIÓN IN VITRO S/ 5,130.00\n" +
+      "PRIMERA TRANSFERENCIA EMBRIONARIA CORTESÍA\n" +
+      "BIOPSIA S/ 1,440.00\n" +
+      "CRIO PRESERVACIÓN DE EMBRIONES U OVULOS S/80.00 X MES\n" +
+      "DESCONGELACIÓN DE EMBRIONES S/420.00\n" +
+      "NIUVIDA” otorgará en Farmacia (Medicamentos Estimulación\n" +
+      "Ovárica) un descuento del 10%",
+    ],
+    links: [
+      {
+        url: "tel:978606917",
+        text: "978606917",
+        icon: faPhone,
+      },
+    ],
+  },
+
+
 ];

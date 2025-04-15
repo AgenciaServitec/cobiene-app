@@ -1,63 +1,11 @@
 import React from "react";
 import { useNavigate } from "react-router";
-import { Button, InitialContent, SortWords } from "../../../components/public";
+import { Button, InitialContent } from "../../../components/public";
 import { CobieneLogo } from "../../../images";
+import { listButtons } from "../../../data-list";
 
 export const Provinces = () => {
   const navigate = useNavigate();
-
-  const listButtons = [
-    {
-      title: " PIURA - SULLANA",
-      url: "/conventions/provinces/piura-sullana",
-    },
-    {
-      url: "/conventions/provinces/tacna",
-      title: "TACNA",
-    },
-    {
-      url: "/conventions/provinces/puno",
-      title: "PUNO",
-    },
-    {
-      title: "TRUJILLO",
-      url: "/conventions/provinces/trujillo",
-    },
-    {
-      title: "TUMBES",
-      url: "/conventions/provinces/tumbes",
-    },
-    {
-      title: "AYACUCHO",
-      url: "/conventions/provinces/ayacucho",
-    },
-    {
-      title: "CHICLAYO",
-      url: "/conventions/provinces/chiclayo",
-    },
-    {
-      title: "HUANCAYO",
-      url: "/conventions/provinces/huancayo",
-    },
-    {
-      title: "AREQUIPA",
-      url: "/conventions/provinces/arequipa",
-    },
-    {
-      title: "LA MERCED",
-      url: "/conventions/provinces/merced",
-    },
-    {
-      title: "LAMBAYEQUE",
-      url: "/conventions/provinces/lambayeque",
-    },
-    {
-      title: "TARAPOTO",
-      url: "/conventions/provinces/tarapoto",
-    },
-  ];
-
-  SortWords(listButtons);
 
   return (
     <>
@@ -68,15 +16,15 @@ export const Provinces = () => {
 "
       />
 
-      {listButtons.map((listButton, index) => (
+      {listButtons.province.map((_province) => (
         <Button
-          key={index}
+          key={_province.title}
           width="100%"
           onClick={() =>
-            navigate(listButton.url ? listButton.url : "/page-default")
+            navigate(_province.url ? _province.url : "/page-default")
           }
         >
-          {listButton.title}
+          {_province.title}
         </Button>
       ))}
     </>

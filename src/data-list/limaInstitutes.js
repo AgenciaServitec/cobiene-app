@@ -46,9 +46,6 @@ import {
   ImgCarouselPedroRuizGallo2,
   ImgCarouselPedroRuizGallo3,
   ImgCarouselPedroRuizGallo4,
-  ImgCarouselPedroRuizGallo5,
-  ImgCarouselPedroRuizGallo6,
-  ImgCarouselPedroRuizGallo7,
   ImgCarouselPedroRuizGallo8,
   ImgCarouselPedroRuizGallo9,
   ImgCarouselPrimerosPasos,
@@ -173,8 +170,6 @@ export const limaInstitutes = [
     image: Inst3,
     imgCarousels: [
       ImgCarouselEmilioSoyer,
-      // ImgCarouselEmilioSoyer2,
-      // ImgCarouselEmilioSoyer3,
       ImgCarouselEmilioSoyer4,
       ImgCarouselEmilioSoyer5,
       ImgCarouselEmilioSoyer6,
@@ -242,7 +237,7 @@ export const limaInstitutes = [
       {
         icon: faGlobe,
         name: "www.jjinclan.edu.pe/",
-        url: "http://www.jjinclan.edu.pe/",
+        url: "https://jjinclan.edu.pe/",
       },
     ],
     buttonUrl:
@@ -321,8 +316,6 @@ export const limaInstitutes = [
   {
     image: Inst7,
     imgCarousels: [
-      // ImgMatelini,
-      // ImgCarouselMatellini,
       ImgCarouselMatellini5,
       ImgCarouselMatellini2,
       ImgCarouselMatellini3,
@@ -354,7 +347,6 @@ export const limaInstitutes = [
       },
     ],
     buttonUrl:
-      //old link -> "https://drive.google.com/file/d/1EiRHOGXrOlQS209CcCoCLJvplp7SQA15/view?usp=sharing"
       "https://drive.google.com/file/d/1zpGV4OnmszJrZEoKJffKKzYL88JOY8Ou/view?usp=sharing",
   },
   {
@@ -475,7 +467,6 @@ export const limaInstitutes = [
     image: Inst11,
     title1: "Cuna",
     title2: "Corazon de Jesús",
-    // title3: "",
     imgCarousels: [
       ImgCarouselCorazonJesus,
       ImgCarouselCorazonJesus2,

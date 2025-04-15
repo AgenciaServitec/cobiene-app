@@ -82,13 +82,6 @@ export const institutes = [
       },
     ],
   },
-  // {
-  //   image: CESCA,
-  //   title: "CESCA",
-  //   benefits: ["10% DSCTO  EN EL PAGO DE PENSIONES"],
-  //   urlFile:
-  //     "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-  // },
   {
     image: GAMOR,
     title: "GAMOR",
@@ -132,27 +125,6 @@ export const institutes = [
       },
     ],
   },
-  /*  {
-    image: SanVicente,
-    title: "COR. EDU. SAN VICENTE",
-    benefits: [
-      "PROGRAMAS ACADÉMICOS (INGLÉS, CARRERAS TÉCNICAS, ESPECIALIDADES Y DIPLOMADOS):\n",
-      "10% descuento en el pago de matrícula.\n",
-      "30% descuento  en el pago de pensiones.\n",
-      "ALCANCE:",
-      "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
-      "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
-    ],
-    urlFile:
-      "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-    links: [
-      {
-        url: "https://tramites.cobiene.com/",
-        text: "Solicita tu convenio SITRACON",
-        icon: faPaste,
-      },
-    ],
-  },*/
   {
     image: DanielCarrion,
     title: "DANIEL A.CARRIÓN",
@@ -289,13 +261,6 @@ export const institutes = [
       },
     ],
   },
-  // {
-  //   image: HEADWAYCOLLEGE,
-  //   title: "HEADWAYCOLLEGE",
-  //   benefits: ["10% DSCTO  EN EL PAGO DE PENSIONES"],
-  //   urlFile:
-  //     "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-  // },
   {
     image: INTECI,
     title: "INTECI",
@@ -319,27 +284,6 @@ export const institutes = [
       },
     ],
   },
-  /* {
-    image: LECTURAVELOZ,
-    title: "LECTURA VELOZ",
-    benefits: ["10% DSCTO  EN EL PAGO DE PENSIONES"],
-    urlFile:
-      "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-  },
-  {
-    image: LATINO,
-    title: "LATINO",
-    benefits: ["10% DSCTO  EN EL PAGO DE PENSIONES"],
-    urlFile:
-      "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-  },
-  {
-    image: LIBERTADOR,
-    title: "LIBERTADOR",
-    benefits: ["10% DSCTO  EN EL PAGO DE PENSIONES"],
-    urlFile:
-      "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-  },*/
   {
     image: INIDHE,
     title: "INIDHE",
@@ -488,27 +432,6 @@ export const institutes = [
       },
     ],
   },
-  // {
-  //   image: ImgVonBraun,
-  //   title: "VON BRAUN",
-  //   benefits: [
-  //     "PROGRAMAS DE FORMACIÓN:\n",
-  //     "30% descuento en el pago de  matrícula y pensiones mensuales\n",
-  //     "ALCANCE:",
-  //     "Personal militar en actividad o retiro, personal civil en actividad o cesantes, así como sus familiares directos (cónyuge  e hijos)",
-  //     "- OO, SUP. TCOS. SSOO.  Tropa activo y Licenciado.",
-  //   ],
-  //   urlFile:
-  //     "https://drive.google.com/file/d/1HL7Wh77RrTXis4TQrOeA5I-LfTro-QLw/view?usp=sharing",
-  //   links: [
-  //     { url: "https://istvonbraun.edu.pe/" },
-  //     {
-  //       url: "https://tramites.cobiene.com/",
-  //       text: "Solicita tu convenio SITRACON",
-  //       icon: faPaste,
-  //     },
-  //   ],
-  // },
   {
     image: ImgEcaprev,
     title: "ECAPREV",

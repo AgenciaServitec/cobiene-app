@@ -1,10 +1,3 @@
-import {
-  ImgBthHotelRebelTacna,
-  ImgCentroOpticoJesus,
-  ImgMirandaEscobarPeruTravels,
-  ImgPacificSuitesHotel,
-} from "../images";
-
 export const conventionProvincies = [
   {
     province: "piura-sullana",
@@ -428,20 +421,6 @@ export const conventionProvincies = [
       "PERSONAL MILITAR, SERVIDORES PÚBLICOS  DEL EJÉRCITO Y FAMILIA MILITAR",
     ],
   },
-  // {
-  //   province: "piura-sullana",
-  //   type: "restaurant",
-  //   title: '"DON LIMÓN"',
-  //   benefits: [
-  //     "ALCANCE:",
-  //     "SOLO EN COMIDA POR EL CONSUMO MÍNIMO POR EL COMSUMO MÍNIMO DE S/. 100.00.\n",
-  //     "MÉTODOS DE PAGO: EFECTIVO, YAPE, PLIM, O TRANSFERENCIAS.\n",
-  //     "PRESENTACIÓN DE CIP/CIF EN ACTIVIDAD Y/O RETIRO  \n",
-  //     "SE ENCUENTRA UBICADO EN LA CARRETERA PANAMERICANA NORTE 1.0 KM. PROVINCIA DE SULLANA DEPARTAMENTO DE PIURA",
-  //     "BENEFICIOS",
-  //     "PERSONAL MILITAR, SERVIDORES PÚBLICOS  DEL EJÉRCITO Y FAMILIA MILITAR",
-  //   ],
-  // },
   {
     province: "piura-sullana",
     type: "restaurant",
@@ -466,21 +445,6 @@ export const conventionProvincies = [
       "PERSONAL MILITAR, SERVIDORES PÚBLICOS  DEL EJÉRCITO Y FAMILIA MILITAR",
     ],
   },
-  // {
-  //   province: "piura-sullana",
-  //   type: "restaurant",
-  //   title: "SAINT ROSE",
-  //   benefits: [
-  //     "DESCUENTOS PREFERENCIALES",
-  //     "ALCANCE:",
-  //     "SOLO EN COMIDA POR EL CONSUMO MÍNIMO POR EL COMSUMO MÍNIMO DE S/. 100.00.\n",
-  //     "MÉTODOS DE PAGO: EFECTIVO, YAPE, PLIM, O TRANSFERENCIAS.\n",
-  //     "PRESENTACIÓN DE CIP/CIF EN ACTIVIDAD Y/O RETIRO.\n",
-  //     "SE ENCUENTRA UBICADO EN LA CALLE SANTA CLARA N°601 URBANIZACION SANTA ROSARA",
-  //     "REQUISITOS:",
-  //     "PERSONAL MILITAR, SERVIDORES PÚBLICOS  DEL EJÉRCITO Y FAMILIA MILITAR",
-  //   ],
-  // },
   {
     province: "trujillo",
     type: "hotel",

@@ -30,15 +30,7 @@ export const Service = () => {
         <InitialContent key={index} title={title ? title : "No hay titulo"} />
       ))}
 
-      {company.length >= 1 ? (
-        <>
-          {/*{service === "samsung" ? (*/}
-          {/*  <SamsungPage data={company} />*/}
-          {/*) : (*/}
-          <CollapseWithButtons dataLists={company} />
-          {/*)}*/}
-        </>
-      ) : (
+      {company.length >= 1 ? (<CollapseWithButtons dataLists={company} />) : (
         <>
           <InitialContent
             img={CobieneLogo}
@@ -51,7 +43,3 @@ export const Service = () => {
   );
 };
 
-// const SamsungPage = ({ data }) => {
-//   console.log("data->", data);
-//   return <h2>Hola</h2>;
-// };

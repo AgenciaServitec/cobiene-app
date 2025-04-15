@@ -2,7 +2,6 @@ import {
   faCloud,
   faComments,
   faFileInvoice,
-  faFileSignature,
   faFlag,
   faGears,
   faLightbulb,

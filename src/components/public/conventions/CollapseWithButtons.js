@@ -13,7 +13,7 @@ const { Text } = Typography;
 export const CollapseWithButtons = ({ dataLists = [] }) => {
   return (
     <CollapseAntd accordion bordered={false} expandIcon={null}>
-      {dataLists.map((dataList, index) => (
+      {(dataLists || []).map((dataList, index) => (
         <Panel
           key={index}
           header={

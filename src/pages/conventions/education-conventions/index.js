@@ -4,46 +4,34 @@ import { useNavigate } from "react-router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faList } from "@fortawesome/free-solid-svg-icons";
 import styled from "styled-components";
+import { listButtons } from "../../../data-list";
 
 export const EducationConventions = () => {
   const navigate = useNavigate();
+
   return (
     <Container>
       <Title>Educación</Title>
 
-      <Button
-        width="100%"
-        onClick={() =>
-          navigate("/conventions/education-conventions/universities")
-        }
-      >
-        Universidades
-      </Button>
-      <Button
-        width="100%"
-        onClick={() =>
-          navigate("/conventions/education-conventions/institutes")
-        }
-      >
-        Institutos
-      </Button>
-      <Button
-        width="100%"
-        onClick={() => NavigateGoToLink("https://korekenke.mil.pe/")}
-      >
-        Solicita tu convenio
-      </Button>
-      <Button
-        width="100%"
-        onClick={() =>
-          navigate("/conventions/education-conventions/videos-tutorial")
-        }
-      >
-        Videos tutorial
-      </Button>
+      {listButtons.education.map((_education) => (
+        <Button
+          key={_education.title}
+          width="100%"
+          onClick={() =>
+            _education?.urlWeb
+              ? NavigateGoToLink(_education.urlWeb)
+              : navigate(_education.url)
+          }
+        >
+          {_education.title}
+        </Button>
+      ))}
 
       <div className="list-convenios">
-        <a href="https://drive.google.com/file/d/1CgwLqBMSp1nr3_DCeSMzNRs3Bp657WGA/view?usp=sharing">
+        <a
+          href="https://drive.google.com/file/d/1QJariYXQQATL8crHmH4zPfM5jdwn0XDQ/view?usp=sharing"
+          target="_blank"
+        >
           <FontAwesomeIcon icon={faList} size="2x" />
           Lista de convenios de universidades e institutos:
         </a>

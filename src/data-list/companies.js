@@ -71,38 +71,6 @@ export const companies = [
   {
     type: "clinic",
     service: "health",
-    image: ImgInppares,
-    title: "Lab. INPPARES",
-    benefits: [
-      "ALCANCE DEL CONVENIO:\n",
-      "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados.\n",
-      "FORMA DE ACREDITACIÓN:\n",
-      "a)\tPresentación del carnet de identificación personal militar o civil CIP\n",
-      "b)\tPresentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).\n",
-      "c)\tPara el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.\n",
-      "BENEFICIO \n",
-      "a)\tDescuento del 10% de sobre los costos de las tarifas regulares, EN CONSULTAS EN LAS DIFERENTES ESPECIALIDADES LA SEDE DE JESÚS MARÍA.",
-      "b)\tDescuento entre el 5% y 10% sobre los costos de las tarifas regulares en, EXÁMENES DE LABORATORIO Y PROCEDIMIENTOS CLÍNICOS, realizados en la sede de Jesús María.",
-      "c)\tDescuento del 5% de sobre los costos de las tarifas regulares en sedes de LOS OLIVOS Y SAN JUAN DE LURIGANCHO, EN CONSULTAS, EXÁMENES DE LABORATORIO Y PROCEDIMIENTOS CLÍNICOS, en las diferentes especialidades sede.",
-      "Direcciones y citas telefónicas \n",
-      `Sede Arequipa Av. La Paz 424 Cercado - Teléfonos <a href="tel:874-226211" target="_blank" >874-226211</a>  y <a href="tel:054-286600" target="_blank" >054-286600</a>.`,
-      'Sede Clicayo Calle Leoncio Prado 485 – Teléfono: <a href="tel:074-227270" target="_blank" >074-227270</a>. ',
-      'Sede Chimbote Av. Jr. Elías Aguirre 636 – Teléfono: <a href="tel:043-346157" target="_blank" >043-346157</a>. ',
-      `Sede Tacna Av. Bolognesi 1361 - Teléfonos <a href="tel:052-426972" target="_blank" >052-426972</a>  y <a href="tel:052-412709" target="_blank" >052-412709</a>.`,
-    ],
-    links: [
-      {
-        url: "https://drive.google.com/file/d/12sqPYvBLOgP1_XeonoiGnCNeHMIJyEyY/view?usp=sharing",
-        icon: faLink,
-        text: "Detalles del convenio",
-      },
-      { url: "https://inppares.org/" },
-    ],
-  },
-
-  {
-    type: "clinic",
-    service: "health",
     image: ImgMedifon,
     title: "MEDIFON",
     benefits: [
@@ -116,7 +84,7 @@ export const companies = [
       "LOS OLIVOS: AV CARLOS IZAGUIRRE 548",
       "JESUS MARIA: AV. LA MARIA 2553",
       "SAN BORJA: AV AVIACION 3322",
-      "PROV. TRUJILLO CHICLAYO Y PIURA."
+      "PROV. TRUJILLO CHICLAYO Y PIURA.",
     ],
     links: [
       {
@@ -129,114 +97,6 @@ export const companies = [
     ],
   },
   {
-    type: "laboratory",
-    service: "health",
-    image: ImgBiolinks,
-    title: "LAB. 'BIOLINKS'",
-    benefits: [
-      "ALCANCE DEL CONVENIO:",
-      "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados.\n",
-      "BENEFICIO:",
-      "- 20% DESCUENTO EN PRUEBA DE ADN RECONOCIMIENTO DE PATERNIDAD.",
-      "- BRINDA COSTO DIFERENCIADO EN EXAMENES DE LABORATORIOCLINICO (ONCOLÓCOLIGICO ÁREA DE DIAGNÓSTICO Y AREÁ INFECCIOSAS)."
-    ],
-    links: [
-      {
-        url: "https://drive.google.com/file/d/1032hsI94wA332DYLBX_bDUvmNupGaG8r/view?usp=sharing",
-        icon: faBuilding,
-        text: "Sedes",
-      },
-      {
-        url: "https://drive.google.com/file/d/19cC4wjIEd7SI5ISCS87xyomg0nOaMxzY/view?usp=sharing",
-        icon: faLink,
-        text: "Detalles del convenio",
-      },
-      { url: "https://biolinksperu.com" },
-      {
-        url: "tel:012614411",
-        text: "01 2614411",
-        icon: faPhone,
-      }
-    ],
-  },
-  {
-    type: "laboratory",
-    service: "health",
-    image: ImgUnilabs,
-    title: "Lab. UNILABS",
-    benefits: [
-      "ALCANCE DEL CONVENIO:",
-      "Personal militar en situación de actividad y retiro, personal civilen actividad o cesante, así como sus familiares directos (cónyuges e hijos)",
-      "BENEFICIO:",
-      "HASTA 40% DE DESCUENTO EN: ANÁLISIS",
-      "CLÍNICOSTARIFA HOSPITALARIA EN:",
-      "- ANALISIS ESPECIALES",
-      "- TOMAGRAFIA",
-      "- RESONANCIA",
-      "- ANATOMIA PATOLOGICA",
-      "- CITOLOGIA, MARCADORES",
-      "- BIOLOGÌA MOLECULAR, CITOMETRÌA, GENÈTICA",
-      "CALL CENTER <a href='tel:012220505' target='_blank'>01 222-0505</a> <a href='tel:014422222' target='_blank'>442-2222</a>"
-    ],
-    links: [
-      {
-        url: "https://drive.google.com/file/d/144YibViWp6vReO7y61RCcVrv9PL8AkK3/view?usp=sharing",
-        icon: faLink,
-        text: "Detalles del convenio",
-      },
-      { url: "https://unilabs.pe" },
-    ],
-  },
-  {
-    type: "transport",
-    image: ImgOltursa,
-    title: "OLTURSA",
-    benefits: [
-      "ALCANCE DEL CONVENIO:\n",
-      "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados.\n",
-      "FORMA DE ACREDITACIÓN:\n",
-      "a)\tPresentación del carnet de identificación personal militar o civil CIP\n",
-      "b)\tPresentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).\n",
-      "c)\tPara el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.\n",
-      "d)\tDeberá de presentar copia de CIP al momento de la compra.\n",
-      "BENEFICIO \n",
-      "- 15 % de descuento en todos sus servicios.",
-      "- 10% de descuento trasporte de correspondencia, paquetería, encomiendas, carga ligera o mediana."
-    ],
-    links: [
-      {
-        url: "https://drive.google.com/file/d/1oSV8pJdnILl9eVi85lKyQ2dhwk6sSx3G/view?usp=sharing",
-        icon: faLink,
-        text: "Detalles del convenio",
-      },
-      { url: "https://www.oltursa.pe" },
-    ],
-  },
-  {
-    type: "transport",
-    image: ImgStarPeru,
-    title: "STAR PERU",
-    benefits: [
-      "ALCANCE DEL CONVENIO:",
-      "Dirigido al personal militar en situación de actividad o retiro, personal civil; así como sus familiares directos (cónyuge, hijos),debidamente acreditados. Identificándose con CIP o CIF Y DNI",
-      "BENEFICIO:",
-      "20% DESCUENTO EN LOS VIAJES SOBRE EL VALOR NETO DE LAS SIGUIENTES CLASES SEGÚN RUTA.",
-      "<b>DE LIMA / HACIA LIMA.</b>",
-      "<b>- PUCALLPA, TARAPOTO, CAJAMARCA, CHICLAYO</b>",
-      "<b>- IQUITOS</b>",
-      "<b>NO APLICA RUTAS INTERMEDIAS. EJEM. (TARAPOTO – CHICLAYO O CAJAMARCA – IQUITOS).</b>",
-      "EQUIPAJES DE BODEGA NO MAYOR A 23K.",
-      "MENORES DE EDAD 50% DCTO.",
-      "EQUIPAJE DE MANO NO DEBE EXCEDER A 8K.",
-      "SE ACCEDERÁ LA COMPRA A TRAVÉS DE LA PAGIMA WEB <a href='https://www.starperu.com/es'>HTTPS://WWW.STARPERU.COM/ES</a> DEBIENDO TOMAR ENCUENTA LAS SIGUIENTES:",
-      "SELECCIONAR LA RUTA Y FECHAS DE VUELO Y AL COSTADO DONDE INDICA CODIGO PROMOCIONAL INGRESAR EL CÓDIGO PROMOCIONAL <b>EJERCITO20</b>"
-    ],
-    links: [
-      { url: "https://www.starperu.com/es" },
-    ],
-  },
-
-  {
     type: "clinic",
     service: "health",
     image: ImgTinnitus,
@@ -248,7 +108,7 @@ export const companies = [
       "- 30% DE DESCUENTO EN AUDIFONOS MEDICADOS.",
       "- 20% DE DESCUENTO EN SERVICIOS DE PSICOLOGIA, NUTRICION YAUDIOLOGIA.",
       "<a href='' target='_blank'>901769626</a>",
-      "<a href='mailto:ventas01@grupoinfinitech.com' target='_blank'>ventas01@grupoinfinitech.com</a>"
+      "<a href='mailto:ventas01@grupoinfinitech.com' target='_blank'>ventas01@grupoinfinitech.com</a>",
     ],
     links: [{ url: "https://tinnitusperu.com/" }],
   },
@@ -266,7 +126,7 @@ export const companies = [
       "- PLAN EMERGENCIA - S/22.00",
       "- PLAN INTEGRAL - S/55.00",
       "- PLAN INTEGRAL PLUS – S/78.00",
-      "<b>TELEF CONTACTO /YADHIRA RADA <a href='tel:990903959'>990903959</a></b>"
+      "<b>TELEF CONTACTO /YADHIRA RADA <a href='tel:990903959'>990903959</a></b>",
     ],
     links: [{ url: "https://fesalud.com.pe/" }],
   },
@@ -281,7 +141,7 @@ export const companies = [
       "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.\n",
       "BENEFICIOS:",
       "Brinda servicios medicos y asistenciales medicas con costos diferenciados (personal afiliado)",
-      "INFORMACIÓN EN LA PÁGINA WEB DEL <a href='https://cobiene.com' target='_blank'>HTTPS://COBIENE.COM</a> - 0 a 120 años Clásico (un solo plan) S/. 13.87"
+      "INFORMACIÓN EN LA PÁGINA WEB DEL <a href='https://cobiene.com' target='_blank'>HTTPS://COBIENE.COM</a> - 0 a 120 años Clásico (un solo plan) S/. 13.87",
     ],
     links: [{ url: "https://www.auna.org/pe/auna-salud" }],
   },
@@ -297,14 +157,16 @@ export const companies = [
       "Brinda descuentos especiales en consultas (agudezavisual, motilidadocular, presión intraocular, etc.).",
       "Brinda tarifa regular en servicio quirúrgicos (cataratas, glaucoma, refractaria laser pterigión).",
       "Tárifa preferencial en exámenes especiales.",
-      "TELF.  www.globallaserperu.com"
+      "TELF.  www.globallaserperu.com",
     ],
-    links: [{ url: "https://www.globallaserperu.com/" },
+    links: [
+      { url: "https://www.globallaserperu.com/" },
       {
         url: "tel:945940824",
         text: "945940824",
         icon: faPhone,
-      }],
+      },
+    ],
   },
   {
     type: "clinic",
@@ -323,7 +185,7 @@ export const companies = [
       "- MEDICINA NUCLEAR",
       "Contácto:",
       "<a href='mailto:atc@resocentro.com' target='_blank'>atc@resocentro.com</a>",
-      "<a href='tel:015124400' target='_blank'>01 512-4400</a>"
+      "<a href='tel:015124400' target='_blank'>01 512-4400</a>",
     ],
     links: [{ url: "https://resocentro.com/" }],
   },
@@ -337,7 +199,7 @@ export const companies = [
       `<img src="${ImgClinicaDelInca2}" alt="Convenio Clínica del inca" width="100%" />`,
       "Nota: estos descuentos no aplican para afiliados a compañias de seguros, ni para pacientes con ecmo y cirugias y procedimeintos en los que se les dio un paquete, ya que los precios estan ajustados a los descuentos.",
       "Consulta de s/ 300 rebajadas a s/118 con las siguientes especialidades:",
-      "CARDIOLOGIA, CARDIOLOGIA INTERVENCIONISTA, NEUROLOGIA, NEUROCIRUGIA, GINECOLOGIA, PEDIATRA, GASTROENTEROLOGIA, CIRUGIA GENERAL, CIRUGIA CARDIOVASCULAR, DERMATOLOGIA, PSICOLOGIA, ENDOCRINOLOGIA."
+      "CARDIOLOGIA, CARDIOLOGIA INTERVENCIONISTA, NEUROLOGIA, NEUROCIRUGIA, GINECOLOGIA, PEDIATRA, GASTROENTEROLOGIA, CIRUGIA GENERAL, CIRUGIA CARDIOVASCULAR, DERMATOLOGIA, PSICOLOGIA, ENDOCRINOLOGIA.",
     ],
     links: [
       { url: "https://www.inca.org.pe/" },
@@ -345,72 +207,23 @@ export const companies = [
         url: "tel:994262060",
         text: "994262060",
         icon: faPhone,
-      },{
+      },
+      {
         url: "tel:994625122",
         text: "994625122",
         icon: faPhone,
-      },{
+      },
+      {
         url: "tel:970648273",
         text: "970648273",
         icon: faPhone,
-      },{
+      },
+      {
         url: "tel:967419645",
         text: "967419645",
         icon: faPhone,
-      }],
-  },
-  {
-    type: "commercialShop",
-    service: "companies",
-    image: ImgFootloose,
-    title: "Calzado FOOTLOOSE",
-    benefits: [
-      "ALCANCE DEL CONVENIO:",
-      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijosy padres).",
-      "BENEFICIO:",
-      "20 % de descuento en calzado en marcas propias.",
-      "15% de descuento en calzado nacional e importados inclusivezapatillas deportivas y de vestir en otras marca."
-    ],
-    links: [
-      { url: "https://www.footloose.pe" },
-      {
-        url: "https://drive.google.com/file/d/1RAtb1BTaEEwVh9xCId0Xm7QBtZaymmr4/view?usp=sharing",
-        icon: faLink,
-        text: "Detalles del convenio",
       },
     ],
-  },
-  {
-    type: "commercialShop",
-    service: "companies",
-    image: ImgAzaleia,
-    title: "Calzado Azaleia",
-    benefits: [
-      "ALCANCE DEL CONVENIO:",
-      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (esposa).",
-      "BENEFICIO:",
-      "DAMAS:",
-      `<img src="${AzaleiaPost1}" alt="Post Azaleia 20% descuento en damas" width="100%" />`,
-      "CABALLEROS",
-      `<img src="${AzaleiaPost2}" alt="Post Azaleia 20% descuento en caballeros" width="100%" />`,
-      "OTORGARÁ UN DESCUENTO DEL 20% DEL COSTO TOTAL EN LAS MARCAS AZALEIA, OLYMPIKUS Y DIJEAN, AL PERSONAL MILITAR Y CIVIL EN ACTIVIDAD, RETIRO Y/O CESANTE (DEBIENDO PRESENTAR SU CARNET DE IDENTIDAD CIP O CIF) EN CUALQUIER DE SUS TIENDAS POR DEPARTAMENTOS Y A NIVEL NACIONAL. (COMPRA DE MANERA PRESENCIAL)",
-      "CONCEDERÁ A LOS BENEFICIARIOS, EL DESCUENTO DE TRES (03) PRODUCTOS MÁXIMO POR MES EN LAS MARCAS AZALEIA, OLYMPIKUS Y DIJEAN.",
-      "BRINDARÁ EL 20 % DE DESCUENTO ATREVES DE SU TIENDA ONLINE DE AZALEIA PERÚ, <a href='https://www.azaleia.pe/'>(HTTPS://WWW.AZALEIA.PE/)</a> <a href='https://www.olympikus.pe/tiendas'>(HTTPS://WWW.OLYMPIKUS.PE/TIENDAS)</a>, MOMENTO DE LA COMPRA SE ENVIARÁ UN CÓDIGO DE SEGURIDAD <b>(Ejercito20)</b> QUE DEBERÁ SER RESPALDADO POR EL USUARIO (TITULAR) A TRAVÉS DE SU CORREO INSTITUCIONAL EN CASO DEL PERSONAL EN ACTIVIDAD. EL DESCUENTO APLICA AL VALOR DEL PRECIO REAL."
-    ],
-    links: [{ url: "https://www.azaleia.pe/" }],
-  },
-  {
-    type: "commercialShop",
-    service: "companies",
-    image: ImgLazzosComerciales,
-    title: "LAZZOS COMERCIALES",
-    benefits: [
-      "ALCANCE DEL CONVENIO:",
-      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como asus familiares directos (cónyuge, hijos y padres).",
-      "BENEFICIO:",
-      "- Productos de calzado y accesorios para damas y caballeros con el 20% de descuento sobre el precio de etiqueta en todas las tiendas Mossa shoes.",
-    ],
-    links: [{ url: "https://www.lazzos.com.pe" }],
   },
   {
     type: "clinic",
@@ -421,7 +234,7 @@ export const companies = [
       "ALCANCE DEL CONVENIO:",
       "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como asus familiares directos (cónyuge, hijos y padres).",
       "BENEFICIO:",
-      "Brinda servicio odontologicos en todas sus sedes con costosdiferenciados de la tarifa regular según tarifario a nivel nacional LIMA, AREQUIPA, TRUJILLO, TACNA, HUANCAYO."
+      "Brinda servicio odontologicos en todas sus sedes con costosdiferenciados de la tarifa regular según tarifario a nivel nacional LIMA, AREQUIPA, TRUJILLO, TACNA, HUANCAYO.",
     ],
     links: [
       {
@@ -434,103 +247,6 @@ export const companies = [
         url: "tel:956831722",
         text: "956831722",
         icon: faPhone,
-      },
-    ],
-  },
-  {
-    type: "transport",
-    image: ImgMovilBus,
-    title: "Movil Bus",
-    benefits: [
-      "ALCANCE DEL CONVENIO:\n",
-      "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.\n",
-      "FORMA DE ACREDITACIÓN:\n",
-      "a)\tPresentación del carnet de identificación personal militar o civil CIP\n",
-      "b)\tPresentación del carnet de identificación familiar CIF (cónyuge, hijos, Padres).\n",
-      "c)\tPara el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.\n",
-      "d)\tDeberá de presentar copia de CIP al momento de la compra.\n",
-      "BENEFICIO \n",
-      "20% de descuento en todos los servicios: economico, premier,presidencial, ejecutivo y vip en todos los destinos ofrecidos.",
-      "15% de descuento en servicio de transporte de correspondencia, paqueteria, encomiendas, carga ligera omediana."
-    ],
-    links: [
-      { url: "https://www.movilbus.pe/" },
-      {
-        url: "https://drive.google.com/file/d/13qwGSu6d6IFbM4Yx8SZBvhIGkbl3mKCQ/view?usp=sharing",
-        icon: faLink,
-        text: "Detalles del convenio",
-      },
-    ],
-  },
-  {
-    type: "transport",
-    image: Sky,
-    title: "Sky",
-    benefits: [
-      "ALCANCE DEL CONVENIO:",
-      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como a sus familiares directos (cónyuge, hijos). Identificándose con CIP o CI Y DNI",
-      "BENEFICIO:",
-      "1.OFRECERÁ UN 10% DE DESCUENTO SOBRE EL VALOR NETO DE LAS TARIFAS, TANTO PARA PERSONALES DE ACUERDO A ELECCIÓN DEL BENEFICIARIO, SIENDO VÁLIDO PARA VUELOS NACIONALES COMO INTERNACIONALES.",
-      "2. EL DESCUENTO APLICA SOBRE LA TARIFA BASE SIN INCLUIR IMPUESTOS NI SERVICIOS ADICIONALES Y NO ES APLICABLE SOBRE TARIFAS PROMOCIONALES.",
-      "3. PARA ACCEDER A LA COMPRA DE LOS PASAJES, LO PODRÁN REALIZAR EN LA PAGINA WEB HTTPS://WWW.SKYAIRLINE.COM/ES/PERU, DEBIENDO TOMAR EN CUENTA LAS SIGUIENTES CONDICIONES:",
-      'A. AL MOMENTO DE HACER LA COMPRA DEBERÁN INGRESAR EL "PROMOCODE" ASIGNADO (ESTE PROMOCODE CAMBIARÁ MENSUALMENTE Y SERÁ DIFUNDIDO POR EL DEPARTAMENTO DE APOYO SOCIAL DEL COMANDO DE BIENESTAR DEL EJÉRCITO), PROMOCODE FEBRERO 2025: <b>SKYEJERCITO7</b> VALIDO DEL 01/03/2025 HASTA EL 31/03/2025',
-      "B. ES REQUISITO FUNDAMENTAL QUE EL MIEMBRO DEL EJÉRCITO DEL PERÚ, SEA UNO DE LOS PASAJEROS DE LA RESERVA SOBRE LA CUAL SE APLICA EL DESCUENTO."
-    ],
-    links: [
-      { url: "https://www.skyairline.com/es/peru" },
-    ],
-  },{
-    type: "transport",
-    image: Domireps,
-    title: "DOMIREPS",
-    benefits: [
-      "ALCANCE DEL CONVENIO:",
-      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como a sus familiares directos (cónyuge, hijos). Identificándose con CIP o CI Y DNI",
-      "BENEFICIOS:",
-      "<b>Travel manager by domireps</b> pasajes, reservar hoteles, reservar autos, seguros, paquetes turísticos, algunos de los cuales contaran con precios especiales.",
-      "Ofertas exclusivas quincenalmente y beneficios de viajes para la familia militar, el cual se brindará mediante el sistema online travel agency (ota).",
-      "El programa, cuenta con los módulos de <b>VUELOS - HOTELES - ACTIVIDADES – PAQUETES – TRASLADOS - ALQUILER DE AUTOS - SEGUROS - TRENES - VUELOS LOW COST</b>, además de un módulo multidestino que permite diseñar su viaje a la medida.",
-      "<b>Contácto Limhi Meza <a href='tel:949480304'>949480304</a></b>"
-    ],
-    links: [
-      {
-        url: "https://www.domireps.com/",
-        text: "Visita nuestra pagina web",
-        icon: faGlobe,
-      },
-      {
-        url: "tel:949480304",
-        text: "949480304",
-        icon: faPhone,
-      },
-    ],
-  },
-  {
-    type: "gym",
-    service: "companies",
-    image: ImgSmartFit,
-    title: "Smart Fit",
-    benefits: [
-      `<img src="${SmartFitPost}" alt="Smart Fit Post" width="100%" />`,
-      "ALCANCE DEL CONVENIO:",
-      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos,hermanos y padres).",
-      "BENEFICIO:",
-      "CADENA DE GIMNASIO MEDIANTE PLAN CORPORATIVO MEDIANTE CÒDIGO:",
-      "<strong>CORPORATIVOEP</strong>",
-      "INSCRIPCIÓN VIRTUAL:",
-      "<a href='https://corporativo.smartfit-peru.com' target='_blank'>https://corporativo.smartfit-peru.com</a>",
-      "INSCRIPCIÓN PRESENCIAL:",
-      "Acercarse con su carnet respectivo y su DNI",
-      "PARA FAMILIARES EN PRESENCIA DE TITULAR",
-      "CODIGO: CORPORATIVOEP",
-      "COSTO MENSUAL S/. 99.90 EN SERVICIOS EXCLUSIVOS"
-  ],
-    links: [
-      { url: "https://www.smartfit.com.pe" },
-      {
-        url: "https://drive.google.com/file/d/1doEYxPYrX21ttcHH79tNk35SRY0dGddw/view?usp=sharing",
-        icon: faFilePdf,
-        text: "Detalles del convenio",
       },
     ],
   },
@@ -563,9 +279,437 @@ export const companies = [
     ],
   },
   {
+    type: "clinic",
+    service: "health",
+    title: "UCHIS MED",
+    benefits: [
+      "ALCANCE DEL CONVENIO:",
+      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y padres).",
+      "BENEFICIO:",
+      "10% de descuento en los servicios ofrecidos al personalafiliados y no afiliados.",
+      "<b>TELEF <a href='tel:017575492' target='_blank'>01 7575492</a></b>",
+    ],
+    image: ImgUchismed,
+    links: [
+      {
+        url: "https://drive.google.com/file/d/1JRr9PoACvducDhu9_e7G0LnGPL58xS2c/view?usp=sharing",
+        icon: faLink,
+        text: "Detalles del convenio",
+      },
+    ],
+  },
+  {
+    type: "clinic",
+    service: "health",
+    title: "CLINICA SUIZA",
+    benefits: [
+      "ALCANCE DEL CONVENIO:",
+      "Personal militar en situación de actividad y retiro, personal civil enactividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y padres).",
+      "BENEFICIO:",
+      "- BRINDA HASTA EL 40% DE DESCUENTO EN SERVICIO DELABORATORIO CLÍNICO Y BIOLOGÍA MOLECULAR.",
+      "- BRINDA HASTA EL 20% DE DESCUENTO EN CONSULTAS PORESPECIALIDAD.",
+      "- BRINDA HASTA EL 20% DE DESCUENTO EN DIAGNÓSTICO PORIMÁGENES (RADIOGRAFÍIAS, ECOGRAFÍA ECO DOPPLER MAMOGRAFÍ 2D Y 3D, DENSITOMETRÍA ETC.",
+    ],
+    image: "https://www.suizalab.com/wp-content/uploads/2020/08/logo-SL100.png",
+    links: [
+      {
+        url: "https://drive.google.com/file/d/13mDAaw0GN44G_NSrtdouPt5vp7XWSDiO/view?usp=sharing",
+        icon: faLink,
+        text: "Detalles del convenio",
+      },
+      {
+        url: "tel:016126666",
+        text: "(01) 6126666",
+        icon: faPhone,
+      },
+    ],
+  },
+  {
+    type: "clinic",
+    image: Niuvida,
+    service: "Health",
+    title: "NiuVida",
+    benefits: [
+      "ALCANCE DEL CONVENIO:",
+      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos,hermanos y padres).",
+      "BENEFICIOS: ",
+      "PROCEDIMIENTO DESCUENTO\n" +
+        "ASPIRACIÓN CON ÓVULO PROPIO S/3,800.00\n" +
+        "FECUNDACIÓN IN VITRO S/ 5,130.00\n" +
+        "PRIMERA TRANSFERENCIA EMBRIONARIA CORTESÍA\n" +
+        "BIOPSIA S/ 1,440.00\n" +
+        "CRIO PRESERVACIÓN DE EMBRIONES U OVULOS S/80.00 X MES\n" +
+        "DESCONGELACIÓN DE EMBRIONES S/420.00\n" +
+        "NIUVIDA” otorgará en Farmacia (Medicamentos Estimulación\n" +
+        "Ovárica) un descuento del 10%",
+    ],
+    links: [
+      {
+        url: "tel:978606917",
+        text: "978606917",
+        icon: faPhone,
+      },
+    ],
+  },
+  {
+    type: "clinic",
+    title: "Oftalmo Salud",
+    image: ImgOftalmoSalud,
+    benefits: [
+      "Empresa  privada, formalmente constituida conforme a la legislación nacional y cuyo objeto social es el diagnóstico, tratamiento y prevención de enfermedades oftalmológicas, contando para ello con el soporte tecnológico, profesional y administrativo adecuado",
+      "ALCANCE DEL CONVENIO:",
+      "Dirigido al personal militar en situación de actividad o retiro, personal civil; así como sus familiares directos (cónyuge, hijos, padres y hermanos),debidamente acreditados",
+      "BENEFICIO:",
+      " 50 % DE DESCUENTO EN CONSULTAS MÉDICAS.",
+      " 30% DE DESCUENTO SOBRE LA TARIFA REGULAR, EN EXÁMENESAUXILIARES SOBRE TARIFARIO VIGENTE DE PACIENTE PARTICULAR.",
+      " 30% DE DESCUENTO SOBRE LA TARIFA REGULAR VIGENTE DEL PACIENTE PARTICULAR SOBRE LOS PROCEDIMIENTOS DE CIRUGÍASOFTÁLMICAS. PUEDEN APLICARSE RESTRICCIONES POR MOTIVO DE INSUMOS O COMPLEJIDAD QUIRÚRGICA.",
+      " SEDE SAN ISIDRO <a href='tel:015121300'>01 512-1300</a>",
+      " LOS OLIVOS <a href='tel:015237777'>01 523-7777</a>",
+      " EL POLO <a href='tel:013552222'>01 355-2222</a>",
+      " SAN JUAN DE MIRAFLORES <a href='tel:014660022'>01 466-0022</a>",
+    ],
+    links: [
+      {
+        url: "https://oftalmosalud.pe/",
+      },
+    ],
+  },
+  {
+    type: "clinic",
+    title: "OTIK LENS EIRL",
+    image: ImgOtiklens,
+    service: "health",
+    benefits: [
+      "Empresa que nos dedicamos a la salud visual, realizamos medidas de vista computarizada y despistajes de defectos de refracción, poniendo a su disposición su staff de profesionales.",
+      "ALCANCE DEL CONVENIO:",
+      "Dirigido al personal militar en situación de actividad o de retiro, personal civil directos (cónyuge, hijos, padres y hermanos), debidamente acreditados.",
+      "BENEFICIO:",
+      "Brinda servicio gratituto de medida de vista computarizada y despistaje de defecto de refracción,miopçía ambliopía.",
+      "15% de descuento en servicio de lunas blancas, blue,ntireflex, monofocales bifocales).",
+      "25% en servicio de monturas economicas e intermedias yalata gana.",
+      "Contácto Whatsapp: <a href='https://api.whatsapp.com/send/?phone=51968915660' target='_blank'>968915660</a>",
+    ],
+    links: [
+      { url: "tel:912717279", text: "912717279", icon: faPhone },
+      {
+        url: "mailto:Marothmoralesmarreros@gmail.com",
+        text: "Marothmoralesmarreros@gmail.com",
+        icon: faEnvelope,
+      },
+    ],
+  },
+
+  {
+    type: "laboratory",
+    service: "health",
+    image: ImgBiolinks,
+    title: "LABORATORIO BIOLINKS",
+    benefits: [
+      "ALCANCE DEL CONVENIO:",
+      "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados.\n",
+      "BENEFICIO:",
+      "- 20% DESCUENTO EN PRUEBA DE ADN RECONOCIMIENTO DE PATERNIDAD.",
+      "- BRINDA COSTO DIFERENCIADO EN EXAMENES DE LABORATORIOCLINICO (ONCOLÓCOLIGICO ÁREA DE DIAGNÓSTICO Y AREÁ INFECCIOSAS).",
+    ],
+    links: [
+      {
+        url: "https://drive.google.com/file/d/1032hsI94wA332DYLBX_bDUvmNupGaG8r/view?usp=sharing",
+        icon: faBuilding,
+        text: "Sedes",
+      },
+      {
+        url: "https://drive.google.com/file/d/19cC4wjIEd7SI5ISCS87xyomg0nOaMxzY/view?usp=sharing",
+        icon: faLink,
+        text: "Detalles del convenio",
+      },
+      { url: "https://biolinksperu.com" },
+      {
+        url: "tel:012614411",
+        text: "01 2614411",
+        icon: faPhone,
+      },
+    ],
+  },
+  {
+    type: "laboratory",
+    service: "health",
+    image: ImgUnilabs,
+    title: "LABORATORIO UNILABS",
+    benefits: [
+      "ALCANCE DEL CONVENIO:",
+      "Personal militar en situación de actividad y retiro, personal civilen actividad o cesante, así como sus familiares directos (cónyuges e hijos)",
+      "BENEFICIO:",
+      "HASTA 40% DE DESCUENTO EN: ANÁLISIS",
+      "CLÍNICOSTARIFA HOSPITALARIA EN:",
+      "- ANALISIS ESPECIALES",
+      "- TOMAGRAFIA",
+      "- RESONANCIA",
+      "- ANATOMIA PATOLOGICA",
+      "- CITOLOGIA, MARCADORES",
+      "- BIOLOGÌA MOLECULAR, CITOMETRÌA, GENÈTICA",
+      "CALL CENTER <a href='tel:012220505' target='_blank'>01 222-0505</a> <a href='tel:014422222' target='_blank'>442-2222</a>",
+    ],
+    links: [
+      {
+        url: "https://drive.google.com/file/d/144YibViWp6vReO7y61RCcVrv9PL8AkK3/view?usp=sharing",
+        icon: faLink,
+        text: "Detalles del convenio",
+      },
+      { url: "https://unilabs.pe" },
+    ],
+  },
+  {
+    type: "laboratory",
+    service: "health",
+    image: ImgInppares,
+    title: "LABORATORIO INPPARES",
+    benefits: [
+      "ALCANCE DEL CONVENIO:\n",
+      "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados.\n",
+      "FORMA DE ACREDITACIÓN:\n",
+      "a)\tPresentación del carnet de identificación personal militar o civil CIP\n",
+      "b)\tPresentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).\n",
+      "c)\tPara el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.\n",
+      "BENEFICIO \n",
+      "a)\tDescuento del 10% de sobre los costos de las tarifas regulares, EN CONSULTAS EN LAS DIFERENTES ESPECIALIDADES LA SEDE DE JESÚS MARÍA.",
+      "b)\tDescuento entre el 5% y 10% sobre los costos de las tarifas regulares en, EXÁMENES DE LABORATORIO Y PROCEDIMIENTOS CLÍNICOS, realizados en la sede de Jesús María.",
+      "c)\tDescuento del 5% de sobre los costos de las tarifas regulares en sedes de LOS OLIVOS Y SAN JUAN DE LURIGANCHO, EN CONSULTAS, EXÁMENES DE LABORATORIO Y PROCEDIMIENTOS CLÍNICOS, en las diferentes especialidades sede.",
+      "Direcciones y citas telefónicas \n",
+      `Sede Arequipa Av. La Paz 424 Cercado - Teléfonos <a href="tel:874-226211" target="_blank" >874-226211</a>  y <a href="tel:054-286600" target="_blank" >054-286600</a>.`,
+      'Sede Clicayo Calle Leoncio Prado 485 – Teléfono: <a href="tel:074-227270" target="_blank" >074-227270</a>. ',
+      'Sede Chimbote Av. Jr. Elías Aguirre 636 – Teléfono: <a href="tel:043-346157" target="_blank" >043-346157</a>. ',
+      `Sede Tacna Av. Bolognesi 1361 - Teléfonos <a href="tel:052-426972" target="_blank" >052-426972</a>  y <a href="tel:052-412709" target="_blank" >052-412709</a>.`,
+    ],
+    links: [
+      {
+        url: "https://drive.google.com/file/d/12sqPYvBLOgP1_XeonoiGnCNeHMIJyEyY/view?usp=sharing",
+        icon: faLink,
+        text: "Detalles del convenio",
+      },
+      { url: "https://inppares.org/" },
+    ],
+  },
+
+  {
+    type: "transport",
+    image: ImgOltursa,
+    title: "OLTURSA",
+    benefits: [
+      "ALCANCE DEL CONVENIO:\n",
+      "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados.\n",
+      "FORMA DE ACREDITACIÓN:\n",
+      "a)\tPresentación del carnet de identificación personal militar o civil CIP\n",
+      "b)\tPresentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).\n",
+      "c)\tPara el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.\n",
+      "d)\tDeberá de presentar copia de CIP al momento de la compra.\n",
+      "BENEFICIO \n",
+      "- 15 % de descuento en todos sus servicios.",
+      "- 10% de descuento trasporte de correspondencia, paquetería, encomiendas, carga ligera o mediana.",
+    ],
+    links: [
+      {
+        url: "https://drive.google.com/file/d/1oSV8pJdnILl9eVi85lKyQ2dhwk6sSx3G/view?usp=sharing",
+        icon: faLink,
+        text: "Detalles del convenio",
+      },
+      { url: "https://www.oltursa.pe" },
+    ],
+  },
+  {
+    type: "transport",
+    image: ImgStarPeru,
+    title: "STAR PERU",
+    benefits: [
+      "ALCANCE DEL CONVENIO:",
+      "Dirigido al personal militar en situación de actividad o retiro, personal civil; así como sus familiares directos (cónyuge, hijos),debidamente acreditados. Identificándose con CIP o CIF Y DNI",
+      "BENEFICIO:",
+      "20% DESCUENTO EN LOS VIAJES SOBRE EL VALOR NETO DE LAS SIGUIENTES CLASES SEGÚN RUTA.",
+      "<b>DE LIMA / HACIA LIMA.</b>",
+      "<b>- PUCALLPA, TARAPOTO, CAJAMARCA, CHICLAYO</b>",
+      "<b>- IQUITOS</b>",
+      "<b>NO APLICA RUTAS INTERMEDIAS. EJEM. (TARAPOTO – CHICLAYO O CAJAMARCA – IQUITOS).</b>",
+      "EQUIPAJES DE BODEGA NO MAYOR A 23K.",
+      "MENORES DE EDAD 50% DCTO.",
+      "EQUIPAJE DE MANO NO DEBE EXCEDER A 8K.",
+      "SE ACCEDERÁ LA COMPRA A TRAVÉS DE LA PAGIMA WEB <a href='https://www.starperu.com/es'>HTTPS://WWW.STARPERU.COM/ES</a> DEBIENDO TOMAR ENCUENTA LAS SIGUIENTES:",
+      "SELECCIONAR LA RUTA Y FECHAS DE VUELO Y AL COSTADO DONDE INDICA CODIGO PROMOCIONAL INGRESAR EL CÓDIGO PROMOCIONAL <b>EJERCITO20</b>",
+    ],
+    links: [{ url: "https://www.starperu.com/es" }],
+  },
+  {
+    type: "transport",
+    image: ImgMovilBus,
+    title: "Movil Bus",
+    benefits: [
+      "ALCANCE DEL CONVENIO:\n",
+      "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.\n",
+      "FORMA DE ACREDITACIÓN:\n",
+      "a)\tPresentación del carnet de identificación personal militar o civil CIP\n",
+      "b)\tPresentación del carnet de identificación familiar CIF (cónyuge, hijos, Padres).\n",
+      "c)\tPara el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.\n",
+      "d)\tDeberá de presentar copia de CIP al momento de la compra.\n",
+      "BENEFICIO \n",
+      "20% de descuento en todos los servicios: economico, premier,presidencial, ejecutivo y vip en todos los destinos ofrecidos.",
+      "15% de descuento en servicio de transporte de correspondencia, paqueteria, encomiendas, carga ligera omediana.",
+    ],
+    links: [
+      { url: "https://www.movilbus.pe/" },
+      {
+        url: "https://drive.google.com/file/d/13qwGSu6d6IFbM4Yx8SZBvhIGkbl3mKCQ/view?usp=sharing",
+        icon: faLink,
+        text: "Detalles del convenio",
+      },
+    ],
+  },
+  {
+    type: "transport",
+    image: Sky,
+    title: "Sky",
+    benefits: [
+      "ALCANCE DEL CONVENIO:",
+      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como a sus familiares directos (cónyuge, hijos). Identificándose con CIP o CI Y DNI",
+      "BENEFICIO:",
+      "1.OFRECERÁ UN 10% DE DESCUENTO SOBRE EL VALOR NETO DE LAS TARIFAS, TANTO PARA PERSONALES DE ACUERDO A ELECCIÓN DEL BENEFICIARIO, SIENDO VÁLIDO PARA VUELOS NACIONALES COMO INTERNACIONALES.",
+      "2. EL DESCUENTO APLICA SOBRE LA TARIFA BASE SIN INCLUIR IMPUESTOS NI SERVICIOS ADICIONALES Y NO ES APLICABLE SOBRE TARIFAS PROMOCIONALES.",
+      "3. PARA ACCEDER A LA COMPRA DE LOS PASAJES, LO PODRÁN REALIZAR EN LA PAGINA WEB HTTPS://WWW.SKYAIRLINE.COM/ES/PERU, DEBIENDO TOMAR EN CUENTA LAS SIGUIENTES CONDICIONES:",
+      'A. AL MOMENTO DE HACER LA COMPRA DEBERÁN INGRESAR EL "PROMOCODE" ASIGNADO (ESTE PROMOCODE CAMBIARÁ MENSUALMENTE Y SERÁ DIFUNDIDO POR EL DEPARTAMENTO DE APOYO SOCIAL DEL COMANDO DE BIENESTAR DEL EJÉRCITO), PROMOCODE FEBRERO 2025: <b>SKYEJERCITO7</b> VALIDO DEL 01/03/2025 HASTA EL 31/03/2025',
+      "B. ES REQUISITO FUNDAMENTAL QUE EL MIEMBRO DEL EJÉRCITO DEL PERÚ, SEA UNO DE LOS PASAJEROS DE LA RESERVA SOBRE LA CUAL SE APLICA EL DESCUENTO.",
+    ],
+    links: [{ url: "https://www.skyairline.com/es/peru" }],
+  },
+  {
+    type: "transport",
+    image: Domireps,
+    title: "DOMIREPS",
+    benefits: [
+      "ALCANCE DEL CONVENIO:",
+      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como a sus familiares directos (cónyuge, hijos). Identificándose con CIP o CI Y DNI",
+      "BENEFICIOS:",
+      "<b>Travel manager by domireps</b> pasajes, reservar hoteles, reservar autos, seguros, paquetes turísticos, algunos de los cuales contaran con precios especiales.",
+      "Ofertas exclusivas quincenalmente y beneficios de viajes para la familia militar, el cual se brindará mediante el sistema online travel agency (ota).",
+      "El programa, cuenta con los módulos de <b>VUELOS - HOTELES - ACTIVIDADES – PAQUETES – TRASLADOS - ALQUILER DE AUTOS - SEGUROS - TRENES - VUELOS LOW COST</b>, además de un módulo multidestino que permite diseñar su viaje a la medida.",
+      "<b>Contácto Limhi Meza <a href='tel:949480304'>949480304</a></b>",
+    ],
+    links: [
+      {
+        url: "https://www.domireps.com/",
+        text: "Visita nuestra pagina web",
+        icon: faGlobe,
+      },
+      {
+        url: "tel:949480304",
+        text: "949480304",
+        icon: faPhone,
+      },
+    ],
+  },
+  {
+    type: "transport",
+    title: "CRUZ DEL SUR",
+    image: ImgCruzDelSur,
+    benefits: [
+      "CRUZ DEL SUR, es una sociedad privada que tiene como actividad principal el transporte por vía terrestre y transporte de carga por carretera. Quien facilitará a través de un convenio con la institución, beneficios a la familia militar, mediante costos diferenciados.",
+      "ALCANCE DEL CONVENIO:",
+      "Dirigido al personal militar en situación de actividad o retiro, personal civil; así como sus familiares directos (cónyuge, hijos, padres y hermanos).",
+      "BENEFICIO:",
+      "10% de descuento, en temporada alta o baja, en el primer nivel de los servicios de cruzero suite, cruzero evolution, cruzero plus, ica line expres, hacia cualquiera de los destinos ofrecidos.",
+      "10% de descuento en temporada alta, en el segundo nivel de losservicios de cruzero suite, cruzero evolution, cruzero plus.",
+      "15% de descuento en temporada baja, en el segundo nivel de losservicios de cruzero suite, cruzero evolution, cruzero plus.",
+      "10% de descuento en los servicios de correspondencia, encomiendas, paquetería y carga ligera o mediana.",
+      "FORMA DE ACREDITACIÓN:",
+      "Mediante la presentación física del respectivo Carnet de Identidad Personal del titular (CIP), y familiares directos, mediante presentación del Carnet de Identificación Familiar (CIF).",
+      "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el DNI.",
+    ],
+  },
+
+  {
+    type: "commercialShop",
+    service: "companies",
+    image: ImgFootloose,
+    title: "Calzado FOOTLOOSE",
+    benefits: [
+      "ALCANCE DEL CONVENIO:",
+      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijosy padres).",
+      "BENEFICIO:",
+      "20 % de descuento en calzado en marcas propias.",
+      "15% de descuento en calzado nacional e importados inclusivezapatillas deportivas y de vestir en otras marca.",
+    ],
+    links: [
+      { url: "https://www.footloose.pe" },
+      {
+        url: "https://drive.google.com/file/d/1RAtb1BTaEEwVh9xCId0Xm7QBtZaymmr4/view?usp=sharing",
+        icon: faLink,
+        text: "Detalles del convenio",
+      },
+    ],
+  },
+  {
+    type: "commercialShop",
+    service: "companies",
+    image: ImgAzaleia,
+    title: "Calzado Azaleia",
+    benefits: [
+      "ALCANCE DEL CONVENIO:",
+      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (esposa).",
+      "BENEFICIO:",
+      "DAMAS:",
+      `<img src="${AzaleiaPost1}" alt="Post Azaleia 20% descuento en damas" width="100%" />`,
+      "CABALLEROS",
+      `<img src="${AzaleiaPost2}" alt="Post Azaleia 20% descuento en caballeros" width="100%" />`,
+      "OTORGARÁ UN DESCUENTO DEL 20% DEL COSTO TOTAL EN LAS MARCAS AZALEIA, OLYMPIKUS Y DIJEAN, AL PERSONAL MILITAR Y CIVIL EN ACTIVIDAD, RETIRO Y/O CESANTE (DEBIENDO PRESENTAR SU CARNET DE IDENTIDAD CIP O CIF) EN CUALQUIER DE SUS TIENDAS POR DEPARTAMENTOS Y A NIVEL NACIONAL. (COMPRA DE MANERA PRESENCIAL)",
+      "CONCEDERÁ A LOS BENEFICIARIOS, EL DESCUENTO DE TRES (03) PRODUCTOS MÁXIMO POR MES EN LAS MARCAS AZALEIA, OLYMPIKUS Y DIJEAN.",
+      "BRINDARÁ EL 20 % DE DESCUENTO ATREVES DE SU TIENDA ONLINE DE AZALEIA PERÚ, <a href='https://www.azaleia.pe/'>(HTTPS://WWW.AZALEIA.PE/)</a> <a href='https://www.olympikus.pe/tiendas'>(HTTPS://WWW.OLYMPIKUS.PE/TIENDAS)</a>, MOMENTO DE LA COMPRA SE ENVIARÁ UN CÓDIGO DE SEGURIDAD <b>(Ejercito20)</b> QUE DEBERÁ SER RESPALDADO POR EL USUARIO (TITULAR) A TRAVÉS DE SU CORREO INSTITUCIONAL EN CASO DEL PERSONAL EN ACTIVIDAD. EL DESCUENTO APLICA AL VALOR DEL PRECIO REAL.",
+    ],
+    links: [{ url: "https://www.azaleia.pe/" }],
+  },
+  {
+    type: "commercialShop",
+    service: "companies",
+    image: ImgLazzosComerciales,
+    title: "LAZZOS COMERCIALES",
+    benefits: [
+      "ALCANCE DEL CONVENIO:",
+      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como asus familiares directos (cónyuge, hijos y padres).",
+      "BENEFICIO:",
+      "- Productos de calzado y accesorios para damas y caballeros con el 20% de descuento sobre el precio de etiqueta en todas las tiendas Mossa shoes.",
+    ],
+    links: [{ url: "https://www.lazzos.com.pe" }],
+  },
+
+  {
+    type: "gym",
+    service: "companies",
+    image: ImgSmartFit,
+    title: "Smart Fit",
+    benefits: [
+      `<img src="${SmartFitPost}" alt="Smart Fit Post" width="100%" />`,
+      "ALCANCE DEL CONVENIO:",
+      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos,hermanos y padres).",
+      "BENEFICIO:",
+      "CADENA DE GIMNASIO MEDIANTE PLAN CORPORATIVO MEDIANTE CÒDIGO:",
+      "<strong>CORPORATIVOEP</strong>",
+      "INSCRIPCIÓN VIRTUAL:",
+      "<a href='https://corporativo.smartfit-peru.com' target='_blank'>https://corporativo.smartfit-peru.com</a>",
+      "INSCRIPCIÓN PRESENCIAL:",
+      "Acercarse con su carnet respectivo y su DNI",
+      "PARA FAMILIARES EN PRESENCIA DE TITULAR",
+      "CODIGO: CORPORATIVOEP",
+      "COSTO MENSUAL S/. 99.90 EN SERVICIOS EXCLUSIVOS",
+    ],
+    links: [
+      { url: "https://www.smartfit.com.pe" },
+      {
+        url: "https://drive.google.com/file/d/1doEYxPYrX21ttcHH79tNk35SRY0dGddw/view?usp=sharing",
+        icon: faFilePdf,
+        text: "Detalles del convenio",
+      },
+    ],
+  },
+
+  {
     type: "financials",
     image: ImgEfectiva,
-    title: "Financ. Efectiva",
+    title: "FINANCIERA EFECTIVA",
     benefits: [
       "ALCANCE DEL CONVENIO",
       "Personal militar en situación de actividad y personal civil en actividad.",
@@ -610,9 +754,10 @@ export const companies = [
         url: "tel:965135686",
         text: "965135686",
         icon: faPhone,
-      }
+      },
     ],
   },
+
   {
     type: "servitec",
     service: "technology",
@@ -723,6 +868,7 @@ export const companies = [
       },
     ],
   },
+
   {
     type: "life-insurance",
     image: ImgRimacSeguros,
@@ -735,13 +881,16 @@ export const companies = [
       "- Protección familiar sepelio (desde s/. 22.9)",
       "- Protección familiar ahorro ws (desde $/. 23.9)",
       "- Proteccion familiar accidental (desde s/. 21)",
-      "- Seguro domiciliario"
+      "- Seguro domiciliario",
     ],
-    links: [{ url: "https://www.rimac.com/" },{
-      url: "tel:993577720",
-      text: "993577720",
-      icon: faPhone,
-    },],
+    links: [
+      { url: "https://www.rimac.com/" },
+      {
+        url: "tel:993577720",
+        text: "993577720",
+        icon: faPhone,
+      },
+    ],
   },
   {
     type: "life-insurance",
@@ -754,16 +903,19 @@ export const companies = [
       "- FUTUROVIDA ENTERA. (CON DEVOLUCIÓN).",
       "- SUMA ASEGURADA SEGÚN",
       "- CONTRATOFALLECIMIENTO",
-      "<b>CONTACTO: PAMELA MORON</b>"
+      "<b>CONTACTO: PAMELA MORON</b>",
     ],
-    title: "Seguro Vida Positiva",
+    title: "Seguros Vida Positiva",
     links: [
-      { url: "https://www.lapositiva.com.pe/wps/portal/landing/seguros-vida-individual" },
+      {
+        url: "https://www.lapositiva.com.pe/wps/portal/landing/seguros-vida-individual",
+      },
       {
         url: "tel:992867644",
         text: "992867644",
         icon: faPhone,
-      }],
+      },
+    ],
   },
   {
     type: "life-insurance",
@@ -774,16 +926,17 @@ export const companies = [
       "BENEFICIOS:",
       "- Seguro empresa salud en coberturas básicas de acuerdo a red de clínicas.",
       "- (desde S/. 160)",
-      "<b>CONTACTO: PAMELA MORON</b>"
+      "<b>CONTACTO: PAMELA MORON</b>",
     ],
-    title: "Seguro Salud Positiva",
+    title: "Seguros Salud Positiva",
     links: [
       { url: "https://www.lapositiva.com.pe/wps/portal/landing/medisalud" },
       {
         url: "tel:992867644",
         text: "992867644",
         icon: faPhone,
-      }],
+      },
+    ],
   },
   {
     type: "life-insurance",
@@ -793,17 +946,21 @@ export const companies = [
       "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante.",
       "BENEFICIOS:",
       "- Todo riesgo (desde $ 37).",
-      "<b>CONTACTO: PAMELA MORON</b>"
+      "<b>CONTACTO: PAMELA MORON</b>",
     ],
-    title: "Seguro Vehicular Positiva",
+    title: "Seguros Vehicular Positiva",
     links: [
-      { url: "https://www.lapositiva.com.pe/wps/portal/corporativo/home/proteger/mi-vehiculo/seguro-vehicular" },
       {
-      url: "tel:992867644",
-      text: "992867644",
-      icon: faPhone,
-    }],
+        url: "https://www.lapositiva.com.pe/wps/portal/corporativo/home/proteger/mi-vehiculo/seguro-vehicular",
+      },
+      {
+        url: "tel:992867644",
+        text: "992867644",
+        icon: faPhone,
+      },
+    ],
   },
+
   {
     type: "hotel",
     title: "HOTEL CARRERA",
@@ -813,7 +970,7 @@ export const companies = [
       "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y padres).",
       "BENEFICIO:",
       "35% de descuento sobre la tarifa final en los diferentes tipos dealojamiento (habitación simple, doble, matrimonial). estos incluyen impuesto, servicios, internet wifi y desayuno.",
-      "10% de descuento en los servicios del restaurante la alameda, ybar los descalzos, en el consumo de alimentos y bebidas sobre el costo total al momento del pago. no valido para servicio a la habitación."
+      "10% de descuento en los servicios del restaurante la alameda, ybar los descalzos, en el consumo de alimentos y bebidas sobre el costo total al momento del pago. no valido para servicio a la habitación.",
     ],
     links: [{ url: "https://www.hotelcarrera.com.pe/" }],
   },
@@ -826,9 +983,13 @@ export const companies = [
       "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge e hijos).",
       "BENEFICIO:",
       "<b>“BLUE MARLIN BEACH CLUB S.A.”</b> en adelante será <b>“HOTELES DECAMERON PUNTA SAL”</b> concederá a los <b>BENEFICIARIOS</b>, el acceso a los servicios hoteleros ofrecidos, a través de un <b>25%</b> de descuento en tarifas expresadas, en <b>TEMPORADA BAJA</b> (excepto las fechas festivas u otras que se indiquen,). que va del <b>13 AGO AL 29 SET Y DEL 15 OCT AL 28 DIC</b>.",
-      "Brindará a los beneficiarios, sistema todo incluido. acceso a las compras por intermedio de un call center al número <a href='tel:016342424' target='_blank'>(01) 6342424</a> y a través del whatsapp al <a href='https://api.whatsapp.com/send/?phone=51989211707' target='_blank'>989211707</a> indicando el código promocional: <b>PER-H194PB</b>"
+      "Brindará a los beneficiarios, sistema todo incluido. acceso a las compras por intermedio de un call center al número <a href='tel:016342424' target='_blank'>(01) 6342424</a> y a través del whatsapp al <a href='https://api.whatsapp.com/send/?phone=51989211707' target='_blank'>989211707</a> indicando el código promocional: <b>PER-H194PB</b>",
     ],
-    links: [{ url: "https://www.decameron.com/es/pe-destinos/peru/punta-sal/royal-decameron-punta-sal" }],
+    links: [
+      {
+        url: "https://www.decameron.com/es/pe-destinos/peru/punta-sal/royal-decameron-punta-sal",
+      },
+    ],
   },
   {
     type: "hotel",
@@ -836,9 +997,13 @@ export const companies = [
     image: ImgRoyalDecameronPuntaSal,
     benefits: [
       "<b>“BLUE MARLIN BEACH CLUB S.A.”</b> en adelante será <b>“HOTELES DECAMERON EL PUEBLO”</b> concederá a los <b>BENEFICIARIOS</b>, el acceso a los servicios hoteleros ofrecidos, a través de un <b>25%</b> de descuento en tarifas expresadas, en <b>TEMPORADA BAJA</b> (excepto las fechas festivas u otras que se indiquen,). que va del <b>13 AGO AL 29 SET Y DEL 15 OCT AL 28 DIC</b>.",
-      "Brindará a los beneficiarios, sistema todo incluido. acceso a las compras por intermedio de un call center al número <a href='tel:016342424' target='_blank'>(01) 6342424</a> y a través del whatsapp al <a href='https://api.whatsapp.com/send/?phone=51989211707' target='_blank'>989211707</a> indicando el código promocional: <b>PER-H194PB</b>"
+      "Brindará a los beneficiarios, sistema todo incluido. acceso a las compras por intermedio de un call center al número <a href='tel:016342424' target='_blank'>(01) 6342424</a> y a través del whatsapp al <a href='https://api.whatsapp.com/send/?phone=51989211707' target='_blank'>989211707</a> indicando el código promocional: <b>PER-H194PB</b>",
     ],
-    links: [{ url: "https://www.decameron.com/es/pe-destinos/peru/santa-clara/decameron-el-pueblo" }],
+    links: [
+      {
+        url: "https://www.decameron.com/es/pe-destinos/peru/santa-clara/decameron-el-pueblo",
+      },
+    ],
   },
   {
     type: "hotel",
@@ -849,9 +1014,13 @@ export const companies = [
       "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge e hijos).",
       "BENEFICIO:",
       "Concederá a los beneficiarios, el acceso a los servicios hoteleros ofrecidos, a través de descuentos sobre las tarifas regulares, excepto las fechas festivas u otras que se indiquen.",
-      "Brindará a los beneficiarios, acceso a descuentos diferenciados sobre la tarifa regular, en los alojamientos propios, ubicados a nivel nacional e incluyen desayuno buffet; acceso a las compras virtuales mediante la reserva al correo electrónico <a href='mailto:sandra.pineda@agrisal.com'>SANDRA.PINEDA@AGRISAL.COM</a>; reservas en caso sea de noche y para lima <a href='mailto:reservas.limsi@agrisal.com'>RESERVAS.LIMSI@AGRISAL.COM</a>"
+      "Brindará a los beneficiarios, acceso a descuentos diferenciados sobre la tarifa regular, en los alojamientos propios, ubicados a nivel nacional e incluyen desayuno buffet; acceso a las compras virtuales mediante la reserva al correo electrónico <a href='mailto:sandra.pineda@agrisal.com'>SANDRA.PINEDA@AGRISAL.COM</a>; reservas en caso sea de noche y para lima <a href='mailto:reservas.limsi@agrisal.com'>RESERVAS.LIMSI@AGRISAL.COM</a>",
     ],
-    links: [{ url: "https://www.ihg.com/holidayinn/hotels/es/es/lima/limmi/hoteldetail" }],
+    links: [
+      {
+        url: "https://www.ihg.com/holidayinn/hotels/es/es/lima/limmi/hoteldetail",
+      },
+    ],
   },
   {
     type: "hotel",
@@ -862,16 +1031,21 @@ export const companies = [
       "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge e hijos).",
       "BENEFICIO:",
       "Concederá a los BENEFICIARIOS, el acceso a los servicios\n" +
-      "hoteleros ofrecidos, a través de descuentos sobre las tarifas\n" +
-      "regulares, excepto las fechas festivas u otras que se\n" +
-      "indiquen\n" +
-      "Brindará a los BENEFICIARIOS, acceso a descuentos\n" +
-      "diferenciados sobre la tarifa regular, en los alojamientos\n" +
-      "propios, ubicados a nivel nacional e incluyen desayuno\n" +
-      "buffet",
+        "hoteleros ofrecidos, a través de descuentos sobre las tarifas\n" +
+        "regulares, excepto las fechas festivas u otras que se\n" +
+        "indiquen\n" +
+        "Brindará a los BENEFICIARIOS, acceso a descuentos\n" +
+        "diferenciados sobre la tarifa regular, en los alojamientos\n" +
+        "propios, ubicados a nivel nacional e incluyen desayuno\n" +
+        "buffet",
     ],
-    links: [{ url: "https://www.ihg.com/holidayinnexpress/hotels/es/es/lima/limsi/hoteldetail" }],
+    links: [
+      {
+        url: "https://www.ihg.com/holidayinnexpress/hotels/es/es/lima/limsi/hoteldetail",
+      },
+    ],
   },
+
   {
     type: "chifa",
     service: "restaurants",
@@ -1198,10 +1372,11 @@ export const companies = [
       "Personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres); debidamente acreditados.",
     ],
   },
+
   {
     type: "banks",
     image: BankScotiabank,
-    title: "BCO. SCOTIABANK",
+    title: "BANCO SCOTIABANK",
     benefits: [
       "ALCANCE DEL CONVENIO\n",
       "Dirigido al personal militar en situación de actividad o retiro y al personal civil en actividad o cesante\n",
@@ -1216,7 +1391,7 @@ export const companies = [
   {
     type: "banks",
     image: BankComercio,
-    title: "BCO. COMERCIO",
+    title: "BANCO COMERCIO",
     benefits: [
       "ALCANCE DEL CONVENIO:",
       "Dirigido al personal militar en situación de actividad o retiro y personal civil en situación de actividad o cesante.",
@@ -1228,15 +1403,13 @@ export const companies = [
       "16%.",
       "Campañas impulsadas por el banco según el análisis del mercado",
       "MODALIDAD: PRESTAMO POR CONSUMO BAJO LA MODALIDAD DE DESCUENTO POR PLANILLA.",
-
-
     ],
     links: [{ url: "https://www.bancomercio.com" }],
   },
   {
     type: "banks",
     image: BankGnb,
-    title: "BCO. GNB ",
+    title: "BANCO GNB ",
     benefits: [
       "ALCANCE DEL CONVENIO\n",
       "Dirigido al personal militar en situación de actividad o retiro y personal civil en situación de actividad y cesante\n",
@@ -1252,7 +1425,7 @@ export const companies = [
   {
     type: "banks",
     image: BankContinental,
-    title: "BCO. CONTINENTAL  ",
+    title: "BANCO CONTINENTAL  ",
     benefits: [
       "ALCANCE DEL CONVENIO\n",
       "Personal militar en situación de actividad y personal civil en actividad.\n",
@@ -1265,7 +1438,7 @@ export const companies = [
   {
     type: "banks",
     image: BankInterbank,
-    title: "BCO. INTERBANK",
+    title: "BANCO INTERBANK",
     benefits: [
       "ALCANCE DEL CONVENIO\n",
       "Dirigido al personal militar en situación de actividad o retiro y al personal civil en actividad o cesante\n",
@@ -1280,7 +1453,7 @@ export const companies = [
   {
     type: "banks",
     image: BankPichincha,
-    title: "BCO. PICHINCHA",
+    title: "BANCO PICHINCHA",
     benefits: [
       "ALCANCE DEL CONVENIO\n",
       "Dirigido al personal militar en situación de actividad o retiro y al personal civil en actividad o cesante\n",
@@ -1290,6 +1463,7 @@ export const companies = [
     ],
     links: [{}],
   },
+
   {
     type: "legal-advice",
     title: "CENTRO DE CONCILIACIÓN",
@@ -1328,47 +1502,7 @@ export const companies = [
       },
     ],
   },
-  {
-    type: "clinic",
-    title: "Oftalmo Salud",
-    image: ImgOftalmoSalud,
-    benefits: [
-      "Empresa  privada, formalmente constituida conforme a la legislación nacional y cuyo objeto social es el diagnóstico, tratamiento y prevención de enfermedades oftalmológicas, contando para ello con el soporte tecnológico, profesional y administrativo adecuado",
-      "ALCANCE DEL CONVENIO:",
-      "Dirigido al personal militar en situación de actividad o retiro, personal civil; así como sus familiares directos (cónyuge, hijos, padres y hermanos),debidamente acreditados",
-      "BENEFICIO:",
-      " 50 % DE DESCUENTO EN CONSULTAS MÉDICAS.",
-      " 30% DE DESCUENTO SOBRE LA TARIFA REGULAR, EN EXÁMENESAUXILIARES SOBRE TARIFARIO VIGENTE DE PACIENTE PARTICULAR.",
-      " 30% DE DESCUENTO SOBRE LA TARIFA REGULAR VIGENTE DEL PACIENTE PARTICULAR SOBRE LOS PROCEDIMIENTOS DE CIRUGÍASOFTÁLMICAS. PUEDEN APLICARSE RESTRICCIONES POR MOTIVO DE INSUMOS O COMPLEJIDAD QUIRÚRGICA.",
-      " SEDE SAN ISIDRO <a href='tel:015121300'>01 512-1300</a>",
-      " LOS OLIVOS <a href='tel:015237777'>01 523-7777</a>",
-      " EL POLO <a href='tel:013552222'>01 355-2222</a>",
-      " SAN JUAN DE MIRAFLORES <a href='tel:014660022'>01 466-0022</a>"
-    ],
-    links: [
-      {
-        url: "https://oftalmosalud.pe/",
-      },
-    ],
-  },
-  {
-    type: "transport",
-    title: "CRUZ DEL SUR",
-    image: ImgCruzDelSur,
-    benefits: [
-      "CRUZ DEL SUR, es una sociedad privada que tiene como actividad principal el transporte por vía terrestre y transporte de carga por carretera. Quien facilitará a través de un convenio con la institución, beneficios a la familia militar, mediante costos diferenciados.",
-      "ALCANCE DEL CONVENIO:",
-      "Dirigido al personal militar en situación de actividad o retiro, personal civil; así como sus familiares directos (cónyuge, hijos, padres y hermanos).",
-      "BENEFICIO:",
-      "10% de descuento, en temporada alta o baja, en el primer nivel de los servicios de cruzero suite, cruzero evolution, cruzero plus, ica line expres, hacia cualquiera de los destinos ofrecidos.",
-      "10% de descuento en temporada alta, en el segundo nivel de losservicios de cruzero suite, cruzero evolution, cruzero plus.",
-      "15% de descuento en temporada baja, en el segundo nivel de losservicios de cruzero suite, cruzero evolution, cruzero plus.",
-      "10% de descuento en los servicios de correspondencia, encomiendas, paquetería y carga ligera o mediana.",
-      "FORMA DE ACREDITACIÓN:",
-      "Mediante la presentación física del respectivo Carnet de Identidad Personal del titular (CIP), y familiares directos, mediante presentación del Carnet de Identificación Familiar (CIF).",
-      "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el DNI.",
-    ],
-  },
+
   {
     type: "samsung",
     service: "technology",
@@ -1398,7 +1532,7 @@ export const companies = [
       "Personal militar en situacion de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos\n",
       "BENEFICIO:",
       "Brindará acceso a los diversos productos y servicios de su marca hasta un 40% de descuento en productos seleccionados, a través de la tienda virtual lg vip, e-commerce, propia de la marca, siendo válido para lima y provincias.",
-      "Brindará acceso a la tienda virtual de “LG” a través de su página principal <a href='https: www.lg.com/pe'>HTTPS: WWW.LG.COM/PE</a>, a los beneficiarios, que podrán acceder a estos beneficios debiendo registrarse como clientes vip en su sitio web, mediante el uso de sus correos electrónicos, carnet de identidad personal, y usando el cupón <b>EJÉRCITOVIP</b>."
+      "Brindará acceso a la tienda virtual de “LG” a través de su página principal <a href='https: www.lg.com/pe'>HTTPS: WWW.LG.COM/PE</a>, a los beneficiarios, que podrán acceder a estos beneficios debiendo registrarse como clientes vip en su sitio web, mediante el uso de sus correos electrónicos, carnet de identidad personal, y usando el cupón <b>EJÉRCITOVIP</b>.",
     ],
     links: [
       {
@@ -1406,75 +1540,7 @@ export const companies = [
       },
     ],
   },
-  {
-    type: "clinic",
-    service: "health",
-    title: "UCHIS MED",
-    benefits: [
-      "ALCANCE DEL CONVENIO:",
-      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y padres).",
-      "BENEFICIO:",
-      "10% de descuento en los servicios ofrecidos al personalafiliados y no afiliados.",
-      "<b>TELEF <a href='tel:017575492' target='_blank'>01 7575492</a></b>"
-    ],
-    image: ImgUchismed,
-    links: [
-      {
-        url: "https://drive.google.com/file/d/1JRr9PoACvducDhu9_e7G0LnGPL58xS2c/view?usp=sharing",
-        icon: faLink,
-        text: "Detalles del convenio",
-      },
-    ],
-  },
-  {
-    type: "clinic",
-    service: "health",
-    title: "CLINICA SUIZA",
-    benefits: [
-      "ALCANCE DEL CONVENIO:",
-      "Personal militar en situación de actividad y retiro, personal civil enactividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y padres).",
-      "BENEFICIO:",
-      "- BRINDA HASTA EL 40% DE DESCUENTO EN SERVICIO DELABORATORIO CLÍNICO Y BIOLOGÍA MOLECULAR.",
-      "- BRINDA HASTA EL 20% DE DESCUENTO EN CONSULTAS PORESPECIALIDAD.",
-      "- BRINDA HASTA EL 20% DE DESCUENTO EN DIAGNÓSTICO PORIMÁGENES (RADIOGRAFÍIAS, ECOGRAFÍA ECO DOPPLER MAMOGRAFÍ 2D Y 3D, DENSITOMETRÍA ETC."
-    ],
-    image: "https://www.suizalab.com/wp-content/uploads/2020/08/logo-SL100.png",
-    links: [
-      {
-        url: "https://drive.google.com/file/d/13mDAaw0GN44G_NSrtdouPt5vp7XWSDiO/view?usp=sharing",
-        icon: faLink,
-        text: "Detalles del convenio",
-      },{
-        url: "tel:016126666",
-        text: "(01) 6126666",
-        icon: faPhone,
-      },
-    ],
-  },
-  {
-    title: "OTIK LENS EIRL",
-    image: ImgOtiklens,
-    type: "clinic",
-    service: "health",
-    benefits: [
-      "Empresa que nos dedicamos a la salud visual, realizamos medidas de vista computarizada y despistajes de defectos de refracción, poniendo a su disposición su staff de profesionales.",
-      "ALCANCE DEL CONVENIO:",
-      "Dirigido al personal militar en situación de actividad o de retiro, personal civil directos (cónyuge, hijos, padres y hermanos), debidamente acreditados.",
-      "BENEFICIO:",
-      "Brinda servicio gratituto de medida de vista computarizada y despistaje de defecto de refracción,miopçía ambliopía.",
-      "15% de descuento en servicio de lunas blancas, blue,ntireflex, monofocales bifocales).",
-      "25% en servicio de monturas economicas e intermedias yalata gana.",
-      "Contácto Whatsapp: <a href='https://api.whatsapp.com/send/?phone=51968915660' target='_blank'>968915660</a>"
-    ],
-    links: [
-      { url: "tel:912717279", text: "912717279", icon: faPhone },
-      {
-        url: "mailto:Marothmoralesmarreros@gmail.com",
-        text: "Marothmoralesmarreros@gmail.com",
-        icon: faEnvelope,
-      },
-    ],
-  },
+
   {
     type: "cars",
     service: "companies",
@@ -1498,6 +1564,7 @@ export const companies = [
       },
     ],
   },
+
   {
     type: "automobiles",
     image: ImgTuringCusco,
@@ -1510,14 +1577,15 @@ export const companies = [
       "30% DE DESCUENTO DEL COSTO TOTAL DE CUALQUIER VEHÍCULO DE CUATRO RUEDAS A MÁS A PASAR REVISIÓN TÉCNICA EN CUALQUIERA DE SUS LOCALES DE “MULTISERVICIOS TURING CUSCO E.I.R.L.” UBICADOS A NIVEL NACIONAL.",
       "10% DE DESCUENTO DEL COSTO TOTAL PARA VEHÍCULO MENOR (MOTO LINEAL, MOTO TAXI), A PASAR REVISIÓN TÉCNICA EN CUALQUIERA DE SUS LOCALES UBICADOS A NIVEL NACIONAL.",
     ],
-    links:[
+    links: [
       {
         url: "tel:947944772",
         text: "947944772",
         icon: faPhone,
       },
-    ]
+    ],
   },
+
   {
     type: "entertainment",
     image: ImgCinemark,
@@ -1554,33 +1622,4 @@ export const companies = [
       },
     ],
   },
-  {
-    type: "clinic",
-    image: Niuvida,
-    service: "Health",
-    title: "NiuVida",
-    benefits: [
-      "ALCANCE DEL CONVENIO:",
-      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos,hermanos y padres).",
-      "BENEFICIOS: ",
-      "PROCEDIMIENTO DESCUENTO\n" +
-      "ASPIRACIÓN CON ÓVULO PROPIO S/3,800.00\n" +
-      "FECUNDACIÓN IN VITRO S/ 5,130.00\n" +
-      "PRIMERA TRANSFERENCIA EMBRIONARIA CORTESÍA\n" +
-      "BIOPSIA S/ 1,440.00\n" +
-      "CRIO PRESERVACIÓN DE EMBRIONES U OVULOS S/80.00 X MES\n" +
-      "DESCONGELACIÓN DE EMBRIONES S/420.00\n" +
-      "NIUVIDA” otorgará en Farmacia (Medicamentos Estimulación\n" +
-      "Ovárica) un descuento del 10%",
-    ],
-    links: [
-      {
-        url: "tel:978606917",
-        text: "978606917",
-        icon: faPhone,
-      },
-    ],
-  },
-
-
 ];

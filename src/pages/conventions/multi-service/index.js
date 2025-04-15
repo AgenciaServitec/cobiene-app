@@ -1,79 +1,41 @@
 import React from "react";
 import { useNavigate } from "react-router";
-import { Button, InitialContent } from "../../../components/public";
+import {
+  Button,
+  InitialContent,
+  SearchAgreements,
+} from "../../../components/public";
+import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faList } from "@fortawesome/free-solid-svg-icons";
-import styled from "styled-components";
+import { companies, listButtons } from "../../../data-list";
 
 export const MultiService = () => {
   const navigate = useNavigate();
-
-  const listButtons = [
-    { title: "ASESORÍA LEGAL", url: "/conventions/multi-service/legal-advice" },
-    {
-      title: "EMPRESAS",
-      url: "/conventions/multi-service/companies",
-    },
-    {
-      title: "FINANCIERAS",
-      url: "/conventions/multi-service/financials",
-    },
-    {
-      title: "HOTELES",
-      url: "/conventions/multi-service/hotel",
-    },
-    {
-      title: "SALUD",
-      url: "/conventions/multi-service/health",
-    },
-    {
-      title: "SEGUROS",
-      url: "/conventions/multi-service/life-insurance",
-    },
-    {
-      title: "RESTAURANTES",
-      url: "/conventions/multi-service/restaurants",
-    },
-    {
-      title: "TECNOLOGÍA",
-      url: "/conventions/multi-service/technology",
-    },
-    {
-      title: "TRANSPORTES",
-      url: "/conventions/multi-service/transport",
-    },
-    {
-      title: "BANCOS",
-      url: "/conventions/multi-service/banks",
-    },
-    {
-      title: "AUTOMÓVILES",
-      url: "/conventions/multi-service/automobiles",
-    },
-    {
-      title: "ENTRETENIMIENTO",
-      url: "/conventions/multi-service/entertainment",
-    },
-  ];
 
   return (
     <Container>
       <InitialContent title="Convenios Multiservicios" />
 
-      {listButtons.map((listButton, index) => (
+      <SearchAgreements agreements={companies} />
+
+      {listButtons.multiservice.map((_multiservice) => (
         <Button
-          key={index}
+          key={_multiservice.title}
           width="100%"
           onClick={() =>
-            navigate(listButton.url ? listButton.url : "/page-default")
+            navigate(_multiservice.url ? _multiservice.url : "/page-default")
           }
         >
-          {listButton.title}
+          {_multiservice.title}
         </Button>
       ))}
 
       <div className="list-convenios">
-        <a href="https://drive.google.com/file/d/1lwjD65jUxl9etGS7JZcZryyYuIxNFyz-/view?usp=sharing">
+        <a
+          href="https://drive.google.com/file/d/1oS7eDou0ABm7P-41MAcjCi7rTgp0uFPO/view?usp=sharing"
+          target="_blank"
+        >
           <FontAwesomeIcon icon={faList} size="2x" />
           Lista de Convenios de empresas:
         </a>

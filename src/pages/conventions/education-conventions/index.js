@@ -1,10 +1,15 @@
 import React from "react";
-import { Button, NavigateGoToLink, Title } from "../../../components/public";
+import {
+  Button,
+  NavigateGoToLink,
+  SearchAgreements,
+  Title,
+} from "../../../components/public";
 import { useNavigate } from "react-router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faList } from "@fortawesome/free-solid-svg-icons";
 import styled from "styled-components";
-import { listButtons } from "../../../data-list";
+import { institutes, listButtons, universities } from "../../../data-list";
 
 export const EducationConventions = () => {
   const navigate = useNavigate();
@@ -12,6 +17,8 @@ export const EducationConventions = () => {
   return (
     <Container>
       <Title>Educación</Title>
+
+      <SearchAgreements agreements={[...universities,...institutes]} />
 
       {listButtons.education.map((_education) => (
         <Button

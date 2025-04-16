@@ -20,7 +20,7 @@ export const SearchAgreements = ({ agreements = [] }) => {
   return (
     <Container>
       <Input
-        onChange={({ target: { value } }) => setConvention(value)}
+        onChange={(e) =>  setConvention(e.target.value)}
         value={convention}
         placeholder="Busca tus convenios"
       />

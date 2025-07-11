@@ -25,7 +25,7 @@ export { default as Sky } from "./companies/sky.webp";
 export { default as Dpromartperu } from "./companies/dpromartperu.webp";
 export { default as Domireps } from "./companies/domireps.webp";
 export { default as Niuvida } from "./companies/niuvida.webp";
-
+export { default as ImgSmc} from "./others/logo-smc.webp";
 //--------Images Jage------
 export { default as ImgLogoJace } from "./jace/image-logo-jace.webp";
 export { default as ImgSliderJace } from "./jace/img-jace.webp";
@@ -443,7 +443,8 @@ export { default as BankGnb } from "./others/bank3.webp";
 export { default as BankContinental } from "./others/bank4.webp";
 export { default as BankInterbank } from "./others/bank5.webp";
 export { default as BankPichincha } from "./others/bank-pichincha.webp";
-
+export { default as BankBCP } from "./others/bank-bcp.webp";
+export { default as BankEnazul } from "./others/bank-enazul.webp";
 export { default as ImgDefault } from "./others/loader.gif";
 
 //-----------International Conventions-----

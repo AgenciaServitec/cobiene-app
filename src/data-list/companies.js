@@ -54,7 +54,7 @@ import {
   LogoFactura,
   LogoPublicidad,
   Niuvida,
-  SMC,
+  ImgSmc,
   Servitec,
   Sky,
   SmartFitPost,
@@ -404,7 +404,7 @@ export const companies = [
   {
     type: "clinic",
     title: "SALUD MEDIC CARRIÓN",
-    image: SMC,
+    image: ImgSmc,
     service: "health",
     benefits: [
       "ALCANCE DEL CONVENIO:",
@@ -412,11 +412,11 @@ export const companies = [
 
       "BENEFICIO:",
       "BRINDA UN DESCUENTO DEL 30% EN LOS SERVICIOS DE TERAPIA FISICA Y REHABILITACIÓN, EXÁMENES DE ECOGRAFÍA Y CONSULTA MÉDICA.",
-      "BRINDA UN DESCUENTO DEL 20%  A LOS PADRES DEL PERSONAL TITULAR EN LOS SERVICIOS DE TERAPIA FISICA Y REHABILITACIÓN, EXÁMENES DE ECOGRAFÍA Y CONSULTA MÉDICA. ",
+      "BRINDA UN DESCUENTO DEL 20%  A LOS PADRES DEL PERSONAL TITULAR EN LOS SERVICIOS DE TERAPIA FISICA Y REHABILITACIÓN, EXÁMENES DE ECOGRAFÍA Y CONSULTA MÉDICA.",
       "Contácto Whatsapp: <a href='https://api.whatsapp.com/send/?phone=51942868076' target='_blank'>942 868 076</a>",
     ],
     links: [
-      { url: "tel:912717279", text: "912717279", icon: faPhone },
+      { url: "tel:942868076", text: "942868076", icon: faPhone },
       {
         url: "mailto:Marothmoralesmarreros@gmail.com",
         text: "Marothmoralesmarreros@gmail.com",

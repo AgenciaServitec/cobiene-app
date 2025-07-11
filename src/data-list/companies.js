@@ -407,14 +407,13 @@ export const companies = [
     image: SMC,
     service: "health",
     benefits: [
-      "Empresa que nos dedicamos a la salud visual, realizamos medidas de vista computarizada y despistajes de defectos de refracción, poniendo a su disposición su staff de profesionales.",
       "ALCANCE DEL CONVENIO:",
-      "Dirigido al personal militar en situación de actividad o de retiro, personal civil directos (cónyuge, hijos, padres y hermanos), debidamente acreditados.",
+      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como a sus familiares directos (cónyuge, hijos y padres).",
+
       "BENEFICIO:",
-      "Brinda servicio gratituto de medida de vista computarizada y despistaje de defecto de refracción,miopçía ambliopía.",
-      "15% de descuento en servicio de lunas blancas, blue, ntireflex, monofocales bifocales).",
-      "25% en servicio de monturas economicas e intermedias yalata gana.",
-      "Contácto Whatsapp: <a href='https://api.whatsapp.com/send/?phone=51968915660' target='_blank'>968915660</a>",
+      "BRINDA UN DESCUENTO DEL 30% EN LOS SERVICIOS DE TERAPIA FISICA Y REHABILITACIÓN, EXÁMENES DE ECOGRAFÍA Y CONSULTA MÉDICA.",
+      "BRINDA UN DESCUENTO DEL 20%  A LOS PADRES DEL PERSONAL TITULAR EN LOS SERVICIOS DE TERAPIA FISICA Y REHABILITACIÓN, EXÁMENES DE ECOGRAFÍA Y CONSULTA MÉDICA. ",
+      "Contácto Whatsapp: <a href='https://api.whatsapp.com/send/?phone=51942868076' target='_blank'>942 868 076</a>",
     ],
     links: [
       { url: "tel:912717279", text: "912717279", icon: faPhone },

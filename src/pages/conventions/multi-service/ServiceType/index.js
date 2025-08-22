@@ -91,10 +91,10 @@ export const ServiceType = () => {
           title: "LG",
           url: `/conventions/multi-service/${typeService}/lg`,
         },
-        {
-          title: "Servitec",
-          url: `/conventions/multi-service/${typeService}/servitec`,
-        },
+        // {
+        //   title: "Servitec",
+        //   url: `/conventions/multi-service/${typeService}/servitec`,
+        // },
       ],
     },
     {

@@ -21,11 +21,14 @@ export { default as LogoPublicidad } from "./others/logo-servitec.webp";
 export { default as SmartFitPost } from "./companies/smart-fit-post.jpeg";
 export { default as AzaleiaPost1 } from "./companies/post-azaleia-1.jpeg";
 export { default as AzaleiaPost2 } from "./companies/post-azaleia-2.jpeg";
+export { default as Vega } from "./companies/vega.webp";
 export { default as Sky } from "./companies/sky.webp";
+export { default as Palomino } from "./companies/palomino.webp";
 export { default as Dpromartperu } from "./companies/dpromartperu.webp";
 export { default as Domireps } from "./companies/domireps.webp";
 export { default as Niuvida } from "./companies/niuvida.webp";
-export { default as ImgSmc} from "./others/logo-smc.webp";
+export { default as UniversidadPeruanaCayetanoHeredia } from "./companies/universidad-peruana-cayetano-heredia.webp";
+export { default as ImgSmc } from "./others/logo-smc.webp";
 //--------Images Jage------
 export { default as ImgLogoJace } from "./jace/image-logo-jace.webp";
 export { default as ImgSliderJace } from "./jace/img-jace.webp";

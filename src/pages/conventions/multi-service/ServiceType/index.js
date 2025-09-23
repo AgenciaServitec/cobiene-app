@@ -15,13 +15,6 @@ export const ServiceType = () => {
     {
       type: "restaurants",
       title: "Restaurantes",
-      buttons: [
-        {
-          title: "Comida peruana",
-          url: `/conventions/multi-service/${typeService}/peruvianFood`,
-        },
-        { title: "Cevicheria", url: "" },
-      ],
     },
     {
       type: "companies",
@@ -91,10 +84,6 @@ export const ServiceType = () => {
           title: "LG",
           url: `/conventions/multi-service/${typeService}/lg`,
         },
-        // {
-        //   title: "Servitec",
-        //   url: `/conventions/multi-service/${typeService}/servitec`,
-        // },
       ],
     },
     {

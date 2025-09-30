@@ -28,6 +28,7 @@ export { default as Dpromartperu } from "./companies/dpromartperu.webp";
 export { default as Domireps } from "./companies/domireps.webp";
 export { default as Niuvida } from "./companies/niuvida.webp";
 export { default as UniversidadPeruanaCayetanoHeredia } from "./companies/universidad-peruana-cayetano-heredia.webp";
+export { default as boticasperu } from "./companies/logoBoticasPeru.webp";
 export { default as ImgSmc } from "./others/logo-smc.webp";
 //--------Images Jage------
 export { default as ImgLogoJace } from "./jace/image-logo-jace.webp";

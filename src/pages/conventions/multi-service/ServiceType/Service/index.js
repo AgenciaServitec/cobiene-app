@@ -11,7 +11,7 @@ export const Service = () => {
   const { service } = useParams();
 
   const listTitles = [
-    { title: "Comida peruana", serviceUrl: "peruvianFood" },
+    { title: "Restaurantes", type: "restaurants" },
     { title: "Tiendas comerciales", serviceUrl: "commercialShop" },
     { title: "Gimnasio", serviceUrl: "gym" },
     { title: "Laboratorios", serviceUrl: "laboratory" },

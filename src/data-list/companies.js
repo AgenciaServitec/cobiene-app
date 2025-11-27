@@ -267,6 +267,7 @@ export const companies = [
   {
     type: "clinic",
     service: "health",
+    image: ImgUchismed,
     title: "UCHIS MED",
     benefits: [
       "BENEFICIOS:",

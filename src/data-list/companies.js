@@ -251,7 +251,7 @@ export const companies = [
       "BENEFICIOS:",
       "Costo diferenciado de acuerdo al grado del personal militar y civil en servicio de apoyo psicopedagógico.",
       "CONTACTOS:",
-        '<a href="tel:970302066" target="_blank" >970302066</a> <a href="mailto:admisión04@apeplac.com" target="_blank" >admisión04@apeplac.com</a>. ',
+      '<a href="tel:970302066" target="_blank" >970302066</a> <a href="mailto:admisión04@apeplac.com" target="_blank" >admisión04@apeplac.com</a>. ',
       'LIC. EDDY FUENTES: <a href="mailto:efuentes@apeplac.com" target="_blank" >efuentes@apeplac.com</a>. ',
       "ALCANCE DEL CONVENIO:",
       "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.",
@@ -394,9 +394,7 @@ export const companies = [
       "ALCANCE DEL CONVENIO:",
       "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como a sus familiares directos (cónyuge, hijos y padres).",
     ],
-    links: [
-      { url: "tel:942868076", text: "942868076", icon: faPhone },
-    ],
+    links: [{ url: "tel:942868076", text: "942868076", icon: faPhone }],
   },
   {
     type: "clinic",
@@ -416,7 +414,8 @@ export const companies = [
       "ALCANCE DEL CONVENIO:",
       "Personal militar en actividad y retiro, personal civil en actividad o cesante. Personal de servicio militar, Tropa y reenganchado. Familiares directos (cónyuge e hijos) Identificándose con CIP o CIF Y DNI.",
     ],
-  },  {
+  },
+  {
     type: "clinic",
     title: "BOTICAS PERÚ",
     image: boticasperu,
@@ -434,9 +433,7 @@ export const companies = [
       "ALCANCE DEL CONVENIO:",
       "Personal militar en actividad y retiro, personal civil en actividad o cesante. Personal de servicio militar, Tropa y reenganchado. Familiares directos (cónyuge e hijos) Identificándose con CIP o CIF Y DNI.",
     ],
-    links: [
-      { url: "tel:980029739", text: "980029739", icon: faPhone },
-    ],
+    links: [{ url: "tel:980029739", text: "980029739", icon: faPhone }],
   },
 
   {
@@ -510,7 +507,7 @@ export const companies = [
       "b)\tDescuento entre el 5% y 10% sobre los costos de las tarifas regulares en, EXÁMENES DE LABORATORIO Y PROCEDIMIENTOS CLÍNICOS, realizados en la sede de Jesús María.",
       "",
       "CONTACTOs:",
-      "Telef:  <a href=`tel:01480-1626` target=`_blank` >01 480-1626</a>",
+      'Telef: <a href="tel:014801626">01 480-1626</a>',
       "",
       "ALCANCE DEL CONVENIO:",
       "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados.",
@@ -696,7 +693,7 @@ export const companies = [
       "",
       "ALCANCE DEL CONVENIO:",
       "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como asus familiares directos (cónyuge, hijos y padres).",
-      ],
+    ],
     links: [{ url: "https://www.lazzos.com.pe" }],
   },
   {
@@ -1526,7 +1523,8 @@ export const companies = [
       "EDAD PARA ACCEDER AL PRESTAMO",
       " HASTA 60 AÑOS AL FINALIZAR EL CREDITO",
     ],
-  },  {
+  },
+  {
     type: "banks",
     image: Cencosud,
     title: "CENCOSUD RETAIL PERÚ S.A.  ",

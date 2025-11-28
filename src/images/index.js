@@ -30,6 +30,7 @@ export { default as Niuvida } from "./companies/niuvida.webp";
 export { default as UniversidadPeruanaCayetanoHeredia } from "./companies/universidad-peruana-cayetano-heredia.webp";
 export { default as boticasperu } from "./companies/logoBoticasPeru.webp";
 export { default as ImgSmc } from "./others/logo-smc.webp";
+export { default as Cencosud } from "./others/cencosud.webp";
 //--------Images Jage------
 export { default as ImgLogoJace } from "./jace/image-logo-jace.webp";
 export { default as ImgSliderJace } from "./jace/img-jace.webp";

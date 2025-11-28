@@ -7,8 +7,8 @@ import {
   BankEnazul,
   BankGnb,
   BankInterbank,
-  BankPichincha,
   BankScotiabank,
+  boticasperu,
   Domireps,
   ImgApelac,
   ImgAzaleia,
@@ -59,34 +59,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 export const companies = [
-  // {
-  //   type: "clinic",
-  //   service: "health",
-  //   image: ImgMedifon,
-  //   title: "MEDIFON",
-  //   benefits: [
-  //     "ALCANCE DEL CONVENIO:",
-  //     "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.",
-  //     "BENEFICIO:",
-  //     "- $ 150.00 DÓLARES DE DESCUENTO SOBRE EL COSTO DEL AUDIFONO.",
-  //     "- 25% DESCUENTO EN REPUESTOS Y ACCESORIOS.",
-  //     "- DESCUENTO DE HASTA $. 2000 DOLARES EN CIRUGIA ENIMPLANTE KOCLEAR.",
-  //     "MIRAFLORES: AV LARCO 345 OF 1105",
-  //     "LOS OLIVOS: AV CARLOS IZAGUIRRE 548",
-  //     "JESUS MARIA: AV. LA MARIA 2553",
-  //     "SAN BORJA: AV AVIACION 3322",
-  //     "PROV. TRUJILLO CHICLAYO Y PIURA.",
-  //   ],
-  //   links: [
-  //     {
-  //       url: "https://drive.google.com/file/d/1TuvuRj3_e4N2eM1IhgMb7rowjYQxEg9x/view?usp=sharing",
-  //       icon: faLink,
-  //       text: "Detalles del convenio",
-  //     },
-  //
-  //     { url: "https://medifonperu.pe/" },
-  //   ],
-  // },
   {
     type: "clinic",
     service: "health",
@@ -103,39 +75,6 @@ export const companies = [
     ],
     links: [{ url: "https://tinnitusperu.com/" }],
   },
-  // {
-  //   type: "clinic",
-  //   service: "health",
-  //   image: ImgFesalud,
-  //   title: "FE SALUD",
-  //   benefits: [
-  //     "Institución Administradora de Fondos de Aseguramiento en Salud privada. debidamente registrada en el Registro RIAFAS de la Superintendencia Nacional de Salud (SUSALUD) bajo Código Único N 20028 Es una institucion altamente especializada en lo prestación de servicios médicos asistenciales complementarios.",
-  //     "ALCANCE DEL CONVENIO:",
-  //     "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.",
-  //     "BENEFICIOS:",
-  //     "Brinda tarifa plana sin anular sistema públicos de salud(essalud y sis) incluye beneficio de sepelio completo en caso de fallecimiento a personal afiliado.",
-  //     "- PLAN EMERGENCIA - S/22.00",
-  //     "- PLAN INTEGRAL - S/55.00",
-  //     "- PLAN INTEGRAL PLUS – S/78.00",
-  //     "<b>TELEF CONTACTO /YADHIRA RADA <a href='tel:990903959'>990903959</a></b>",
-  //   ],
-  //   links: [{ url: "https://fesalud.com.pe/" }],
-  // },
-  // {
-  //   type: "clinic",
-  //   service: "health",
-  //   image: ImgAunaSvida,
-  //   title: "AUNA SVIDA",
-  //   benefits: [
-  //     "Es una institución altamente especializada en la prestación de servicios médicos Y asistenciales complementarios.",
-  //     "ALCANCE DEL CONVENIO:",
-  //     "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.",
-  //     "BENEFICIOS:",
-  //     "Brinda servicios medicos y asistenciales medicas con costos diferenciados (personal afiliado)",
-  //     "INFORMACIÓN EN LA PÁGINA WEB DEL <a href='https://cobiene.com' target='_blank'>HTTPS://COBIENE.COM</a> - 0 a 120 años Clásico (un solo plan) S/. 13.87",
-  //   ],
-  //   links: [{ url: "https://www.auna.org/pe/auna-salud" }],
-  // },
   {
     type: "clinic",
     service: "health",
@@ -216,31 +155,6 @@ export const companies = [
       },
     ],
   },
-  // {
-  //   type: "clinic",
-  //   service: "health",
-  //   image: ImgMultident,
-  //   title: "MULTIDENT",
-  //   benefits: [
-  //     "ALCANCE DEL CONVENIO:",
-  //     "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como asus familiares directos (cónyuge, hijos y padres).",
-  //     "BENEFICIO:",
-  //     "Brinda servicio odontologicos en todas sus sedes con costosdiferenciados de la tarifa regular según tarifario a nivel nacional LIMA, AREQUIPA, TRUJILLO, TACNA, HUANCAYO.",
-  //   ],
-  //   links: [
-  //     {
-  //       url: "https://drive.google.com/file/d/1ESEdYrS0JqrWB2c-RDd_YbWBOJlGIRQG/view?usp=sharing",
-  //       icon: faLink,
-  //       text: "Detalles del convenio",
-  //     },
-  //     { url: "https://www.multident.pe" },
-  //     {
-  //       url: "tel:956831722",
-  //       text: "956831722",
-  //       icon: faPhone,
-  //     },
-  //   ],
-  // },
   {
     type: "clinic",
     service: "health",
@@ -257,8 +171,7 @@ export const companies = [
       "Servicios psicopedagógicos, especializados en problemas de lenguaje, aprendizaje y conducta, a través de tarifas especiales, mediante porcentaje de descuento, según grado de el BENEFICIARIO, así como costos diferenciados en las sedes de APEPLAC.  SURCO y RÌMAC",
       "Costo diferenciado de acuerdo al grado del personal militar y civil en servicio de apoyo psicopedagógico.",
       "Direcciones y citas telefónicas",
-      `Sede Surco Mariscal Castilla 1170 - Teléfonos <a href="tel:4356989" target="_blank" >4356989</a>  y <a href="tel:970302066" target="_blank" >970302066</a>.`,
-      'Sede Rímac Calle Fray Ramón Rojas 191 – Teléfono: <a href="tel:970302066" target="_blank" >970302066</a>. ',
+      'Teléfonos: <a href="tel:970302066" target="_blank" >970302066</a>. <a href="mailto:admisión04@apeplac.com" target="_blank" >admisión04@apeplac.com</a>',
       'LIC. EDDY FUENTES: <a href="mailto:efuentes@apeplac.com" target="_blank" >efuentes@apeplac.com</a>. ',
     ],
     links: [
@@ -274,10 +187,16 @@ export const companies = [
     service: "health",
     title: "UCHIS MED",
     benefits: [
-      "ALCANCE DEL CONVENIO:",
-      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y padres).",
       "BENEFICIO:",
-      "10% de descuento en los servicios ofrecidos al personalafiliados y no afiliados.",
+      "OTORGA UN DESCUENTO PREFERENCIAL A LOS BENEFICIARIOS AFILIADOS Y NO AFILIADOS.",
+      "COSTO DE AFILIACIÓN S/. 35.00 (UN AÑO MINIMO ANTES DE PODER DESAFILIARSE(, LOS NO AFILIADOS TIENEN UNA TARIFA PREFERENCIAL.",
+      "UCHI´S MED NO SE RESPONSABILIZA NI REEMBOLSA ECONOMICAMENTE SI EL TITULAR O EL BENEFICIARIO NO PROGRAMAN SU CITA PERIODICAMENTE O NO HAGAN USO DEL SERVICIO MEDICO DENTAL.",
+      "ALCANCE DEL CONVENIO:",
+      "Dirigido al personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y  padres); debidamente acreditados.",
+      "FORMA DE ACREDITACIÓN:",
+      "Presentación del carnet de identificación personal militar o civil CIP",
+      "Presentación del carnet de identificación familiar CIF (cónyuge, hijos, hermanos y padres).",
+      "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar",
       "<b>TELEF <a href='tel:017575492' target='_blank'>01 7575492</a></b>",
     ],
     image: ImgUchismed,
@@ -324,15 +243,14 @@ export const companies = [
       "ALCANCE DEL CONVENIO:",
       "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos,hermanos y padres).",
       "BENEFICIOS: ",
-      "PROCEDIMIENTO DESCUENTO" +
-        "ASPIRACIÓN CON ÓVULO PROPIO S/3,800.00" +
-        "FECUNDACIÓN IN VITRO S/ 5,130.00" +
-        "PRIMERA TRANSFERENCIA EMBRIONARIA CORTESÍA" +
-        "BIOPSIA S/ 1,440.00" +
-        "CRIO PRESERVACIÓN DE EMBRIONES U OVULOS S/80.00 X MES" +
-        "DESCONGELACIÓN DE EMBRIONES S/420.00" +
-        "NIUVIDA” otorgará en Farmacia (Medicamentos Estimulación" +
-        "Ovárica) un descuento del 10%",
+      "PROCEDIMIENTO DESCUENTO",
+      "ASPIRACIÓN CON ÓVULO PROPIO S/3,800.00",
+      "FECUNDACIÓN IN VITRO S/ 5,130.00",
+      "PRIMERA TRANSFERENCIA EMBRIONARIA CORTESÍA",
+      "BIOPSIA S/ 1,440.00",
+      "CRIO PRESERVACIÓN DE EMBRIONES U OVULOS S/80.00 X MES",
+      "DESCONGELACIÓN DE EMBRIONES S/420.00",
+      "NIUVIDA” otorgará en Farmacia (Medicamentos Estimulación Ovárica) un descuento del 10%",
     ],
     links: [
       {
@@ -342,53 +260,6 @@ export const companies = [
       },
     ],
   },
-  // {
-  //   type: "clinic",
-  //   title: "Oftalmo Salud",
-  //   image: ImgOftalmoSalud,
-  //   benefits: [
-  //     "Empresa  privada, formalmente constituida conforme a la legislación nacional y cuyo objeto social es el diagnóstico, tratamiento y prevención de enfermedades oftalmológicas, contando para ello con el soporte tecnológico, profesional y administrativo adecuado",
-  //     "ALCANCE DEL CONVENIO:",
-  //     "Dirigido al personal militar en situación de actividad o retiro, personal civil; así como sus familiares directos (cónyuge, hijos, padres y hermanos),debidamente acreditados",
-  //     "BENEFICIO:",
-  //     " 50 % DE DESCUENTO EN CONSULTAS MÉDICAS.",
-  //     " 30% DE DESCUENTO SOBRE LA TARIFA REGULAR, EN EXÁMENES AUXILIARES SOBRE TARIFARIO VIGENTE DE PACIENTE PARTICULAR.",
-  //     " 30% DE DESCUENTO SOBRE LA TARIFA REGULAR VIGENTE DEL PACIENTE PARTICULAR SOBRE LOS PROCEDIMIENTOS DE CIRUGÍASOFTÁLMICAS. PUEDEN APLICARSE RESTRICCIONES POR MOTIVO DE INSUMOS O COMPLEJIDAD QUIRÚRGICA.",
-  //     " SEDE SAN ISIDRO <a href='tel:015121300'>01 512-1300</a>",
-  //     " LOS OLIVOS <a href='tel:015237777'>01 523-7777</a>",
-  //     " EL POLO <a href='tel:013552222'>01 355-2222</a>",
-  //     " SAN JUAN DE MIRAFLORES <a href='tel:014660022'>01 466-0022</a>",
-  //   ],
-  //   links: [
-  //     {
-  //       url: "https://oftalmosalud.pe/",
-  //     },
-  //   ],
-  // },
-  // {
-  //   type: "clinic",
-  //   title: "OTIK LENS EIRL",
-  //   image: ImgOtiklens,
-  //   service: "health",
-  //   benefits: [
-  //     "Empresa que nos dedicamos a la salud visual, realizamos medidas de vista computarizada y despistajes de defectos de refracción, poniendo a su disposición su staff de profesionales.",
-  //     "ALCANCE DEL CONVENIO:",
-  //     "Dirigido al personal militar en situación de actividad o de retiro, personal civil directos (cónyuge, hijos, padres y hermanos), debidamente acreditados.",
-  //     "BENEFICIO:",
-  //     "Brinda servicio gratituto de medida de vista computarizada y despistaje de defecto de refracción,miopçía ambliopía.",
-  //     "15% de descuento en servicio de lunas blancas, blue, ntireflex, monofocales bifocales).",
-  //     "25% en servicio de monturas economicas e intermedias yalata gana.",
-  //     "Contácto Whatsapp: <a href='https://api.whatsapp.com/send/?phone=51968915660' target='_blank'>968915660</a>",
-  //   ],
-  //   links: [
-  //     { url: "tel:912717279", text: "912717279", icon: faPhone },
-  //     {
-  //       url: "mailto:Marothmoralesmarreros@gmail.com",
-  //       text: "Marothmoralesmarreros@gmail.com",
-  //       icon: faEnvelope,
-  //     },
-  //   ],
-  // },
   {
     type: "clinic",
     title: "SALUD MEDIC CARRIÓN",
@@ -412,6 +283,7 @@ export const companies = [
       },
     ],
   },
+
   {
     type: "clinic",
     title: "UNIVERSIDAD PERUANA CAYETANO HEREDIA",
@@ -436,6 +308,28 @@ export const companies = [
       },
     ],
   },
+  {
+    type: "clinic",
+    title: "BOTICAS PERU",
+    image: boticasperu,
+    service: "health",
+    benefits: [
+      "Brinda un descuento del 12% sobre el precio regular de los productos ofrecidos en Botica Perú.",
+      "Este beneficio será contado con cualquier modalidad de pago.",
+      "Solo a productos de categoría FARMA, FARMA OTC y VITAMINAS, no cubre pañales, leches, ni productos de innovación.",
+      "Asimismo, cabe señalar que no es acumulables con otras promociones.",
+      "ALCANCE DEL CONVENIO:",
+      "Personal militar en actividad y retiro, personal civil en actividad o cesante. Personal de servicio militar, Tropa y reenganchado. Familiares directos (cónyuge e hijos) Identificándose con CIP o CIF Y DNI.",
+    ],
+    links: [
+      { url: "tel:942868076", text: "942868076", icon: faPhone },
+      {
+        url: "mailto:Marothmoralesmarreros@gmail.com",
+        text: "Marothmoralesmarreros@gmail.com",
+        icon: faEnvelope,
+      },
+    ],
+  },
 
   {
     type: "laboratory",
@@ -446,8 +340,11 @@ export const companies = [
       "ALCANCE DEL CONVENIO:",
       "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados.",
       "BENEFICIO:",
-      "- 20% DESCUENTO EN PRUEBA DE ADN RECONOCIMIENTO DE PATERNIDAD.",
-      "- BRINDA COSTO DIFERENCIADO EN EXAMENES DE LABORATORIO CLÍNICO (ONCOLÓCOLIGICO ÁREA DE DIAGNÓSTICO Y AREÁ INFECCIOSAS).",
+      "- Brinda hasta el 40% de descuento en servicio de laboratorio clínico y biología molecular.",
+      "- Brinda hasta el 20% de descuento en consultas por especialidad.",
+      "- brinda hasta el 20% de descuento en diagnóstico por imágenes (radiografíias, ecografía eco doppler mamografí 2d y 3d, densitometría etc.",
+      "CONTACTO:",
+      '<a href="tel:(01) 6126666" target="_blank" >(01) 6126666</a>:',
     ],
     links: [
       {
@@ -509,14 +406,10 @@ export const companies = [
       "b)\tPresentación del carnet de identificación familiar CIF (cónyuge, hijos, padres y hermanos).",
       "c)\tPara el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
       "BENEFICIO",
-      "a)\tDescuento del 10% de sobre los costos de las tarifas regulares, EN CONSULTAS EN LAS DIFERENTES ESPECIALIDADES LA SEDE DE JESÚS MARÍA.",
-      "b)\tDescuento entre el 5% y 10% sobre los costos de las tarifas regulares en, EXÁMENES DE LABORATORIO Y PROCEDIMIENTOS CLÍNICOS, realizados en la sede de Jesús María.",
-      "c)\tDescuento del 5% de sobre los costos de las tarifas regulares en sedes de LOS OLIVOS Y SAN JUAN DE LURIGANCHO, EN CONSULTAS, EXÁMENES DE LABORATORIO Y PROCEDIMIENTOS CLÍNICOS, en las diferentes especialidades sede.",
-      "Direcciones y citas telefónicas",
-      `Sede Arequipa Av. La Paz 424 Cercado - Teléfonos <a href="tel:874-226211" target="_blank" >874-226211</a>  y <a href="tel:054-286600" target="_blank" >054-286600</a>.`,
-      'Sede Clicayo Calle Leoncio Prado 485 – Teléfono: <a href="tel:074-227270" target="_blank" >074-227270</a>. ',
-      'Sede Chimbote Av. Jr. Elías Aguirre 636 – Teléfono: <a href="tel:043-346157" target="_blank" >043-346157</a>. ',
-      `Sede Tacna Av. Bolognesi 1361 - Teléfonos <a href="tel:052-426972" target="_blank" >052-426972</a>  y <a href="tel:052-412709" target="_blank" >052-412709</a>.`,
+      "a)\t10% de edscuento sobre precio al público(consultas) veintisiete(27) especialidades médicas",
+      "b)\t5% al 10% exámenes de laboratorio y procedimientos clinicos(sede jesus maria).",
+      "CONTACTOS",
+      `Teléfonos <a href="tel:01 480-1626" target="_blank" >01 480-1626</a>`,
     ],
     links: [
       {
@@ -534,15 +427,16 @@ export const companies = [
     title: "OLTURSA",
     benefits: [
       "ALCANCE DEL CONVENIO:",
-      "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados.",
+      "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados.<p>",
       "FORMA DE ACREDITACIÓN:",
       "a)\tPresentación del carnet de identificación personal militar o civil CIP",
       "b)\tPresentación del carnet de identificación familiar CIF (cónyuge, hijos, padres).",
       "c)\tPara el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
-      "d)\tDeberá de presentar copia de CIP al momento de la compra.",
+      "d)\tDeberá de presentar copia de CIP al momento de la compra.<p>",
       "BENEFICIO",
-      "- 15 % de descuento en todos sus servicios.",
-      "- 10% de descuento trasporte de correspondencia, paquetería, encomiendas, carga ligera o mediana.",
+      "20 % de descuento (en la adquisición de ida y vuelta)",
+      "15 % de descuento(en la adquisición de ida o vuelta)temporadas altas regulares o media",
+      "10% de descuento en trasporte de correspondencia,paquetería, carga ligera o mediana.",
     ],
     links: [
       {
@@ -574,31 +468,6 @@ export const companies = [
     ],
     links: [{ url: "https://www.starperu.com/es" }],
   },
-  // {
-  //   type: "transport",
-  //   image: ImgMovilBus,
-  //   title: "Movil Bus",
-  //   benefits: [
-  //     "ALCANCE DEL CONVENIO:",
-  //     "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres y hermanos); debidamente acreditados sin límite de edad.",
-  //     "FORMA DE ACREDITACIÓN:",
-  //     "a)\tPresentación del carnet de identificación personal militar o civil CIP",
-  //     "b)\tPresentación del carnet de identificación familiar CIF (cónyuge, hijos, Padres).",
-  //     "c)\tPara el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar.",
-  //     "d)\tDeberá de presentar copia de CIP al momento de la compra.",
-  //     "BENEFICIO",
-  //     "20% de descuento en todos los servicios: economico, premier,presidencial, ejecutivo y vip en todos los destinos ofrecidos.",
-  //     "15% de descuento en servicio de transporte de correspondencia, paqueteria, encomiendas, carga ligera omediana.",
-  //   ],
-  //   links: [
-  //     { url: "https://www.movilbus.pe/" },
-  //     {
-  //       url: "https://drive.google.com/file/d/13qwGSu6d6IFbM4Yx8SZBvhIGkbl3mKCQ/view?usp=sharing",
-  //       icon: faLink,
-  //       text: "Detalles del convenio",
-  //     },
-  //   ],
-  // },
   {
     type: "transport",
     image: Sky,
@@ -610,7 +479,7 @@ export const companies = [
       "1.OFRECERÁ UN 10% DE DESCUENTO SOBRE EL VALOR NETO DE LAS TARIFAS, TANTO PARA PERSONALES DE ACUERDO A ELECCIÓN DEL BENEFICIARIO, SIENDO VÁLIDO PARA VUELOS NACIONALES COMO INTERNACIONALES.",
       "2. EL DESCUENTO APLICA SOBRE LA TARIFA BASE SIN INCLUIR IMPUESTOS NI SERVICIOS ADICIONALES Y NO ES APLICABLE SOBRE TARIFAS PROMOCIONALES.",
       "3. PARA ACCEDER A LA COMPRA DE LOS PASAJES, LO PODRÁN REALIZAR EN LA PAGINA WEB HTTPS://WWW.SKYAIRLINE.COM/ES/PERU, DEBIENDO TOMAR EN CUENTA LAS SIGUIENTES CONDICIONES:",
-      'A. AL MOMENTO DE HACER LA COMPRA DEBERÁN INGRESAR EL "PROMOCODE" ASIGNADO (ESTE PROMOCODE CAMBIARÁ MENSUALMENTE Y SERÁ DIFUNDIDO POR EL DEPARTAMENTO DE APOYO SOCIAL DEL COMANDO DE BIENESTAR DEL EJÉRCITO), PROMOCODE AGOSTO 2025: <b>SKYEJERCITO12</b> VALIDO DEL 07/07/2025 HASTA EL 31/07/2025',
+      'A. AL MOMENTO DE HACER LA COMPRA DEBERÁN INGRESAR EL "PROMOCODE" ASIGNADO (ESTE PROMOCODE CAMBIARÁ MENSUALMENTE Y SERÁ DIFUNDIDO POR EL DEPARTAMENTO DE APOYO SOCIAL DEL COMANDO DE BIENESTAR DEL EJÉRCITO), PROMOCODE OCTUBRE 2025: <b>SKYEJERCITO14</b> VALIDO DEL 01/10/2025 HASTA EL 31/10/2025',
       "B. ES REQUISITO FUNDAMENTAL QUE EL MIEMBRO DEL EJÉRCITO DEL PERÚ, SEA UNO DE LOS PASAJEROS DE LA RESERVA SOBRE LA CUAL SE APLICA EL DESCUENTO.",
     ],
     links: [{ url: "https://www.skyairline.com/es/peru" }],
@@ -728,27 +597,18 @@ export const companies = [
       `<!--<img src="${SmartFitPost}" alt="Smart Fit Post" width="100%" />-->`,
       "ALCANCE DEL CONVENIO:",
       "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y padres).",
-      // "BENEFICIO:",
-      // "CADENA DE GIMNASIO MEDIANTE PLAN CORPORATIVO MEDIANTE CÒDIGO:",
-      // "<strong>CORPORATIVOEP</strong>",
-      // "INSCRIPCIÓN VIRTUAL:",
-      // "<a href='https://corporativo.smartfit-peru.com' target='_blank'>https://corporativo.smartfit-peru.com</a>",
-      // "INSCRIPCIÓN PRESENCIAL:",
-      // "Acercarse con su carnet respectivo y su DNI",
-      // "PARA FAMILIARES EN PRESENCIA DE TITULAR",
-      // "CODIGO: CORPORATIVOEP",
-      // "COSTO MENSUAL S/. 99.90 EN SERVICIOS EXCLUSIVOS",
       "BENEFICIO:",
       "Mostrando su carnet de identidad del ejercito peruano, accedes a estos beneficios:",
+      "- CONTRATO PLAN BLACK CORPORATIVO.",
+      "CODIGO: <strong>EJERCITOFIT</strong>",
       "* Exoneración de pago único de matricula.",
       "* Exoneración de pago anual de mantenimiento.",
       "* Exoneración de pago de penalidad por resolución anticipada. (sin costo de permanencia).",
       "* Entrenamiento en cualquier sede del perú y el extranjero.",
       "* Invitación de amigos 5 veces al mes.",
       "* Acceso a sillones de masajes.",
-      "* Acceso de manera ilimitada a la plataforma virtual smart <strong>FIT GO</strong>.",
-      "* Es libre de tomar el servicio el mes que desee mínimo un mes.",
-      "Cadena de gimnasio mediante plan corporativo mediante CODIGO: <strong>CORPORATIVOEP</strong>",
+      "Pérdida de condiciones para beneficiarios:",
+      "• si el beneficiario pierde su vínculo con la empresa y Smart Fit pierde su calidad como tal, en un futuro no accederá a los beneficios.",
     ],
     links: [
       { url: "https://www.smartfit.com.pe" },
@@ -824,118 +684,6 @@ export const companies = [
     ],
     links: [{}],
   },
-
-  // {
-  //   type: "servitec",
-  //   service: "technology",
-  //   image: ImgStoreServitec,
-  //   title: "Venta de lámparas para proyector",
-  //   benefits: ["Con la presentación de su CIP 10% de descuento"],
-  //   links: [
-  //     { url: "https://www.tiendaservitec.com/categoria-producto/lamparas/" },
-  //     {
-  //       url: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+servicio:+https://servitec.site/&app_absent=0",
-  //       icon: faWhatsapp,
-  //       text: "Contactenos",
-  //     },
-  //   ],
-  // },
-  // {
-  //   type: "servitec",
-  //   service: "technology",
-  //   image: ImgStoreServitec,
-  //   title: "Venta de proyector",
-  //   benefits: ["Con la presentación de su CIP 10% de descuento"],
-  //   links: [
-  //     { url: "https://www.tiendaservitec.com/categoria-producto/proyectores/" },
-  //     {
-  //       url: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+servicio:+https://servitec.site/&app_absent=0",
-  //       icon: faWhatsapp,
-  //       text: "Contactenos",
-  //     },
-  //   ],
-  // },
-  // {
-  //   type: "servitec",
-  //   service: "technology",
-  //   image: ImgStoreServitec,
-  //   title: "Venta de pizarras o pantallas interactivas",
-  //   benefits: ["Con la presentación de su CIP 10% de descuento"],
-  //   links: [
-  //     {
-  //       url: "https://www.tiendaservitec.com/categoria-producto/pantallas-interactivas/",
-  //     },
-  //     {
-  //       url: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+servicio:+https://servitec.site/&app_absent=0",
-  //       icon: faWhatsapp,
-  //       text: "Contactenos",
-  //     },
-  //   ],
-  // },
-  // {
-  //   type: "servitec",
-  //   service: "technology",
-  //   image: Servitec,
-  //   title: "Reparación de proyectores",
-  //   benefits: ["Con la presentación de su CIP 10% de descuento"],
-  //   links: [
-  //     {
-  //       url: "https://reparacion-proyectores.com/",
-  //     },
-  //     {
-  //       url: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+servicio:+https://servitec.site/&app_absent=0",
-  //       icon: faWhatsapp,
-  //       text: "Contactenos",
-  //     },
-  //   ],
-  // },
-  // {
-  //   type: "servitec",
-  //   service: "technology",
-  //   image: LogoFactura,
-  //   title: "Sistemas de venta",
-  //   benefits: ["Con la presentación de su CIP 10% de descuento"],
-  //   links: [
-  //     { url: "https://facil-factura.com/" },
-  //     {
-  //       url: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+servicio:+https://factura.servitec.site/&app_absent=0",
-  //       icon: faWhatsapp,
-  //       text: "Contactenos",
-  //     },
-  //   ],
-  // },
-  // {
-  //   type: "servitec",
-  //   service: "technology",
-  //   image: LogoPublicidad,
-  //   title: "Desarrollo de página web",
-  //   titleContent: "Desarrollo de página web para tu negocio o emprendimiento",
-  //   benefits: ["Con la presentación de su CIP 10% de descuento"],
-  //   links: [
-  //     { url: "https://servitec.site/08_service_ppc_management.php" },
-  //     {
-  //       url: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+servicio:+https://servitec.site/&app_absent=0",
-  //       icon: faWhatsapp,
-  //       text: "Contactenos",
-  //     },
-  //   ],
-  // },
-  // {
-  //   type: "servitec",
-  //   service: "technology",
-  //   image: LogoPublicidad,
-  //   title: "Publicidad Google",
-  //   benefits: ["Con la presentación de su CIP 10% de descuento"],
-  //   links: [
-  //     { url: "https://anuncia-google-ads.digital" },
-  //     {
-  //       url: "https://api.whatsapp.com/send/?phone=+51941801827&text=Estoy+interesado+en+su+producto:+https://publicidadgoogle.site/&app_absent=0",
-  //       icon: faWhatsapp,
-  //       text: "Contactenos",
-  //     },
-  //   ],
-  // },
-
   {
     type: "life-insurance",
     image: ImgRimacSeguros,
@@ -1170,6 +918,31 @@ export const companies = [
       "DESCUENTO QUE SE APLICA A LA CARTA",
       "SE ENCUENTRA UBICADO EN",
       "AV. AVIACIÓN 2576 - SAN BORJA",
+      "REQUISITOS:",
+      "Personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres); debidamente acreditados.",
+    ],
+  },
+  {
+    type: "restaurants",
+    service: "restaurants",
+    title: 'CHICHARRONERIA KIO"',
+    benefits: [
+      "Otorgará un descuento del 10% desde 07:00 a.m. hasta las 12:00 p.m.",
+      "El 20% desde las 13:00 p.m. hasta las 23:00 p.m. según su producto en los horarios de atención indicados.<p>",
+      "<strong>LOCALES KIO:</strong>",
+      "UNIVERSITARIA - Avenida Universitaria 871",
+      "LA MAR - Ca. Mariscal Jose de la Mar 2330",
+      "LA MARINA - Av. la Marina 2689",
+      "PUEBLO LIBRE - Avenida Brasil 2680",
+      "BARRANCO - av. almte. miguel Grau 310",
+      "MIRAFLORES - Avenida josé pardo 399",
+      "SAN JUAN DE LURIGANCHO - av. las flores 248",
+      "LINCE - Avenida general antonio alvarez de arenales 1990",
+      "MAGDALENA - jirón tacna 700B",
+      "SALAMANCA - garcilazo de la vega 209",
+      "LA MOLINA - Constructores 1080",
+      "SAN BORJA - Av. Aviación 2835",
+      "JESUS MARIA - Av. Francisco de Zela 1436<p>",
       "REQUISITOS:",
       "Personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres); debidamente acreditados.",
     ],
@@ -1551,19 +1324,7 @@ export const companies = [
     ],
     links: [{ url: "https://interbank.pe" }],
   },
-  {
-    type: "banks",
-    image: BankPichincha,
-    title: "BANCO PICHINCHA",
-    benefits: [
-      "ALCANCE DEL CONVENIO",
-      "Dirigido al personal militar en situación de actividad o retiro y al personal civil en actividad o cesante",
-      "TASA DE INTERES ANUAL",
-      "Clasificación SBS normal Hasta 14% desde 06 hasta 72 meses",
-      "Campañas impulsadas por el banco de acuerdo al análisis del mercado",
-    ],
-    links: [{}],
-  },
+
   {
     type: "legal-advice",
     title: "CENTRO DE CONCILIACIÓN",
@@ -1640,31 +1401,6 @@ export const companies = [
       },
     ],
   },
-
-  // {
-  //   type: "cars",
-  //   service: "companies",
-  //   title: "Llantas | Hankookalvillanta ",
-  //
-  //   benefits: [
-  //     "Envió gratis en Lima",
-  //     "Tenemos personal altamente capacitado para atender su requerimiento a la mayor brevedad, con eficacia y garantizando la calidad de nuestras llantas y atención profesional. Realizamos rápido y efectivo servicio a domicilio a Lima metropolitana.",
-  //     "Ventas de LLantas Hankook a un precio insuperable",
-  //   ],
-  //   links: [
-  //     {
-  //       url: "https://hankookalvillanta.com/",
-  //       text: "Visita nuestra pagina web",
-  //       icon: faGlobe,
-  //     },
-  //     {
-  //       url: "tel:967787227",
-  //       text: "967787227",
-  //       icon: faPhone,
-  //     },
-  //   ],
-  // },
-
   {
     type: "automobiles",
     image: ImgTuringCusco,
@@ -1685,41 +1421,4 @@ export const companies = [
       },
     ],
   },
-
-  // {
-  //   type: "entertainment",
-  //   image: ImgCinemark,
-  //   service: "companies",
-  //   title: "CINEMARK",
-  //   benefits: [
-  //     "ALCANCE DEL CONVENIO:",
-  //     "PERSONAL MILITAR EN SITUACIÓN DE ACTIVIDAD (CÓNYUGE E HIJOS)",
-  //     "BENEFICIOS:",
-  //     "02 ENTRADAS 2D AL COSTO DE PROMOCIÓN DE S/ 20.00 SOLES (LUNES A VIERNES)",
-  //     "REQUISITOS",
-  //     "NOTA IMPORTANTE: (CÓDIGO: EJER100000017178)",
-  //     "EN LAS BOLETERÍAS DEL CINE AL COMPRAR SUS ENTRADAS DEBERÁ PRESENTAR CIP O CIF ACOMPAÑADO DEL CÓDIGO: EJER100000017178",
-  //     "LA OFERTA ES VÁLIDA A NIVEL NACIONAL, LOS MESES MAYO Y JUNIO.",
-  //     `<img src="${ImgPostCinemark}" alt="Smart Fit Post" width="100%" />`,
-  //   ],
-  // },
-  // {
-  //   type: "entertainment",
-  //   image: Dpromartperu,
-  //   service: "companies",
-  //   title: "D'PROMART",
-  //   benefits: [
-  //     "ALCANCE DEL CONVENIO:",
-  //     "- Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos,hermanos y padres).",
-  //     "BENEFICIOS: ",
-  //     "- Brinda tarifa preferenciales en (eventos circense, teatro infantil y adulto (no valido en 28 julio al 20 agosto).",
-  //   ],
-  //   links: [
-  //     {
-  //       url: "https://dpromart.com/",
-  //       text: "Visita nuestra pagina web",
-  //       icon: faGlobe,
-  //     },
-  //   ],
-  // },
 ];

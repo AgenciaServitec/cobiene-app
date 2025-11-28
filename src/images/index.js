@@ -312,6 +312,13 @@ export { default as ImgConservatorio } from "./others/img-coservatorio.webp";
 export { default as ImgUniContinental } from "./companies/uni-continental.webp";
 export { default as ImgUniAnahuaca } from "./webp/uni-anahuaca.webp";
 export { default as ImgUniAutonoma } from "./webp/uni-autonoma.webp";
+export { default as Autonomaica } from "./webp/autonomadeica.webp";
+export { default as Newman } from "./webp/newman.webp";
+export { default as Cayetano } from "./webp/cayetano.webp";
+export { default as Unilima } from "./webp/unilima.webp";
+export { default as Uprit } from "./webp/uprit.webp";
+export { default as Unir } from "./webp/rioja.webp";
+export { default as Upal } from "./webp/upal.webp";
 export { default as ImgConserLima } from "./universities/conser-lima.webp";
 
 //-------- Institutes------
@@ -362,6 +369,17 @@ export { default as ImgColumbia } from "./companies/columbia.webp";
 export { default as ADEX } from "./webp/logo-adexjpg.webp";
 export { default as CentroLima } from "./com-institutes/img-ccl.webp";
 export { default as SENATI } from "./webp/unnamed.webp";
+export { default as Esan } from "./webp/esan.webp";
+export { default as Ccl } from "./webp/ccl.webp";
+export { default as Ibc } from "./webp/ibc.webp";
+export { default as Civime } from "./webp/civime.webp";
+export { default as Globalestudios } from "./webp/globalestudios.webp";
+export { default as Ceuce } from "./webp/ceuce.webp";
+export { default as Forceperu } from "./webp/forceperu.webp";
+export { default as Instmiltardelperu } from "./webp/instmiltardelperu.webp";
+export { default as Esindecap } from "./webp/esindecap.webp";
+export { default as Ricardopalma } from "./webp/ricardopalma.webp";
+export { default as Esinfron } from "./webp/esinfron.webp";
 
 //-------- Companies ------
 export { default as ImgRimacTable } from "./companies/rimac.webp";

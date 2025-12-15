@@ -36,7 +36,7 @@ export const EducationConventions = () => {
 
       <div className="list-convenios">
         <a
-          href="https://drive.google.com/file/d/1QJariYXQQATL8crHmH4zPfM5jdwn0XDQ/view?usp=sharing"
+          href="https://korekenke.mil.pe/agreements/sheets/studies"
           target="_blank"
         >
           <FontAwesomeIcon icon={faList} size="2x" />

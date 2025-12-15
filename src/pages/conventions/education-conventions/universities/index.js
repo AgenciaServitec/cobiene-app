@@ -1,20 +1,27 @@
-import { CollapseWithButtons, SortWords } from "../../../../components/public";
-import { universities } from "../../../../data-list";
+import { CollapseWithButtons } from "../../../../components/public";
 import styled, { css } from "styled-components";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 export const Universities = () => {
-  const newUniv = universities.map((uni) => {
-    const addUniv = `Univ. ${uni.title}`;
-    return { ...uni, title: addUniv };
-  });
-  SortWords(newUniv);
+  const [agreements, setAgreements] = useState([]);
+
+  useEffect(() => {
+    (async () => {
+      const response = await fetch(
+        `https://api-korekenke.web.app/agreements?category=educationalInstitution`
+      );
+      const data = await response.json();
+
+      setAgreements(data);
+    })();
+  }, []);
+
   return (
     <Container>
       <div className="content-logo">
         <h2>Universidades</h2>
       </div>
-      <CollapseWithButtons dataLists={newUniv} />
+      <CollapseWithButtons dataLists={agreements} />
     </Container>
   );
 };

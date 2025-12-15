@@ -5,7 +5,6 @@ import { faDownload, faGlobe } from "@fortawesome/free-solid-svg-icons";
 import Collapse from "antd/lib/collapse";
 import { Button } from "../ui";
 import Typography from "antd/lib/typography";
-import Parser from "html-react-parser";
 
 const { Panel } = Collapse;
 const { Text } = Typography;
@@ -18,11 +17,11 @@ export const CollapseWithButtons = ({ dataLists = [] }) => {
           key={index}
           header={
             <Button width="100%">
-              {dataList.image ? (
+              {dataList.logoPhoto ? (
                 <div className="content-button">
                   <div className="item-icon">
                     <img
-                      src={dataList.image}
+                      src={dataList.logoPhoto.url}
                       alt={dataList.title}
                       loading="lazy"
                     />
@@ -52,7 +51,87 @@ export const CollapseWithButtons = ({ dataLists = [] }) => {
               <h3>{dataList.title}</h3>
             )}
             {dataList.alert && <h2>"{dataList.alert}"</h2>}
-            {dataList.benefits && (
+
+            {dataList.title && (
+              <div>
+                {dataList?.educationalInstitutionBenefits?.map((benefit) => (
+                  <div>
+                    <p>
+                      <strong
+                        dangerouslySetInnerHTML={{
+                          __html: benefit?.training,
+                        }}
+                      />
+                    </p>
+                    <p
+                      dangerouslySetInnerHTML={{
+                        __html: benefit?.description,
+                      }}
+                    />
+                  </div>
+                ))}
+
+                {dataList?.companyBenefits && (
+                  <div
+                    dangerouslySetInnerHTML={{
+                      __html: dataList?.companyBenefits,
+                    }}
+                  />
+                )}
+
+                {dataList.contact?.phones && (
+                  <div>
+                    <h3>Telefonos:</h3>
+                    <ul>
+                      {dataList.contact?.phones.map((phone, index) => (
+                        <li
+                          key={index}
+                          style={{
+                            listStyle: "none",
+                            fontSize: "1.1rem",
+                            paddingBottom: "0.5rem",
+                          }}
+                        >
+                          <a
+                            href={`tel:51${phone}`}
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            <span style={{ paddingLeft: "0.5rem" }}>{phone}</span>
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                {dataList?.contact?.emails && (
+                  <div>
+                    <h3>Correos:</h3>
+                    <ul>
+                      {dataList?.contact?.emails.map((email, index) => (
+                        <li
+                          key={index}
+                          style={{
+                            listStyle: "none",
+                            fontSize: "1.1rem",
+                          }}
+                        >
+                          <a
+                            href={`mailto:${email}`}
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            <span style={{ paddingLeft: "0.5rem" }}>{email}</span>
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/*{dataList.benefits && (
               <div>
                 <ul className="list-benefits">
                   {dataList.benefits.map((benefit, index) => (
@@ -60,7 +139,7 @@ export const CollapseWithButtons = ({ dataLists = [] }) => {
                   ))}
                 </ul>
               </div>
-            )}
+            )}*/}
 
             {dataList.links &&
               dataList.links.map(

@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
 import {
   Button,
+  CollapseWithButtons,
   InitialContent,
   SearchAgreements,
 } from "../../../components/public";
@@ -12,14 +13,28 @@ import { companies, listButtons } from "../../../data-list";
 
 export const MultiService = () => {
   const navigate = useNavigate();
+  const [agreements, setAgreements] = useState([]);
+
+  useEffect(() => {
+    (async () => {
+      const response = await fetch(
+        `https://api-korekenke.web.app/agreements?category=company`
+      );
+      const data = await response.json();
+
+      setAgreements(data);
+    })();
+  }, []);
 
   return (
     <Container>
       <InitialContent title="Convenios Multiservicios" />
-
       <SearchAgreements agreements={companies} />
+      <CollapseWithButtons dataLists={agreements} />
 
-      {listButtons.multiservice.map((_multiservice) => (
+
+
+      {/*{listButtons.multiservice.map((_multiservice) => (
         <Button
           key={_multiservice.title}
           width="100%"
@@ -29,11 +44,11 @@ export const MultiService = () => {
         >
           {_multiservice.title}
         </Button>
-      ))}
+      ))}*/}
 
       <div className="list-convenios">
         <a
-          href="https://drive.google.com/file/d/1oS7eDou0ABm7P-41MAcjCi7rTgp0uFPO/view?usp=sharing"
+          href="https://korekenke.mil.pe/agreements/sheets/multiservices"
           target="_blank"
         >
           <FontAwesomeIcon icon={faList} size="2x" />

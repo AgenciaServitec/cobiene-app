@@ -35,7 +35,7 @@ export const MilitaryCircle = () => {
           </ul>
         </div>*/}
         <Text>
-          El Comando de Bienestar del Ejército brinda al personal de Oficiales,
+          La Jefatura de Bienestar del Ejército brinda al personal de Oficiales,
           Supervisores, Técnicos, Sub Oficiales en situación de actividad o
           retiro y sus familiares directos, los centros de recreación mediante
           las instalaciones de sus diferentes círculos militares.

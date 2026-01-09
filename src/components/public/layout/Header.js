@@ -28,7 +28,7 @@ export const Header = ({ onSetVisibleDrawer }) => {
           src={CobieneLogo}
           alt="Cobiene logo"
           onClick={() => navigate("/")}
-        />xx
+        />
       </div>
       <div className="content-right" onClick={() => onSetVisibleDrawer(true)}>
         <FontAwesomeIcon icon={faBars} size="2x" />

@@ -55,6 +55,14 @@ import {
   Servitec,
   Sky,
   SmartFitPost,
+  ImgQhaliKay,
+  ImgQhaliKayPost,
+  ImgCVega,
+  ImgCencosud,
+  ImgHankooalvillanta,
+  ImgChicharronesKio,
+  ChicharronesKioPost,
+  ImgLaTranquera,
 } from "../images";
 import {
   faBuilding,
@@ -400,6 +408,23 @@ export const companies = [
   },
 
   {
+    type: "clinic",
+    title: "QHALI KAY",
+    image: ImgQhaliKay,
+    service: "health",
+    benefits: [
+      "Empresa que nos dedicamos a la salud visual, realizamos medidas de vista computarizada y despistajes de defectos de refracción, poniendo a su disposición su staff de profesionales.",
+      "ALCANCE DEL CONVENIO:",
+      "Personal militar y civil en situación de actividad y retiro o cesante, así como a sus familiares directos (cónyuge, hijos menores de 25 años) El Beneficio Es De Manera Presencial.",
+      "BENEFICIO:",
+      "Otorgará un descuento preferencial del 40% a los BENEFICIARIOS en los servicios de Reumatología, Medicina física y Rehabilitación, Terapia Física, Tratamiento de Dolor, Terapias de Relajación y Psicología.",
+      "Promoción válida hasta el 31 de diciembre del 2028.",
+      `<img src="${ImgQhaliKayPost}" alt="" width="100%" />`,
+    ],
+    links: [{ url: "https://www.qhalikay.com/" }],
+  },
+
+  {
     type: "laboratory",
     service: "health",
     image: ImgBiolinks,
@@ -569,10 +594,10 @@ export const companies = [
       "ALCANCE DEL CONVENIO:",
       "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como a sus familiares directos (cónyuge, hijos). Identificándose con CIP o CI Y DNI",
       "BENEFICIO:",
-      "1.OFRECERÁ UN 10% DE DESCUENTO SOBRE EL VALOR NETO DE LAS TARIFAS, TANTO PARA PERSONALES DE ACUERDO A ELECCIÓN DEL BENEFICIARIO, SIENDO VÁLIDO PARA VUELOS NACIONALES COMO INTERNACIONALES.",
+      "1. OFRECERÁ UN 10% DE DESCUENTO SOBRE EL VALOR NETO DE LAS TARIFAS, TANTO PARA PERSONALES DE ACUERDO A ELECCIÓN DEL BENEFICIARIO, SIENDO VÁLIDO PARA VUELOS NACIONALES COMO INTERNACIONALES.",
       "2. EL DESCUENTO APLICA SOBRE LA TARIFA BASE SIN INCLUIR IMPUESTOS NI SERVICIOS ADICIONALES Y NO ES APLICABLE SOBRE TARIFAS PROMOCIONALES.",
       "3. PARA ACCEDER A LA COMPRA DE LOS PASAJES, LO PODRÁN REALIZAR EN LA PAGINA WEB HTTPS://WWW.SKYAIRLINE.COM/ES/PERU, DEBIENDO TOMAR EN CUENTA LAS SIGUIENTES CONDICIONES:",
-      'A. AL MOMENTO DE HACER LA COMPRA DEBERÁN INGRESAR EL "PROMOCODE" ASIGNADO (ESTE PROMOCODE CAMBIARÁ MENSUALMENTE Y SERÁ DIFUNDIDO POR EL DEPARTAMENTO DE APOYO SOCIAL DEL COMANDO DE BIENESTAR DEL EJÉRCITO), PROMOCODE FEBRERO 2025: <b>SKYEJERCITO7</b> VALIDO DEL 01/06/2025 HASTA EL 31/06/2025',
+      'A. AL MOMENTO DE HACER LA COMPRA DEBERÁN INGRESAR EL "PROMOCODE" ASIGNADO (ESTE PROMOCODE CAMBIARÁ MENSUALMENTE Y SERÁ DIFUNDIDO POR EL DEPARTAMENTO DE APOYO SOCIAL DEL COMANDO DE BIENESTAR DEL EJÉRCITO), PROMOCODE ENERO 2025: <b>SKYEJERCITO17</b> VALIDO DEL 01/01/2026 HASTA EL 31/01/2026',
       "B. ES REQUISITO FUNDAMENTAL QUE EL MIEMBRO DEL EJÉRCITO DEL PERÚ, SEA UNO DE LOS PASAJEROS DE LA RESERVA SOBRE LA CUAL SE APLICA EL DESCUENTO.",
     ],
     links: [{ url: "https://www.skyairline.com/es/peru" }],
@@ -704,6 +729,40 @@ export const companies = [
         text: "Detalles del convenio",
       },
     ],
+  },
+
+  {
+    type: "products",
+    image: ImgCencosud,
+    title: "CENCOSUD",
+    benefits: [
+      "ALCANCE DEL CONVENIO",
+      "Personal militar en situación de actividad y retiro, personal civil en  actividad o cesante así como a sus  familiar directo (cónyuge). ",
+      "BENEFICIO:",
+      "- CONCEDERÁ UN DESCUENTO DEL 5% HASTA 20% EN DISTINTAS CATEGORÍAS EN PRODUCTOS DE LOS SUPERMERCADOS “METRO” Y “WONG” A NIVEL NACIONAL (SEGÚN EL ANEXO 01 “ESCANEAR QR” SE DETALLA LOS PRODUCTOS), DICHOS BENEFICIOS SERÁN APLICABLES PARA COMPRAS EN TIENDAS FÍSICAS METRO Y WONG (NO VÁLIDO EN METRO ALMACÉN, E-COMMERCE, NI WONG E-COMMERCE, NI APLICATIVOS DE AMBAS MARCAS DE SUPERMERCADOS). ",
+      "- BRINDARÁ A LOS BENEFICIARIOS TRES (03) HORAS DE ESTACIONAMIENTO, SIN COSTO, EN EL CENTRO COMERCIAL CENCO LIMA SUR, UBICADO EN AV. PASEO DE LA REPÚBLICA S/N, URB. MATELLINI, DISTRITO DE CHORRILLOS LIMA.",
+      "- OTORGARÁ HASTA UN 30% DE DESCUENTO EN LOS RESTAURANTES UBICADOS EN EL PATIO DE COMIDAS DE CENCO LIMA SUR (LA RELACIÓN DE RESTAURANTES “CHILI'S, CHINA WOK, CONEY PARK, MC DONALD'S, OTTO GRILL, PROTEIN FOOD, PIZZA HUT, SARCLETTI, TIRADITO” (EXCLUSIVO PARA LOS LOCALES UBICADOS EN CENCO LIMA SUR SERÁ ACTUALIZADA CADA 06 MESES,).",
+      "- CONCEDERÁ EL INGRESO GRATUITO A LA “GRANJITA”, UBICADA EN CENCO LIMA SUR, PARA LOS BENEFICIARIOS Y SUS MENORES HIJOS (DEBIDAMENTE ACREDITADO",
+      "- LA CATEGORÍA PANADERÍA TIENE UN DESCUENTO DEL 10%. ",
+      "- LOS ACEITES COMESTIBLES TIENE UN DESCUENTO DEL 10%. ",
+      "- LA LECHE MATERNIZADA NO ESTA EN EL DESCUENTO POR LO DISPIESTO EN LA NORMATIVA PERUANA: ART. 51 Y 54 DEL DECRETO SUPREMO N° 009-2006 SA DONDE EXPRESAMENTE SE PROHÍBE HACER DESCUENTOS EN ESTOS PRODUCTOS. "
+    ],
+    links: [{ url: "https://www.cencosud.com/" }],
+  },
+
+  {
+    type: "products",
+    image: ImgCVega,
+    title: "COORPORACIÓN VEGA",
+    benefits: [
+      "ALCANCE DEL CONVENIO",
+      "Personal militar en situación de actividad y retiro, personal civil en  actividad o cesante así como a sus  familiares directos (cónyuge, hijos) Tropa servicio militar en Actividad. ",
+      "BENEFICIO:",
+      "- BRINDARÁ ACCESO A LOS DIVERSOS PRODUCTOS DE SU MARCA (VEGA, TIMONEL, VCLEAN LYBRE, PEROS, ROMÁNTICO, BRINDISI, GLADIADOR, CATEDRÁTICO) HASTA UN 20% DE DESCUENTO.",
+      "- PROPORXIONARA EL LINK EN LA PAGINA DE FACEBOOK PARA REGISTRARSE Y PODER ACCEDER A LOS SORTEO (PARA ACCEDER A ESTOS BENEFICIOS MOSTRAR SU CIP EN CUALQUIER \n" +
+      "ESTABLECIMIENTO DE TIENDAS VEGA).",
+    ],
+    links: [{ url: "https://www.vega.pe/" }],
   },
 
   {
@@ -1036,6 +1095,47 @@ export const companies = [
     links: [
       {
         url: "https://www.ihg.com/holidayinnexpress/hotels/es/es/lima/limsi/hoteldetail",
+      },
+    ],
+  },
+
+  {
+    type: "peruvianFood",
+    service: "restaurants",
+    title: "CHICHARRONES KIO",
+    image: ImgChicharronesKio,
+    benefits: [
+      "ALCANCE DEL CONVENIO:",
+      "Personal militar y civil en situación de actividad y retiro o cesante. El beneficio es de manera presencial, delivery y recojo en tienda.",
+      "BENEFICIO:",
+      "- OTORGARÁ UN DESCUENTO DEL 10% DESDE 07:00AM HASTA LAS 12:00PM.",
+      "- EL 20% DESDE LAS 13:00PM HASTA LAS 23:00PM SEGÚN SU PRODUCTO EN LOS HORARIOS DE ATENCION INDICADO. ",
+      "SOLO EN ESTOS LOCALES KIO:",
+        `<img src="${ChicharronesKioPost}" alt="" width="100%" />`,
+    ],
+    links: [
+      {
+        url: "https://chicharroneskio.com.pe/",
+      },
+    ],
+  },
+
+  {
+    type: "peruvianFood",
+    service: "restaurants",
+    title: "LA TRANQUERA",
+    image: ImgLaTranquera,
+    benefits: [
+      "ALCANCE DEL CONVENIO:",
+      "Personal militar y civil en situación de actividad y retiro o cesante así como a sus  familiares directos (cónyuge, hijos menores de 25 años). El Beneficio Es De Manera Presencial. ",
+      "BENEFICIO:",
+      "- CONCEDERÁ UN DESCUENTO DEL 20% EN EL CONSUMO TOTAL DE TODO LOS PLATOS DE LA CARTA (CON UN TOPE DE S/. 200 POR CONSUMO) APLICABLE SOBRE EL PRESIO DE LISTA DE TODO LOS ALIMENTOS Y BEBIDAS NO ALCHÓLICAS CONSUMIDO EN MESA. ",
+      "- EL DESCUENTO DEL 20% NO ES ACUMULABLE CON NINGUNA OTRA PROMOCIÓN U OFERTA ESPECIAL Y NO APLICA EN CONSUMO DE BEBIDAS ALCOHÓLICAS.  ",
+      "- SOLO SE PERMITIRA LA APLICACIÓN DE UN (1) DESCUENTO POR MESA SIN IMPORTAR CUANTOS MIENBROS DEL EJERCITO SE ENCUENTREN EN GRUPO.",
+    ],
+    links: [
+      {
+        url: "https://latranquera.com.pe/",
       },
     ],
   },
@@ -1538,6 +1638,7 @@ export const companies = [
   {
     type: "cars",
     service: "companies",
+    image: ImgHankooalvillanta,
     title: "Llantas | Hankookalvillanta ",
 
     benefits: [

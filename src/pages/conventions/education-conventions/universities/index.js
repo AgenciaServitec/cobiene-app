@@ -16,12 +16,16 @@ export const Universities = () => {
     })();
   }, []);
 
+  const universities = (agreements || [])?.filter(
+    (agreement) => agreement.subcategory === "university"
+  );
+
   return (
     <Container>
       <div className="content-logo">
         <h2>Universidades</h2>
       </div>
-      <CollapseWithButtons dataLists={agreements} />
+      <CollapseWithButtons dataLists={universities} />
     </Container>
   );
 };

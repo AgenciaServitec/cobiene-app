@@ -47,6 +47,14 @@ import {
   SmartFitPost,
   UniversidadPeruanaCayetanoHeredia,
   Vega,
+  ImgQhaliKay,
+  ImgQhaliKayPost,
+  ImgCVega,
+  ImgCencosud,
+  ImgHankooalvillanta,
+  ImgChicharronesKio,
+  ChicharronesKioPost,
+  ImgLaTranquera,
 } from "../images";
 import {
   faBuilding,
@@ -329,6 +337,23 @@ export const companies = [
         icon: faEnvelope,
       },
     ],
+  },
+
+  {
+    type: "clinic",
+    title: "QHALI KAY",
+    image: ImgQhaliKay,
+    service: "health",
+    benefits: [
+      "Empresa que nos dedicamos a la salud visual, realizamos medidas de vista computarizada y despistajes de defectos de refracción, poniendo a su disposición su staff de profesionales.",
+      "ALCANCE DEL CONVENIO:",
+      "Personal militar y civil en situación de actividad y retiro o cesante, así como a sus familiares directos (cónyuge, hijos menores de 25 años) El Beneficio Es De Manera Presencial.",
+      "BENEFICIO:",
+      "Otorgará un descuento preferencial del 40% a los BENEFICIARIOS en los servicios de Reumatología, Medicina física y Rehabilitación, Terapia Física, Tratamiento de Dolor, Terapias de Relajación y Psicología.",
+      "Promoción válida hasta el 31 de diciembre del 2028.",
+      `<img src="${ImgQhaliKayPost}" alt="" width="100%" />`,
+    ],
+    links: [{ url: "https://www.qhalikay.com/" }],
   },
 
   {
@@ -620,6 +645,40 @@ export const companies = [
   },
 
   {
+    type: "products",
+    image: ImgCencosud,
+    title: "CENCOSUD",
+    benefits: [
+      "ALCANCE DEL CONVENIO",
+      "Personal militar en situación de actividad y retiro, personal civil en  actividad o cesante así como a sus  familiar directo (cónyuge). ",
+      "BENEFICIO:",
+      "- CONCEDERÁ UN DESCUENTO DEL 5% HASTA 20% EN DISTINTAS CATEGORÍAS EN PRODUCTOS DE LOS SUPERMERCADOS “METRO” Y “WONG” A NIVEL NACIONAL (SEGÚN EL ANEXO 01 “ESCANEAR QR” SE DETALLA LOS PRODUCTOS), DICHOS BENEFICIOS SERÁN APLICABLES PARA COMPRAS EN TIENDAS FÍSICAS METRO Y WONG (NO VÁLIDO EN METRO ALMACÉN, E-COMMERCE, NI WONG E-COMMERCE, NI APLICATIVOS DE AMBAS MARCAS DE SUPERMERCADOS). ",
+      "- BRINDARÁ A LOS BENEFICIARIOS TRES (03) HORAS DE ESTACIONAMIENTO, SIN COSTO, EN EL CENTRO COMERCIAL CENCO LIMA SUR, UBICADO EN AV. PASEO DE LA REPÚBLICA S/N, URB. MATELLINI, DISTRITO DE CHORRILLOS LIMA.",
+      "- OTORGARÁ HASTA UN 30% DE DESCUENTO EN LOS RESTAURANTES UBICADOS EN EL PATIO DE COMIDAS DE CENCO LIMA SUR (LA RELACIÓN DE RESTAURANTES “CHILI'S, CHINA WOK, CONEY PARK, MC DONALD'S, OTTO GRILL, PROTEIN FOOD, PIZZA HUT, SARCLETTI, TIRADITO” (EXCLUSIVO PARA LOS LOCALES UBICADOS EN CENCO LIMA SUR SERÁ ACTUALIZADA CADA 06 MESES,).",
+      "- CONCEDERÁ EL INGRESO GRATUITO A LA “GRANJITA”, UBICADA EN CENCO LIMA SUR, PARA LOS BENEFICIARIOS Y SUS MENORES HIJOS (DEBIDAMENTE ACREDITADO",
+      "- LA CATEGORÍA PANADERÍA TIENE UN DESCUENTO DEL 10%. ",
+      "- LOS ACEITES COMESTIBLES TIENE UN DESCUENTO DEL 10%. ",
+      "- LA LECHE MATERNIZADA NO ESTA EN EL DESCUENTO POR LO DISPIESTO EN LA NORMATIVA PERUANA: ART. 51 Y 54 DEL DECRETO SUPREMO N° 009-2006 SA DONDE EXPRESAMENTE SE PROHÍBE HACER DESCUENTOS EN ESTOS PRODUCTOS. "
+    ],
+    links: [{ url: "https://www.cencosud.com/" }],
+  },
+
+  {
+    type: "products",
+    image: ImgCVega,
+    title: "COORPORACIÓN VEGA",
+    benefits: [
+      "ALCANCE DEL CONVENIO",
+      "Personal militar en situación de actividad y retiro, personal civil en  actividad o cesante así como a sus  familiares directos (cónyuge, hijos) Tropa servicio militar en Actividad. ",
+      "BENEFICIO:",
+      "- BRINDARÁ ACCESO A LOS DIVERSOS PRODUCTOS DE SU MARCA (VEGA, TIMONEL, VCLEAN LYBRE, PEROS, ROMÁNTICO, BRINDISI, GLADIADOR, CATEDRÁTICO) HASTA UN 20% DE DESCUENTO.",
+      "- PROPORXIONARA EL LINK EN LA PAGINA DE FACEBOOK PARA REGISTRARSE Y PODER ACCEDER A LOS SORTEO (PARA ACCEDER A ESTOS BENEFICIOS MOSTRAR SU CIP EN CUALQUIER \n" +
+      "ESTABLECIMIENTO DE TIENDAS VEGA).",
+    ],
+    links: [{ url: "https://www.vega.pe/" }],
+  },
+
+  {
     type: "financials",
     image: ImgEfectiva,
     title: "FINANCIERA EFECTIVA",
@@ -879,6 +938,48 @@ export const companies = [
       },
     ],
   },
+
+  {
+    type: "peruvianFood",
+    service: "restaurants",
+    title: "CHICHARRONES KIO",
+    image: ImgChicharronesKio,
+    benefits: [
+      "ALCANCE DEL CONVENIO:",
+      "Personal militar y civil en situación de actividad y retiro o cesante. El beneficio es de manera presencial, delivery y recojo en tienda.",
+      "BENEFICIO:",
+      "- OTORGARÁ UN DESCUENTO DEL 10% DESDE 07:00AM HASTA LAS 12:00PM.",
+      "- EL 20% DESDE LAS 13:00PM HASTA LAS 23:00PM SEGÚN SU PRODUCTO EN LOS HORARIOS DE ATENCION INDICADO. ",
+      "SOLO EN ESTOS LOCALES KIO:",
+        `<img src="${ChicharronesKioPost}" alt="" width="100%" />`,
+    ],
+    links: [
+      {
+        url: "https://chicharroneskio.com.pe/",
+      },
+    ],
+  },
+
+  {
+    type: "peruvianFood",
+    service: "restaurants",
+    title: "LA TRANQUERA",
+    image: ImgLaTranquera,
+    benefits: [
+      "ALCANCE DEL CONVENIO:",
+      "Personal militar y civil en situación de actividad y retiro o cesante así como a sus  familiares directos (cónyuge, hijos menores de 25 años). El Beneficio Es De Manera Presencial. ",
+      "BENEFICIO:",
+      "- CONCEDERÁ UN DESCUENTO DEL 20% EN EL CONSUMO TOTAL DE TODO LOS PLATOS DE LA CARTA (CON UN TOPE DE S/. 200 POR CONSUMO) APLICABLE SOBRE EL PRESIO DE LISTA DE TODO LOS ALIMENTOS Y BEBIDAS NO ALCHÓLICAS CONSUMIDO EN MESA. ",
+      "- EL DESCUENTO DEL 20% NO ES ACUMULABLE CON NINGUNA OTRA PROMOCIÓN U OFERTA ESPECIAL Y NO APLICA EN CONSUMO DE BEBIDAS ALCOHÓLICAS.  ",
+      "- SOLO SE PERMITIRA LA APLICACIÓN DE UN (1) DESCUENTO POR MESA SIN IMPORTAR CUANTOS MIENBROS DEL EJERCITO SE ENCUENTREN EN GRUPO.",
+    ],
+    links: [
+      {
+        url: "https://latranquera.com.pe/",
+      },
+    ],
+  },
+
   {
     type: "chifa",
     service: "restaurants",
@@ -1424,6 +1525,32 @@ export const companies = [
       },
     ],
   },
+
+  {
+    type: "cars",
+    service: "companies",
+    image: ImgHankooalvillanta,
+    title: "Llantas | Hankookalvillanta ",
+
+    benefits: [
+      "Envió gratis en Lima",
+      "Tenemos personal altamente capacitado para atender su requerimiento a la mayor brevedad, con eficacia y garantizando la calidad de nuestras llantas y atención profesional. Realizamos rápido y efectivo servicio a domicilio a Lima metropolitana.",
+      "Ventas de LLantas Hankook a un precio insuperable",
+    ],
+    links: [
+      {
+        url: "https://hankookalvillanta.com/",
+        text: "Visita nuestra pagina web",
+        icon: faGlobe,
+      },
+      {
+        url: "tel:967787227",
+        text: "967787227",
+        icon: faPhone,
+      },
+    ],
+  },
+
   {
     type: "automobiles",
     image: ImgTuringCusco,

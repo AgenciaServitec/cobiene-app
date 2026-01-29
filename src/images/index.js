@@ -447,13 +447,26 @@ export { default as ImgHolidayInn } from "./companies/hotel-holiday-inn.webp";
 export { default as ImgHolidayInnExpress } from "./companies/hotel-holiday-inn-express.webp";
 export { default as ImgStarPeru } from "./companies/star-peru.webp";
 export { default as ImgFacebookMobileView } from "./webp/facebook-mobile-view.webp";
+export { default as ImgQhaliKayPost } from "./companies/qhalikay-post.webp";
+
 
 export { default as ImgAunaSvida } from "./webp/aunaSvida.webp";
 export { default as ImgGlobalLaser } from "./webp/globalLaser.webp";
 export { default as ImgFesalud } from "./webp/Logo-fesalud-svg.webp";
 export { default as ImgResocentro } from "./webp/resocentro.webp";
+export { default as ImgQhaliKay } from "./companies/logo_qhalikay.webp";
+export { default as ImgHankooalvillanta } from "./companies/hankook-alvillanta.webp";
 
-// export { default as ImgHankooalvillanta } from "./companies/hankookalvillanta.webp";
+//-------- Restaurants ------
+export { default as ImgChicharronesKio } from "./companies/chicharrones-kio.webp";
+export { default as ChicharronesKioPost } from "./companies/chicharrones-kio-post.webp";
+export { default as ImgLaTranquera } from "./companies/la-tranquera.webp";
+
+
+//-------- Products ------
+export { default as ImgCVega } from "./companies/corporacion-vega.webp";
+export { default as ImgCencosud } from "./companies/cencosud.webp";
+
 
 //-------- Academies PRe ------
 export { default as Academie1 } from "./others/academie1.webp";

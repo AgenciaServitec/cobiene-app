@@ -106,27 +106,7 @@ export const companies = [
       },
     ],
   },
-  {
-    type: "clinic",
-    service: "health",
-    image: ImgResocentro,
-    title: "RESOCENTRO",
-    benefits: [
-      "ALCANCE DEL CONVENIO:",
-      "Dirigido al personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres, hermanos y nietos); debidamente acreditados sin límite de edad.",
-      "Centro avanzado de resonancia, Servicios especializados en ayuda al diagnóstico mediante imagenes contando con equipos de última generación dando resultado altamente calificado.",
-      "- RESONANCIA MAGNÉTICA",
-      "- TOMOGRAFÍA",
-      "- FIBROSCAN",
-      "- RAYOS X",
-      "- ECOGRAFIAS",
-      "- MEDICINA NUCLEAR",
-      "Contácto:",
-      "<a href='mailto:atc@resocentro.com' target='_blank'>atc@resocentro.com</a>",
-      "<a href='tel:015124400' target='_blank'>01 512-4400</a>",
-    ],
-    links: [{ url: "https://resocentro.com/" }],
-  },
+
   {
     type: "clinic",
     service: "health",
@@ -503,7 +483,7 @@ export const companies = [
       "1.OFRECERÁ UN 10% DE DESCUENTO SOBRE EL VALOR NETO DE LAS TARIFAS, TANTO PARA PERSONALES DE ACUERDO A ELECCIÓN DEL BENEFICIARIO, SIENDO VÁLIDO PARA VUELOS NACIONALES COMO INTERNACIONALES.",
       "2. EL DESCUENTO APLICA SOBRE LA TARIFA BASE SIN INCLUIR IMPUESTOS NI SERVICIOS ADICIONALES Y NO ES APLICABLE SOBRE TARIFAS PROMOCIONALES.",
       "3. PARA ACCEDER A LA COMPRA DE LOS PASAJES, LO PODRÁN REALIZAR EN LA PAGINA WEB HTTPS://WWW.SKYAIRLINE.COM/ES/PERU, DEBIENDO TOMAR EN CUENTA LAS SIGUIENTES CONDICIONES:",
-      'A. AL MOMENTO DE HACER LA COMPRA DEBERÁN INGRESAR EL "PROMOCODE" ASIGNADO (ESTE PROMOCODE CAMBIARÁ MENSUALMENTE Y SERÁ DIFUNDIDO POR EL DEPARTAMENTO DE APOYO SOCIAL DEL COMANDO DE BIENESTAR DEL EJÉRCITO), PROMOCODE ENERO 2026: <b>SKYEJERCITO17</b> VALIDO DEL 01/01/2026 HASTA EL 31/01/2026',
+      'A. AL MOMENTO DE HACER LA COMPRA DEBERÁN INGRESAR EL "PROMOCODE" ASIGNADO (ESTE PROMOCODE CAMBIARÁ MENSUALMENTE Y SERÁ DIFUNDIDO POR EL DEPARTAMENTO DE APOYO SOCIAL DEL COMANDO DE BIENESTAR DEL EJÉRCITO), PROMOCODE ENERO 2026: <b>SKYEJERCITO18</b> VALIDO DEL 01/02/2026 HASTA EL 28/02/2026',
       "B. ES REQUISITO FUNDAMENTAL QUE EL MIEMBRO DEL EJÉRCITO DEL PERÚ, SEA UNO DE LOS PASAJEROS DE LA RESERVA SOBRE LA CUAL SE APLICA EL DESCUENTO.",
     ],
     links: [{ url: "https://www.skyairline.com/es/peru" }],
@@ -544,27 +524,6 @@ export const companies = [
     ],
   },
 
-  {
-    type: "commercialShop",
-    service: "companies",
-    image: ImgFootloose,
-    title: "Calzado FOOTLOOSE",
-    benefits: [
-      "ALCANCE DEL CONVENIO:",
-      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijosy padres).",
-      "BENEFICIO:",
-      "20 % de descuento en calzado en marcas propias.",
-      "15% de descuento en calzado nacional e importados inclusivezapatillas deportivas y de vestir en otras marca.",
-    ],
-    links: [
-      { url: "https://www.footloose.pe" },
-      {
-        url: "https://drive.google.com/file/d/1RAtb1BTaEEwVh9xCId0Xm7QBtZaymmr4/view?usp=sharing",
-        icon: faLink,
-        text: "Detalles del convenio",
-      },
-    ],
-  },
   {
     type: "commercialShop",
     service: "companies",
@@ -707,7 +666,7 @@ export const companies = [
     links: [{ url: "https://larehabilitadora.com/" }],
   },
   {
-    type: "financials",
+    type: "products",
     image: ImgLogoAutoPlan,
     title: "Empresa administradora de fondos colectivos",
     benefits: [
@@ -834,19 +793,7 @@ export const companies = [
     ],
   },
 
-  {
-    type: "hotel",
-    title: "HOTEL CARRERA",
-    image: ImgHotelCarrera,
-    benefits: [
-      "ALCANCE DEL CONVENIO:",
-      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos, hermanos y padres).",
-      "BENEFICIO:",
-      "35% de descuento sobre la tarifa final en los diferentes tipos dealojamiento (habitación simple, doble, matrimonial). estos incluyen impuesto, servicios, internet wifi y desayuno.",
-      "10% de descuento en los servicios del restaurante la alameda, ybar los descalzos, en el consumo de alimentos y bebidas sobre el costo total al momento del pago. no valido para servicio a la habitación.",
-    ],
-    links: [{ url: "https://www.hotelcarrera.com.pe/" }],
-  },
+
   {
     type: "hotel",
     title: "HOTEL ROYAL DECAMERON PUNTA SAL",
@@ -939,46 +886,7 @@ export const companies = [
     ],
   },
 
-  {
-    type: "peruvianFood",
-    service: "restaurants",
-    title: "CHICHARRONES KIO",
-    image: ImgChicharronesKio,
-    benefits: [
-      "ALCANCE DEL CONVENIO:",
-      "Personal militar y civil en situación de actividad y retiro o cesante. El beneficio es de manera presencial, delivery y recojo en tienda.",
-      "BENEFICIO:",
-      "- OTORGARÁ UN DESCUENTO DEL 10% DESDE 07:00AM HASTA LAS 12:00PM.",
-      "- EL 20% DESDE LAS 13:00PM HASTA LAS 23:00PM SEGÚN SU PRODUCTO EN LOS HORARIOS DE ATENCION INDICADO. ",
-      "SOLO EN ESTOS LOCALES KIO:",
-        `<img src="${ChicharronesKioPost}" alt="" width="100%" />`,
-    ],
-    links: [
-      {
-        url: "https://chicharroneskio.com.pe/",
-      },
-    ],
-  },
 
-  {
-    type: "peruvianFood",
-    service: "restaurants",
-    title: "LA TRANQUERA",
-    image: ImgLaTranquera,
-    benefits: [
-      "ALCANCE DEL CONVENIO:",
-      "Personal militar y civil en situación de actividad y retiro o cesante así como a sus  familiares directos (cónyuge, hijos menores de 25 años). El Beneficio Es De Manera Presencial. ",
-      "BENEFICIO:",
-      "- CONCEDERÁ UN DESCUENTO DEL 20% EN EL CONSUMO TOTAL DE TODO LOS PLATOS DE LA CARTA (CON UN TOPE DE S/. 200 POR CONSUMO) APLICABLE SOBRE EL PRESIO DE LISTA DE TODO LOS ALIMENTOS Y BEBIDAS NO ALCHÓLICAS CONSUMIDO EN MESA. ",
-      "- EL DESCUENTO DEL 20% NO ES ACUMULABLE CON NINGUNA OTRA PROMOCIÓN U OFERTA ESPECIAL Y NO APLICA EN CONSUMO DE BEBIDAS ALCOHÓLICAS.  ",
-      "- SOLO SE PERMITIRA LA APLICACIÓN DE UN (1) DESCUENTO POR MESA SIN IMPORTAR CUANTOS MIENBROS DEL EJERCITO SE ENCUENTREN EN GRUPO.",
-    ],
-    links: [
-      {
-        url: "https://latranquera.com.pe/",
-      },
-    ],
-  },
 
   {
     type: "chifa",
@@ -1024,7 +932,8 @@ export const companies = [
   },{
     type: "restaurants",
     service: "restaurants",
-    title: 'CHICHARRONERIA KIO"',
+    title: 'CHICHARRONERIA KIO',
+    image: ImgChicharronesKio,
     benefits: [
       "Otorgará un descuento del 10% desde 07:00 a.m. hasta las 12:00 p.m.",
       "El 20% desde las 13:00 p.m. hasta las 23:00 p.m. según su producto en los horarios de atención indicados.<p>",
@@ -1049,26 +958,17 @@ export const companies = [
   {
     type: "restaurants",
     service: "restaurants",
-    title: 'CHICHARRONERIA KIO"',
+    title: "LA TRANQUERA",
+    image: ImgLaTranquera,
     benefits: [
-      "Otorgará un descuento del 10% desde 07:00 a.m. hasta las 12:00 p.m.",
-      "El 20% desde las 13:00 p.m. hasta las 23:00 p.m. según su producto en los horarios de atención indicados.<p>",
-      "<strong>LOCALES KIO:</strong>",
-      "UNIVERSITARIA - Avenida Universitaria 871",
-      "LA MAR - Ca. Mariscal Jose de la Mar 2330",
-      "LA MARINA - Av. la Marina 2689",
-      "PUEBLO LIBRE - Avenida Brasil 2680",
-      "BARRANCO - av. almte. miguel Grau 310",
-      "MIRAFLORES - Avenida josé pardo 399",
-      "SAN JUAN DE LURIGANCHO - av. las flores 248",
-      "LINCE - Avenida general antonio alvarez de arenales 1990",
-      "MAGDALENA - jirón tacna 700B",
-      "SALAMANCA - garcilazo de la vega 209",
-      "LA MOLINA - Constructores 1080",
-      "SAN BORJA - Av. Aviación 2835",
-      "JESUS MARIA - Av. Francisco de Zela 1436<p>",
-      "REQUISITOS:",
-      "Personal militar en actividad o retiro, personal civil en situación de actividad, así como sus familiares directos (cónyuge, hijos, padres); debidamente acreditados.",
+      "- Concederá un descuento del 20% en el consumo total de todo los platos de la carta (con un tope de s/. 200 por consumo) aplicable sobre el precio de lista de todo los alimentos y bebidas no alcohólicas consumido en mesa. ",
+      "- El descuento del 20% no es acumulable con ninguna otra promoción u oferta especial y no aplica en consumo de bebidas alcohólicas.  ",
+      "- Solo se permitirá la aplicación de un (1) descuento por mesa sin importar cuantos miembros del ejercito se encuentren en grupo.",
+    ],
+    links: [
+      {
+        url: "https://latranquera.com.pe/",
+      },
     ],
   },
   {
@@ -1449,64 +1349,8 @@ export const companies = [
     links: [{ url: "https://interbank.pe" }],
   },
 
-  {
-    type: "legal-advice",
-    title: "CENTRO DE CONCILIACIÓN",
-    image: ImgElCentro,
-    benefits: [
-      "Empresa privada, con una experiencia en temas de materia civil, de familia, vecinal, contrataciones y adquisiciones del estado, dedicada a través de su centro de conciliación y arbitraje a ofrecer alternativas creativas sobre requerimientos legales o desarrollo en temas extrajudiciales y laudos arbitrales. ",
-      "ALCANCE DEL CONVENIO:",
-      "Dirigido al personal militar en situación de actividad o retiro, personal civil; así como sus familiares directos (cónyuge, hijos, padres y hermanos) ddebidamente acreditados.",
-      "BENEFICIO:",
-      "- Descuento preferencial en los servicios de conciliacion civil,familiar y vecinal",
-      "FORMA DE ACREDITACIÓN:",
-      "Mediante la presentación física del respectivo Carnet de Identidad Personal del titular (CIP), y familiares directos, mediante presentación del Carnet de Identificación Familiar (CIF).",
-      "Para el caso de familiares directos, que no posean el Carnet de Identidad Familiar (CIF), presentarán el (DNI) y el titular deberá de acompañarlos para que acredite el vínculo familiar",
-    ],
-    links: [
-      { url: "www.elcentro.com.pe" },
-      {
-        url: "mailto:elcentro@gmail.com",
-        text: "elcentro@gmail.com",
-        icon: faEnvelope,
-      },
-      {
-        url: "tel:989977979",
-        text: "989977979",
-        icon: faPhone,
-      },
-      {
-        url: "tel:4228039",
-        text: "4228039",
-        icon: faPhone,
-      },
-      {
-        url: "https://goo.gl/maps/yiTzThVrcsUCUmKv8",
-        text: "Calle Los Ángeles 137 Miraflores",
-        icon: faLocationDot,
-      },
-    ],
-  },
 
-  {
-    type: "samsung",
-    service: "technology",
 
-    title: "Samsung",
-    benefits: [
-      "Acceso a los diversos productos y servicios de su marca a precios reducidos, a través de la tienda virtual de" +
-        " “SAMSUNG” <a href='https://shop.samsung.com/pe/multistore/beneficios_empleados/beneficios_empleados/login/'>https://shop.samsung.com/pe/multistore/beneficios_empleados/beneficios_empleados/login/</a>," +
-        " siendo válido para Lima y provincias.",
-      "Descuentos sobre la tarifa regular, a costos especiales, en todas las líneas de smartphone, tablet, relojes inteligentes, dispositivos de audios, accesorios, televisores, audio, video, refrigeradoras, lavado, soluciones de aire, electrodomésticos de cocina, monitores, entre otros.",
-      "ALCANCE",
-      "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante, así como sus familiares directos (cónyuges e hijos)",
-      "FORMA DE ACCESO:",
-      "Paso1 Ingresa a la web de Samsung para empresas ",
-      "Paso2 Inicio de sesión, previo registro.",
-      "Paso3 Identifícate, e ingresa el código de verificación asignado al  Ejército   del Perú ",
-      "Paso4 Disfruta en tus beneficios exclusivos.",
-    ],
-  },
   {
     type: "lg",
     service: "technology",

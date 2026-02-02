@@ -26,6 +26,16 @@ export const Home = () => {
       <Button width="100%" onClick={() => navigate("/house-service")}>
         VIVIENDA
       </Button>
+      <Button
+        width="100%"
+        onClick={() =>
+          window.location.href =
+            "https://jbiene.cobiene.com/discount-codes-requests/register"
+        }
+      >
+        CÓDIGOS DE DESCUENTO
+      </Button>
+
       {isMobile ? (
         <img
           src={ImgFacebookMobileView}

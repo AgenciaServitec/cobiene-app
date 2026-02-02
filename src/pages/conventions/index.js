@@ -21,7 +21,7 @@ export const Conventions = () => {
           Convenios vigentes con entidades educativas y empresas privadas
         </Title>
         <Text>
-          El Comando de Bienestar del Ejército ha suscrito convenios con
+          La Jefatura de Bienestar del Ejército ha suscrito convenios con
           universidades, institutos superiores, empresas privadas y bancos en
           beneficio de todo el personal militar, civil en actividad o retiro y
           sus familiares directos los cuales podrán disfrutar de tarifas o

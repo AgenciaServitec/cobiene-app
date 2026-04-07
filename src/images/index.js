@@ -494,3 +494,6 @@ export { default as FranciaBandera } from "./international/franciabandera.webp";
 export { default as MexicoBandera } from "./international/mexicobandera.webp";
 export { default as BoliviaBandera } from "./international/bolivia.webp";
 export { default as EcuadorBandera } from "./international/ecuador.webp";
+
+//----------------QRs---------------
+export { default as VegaQr } from "./companies/vegaQr.png"

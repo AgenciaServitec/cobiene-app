@@ -54,7 +54,7 @@ import {
   ImgHankooalvillanta,
   ImgChicharronesKio,
   ChicharronesKioPost,
-  ImgLaTranquera,
+  ImgLaTranquera, VegaQr
 } from "../images";
 import {
   faBuilding,
@@ -566,10 +566,12 @@ export const companies = [
       "Personal militar en situación de actividad y retiro, personal civil en actividad o cesante así como a sus familiares directos (cónyuge, hijos) Tropa servicio militar en Actividad.",
       "BENEFICIO:",
       "Brindará acceso a los diversos productos de su marca (vega, timonel, vclean lybre, peros, romántico, brindisi, gladiador, catedrático) hasta un 20% de descuento.",
-      "Proporxionara el link en la pagina de facebook para registrarse y poder acceder a los sorteo.",
+      "Proporcionara el link en la pagina de facebook para registrarse y poder acceder a los sorteo.",
       "Para acceder a estos beneficios mostrar su cip en cualquier establecimiento de tiendas vega.",
     ],
     links: [{ url: "https://www.vega.pe" }],
+    qrCode: VegaQr,
+    qrLink: "https://grupovegaperu.com/DatosFuerzasArmadas/",
   },
   {
     type: "gym",
@@ -635,6 +637,8 @@ export const companies = [
       "ESTABLECIMIENTO DE TIENDAS VEGA).",
     ],
     links: [{ url: "https://www.vega.pe/" }],
+    qrCode: VegaQr,
+    qrLink: "https://grupovegaperu.com/DatosFuerzasArmadas/",
   },
 
   {

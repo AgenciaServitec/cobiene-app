@@ -90,6 +90,16 @@ export const CollapseWithButtons = ({ dataLists = [] }) => {
                 </a>
               </div>
             )}
+
+            {dataList.qrCode && (
+              <QrContainer>
+                <p>Escanea el código QR para registrarte:</p>
+                <a href={dataList.qrLink} target="_blank" rel="noreferrer">
+                  <img src={dataList.qrCode} alt={`QR ${dataList.title}`} />
+                </a>
+                {dataList.qrLink && <small>O haz clic en la imagen</small>}
+              </QrContainer>
+            )}
           </div>
         </Panel>
       ))}
@@ -177,5 +187,44 @@ const CollapseAntd = styled(Collapse)`
         align-items: center;
       }
     }
+  }
+`;
+
+const QrContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-top: 1px dashed ${({ theme }) => theme.colors.white || "#ccc"};
+
+  p {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+  }
+
+  img {
+    width: 180px;
+    height: 180px;
+    background-color: white; 
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  small {
+    margin-top: 0.8rem;
+    color: ${({ theme }) => theme.colors.white};
+    opacity: 0.7;
+    font-size: 0.7rem;
   }
 `;

@@ -8,26 +8,46 @@ import {
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faList } from "@fortawesome/free-solid-svg-icons";
-import { companies, listButtons } from "../../../data-list";
+import { useAgreements } from "../../../hooks";
+import { SubcategoriesAgreements } from "../../../data-list";
+
+export const formatAgreementToCard = (agreement) => {
+  return {
+    ...agreement,
+    img: agreement.logoPhoto?.url || "",
+    description: agreement.companyBenefits || agreement.scope || "",
+  };
+};
 
 export const MultiService = () => {
   const navigate = useNavigate();
+  const { agreements: companies, loading, error } = useAgreements({ category: 'company' });
+
+  const formattedCompanies = companies.map(formatAgreementToCard);
+
+  // 2. Obtenemos las subcategorías de la empresa (Financieras, Banco, Salud, etc.)
+  const companySubcategories = SubcategoriesAgreements.company || [];
 
   return (
     <Container>
       <InitialContent title="Convenios Multiservicios" />
 
-      <SearchAgreements agreements={companies} />
+      {loading ? (
+        <p style={{ textAlign: "center", margin: "1rem" }}>Cargando convenios...</p>
+      ) : error ? (
+        <p style={{ textAlign: "center", color: "red", margin: "1rem" }}>Error cargando convenios</p>
+      ) : (
+        <SearchAgreements agreements={formattedCompanies} />
+      )}
 
-      {listButtons.multiservice.map((_multiservice) => (
+      {/* 3. Renderizamos los botones dinámicamente basados en SubcategoriesAgreements */}
+      {companySubcategories.map((subcategory) => (
         <Button
-          key={_multiservice.title}
+          key={subcategory.value}
           width="100%"
-          onClick={() =>
-            navigate(_multiservice.url ? _multiservice.url : "/page-default")
-          }
+          onClick={() => navigate(`/conventions/multi-service/${subcategory.value}`)}
         >
-          {_multiservice.title}
+          {subcategory.label.toUpperCase()}
         </Button>
       ))}
 
@@ -35,6 +55,7 @@ export const MultiService = () => {
         <a
           href="https://drive.google.com/file/d/1oS7eDou0ABm7P-41MAcjCi7rTgp0uFPO/view?usp=sharing"
           target="_blank"
+          rel="noreferrer"
         >
           <FontAwesomeIcon icon={faList} size="2x" />
           Lista de Convenios de empresas:
@@ -45,19 +66,19 @@ export const MultiService = () => {
 };
 
 const Container = styled.section`
-  .list-convenios {
-    color: dodgerblue;
-    text-decoration: underline;
-    text-transform: uppercase;
-    margin: 1.5rem 0;
-    font-size: 1em;
-    a {
-      margin-bottom: 1.5rem;
-      display: flex;
-      align-items: start;
-      svg {
-        margin-right: 1rem;
-      }
+    .list-convenios {
+        color: dodgerblue;
+        text-decoration: underline;
+        text-transform: uppercase;
+        margin: 1.5rem 0;
+        font-size: 1em;
+        a {
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: start;
+            svg {
+                margin-right: 1rem;
+            }
+        }
     }
-  }
 `;

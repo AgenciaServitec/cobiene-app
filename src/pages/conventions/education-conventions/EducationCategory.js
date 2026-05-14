@@ -26,6 +26,8 @@ export const EducationCategory = () => {
 
   SortWords(processedAgreements);
 
+  processedAgreements.sort((a, b) => (a.priority || 0) - (b.priority || 0));
+
   return (
     <Container>
       <div className="content-logo">

@@ -9,10 +9,6 @@
   ],
   "company": [
     {
-      "label": "Financieras",
-      "value": "financial"
-    },
-    {
       "label": "Banco",
       "value": "bank"
     },
@@ -21,20 +17,12 @@
       "value": "health"
     },
     {
-      "label": "Tienda",
-      "value": "store"
-    },
-    {
-      "label": "Supermercado",
-      "value": "supermarket"
-    },
-    {
       "label": "Compañia de Seguro",
       "value": "Insurance Companies"
     },
     {
-      "label": "Viaje",
-      "value": "journey"
+      "label": "Tienda",
+      "value": "store"
     },
     {
       "label": "Hotel",
@@ -43,6 +31,14 @@
     {
       "label": "Servicios técnicos",
       "value": "Technical Services"
+    },
+    {
+      "label": "Financieras",
+      "value": "financial"
+    },
+    {
+      "label": "Viaje",
+      "value": "journey"
     }
   ]
 }

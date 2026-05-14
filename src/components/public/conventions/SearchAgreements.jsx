@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Input } from "../ui";
-import { CollapseWithButtons } from "./CollapseWithButtons";
 import styled from "styled-components";
+import { AgreementDetailsCard } from "./AgreementsDetailsCard";
 
 export const SearchAgreements = ({ agreements = [] }) => {
   const [convention, setConvention] = useState("");
@@ -15,18 +15,24 @@ export const SearchAgreements = ({ agreements = [] }) => {
     if (convention === "") return setConventions([]);
 
     return setConventions(_conventions);
-  }, [convention]);
+  }, [convention, agreements]);
 
   return (
     <Container>
       <Input
-        onChange={(e) =>  setConvention(e.target.value)}
+        onChange={(e) => setConvention(e.target.value)}
         value={convention}
         placeholder="Busca tus convenios"
       />
+
       {conventions.length >= 1 && (
         <div className="container-conventions">
-          <CollapseWithButtons dataLists={conventions} />
+          {conventions.map((agreement, index) => (
+            <AgreementDetailsCard
+              key={agreement.id || index}
+              agreement={agreement}
+            />
+          ))}
         </div>
       )}
     </Container>
@@ -42,5 +48,8 @@ const Container = styled.div`
     padding: 0.625rem;
     border: 3px solid #fff;
     border-radius: 0.625rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
   }
 `;

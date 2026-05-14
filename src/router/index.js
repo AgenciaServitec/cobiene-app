@@ -14,7 +14,6 @@ import {
   Home,
   HouseService,
   HouseServices,
-  Institutes,
   LimaInstitutes,
   MilitaryCircle,
   MultiService,
@@ -35,9 +34,9 @@ import {
   ServiceType,
   SocialEconomicSupport,
   TechniciansCircle,
-  Universities,
   VideosTutorial,
 } from "../pages";
+import { EducationCategory } from "../pages/conventions/education-conventions/EducationCategory";
 
 export const Router = () => {
   return (
@@ -98,19 +97,10 @@ export const Router = () => {
       />
       <Route
         exact
-        path="/conventions/education-conventions/universities"
+        path="/conventions/education-conventions/:categoryType"
         element={
           <BaseLayout>
-            <Universities />
-          </BaseLayout>
-        }
-      />
-      <Route
-        exact
-        path="/conventions/education-conventions/institutes"
-        element={
-          <BaseLayout>
-            <Institutes />
+            <EducationCategory />
           </BaseLayout>
         }
       />

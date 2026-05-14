@@ -1,134 +1,43 @@
 import React from "react";
-import { useNavigate, useParams } from "react-router";
+import { useParams } from "react-router";
 import {
-  Button,
-  CollapseWithButtons,
   InitialContent,
+  AgreementDetailsCard
 } from "../../../../components/public";
-import { companies } from "../../../../data-list";
+import { useAgreements } from "../../../../hooks";
+
+import { SubcategoriesAgreements } from "../../../../data-list";
 
 export const ServiceType = () => {
   const { typeService } = useParams();
-  const navigate = useNavigate();
 
-  const listServices = [
-    {
-      type: "restaurants",
-      title: "Restaurantes",
-    },
-    {
-      type: "companies",
-      title: "Empresas",
-      buttons: [
-        {
-          title: "Tiendas comerciales",
-          url: `/conventions/multi-service/${typeService}/commercialShop`,
-        },
-        {
-          title: "Gimnasios",
-          url: `/conventions/multi-service/${typeService}/gym`,
-        },
-        {
-          title: "Productos",
-          url: `/conventions/multi-service/${typeService}/products`,
-        },
-        {
-          title: "Vehiculos",
-          url: `/conventions/multi-service/${typeService}/cars`,
-        },
-      ],
-    },
-    {
-      type: "financials",
-      title: "Financieras",
-    },
-    {
-      type: "health",
-      title: "Salud",
-      buttons: [
-        {
-          title: "Laboratorios",
-          url: `/conventions/multi-service/${typeService}/laboratory`,
-        },
-        {
-          title: "Entidades médicas",
-          url: `/conventions/multi-service/${typeService}/clinic`,
-        },
-      ],
-    },
-    {
-      type: "hotel",
-      title: "Hoteles",
-    },
-    {
-      type: "banks",
-      title: "Bancos",
-    },
-    {
-      type: "transport",
-      title: "Transportes",
-    },
-    {
-      type: "life-insurance",
-      title: "Seguros",
-    },
-    {
-      type: "legal-advice",
-      title: "Asesoría Legal",
-    },
-    {
-      type: "technology",
-      title: "Tecnologia",
-      buttons: [
-        {
-          title: "LG",
-          url: `/conventions/multi-service/${typeService}/lg`,
-        },
-      ],
-    },
-    {
-      type: "automobiles",
-      title: "Automóviles",
-    },
-    {
-      type: "entertainment",
-      title: "Entretenimiento",
-    },
-  ];
+  const { agreements: companies, loading } = useAgreements({ category: 'company' });
 
-  const serviceType = listServices.filter(
-    (service) => service.type === typeService
+  const currentSubcategory = SubcategoriesAgreements.company.find(
+    (sub) => sub.value === typeService
   );
+
+  const title = currentSubcategory ? currentSubcategory.label : "Convenios";
+
+  const filteredServices = companies.filter((com) => com.subcategory === typeService);
 
   return (
-    <>
-      {serviceType.map((service, index) => (
-        <section key={index}>
-          <InitialContent title={service.title} />
-          {!service.buttons && service.type ? (
-            <MapTypes service={service} />
-          ) : (
-            <MapButtons service={service} navigate={navigate} />
-          )}
-        </section>
-      ))}
-    </>
+    <section>
+      <InitialContent title={title} />
+
+      {loading ? (
+        <p style={{ textAlign: "center", margin: "2rem" }}>Cargando información...</p>
+      ) : filteredServices.length > 0 ? (
+        <div style={{ padding: "0 1rem" }}>
+          {filteredServices.map(agreement => (
+            <AgreementDetailsCard key={agreement.id} agreement={agreement} />
+          ))}
+        </div>
+      ) : (
+        <p style={{ textAlign: "center", margin: "2rem" }}>
+          No hay convenios disponibles para esta categoría actualmente.
+        </p>
+      )}
+    </section>
   );
-};
-
-const MapButtons = ({ service, navigate }) =>
-  service.buttons.map((button, index) => (
-    <Button
-      key={index}
-      width="100%"
-      onClick={() => navigate(button.url ? button.url : "/page-default")}
-      textTransform="uppercase"
-    >
-      {button.title}
-    </Button>
-  ));
-
-const MapTypes = ({ service }) => {
-  const services = companies.filter((com) => com.type === service.type);
-  return <CollapseWithButtons dataLists={services} />;
 };

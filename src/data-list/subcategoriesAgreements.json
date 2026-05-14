@@ -1,0 +1,48 @@
+{
+  "educationalInstitution": [
+    { "label": "Universidad", "value": "university" },
+    { "label": "Instituto", "value": "institute" },
+    {
+      "label": "Instituto de Idiomas",
+      "value": "languageInstitute"
+    }
+  ],
+  "company": [
+    {
+      "label": "Financieras",
+      "value": "financial"
+    },
+    {
+      "label": "Banco",
+      "value": "bank"
+    },
+    {
+      "label": "Salud",
+      "value": "health"
+    },
+    {
+      "label": "Tienda",
+      "value": "store"
+    },
+    {
+      "label": "Supermercado",
+      "value": "supermarket"
+    },
+    {
+      "label": "Compañia de Seguro",
+      "value": "Insurance Companies"
+    },
+    {
+      "label": "Viaje",
+      "value": "journey"
+    },
+    {
+      "label": "Hotel",
+      "value": "Hotel"
+    },
+    {
+      "label": "Servicios técnicos",
+      "value": "Technical Services"
+    }
+  ]
+}

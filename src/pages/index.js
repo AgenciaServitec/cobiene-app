@@ -6,8 +6,6 @@ export * from "./education/lima-institutes";
 export * from "./education/province-institutes";
 export * from "./conventions";
 export * from "./conventions/education-conventions";
-export * from "./conventions/education-conventions/universities";
-export * from "./conventions/education-conventions/institutes";
 export * from "./conventions/education-conventions/videos-tutorial";
 export * from "./house-service";
 export * from "./house-service/house-services";

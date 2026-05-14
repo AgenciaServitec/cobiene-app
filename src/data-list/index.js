@@ -1,10 +1,8 @@
 export { default as phoneCodes } from "./phoneCodes.json";
+export { default as SubcategoriesAgreements } from "./subcategoriesAgreements.json";
 export * from "./limaInstitutes";
 export * from "./provinceInstitutes";
-export * from "./universities";
-export * from "./institutes";
 export * from "./pre-academies";
-export * from "./companies";
 export * from "./requerimentsJace";
 export * from "./campusCircleMilitary";
 export * from "./campusTechniciansMilitary";

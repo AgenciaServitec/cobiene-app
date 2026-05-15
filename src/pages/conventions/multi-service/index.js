@@ -25,7 +25,6 @@ export const MultiService = () => {
 
   const formattedCompanies = companies.map(formatAgreementToCard);
 
-  // 2. Obtenemos las subcategorías de la empresa (Financieras, Banco, Salud, etc.)
   const companySubcategories = SubcategoriesAgreements.company || [];
 
   return (
@@ -40,7 +39,6 @@ export const MultiService = () => {
         <SearchAgreements agreements={formattedCompanies} />
       )}
 
-      {/* 3. Renderizamos los botones dinámicamente basados en SubcategoriesAgreements */}
       {companySubcategories.map((subcategory) => (
         <Button
           key={subcategory.value}

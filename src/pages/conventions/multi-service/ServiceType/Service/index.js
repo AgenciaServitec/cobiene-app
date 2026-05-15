@@ -9,7 +9,7 @@ import { useAgreements } from "../../../../../hooks";
 import { SubcategoriesAgreements } from "../../../../../data-list";
 
 export const Service = () => {
-  const { service } = useParams(); // Obtiene el parámetro dinámico
+  const { service } = useParams();
 
   const { agreements: companies, loading } = useAgreements({ category: 'company' });
 
@@ -22,6 +22,8 @@ export const Service = () => {
   const title = currentSubcategory ? currentSubcategory.label : "Convenios";
 
   const filteredCompanies = companies.filter((comp) => comp.subcategory === service);
+
+  filteredCompanies.sort((a, b) => (a.priority || 0) - (b.priority || 0));
 
   if (loading) return <p style={{ textAlign: "center", marginTop: "2rem" }}>Cargando convenios...</p>;
 

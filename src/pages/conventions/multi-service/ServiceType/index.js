@@ -21,6 +21,8 @@ export const ServiceType = () => {
 
   const filteredServices = companies.filter((com) => com.subcategory === typeService);
 
+  filteredServices.sort((a, b) => (a.priority || 0) - (b.priority || 0));
+
   return (
     <section>
       <InitialContent title={title} />

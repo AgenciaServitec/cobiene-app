@@ -502,19 +502,19 @@ export const conventionProvincies = [
       "PERSONAL MILITAR, SERVIDORES PUBLICOS DEL EJÉRCITO Y FAMILIA MILITAR",
     ],
   },
-  {
-    province: "tumbes",
-    type: "hotel",
-    title: "HOTEL ROMA",
-    benefits: [
-      "15%",
-      "ALCANCE:",
-      "DESCUENTOS EN TODOS SUS SERVICIOS",
-      "UBICACIÓN: CALLE GRAU N° 425 PLAZA DE ARMAS DE TUMBES",
-      "REQUISITOS:",
-      "PERSONAL MILITAR EN ACTIVIDAD O RETIRO, EMPLEADOS CIVILES Y FAMILIARES DIRECTOS (PADRES DEL TITULAR, ESPOSA E HIJOS)",
-    ],
-  },
+  // {
+  //   province: "tumbes",
+  //   type: "hotel",
+  //   title: "HOTEL ROMA",
+  //   benefits: [
+  //     "15%",
+  //     "ALCANCE:",
+  //     "DESCUENTOS EN TODOS SUS SERVICIOS",
+  //     "UBICACIÓN: CALLE GRAU N° 425 PLAZA DE ARMAS DE TUMBES",
+  //     "REQUISITOS:",
+  //     "PERSONAL MILITAR EN ACTIVIDAD O RETIRO, EMPLEADOS CIVILES Y FAMILIARES DIRECTOS (PADRES DEL TITULAR, ESPOSA E HIJOS)",
+  //   ],
+  // },
   {
     province: "tumbes",
     type: "hotel",

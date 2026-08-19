@@ -68,8 +68,8 @@ export const Province = () => {
       buttons: [
         { title: "Hoteles", url: `/conventions/provinces/${provinceId}/hotel` },
         {
-          title: "Restaurantes",
-          url: `/conventions/provinces/${provinceId}/restaurant`,
+          title: "Empresas",
+          url: `/conventions/provinces/${provinceId}/company`,
         },
         { title: "Salud", url: `/conventions/provinces/${provinceId}/health` },
         {
@@ -123,7 +123,7 @@ export const Province = () => {
   ];
 
   const services = listProvinces.filter(
-    (listProvince) => listProvince.provinceId_ == provinceId
+    (listProvince) => listProvince.provinceId_ === provinceId
   );
 
   return (
@@ -146,7 +146,7 @@ export const Province = () => {
 
 const MapServices = ({ service }) => {
   const conventionService = conventionProvincies.filter(
-    (convention) => convention.province == service.provinceId_
+    (convention) => convention.province === service.provinceId_
   );
   return <CollapseWithButtons dataLists={conventionService} />;
 };

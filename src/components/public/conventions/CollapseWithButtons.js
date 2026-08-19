@@ -1,16 +1,21 @@
 import React from "react";
-import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDownload, faGlobe } from "@fortawesome/free-solid-svg-icons";
+import {
+  faDownload,
+  faEnvelope,
+  faGlobe,
+  faPhone,
+} from "@fortawesome/free-solid-svg-icons";
 import Collapse from "antd/lib/collapse";
 import { Button } from "../ui";
 import Typography from "antd/lib/typography";
 import Parser from "html-react-parser";
+import styled from "styled-components";
 
 const { Panel } = Collapse;
 const { Text } = Typography;
 
-export const CollapseWithButtons = ({ dataLists = [] }) => {
+export const CollapseWithButtons = ({ dataLists = [], isRawHtml = false }) => {
   return (
     <CollapseAntd accordion bordered={false} expandIcon={null}>
       {(dataLists || []).map((dataList, index) => (
@@ -51,28 +56,81 @@ export const CollapseWithButtons = ({ dataLists = [] }) => {
             ) : (
               <h3>{dataList.title}</h3>
             )}
+
+            {dataList.scope && (
+              <div className="item-scope">
+                <strong>Alcance: </strong>
+                {typeof dataList.scope === "string" ? (
+                  <div className="scope-content">{Parser(dataList.scope)}</div>
+                ) : (
+                  <span>{dataList.scope}</span>
+                )}
+              </div>
+            )}
+
             {dataList.alert && <h2>"{dataList.alert}"</h2>}
+
             {dataList.benefits && (
-              <div>
-                <ul className="list-benefits">
-                  {dataList.benefits.map((benefit, index) => (
-                    <li key={index}>{Parser(benefit)}</li>
-                  ))}
-                </ul>
+              <div className="benefits-container">
+                {isRawHtml ? (
+                  <div className="raw-benefits">
+                    {typeof dataList.benefits === "string"
+                      ? Parser(dataList.benefits)
+                      : Array.isArray(dataList.benefits) && dataList.benefits[0]
+                      ? Parser(dataList.benefits[0])
+                      : null}
+                  </div>
+                ) : (
+                  <ul className="list-benefits">
+                    {Array.isArray(dataList.benefits) &&
+                      dataList.benefits.map((benefit, bIndex) => (
+                        <li key={bIndex}>
+                          {typeof benefit === "string"
+                            ? Parser(benefit)
+                            : benefit}
+                        </li>
+                      ))}
+                  </ul>
+                )}
+              </div>
+            )}
+
+            {dataList.phones && dataList.phones.length > 0 && (
+              <div className="contact-section">
+                {dataList.phones.map((phone, pIndex) => (
+                  <div className="item-link" key={`phone-${pIndex}`}>
+                    <a href={`tel:${phone}`}>
+                      <FontAwesomeIcon icon={faPhone} />
+                      {phone}
+                    </a>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {dataList.emails && dataList.emails.length > 0 && (
+              <div className="contact-section">
+                {dataList.emails.map((email, eIndex) => (
+                  <div className="item-link" key={`email-${eIndex}`}>
+                    <a href={`mailto:${email}`}>
+                      <FontAwesomeIcon icon={faEnvelope} />
+                      {email}
+                    </a>
+                  </div>
+                ))}
               </div>
             )}
 
             {dataList.links &&
               dataList.links.map(
-                (link, index) =>
+                (link, lIndex) =>
                   link.url && (
-                    <div className="item-link" key={index}>
+                    <div className="item-link" key={lIndex}>
                       <a href={link.url} rel="noreferrer" target="_blank">
                         <FontAwesomeIcon
                           icon={link.icon ? link.icon : faGlobe}
-                          size="2x"
                         />
-                        {link.text ? link.text : "Visita nuestra pagina web"}
+                        {link.text ? link.text : "Visita nuestra página web"}
                       </a>
                     </div>
                   )
@@ -83,9 +141,10 @@ export const CollapseWithButtons = ({ dataLists = [] }) => {
                 <a
                   href={dataList.urlFile}
                   rel="noreferrer"
-                  download="Convenio-universidad.pdf"
+                  target="_blank"
+                  download="Convenio-solicitud.pdf"
                 >
-                  <FontAwesomeIcon icon={faDownload} size="2x" />
+                  <FontAwesomeIcon icon={faDownload} />
                   Descargar Ficha de Solicitud
                 </a>
               </div>
@@ -209,7 +268,7 @@ const QrContainer = styled.div`
   img {
     width: 180px;
     height: 180px;
-    background-color: white; 
+    background-color: white;
     padding: 10px;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
